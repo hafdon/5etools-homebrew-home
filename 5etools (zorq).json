@@ -4017,6 +4017,103 @@
 			],
 			"monster": [
 				{
+					"name": "Swarm of Herg Worms",
+					"size": "M",
+					"type": {
+						"type": "beast",
+						"swarmSize": "T"
+					},
+					"source": "Zorq",
+					"alignment": [
+						"U"
+					],
+					"ac": [
+						8
+					],
+					"hp": {
+						"average": 22,
+						"formula": "5d8"
+					},
+					"speed": {
+						"walk": 5,
+						"climb": 5
+					},
+					"str": 2,
+					"dex": 7,
+					"con": 10,
+					"int": 1,
+					"wis": 2,
+					"cha": 1,
+					"resist": [
+						"piercing",
+						"slashing"
+					],
+					"conditionImmune": [
+						"charmed",
+						"frightened",
+						"grappled",
+						"paralyzed",
+						"petrified",
+						"prone",
+						"restrained"
+					],
+					"senses": [
+						"blindsight 10 ft."
+					],
+					"passive": 6,
+					"cr": "1/2",
+					"trait": [
+						{
+							"name": "Swarm",
+							"entries": [
+								"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny maggot. The swarm can't regain hit points or gain temporary hit points."
+							]
+						},
+						{
+							"name": "Silver-blooded",
+							"entries": [
+								"Herg worms are finger-sized earthworms underneath whose skin are visible thin veins of silver. If at least 10 herg worms are crushed and used to make a paste, that paste can be applied to a weapon to render it silvered for 1 minute. Crushing the worms and applying the paste in this way takes 1 action. The paste loses its efficacy at the end of the minute."
+							]
+						}
+					],
+					"action": [
+						{
+							"name": "Bites",
+							"entries": [
+								"{@atk mw} {@hit 0} to hit, reach 0 ft., one creature in the swarm's space. {@h}The target is infested by {@dice 1d4} herg worms. At the start of each of the target's turns, the target takes {@dice 1d6} piercing damage per rot grub infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these herg worms. After this time, these herg worms are too far under the skin to be burned. If a target infested by herg worms ends its turn with 0 hit points, it dies as the herg worms burrow into its heart and kill it. Any effect that cures disease kills all herg worms infesting the target."
+							]
+						}
+					],
+					
+					"environment": [
+						"swamp",
+						"underdark"
+					],
+				
+					"senseTags": [
+						"B"
+					],
+					"miscTags": [
+						"MW"
+					],
+					"damageTags": [
+						"F"
+					],
+					"fluff": {
+						"name": "Swarm of Herg Worms",
+						"source": "zorq",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Herg worms are finger-sized maggots that eat living or dead flesh, although they can survive on plant matter. They infest corpses and piles of decaying matter and attack living creatures that disturb them. After burrowing into the flesh of a living creature, a rot grub instinctively chews its way toward the heart in order to kill its host.",
+									"Herg worms pose a threat both singly and as a swarm. See the accompanying stat block for the mechanics of a swarm of herg worms. A single rot grub has no stat block. Any creature that comes into contact with it must make a DC 10 Dexterity saving throw. On a failed save, the rot grub burrows into the creature's flesh and deals 3 (1d6) piercing damage at the start of each of the host creature's turns. Applying fire to the wound before the end of the host creature's next turn deals 1 fire damage to the host and kills the infesting rot grub. After this time, the rot grub is too far under the host creature's skin to be burned. If a creature infested by one or more herg worms ends its turn with 0 hit points, it dies as the grubs burrow into its heart and kill it. Any effect that cures disease kills all herg worms infesting the target. Burning a body kills any herg worms infesting it"
+								]
+							}
+						]
+					}
+				},
+				{
 					"name": "Orc",
 					"size": "M",
 					"type": {
