@@ -91490,7 +91490,15 @@
 				}
 			],
 			"background": [],
-			"feat": [],
+			"feat": [
+				{
+					"name": "Call to the Wave",
+					"entries": [
+						"You know the {@spell shape water|xge} cantrip. When you reach 3rd level, you can cast the {@spell create or destroy water} spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				}
+			],
 			"optionalfeature": [
 				{
 					"name": "Ethereal Jaunt",
