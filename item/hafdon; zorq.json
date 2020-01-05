@@ -1,0 +1,20 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "zorq",
+				"abbreviation": "zorq",
+				"full": "zorq",
+				"authors": [
+					"hafdon"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1578263517
+	},
+	"item": [
+    ]
+}
