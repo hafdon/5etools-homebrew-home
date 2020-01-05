@@ -18,7 +18,7 @@
 	"item": [
 		{
 			"name": "Thunder Blanket",
-			"type": "WI",
+			"wondrous" : true,
 			"tier": "Minor",
 			"rarity": "Uncommon",
 			"source": "zorq",
