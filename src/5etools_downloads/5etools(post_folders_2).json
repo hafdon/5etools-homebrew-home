@@ -71434,7 +71434,10 @@
                             "type": "table",
                             "colLabels": ["Number of options", "CR Increase"],
                             "colStyles": ["col-2", "col-2"],
-                            "rows": [["1-2", "+1"], ["3+", "+2"]]
+                            "rows": [
+                                ["1-2", "+1"],
+                                ["3+", "+2"]
+                            ]
                         },
                         {
                             "name": "Entropy",
