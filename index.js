@@ -1,14 +1,16 @@
 const fs = require('fs-extra');
 const { version } = fs.readJSONSync(`./package.json`);
-const { _meta } = fs.readJSONSync(`./_meta/_meta.json`);
+const { _meta } = fs.readJSONSync(`./src/_meta/_meta.json`);
 
 console.log({ version });
 
 console.log({ _meta });
 _meta.sources[0].version = version;
-_meta.dateUpdated = Date.now();
 
-fs.writeJSONSync(`./_meta/_meta.json`, { _meta });
+// they don't need miliseconds
+_meta.dateUpdated = (Date.now() / 1000).toFixed(0);
+
+fs.writeJSONSync(`./src/_meta/_meta.json`, { _meta });
 
 console.log('starting');
 
@@ -22,7 +24,7 @@ const homebrew = {
 
 Object.entries(homebrew).forEach(([folder, prop]) => {
     try {
-        const dir = `./${folder}`;
+        const dir = `./src/${folder}`;
         const a = fs.readdirSync(dir);
 
         const elements = a
