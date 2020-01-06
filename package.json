@@ -1,0 +1,27 @@
+{
+  "name": "zorq",
+  "version": "1.0.0",
+  "description": "Homebrew source for 5e.tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafdon/5etools-homebrew-home.git"
+  },
+  "keywords": [
+    "dnd",
+    "5e",
+    "json",
+    "homebrew",
+    "giddylimit",
+    "5e.tools"
+  ],
+  "author": "Zachary Alec Weisser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hafdon/5etools-homebrew-home/issues"
+  },
+  "homepage": "https://github.com/hafdon/5etools-homebrew-home#readme"
+}
