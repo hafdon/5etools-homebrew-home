@@ -19,14 +19,14 @@ Object.entries(homebrew).forEach(([folder, prop]) => {
 
         const elements = a
             .filter(
-                e => !['hafdon; zorq.json'].includes(e) && !e.startsWith('_') // these are arrays
+                e => !['hafdon_zorq.json'].includes(e) && !e.startsWith('_') // these are arrays
             )
             .reduce((prev, e) => {
                 prev.push(fs.readJSONSync(`${dir}/${e}`));
                 return prev;
             }, []);
 
-        fs.writeJSONSync(`${dir}/hafdon; zorq.json`, {
+        fs.writeJSONSync(`${dir}/hafdon_zorq.json`, {
             [prop]: elements,
             _meta,
         });

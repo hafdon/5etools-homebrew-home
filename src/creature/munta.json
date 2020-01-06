@@ -109,11 +109,6 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/MM/Minotaur.png?v=1.94.4",
-    "_pTypes": {
-        "type": "monstrosity",
-        "tags": [],
-        "asText": "monstrosity"
-    },
-    "_pCr": "3",
+
     "uniqueId": "ebcccff9730092ab78caf5d074895062"
 }

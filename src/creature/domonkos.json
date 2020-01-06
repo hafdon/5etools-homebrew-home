@@ -200,16 +200,10 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/MM/Vampire.png?v=1.94.2",
-    "_isScaledCr": 8,
-    "_originalCr": "13",
+
     "isNpc": true,
     "isNamedCreature": true,
     "languageTags": ["C", "U"],
-    "_pTypes": {
-        "type": "undead",
-        "tags": ["shapechanger"],
-        "asText": "undead (shapechanger)"
-    },
-    "_pCr": "7",
+
     "uniqueId": "f88bb71bb766e2d6c46e3f57b0fd3a8e"
 }

@@ -135,11 +135,6 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/VGM/Warlock of the Archfey.png?v=1.94.2",
-    "_pTypes": {
-        "type": "humanoid",
-        "tags": ["any race"],
-        "asText": "humanoid (any race)"
-    },
-    "_pCr": "4",
+
     "uniqueId": "d612991c75b1c2260b2484b01a7ba045"
 }

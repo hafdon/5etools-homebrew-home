@@ -129,13 +129,6 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.2",
-    "_isScaledCr": 3,
-    "_originalCr": "1/2",
-    "_pTypes": {
-        "type": "humanoid",
-        "tags": ["gnome"],
-        "asText": "humanoid (gnome)"
-    },
-    "_pCr": "3",
+
     "uniqueId": "a65b6c4a6aa2c7113f1c639643b58ac6"
 }

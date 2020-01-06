@@ -94,9 +94,7 @@
     "languageTags": ["C"],
     "damageTags": ["P"],
     "miscTags": ["MW", "RW", "RNG", "THW"],
-    "_maxDprDex": 11,
-    "_isScaledCr": 2,
-    "_originalCr": "1",
+
     "shortName": "Penny",
     "save": {
         "int": "+4"
@@ -108,11 +106,6 @@
         ]
     },
     "isNpc": true,
-    "_pTypes": {
-        "type": "humanoid",
-        "tags": ["ratfolk", "she, her"],
-        "asText": "humanoid (ratfolk, she, her)"
-    },
-    "_pCr": "2",
+
     "uniqueId": "04270e342ada9b93caa75a0a5bbf9015"
 }

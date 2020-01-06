@@ -86,13 +86,6 @@
     "senseTags": ["B"],
     "damageTags": ["B"],
     "miscTags": ["MW"],
-    "_isScaledCr": 3,
-    "_originalCr": "4",
-    "_pTypes": {
-        "type": "celestial",
-        "tags": ["ooze"],
-        "asText": "celestial (ooze)"
-    },
-    "_pCr": "3",
+
     "uniqueId": "bb43ed8a8330501d9ded14dc5916a72d"
 }

@@ -276,11 +276,6 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/MM/Green Hag.png?v=1.94.4",
-    "_pTypes": {
-        "type": "fey",
-        "tags": [],
-        "asText": "fey"
-    },
-    "_pCr": "3",
+
     "uniqueId": "9fa63b2f488c268c1ac1134cb5cf668b"
 }

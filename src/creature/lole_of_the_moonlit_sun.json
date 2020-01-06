@@ -119,11 +119,6 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/GGR/Battleforce Angel.png?v=1.94.4",
-    "_pTypes": {
-        "type": "celestial",
-        "tags": ["angel"],
-        "asText": "celestial (angel)"
-    },
-    "_pCr": "5",
+
     "uniqueId": "2bb6900e5d9cf0277b1682be4372985e"
 }

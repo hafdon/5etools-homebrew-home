@@ -9,7 +9,7 @@ try {
     _meta.sources[0].version = version;
 
     // they don't need miliseconds
-    _meta.dateUpdated = (Date.now() / 1000).toFixed(0);
+    _meta.dateUpdated = +(Date.now() / 1000).toFixed(0);
 
     fs.writeJSONSync(`./src/_meta/_meta.json`, { _meta });
 } catch (e) {

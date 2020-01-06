@@ -118,11 +118,6 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/VGM/Girallon.png?v=1.94.4",
-    "_pTypes": {
-        "type": "monstrosity",
-        "tags": ["Girallon", "she, her"],
-        "asText": "monstrosity (Girallon, she, her)"
-    },
-    "_pCr": "4",
+
     "uniqueId": "6c05e0a6375d197b195aec2b0c723f4a"
 }

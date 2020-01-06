@@ -109,16 +109,10 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/VGM/Deep Scion.png?v=1.94.2",
-    "_isScaledCr": 4,
-    "_originalCr": "3",
+
     "traitTags": ["Amphibious"],
     "isNpc": true,
     "isNamedCreature": true,
-    "_pTypes": {
-        "type": "humanoid",
-        "tags": [],
-        "asText": "humanoid"
-    },
-    "_pCr": "4",
+
     "uniqueId": "a11fe2efc1603b7b2903117755e268db"
 }
