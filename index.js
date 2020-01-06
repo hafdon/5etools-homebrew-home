@@ -20,6 +20,7 @@ const homebrew = {
     item: 'item',
     creature: 'monster',
     spell: 'spell',
+    deity: 'deity',
 };
 
 Object.entries(homebrew).forEach(([folder, prop]) => {

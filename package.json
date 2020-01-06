@@ -4,8 +4,12 @@
     "description": "Homebrew source for 5e.tools",
     "main": "index.js",
     "scripts": {
-        "build": "/bin/bash start.sh && node index.js"
+        "build": "/bin/bash start.sh && node index.js",
+        "format": "prettier --write \"./src/**/*.json\""
     },
+    "pre-commit": [
+        "format"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/hafdon/5etools-homebrew-home.git"
@@ -39,5 +43,9 @@
     "dependencies": {
         "fs-extra": "^8.1.0",
         "jshint": "^2.11.0-rc1"
+    },
+    "devDependencies": {
+        "pre-commit": "^1.2.2",
+        "prettier": "1.19.1"
     }
 }

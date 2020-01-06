@@ -1,18 +1,13 @@
-{
+({
     "name": "Vee'gn'och",
     "size": "M",
     "type": "undead",
     "source": "zw",
-    "alignment": [
-        "C",
-        "E"
-    ],
+    "alignment": ["C", "E"],
     "ac": [
         {
             "ac": 15,
-            "from": [
-                "natural armor"
-            ]
+            "from": ["natural armor"]
         }
     ],
     "hp": {
@@ -39,28 +34,12 @@
         "perception": "+2",
         "stealth": "+8"
     },
-    "resist": [
-        "bludgeoning",
-        "piercing",
-        "slashing"
-    ],
-    "immune": [
-        "necrotic",
-        "poison"
-    ],
-    "conditionImmune": [
-        "exhaustion",
-        "poisoned"
-    ],
-    "senses": [
-        "darkvision 120 ft."
-    ],
+    "resist": ["bludgeoning", "piercing", "slashing"],
+    "immune": ["necrotic", "poison"],
+    "conditionImmune": ["exhaustion", "poisoned"],
+    "senses": ["darkvision 120 ft."],
     "passive": 12,
-    "languages": [
-        "Common",
-        "Gnoll",
-        "Undercommon"
-    ],
+    "languages": ["Common", "Gnoll", "Undercommon"],
     "cr": "4",
     "trait": [
         {
@@ -115,53 +94,28 @@
             "headerEntries": [
                 "The bone collective's innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
             ],
-            "will": [
-                "{@spell chill touch}",
-                "{@spell toll the dead|XGE}"
-            ],
+            "will": ["{@spell chill touch}", "{@spell toll the dead|XGE}"],
             "daily": {
-                "1": [
-                    "{@spell animate dead} (up to 5 skeletons or zombies)"
-                ]
+                "1": ["{@spell animate dead} (up to 5 skeletons or zombies)"]
             },
             "ability": "cha",
             "type": "spellcasting"
         }
     ],
     "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Bone%20Collective.png",
-    "actionTags": [
-        "Multiattack"
-    ],
-    "senseTags": [
-        "SD"
-    ],
-    "languageTags": [
-        "C",
-        "OTH",
-        "U"
-    ],
-    "damageTags": [
-        "P",
-        "S"
-    ],
-    "miscTags": [
-        "MW"
-    ],
-    "spellcastingTags": [
-        "I"
-    ],
+    "actionTags": ["Multiattack"],
+    "senseTags": ["SD"],
+    "languageTags": ["C", "OTH", "U"],
+    "damageTags": ["P", "S"],
+    "miscTags": ["MW"],
+    "spellcastingTags": ["I"],
     "_isScaledCr": 4,
     "_originalCr": "8",
     "shortName": "Veenock",
     "isNamedCreature": true,
     "isNpc": true,
-    "traitTags": [
-        "Rampage"
-    ],
-    "vulnerable": [
-        "psychic",
-        "radiant"
-    ],
+    "traitTags": ["Rampage"],
+    "vulnerable": ["psychic", "radiant"],
     "_pTypes": {
         "type": "undead",
         "tags": [],
@@ -175,21 +129,14 @@
     "size": "M",
     "type": {
         "type": "undead",
-        "tags": [
-            "shapechanger"
-        ]
+        "tags": ["shapechanger"]
     },
     "source": "zw",
-    "alignment": [
-        "L",
-        "E"
-    ],
+    "alignment": ["L", "E"],
     "ac": [
         {
             "ac": 14,
-            "from": [
-                "natural armor"
-            ]
+            "from": ["natural armor"]
         }
     ],
     "hp": {
@@ -217,22 +164,13 @@
     "resist": [
         "necrotic",
         {
-            "resist": [
-                "bludgeoning",
-                "piercing",
-                "slashing"
-            ],
+            "resist": ["bludgeoning", "piercing", "slashing"],
             "note": "from nonmagical attacks"
         }
     ],
-    "senses": [
-        "darkvision 120 ft."
-    ],
+    "senses": ["darkvision 120 ft."],
     "passive": 15,
-    "languages": [
-        "Common",
-        "Undercommon"
-    ],
+    "languages": ["Common", "Undercommon"],
     "cr": "7",
     "trait": [
         {
@@ -311,26 +249,12 @@
         "source": "MM"
     },
     "page": 297,
-    "environment": [
-        "urban"
-    ],
+    "environment": ["urban"],
     "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/507/vampire.mp3",
-    "traitTags": [
-        "Shapechanger",
-        "Regeneration",
-        "Spider Climb"
-    ],
-    "senseTags": [
-        "SD"
-    ],
-    "damageTags": [
-        "B",
-        "P",
-        "N"
-    ],
-    "miscTags": [
-        "MW"
-    ],
+    "traitTags": ["Shapechanger", "Regeneration", "Spider Climb"],
+    "senseTags": ["SD"],
+    "damageTags": ["B", "P", "N"],
+    "miscTags": ["MW"],
     "srd": true,
     "fluff": {
         "name": "Vampire",
@@ -406,15 +330,10 @@
     "_originalCr": "13",
     "isNpc": true,
     "isNamedCreature": true,
-    "languageTags": [
-        "C",
-        "U"
-    ],
+    "languageTags": ["C", "U"],
     "_pTypes": {
         "type": "undead",
-        "tags": [
-            "shapechanger"
-        ],
+        "tags": ["shapechanger"],
         "asText": "undead (shapechanger)"
     },
     "_pCr": "7",
@@ -425,15 +344,11 @@
     "size": "T",
     "type": "ooze",
     "source": "zw",
-    "alignment": [
-        "U"
-    ],
+    "alignment": ["U"],
     "ac": [
         {
             "ac": 13,
-            "from": [
-                "natural armor"
-            ]
+            "from": ["natural armor"]
         }
     ],
     "hp": {
@@ -453,9 +368,7 @@
     "skill": {
         "deception": "+5"
     },
-    "senses": [
-        "blindsight 60 ft."
-    ],
+    "senses": ["blindsight 60 ft."],
     "passive": 10,
     "cr": "1/4",
     "trait": [
@@ -488,15 +401,9 @@
     ],
     "page": 387,
     "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Treacle.png",
-    "traitTags": [
-        "Amorphous"
-    ],
-    "senseTags": [
-        "B"
-    ],
-    "damageTags": [
-        "N"
-    ],
+    "traitTags": ["Amorphous"],
+    "senseTags": ["B"],
+    "damageTags": ["N"],
     "shortName": "Stump",
     "isNpc": true,
     "_pTypes": {
@@ -506,4 +413,4 @@
     },
     "_pCr": "1/4",
     "uniqueId": "76720f3bb662e0e05edf42cf1141c71e"
-},
+})
