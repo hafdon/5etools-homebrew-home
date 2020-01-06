@@ -1,4 +1,8 @@
 const fs = require('fs-extra');
+const { version } = require('./package.json');
+// const { _meta } = fs.readJSONSync(`./_meta/_meta.json`);
+const { _meta } = require('./_meta/_meta.json');
+_meta.sources.version = version;
 
 console.log('starting');
 
@@ -9,8 +13,6 @@ const homebrew = {
     creature: 'monster',
     spell: 'spell',
 };
-
-const { _meta } = fs.readJSONSync(`./_meta/_meta.json`);
 
 Object.entries(homebrew).forEach(([folder, prop]) => {
     try {
