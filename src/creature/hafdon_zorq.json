@@ -268,8 +268,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MM/Green Hag.png?v=1.94.4",
-            "_pTypes": { "type": "fey", "tags": [], "asText": "fey" },
-            "_pCr": "3",
             "uniqueId": "8db81203a60ac55116d41bd1606532ce"
         },
         {
@@ -380,10 +378,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MM/Salamander.png?v=1.94.4",
-            "_maxDprStr": 3,
-            "_maxDprDex": 1,
-            "_isScaledCr": 0.5,
-            "_originalCr": "5",
             "skill": { "athletics": "+7" },
             "spellcasting": [
                 {
@@ -392,8 +386,6 @@
                     "type": "spellcasting"
                 }
             ],
-            "_pTypes": { "type": "beast", "tags": [], "asText": "beast" },
-            "_pCr": "1/2",
             "uniqueId": "2177390a626c25fafe616241672abfeb"
         },
         {
@@ -466,7 +458,6 @@
                 }
             ],
             "senses": ["darkvision 60 ft."],
-            "_isCopy": true,
             "tokenUrl": "https://5e.tools/img/SKT/Shield Dwarf Guard.png?v=1.94.4",
             "level": 4,
             "save": { "wis": "+7", "cha": "+3" },
@@ -529,12 +520,6 @@
                 ]
             },
             "shortName": "Carlos",
-            "_pTypes": {
-                "type": "humanoid",
-                "tags": ["he, him"],
-                "asText": "humanoid (he, him)"
-            },
-            "_pCr": null,
             "uniqueId": "aa0a122ad799d7e6b4a7f180bfdd1be0"
         },
         {
@@ -722,13 +707,9 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/VGM/Deep Scion.png?v=1.94.2",
-            "_isScaledCr": 4,
-            "_originalCr": "3",
             "traitTags": ["Amphibious"],
             "isNpc": true,
             "isNamedCreature": true,
-            "_pTypes": { "type": "humanoid", "tags": [], "asText": "humanoid" },
-            "_pCr": "4",
             "uniqueId": "a11fe2efc1603b7b2903117755e268db"
         },
         {
@@ -910,17 +891,9 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MM/Vampire.png?v=1.94.2",
-            "_isScaledCr": 8,
-            "_originalCr": "13",
             "isNpc": true,
             "isNamedCreature": true,
             "languageTags": ["C", "U"],
-            "_pTypes": {
-                "type": "undead",
-                "tags": ["shapechanger"],
-                "asText": "undead (shapechanger)"
-            },
-            "_pCr": "7",
             "uniqueId": "f88bb71bb766e2d6c46e3f57b0fd3a8e"
         },
         {
@@ -1102,16 +1075,8 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MM/Vampire.png?v=1.94.2",
-            "_isScaledCr": 8,
-            "_originalCr": "13",
             "isNpc": true,
             "isNamedCreature": true,
-            "_pTypes": {
-                "type": "undead",
-                "tags": ["shapechanger"],
-                "asText": "undead (shapechanger)"
-            },
-            "_pCr": "8",
             "uniqueId": "16036902c8817ef00f80b6b6977051d2"
         },
         {
@@ -1184,18 +1149,10 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MM/Homunculus.png?v=1.94.4",
-            "_isScaledCr": 0.25,
-            "_originalCr": "0",
             "skill": { "acrobatics": "+4", "athletics": "+0", "stealth": "+6" },
             "isNpc": true,
             "familiar": true,
             "isNamedCreature": true,
-            "_pTypes": {
-                "type": "construct",
-                "tags": [],
-                "asText": "construct"
-            },
-            "_pCr": "1/4",
             "uniqueId": "1b2244436bfe7c27b53d053558557acb"
         },
         {
@@ -1334,14 +1291,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MTF/Gray Render.png?v=1.94.2",
-            "_isScaledCr": 3,
-            "_originalCr": "12",
-            "_pTypes": {
-                "type": "monstrosity",
-                "tags": [],
-                "asText": "monstrosity"
-            },
-            "_pCr": "3",
             "uniqueId": "995a76721f9bd2cf10771e5bdc90f8c7"
         },
         {
@@ -1414,11 +1363,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/ToA/Almiraj.png?v=1.94.4",
-            "_maxDprDex": 3,
-            "_isScaledCr": 0.125,
-            "_originalCr": "0",
-            "_pTypes": { "type": "beast", "tags": [], "asText": "beast" },
-            "_pCr": "1/8",
             "uniqueId": "d1fd97a7d905c398218ef804de4a0553"
         },
         {
@@ -1539,14 +1483,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.4",
-            "_isScaledCr": 1,
-            "_originalCr": "1/2",
-            "_pTypes": {
-                "type": "humanoid",
-                "tags": ["gnome"],
-                "asText": "humanoid (gnome)"
-            },
-            "_pCr": "1",
             "uniqueId": "fe7e395c15f3e66652663737f3919084"
         },
         {
@@ -1657,12 +1593,6 @@
                     "type": "spellcasting"
                 }
             ],
-            "_pTypes": {
-                "type": "humanoid",
-                "tags": ["lizardfolk"],
-                "asText": "humanoid (lizardfolk)"
-            },
-            "_pCr": "1",
             "uniqueId": "57ef4380bb63592acea899280f02a9d9"
         },
         {
@@ -1773,12 +1703,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/VGM/Girallon.png?v=1.94.4",
-            "_pTypes": {
-                "type": "monstrosity",
-                "tags": ["Girallon", "she, her"],
-                "asText": "monstrosity (Girallon, she, her)"
-            },
-            "_pCr": "4",
             "uniqueId": "6c05e0a6375d197b195aec2b0c723f4a"
         },
         {
@@ -1973,12 +1897,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/VGM/Warlock of the Archfey.png?v=1.94.2",
-            "_pTypes": {
-                "type": "humanoid",
-                "tags": ["any race"],
-                "asText": "humanoid (any race)"
-            },
-            "_pCr": "4",
             "uniqueId": "d612991c75b1c2260b2484b01a7ba045"
         },
         {
@@ -2082,12 +2000,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/GGR/Battleforce Angel.png?v=1.94.4",
-            "_pTypes": {
-                "type": "celestial",
-                "tags": ["angel"],
-                "asText": "celestial (angel)"
-            },
-            "_pCr": "5",
             "uniqueId": "2bb6900e5d9cf0277b1682be4372985e"
         },
         {
@@ -2189,12 +2101,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MM/Minotaur.png?v=1.94.4",
-            "_pTypes": {
-                "type": "monstrosity",
-                "tags": [],
-                "asText": "monstrosity"
-            },
-            "_pCr": "3",
             "uniqueId": "ebcccff9730092ab78caf5d074895062"
         },
         {
@@ -2334,12 +2240,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MM/Salamander.png?v=1.94.4",
-            "_pTypes": {
-                "type": "monstrosity",
-                "tags": ["he, his", "giant salamander"],
-                "asText": "monstrosity (he, his, giant salamander)"
-            },
-            "_pCr": "5",
             "uniqueId": "8ae35824e47c3c68a7ad378c3d2b4d18"
         },
         {
@@ -2515,8 +2415,6 @@
             },
             "tokenUrl": "https://5e.tools/img/MM/Blue Dragon Wyrmling.png?v=1.94.2",
             "isNamedCreature": true,
-            "_pTypes": { "type": "dragon", "tags": [], "asText": "dragon" },
-            "_pCr": "3",
             "uniqueId": "21bbe7620f5547a8fe4706cc0f2bb682"
         },
         {
@@ -2637,12 +2535,6 @@
             "spellcastingTags": ["I"],
             "isNamedCreature": true,
             "isNpc": true,
-            "_pTypes": {
-                "type": "fiend",
-                "tags": ["devil"],
-                "asText": "fiend (devil)"
-            },
-            "_pCr": "2",
             "uniqueId": "31b1eeb958d90a87ece30f9b446d39d1"
         },
         {
@@ -2726,9 +2618,6 @@
             "languageTags": ["C"],
             "damageTags": ["P"],
             "miscTags": ["MW", "RW", "RNG", "THW"],
-            "_maxDprDex": 11,
-            "_isScaledCr": 2,
-            "_originalCr": "1",
             "shortName": "Penny",
             "save": { "int": "+4" },
             "isNamedCreature": true,
@@ -2738,12 +2627,6 @@
                 ]
             },
             "isNpc": true,
-            "_pTypes": {
-                "type": "humanoid",
-                "tags": ["ratfolk", "she, her"],
-                "asText": "humanoid (ratfolk, she, her)"
-            },
-            "_pCr": "2",
             "uniqueId": "04270e342ada9b93caa75a0a5bbf9015"
         },
         {
@@ -2864,14 +2747,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.2",
-            "_isScaledCr": 3,
-            "_originalCr": "1/2",
-            "_pTypes": {
-                "type": "humanoid",
-                "tags": ["gnome"],
-                "asText": "humanoid (gnome)"
-            },
-            "_pCr": "3",
             "uniqueId": "a65b6c4a6aa2c7113f1c639643b58ac6"
         },
         {
@@ -2992,14 +2867,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.4",
-            "_isScaledCr": 1,
-            "_originalCr": "1/2",
-            "_pTypes": {
-                "type": "humanoid",
-                "tags": ["gnome"],
-                "asText": "humanoid (gnome)"
-            },
-            "_pCr": "1",
             "uniqueId": "e644f286d087bead77f6d5584c63f54e"
         },
         {
@@ -3046,13 +2913,7 @@
                     ]
                 }
             ],
-            "_isCopy": true,
             "tokenUrl": "https://5e.tools/img/SKT/Shield Dwarf Guard.png?v=1.94.4",
-            "_maxDprStr": 30,
-            "_shieldRequired": true,
-            "_shieldDropped": false,
-            "_isScaledCr": 1,
-            "_originalCr": "1/8",
             "fluff": {
                 "entries": [
                     "dwarf of the Bloodforge clan",
@@ -3075,12 +2936,6 @@
                 ]
             },
             "isNpc": true,
-            "_pTypes": {
-                "type": "humanoid",
-                "tags": ["dwarf"],
-                "asText": "humanoid (dwarf)"
-            },
-            "_pCr": "1",
             "uniqueId": "444df9ccab3344269cfeb141027f48a8"
         },
         {
@@ -3182,12 +3037,6 @@
             "tokenUrl": "https://5e.tools/img/ToA/Albino Dwarf Spirit Warrior.png?v=1.94.4",
             "save": { "str": "+6", "con": "+5" },
             "isNpc": true,
-            "_pTypes": {
-                "type": "humanoid",
-                "tags": ["dwarf"],
-                "asText": "humanoid (dwarf)"
-            },
-            "_pCr": "1",
             "uniqueId": "87a5524b2a74929f60830df3f35a6513"
         },
         {
@@ -3244,8 +3093,6 @@
             "damageTags": ["N"],
             "shortName": "Stump",
             "isNpc": true,
-            "_pTypes": { "type": "ooze", "tags": [], "asText": "ooze" },
-            "_pCr": "1/4",
             "uniqueId": "76720f3bb662e0e05edf42cf1141c71e"
         },
         {
@@ -3369,14 +3216,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/GoS/Monstrous Peryton.png?v=1.94.4",
-            "_isScaledCr": 5,
-            "_originalCr": "11",
-            "_pTypes": {
-                "type": "monstrosity",
-                "tags": ["Monstrous Peryton"],
-                "asText": "monstrosity (Monstrous Peryton)"
-            },
-            "_pCr": "5",
             "uniqueId": "daa541db498299f58719eee9342798a8"
         },
         {
@@ -3825,8 +3664,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MM/Green Hag.png?v=1.94.4",
-            "_pTypes": { "type": "fey", "tags": [], "asText": "fey" },
-            "_pCr": "3",
             "uniqueId": "9fa63b2f488c268c1ac1134cb5cf668b"
         },
         {
@@ -3947,14 +3784,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.4",
-            "_isScaledCr": 1,
-            "_originalCr": "1/2",
-            "_pTypes": {
-                "type": "humanoid",
-                "tags": ["gnome"],
-                "asText": "humanoid (gnome)"
-            },
-            "_pCr": "1",
             "uniqueId": "28f77419a7e05ba670db7a18c3cac321"
         },
         {
@@ -4084,8 +3913,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/VGM/Bodak.png?v=1.94.4",
-            "_pTypes": { "type": "undead", "tags": [], "asText": "undead" },
-            "_pCr": "6",
             "uniqueId": "4f89166d7489d1ef2da92638f5a36028"
         },
         {
@@ -4218,12 +4045,6 @@
             },
             "tokenUrl": "https://5e.tools/img/MM/Lizardfolk.png?v=1.94.4",
             "shortName": "Yuruk the page",
-            "_pTypes": {
-                "type": "humanoid",
-                "tags": ["lizardfolk", "Contumax"],
-                "asText": "humanoid (lizardfolk, Contumax)"
-            },
-            "_pCr": "1/2",
             "uniqueId": "2d9e805545435714a650ad406f28e5dd"
         },
         {
@@ -4300,14 +4121,6 @@
             "senseTags": ["B"],
             "damageTags": ["B"],
             "miscTags": ["MW"],
-            "_isScaledCr": 3,
-            "_originalCr": "4",
-            "_pTypes": {
-                "type": "celestial",
-                "tags": ["ooze"],
-                "asText": "celestial (ooze)"
-            },
-            "_pCr": "3",
             "uniqueId": "bb43ed8a8330501d9ded14dc5916a72d"
         }
     ],
@@ -4318,12 +4131,12 @@
                 "abbreviation": "zorq",
                 "full": "zorq",
                 "authors": ["hafdon"],
-                "version": "1.1.0",
+                "version": "1.1.1",
                 "url": "https://github.com/hafdon/5etools-homebrew-home/blob/works/item/hafdon%3B%20zorq.json",
                 "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": "1578323224"
+        "dateUpdated": 1578325254
     }
 }

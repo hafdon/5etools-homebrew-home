@@ -7,7 +7,7 @@
         "build": "/bin/bash start.sh && node index.js && npm run format",
         "format": "prettier --write \"./src/**/*.json\"",
         "version": "node ./npm_scripts/version/update_meta_version.js && npm run build",
-        "postversion": "git push && git push --tags && /bin/bash move_files_to_giddy_repo.sh"
+        "postversion": "git push && git push --tags && /bin/bash ./npm_scripts/postversion/move_files_to_giddy_repo.sh"
     },
     "precommit": [],
     "repository": {

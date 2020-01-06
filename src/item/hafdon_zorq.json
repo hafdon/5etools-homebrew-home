@@ -46,13 +46,7 @@
                 }
             ],
             "attachedSpells": ["animal friendship"],
-            "recharge": "dawn",
-            "_isEnhanced": true,
-            "_category": "Other",
-            "_typeListText": ["Wondrous Item"],
-            "_typeHtml": "Wondrous Item",
-            "_attunement": null,
-            "_attunementCategory": "No"
+            "recharge": "dawn"
         },
         {
             "name": "Thunder Blanket",
@@ -76,12 +70,12 @@
                 "abbreviation": "zorq",
                 "full": "zorq",
                 "authors": ["hafdon"],
-                "version": "1.1.0",
+                "version": "1.1.1",
                 "url": "https://github.com/hafdon/5etools-homebrew-home/blob/works/item/hafdon%3B%20zorq.json",
                 "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": "1578323224"
+        "dateUpdated": 1578325254
     }
 }
