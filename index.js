@@ -26,7 +26,7 @@ Object.entries(homebrew).forEach(([folder, prop]) => {
         const a = fs.readdirSync(dir);
 
         const elements = a
-            .filter(e => !['hafdon; zorq.json'].includes(e))
+            .filter(e => !['hafdon; zorq.json', '_.json'].includes(e))
             .reduce((prev, e) => {
                 prev.push(fs.readJSONSync(`${dir}/${e}`));
                 return prev;

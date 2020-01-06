@@ -2,7 +2,7 @@
     "name": "Ygatin",
     "size": "M",
     "type": "undead",
-    "source": "Zorq",
+    "source": "zorq",
     "alignment": ["C", "E"],
     "ac": [
         {

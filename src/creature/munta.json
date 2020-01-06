@@ -2,7 +2,7 @@
     "name": "Munta",
     "size": "L",
     "type": "monstrosity",
-    "source": "Zorq",
+    "source": "zorq",
     "alignment": ["C", "E"],
     "ac": [
         {

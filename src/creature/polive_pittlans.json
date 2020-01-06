@@ -1,11 +1,11 @@
 {
-    "name": "Foldorf",
+    "name": "Polive Pittlans",
     "size": "S",
     "type": {
         "type": "humanoid",
         "tags": ["gnome"]
     },
-    "source": "Zorq",
+    "source": "zorq",
     "alignment": ["N", "G"],
     "ac": [
         {
@@ -14,27 +14,27 @@
         }
     ],
     "hp": {
-        "average": 16,
-        "formula": "3d6 + 6"
+        "average": 26,
+        "formula": "4d6 + 12"
     },
     "speed": {
         "walk": 20
     },
-    "str": 15,
-    "dex": 14,
-    "con": 14,
+    "str": 17,
+    "dex": 16,
+    "con": 16,
     "int": 12,
     "wis": 10,
     "cha": 9,
     "skill": {
         "investigation": "+3",
         "perception": "+2",
-        "stealth": "+4"
+        "stealth": "+5"
     },
     "senses": ["darkvision 120 ft."],
     "passive": 12,
     "languages": ["Gnomish", "Terran", "Undercommon"],
-    "cr": "1",
+    "cr": "3",
     "trait": [
         {
             "name": "Stone Camouflage",
@@ -53,13 +53,13 @@
         {
             "name": "War Pick",
             "entries": [
-                "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) piercing damage."
+                "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}21 ({@damage 4d8 + 3}) piercing damage."
             ]
         },
         {
             "name": "Poisoned Dart",
             "entries": [
-                "{@atk rw} {@hit 4} to hit, range 30/120 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage, and the target must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success"
+                "{@atk rw} {@hit 5} to hit, range 30/120 ft., one creature. {@h}13 ({@damage 4d4 + 3}) piercing damage, and the target must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success"
             ]
         }
     ],
@@ -128,14 +128,14 @@
             }
         ]
     },
-    "tokenUrl": "https://5e.tools/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.4",
-    "_isScaledCr": 1,
+    "tokenUrl": "https://5e.tools/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.2",
+    "_isScaledCr": 3,
     "_originalCr": "1/2",
     "_pTypes": {
         "type": "humanoid",
         "tags": ["gnome"],
         "asText": "humanoid (gnome)"
     },
-    "_pCr": "1",
-    "uniqueId": "fe7e395c15f3e66652663737f3919084"
+    "_pCr": "3",
+    "uniqueId": "a65b6c4a6aa2c7113f1c639643b58ac6"
 }
