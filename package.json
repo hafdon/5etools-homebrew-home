@@ -1,27 +1,43 @@
 {
-  "name": "zorq",
-  "version": "1.0.0",
-  "description": "Homebrew source for 5e.tools",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hafdon/5etools-homebrew-home.git"
-  },
-  "keywords": [
-    "dnd",
-    "5e",
-    "json",
-    "homebrew",
-    "giddylimit",
-    "5e.tools"
-  ],
-  "author": "Zachary Alec Weisser",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hafdon/5etools-homebrew-home/issues"
-  },
-  "homepage": "https://github.com/hafdon/5etools-homebrew-home#readme"
+    "name": "zorq",
+    "version": "1.0.0",
+    "description": "Homebrew source for 5e.tools",
+    "main": "index.js",
+    "scripts": {
+        "build": "/bin/bash start.sh && node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hafdon/5etools-homebrew-home.git"
+    },
+    "keywords": [
+        "dnd",
+        "5e",
+        "json",
+        "homebrew",
+        "giddylimit",
+        "5e.tools"
+    ],
+    "author": "Zachary Alec Weisser",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hafdon/5etools-homebrew-home/issues"
+    },
+    "homepage": "https://github.com/hafdon/5etools-homebrew-home#readme",
+    "jshintConfig": {
+        "esversion": 9,
+        "asi": true,
+        "debug": true,
+        "node": true
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "trailingComma": "es5",
+        "semi": true,
+        "singleQuote": true
+    },
+    "dependencies": {
+        "fs-extra": "^8.1.0",
+        "jshint": "^2.11.0-rc1"
+    }
 }
