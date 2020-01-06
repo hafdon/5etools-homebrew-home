@@ -5,11 +5,10 @@
     "main": "index.js",
     "scripts": {
         "build": "/bin/bash start.sh && node index.js",
-        "format": "prettier --write \"./src/**/*.json\""
+        "format": "prettier --write \"./src/**/*.json\"",
+        "version": "node ./npm_scripts/version/update_meta_version.js && npm run format",
+        "postversion": "git push && git push --tags"
     },
-    "pre-commit": [
-        "format"
-    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/hafdon/5etools-homebrew-home.git"
