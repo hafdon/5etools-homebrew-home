@@ -12,25 +12,30 @@ const homebrew = {
     deity: 'deity',
 };
 
+const buildObj = {};
+
 Object.entries(homebrew).forEach(([folder, prop]) => {
     try {
         const dir = `./src/${folder}`;
         const a = fs.readdirSync(dir);
 
-        const elements = a
-            .filter(
-                e => !['hafdon_zorq.json'].includes(e) && !e.startsWith('_') // these are arrays
-            )
-            .reduce((prev, e) => {
-                prev.push(fs.readJSONSync(`${dir}/${e}`));
-                return prev;
-            }, []);
+        const elements = a.reduce((prev, e) => {
+            prev.push(fs.readJSONSync(`${dir}/${e}`));
+            return prev;
+        }, []);
 
-        fs.writeJSONSync(`${dir}/hafdon_zorq.json`, {
-            [prop]: elements,
-            _meta,
-        });
+        buildObj[prop] = elements;
     } catch (e) {
         console.log(e);
     }
 });
+console.log({ buildObj });
+
+try {
+    fs.writeJSONSync(`./build/hafdon_zorq.json`, {
+        ...buildObj,
+        _meta,
+    });
+} catch (e) {
+    console.log(e);
+}
