@@ -2,9 +2,13 @@ const fs = require('fs-extra');
 const { version } = fs.readJSONSync(`./package.json`);
 const { _meta } = fs.readJSONSync(`./_meta/_meta.json`);
 
-_meta.sources.version = version;
+console.log({ version });
 
-fs.writeJSONSync(`./_meta/_meta.json`, _meta);
+console.log({ _meta });
+_meta.sources[0].version = version;
+_meta.dateUpdated = Date.now();
+
+fs.writeJSONSync(`./_meta/_meta.json`, { _meta });
 
 console.log('starting');
 
