@@ -5,7 +5,7 @@
         "type": "beast",
         "swarmSize": "T"
     },
-    "source": "Zorq",
+    "source": "zorq",
     "alignment": ["U"],
     "ac": [8],
     "hp": {

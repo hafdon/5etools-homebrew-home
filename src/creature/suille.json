@@ -1,0 +1,153 @@
+{
+    "name": "Suille",
+    "size": "L",
+    "type": {
+        "type": "monstrosity",
+        "tags": ["Monstrous Peryton"]
+    },
+    "source": "zorq",
+    "alignment": ["C", "E"],
+    "ac": [
+        {
+            "ac": 12,
+            "from": ["natural armor"]
+        }
+    ],
+    "hp": {
+        "average": 90,
+        "formula": "12d10 + 24"
+    },
+    "speed": {
+        "walk": 20,
+        "fly": 60
+    },
+    "str": 19,
+    "dex": 10,
+    "con": 14,
+    "int": 9,
+    "wis": 14,
+    "cha": 10,
+    "save": {
+        "str": "+8",
+        "dex": "+3",
+        "wis": "+5"
+    },
+    "skill": {
+        "perception": "+5",
+        "athletics": "+7"
+    },
+    "passive": 15,
+    "languages": ["understands Common and Elvish but can't speak"],
+    "cr": "5",
+    "page": 245,
+    "senses": ["darkvision 60 ft."],
+    "trait": [
+        {
+            "name": "Flyby",
+            "entries": [
+                "The peryton doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+            ]
+        },
+        {
+            "name": "Keen Sight and Smell",
+            "entries": [
+                "The peryton has advantage on Wisdom (Perception) checks that rely on sight or smell."
+            ]
+        },
+        {
+            "name": "Legendary Resistance (3/Day)",
+            "entries": [
+                "If the peryton fails a saving throw, it can choose to succeed instead."
+            ]
+        },
+        {
+            "name": "Campaign",
+            "entries": [
+                "Adopted Bellily (Lili) (daughter of Aurelia and Isabella)"
+            ]
+        },
+        {
+            "name": "Consume heart",
+            "entries": ["???"]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack",
+            "entries": [
+                "The peryton makes two attacks: one with its gore and one with its talons."
+            ]
+        },
+        {
+            "name": "Gore",
+            "entries": [
+                "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+            ]
+        },
+        {
+            "name": "Talons",
+            "entries": [
+                "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage."
+            ]
+        },
+        {
+            "name": "Warp Shadow",
+            "entries": [
+                "The peryton chooses up to three creatures within 60 feet of it that it can see. Each creature must succeed on a {@dc 12} Wisdom saving throw or become cursed. While cursed, whenever the creature makes an attack roll, an ability check, or a saving throw, it must roll a {@dice d4} and subtract that number from the roll. A cursed creature can repeat this saving throw at the end of each of its turns, ending the effect on itself with a success. A creature that succeeds on this saving throw is immune to this peryton's Warp Shadow for 24 hours."
+            ]
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Detect",
+            "entries": ["The peryton makes a Wisdom (Perception) check."]
+        },
+        {
+            "name": "Talons Attack",
+            "entries": ["The peryton makes one attack with its talons."]
+        },
+        {
+            "name": "Dive Attack (Costs 2 Actions)",
+            "entries": [
+                "The peryton moves up to its speed toward one target of its choosing. It then makes a gore attack that deals an extra 4 ({@damage 1d8}) piercing damage on a hit."
+            ]
+        }
+    ],
+    "damageTags": ["P", "S"],
+    "miscTags": ["MW"],
+    "languageTags": ["C", "CS", "E"],
+    "senseTags": ["D"],
+    "traitTags": ["Flyby", "Keen Senses", "Legendary Resistances"],
+    "actionTags": ["Multiattack"],
+    "fluff": {
+        "name": "Monstrous Peryton",
+        "source": "GoS",
+        "images": [
+            {
+                "type": "image",
+                "href": {
+                    "type": "internal",
+                    "path": "bestiary/GoS/Monstrous Peryton.jpg"
+                }
+            }
+        ],
+        "entries": [
+            {
+                "type": "entries",
+                "entries": [
+                    "The terror of the coast and the recent scourge of Firewatch Island in Tammeraut's Fate, this large peryton preys on ships and coastal communities alike. It has built numerous nests to mark its territory."
+                ]
+            }
+        ]
+    },
+    "tokenUrl": "https://5e.tools/img/GoS/Monstrous Peryton.png?v=1.94.4",
+    "_isScaledCr": 5,
+    "_originalCr": "11",
+    "_pTypes": {
+        "type": "monstrosity",
+        "tags": ["Monstrous Peryton"],
+        "asText": "monstrosity (Monstrous Peryton)"
+    },
+    "_pCr": "5",
+    "uniqueId": "daa541db498299f58719eee9342798a8"
+}

@@ -1,1 +1,286 @@
-{"monster":[{"name":"Cora Gn'Tash","size":"M","type":{"type":"humanoid","tags":["gnoll"]},"source":"ToB 3pp","alignment":["G"],"ac":[{"ac":13,"from":["{@item studded leather armor|phb}"]}],"hp":{"average":52,"formula":"8d8 + 16"},"speed":{"walk":30},"str":14,"dex":12,"con":14,"int":14,"wis":10,"cha":18,"skill":{"athletics":"+6","persuasion":"+8","intimidation":"+8","perception":"+4"},"senses":["darkvision 60 ft."],"passive":14,"languages":["Gnoll","Common"],"cr":"2","trait":[{"name":"Harrying Attacks","entries":["If the gnoll attacks two creatures in the same turn, the first target has disadvantage on attack rolls until the end of its next turn."]},{"name":"Lightning Lope","entries":["The gnoll can Dash or Disengage as a bonus action."]},{"name":"Pack Tactics","entries":["The gnoll has advantage on its attack rolls against a target if at least one of the gnoll's allies is within 5 feet of the target and the ally isn't {@condition incapacitated}."]}],"action":[{"name":"Multiattack","entries":["The gnoll makes one bite attack and two battleaxe attacks."]},{"name":"Battleaxe","entries":["{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage or 7 ({@damage 1d10 + 2}) slashing damage if used in two hands."]},{"name":"Bite","entries":["{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."]}],"page":230,"tokenUrl":"https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Gnoll%20Havoc%20Runner.png","actionTags":["Multiattack"],"traitTags":["Pack Tactics"],"senseTags":["D"],"languageTags":["OTH","C"],"damageTags":["S","P"],"miscTags":["MW"],"shortName":"Cora","save":{"str":"+4","con":"+4"},"fluff":{"entries":["self-conscious about (smelling too good/fancy)","modest about (fur & teeth)","want to be / important to be thought to be (dutiful)","quotes ","-- this isn't going to make me smell good, is it?","-- oh, these old, cracked teeth?","-- you think i'm totally loyal to the gnolls, right?"]},"isNpc":true},{"name":"Swarm of Herg Worms","size":"M","type":{"type":"beast","swarmSize":"T"},"source":"Zorq","alignment":["U"],"ac":[8],"hp":{"average":22,"formula":"5d8"},"speed":{"walk":5,"climb":5},"str":2,"dex":7,"con":10,"int":1,"wis":2,"cha":1,"resist":["piercing","slashing"],"conditionImmune":["charmed","frightened","grappled","paralyzed","petrified","prone","restrained"],"senses":["blindsight 10 ft."],"passive":6,"cr":"1/2","trait":[{"name":"Swarm","entries":["The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny maggot. The swarm can't regain hit points or gain temporary hit points."]},{"name":"Silver-blooded","entries":["Herg worms are finger-sized earthworms underneath whose skin are visible thin veins of silver. If at least 10 herg worms are crushed and used to make a paste, that paste can be applied to a weapon to render it silvered for 1 minute. Crushing the worms and applying the paste in this way takes 1 action. The paste loses its efficacy at the end of the minute."]}],"action":[{"name":"Bites","entries":["{@atk mw} {@hit 0} to hit, reach 0 ft., one creature in the swarm's space. {@h}The target is infested by {@dice 1d4} herg worms. At the start of each of the target's turns, the target takes {@dice 1d6} piercing damage per rot grub infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these herg worms. After this time, these herg worms are too far under the skin to be burned. If a target infested by herg worms ends its turn with 0 hit points, it dies as the herg worms burrow into its heart and kill it. Any effect that cures disease kills all herg worms infesting the target."]}],"environment":["swamp","underdark"],"senseTags":["B"],"miscTags":["MW"],"damageTags":["F"],"fluff":{"name":"Swarm of Herg Worms","source":"zorq","entries":[{"type":"entries","entries":["Herg worms are finger-sized maggots that eat living or dead flesh, although they can survive on plant matter. They infest corpses and piles of decaying matter and attack living creatures that disturb them. After burrowing into the flesh of a living creature, a rot grub instinctively chews its way toward the heart in order to kill its host.","Herg worms pose a threat both singly and as a swarm. See the accompanying stat block for the mechanics of a swarm of herg worms. A single rot grub has no stat block. Any creature that comes into contact with it must make a DC 10 Dexterity saving throw. On a failed save, the rot grub burrows into the creature's flesh and deals 3 (1d6) piercing damage at the start of each of the host creature's turns. Applying fire to the wound before the end of the host creature's next turn deals 1 fire damage to the host and kills the infesting rot grub. After this time, the rot grub is too far under the host creature's skin to be burned. If a creature infested by one or more herg worms ends its turn with 0 hit points, it dies as the grubs burrow into its heart and kill it. Any effect that cures disease kills all herg worms infesting the target. Burning a body kills any herg worms infesting it"]}]}},{"name":"Vee'gn'och","size":"M","type":"undead","source":"zorq","alignment":["C","E"],"ac":[{"ac":15,"from":["natural armor"]}],"hp":{"average":84,"formula":"13d6 + 39"},"speed":{"walk":30,"burrow":20},"str":12,"dex":18,"con":16,"int":14,"wis":10,"cha":10,"save":{"dex":"+6","con":"+5"},"skill":{"arcana":"+4","deception":"+4","perception":"+2","stealth":"+8"},"resist":["bludgeoning","piercing","slashing"],"immune":["necrotic","poison"],"conditionImmune":["exhaustion","poisoned"],"senses":["darkvision 120 ft."],"passive":12,"languages":["Common","Vee'gn'och","Undercommon"],"cr":"4","trait":[{"name":"Swarm","entries":["A Vee'gn'och can act as a swarm (composed of smaller elements), or it can grant a single member (called an exarch) control, acting as a singular creature. Changing between forms takes one action. In its singular form, the collective can't occupy the same space as another creature, but it can perform sneak attacks and cast spells. In swarm form, the Vee'gn'och can occupy another creature's space and vice versa, and it can move through openings at least 1 foot square. It can't change to singular form while it occupies the same space as another creature. It uses its skills normally in either form."]},{"name":"Rampage","entries":["When Vee'gn'och reduces a creature to 0 hit points with a melee attack on its turn, Vee'gn'och can take a bonus action to move up to half its speed and make a bite attack."]}],"action":[{"name":"Multiattack","entries":["The Vee'gn'och makes two claw attacks, or one claw and one bite attack, or one swarm attack."]},{"name":"Bite","entries":["{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d12 + 4}) piercing damage, and the target must make a {@dc 14} Constitution save or suffer the effects of Wyrmblood Venom."]},{"name":"Claw","entries":["{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d12 + 4}) slashing damage."]},{"name":"Swarm","entries":["{@atk mw} {@hit 6} to hit, reach 0 ft., one creature in the swarm's space. {@h}30 ({@damage 4d12 + 4}) piercing damage, or 17 ({@damage 2d12 + 4}) piercing damage if the Vee'gn'och has half its hit points or fewer. If the attack hits, the target must make a successful {@dc 13} Constitution save or suffer the effects of Wyrmblood Venom."]},{"name":"Sudden Rush.","entries":["Until the end of the turn, Vee'gn'och's speed increases by 60 feet and it doesn't provoke opportunity attacks."]},{"name":"Incite Rampage {@recharge 5}","entries":["One creature the Vee'gn'och can see within 30 feet of it can use its reaction to make a melee attack if it can hear the Vee'gn'och and has the Rampage trait."]}],"page":39,"spellcasting":[{"name":"Innate Spellcasting","headerEntries":["The Vee'gn'och's innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"],"will":["{@spell chill touch}"],"daily":{"1":["{@spell animate dead} (up to 5 skeletons or zombies)"]},"ability":"cha","type":"spellcasting"}],"tokenUrl":"https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Bone%20Collective.png","actionTags":["Multiattack"],"senseTags":["SD"],"languageTags":["C","OTH","U"],"damageTags":["P","S"],"miscTags":["MW"],"spellcastingTags":["I"],"shortName":"Veenock","isNamedCreature":true,"isNpc":true,"traitTags":["Rampage"]}],"_meta":{"sources":[{"json":"zorq","abbreviation":"zorq","full":"zorq","authors":["hafdon"],"version":"1.0.2","url":"https://github.com/hafdon/5etools-homebrew-home/blob/works/item/hafdon%3B%20zorq.json","targetSchema":"1.0.0","dateUpdated":1578282229960}],"dateAdded":1578263517,"dateUpdated":0}}
+{
+    "monster": [
+        {
+            "name": "Cora Gn'Tash",
+            "size": "M",
+            "type": { "type": "humanoid", "tags": ["gnoll"] },
+            "source": "zorq",
+            "alignment": ["G"],
+            "ac": [{ "ac": 13, "from": ["{@item studded leather armor|phb}"] }],
+            "hp": { "average": 52, "formula": "8d8 + 16" },
+            "speed": { "walk": 30 },
+            "str": 14,
+            "dex": 12,
+            "con": 14,
+            "int": 14,
+            "wis": 10,
+            "cha": 18,
+            "skill": {
+                "athletics": "+6",
+                "persuasion": "+8",
+                "intimidation": "+8",
+                "perception": "+4"
+            },
+            "senses": ["darkvision 60 ft."],
+            "passive": 14,
+            "languages": ["Gnoll", "Common"],
+            "cr": "2",
+            "trait": [
+                {
+                    "name": "Harrying Attacks",
+                    "entries": [
+                        "If the gnoll attacks two creatures in the same turn, the first target has disadvantage on attack rolls until the end of its next turn."
+                    ]
+                },
+                {
+                    "name": "Lightning Lope",
+                    "entries": [
+                        "The gnoll can Dash or Disengage as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries": [
+                        "The gnoll has advantage on its attack rolls against a target if at least one of the gnoll's allies is within 5 feet of the target and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The gnoll makes one bite attack and two battleaxe attacks."
+                    ]
+                },
+                {
+                    "name": "Battleaxe",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage or 7 ({@damage 1d10 + 2}) slashing damage if used in two hands."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+                    ]
+                }
+            ],
+            "page": 230,
+            "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Gnoll%20Havoc%20Runner.png",
+            "actionTags": ["Multiattack"],
+            "traitTags": ["Pack Tactics"],
+            "senseTags": ["D"],
+            "languageTags": ["OTH", "C"],
+            "damageTags": ["S", "P"],
+            "miscTags": ["MW"],
+            "shortName": "Cora",
+            "save": { "str": "+4", "con": "+4" },
+            "fluff": {
+                "entries": [
+                    "self-conscious about (smelling too good/fancy)",
+                    "modest about (fur & teeth)",
+                    "want to be / important to be thought to be (dutiful)",
+                    "quotes ",
+                    "-- this isn't going to make me smell good, is it?",
+                    "-- oh, these old, cracked teeth?",
+                    "-- you think i'm totally loyal to the gnolls, right?"
+                ]
+            },
+            "isNpc": true
+        },
+        {
+            "name": "Swarm of Herg Worms",
+            "size": "M",
+            "type": { "type": "beast", "swarmSize": "T" },
+            "source": "zorq",
+            "alignment": ["U"],
+            "ac": [8],
+            "hp": { "average": 22, "formula": "5d8" },
+            "speed": { "walk": 5, "climb": 5 },
+            "str": 2,
+            "dex": 7,
+            "con": 10,
+            "int": 1,
+            "wis": 2,
+            "cha": 1,
+            "resist": ["piercing", "slashing"],
+            "conditionImmune": [
+                "charmed",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "petrified",
+                "prone",
+                "restrained"
+            ],
+            "senses": ["blindsight 10 ft."],
+            "passive": 6,
+            "cr": "1/2",
+            "trait": [
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny maggot. The swarm can't regain hit points or gain temporary hit points."
+                    ]
+                },
+                {
+                    "name": "Silver-blooded",
+                    "entries": [
+                        "Herg worms are finger-sized earthworms underneath whose skin are visible thin veins of silver. If at least 10 herg worms are crushed and used to make a paste, that paste can be applied to a weapon to render it silvered for 1 minute. Crushing the worms and applying the paste in this way takes 1 action. The paste loses its efficacy at the end of the minute."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bites",
+                    "entries": [
+                        "{@atk mw} {@hit 0} to hit, reach 0 ft., one creature in the swarm's space. {@h}The target is infested by {@dice 1d4} herg worms. At the start of each of the target's turns, the target takes {@dice 1d6} piercing damage per rot grub infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these herg worms. After this time, these herg worms are too far under the skin to be burned. If a target infested by herg worms ends its turn with 0 hit points, it dies as the herg worms burrow into its heart and kill it. Any effect that cures disease kills all herg worms infesting the target."
+                    ]
+                }
+            ],
+            "environment": ["swamp", "underdark"],
+            "senseTags": ["B"],
+            "miscTags": ["MW"],
+            "damageTags": ["F"],
+            "fluff": {
+                "name": "Swarm of Herg Worms",
+                "source": "zorq",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            "Herg worms are finger-sized maggots that eat living or dead flesh, although they can survive on plant matter. They infest corpses and piles of decaying matter and attack living creatures that disturb them. After burrowing into the flesh of a living creature, a rot grub instinctively chews its way toward the heart in order to kill its host.",
+                            "Herg worms pose a threat both singly and as a swarm. See the accompanying stat block for the mechanics of a swarm of herg worms. A single rot grub has no stat block. Any creature that comes into contact with it must make a DC 10 Dexterity saving throw. On a failed save, the rot grub burrows into the creature's flesh and deals 3 (1d6) piercing damage at the start of each of the host creature's turns. Applying fire to the wound before the end of the host creature's next turn deals 1 fire damage to the host and kills the infesting rot grub. After this time, the rot grub is too far under the host creature's skin to be burned. If a creature infested by one or more herg worms ends its turn with 0 hit points, it dies as the grubs burrow into its heart and kill it. Any effect that cures disease kills all herg worms infesting the target. Burning a body kills any herg worms infesting it"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Vee'gn'och",
+            "size": "M",
+            "type": "undead",
+            "source": "zorq",
+            "alignment": ["C", "E"],
+            "ac": [{ "ac": 15, "from": ["natural armor"] }],
+            "hp": { "average": 84, "formula": "13d6 + 39" },
+            "speed": { "walk": 30, "burrow": 20 },
+            "str": 12,
+            "dex": 18,
+            "con": 16,
+            "int": 14,
+            "wis": 10,
+            "cha": 10,
+            "save": { "dex": "+6", "con": "+5" },
+            "skill": {
+                "arcana": "+4",
+                "deception": "+4",
+                "perception": "+2",
+                "stealth": "+8"
+            },
+            "resist": ["bludgeoning", "piercing", "slashing"],
+            "immune": ["necrotic", "poison"],
+            "conditionImmune": ["exhaustion", "poisoned"],
+            "senses": ["darkvision 120 ft."],
+            "passive": 12,
+            "languages": ["Common", "Vee'gn'och", "Undercommon"],
+            "cr": "4",
+            "trait": [
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "A Vee'gn'och can act as a swarm (composed of smaller elements), or it can grant a single member (called an exarch) control, acting as a singular creature. Changing between forms takes one action. In its singular form, the collective can't occupy the same space as another creature, but it can perform sneak attacks and cast spells. In swarm form, the Vee'gn'och can occupy another creature's space and vice versa, and it can move through openings at least 1 foot square. It can't change to singular form while it occupies the same space as another creature. It uses its skills normally in either form."
+                    ]
+                },
+                {
+                    "name": "Rampage",
+                    "entries": [
+                        "When Vee'gn'och reduces a creature to 0 hit points with a melee attack on its turn, Vee'gn'och can take a bonus action to move up to half its speed and make a bite attack."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Vee'gn'och makes two claw attacks, or one claw and one bite attack, or one swarm attack."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d12 + 4}) piercing damage, and the target must make a {@dc 14} Constitution save or suffer the effects of Wyrmblood Venom."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d12 + 4}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 0 ft., one creature in the swarm's space. {@h}30 ({@damage 4d12 + 4}) piercing damage, or 17 ({@damage 2d12 + 4}) piercing damage if the Vee'gn'och has half its hit points or fewer. If the attack hits, the target must make a successful {@dc 13} Constitution save or suffer the effects of Wyrmblood Venom."
+                    ]
+                },
+                {
+                    "name": "Sudden Rush.",
+                    "entries": [
+                        "Until the end of the turn, Vee'gn'och's speed increases by 60 feet and it doesn't provoke opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Incite Rampage {@recharge 5}",
+                    "entries": [
+                        "One creature the Vee'gn'och can see within 30 feet of it can use its reaction to make a melee attack if it can hear the Vee'gn'och and has the Rampage trait."
+                    ]
+                }
+            ],
+            "page": 39,
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The Vee'gn'och's innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": ["{@spell chill touch}"],
+                    "daily": {
+                        "1": [
+                            "{@spell animate dead} (up to 5 skeletons or zombies)"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Bone%20Collective.png",
+            "actionTags": ["Multiattack"],
+            "senseTags": ["SD"],
+            "languageTags": ["C", "OTH", "U"],
+            "damageTags": ["P", "S"],
+            "miscTags": ["MW"],
+            "spellcastingTags": ["I"],
+            "shortName": "Veenock",
+            "isNamedCreature": true,
+            "isNpc": true,
+            "traitTags": ["Rampage"]
+        }
+    ],
+    "_meta": {
+        "sources": [
+            {
+                "json": "zorq",
+                "abbreviation": "zorq",
+                "full": "zorq",
+                "authors": ["hafdon"],
+                "version": "1.0.2",
+                "url": "https://github.com/hafdon/5etools-homebrew-home/blob/works/item/hafdon%3B%20zorq.json",
+                "targetSchema": "1.0.0",
+                "dateUpdated": 1578282229960
+            }
+        ],
+        "dateAdded": 1578263517,
+        "dateUpdated": 0
+    }
+}

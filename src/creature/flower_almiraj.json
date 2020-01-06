@@ -1,0 +1,94 @@
+{
+    "source": "zorq",
+    "name": "Almiraj (flower kind on Amber Ghost shore)",
+    "size": "S",
+    "type": "beast",
+    "alignment": ["U"],
+    "ac": [
+        {
+            "ac": 13,
+            "from": ["natural armor"]
+        }
+    ],
+    "hp": {
+        "average": 7,
+        "formula": "2d6"
+    },
+    "speed": {
+        "walk": 50
+    },
+    "str": 2,
+    "dex": 12,
+    "con": 10,
+    "int": 2,
+    "wis": 14,
+    "cha": 10,
+    "skill": {
+        "perception": "+4",
+        "stealth": "+3"
+    },
+    "senses": ["darkvision 30 ft."],
+    "passive": 14,
+    "cr": "1/8",
+    "trait": [
+        {
+            "name": "Keen Senses",
+            "entries": [
+                "The almiraj has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+            ]
+        },
+        {
+            "name": "Familiar",
+            "entries": [
+                "With the DM's permission, the {@spell find familiar} spell can summon an almiraj."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Horn",
+            "entries": [
+                "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+            ]
+        }
+    ],
+    "page": 211,
+    "familiar": true,
+    "traitTags": ["Keen Senses"],
+    "senseTags": ["D"],
+    "damageTags": ["P"],
+    "miscTags": ["MW"],
+    "fluff": {
+        "name": "Almiraj",
+        "source": "ToA",
+        "images": [
+            {
+                "type": "image",
+                "href": {
+                    "type": "internal",
+                    "path": "bestiary/ToA/Almiraj.jpg"
+                }
+            }
+        ],
+        "entries": [
+            {
+                "type": "entries",
+                "entries": [
+                    "An almiraj (pronounced AWL-meer-ahj) is a large, timid rabbit with a 1-foot-long spiral horn emerging from its forehead, not unlike the horn of a unicorn. If driven to attack, it tries to spear enemies with its horn.",
+                    "Almiraj were brought to Chult long ago by merchants of the distant land of Zakhara. Skilled at evading predators, these creatures have flourished throughout the tropical peninsula. They live in earthen burrows and can be captured and domesticated. With the DM's permission, the find familiar spell can summon an almiraj."
+                ]
+            }
+        ]
+    },
+    "tokenUrl": "https://5e.tools/img/ToA/Almiraj.png?v=1.94.4",
+    "_maxDprDex": 3,
+    "_isScaledCr": 0.125,
+    "_originalCr": "0",
+    "_pTypes": {
+        "type": "beast",
+        "tags": [],
+        "asText": "beast"
+    },
+    "_pCr": "1/8",
+    "uniqueId": "d1fd97a7d905c398218ef804de4a0553"
+}
