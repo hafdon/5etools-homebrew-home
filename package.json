@@ -4,11 +4,12 @@
     "description": "Homebrew source for 5e.tools",
     "main": "index.js",
     "scripts": {
-        "build": "/bin/bash start.sh && node index.js",
+        "build": "/bin/bash start.sh && node index.js && npm run format",
         "format": "prettier --write \"./src/**/*.json\"",
-        "version": "node ./npm_scripts/version/update_meta_version.js && npm run format",
+        "version": "node ./npm_scripts/version/update_meta_version.js && npm run build",
         "postversion": "git push && git push --tags"
     },
+    "precommit": [],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/hafdon/5etools-homebrew-home.git"
