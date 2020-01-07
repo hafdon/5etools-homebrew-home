@@ -2,7 +2,7 @@
     "name": "Chad the Griffon",
     "size": "L",
     "type": "monstrosity",
-    "source": "ZACH",
+    "source": "zorq",
     "alignment": ["U"],
     "ac": [12],
     "hp": {

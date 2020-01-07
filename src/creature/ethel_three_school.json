@@ -146,13 +146,6 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/MTF/Gray Render.png?v=1.94.2",
-    "_isScaledCr": 3,
-    "_originalCr": "12",
-    "_pTypes": {
-        "type": "monstrosity",
-        "tags": [],
-        "asText": "monstrosity"
-    },
-    "_pCr": "3",
+
     "uniqueId": "995a76721f9bd2cf10771e5bdc90f8c7"
 }

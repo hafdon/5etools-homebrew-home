@@ -138,11 +138,6 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/VGM/Bodak.png?v=1.94.4",
-    "_pTypes": {
-        "type": "undead",
-        "tags": [],
-        "asText": "undead"
-    },
-    "_pCr": "6",
+
     "uniqueId": "4f89166d7489d1ef2da92638f5a36028"
 }

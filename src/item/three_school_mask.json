@@ -15,11 +15,5 @@
         }
     ],
     "attachedSpells": ["animal friendship"],
-    "recharge": "dawn",
-    "_isEnhanced": true,
-    "_category": "Other",
-    "_typeListText": ["Wondrous Item"],
-    "_typeHtml": "Wondrous Item",
-    "_attunement": null,
-    "_attunementCategory": "No"
+    "recharge": "dawn"
 }

@@ -72,7 +72,7 @@
         }
     ],
     "senses": ["darkvision 60 ft."],
-    "_isCopy": true,
+
     "tokenUrl": "https://5e.tools/img/SKT/Shield Dwarf Guard.png?v=1.94.4",
     "level": 4,
     "save": {
@@ -138,11 +138,5 @@
         ]
     },
     "shortName": "Carlos",
-    "_pTypes": {
-        "type": "humanoid",
-        "tags": ["he, him"],
-        "asText": "humanoid (he, him)"
-    },
-    "_pCr": null,
     "uniqueId": "aa0a122ad799d7e6b4a7f180bfdd1be0"
 }
