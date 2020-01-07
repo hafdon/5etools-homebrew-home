@@ -61,6 +61,22 @@
                 "You may use an action to wrap a Large or smaller creature in this blanket. While the blanket is on the creature, it suppresses any effect causing the creature to be {@condition charmed} or {@condition frightened}. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.",
                 "The blanket may only be used in this way for 10 minutes before it loses its efficacy. The blanket regains its efficacy at the next dawn."
             ]
+        },
+        {
+            "name": "Twisted Cornett",
+            "wondrous": true,
+            "type": "INS",
+            "weight": 1,
+            "tier": "Major",
+            "rarity": "Uncommon",
+            "reqAttune": true,
+            "source": "ZACH",
+            "page": null,
+            "entries": [
+                "You can use an action to play this cornett in the typical manner. The cornett emits sound in a 30-foot cone that is audible 30 feet away. Each creature in the cone must make a DC 14 Constitution saving throw or be {@condition stunned} until the end of your next turn. Creatures who succeed on their saving throw have their speed reduced by 10, to a minimum of 0.",
+                "Once you use the cornett in this way, it cannot be used again until the next dawn."
+            ],
+            "srd": true
         }
     ],
     "monster": [
@@ -1875,6 +1891,126 @@
             "uniqueId": "aa0a122ad799d7e6b4a7f180bfdd1be0"
         },
         {
+            "name": "Chad the Griffon",
+            "size": "L",
+            "type": "monstrosity",
+            "source": "zorq",
+            "alignment": ["U"],
+            "ac": [12],
+            "hp": { "average": 59, "formula": "7d10 + 21" },
+            "speed": { "walk": 30, "fly": 80 },
+            "str": 18,
+            "dex": 10,
+            "con": 16,
+            "int": 14,
+            "wis": 13,
+            "cha": 10,
+            "skill": {
+                "perception": "+4",
+                "athletics": "+7",
+                "investigation": "+5",
+                "history": "+5"
+            },
+            "senses": ["darkvision 60 ft."],
+            "passive": 14,
+            "cr": "2",
+            "trait": [
+                {
+                    "name": "Keen Sight",
+                    "entries": [
+                        "Chad has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+                    ]
+                },
+                {
+                    "name": "Math Whiz",
+                    "entries": [
+                        "Chad has advantage on Intelligence ({@skill Investigation}) checks that rely on mathematical or accounting knowledge."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Chad makes two attacks: one with its beak and one with its claws."
+                    ]
+                },
+                {
+                    "name": "Beak",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Claws",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+                    ]
+                }
+            ],
+            "page": 174,
+            "environment": [
+                "arctic",
+                "coastal",
+                "grassland",
+                "hill",
+                "mountain"
+            ],
+            "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/249/griffon.mp3",
+            "traitTags": ["Keen Senses"],
+            "actionTags": ["Multiattack"],
+            "senseTags": ["D"],
+            "damageTags": ["P", "S"],
+            "miscTags": ["MW"],
+            "srd": true,
+            "fluff": {
+                "name": "Griffon",
+                "source`": "MM",
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "internal",
+                            "path": "bestiary/MM/Griffon.jpg"
+                        }
+                    }
+                ],
+                "entries": [
+                    "Griffons are ferocious avian carnivores with the muscular bodies of lions and the head, forelegs, and wings of eagles. When they attack, griffons are as swift and deadly as eagles, even as they strike with a lion's savage might and grace.",
+                    {
+                        "name": "Horse Eaters",
+                        "type": "entries",
+                        "entries": [
+                            "Griffons hunt in small prides, flying high over plains and forests near their rocky cliff-side aeries. Herd animals and horses are the prey they crave above all others, though they also hunt and kill hippogriffs. When it spots horses, a griffon screeches to alert its pride mates, which descend quickly toward their prey.",
+                            "Those riding or herding horses dread Chad's piercing cry, preparing themselves for the bloody fight that inevitably follows. A griffon ignores a horse's rider when possible, and a rider that abandons its mount, or a herder that releases one or two horses, can escape unharmed while Chad targets its chosen prey. Riders who attempt to protect their horses attract the full fury of an attacking griffon."
+                        ]
+                    },
+                    {
+                        "name": "Sky Dwellers",
+                        "type": "entries",
+                        "entries": [
+                            "Griffons lair in high rocky clifftop aeries, building their nests from sticks, leaves, and the bones of their prey. Once griffons establish a territory, they remain in that area until the food supply has been exhausted.",
+                            "Aggressive and territorial, griffons engage in brutal aerial combat to defend their aeries, tearing and shredding the wings of flying intruders to send them spiraling to the ground. Creatures that climb to a griffon's lair are plucked from the cliffs and eaten, or are knocked from the heights to go tumbling to their deaths."
+                        ]
+                    },
+                    {
+                        "name": "Trained Mounts",
+                        "type": "entries",
+                        "entries": [
+                            "A griffon raised from an egg can be trained to serve as a mount. However, such training is time consuming, expensive (mostly for the ample food the creature requires), and dangerous. Expert trainers well versed in Chad's legendary ferocity are typically the only ones able to raise these creatures safely.",
+                            "Once trained, a griffon is a fierce and loyal steed. It bonds with one master for life, fighting to the death to protect that rider. A griffon mount retains its ravenous appetite for horseflesh, and a wise master ensures that a griffon remains satiated with other prey when passing through civilized lands."
+                        ]
+                    }
+                ]
+            },
+            "tokenUrl": "https://5e.tools/img/MM/Griffon.png?v=1.94.4",
+            "save": { "int": "+5" },
+            "languages": ["Common", "Bird"],
+            "languageTags": ["C"],
+            "isNamedCreature": true,
+            "isNpc": true
+        },
+        {
             "name": "Cora Gn'Tash",
             "size": "M",
             "type": { "type": "humanoid", "tags": ["gnoll"] },
@@ -3056,6 +3192,70 @@
             },
             "tokenUrl": "https://5e.tools/img/VGM/Girallon.png?v=1.94.4",
             "uniqueId": "6c05e0a6375d197b195aec2b0c723f4a"
+        },
+        {
+            "name": "Hagnar Rezfort (spirit form)",
+            "size": "M",
+            "type": "fiend",
+            "source": "ZACH",
+            "alignment": ["C", "N"],
+            "ac": [13],
+            "hp": { "formula": "4d8 + 10", "average": 28 },
+            "speed": { "walk": 30 },
+            "str": 12,
+            "dex": 17,
+            "con": 12,
+            "int": 10,
+            "wis": 7,
+            "cha": 1,
+            "save": { "con": "+3" },
+            "skill": { "stealth": "+7", "athletics": "+3", "perception": "+0" },
+            "immune": [],
+            "conditionImmune": ["blinded"],
+            "senses": ["darkvision 120 ft."],
+            "passive": 10,
+            "languages": ["Common"],
+            "cr": "1",
+            "trait": [
+                {
+                    "name": "Trackless",
+                    "entries": [
+                        "The spirit leaves no tracks to indicate where it has been or where it's headed."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Claws",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage. If the spirit has advantage on the attack roll, the target also takes 10 ({@damage 3d6}) necrotic damage."
+                    ]
+                }
+            ],
+            "environment": ["coastal", "forest", "swamp", "underdark", "urban"],
+            "languageTags": ["C"],
+            "senseTags": ["SD"],
+            "damageTags": ["S", "N"],
+            "miscTags": ["MW"],
+            "tokenUrl": "https://5e.tools/img/MTF/Skulk.png?v=1.94.4",
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell infestation|XGE}",
+                                "{@spell mind sliver|UASorcererAndWarlock}",
+                                "{@spell thorn whip|PHB}"
+                            ]
+                        }
+                    },
+                    "type": "spellcasting"
+                }
+            ],
+            "shortName": "Hagnar",
+            "isNamedCreature": true,
+            "isNpc": true
         },
         {
             "name": "Swarm of Herg Worms",
@@ -4392,6 +4592,112 @@
             "uniqueId": "87a5524b2a74929f60830df3f35a6513"
         },
         {
+            "name": "Spirit of the Twisted Maze",
+            "size": "M",
+            "type": "fiend",
+            "source": "ZACH",
+            "alignment": ["C", "N"],
+            "ac": [13],
+            "hp": { "formula": "4d8 + 10", "average": 28 },
+            "speed": { "walk": 30 },
+            "str": 12,
+            "dex": 17,
+            "con": 12,
+            "int": 10,
+            "wis": 7,
+            "cha": 1,
+            "save": { "con": "+3" },
+            "skill": { "stealth": "+7", "athletics": "+3", "perception": "+0" },
+            "immune": [],
+            "conditionImmune": ["blinded"],
+            "senses": ["darkvision 120 ft."],
+            "passive": 10,
+            "languages": ["Common"],
+            "cr": "1",
+            "trait": [
+                {
+                    "name": "Trackless",
+                    "entries": [
+                        "The spirit leaves no tracks to indicate where it has been or where it's headed."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Claws",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage. If the spirit has advantage on the attack roll, the target also takes 10 ({@damage 3d6}) necrotic damage."
+                    ]
+                }
+            ],
+            "environment": ["coastal", "forest", "swamp", "underdark", "urban"],
+            "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/689/skulk.mp3",
+            "languageTags": ["C"],
+            "senseTags": ["SD"],
+            "damageTags": ["S", "N"],
+            "miscTags": ["MW"],
+            "fluff": {
+                "name": "Skulk",
+                "source": "MTF",
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "internal",
+                            "path": "bestiary/MTF/Skulk.jpg"
+                        }
+                    }
+                ],
+                "entries": [
+                    {
+                        "type": "quote",
+                        "entries": [
+                            "Some children have imaginary friends that their parents can't see. Sometimes those invisible friends aren't imaginary."
+                        ],
+                        "by": "Mordenkainen"
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Skulk",
+                        "entries": [
+                            "Skulks are the soulless shells of travelers who became lost in the Shadowfell, wandering its gray wastes until they lost all sense of self. They are so devoid of identity that they have become permanently invisible. Only children can see a skulk without the help of a mirror or a special candle. On the rare occasions when a skulk is visible, it appears as a drab, featureless, hairless humanoid."
+                        ]
+                    },
+                    {
+                        "name": "Summoned Servants",
+                        "type": "entries",
+                        "entries": [
+                            "A skulk can be summoned from the Shadowfell by performing a ritual. If the creature is given a portion of the summoner's identity, the skulk is bound to obey the summoner's commands for 30 days. If a skulk is visible, an astute observer might deduce who summoned it, because a skulk assumes a vague likeness of its master.",
+                            "Cruel and chaotic, skulks carry out their orders in the most violent manner possible. A summoned skulk can't return to the Shadowfell until it dies, so it has every motivation to throw itself into creating bloodshed and mayhem."
+                        ]
+                    },
+                    {
+                        "name": "Hollow Lives",
+                        "type": "entries",
+                        "entries": [
+                            "After killing a person in the material world, a skulk sometimes takes up a silent imitation of that person's life. In extreme cases, skulks have invaded villages, killed all the occupants, and turned the places into seeming ghost towns, where flavorless food is prepared daily, colorless clothes are hung up to dry, and livestock is shifted from pen to pen until it starves."
+                        ]
+                    }
+                ]
+            },
+            "tokenUrl": "https://5e.tools/img/MTF/Skulk.png?v=1.94.4",
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell infestation|XGE}",
+                                "{@spell mind sliver|UASorcererAndWarlock}",
+                                "{@spell thorn whip|PHB}"
+                            ]
+                        }
+                    },
+                    "type": "spellcasting"
+                }
+            ]
+        },
+        {
             "name": "Stump Three School",
             "size": "T",
             "type": "ooze",
@@ -4637,6 +4943,150 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "Tusternoof, or The Twisted One",
+            "size": "M",
+            "type": "fiend",
+            "source": "zorq",
+            "alignment": ["L", "E"],
+            "ac": [
+                12,
+                {
+                    "ac": 16,
+                    "condition": "with {@spell mage armor}",
+                    "braces": true
+                }
+            ],
+            "hp": { "average": 36, "formula": "8d8" },
+            "speed": { "walk": 30, "climb": 30 },
+            "str": 12,
+            "dex": 16,
+            "con": 10,
+            "int": 14,
+            "wis": 12,
+            "cha": 16,
+            "save": { "int": "+4", "cha": "+5" },
+            "skill": {
+                "arcana": "+4",
+                "history": "+4",
+                "athletics": "+5",
+                "nature": "+6",
+                "stealth": "+7",
+                "perception": "+3"
+            },
+            "resist": [
+                {
+                    "resist": ["bludgeoning", "piercing", "slashing"],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "immune": ["poison"],
+            "conditionImmune": ["exhaustion", "poisoned"],
+            "senses": ["darkvision 60 ft."],
+            "passive": 13,
+            "languages": ["Common", "Underdark", "Abyssal"],
+            "cr": "4",
+            "page": 0,
+            "action": [
+                {
+                    "name": "Horned Vine",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h} 6 ({@damage 1d6 + 2}) slashing plus 9 ({@damage 2d6 + 2}) necrotic damage."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "Tusternoof's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell detect magic}",
+                        "{@spell disguise self}",
+                        "{@spell mage armor}"
+                    ],
+                    "ability": "cha",
+                    "type": "spellcasting"
+                },
+                {
+                    "name": "Spellcasting",
+                    "headerEntries": [
+                        "Tusternoof is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+                    ],
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell chill touch}",
+                                "{@spell eldritch blast}",
+                                "{@spell mage hand}"
+                            ]
+                        },
+                        "3": {
+                            "spells": [
+                                "{@spell arms of Hadar}",
+                                "{@spell dispel magic}",
+                                "{@spell hold person}",
+                                "{@spell hunger of Hadar}",
+                                "{@spell invisibility}",
+                                "{@spell phantasmal force|PHB}"
+                            ],
+                            "slots": 2,
+                            "lower": 1
+                        }
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "environment": ["urban"],
+            "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/614/deathlock.mp3",
+            "senseTags": ["D"],
+            "spellcastingTags": ["I", "CL"],
+            "damageTags": ["N"],
+            "miscTags": ["MW"],
+            "languageTags": ["C", "AB"],
+            "fluff": {
+                "name": "Tusternoof",
+                "source": "zorq",
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "internal",
+                            "path": "bestiary/MTF/Deathlock.jpg"
+                        }
+                    }
+                ],
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Created by Baphomet",
+                        "entries": [
+                            "Baphomet is able to create Tusternoof.",
+                            "An extraordinarily powerful necromancer might also discover the dark methods of creating Tusternoof and then bind it to service, acting in this respect as Tusternoof's patron."
+                        ]
+                    },
+                    {
+                        "name": "Obedient and Obsessed",
+                        "type": "entries",
+                        "entries": [
+                            "An overpowering urge to serve consumes the mind of Tusternoof. All goals and ambitions it had in life that don't please its patron fall away as its master's desires become the purpose that drives Tusternoof. The creature immediately resumes work on its patron's behalf. Accomplishing a difficult goal might mean Tusternoof is forced to serve another powerful creature or might entail in gathering servants of its own.",
+                            "Whatever the goal, it always reflects the patron's interests, ranging from small-scale concerns to matters of cosmic scope. Tusternoof in the thrall of a fiend might work to destroy a specific temple dedicated to a good god, while one that serves a Great Old One could be charged with hunting for the materials needed to call forth a horrifying entity into the world."
+                        ]
+                    },
+                    {
+                        "name": "Lord of the Maze",
+                        "type": "entries",
+                        "entries": [
+                            "Tusternoof creates and maintains a vegetal maze for its creator, Baphomet."
+                        ]
+                    }
+                ]
+            },
+            "tokenUrl": "https://5e.tools/img/MTF/Deathlock.png?v=1.94.5",
+            "shortName": "Tusternoof"
         },
         {
             "name": "Vee'gn'och",
@@ -5603,12 +6053,12 @@
                 "abbreviation": "zorq",
                 "full": "zorq",
                 "authors": ["hafdon"],
-                "version": "1.1.1",
+                "version": "2.0.0",
                 "url": "https://github.com/hafdon/5etools-homebrew-home/blob/works/item/hafdon%3B%20zorq.json",
                 "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1578325254
+        "dateUpdated": 1578359533
     }
 }
