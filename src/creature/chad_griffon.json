@@ -73,7 +73,7 @@
     "srd": true,
     "fluff": {
         "name": "Griffon",
-        "source": "MM",
+        "source`": "MM",
         "images": [
             {
                 "type": "image",
