@@ -20,10 +20,12 @@ Object.entries(homebrew).forEach(([folder, prop]) => {
 
         const a = fs.readdirSync(dir);
 
-        const elements = a.reduce((prev, e) => {
-            prev.push(fs.readJSONSync(`${dir}/${e}`));
-            return prev;
-        }, []);
+        const elements = a
+            .filter(e => !e.startsWith('_'))
+            .reduce((prev, e) => {
+                prev.push(fs.readJSONSync(`${dir}/${e}`));
+                return prev;
+            }, []);
 
         buildObj[prop] = elements;
     } catch (e) {
