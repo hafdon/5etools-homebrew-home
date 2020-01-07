@@ -34,9 +34,14 @@
     },
     "entries": [
         "This spell wards a willing dwarf you touch and creates a mystic connection between you. Choose one of the following wards; you and the target gain that ward until the spell ends.",
-        "You and the target gain a +2 bonus to AC and gain {@dice 2d6} temporary hit points each (roll once for both), which are lost when the spell ends.",
-        "You and the target are immune to being charmed and frightened and cannot be possessed.",
-        "You and the target add +5 to any skill or ability check in which stone is concerned.",
+        {
+            "type": "list",
+            "items": [
+                "You and the target gain a +2 bonus to AC and gain {@dice 2d6} temporary hit points each (roll once for both), which are lost when the spell ends.",
+                "You and the target are immune to being charmed and frightened and cannot be possessed.",
+                "You and the target add +5 to any skill or ability check in which stone is concerned."
+            ]
+        },
         "The spell ends if you or the target drop to 0 hit points. It also ends if the spell is cast again on either of the connected creatures. You can dismiss the spell as a bonus action."
     ],
     "source": "zorq",

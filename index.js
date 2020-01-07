@@ -17,6 +17,7 @@ const buildObj = {};
 Object.entries(homebrew).forEach(([folder, prop]) => {
     try {
         const dir = `./src/${folder}`;
+
         const a = fs.readdirSync(dir);
 
         const elements = a.reduce((prev, e) => {
@@ -29,7 +30,7 @@ Object.entries(homebrew).forEach(([folder, prop]) => {
         console.log(e);
     }
 });
-console.log({ buildObj });
+console.log({ spell: buildObj.spell });
 
 try {
     fs.writeJSONSync(`./build/hafdon_zorq.json`, {
