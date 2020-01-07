@@ -65,11 +65,6 @@
     "damageTags": ["N"],
     "shortName": "Stump",
     "isNpc": true,
-    "_pTypes": {
-        "type": "ooze",
-        "tags": [],
-        "asText": "ooze"
-    },
-    "_pCr": "1/4",
+
     "uniqueId": "76720f3bb662e0e05edf42cf1141c71e"
 }

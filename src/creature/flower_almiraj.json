@@ -81,14 +81,6 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/ToA/Almiraj.png?v=1.94.4",
-    "_maxDprDex": 3,
-    "_isScaledCr": 0.125,
-    "_originalCr": "0",
-    "_pTypes": {
-        "type": "beast",
-        "tags": [],
-        "asText": "beast"
-    },
-    "_pCr": "1/8",
+
     "uniqueId": "d1fd97a7d905c398218ef804de4a0553"
 }

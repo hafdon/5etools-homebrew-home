@@ -141,13 +141,6 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/GoS/Monstrous Peryton.png?v=1.94.4",
-    "_isScaledCr": 5,
-    "_originalCr": "11",
-    "_pTypes": {
-        "type": "monstrosity",
-        "tags": ["Monstrous Peryton"],
-        "asText": "monstrosity (Monstrous Peryton)"
-    },
-    "_pCr": "5",
+
     "uniqueId": "daa541db498299f58719eee9342798a8"
 }

@@ -113,11 +113,6 @@
         "con": "+5"
     },
     "isNpc": true,
-    "_pTypes": {
-        "type": "humanoid",
-        "tags": ["dwarf"],
-        "asText": "humanoid (dwarf)"
-    },
-    "_pCr": "1",
+
     "uniqueId": "87a5524b2a74929f60830df3f35a6513"
 }

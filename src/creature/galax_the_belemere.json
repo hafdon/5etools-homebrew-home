@@ -112,11 +112,6 @@
             "type": "spellcasting"
         }
     ],
-    "_pTypes": {
-        "type": "humanoid",
-        "tags": ["lizardfolk"],
-        "asText": "humanoid (lizardfolk)"
-    },
-    "_pCr": "1",
+
     "uniqueId": "57ef4380bb63592acea899280f02a9d9"
 }

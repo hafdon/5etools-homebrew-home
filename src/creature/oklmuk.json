@@ -126,11 +126,6 @@
     "spellcastingTags": ["I"],
     "isNamedCreature": true,
     "isNpc": true,
-    "_pTypes": {
-        "type": "fiend",
-        "tags": ["devil"],
-        "asText": "fiend (devil)"
-    },
-    "_pCr": "2",
+
     "uniqueId": "31b1eeb958d90a87ece30f9b446d39d1"
 }

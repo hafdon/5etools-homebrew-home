@@ -187,11 +187,6 @@
     },
     "tokenUrl": "https://5e.tools/img/MM/Blue Dragon Wyrmling.png?v=1.94.2",
     "isNamedCreature": true,
-    "_pTypes": {
-        "type": "dragon",
-        "tags": [],
-        "asText": "dragon"
-    },
-    "_pCr": "3",
+
     "uniqueId": "21bbe7620f5547a8fe4706cc0f2bb682"
 }

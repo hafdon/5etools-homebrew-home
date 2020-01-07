@@ -145,11 +145,6 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/MM/Salamander.png?v=1.94.4",
-    "_pTypes": {
-        "type": "monstrosity",
-        "tags": ["he, his", "giant salamander"],
-        "asText": "monstrosity (he, his, giant salamander)"
-    },
-    "_pCr": "5",
+
     "uniqueId": "8ae35824e47c3c68a7ad378c3d2b4d18"
 }

@@ -116,10 +116,6 @@
         ]
     },
     "tokenUrl": "https://5e.tools/img/MM/Salamander.png?v=1.94.4",
-    "_maxDprStr": 3,
-    "_maxDprDex": 1,
-    "_isScaledCr": 0.5,
-    "_originalCr": "5",
     "skill": {
         "athletics": "+7"
     },
@@ -134,11 +130,5 @@
             "type": "spellcasting"
         }
     ],
-    "_pTypes": {
-        "type": "beast",
-        "tags": [],
-        "asText": "beast"
-    },
-    "_pCr": "1/2",
     "uniqueId": "2177390a626c25fafe616241672abfeb"
 }
