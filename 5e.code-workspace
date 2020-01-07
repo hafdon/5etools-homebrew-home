@@ -1,7 +1,10 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	]
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "/Users/starkat/rpg/dnd5e/_Marshbout/_home/homebrew_json/5etools"
+        }
+    ]
 }

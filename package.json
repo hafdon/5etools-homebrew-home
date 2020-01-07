@@ -1,0 +1,51 @@
+{
+    "name": "zorq",
+    "version": "2.0.0",
+    "description": "Homebrew source for 5e.tools",
+    "main": "index.js",
+    "scripts": {
+        "build": "/bin/bash start.sh && node index.js && npm run format",
+        "format": "prettier --write \"./build/hafdon_zorq.json\"",
+        "version": "node ./npm_scripts/version/update_meta_version.js && npm run build",
+        "postversion": "git push && git push --tags && /bin/bash ./npm_scripts/postversion/move_files_to_giddy_repo.sh"
+    },
+    "precommit": [],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hafdon/5etools-homebrew-home.git"
+    },
+    "keywords": [
+        "dnd",
+        "5e",
+        "json",
+        "homebrew",
+        "giddylimit",
+        "5e.tools"
+    ],
+    "author": "Zachary Alec Weisser",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hafdon/5etools-homebrew-home/issues"
+    },
+    "homepage": "https://github.com/hafdon/5etools-homebrew-home#readme",
+    "jshintConfig": {
+        "esversion": 9,
+        "asi": true,
+        "debug": true,
+        "node": true
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "trailingComma": "es5",
+        "semi": true,
+        "singleQuote": true
+    },
+    "dependencies": {
+        "fs-extra": "^8.1.0",
+        "jshint": "^2.11.0-rc1"
+    },
+    "devDependencies": {
+        "pre-commit": "^1.2.2",
+        "prettier": "1.19.1"
+    }
+}

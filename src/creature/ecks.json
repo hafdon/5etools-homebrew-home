@@ -1,0 +1,91 @@
+{
+    "name": "Ecks",
+    "size": "T",
+    "type": "construct",
+    "source": "zorq",
+    "alignment": ["N"],
+    "ac": [
+        {
+            "ac": 15,
+            "from": ["natural armor"]
+        }
+    ],
+    "hp": {
+        "formula": "16d4",
+        "average": 40
+    },
+    "speed": {
+        "walk": 20,
+        "fly": 40
+    },
+    "str": 6,
+    "dex": 15,
+    "con": 13,
+    "int": 10,
+    "wis": 10,
+    "cha": 16,
+    "immune": ["poison"],
+    "conditionImmune": ["charmed", "poisoned"],
+    "senses": ["darkvision 60 ft."],
+    "passive": 10,
+    "languages": ["understands the languages of its creator but can't speak"],
+    "cr": "1/4",
+    "trait": [
+        {
+            "name": "Telepathic Bond",
+            "entries": [
+                "While the homunculus is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Bite",
+            "entries": [
+                "{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}6 piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition poisoned} for 1 minute. If the saving throw fails by 5 or more, the target is instead {@condition poisoned} for 5 ({@dice 1d10}) minutes and {@condition unconscious} while {@condition poisoned} in this way."
+            ]
+        }
+    ],
+    "page": 188,
+    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/276/homunculus.mp3",
+    "senseTags": ["D"],
+    "miscTags": ["MW"],
+    "srd": true,
+    "damageTags": ["P"],
+    "fluff": {
+        "name": "Homunculus",
+        "source": "MM",
+        "images": [
+            {
+                "type": "image",
+                "href": {
+                    "type": "internal",
+                    "path": "bestiary/MM/Homunculus.jpg"
+                }
+            }
+        ],
+        "entries": [
+            "Shaping a mixture of clay, ash, mandrake root, and blood, one can channel rare ritual magic to create a faithful, squirrel-sized companion.",
+            "A homunculus is a construct that acts as an extension of its creator, with the two sharing thoughts, senses, and language through a mystical bond. A master can have only one homunculus at a time (attempts to create another one always fail), and when its master dies, the homunculus also dies.",
+            {
+                "name": "Shared Mind",
+                "type": "entries",
+                "entries": [
+                    "A homunculus knows everything its creator knows, including all the languages the creator can speak and read. Likewise, everything the construct senses is known to its master, even over great distances, provided both are on the same plane. Functioning as a spy, a scout, an emissary, or a messenger, a homunculus is an invaluable servant for a spellcaster engaged in secret experimentation or adventuring."
+                ]
+            }
+        ]
+    },
+    "tokenUrl": "https://5e.tools/img/MM/Homunculus.png?v=1.94.4",
+
+    "skill": {
+        "acrobatics": "+4",
+        "athletics": "+0",
+        "stealth": "+6"
+    },
+    "isNpc": true,
+    "familiar": true,
+    "isNamedCreature": true,
+
+    "uniqueId": "1b2244436bfe7c27b53d053558557acb"
+}

@@ -1,0 +1,17 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "zorq",
+                "abbreviation": "zorq",
+                "full": "zorq",
+                "authors": ["hafdon"],
+                "version": "2.0.0",
+                "url": "https://github.com/hafdon/5etools-homebrew-home/",
+                "targetSchema": "1.0.0"
+            }
+        ],
+        "dateAdded": 1578263517,
+        "dateUpdated": 1578359533
+    }
+}

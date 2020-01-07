@@ -1,0 +1,80 @@
+{
+    "name": "Sally Farmer",
+    "source": "zorq",
+    "action": [
+        {
+            "name": "Warhammer",
+            "entries": [
+                "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}24 ({@damage 5d8 + 2}) bludgeoning damage, or 29 ({@damage 5d10 + 2}) bludgeoning damage if used with two hands."
+            ]
+        }
+    ],
+    "alignment": ["L", "G"],
+    "miscTags": ["MW"],
+    "damageTags": ["B"],
+    "languageTags": ["C", "D"],
+    "page": 78,
+    "size": "M",
+    "type": {
+        "type": "humanoid",
+        "tags": ["dwarf"]
+    },
+    "ac": [
+        {
+            "ac": 16,
+            "from": ["{@item chain shirt|phb}", "{@item shield|phb}"]
+        }
+    ],
+    "hp": {
+        "average": 39,
+        "formula": "6d8 + 12"
+    },
+    "speed": 25,
+    "str": 15,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 11,
+    "cha": 10,
+    "skill": {
+        "perception": "+2"
+    },
+    "passive": 12,
+    "languages": ["Common", "Dwarvish"],
+    "cr": "1",
+    "trait": [
+        {
+            "name": "Dwarven Resilience",
+            "entries": [
+                "The shield dwarf guard has advantage on saving throws against poison, and has resistance against poison damage."
+            ]
+        }
+    ],
+
+    "tokenUrl": "https://5e.tools/img/SKT/Shield Dwarf Guard.png?v=1.94.4",
+
+    "fluff": {
+        "entries": [
+            "dwarf of the Bloodforge clan",
+            "who works with Norman Barrelchest at the armamentarium (since 4 years ago)",
+            "fully o.k. with no longer living with dwarves (due to trauma event)",
+            "parents were farmers",
+            "appearance, clothing, manner",
+            "short frizzy blonde hair",
+            "wears lifts (functional)",
+            "no beard!",
+            "enthusiastic, cooperative, sensitive if compared to dwarf",
+            "sincere, gullible",
+            "no darkvision",
+            "spectacles",
+            "floral shirt of thick material under brown worsted overalls",
+            "background",
+            "her clan was attacked by skeletons, when no one would listen to warnings about mining taken them into old sarcophagi and tombs. ",
+            "Norman’s sister Felicity (human necromancer) and Maeve were the only ones to help Sally, and now she feels some loyalty to humans",
+            "skeleton attacks, looks the other way, doesn’t tell Maeve (and the Robin Hood group) about as many of these as she should"
+        ]
+    },
+    "isNpc": true,
+
+    "uniqueId": "444df9ccab3344269cfeb141027f48a8"
+}

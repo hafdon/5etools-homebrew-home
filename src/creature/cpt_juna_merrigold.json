@@ -1,0 +1,118 @@
+{
+    "name": "Cpt. Juna Merrigold",
+    "size": "M",
+    "type": "humanoid",
+    "source": "zorq",
+    "alignment": ["N", "G"],
+    "ac": [
+        {
+            "ac": 12,
+            "from": ["natural armor"]
+        }
+    ],
+    "hp": {
+        "average": 76,
+        "formula": "9d8 + 36"
+    },
+    "speed": {
+        "walk": 25,
+        "swim": 40
+    },
+    "str": 20,
+    "dex": 15,
+    "con": 18,
+    "int": 10,
+    "wis": 12,
+    "cha": 14,
+    "save": {
+        "wis": "+3",
+        "cha": "+4"
+    },
+    "skill": {
+        "deception": "+6",
+        "insight": "+3",
+        "sleight of hand": "+4",
+        "stealth": "+4"
+    },
+    "senses": ["darkvision 120 ft."],
+    "passive": 11,
+    "languages": ["Aquan", "Common", "Thieves' cant"],
+    "cr": "4",
+    "trait": [
+        {
+            "name": "Amphibious",
+            "entries": ["The deep scion can breathe air and water."]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack",
+            "entries": [
+                "In hybrid form, the deep scion makes three attacks: one with its bite and two with its claws."
+            ]
+        },
+        {
+            "name": "Bite (Hybrid Form Only)",
+            "entries": [
+                "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d4 + 5}) piercing damage."
+            ]
+        },
+        {
+            "name": "Claw (Hybrid Form Only)",
+            "entries": [
+                "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage."
+            ]
+        },
+        {
+            "name": "Psychic Screech (Hybrid Form Only; Recharges after a Short or Long Rest)",
+            "entries": [
+                "The deep scion emits a terrible scream audible within 300 feet. Creatures within 30 feet of the deep scion must succeed on a {@dc 14} Wisdom saving throw or be {@condition stunned} until the end of the deep scion's next turn. In water, the psychic screech also telepathically transmits the deep scion's memories of the last 24 hours to its master, regardless of distance, so long as it and its master are in the same body of water."
+            ]
+        }
+    ],
+    "page": 135,
+    "environment": ["coastal", "swamp", "underdark", "underwater"],
+    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/120/deep-scion.mp3",
+    "actionTags": ["Multiattack"],
+    "languageTags": ["AQ", "C", "TC"],
+    "senseTags": ["SD"],
+    "damageTags": ["P", "S"],
+    "miscTags": ["MW"],
+    "fluff": {
+        "entries": [
+            {
+                "type": "entries",
+                "entries": [
+                    {
+                        "type": "inset",
+                        "entries": ["test"],
+                        "name": "Title"
+                    },
+                    "Captain Juna Marigold is a hybrid human-piscine; his body is sleek like a seal and his thick skin is greyish-white with red vertical stripes. Instead of hands he possesses fins terminating in cartilaginous claws.",
+                    "Deep scions began life as people who were stolen from shore or saved from sinking ships and offered a terrible bargain by an undersea power: surrender, body and soul, or drown. Those who submit are subjected to an ancient ritual widespread among evil aquatic creatures. Its methods are painful and the result never certain, but when it works, the magic transforms an air-breathing person into a shapechanger that can take a form that is fully at home beneath the waves.",
+                    {
+                        "name": "Spies from the Sea",
+                        "entries": [
+                            " A deep scion emerges from the depths in service to its underwater master, which is likely a kraken or some other ancient being of the deep. While wearing the mind and body of the person it once was as a sort of mask, the creature is bent on fulfilling its master's desires. Sometimes a deep scion returns to its former home and a hero's welcome-unexpectedly found alive when all hope was lost. At other times the deep scion takes on a new identity. In any case, it is the deep scion's duty to infiltrate the air-breathing world and report back to its master. When set to its task, a deep scion worms its way into the life of an unsuspecting enemy as a new best friend, an irresistible lover, the perfect candidate for a job, or in some other role that enables the minion to carry out its master's commands."
+                        ],
+                        "type": "entries"
+                    },
+                    {
+                        "name": "Cold-Hearted Killers",
+                        "entries": [
+                            " The training to which a deep scion is subjected rids it of empathy for those whom it spies on. Though one might behave as though infatuated, laugh at the joke of a friend, or appear incensed at some injustice, each of these acts is artificial to the deep scion, a means to an end. It believes that its true form is the shape it takes when it returns to the sea that it thinks of as home. Ironically, however, a deep scion that is killed when in its piscine form is stripped of the magic that robbed it of emotion, leaving behind the corpse of the person the deep scion once was."
+                        ],
+                        "type": "entries"
+                    }
+                ]
+            }
+        ]
+    },
+    "tokenUrl": "https://5e.tools/img/VGM/Deep Scion.png?v=1.94.2",
+
+    "traitTags": ["Amphibious"],
+    "isNpc": true,
+    "isNamedCreature": true,
+
+    "uniqueId": "a11fe2efc1603b7b2903117755e268db"
+}

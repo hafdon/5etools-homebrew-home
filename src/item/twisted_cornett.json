@@ -1,0 +1,16 @@
+{
+    "name": "Twisted Cornett",
+    "wondrous": true,
+    "type": "INS",
+    "weight": 1,
+    "tier": "Major",
+    "rarity": "Uncommon",
+    "reqAttune": true,
+    "source": "ZACH",
+    "page": null,
+    "entries": [
+        "You can use an action to play this cornett in the typical manner. The cornett emits sound in a 30-foot cone that is audible 30 feet away. Each creature in the cone must make a DC 14 Constitution saving throw or be {@condition stunned} until the end of your next turn. Creatures who succeed on their saving throw have their speed reduced by 10, to a minimum of 0.",
+        "Once you use the cornett in this way, it cannot be used again until the next dawn."
+    ],
+    "srd": true
+}
