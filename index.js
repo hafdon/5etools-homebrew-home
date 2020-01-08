@@ -10,6 +10,8 @@ const homebrew = {
     creature: 'monster',
     spell: 'spell',
     deity: 'deity',
+    action: 'action',
+    condition: 'condition',
 };
 
 const buildObj = {};
