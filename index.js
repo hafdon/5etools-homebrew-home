@@ -1,47 +1,56 @@
+/**
+ *
+ * Build script for 5etools homebrew
+ * to meet criteria for pull request to
+ * github.com/TheGiddyLimit/homebrew
+ *
+ */
+
 const fs = require('fs-extra');
-const { _meta } = fs.readJSONSync(`./src/_meta/_meta.json`);
+const log = require('debug')('build');
+const elog = log.extend('error');
 
-console.log('starting');
-
-const homebrew = {
-    // key: folder name for giddy limit and locally
-    // value: 5e.tools property name
-    item: 'item',
-    creature: 'monster',
-    spell: 'spell',
-    deity: 'deity',
-    action: 'action',
-    condition: 'condition',
-};
+log('starting');
 
 const buildObj = {};
+let folders = [];
+const write_location = `./build/hafdon_zorq_test.json`;
+const FILTERSTRING = '__';
 
-Object.entries(homebrew).forEach(([folder, prop]) => {
+try {
+    folders = fs.readdirSync('./src/').filter(e => !e.startsWith(FILTERSTRING));
+} catch (e) {
+    elog(e);
+}
+
+folders.forEach(folder => {
     try {
         const dir = `./src/${folder}`;
 
         const a = fs.readdirSync(dir);
 
         const elements = a
-            .filter(e => !e.startsWith('_'))
+            .filter(e => !e.startsWith(FILTERSTRING))
             .reduce((prev, e) => {
                 prev.push(fs.readJSONSync(`${dir}/${e}`));
                 return prev;
             }, []);
 
-        buildObj[prop] = elements;
+        buildObj[folder] = elements;
     } catch (e) {
-        console.log(e);
+        elog('Unable to create build JSON object.');
+        elog(e);
     }
 });
 
-console.log(Object.keys(buildObj));
+log(Object.keys(buildObj));
 
 try {
-    fs.writeJSONSync(`./build/hafdon_zorq.json`, {
+    fs.writeJSONSync(`./build/hafdon_zorq_test.json`, {
         ...buildObj,
-        _meta,
     });
+    log(`written to ${write_location}`);
 } catch (e) {
-    console.log(e);
+    elog('Unable to write file.');
+    elog(e);
 }
