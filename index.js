@@ -34,7 +34,8 @@ Object.entries(homebrew).forEach(([folder, prop]) => {
         console.log(e);
     }
 });
-console.log({ spell: buildObj.spell });
+
+console.log(Object.keys(buildObj));
 
 try {
     fs.writeJSONSync(`./build/hafdon_zorq.json`, {
