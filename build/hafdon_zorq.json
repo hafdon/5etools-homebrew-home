@@ -4095,6 +4095,86 @@
             "shortName": "Tusternoof"
         },
         {
+            "name": "Baron von Veen (Uugeet form)",
+            "size": "L",
+            "type": "monstrosity",
+            "source": "zorq",
+            "alignment": ["L", "NX", "C", "E"],
+            "ac": [{ "ac": 13, "from": ["natural armor"] }],
+            "hp": { "average": 110, "formula": "20d8 + 30" },
+            "speed": { "walk": 30, "swim": 45 },
+            "str": 15,
+            "dex": 12,
+            "con": 16,
+            "int": 18,
+            "wis": 15,
+            "cha": 8,
+            "skill": { "perception": "+5" },
+            "resist": [
+                {
+                    "resist": ["bludgeoning", "piercing", "slashing"],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "passive": 15,
+            "languages": ["Abyssal", "Infernal", "Primordial", "Common"],
+            "cr": "6",
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": ["The priest can breathe air and water."]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Thunderous Touch",
+                    "entries": [
+                        "{@atk ms} {@hit 5} to hit, reach 5 ft., one creature. {@h}27 ({@damage 5d10}) thunder damage."
+                    ]
+                },
+                {
+                    "name": "Voice of the Baron (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "Baron von Veen speaks through Uugeet with a thunderous voice audible within 300 feet. Creatures of Uugeet's choice that can hear the Baron's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a {@dc 14} Charisma saving throw or be {@condition frightened} for 1 minute. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                }
+            ],
+            "page": null,
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "Uugeet's spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell command}",
+                        "{@spell create or destroy water}"
+                    ],
+                    "daily": {
+                        "3e": [
+                            "{@spell control water}",
+                            "{@spell darkness}",
+                            "{@spell water breathing}",
+                            "{@spell water walk}"
+                        ],
+                        "1e": [
+                            "{@spell call lightning}",
+                            "{@spell Evard's black tentacles}"
+                        ]
+                    },
+                    "ability": "int",
+                    "type": "spellcasting"
+                }
+            ],
+            "environment": ["coastal", "underwater"],
+            "soundClip": null,
+            "traitTags": ["Amphibious"],
+            "languageTags": ["X"],
+            "spellcastingTags": ["I"],
+            "damageTags": ["T"],
+            "npc": true
+        },
+        {
             "name": "Vee'gn'och",
             "size": "M",
             "type": "undead",

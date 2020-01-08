@@ -68,7 +68,7 @@ folders.forEach(folder => {
                         // only node_modules as a end path
                         prev.push(require(`.././src/${folder}/${e}`));
                     } catch (e) {
-                        elog({ 'Error trying to require js module': e });
+                        elog({ 'Error trying to import js module': e });
                     }
                 }
                 return prev;
