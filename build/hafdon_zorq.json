@@ -1,4 +1,65 @@
 {
+    "_meta": [
+        {
+            "sources": [
+                {
+                    "json": "zorq",
+                    "abbreviation": "zorq",
+                    "full": "zorq",
+                    "authors": ["hafdon"],
+                    "version": "2.1.0",
+                    "url": "https://github.com/hafdon/5etools-homebrew-home/",
+                    "targetSchema": "1.0.0"
+                }
+            ],
+            "dateAdded": 1578263517,
+            "dateUpdated": 1578454271
+        }
+    ],
+    "action": [
+        {
+            "name": "Hug",
+            "entries": [
+                "When you take the Hug action, you use at least one free hand to embrace a willing creature in a comforting hug. If that creature is {@condition frightened}, and the cause of that condition allows them to make a saving throw to end the effect, that creature may use their reaction to attempt a saving throw.",
+                "This saving throw attempt does not count against any limit on attempts.",
+                "Once a creature has been {@condition hugged|zorq}, that creature cannot benefit again from the effect of a Hug while the cause of their {@condition frightened} condition remains the same."
+            ],
+            "source": "zorq",
+            "time": [{ "number": 1, "unit": "action" }]
+        }
+    ],
+    "condition": [
+        {
+            "name": "Hugged",
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature who is hugged is much happier than they would be if they were not being hugged.",
+                        "The condition ends if the hugger is {@condition incapacitated}.",
+                        "The condition also ends if an effect removes the hugged creature from the reach of the hugger or hugging effect, such as when a creature is hurled away by the {@spell thunderwave} spell."
+                    ]
+                }
+            ],
+            "source": "zorq"
+        }
+    ],
+    "deity": [
+        {
+            "name": "Aule",
+            "alignment": ["L", "G"],
+            "pantheon": "Dwarven",
+            "domains": ["Rock", "Metal", "Substances", "Craft"],
+            "province": "Deity of dwarves",
+            "category": "The Mordinsamman",
+            "symbol": "Hammer",
+            "source": "zorq",
+            "page": null,
+            "entries": [
+                "A Vala and one of the Aratar, also known as the the Smith and Smith of the Valar, concerned with rock, metal, nature of substances and works of craft."
+            ]
+        }
+    ],
     "item": [
         {
             "name": "Earring of Prevosht",
@@ -826,13 +887,23 @@
             "save": { "str": "+4", "con": "+4" },
             "fluff": {
                 "entries": [
-                    "self-conscious about (smelling too good/fancy)",
-                    "modest about (fur & teeth)",
-                    "want to be / important to be thought to be (dutiful)",
-                    "quotes ",
-                    "-- this isn't going to make me smell good, is it?",
-                    "-- oh, these old, cracked teeth?",
-                    "-- you think i'm totally loyal to the gnolls, right?"
+                    {
+                        "type": "list",
+                        "items": [
+                            "self-conscious about (smelling too good/fancy)",
+                            "modest about (fur & teeth)",
+                            "want to be / important to be thought to be (dutiful)",
+                            "quotes ",
+                            {
+                                "type": "list",
+                                "items": [
+                                    "this isn't going to make me smell good, is it?",
+                                    "oh, these old, cracked teeth?",
+                                    "you think i'm totally loyal to the gnolls, right?"
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "isNpc": true
@@ -4791,6 +4862,111 @@
             "damageTags": ["B"],
             "miscTags": ["MW"],
             "uniqueId": "bb43ed8a8330501d9ded14dc5916a72d"
+        },
+        {
+            "name": "Zod",
+            "size": "S",
+            "type": { "type": "humanoid", "tags": ["kobold"] },
+            "source": "zorq",
+            "alignment": ["L", "E"],
+            "ac": [12],
+            "hp": { "average": 5, "formula": "2d6 - 2" },
+            "speed": { "walk": 30 },
+            "str": 7,
+            "dex": 15,
+            "con": 9,
+            "int": 8,
+            "wis": 7,
+            "cha": 8,
+            "senses": ["darkvision 60 ft."],
+            "passive": 8,
+            "languages": ["Common", "Draconic"],
+            "cr": "1/8",
+            "trait": [
+                {
+                    "name": "Sunlight Sensitivity",
+                    "entries": [
+                        "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries": [
+                        "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Dagger",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Sling",
+                    "entries": [
+                        "{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "environment": [
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "hill",
+                "mountain",
+                "swamp",
+                "underdark",
+                "urban"
+            ],
+            "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/301/kobold.mp3",
+            "traitTags": ["Sunlight Sensitivity", "Pack Tactics"],
+            "languageTags": ["C", "DR"],
+            "senseTags": ["D"],
+            "damageTags": ["P", "B"],
+            "miscTags": ["MW", "RW", "RNG"],
+            "srd": true,
+            "fluff": {
+                "name": "Kobold",
+                "source": "MM",
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "internal",
+                            "path": "bestiary/MM/Kobold.jpg"
+                        }
+                    }
+                ],
+                "entries": [
+                    "Kobolds are craven reptilian humanoids that worship evil dragons as demigods and serve them as minions and toadies. Kobolds inhabit dragons' lairs when they can but more commonly infest dungeons, gathering treasures and trinkets to add to their own tiny hoards.",
+                    {
+                        "name": "Strength in Numbers",
+                        "entries": [
+                            " Kobolds are egg-laying creatures. They mature quickly and can live to be \"great wyrms\" more than a century old. However, many kobolds perish before they reach the end of their first decade. Physically weak, they are easy prey for predators. This vulnerability forces them to band together. Their superior numbers can win battles against powerful adversaries, but often with massive casualties on the kobold side."
+                        ],
+                        "type": "entries"
+                    },
+                    {
+                        "name": "Tunnelers and Builders",
+                        "type": "entries",
+                        "entries": [
+                            "Kobolds make up for their physical ineptitude with a cleverness for trap making and tunneling. Their lairs consist of low tunnels through which they move easily but which hinder larger humanoids. Kobolds also riddle their lairs with traps. The most insidious kobold traps make use of natural hazards and other creatures. A trip wire might connect to a spring-loaded trap that hurls clay pots of flesh-eating green slime or flings crates of venomous giant centipedes at intruders."
+                        ]
+                    },
+                    {
+                        "name": "The Lost God",
+                        "type": "entries",
+                        "entries": [
+                            "In addition to the dragons they revere, kobolds worship a lesser god named Kurtulmak. Legends speak of how Kurtulmak served as Tiamat's vassal in the Nine Hells until Garl Glittergold, the god of gnomes, stole a trinket from the Dragon Queen's hoard. Tiamat sent Kurtulmak to retrieve the trinket, but Garl Glittergold played a trick on him, collapsing the earth and trapping the kobold god in an underground maze for eternity. For this reason, kobolds hate gnomes and pranks of any kind. Kurtulmak's most devoted worshipers dedicate themselves to finding and releasing their lost god from his prison-maze."
+                        ]
+                    }
+                ]
+            },
+            "tokenUrl": "https://5e.tools/img/MM/Kobold.png?v=1.94.4",
+            "uniqueId": "5a5406f14e94eb99f7bbfba29ea03c58"
         }
     ],
     "spell": [
@@ -4837,64 +5013,5 @@
                 }
             ]
         }
-    ],
-    "deity": [
-        {
-            "name": "Aule",
-            "alignment": ["L", "G"],
-            "pantheon": "Dwarven",
-            "domains": ["Rock", "Metal", "Substances", "Craft"],
-            "province": "Deity of dwarves",
-            "category": "The Mordinsamman",
-            "symbol": "Hammer",
-            "source": "zorq",
-            "page": null,
-            "entries": [
-                "A Vala and one of the Aratar, also known as the the Smith and Smith of the Valar, concerned with rock, metal, nature of substances and works of craft."
-            ]
-        }
-    ],
-    "action": [
-        {
-            "name": "Hug",
-            "entries": [
-                "When you take the Hug action, you use at least one free hand to embrace a willing creature in a comforting hug. If that creature is {@condition frightened}, and the cause of that condition allows them to make a saving throw to end the effect, that creature may use their reaction to attempt a saving throw.",
-                "This saving throw attempt does not count against any limit on attempts.",
-                "Once a creature has been {@condition hugged|zorq}, that creature cannot benefit again from the effect of a Hug while the cause of their {@condition frightened} condition remains the same."
-            ],
-            "source": "zorq",
-            "time": [{ "number": 1, "unit": "action" }]
-        }
-    ],
-    "condition": [
-        {
-            "name": "Hugged",
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature who is hugged is much happier than they would be if they were not being hugged.",
-                        "The condition ends if the hugger is {@condition incapacitated}.",
-                        "The condition also ends if an effect removes the hugged creature from the reach of the hugger or hugging effect, such as when a creature is hurled away by the {@spell thunderwave} spell."
-                    ]
-                }
-            ],
-            "source": "zorq"
-        }
-    ],
-    "_meta": {
-        "sources": [
-            {
-                "json": "zorq",
-                "abbreviation": "zorq",
-                "full": "zorq",
-                "authors": ["hafdon"],
-                "version": "2.1.0",
-                "url": "https://github.com/hafdon/5etools-homebrew-home/",
-                "targetSchema": "1.0.0"
-            }
-        ],
-        "dateAdded": 1578263517,
-        "dateUpdated": 1578454271
-    }
+    ]
 }
