@@ -1,4 +1,37 @@
 {
+    "condition": [
+        {
+            "name": "Hugged",
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature who is hugged is much happier than they would be if they were not being hugged."
+                    ]
+                }
+            ],
+            "source": "zorq"
+        }
+        
+    ],
+    "action": [
+        {
+            "name": "Hug",
+            "entries": [
+                "When you take the Hug action, you use at least one free hand to embrace a willing creature in a comforting hug. If that creature is {@condition frightened}, and the cause of that condition allows them to make a saving throw to end the effect, that creature may use their reaction to attempt a saving throw.",
+                "This saving throw attempt does not count against any limit on attempts.",
+                "Once a creature has been {@condition hugged|zorq}, that creature cannot benefit again from the effect of a Hug while the cause of their {@condition frightened} condition remains the same."
+            ],
+            "source": "zorq",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ]
+        }
+        
+    ],
     "item": [
         {
             "name": "Name",
