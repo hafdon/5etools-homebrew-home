@@ -15,9 +15,10 @@ const elog = log.extend('error');
 log('starting');
 
 const buildObj = {};
-let folders = [];
 const write_location = `./build/hafdon_zorq.json`;
 const FILTERSTRING = '__';
+
+let folders = [];
 
 /**
  * Get a list of the folders in the src/ director
@@ -71,7 +72,7 @@ folders.forEach(folder => {
 log(Object.keys(buildObj));
 
 /**
- * Write the file to the build director
+ * Write the file to the build directory
  */
 try {
     fs.writeJSONSync(`${write_location}`, {
