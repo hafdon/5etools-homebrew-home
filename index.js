@@ -27,13 +27,22 @@ const FILTERSTRING = '__';
  * precede the filename with the FILTERSTRING above.
  * All folders which do not begin with this string
  * will end up as properties (keys) in our JSON build file.
+ *
+ * Sort folder names so as to have '_meta' appear first
+ * (and hopefully go to top of JSON output file
+ *  to accord with GiddyLimit style )
  */
 try {
-    folders = fs.readdirSync('./src/').filter(e => !e.startsWith(FILTERSTRING));
+    folders = fs
+        .readdirSync('./src/')
+        .filter(e => !e.startsWith(FILTERSTRING))
+        .sort((a, b) => a.localeCompare(b));
 } catch (e) {
     elog(e);
     process.exitCode = 1;
 }
+
+log({ folders });
 
 /**
  * For each folder, get a list of contained files.

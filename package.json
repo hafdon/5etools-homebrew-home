@@ -4,11 +4,12 @@
     "description": "Homebrew source for 5e.tools",
     "main": "index.js",
     "scripts": {
-        "build": "/bin/bash start.sh && node index.js && npm run format",
+        "build:win": "set DEBUG=build & node index.js && npm run format",
+        "build": "node index.js && npm run format",
         "format": "prettier --write \"./build/hafdon_zorq.json\"",
         "version": "node ./npm_scripts/version/update_meta_version.js && npm run build && git add .",
         "postversion": "git push && git push --tags && /bin/bash ./npm_scripts/postversion/move_files_to_giddy_repo.sh",
-        "rebuild_without_version": "npm run build && npm run format && /bin/bash ./npm_scripts/postversion/move_files_to_giddy_repo.sh"
+        "rebuild_without_version": "npm run build && /bin/bash ./npm_scripts/postversion/move_files_to_giddy_repo.sh"
     },
     "precommit": [],
     "repository": {
