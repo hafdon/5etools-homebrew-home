@@ -89,13 +89,23 @@
     },
     "fluff": {
         "entries": [
-            "self-conscious about (smelling too good/fancy)",
-            "modest about (fur & teeth)",
-            "want to be / important to be thought to be (dutiful)",
-            "quotes ",
-            "-- this isn't going to make me smell good, is it?",
-            "-- oh, these old, cracked teeth?",
-            "-- you think i'm totally loyal to the gnolls, right?"
+            {
+                "type": "list",
+                "items": [
+                    "self-conscious about (smelling too good/fancy)",
+                    "modest about (fur & teeth)",
+                    "want to be / important to be thought to be (dutiful)",
+                    "quotes ",
+                    {
+                        "type": "list",
+                        "items": [
+                            "this isn't going to make me smell good, is it?",
+                            "oh, these old, cracked teeth?",
+                            "you think i'm totally loyal to the gnolls, right?"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     "isNpc": true
