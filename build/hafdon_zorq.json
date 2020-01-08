@@ -1,37 +1,4 @@
 {
-    "condition": [
-        {
-            "name": "Hugged",
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "A creature who is hugged is much happier than they would be if they were not being hugged."
-                    ]
-                }
-            ],
-            "source": "zorq"
-        }
-        
-    ],
-    "action": [
-        {
-            "name": "Hug",
-            "entries": [
-                "When you take the Hug action, you use at least one free hand to embrace a willing creature in a comforting hug. If that creature is {@condition frightened}, and the cause of that condition allows them to make a saving throw to end the effect, that creature may use their reaction to attempt a saving throw.",
-                "This saving throw attempt does not count against any limit on attempts.",
-                "Once a creature has been {@condition hugged|zorq}, that creature cannot benefit again from the effect of a Hug while the cause of their {@condition frightened} condition remains the same."
-            ],
-            "source": "zorq",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ]
-        }
-        
-    ],
     "item": [
         {
             "name": "Earring of Prevosht",
@@ -125,6 +92,18 @@
                 "Once you use the cornett in this way, it cannot be used again until the next dawn."
             ],
             "srd": true
+        },
+        {
+            "name": "Wyrmblood Venom (vial)",
+            "type": "G",
+            "rarity": "None",
+            "value": 10000,
+            "source": "zorq",
+            "page": null,
+            "entries": [
+                "Vee'gn'och create a reddish liquid, which they smear on their fangs. The freakish red mouths on the tiny skeletons are disturbing, and the toxin is deadly. A bitten creature must succeed on a DC15 Constitution saving throw or become {@condition poisoned} and take {@dice 1d6} Charisma damage. A {@condition poisoned} creature repeats the saving throw every four hours, taking another {@dice 1d6} Charisma damage for each failure, until it has made two consecutive successful saves or survived for 24 hours. If the creature survives, the effect ends and the creature can heal normally. Lost Charisma can be regained with a lesser restoration spell or comparable magic."
+            ],
+            "poison": true
         }
     ],
     "monster": [
@@ -4875,6 +4854,34 @@
             ]
         }
     ],
+    "action": [
+        {
+            "name": "Hug",
+            "entries": [
+                "When you take the Hug action, you use at least one free hand to embrace a willing creature in a comforting hug. If that creature is {@condition frightened}, and the cause of that condition allows them to make a saving throw to end the effect, that creature may use their reaction to attempt a saving throw.",
+                "This saving throw attempt does not count against any limit on attempts.",
+                "Once a creature has been {@condition hugged|zorq}, that creature cannot benefit again from the effect of a Hug while the cause of their {@condition frightened} condition remains the same."
+            ],
+            "source": "zorq",
+            "time": [{ "number": 1, "unit": "action" }]
+        }
+    ],
+    "condition": [
+        {
+            "name": "Hugged",
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A creature who is hugged is much happier than they would be if they were not being hugged.",
+                        "The condition ends if the hugger is {@condition incapacitated}.",
+                        "The condition also ends if an effect removes the hugged creature from the reach of the hugger or hugging effect, such as when a creature is hurled away by the {@spell thunderwave} spell."
+                    ]
+                }
+            ],
+            "source": "zorq"
+        }
+    ],
     "_meta": {
         "sources": [
             {
@@ -4882,12 +4889,12 @@
                 "abbreviation": "zorq",
                 "full": "zorq",
                 "authors": ["hafdon"],
-                "version": "2.0.1",
+                "version": "2.1.0",
                 "url": "https://github.com/hafdon/5etools-homebrew-home/",
                 "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1578364643
+        "dateUpdated": 1578454271
     }
 }
