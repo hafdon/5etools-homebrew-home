@@ -88,5 +88,5 @@ module.exports = {
     spellcastingTags: ['I'],
     damageTags: ['T'],
 
-    npc: true,
+    isNpc: true,
 };

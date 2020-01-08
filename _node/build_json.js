@@ -7,6 +7,7 @@
  */
 
 const fs = require('fs-extra');
+const crypto = require('crypto');
 
 // Loggers
 const log = require('debug')('build');
@@ -59,18 +60,30 @@ folders.forEach(folder => {
             .readdirSync(`./src/${folder}`)
             .filter(e => !e.startsWith(FILTERSTRING))
             .reduce((prev, e) => {
+                let data = null;
                 log(e);
                 if (e.endsWith('.json')) {
-                    prev.push(fs.readJSONSync(`./src/${folder}/${e}`));
+                    data = fs.readJSONSync(`./src/${folder}/${e}`);
                 } else if (e.endsWith('.js')) {
                     try {
                         // have to back out a director because node > module.paths shows
                         // only node_modules as a end path
-                        prev.push(require(`.././src/${folder}/${e}`));
+                        data = require(`.././src/${folder}/${e}`);
                     } catch (e) {
                         elog({ 'Error trying to import js module': e });
                     }
                 }
+                // if (data && folder != '_meta') {
+                //     data.uniqueId = crypto
+                //         .createHash('sha256')
+                //         .update(JSON.stringify(data))
+                //         .digest('hex');
+                // }
+                if (Object.getOwnPropertyNames(data).includes('uniqueId')) {
+                    delete data.uniqueId;
+                }
+
+                prev.push(data);
                 return prev;
             }, []);
     } catch (e) {
