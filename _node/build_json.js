@@ -59,7 +59,18 @@ folders.forEach(folder => {
             .readdirSync(`./src/${folder}`)
             .filter(e => !e.startsWith(FILTERSTRING))
             .reduce((prev, e) => {
-                prev.push(fs.readJSONSync(`./src/${folder}/${e}`));
+                log(e);
+                if (e.endsWith('.json')) {
+                    prev.push(fs.readJSONSync(`./src/${folder}/${e}`));
+                } else if (e.endsWith('.js')) {
+                    try {
+                        // have to back out a director because node > module.paths shows
+                        // only node_modules as a end path
+                        prev.push(require(`.././src/${folder}/${e}`));
+                    } catch (e) {
+                        elog({ 'Error trying to require js module': e });
+                    }
+                }
                 return prev;
             }, []);
     } catch (e) {
