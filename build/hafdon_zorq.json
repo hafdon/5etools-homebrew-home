@@ -62,13 +62,23 @@
     ],
     "item": [
         {
+            "name": "Black Wood Resin",
+            "wondrous": true,
+            "poison": true,
+            "curse": false,
+            "rarity": "Rare",
+            "source": "zorq",
+            "page": null,
+            "type": "RG",
+            "entries": ["Flavor text."]
+        },
+        {
             "name": "Earring of Prevosht",
             "wondrous": true,
             "weight": 0.1,
             "rarity": "Rare",
             "source": "zorq",
             "tier": "Major",
-            "page": null,
             "entries": [
                 "This cuff earring is approximately ¼ inch wide and ½ inch in diameter. When applied to the skin, it affixes itself so that it may only be removed by the wearer (requires an Action) or the severing of the surrounding flesh.",
                 "You may take a reaction to pull, tug, rub, or otherwise manipulate the earring. For the next minute, all temporary hit points granted to you will “stack” rather than replacing one another. At the end of the minute, you retain any temporary hit points which have not been lost. This ability resets each dawn."
@@ -127,6 +137,7 @@
         {
             "name": "Thunder Blanket",
             "wondrous": true,
+            "type": "AG",
             "tier": "Minor",
             "rarity": "Uncommon",
             "source": "zorq",
@@ -146,13 +157,27 @@
             "tier": "Major",
             "rarity": "Uncommon",
             "reqAttune": true,
-            "source": "ZACH",
-            "page": null,
+            "source": "zorq",
             "entries": [
-                "You can use an action to play this cornett in the typical manner. The cornett emits sound in a 30-foot cone that is audible 30 feet away. Each creature in the cone must make a DC 14 Constitution saving throw or be {@condition stunned} until the end of your next turn. Creatures who succeed on their saving throw have their speed reduced by 10, to a minimum of 0.",
+                "You can use an action to play this cornett in the typical manner. The cornett emits sound in a 30-foot cone that is audible 30 feet away. Each creature in the cone must make a {@dc 14} Constitution saving throw or be {@condition stunned} until the end of your next turn. Creatures who succeed on their saving throw have their speed reduced by 10, to a minimum of 0.",
                 "Once you use the cornett in this way, it cannot be used again until the next dawn."
+            ]
+        },
+        {
+            "name": "Wraith Dew (Ingested)",
+            "wondrous": true,
+            "source": "zorq",
+            "tier": "Minor",
+            "curse": false,
+            "poison": false,
+            "type": "AG",
+            "entries": [
+                "This potent, syrupy liquid smells like earth and {@item black wood resin|zorq}. Many taverns carry proprietary blends.",
+                "A creature subjected to this liquid must succeed on a {@dc 13} Constitution saving throw or become {@condition poisoned} for {@dice 1d4} hours.",
+                "On a successful save, the creature gains +1 to any Charisma ability checks or saving throws and -1 to Perception ability checks or saving throws for {@dice 1d4 hours}."
             ],
-            "srd": true
+            "attachedSpells": [],
+            "recharge": "dawn"
         },
         {
             "name": "Wyrmblood Venom (vial)",
