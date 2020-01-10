@@ -11,7 +11,7 @@
         "build:json": "set DEBUG=build* & node _node/build_json.js",
         "build:format": "prettier --write \"./build/**/*.json\"",
         "build:version": "node _node/build_update_meta.js",
-        "build:move": "/bin/bash _node/build_move.js",
+        "build:move": "/bin/bash ./_node/build_move.sh",
         "git:push": "git push && git push --tags",
         "build:win": "set DEBUG=build* & node index.js && npm run format"
     },
