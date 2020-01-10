@@ -1,15 +1,15 @@
 module.exports = {
     name: 'Bahamuschevitz',
-    // wondrous: true,
+    wondrous: false,
     // weight: 1,
     rarity: 'Uncommon',
     source: 'zorq',
     // page: null,
-    // tier: 'Minor',
+    tier: null,
     reqAttune: false,
-    type: 'G',
+    type: 'TG',
     entries: [
-        'A sugary fermented beverage with a low ABV associated with followers of {@deity Bahamut}. Often used during rituals of prayer or invocation.',
+        'A sugary fermented beverage with a low ABV associated with followers of {@deity Bahamut|dmg}. Often used during rituals of prayer or invocation.',
         // {
         //     name: 'Donning the mask',
         //     entries: [
