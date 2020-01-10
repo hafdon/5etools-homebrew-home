@@ -121,9 +121,11 @@ file_array.forEach(folder => {
                     }
                     if (e.startsWith('_meta')) {
                         data.dateUpdated = +(Date.now() / 1000).toFixed(0);
+                        prev._meta = data;
+                    } else {
+                        prev.push(data);
                     }
 
-                    prev.push(data);
                     return prev;
                 }, []);
             return prev;
