@@ -20,6 +20,12 @@ module.exports = {
             targetSchema: '1.0.0',
         },
     ],
+    spellSchools: {
+        VD: {
+            full: 'Void',
+            short: 'VD',
+        },
+    },
     dateAdded: 1578601678,
 };
 
