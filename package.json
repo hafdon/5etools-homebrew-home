@@ -13,7 +13,8 @@
         "build:version": "node _node/build_update_meta.js",
         "build:move": "/bin/bash ./_node/build_move.sh",
         "git:push": "git push && git push --tags",
-        "build:win": "set DEBUG=build* & node index.js && npm run format"
+        "build:win": "set DEBUG=build* & node index.js && npm run format",
+        "build:push:temp": "npm run build && git add . && git commit -m \"build\" && git push"
     },
     "precommit": [],
     "repository": {
