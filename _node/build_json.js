@@ -115,14 +115,12 @@ file_array.forEach(folder => {
                             elog({ 'Error trying to import js module': e });
                         }
                     }
-                    // if (data && folder != '_meta') {
-                    //     data.uniqueId = crypto
-                    //         .createHash('sha256')
-                    //         .update(JSON.stringify(data))
-                    //         .digest('hex');
-                    // }
+
                     if (Object.getOwnPropertyNames(data).includes('uniqueId')) {
                         delete data.uniqueId;
+                    }
+                    if (e.startsWith('_meta')) {
+                        data.dateUpdated = Date.now() / 1000;
                     }
 
                     prev.push(data);
