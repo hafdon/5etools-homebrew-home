@@ -7,6 +7,7 @@ module.exports = {
     name: 'Baron von Veen (Uugeet form)',
     size: 'L',
     type: 'monstrosity',
+    tags: ['fish'],
     source: 'zorq',
     alignment: ['L', 'NX', 'C', 'E'],
     ac: [
@@ -45,7 +46,7 @@ module.exports = {
     trait: [
         {
             name: 'Amphibious',
-            entries: ['The priest can breathe air and water.'],
+            entries: ['Uugeet can breathe air and water.'],
         },
     ],
     action: [
