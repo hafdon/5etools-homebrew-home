@@ -5,7 +5,7 @@ module.exports = {
     rarity: 'Uncommon',
     source: 'zorq',
     // page: null,
-    tier: null,
+    tier: 'Minor',
     reqAttune: false,
     type: 'TG',
     entries: [
