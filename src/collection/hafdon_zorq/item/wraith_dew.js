@@ -4,8 +4,8 @@ module.exports = {
     source: 'zorq',
     tier: 'Minor',
     curse: false,
-    poison: false,
-    type: 'AG',
+    poison: true,
+    type: 'TG',
     // TRADE GOOD: 'TG'
     // ADVENTURING GEAR: 'AG'
     entries: [

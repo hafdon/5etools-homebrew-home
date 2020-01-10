@@ -16,7 +16,7 @@ const elog = log.extend('error');
 log('starting');
 
 const buildObj = {};
-const write_location = `./build/hafdon_zorq.json`;
+const write_location = `./build/collection/hafdon_zorq.json`;
 const FILTERSTRING = '__';
 
 let folders = [];
@@ -34,9 +34,12 @@ let folders = [];
  * (and hopefully go to top of JSON output file
  *  to accord with GiddyLimit style )
  */
+
+const parent_dir = './src/collection/hafdon_zorq';
+
 try {
     folders = fs
-        .readdirSync('./src/')
+        .readdirSync(parent_dir)
         .filter(e => !e.startsWith(FILTERSTRING))
         .sort((a, b) => a.localeCompare(b));
 } catch (e) {
@@ -57,18 +60,18 @@ log({ folders });
 folders.forEach(folder => {
     try {
         buildObj[folder] = fs
-            .readdirSync(`./src/${folder}`)
+            .readdirSync(`${parent_dir}/${folder}`)
             .filter(e => !e.startsWith(FILTERSTRING))
             .reduce((prev, e) => {
                 let data = null;
                 log(e);
                 if (e.endsWith('.json')) {
-                    data = fs.readJSONSync(`./src/${folder}/${e}`);
+                    data = fs.readJSONSync(`${parent_dir}/${folder}/${e}`);
                 } else if (e.endsWith('.js')) {
                     try {
                         // have to back out a director because node > module.paths shows
                         // only node_modules as a end path
-                        data = require(`.././src/${folder}/${e}`);
+                        data = require(`../${parent_dir}/${folder}/${e}`);
                     } catch (e) {
                         elog({ 'Error trying to import js module': e });
                     }

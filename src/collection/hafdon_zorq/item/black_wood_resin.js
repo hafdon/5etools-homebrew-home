@@ -9,6 +9,6 @@ module.exports = {
     page: null,
     // tier: 'Major',
     // reqAttune: true,
-    type: 'RG',
+    type: 'TG',
     entries: ['Flavor text.'],
 };

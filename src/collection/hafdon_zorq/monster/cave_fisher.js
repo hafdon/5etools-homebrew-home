@@ -2,10 +2,10 @@
  * For use for template for its usability as ingredients
  */
 module.exports = {
-    name: 'Cave Fisher',
+    name: 'Cave Fisher (zorq)',
     size: 'M',
     type: 'monstrosity',
-    source: 'VGM',
+    source: 'zorq',
     alignment: ['U'],
     ac: [
         {
@@ -72,10 +72,10 @@ module.exports = {
             ],
         },
     ],
-    page: 130,
     environment: ['underdark'],
-    soundClip:
-        'https://media-waterdeep.cursecdn.com/file-attachments/0/83/cave-fisher.mp3',
+    // page: 130,
+    // soundClip:
+    //     'https://media-waterdeep.cursecdn.com/file-attachments/0/83/cave-fisher.mp3',
     traitTags: ['Spider Climb'],
     actionTags: ['Multiattack'],
     senseTags: ['B'],

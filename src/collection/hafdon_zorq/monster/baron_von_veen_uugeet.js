@@ -1,3 +1,8 @@
+/**
+ * TODO: either convert Evard's black Tentacles to UUgeet flavor, or
+ * add it as a legendary action with flavor
+ */
+
 module.exports = {
     name: 'Baron von Veen (Uugeet form)',
     size: 'L',
@@ -57,7 +62,7 @@ module.exports = {
             ],
         },
     ],
-    page: null,
+    // page: null,
     spellcasting: [
         {
             name: 'Innate Spellcasting',
@@ -82,7 +87,7 @@ module.exports = {
         },
     ],
     environment: ['coastal', 'underwater'],
-    soundClip: null,
+    // soundClip: null,
     traitTags: ['Amphibious'],
     languageTags: ['X'],
     spellcastingTags: ['I'],
