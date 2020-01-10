@@ -7,7 +7,6 @@
  */
 
 const fs = require('fs-extra');
-const crypto = require('crypto');
 
 // Loggers
 const log = require('debug')('build');
