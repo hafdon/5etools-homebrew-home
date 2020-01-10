@@ -9,3 +9,5 @@ module.exports = {
     // (this one I got off Baphomet's Boon)
     // featureType: 'SHP:W',
 };
+
+//TODO: this isn't getting indexed
