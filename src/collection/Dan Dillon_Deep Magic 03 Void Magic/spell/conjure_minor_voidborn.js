@@ -26,6 +26,7 @@ module.exports = {
             duration: {
                 type: 'hour',
                 amount: 1,
+                upTo: true,
             },
             concentration: true,
         },

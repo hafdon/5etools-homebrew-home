@@ -1,6 +1,6 @@
 module.exports = {
     name: 'Crushing Curse',
-    level: 5,
+    level: 0,
     school: 'VD',
     // subschools: ['VD'],
     source: 'DM03',

@@ -23,7 +23,7 @@
             ],
             "spellSchools": { "VD": { "full": "Void", "short": "VD" } },
             "dateAdded": 1578601678,
-            "dateUpdated": 1578676614
+            "dateUpdated": 1578677109
         }
     ],
     "feat": [
@@ -58,7 +58,7 @@
             "duration": [
                 {
                     "type": "timed",
-                    "duration": { "type": "hour", "amount": 1 },
+                    "duration": { "type": "hour", "amount": 1, "upTo": true },
                     "concentration": true
                 }
             ],
@@ -94,7 +94,7 @@
         },
         {
             "name": "Crushing Curse",
-            "level": 5,
+            "level": 0,
             "school": "VD",
             "source": "DM03",
             "time": [{ "number": 1, "unit": "action" }],
@@ -120,6 +120,32 @@
             "damageInflict": ["psychic"],
             "conditionInflict": ["deafened"],
             "savingThrow": ["wisdom"],
+            "areaTags": ["ST"],
+            "srd": true
+        },
+        {
+            "name": "Maddening Whispers",
+            "level": 2,
+            "school": "VD",
+            "source": "DM03",
+            "time": [{ "number": 1, "unit": "action" }],
+            "range": { "distance": { "type": "feet", "amount": 30 } },
+            "components": { "v": true, "s": true },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": { "type": "minute", "amount": 0 }
+                }
+            ],
+            "classes": {
+                "fromClassList": [{ "name": "Wizard", "source": "PHB" }]
+            },
+            "entries": [
+                "You whisper a string of Void Speech toward a target that can hear you. The target must succeed on a Charisma saving throw or be {@condition incapacitated}. While incapacitated by this spell, the target’s speed is 0 and it can’t benefit from increases to its speed. To maintain the effect, you must use your action on subsequent turns to continue whispering; otherwise, the spell ends. The spell also ends if the target takes damage."
+            ],
+            "page": 8,
+            "conditionInflict": ["incapacitated"],
+            "savingThrow": ["charisma"],
             "areaTags": ["ST"],
             "srd": true
         }
