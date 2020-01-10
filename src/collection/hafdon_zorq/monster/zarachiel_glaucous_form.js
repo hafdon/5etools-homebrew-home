@@ -3,7 +3,7 @@ module.exports = {
     size: 'L',
     type: {
         type: 'ooze',
-        tags: ['celestial'],
+        tags: ['celestial', 'it, they'],
     },
     source: 'zorq',
     alignment: ['C', 'E'],
@@ -52,6 +52,11 @@ module.exports = {
     cr: '3',
     trait: [
         {
+            entries: [
+                'In glaucous form, Zarachiel is a 9-foot tall greyish-black ooze with tiny silver eyes. Its outer layer flows like a fondue fountain. It does not spell great.',
+            ],
+        },
+        {
             name: 'Amorphous',
             entries: [
                 'Zarachiel can move through a space as narrow as 1 inch wide without squeezing.',
@@ -60,7 +65,7 @@ module.exports = {
         {
             name: "Season's Change",
             entries: [
-                'If Zarachiel (or its host) takes at least 10 fire damage, it also gains the effect of a haste spell until the end of its next turn. If it takes at least 10 cold damage, it gains the effect of a slow spell until the end of its next turn.',
+                'If Zarachiel (or its host) takes at least 10 fire damage, it also gains the effect of the {spell haste|phb} spell until the end of its next turn. If it takes at least 10 cold damage, it gains the effect of the {@slow|phb} spell until the end of its next turn.',
             ],
         },
     ],
