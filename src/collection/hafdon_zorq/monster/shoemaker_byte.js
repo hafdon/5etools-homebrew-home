@@ -56,6 +56,12 @@ module.exports = {
                 'Shoemaker Byte wears an iron kettle hat. Any attempt to remove the helm suffers a -5 penalty.',
             ],
         },
+        {
+            name: 'Labyrinthine Recall',
+            entries: [
+                'Shoemaker Byte can perfectly recall any path she has traveled.',
+            ],
+        },
     ],
     action: [
         {
@@ -109,6 +115,12 @@ module.exports = {
         {
             name: 'Bite Attack',
             entries: ['Shoemaker Byte makes a melee attack with her bite.'],
+        },
+        {
+            name: 'Dirty Claws',
+            entries: [
+                'Shoemaker Byte casts the {@spell mold earth|xge} cantrip.',
+            ],
         },
     ],
     fluff: {
