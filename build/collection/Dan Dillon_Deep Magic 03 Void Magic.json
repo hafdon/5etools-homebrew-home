@@ -23,7 +23,7 @@
             ],
             "spellSchools": { "VD": { "full": "Void", "short": "VD" } },
             "dateAdded": 1578601678,
-            "dateUpdated": 1578675685
+            "dateUpdated": 1578676614
         }
     ],
     "feat": [
@@ -50,8 +50,7 @@
         {
             "name": "Conjure Minor Voidborn",
             "level": 5,
-            "school": "T",
-            "subschools": ["VD"],
+            "school": "VD",
             "source": "DM03",
             "time": [{ "number": 1, "unit": "minute" }],
             "range": { "distance": { "type": "feet", "amount": 90 } },
@@ -64,13 +63,7 @@
                 }
             ],
             "classes": {
-                "fromClassList": [{ "name": "Wizard", "source": "PHB" }],
-                "fromSubclass": [
-                    {
-                        "class": { "name": "Wizard", "source": "PHB" },
-                        "subclass": { "name": "Void Speaker", "source": "DM03" }
-                    }
-                ]
+                "fromClassList": [{ "name": "Wizard", "source": "PHB" }]
             },
             "entries": [
                 "You summon fiends or aberrations that appear in unoccupied spaces you can see within range. You choose one of the following options for what appears:",
@@ -84,7 +77,7 @@
                     ]
                 },
                 "Summoned creatures disappear when they drop to 0 hit points or when the spell ends.",
-                "The summoned creatures do not directly attack you or your companions. Roll initiative for the summoned creatures as a group; they take their own turns on their initiative result. They attack your enemies and try to stay within 90 feet of you, but they control their own actions. The summoned creatures despise being bound, so they might harm or impede you and your companions with secondary effects (but not direct attacks) if the opportunity arises. At the beginning of the creatures’ turn, you can use your reaction to verbally command them. They obey your commands for that turn, and you take 1d6 psychic damage at the end of the turn.",
+                "The summoned creatures do not directly attack you or your companions. Roll initiative for the summoned creatures as a group; they take their own turns on their initiative result. They attack your enemies and try to stay within 90 feet of you, but they control their own actions. The summoned creatures despise being bound, so they might harm or impede you and your companions with secondary effects (but not direct attacks) if the opportunity arises. At the beginning of the creatures’ turn, you can use your reaction to verbally command them. They obey your commands for that turn, and you take {@damage 1d6} psychic damage at the end of the turn.",
                 "If your concentration is broken, the creatures don’t disappear. Instead, you can no longer command them and they become hostile to you and your companions. They will attack you and your allies if they believe they have a chance to win the fight or to inflict meaningful harm, but they won’t fight if they fear it would mean their own death. The creatures can’t be dismissed by you, but they disappear 1 hour after being summoned."
             ],
             "entriesHigherLevel": [
@@ -97,6 +90,37 @@
                 }
             ],
             "page": 7,
+            "srd": true
+        },
+        {
+            "name": "Crushing Curse",
+            "level": 5,
+            "school": "VD",
+            "source": "DM03",
+            "time": [{ "number": 1, "unit": "action" }],
+            "range": { "distance": { "type": "feet", "amount": 60 } },
+            "components": { "v": true, "s": true },
+            "duration": [{ "type": "instant" }],
+            "classes": {
+                "fromClassList": [{ "name": "Wizard", "source": "PHB" }]
+            },
+            "entries": [
+                "You speak a word of void speech. Choose a creature you can see within range. If the target can hear you, it must succeed on a Wisdom saving throw or take {@damage 1d6} psychic damage and be {@condition deafened|phb} for 1 minute. A deafened creature can repeat the saving throw at the end of each of its turns, ending the deafness on a success. A creature deafened in this way can still hear Void Speech."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "This spell’s damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+                    ]
+                }
+            ],
+            "page": 7,
+            "damageInflict": ["psychic"],
+            "conditionInflict": ["deafened"],
+            "savingThrow": ["wisdom"],
+            "areaTags": ["ST"],
             "srd": true
         }
     ],
