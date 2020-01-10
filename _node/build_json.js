@@ -120,7 +120,7 @@ file_array.forEach(folder => {
                         delete data.uniqueId;
                     }
                     if (e.startsWith('_meta')) {
-                        data.dateUpdated = (Date.now() / 1000).toFixed(0);
+                        data.dateUpdated = +(Date.now() / 1000).toFixed(0);
                     }
 
                     prev.push(data);
