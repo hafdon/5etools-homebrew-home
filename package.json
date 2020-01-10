@@ -9,7 +9,7 @@
         "postversion": "npm run git:push && npm run build:move",
         "rebuild_without_version": "npm run build && npm run build:move",
         "build:json": "set DEBUG=build* & node _node/build_json.js",
-        "build:format": "prettier --write \"./build/hafdon_zorq.json\"",
+        "build:format": "prettier --write \"./build/**/*.json\"",
         "build:version": "node _node/build_update_meta.js",
         "build:move": "/bin/bash _node/build_move.js",
         "git:push": "git push && git push --tags",
