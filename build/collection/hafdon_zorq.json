@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1578714622
+        "dateUpdated": 1578714908
     },
     "action": [
         {
@@ -481,27 +481,32 @@
             "languages": ["Common", "Dwarvish"],
             "trait": [
                 {
-                    "name": "Dwarven Resilience",
+                    "type": "section",
                     "entries": [
-                        "Carlos has advantage on saving throws against poison, and has resistance against poison damage."
-                    ]
-                },
-                {
-                    "name": "Speed",
-                    "entries": [
-                        "Carlos's speed is not reduced by wearing {heavy armor}."
-                    ]
-                },
-                {
-                    "name": "Stonecunning",
-                    "entries": [
-                        "Whenever you make an Intelligence ({@skill History|phb}) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
-                    ]
-                },
-                {
-                    "name": "Disciple of Life",
-                    "entries": [
-                        "Starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
+                        {
+                            "name": "Dwarven Resilience",
+                            "entries": [
+                                "Carlos has advantage on saving throws against poison, and has resistance against poison damage."
+                            ]
+                        },
+                        {
+                            "name": "Speed",
+                            "entries": [
+                                "Carlos's speed is not reduced by wearing {heavy armor}."
+                            ]
+                        },
+                        {
+                            "name": "Stonecunning",
+                            "entries": [
+                                "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+                            ]
+                        },
+                        {
+                            "name": "Disciple of Life",
+                            "entries": [
+                                "Starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
+                            ]
+                        }
                     ]
                 },
                 {
@@ -535,7 +540,7 @@
                             "type": "entries",
                             "name": "These Rocks Look Great",
                             "entries": [
-                                "After {@creature cora gn'tash|zorq} and {@creature lum gorebelly|zorq} carried out a similar spell to revitalize the bones of their murdered kin, {@deity Aule|zorq} granted you this feature. You always have {@spell These Rocks Look Great|zorq} prepared, and can use your Channel Divinity to cast it as an action, requiring no material components and without using a spell slot."
+                                "After {@creature Cora Gn'Tash|zorq} and {@creature Lum Gorebelly|zorq} carried out a similar spell to revitalize the bones of their murdered kin, {@deity Aule|zorq} granted you this feature. You always have {@spell These Rocks Look Great|zorq} prepared, and can use your Channel Divinity to cast it as an action, requiring no material components and without using a spell slot."
                             ]
                         }
                     ]
