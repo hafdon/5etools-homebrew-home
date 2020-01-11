@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1578711421
+        "dateUpdated": 1578712423
     },
     "action": [
         {
@@ -157,6 +157,20 @@
             ]
         },
         {
+            "name": "Potion of Pr'lll",
+            "resist": ["poison", "necrotic"],
+            "type": "P",
+            "weight": 0.5,
+            "tier": "Minor",
+            "rarity": "Uncommon",
+            "source": "zorq",
+            "srd": true,
+            "entries": [
+                "When you drink this potion, you gain resistance to poison and necrotic damage for 1 hour.",
+                "For that time you also make any Charisma checks with disadvantage."
+            ]
+        },
+        {
             "name": "Ring of Mind Shielding",
             "type": "RG",
             "tier": "Major",
@@ -187,6 +201,22 @@
                         "{@spell false life|[hb]}",
                         "{@spell enlarge/reduce|phb}"
                     ]
+                }
+            ]
+        },
+        {
+            "name": "Salted Grape Jerky",
+            "wondrous": false,
+            "poison": false,
+            "curse": false,
+            "rarity": "Common",
+            "source": "zorq",
+            "type": "TG",
+            "entries": [
+                {
+                    "type": "quote",
+                    "entries": ["It's like drinking a raisin."],
+                    "by": "Fezziwig Hornswoggle"
                 }
             ]
         },
@@ -2766,6 +2796,10 @@
                         "entries": [
                             "Warlocks of the archfey gain their powers through magical pacts forged with lords of the Feywild. These warlocks commonly associate with lesser fey creatures such as boggles, quicklings, redcaps, satyrs, and sprites."
                         ]
+                    },
+                    {
+                        "type": "entries",
+                        "entries": "Dead and burnt, she smells like sausage cooked with pine chips."
                     }
                 ]
             },
@@ -3997,7 +4031,7 @@
         {
             "name": "Shoemaker Byte",
             "size": "L",
-            "type": { "type": "monstrosity", "tags": ["she, her"] },
+            "type": { "type": "fey", "tags": ["pronouns: she, her, hers"] },
             "source": "zorq",
             "alignment": ["N", "G"],
             "ac": [{ "ac": 13, "from": ["natural armor"] }],

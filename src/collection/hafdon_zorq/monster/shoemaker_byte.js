@@ -2,8 +2,8 @@ module.exports = {
     name: 'Shoemaker Byte',
     size: 'L',
     type: {
-        type: 'monstrosity',
-        tags: ['she, her'],
+        type: 'fey',
+        tags: ['pronouns: she, her, hers'],
     },
     source: 'zorq',
     alignment: ['N', 'G'],
