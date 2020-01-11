@@ -1,3 +1,7 @@
+/**
+ * Reskinned Yeth Hound
+ */
+
 module.exports = {
     name: 'Goglocks',
     size: 'L',
