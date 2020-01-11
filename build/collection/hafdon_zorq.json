@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1578713302
+        "dateUpdated": 1578714006
     },
     "action": [
         {
@@ -503,6 +503,35 @@
                     "entries": [
                         "Starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
                     ]
+                },
+                {
+                    "name": "Channel Divinity (1/rest)",
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Turn Undead",
+                            "entries": [
+                                "As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
+                                "A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash|phb} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge|phb} action."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Harness Divine Power",
+                            "entries": [
+                                "You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended 1st-level spell slot."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Preserve Life",
+                            "entries": [
+                                "Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.",
+                                "As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct."
+                            ]
+                        }
+                    ]
                 }
             ],
             "senses": ["darkvision 60 ft."],
@@ -547,18 +576,6 @@
                         }
                     },
                     "ability": "wis",
-                    "type": "spellcasting"
-                },
-                {
-                    "name": "Channel Divinity (1/rest)",
-                    "footerEntries": [
-                        "Turn Undead",
-                        "As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.\", \"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
-                        "Harness Divine Power",
-                        "You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended 1st-level spell slot.",
-                        "Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.",
-                        "As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct."
-                    ],
                     "type": "spellcasting"
                 }
             ],
