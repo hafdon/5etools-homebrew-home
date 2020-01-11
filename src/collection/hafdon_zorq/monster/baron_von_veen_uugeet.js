@@ -74,18 +74,18 @@ module.exports = {
                 '{@spell command|phb}',
                 '{@spell create or destroy water|phb}',
             ],
-            daily: {
-                '3e': [
-                    '{@spell control water|phb}',
-                    '{@spell darkness|phb}',
-                    '{@spell water breathing|phb}',
-                    '{@spell water walk|phb}',
-                ],
-                '1e': [
-                    '{@spell call lightning|phb}',
-                    "{@spell evard's black tentacles|PHB}",
-                ],
-            },
+            // daily: {
+            //     '3e': [
+            //         '{@spell control water|phb}',
+            //         '{@spell darkness|phb}',
+            //         '{@spell water breathing|phb}',
+            //         '{@spell water walk|phb}',
+            //     ],
+            //     '1e': [
+            //         '{@spell call lightning|phb}',
+            //         "{@spell evard's black tentacles|PHB}",
+            //     ],
+            // },
             ability: 'int',
             type: 'spellcasting',
         },

@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1578705818
+        "dateUpdated": 1578707153
     },
     "action": [
         {
@@ -165,12 +165,18 @@
             "tier": "Major",
             "rarity": "Other",
             "source": "zorq",
+            "srd": true,
             "entries": [
                 "This spellbook, along with anything written on its pages, can't be damaged by fire or immersion in water. In addition, the spellbook doesn't deteriorate with age.",
-                "This spellbook contains the following spells:",
+                "This spellbook contains the following legible spells. There are other markings in the book, but you cannot tell what they are, and {@spell comprehend languages|phb} does not allow you to interpret them.",
                 {
                     "type": "list",
-                    "items": ["{@spell identify}", "{@spell ray of sickness}"]
+                    "items": [
+                        "{@spell spare the dying|phb}",
+                        "{@spell comprehend languages|phb}",
+                        "{@spell false life|[hb]}",
+                        "{@spell enlarge/reduce|phb}"
+                    ]
                 }
             ]
         },
@@ -252,6 +258,73 @@
         }
     ],
     "monster": [
+        {
+            "name": "Baron von Veen (Uugeet form)",
+            "size": "L",
+            "type": "monstrosity",
+            "tags": ["fish"],
+            "source": "zorq",
+            "alignment": ["L", "NX", "C", "E"],
+            "ac": [{ "ac": 13, "from": ["natural armor"] }],
+            "hp": { "average": 110, "formula": "20d8 + 30" },
+            "speed": { "walk": 30, "swim": 45 },
+            "str": 16,
+            "dex": 12,
+            "con": 16,
+            "int": 18,
+            "wis": 15,
+            "cha": 8,
+            "skill": { "perception": "+5", "athletics": "+6" },
+            "resist": [
+                {
+                    "resist": ["bludgeoning", "piercing", "slashing"],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "passive": 15,
+            "languages": ["Abyssal", "Infernal", "Primordial", "Common"],
+            "cr": "6",
+            "trait": [
+                {
+                    "name": "Amphibious",
+                    "entries": ["Uugeet can breathe air and water."]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Thunderous Touch",
+                    "entries": [
+                        "{@atk ms} {@hit 5} to hit, reach 5 ft., one creature. {@h}27 ({@damage 5d10}) thunder damage."
+                    ]
+                },
+                {
+                    "name": "Voice of the Baron (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "Baron von Veen speaks through Uugeet with a thunderous voice audible within 300 feet. Creatures of Uugeet's choice that can hear the Baron's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a {@dc 14} Charisma saving throw or be {@condition frightened} for 1 minute. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "Uugeet's spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell command|phb}",
+                        "{@spell create or destroy water|phb}"
+                    ],
+                    "ability": "int",
+                    "type": "spellcasting"
+                }
+            ],
+            "environment": ["coastal", "underwater"],
+            "traitTags": ["Amphibious"],
+            "languageTags": ["X"],
+            "spellcastingTags": ["I"],
+            "damageTags": ["T"],
+            "isNpc": true
+        },
         {
             "name": "Blue face hag tall",
             "size": "M",
@@ -5689,7 +5762,7 @@
                     "items": [
                         "You and the target gain a +2 bonus to AC and gain {@dice 2d6} temporary hit points each (roll once for both), which are lost when the spell ends.",
                         "You and the target are immune to being {@condition charmed} and {@condition frightened} and cannot be possessed.",
-                        "You and the target are immune to being {@condition petrified}.",
+                        "You and the target are immune to being {@condition petrified}. In addition, you or the target may use an action to cast the {@spell mold earth|phb} cantrip.",
                         "You and the target add +5 to any skill or ability check in which stone is concerned."
                     ]
                 },

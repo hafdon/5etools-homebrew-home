@@ -4,12 +4,18 @@ module.exports = {
     tier: 'Major',
     rarity: 'Other',
     source: 'zorq',
+    srd: true,
     entries: [
         "This spellbook, along with anything written on its pages, can't be damaged by fire or immersion in water. In addition, the spellbook doesn't deteriorate with age.",
-        'This spellbook contains the following spells:',
+        'This spellbook contains the following legible spells. There are other markings in the book, but you cannot tell what they are, and {@spell comprehend languages|phb} does not allow you to interpret them.',
         {
             type: 'list',
-            items: ['{@spell identify}', '{@spell ray of sickness}'],
+            items: [
+                '{@spell spare the dying|phb}',
+                '{@spell comprehend languages|phb}',
+                '{@spell false life|[hb]}',
+                '{@spell enlarge/reduce|phb}',
+            ],
         },
     ],
 };

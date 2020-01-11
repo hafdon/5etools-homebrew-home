@@ -39,7 +39,7 @@ module.exports = {
             items: [
                 'You and the target gain a +2 bonus to AC and gain {@dice 2d6} temporary hit points each (roll once for both), which are lost when the spell ends.',
                 'You and the target are immune to being {@condition charmed} and {@condition frightened} and cannot be possessed.',
-                'You and the target are immune to being {@condition petrified}.',
+                'You and the target are immune to being {@condition petrified}. In addition, you or the target may use an action to cast the {@spell mold earth|phb} cantrip.',
                 'You and the target add +5 to any skill or ability check in which stone is concerned.',
             ],
         },
