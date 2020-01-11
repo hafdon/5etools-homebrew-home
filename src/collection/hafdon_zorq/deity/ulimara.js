@@ -8,5 +8,5 @@ module.exports = {
     // symbol: 'Hammer',
     source: 'zorq',
     page: null,
-    entries: ['One of her messengers is {@creature dalariel|zorq}.'],
+    entries: ['One of her messengers is {@creature Dalariel|zorq}.'],
 };
