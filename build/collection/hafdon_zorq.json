@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1578709485
+        "dateUpdated": 1578710227
     },
     "action": [
         {
@@ -56,6 +56,16 @@
             "entries": [
                 "A Vala and one of the Aratar, also known as the the Smith and Smith of the Valar, concerned with rock, metal, nature of substances and works of craft."
             ]
+        },
+        {
+            "name": "Ulimara",
+            "alignment": ["L", "G"],
+            "pantheon": "Oceanic",
+            "domains": ["Sea", "Ocean", "Ships"],
+            "province": "Goddess of the Tranquil Sea",
+            "source": "zorq",
+            "page": null,
+            "entries": ["One of her messengers is {@creature dalariel|zorq}."]
         }
     ],
     "item": [
@@ -96,7 +106,7 @@
                     "type": "entries",
                     "name": "Curse",
                     "entries": [
-                        "Once you don this cursed armor, you can't doff it unless you are targeted by the remove curse spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against followers of {@monster Baphomet} and on saving throws against their spells and special abilities."
+                        "Once you don this cursed armor, you can't doff it unless you are targeted by the remove curse spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against followers of {@creature Baphomet} and on saving throws against their spells and special abilities."
                     ]
                 }
             ],
@@ -1261,7 +1271,7 @@
             "resist": ["acid", "cold", "lightning"],
             "senses": ["blindsight 30 ft.", "darkvision 120 ft."],
             "passive": 13,
-            "languages": ["Aquan"],
+            "languages": ["XX"],
             "cr": "6",
             "trait": [
                 {
@@ -1271,7 +1281,19 @@
                 {
                     "name": "Elemental Demise",
                     "entries": [
-                        "If Dalariel dies, its body disintegrates into a burst of water and foam, leaving behind only equipment Dalariel was wearing or carrying."
+                        "If Dalariel dies, her body disintegrates into a burst of water and foam, leaving behind only equipment Dalariel was wearing or carrying."
+                    ]
+                },
+                {
+                    "name": "Flyby",
+                    "entries": [
+                        "The angel doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+                    ]
+                },
+                {
+                    "name": "Recall Trident",
+                    "entries": [
+                        "As a bonus action Dalariel can recall to her grasp her trident as long as it is no more than 80 feet away from her."
                     ]
                 }
             ],
@@ -1289,15 +1311,7 @@
                 {
                     "name": "Battlefield Inspiration",
                     "entries": [
-                        "Dalariel chooses up to three creatures it can see within 30 feet of it. Until the end of Dalariel's next turn, each target can add a {@dice d4} to its attack rolls and saving throws."
-                    ]
-                }
-            ],
-            "bonusAction": [
-                {
-                    "name": "Recall Trident",
-                    "entries": [
-                        "Dalariel can recall to her grasp her trident as long as it is no more than 80 feet away from her."
+                        "Dalariel chooses up to three creatures she can see within 30 feet of it. Until the end of Dalariel's next turn, each target can add a {@dice d4} to its attack rolls and saving throws."
                     ]
                 }
             ],
@@ -1305,7 +1319,7 @@
                 {
                     "name": "Innate Spellcasting",
                     "headerEntries": [
-                        "Dalariel's innate spellcasting ability is Charisma (spell save DC 14, {@hit 6} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+                        "Dalariel's innate spellcasting ability is Charisma (spell save DC 14, {@hit 6} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
                     ],
                     "will": [
                         "{@spell create or destroy water}",
@@ -1334,14 +1348,26 @@
             ],
             "environment": ["coastal", "underwater"],
             "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/322/marid.mp3",
-            "traitTags": ["Amphibious"],
+            "traitTags": ["Amphibious", "Flyby"],
             "actionTags": ["Multiattack"],
             "languageTags": ["AQ"],
             "senseTags": ["B", "SD"],
             "spellcastingTags": ["I"],
             "damageTags": ["P", "B"],
             "miscTags": ["RW", "MW", "THW", "AOE"],
-            "tokenUrl": "https://5e.tools/img/MM/Marid.png?v=1.94.8"
+            "fluff": {
+                "source": "GGR",
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "internal",
+                            "path": "bestiary/GGR/Battleforce Angel.jpg"
+                        }
+                    }
+                ]
+            },
+            "tokenUrl": "https://5e.tools/img/GGR/Battleforce Angel.png?v=1.94.8"
         },
         {
             "name": "Domonkos",

@@ -1,5 +1,5 @@
 /**
- * based on {@monster gibbering mouther|dmg}
+ * based on {@creature gibbering mouther|dmg}
  */
 module.exports = {
     name: 'Oubriidthe',

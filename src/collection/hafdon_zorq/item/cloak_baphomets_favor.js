@@ -12,7 +12,7 @@ module.exports = {
             type: 'entries',
             name: 'Curse',
             entries: [
-                "Once you don this cursed armor, you can't doff it unless you are targeted by the remove curse spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against followers of {@monster Baphomet} and on saving throws against their spells and special abilities.",
+                "Once you don this cursed armor, you can't doff it unless you are targeted by the remove curse spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against followers of {@creature Baphomet} and on saving throws against their spells and special abilities.",
             ],
         },
     ],
