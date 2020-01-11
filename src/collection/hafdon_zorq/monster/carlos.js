@@ -18,7 +18,7 @@ module.exports = {
     size: 'M',
     type: {
         type: 'humanoid',
-        tags: ['he, him'],
+        tags: ['dwarf', 'pronouns: he, him, his'],
     },
     ac: [
         {
@@ -50,6 +50,7 @@ module.exports = {
     trait: [
         /**
          * double-nest these entries so their header formatting is correct
+         * TODO: this isn't working to do that
          */
         {
             type: 'section',
@@ -69,7 +70,7 @@ module.exports = {
                             type: 'entries',
                             name: 'Speed',
                             entries: [
-                                "Carlos's speed is not reduced by wearing {heavy armor}.",
+                                "Carlos's speed is not reduced by wearing heavy armor.",
                             ],
                         },
                         {
@@ -130,7 +131,6 @@ module.exports = {
 
     senses: ['darkvision 60 ft.'],
 
-    tokenUrl: 'https://5e.tools/img/SKT/Shield Dwarf Guard.png?v=1.94.4',
     level: 4,
     save: {
         wis: '+7',
