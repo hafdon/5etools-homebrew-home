@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1578715029
+        "dateUpdated": 1578715132
     },
     "action": [
         {
@@ -369,30 +369,35 @@
                     "entries": [
                         {
                             "type": "entries",
-                            "name": "Dwarven Resilience",
                             "entries": [
-                                "Carlos has advantage on saving throws against poison, and has resistance against poison damage."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Speed",
-                            "entries": [
-                                "Carlos's speed is not reduced by wearing {heavy armor}."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Stonecunning",
-                            "entries": [
-                                "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Disciple of Life",
-                            "entries": [
-                                "Starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
+                                {
+                                    "type": "entries",
+                                    "name": "Dwarven Resilience",
+                                    "entries": [
+                                        "Carlos has advantage on saving throws against poison, and has resistance against poison damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Speed",
+                                    "entries": [
+                                        "Carlos's speed is not reduced by wearing {heavy armor}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Stonecunning",
+                                    "entries": [
+                                        "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Disciple of Life",
+                                    "entries": [
+                                        "Starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
+                                    ]
+                                }
                             ]
                         }
                     ]
