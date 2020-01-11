@@ -1,10 +1,12 @@
+/**
+ * (Paros) Ring of Mind Shielding from DMG
+ */
 module.exports = {
-    name: '(Paros) Ring of Mind Shielding',
+    name: 'Ring of Mind Shielding',
     type: 'RG',
     tier: 'Major',
     rarity: 'Uncommon',
     source: 'zorq',
-
     reqAttune: true,
     entries: [
         'While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.',
