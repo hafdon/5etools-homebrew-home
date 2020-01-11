@@ -64,4 +64,7 @@ module.exports = {
         nature: '+2',
         acrobatics: '+7',
     },
+    fluff: {
+        entries: ["Sigmurt's giant bat steed."],
+    },
 };
