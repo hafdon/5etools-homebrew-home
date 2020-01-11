@@ -56,12 +56,14 @@ module.exports = {
         },
         {
             name: 'Speed',
-            entries: ["Carlos's speed is not reduced by wearing heavy armor."],
+            entries: [
+                "Carlos's speed is not reduced by wearing {heavy armor}.",
+            ],
         },
         {
             name: 'Stonecunning',
             entries: [
-                'Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.',
+                'Whenever you make an Intelligence ({@skill History|phb}) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.',
             ],
         },
         {
@@ -95,6 +97,13 @@ module.exports = {
                     entries: [
                         'Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.',
                         "As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct.",
+                    ],
+                },
+                {
+                    type: 'entries',
+                    name: 'These Rocks Look Great',
+                    entries: [
+                        "After {@creature cora gn'tash|zorq} and {@creature lum gorebelly|zorq} carried out a similar spell to revitalize the bones of their murdered kin, {@deity Aule|zorq} granted you this feature. You always have {@spell These Rocks Look Great|zorq} prepared, and can use your Channel Divinity to cast it as an action, requiring no material components and without using a spell slot.",
                     ],
                 },
             ],
@@ -152,9 +161,8 @@ module.exports = {
     ],
     fluff: {
         entries: [
-            "Carlos's deity is {@deity Aule}. One of his rituals involves spinning in a circle with his warhammer held outstretched.",
+            "Carlos's deity is {@deity Aule|zorq}. One of his rituals involves spinning in a circle with his warhammer held outstretched.",
         ],
     },
     shortName: 'Carlos',
-    uniqueId: 'aa0a122ad799d7e6b4a7f180bfdd1be0',
 };
