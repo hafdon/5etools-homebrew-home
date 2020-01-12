@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'Black Wood Resin',
+    name: 'Zorbwood Resin',
     wondrous: true,
     poison: true,
 
@@ -8,5 +8,5 @@ module.exports = {
     source: 'zorq',
     tier: 'Minor',
     type: 'TG',
-    entries: ['Flavor text.'],
+    entries: ['This resin is extracted from living {@item zorbwood|zorq}'],
 };

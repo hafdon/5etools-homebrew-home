@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1578810764
+        "dateUpdated": 1578853074
     },
     "action": [
         {
@@ -95,15 +95,21 @@
         {
             "name": "Whip Aficionado",
             "source": "zorq",
-            "prerequisite": [{ "other": "Proficiency with whips" }],
+            "prerequisite": [
+                {
+                    "other": "Proficiency with whips",
+                    "ability": [{ "dex": 13 }]
+                }
+            ],
             "entries": [
-                "You have always had a love for whips. You gain the following benefits:",
+                "You have always had a love for whips. You gain the following benefits when using one:",
                 {
                     "type": "list",
                     "items": [
-                        "You can use the {@action Help} action as a bonus action provided you have made a melee attack with a whip this turn. Additionally, when you use the {@action Help} action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you.",
-                        "If you hit a Large or smaller creature with a melee attack using a whip, you can choose to knock the creature prone, or pull the creature up to 10 feet closer to you. If you do so, roll a {@dice d8} and reduce any damage the creature would take from the attack by that amount (to a minimum of 0).",
-                        "When you make a melee attack on your turn with a whip, your reach with it is 5 feet greater than normal."
+                        "You gain a +1 bonus to attack rolls you make with the weapon.",
+                        "As a bonus action on your turn, you can increase your reach with a whip by 5 feet for the rest of your turn.",
+                        "Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes slashing damage equal to your Dexterity modifier (minimum of 0) if the attack misses but the higher of the two {@dice d20} rolls would have hit.",
+                        "If you roll a critical hit on a melee attack roll with the weapon, as a reaction you can take the {@action Help} action to aid an ally’s melee attack against that same target."
                     ]
                 }
             ]
@@ -131,16 +137,6 @@
             "entries": [
                 "A sugary fermented beverage with a low ABV associated with followers of {@deity Bahamut|dmg}. Often used during rituals of prayer or invocation."
             ]
-        },
-        {
-            "name": "Black Wood Resin",
-            "wondrous": true,
-            "poison": true,
-            "rarity": "Uncommon",
-            "source": "zorq",
-            "tier": "Minor",
-            "type": "TG",
-            "entries": ["Flavor text."]
         },
         {
             "name": "Cloak of Baphomet's Favor",
@@ -230,17 +226,6 @@
                     ],
                     "by": "Fezziwig Hornswoggle"
                 }
-            ]
-        },
-        {
-            "name": "Immovable Zorbwood Rod",
-            "type": "RD",
-            "weight": 2,
-            "tier": "Minor",
-            "rarity": "Uncommon",
-            "source": "zorq",
-            "entries": [
-                "This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn't move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success"
             ]
         },
         {
@@ -436,6 +421,40 @@
             "entries": [
                 "Vee'gn'och create a reddish liquid, which they smear on their fangs. The freakish red mouths on the tiny skeletons are disturbing, and the toxin is deadly. A bitten creature must succeed on a DC15 Constitution saving throw or become {@condition poisoned} and take {@dice 1d6} Charisma damage. A {@condition poisoned} creature repeats the saving throw every four hours, taking another {@dice 1d6} Charisma damage for each failure, until it has made two consecutive successful saves or survived for 24 hours. If the creature survives, the effect ends and the creature can heal normally. Lost Charisma can be regained with a lesser restoration spell or comparable magic."
             ]
+        },
+        {
+            "name": "Zorbwood Resin",
+            "wondrous": true,
+            "poison": true,
+            "rarity": "Uncommon",
+            "source": "zorq",
+            "tier": "Minor",
+            "type": "TG",
+            "entries": [
+                "This resin is extracted from living {@item zorbwood|zorq}"
+            ]
+        },
+        {
+            "name": "Immovable Zorbwood Rod",
+            "type": "RD",
+            "weight": 2,
+            "tier": "Minor",
+            "rarity": "Uncommon",
+            "source": "zorq",
+            "reqAttune": true,
+            "entries": [
+                "This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn't move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success",
+                "If the rod is examined carefully, or a creature attunes to it, that creature can determine that the rod moves slightly and gradually if it remains 'magically fixed' for more than a day or so, with the degree of movement dependent on the length of time so fixed."
+            ]
+        },
+        {
+            "name": "Zorbwood",
+            "wondrous": true,
+            "rarity": "Uncommon",
+            "source": "zorq",
+            "tier": "Minor",
+            "type": "TG",
+            "entries": ["Flavor text."]
         }
     ],
     "monster": [
