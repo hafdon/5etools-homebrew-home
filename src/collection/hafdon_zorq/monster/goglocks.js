@@ -100,51 +100,51 @@ module.exports = {
     senseTags: ['D'],
     damageTags: ['P', 'Y'],
     miscTags: ['MW'],
-    fluff: {
-        name: 'Goglocks',
-        source: 'zorq',
-        images: [
-            {
-                type: 'image',
-                href: {
-                    type: 'internal',
-                    path: 'bestiary/VGM/Yeth Hound.jpg',
-                },
-            },
-        ],
-        entries: [
-            {
-                type: 'entries',
-                entries: [
-                    '{@creature Munta|zorq} (one of Baphomet’s agents) tried to grant to {@creature Sigmurh|zorq} a boon but ended up bonding Goglocks as master to the {@creature Sigmurh|zorq}.',
-                    'Yeth hounds fly in pursuit of their prey, often waiting until it is too exhausted to fight back. Only the threat of dawn drives the pack back into hiding.',
-                    {
-                        name: 'Minions of a Dark Master',
-                        entries: [
-                            'A pack of yeth hounds can be created by powerful fey such as the Queen of Air and Darkness. Once it is brought into existence, a pack must have a master, who is often someone the creator wishes to reward. The master can telepathically communicate with its yeth hounds to give them commands from afar. If the master of a pack is killed, the hounds seek and choose a new master, typically an individual of great evil such as a vampire, a necromancer, or a hag.',
-                            "A yeth hound stands about 5 feet tall at the shoulder and weighs around 400 pounds. Often all that can be seen of one in the darkness is the red glow of its eyes against its night-black fur. The head of a yeth hound has a human-like face, held up by a neck more flexible than a dog's. The creature gives off an odor like smoke.",
-                            'Those that stand their ground and fight back discover that mundane weapons partially pass through the hound as if it was made of fog, but magic weapons and silvered weapons can strike true.',
-                        ],
-                        type: 'entries',
-                    },
-                    {
-                        name: 'Sound of Looming Death',
-                        entries: [
-                            'Yeth hounds make a ghastly baying sound that can be heard all around. Creatures that can see a hound when it bays are filled with supernatural fear and usually flee in terror. When a victim tries to run away, a hound delights in chasing after it and tormenting it before bringing the hunt to a close.',
-                        ],
-                        type: 'entries',
-                    },
-                    {
-                        name: 'Foiled by Sunlight',
-                        entries: [
-                            "Yeth hounds can't stand sunlight. A pack never willingly prolongs a hunt beyond the night hours and always seeks to return to its dark den before the first rays of dawn. No amount of coercion by a pack's master can deter this behavior. If a yeth hound is exposed to natural sunlight, it fades away, vanishing into the Ethereal Plane, from where its master can retrieve it only after the sun has set.",
-                        ],
-                        type: 'entries',
-                    },
-                ],
-            },
-        ],
-    },
+    // fluff: {
+    //     name: 'Goglocks',
+    //     source: 'zorq',
+    //     images: [
+    //         {
+    //             type: 'image',
+    //             href: {
+    //                 type: 'internal',
+    //                 path: 'bestiary/VGM/Yeth Hound.jpg',
+    //             },
+    //         },
+    //     ],
+    //     entries: [
+    //         {
+    //             type: 'entries',
+    //             entries: [
+    //                 '{@creature Munta|zorq} (one of Baphomet’s agents) tried to grant to {@creature Sigmurh|zorq} a boon but ended up bonding Goglocks as master to the {@creature Sigmurh|zorq}.',
+    //                 'Yeth hounds fly in pursuit of their prey, often waiting until it is too exhausted to fight back. Only the threat of dawn drives the pack back into hiding.',
+    //                 {
+    //                     name: 'Minions of a Dark Master',
+    //                     entries: [
+    //                         'A pack of yeth hounds can be created by powerful fey such as the Queen of Air and Darkness. Once it is brought into existence, a pack must have a master, who is often someone the creator wishes to reward. The master can telepathically communicate with its yeth hounds to give them commands from afar. If the master of a pack is killed, the hounds seek and choose a new master, typically an individual of great evil such as a vampire, a necromancer, or a hag.',
+    //                         "A yeth hound stands about 5 feet tall at the shoulder and weighs around 400 pounds. Often all that can be seen of one in the darkness is the red glow of its eyes against its night-black fur. The head of a yeth hound has a human-like face, held up by a neck more flexible than a dog's. The creature gives off an odor like smoke.",
+    //                         'Those that stand their ground and fight back discover that mundane weapons partially pass through the hound as if it was made of fog, but magic weapons and silvered weapons can strike true.',
+    //                     ],
+    //                     type: 'entries',
+    //                 },
+    //                 {
+    //                     name: 'Sound of Looming Death',
+    //                     entries: [
+    //                         'Yeth hounds make a ghastly baying sound that can be heard all around. Creatures that can see a hound when it bays are filled with supernatural fear and usually flee in terror. When a victim tries to run away, a hound delights in chasing after it and tormenting it before bringing the hunt to a close.',
+    //                     ],
+    //                     type: 'entries',
+    //                 },
+    //                 {
+    //                     name: 'Foiled by Sunlight',
+    //                     entries: [
+    //                         "Yeth hounds can't stand sunlight. A pack never willingly prolongs a hunt beyond the night hours and always seeks to return to its dark den before the first rays of dawn. No amount of coercion by a pack's master can deter this behavior. If a yeth hound is exposed to natural sunlight, it fades away, vanishing into the Ethereal Plane, from where its master can retrieve it only after the sun has set.",
+    //                     ],
+    //                     type: 'entries',
+    //                 },
+    //             ],
+    //         },
+    //     ],
+    // },
     tokenUrl: 'https://5e.tools/img/VGM/Yeth Hound.png?v=1.94.8',
 
     isNpc: true,
@@ -152,9 +152,12 @@ module.exports = {
     spellcasting: [
         {
             name: 'Spellcasting',
+            headerEntries: ['header'],
             daily: {
                 '1e': ['{@spell barkskin|PHB}', '{@spell tree stride|PHB}'],
             },
+            type: 'spellcasting',
+            ability: 'wis',
         },
     ],
 };

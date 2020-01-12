@@ -24,6 +24,17 @@ module.exports = {
     cr: '1',
     trait: [
         {
+            type: 'inset',
+            name: 'Appearance and Mannerisms',
+            entries: ['A giant flying bat.'],
+        },
+        {
+            type: 'inset',
+            name: 'Purpose',
+            entries: ["{@creature Sigmurh|zorq}'s steed"],
+        },
+
+        {
             name: 'Echolocation',
             entries: [
                 "The bat can't use its blindsight while {@condition deafened}.",
@@ -63,8 +74,5 @@ module.exports = {
         stealth: '+7',
         nature: '+2',
         acrobatics: '+7',
-    },
-    fluff: {
-        entries: ["Sigmurt's giant bat steed."],
     },
 };

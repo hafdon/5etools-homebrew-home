@@ -2,7 +2,7 @@
  * based on {@creature marid|mm} cr11
  */
 module.exports = {
-    name: 'Dalariel (marid template)',
+    name: 'Limalay',
     size: 'L',
     type: {
         type: 'celestial',
@@ -44,6 +44,12 @@ module.exports = {
     languages: ['all'],
     cr: '7',
     trait: [
+        {
+            type: 'inset',
+            name: 'Appearance and Mannerisms',
+            entries: [' (LEE mah lay) '],
+        },
+        { type: 'inset', name: 'Purpose', entries: ['Lieutenant of Ulimara.'] },
         {
             name: 'Amphibious',
             entries: ['Dalariel can breathe air and water.'],

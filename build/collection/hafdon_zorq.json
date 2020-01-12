@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1578793371
+        "dateUpdated": 1578810764
     },
     "action": [
         {
@@ -36,6 +36,29 @@
                         "A creature who is hugged is much happier than they would be if they were not being hugged.",
                         "The condition ends if the hugger is {@condition incapacitated}.",
                         "The condition also ends if an effect removes the hugged creature from the reach of the hugger or hugging effect, such as when a creature is hurled away by the {@spell thunderwave} spell."
+                    ]
+                }
+            ],
+            "source": "zorq"
+        }
+    ],
+    "cult": [
+        {
+            "name": "Flower Folk",
+            "goal": { "entry": "" },
+            "cultists": {
+                "entry": "{@create forl|zorq}, {@creature Tobolux|zorq}, {@creature Snav}"
+            },
+            "signaturespells": { "entry": "" },
+            "entries": [
+                "Levistus has no cult in the traditional sense. Instead, he offers favors to those who are desperate to escape a seemingly inevitable fate.",
+                "{@creature Drow} are sometimes worshipers of Levistus, as their cruel society often pushes them into situations they feel they can't escape.",
+                "Levistus usually grants those who pledge their souls to him a single chance to escape from danger, but some cunning folk strike a deal with Levistus, pledging their souls to him in return for escape at a future date. This boon takes the form of the Path of Levistus trait.",
+                {
+                    "type": "entries",
+                    "name": "Path of Levistus",
+                    "entries": [
+                        "This creature magically teleports to a location of Levistus's choice within 1 mile of its location. Using this ability also restores all of the creature's hit points. This ability can be invoked as an action by the creature or when the creature would die. Once the creature uses it, the creature can't use it again."
                     ]
                 }
             ],
@@ -68,7 +91,37 @@
             "entries": ["One of her messengers is {@creature Dalariel|zorq}."]
         }
     ],
+    "feat": [
+        {
+            "name": "Whip Aficionado",
+            "source": "zorq",
+            "prerequisite": [{ "other": "Proficiency with whips" }],
+            "entries": [
+                "You have always had a love for whips. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You can use the {@action Help} action as a bonus action provided you have made a melee attack with a whip this turn. Additionally, when you use the {@action Help} action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you.",
+                        "If you hit a Large or smaller creature with a melee attack using a whip, you can choose to knock the creature prone, or pull the creature up to 10 feet closer to you. If you do so, roll a {@dice d8} and reduce any damage the creature would take from the attack by that amount (to a minimum of 0).",
+                        "When you make a melee attack on your turn with a whip, your reach with it is 5 feet greater than normal."
+                    ]
+                }
+            ]
+        }
+    ],
     "item": [
+        {
+            "name": "Secular Ministrations, penned by Doodril Frogwarts, Burgher and Sublunar Cognoscente",
+            "wondrous": true,
+            "tier": "Major",
+            "rarity": "Rare",
+            "source": "zorq",
+            "entries": [
+                "This instructional manual ...",
+                "This book contains ... ",
+                { "type": "list", "items": ["1", "1", "2", "2"] }
+            ]
+        },
         {
             "name": "Bahamuschevitz",
             "type": "TG",
@@ -109,6 +162,19 @@
             "curse": true
         },
         {
+            "name": "Dragon Radish",
+            "rarity": "Uncommon",
+            "source": "zorq",
+            "tier": "None",
+            "type": "TG",
+            "entries": [
+                "Spicy radishes.",
+                "If a creature consumes more than one pound of these radishes in a single sitting they must succeed on a {@dc 16} Constitution saving throw or take 5 {@damage 2d4 + 1} fire damage per pound consumed, rounding up.",
+                "Consuming a pint of {@item trollsmilk|zorq} within the six seconds after consumption allows the creature to roll with advantage.",
+                "If the creature does not drink any {@item trollsmilk|zorq} but nevertheless makes a successful save, for the next minute the creature is under the effects of the {@spell dragon's breath|xge} spell as if it were cast at a 2nd level. The spell save is {@dc 10}, and the creature must choose to exhale fire energy."
+            ]
+        },
+        {
             "name": "Earring of Prevosht",
             "wondrous": true,
             "weight": 0.1,
@@ -134,6 +200,47 @@
                 "The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
                 "{@creature wolf||Onyx Wolf}.",
                 "This onyx statuette of a wolf can become a {@creature wolf} for up to 6 hours. The {@creature wolf} has an Intelligence of 8 and can speak Common. It also has dark vision out to a range of 60 feet and can see {@condition invisible} creatures and objects within that range. Once it has been used, it can't be used again until 7 days have passed."
+            ]
+        },
+        {
+            "name": "Forl Oko",
+            "type": "TG",
+            "tier": "Minor",
+            "rarity": "Common",
+            "source": "zorq",
+            "wondrous": true,
+            "entries": [
+                "{@item Oko|zorq} (an intoxicating and stimulating extract) made from {@creature Forl|zorq} ... something or others."
+            ]
+        },
+        {
+            "name": "Gushbonies",
+            "rarity": "Uncommon",
+            "source": "zorq",
+            "tier": "None",
+            "type": "TG",
+            "entries": [
+                "A local term for goodberries rolled in bone ash. Particularly prized by gnolls.",
+                {
+                    "type": "quote",
+                    "entries": [
+                        "That's the traditional way to prepare them.",
+                        "They're {@italic alright}.",
+                        "More magic than real fruit!"
+                    ],
+                    "by": "Fezziwig Hornswoggle"
+                }
+            ]
+        },
+        {
+            "name": "Immovable Zorbwood Rod",
+            "type": "RD",
+            "weight": 2,
+            "tier": "Minor",
+            "rarity": "Uncommon",
+            "source": "zorq",
+            "entries": [
+                "This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn't move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success"
             ]
         },
         {
@@ -282,6 +389,15 @@
             ]
         },
         {
+            "name": "Trollsmilk",
+            "wondrous": true,
+            "rarity": "Uncommon",
+            "source": "zorq",
+            "tier": "Minor",
+            "type": "TG",
+            "entries": ["Tasty milk extracted from {@creature trollsheep}."]
+        },
+        {
             "name": "Twisted Cornett",
             "wondrous": true,
             "type": "INS",
@@ -323,6 +439,110 @@
         }
     ],
     "monster": [
+        {
+            "name": "Angel of Lole",
+            "size": "M",
+            "type": {
+                "type": "celestial",
+                "tags": ["pronouns: she, her, hers"]
+            },
+            "source": "zorq",
+            "alignment": ["L", "G"],
+            "ac": [{ "ac": 18, "from": ["{@item plate armor|phb}"] }],
+            "hp": { "average": 66, "formula": "12d8 + 12" },
+            "speed": { "walk": 30, "fly": 90 },
+            "str": 16,
+            "dex": 12,
+            "con": 13,
+            "int": 11,
+            "wis": 17,
+            "cha": 18,
+            "save": { "wis": "+6", "cha": "+7" },
+            "skill": { "investigation": "+3", "perception": "+6" },
+            "resist": ["fire", "radiant"],
+            "conditionImmune": ["charmed", "exhaustion", "frightened"],
+            "passive": 16,
+            "languages": ["all"],
+            "cr": "5",
+            "senses": ["darkvision 120 ft.", "truesight 120 ft."],
+            "trait": [
+                {
+                    "name": "Flyby",
+                    "entries": [
+                        "The angel doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The angel has advantage on saving throws against spells and other magical effects."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The angel makes two melee attacks. It also uses Battlefield Inspiration."
+                    ]
+                },
+                {
+                    "name": "Longsword",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands, plus 18 ({@damage 4d8}) radiant damage. If the target is within 5 feet of any of the angel's allies, the target takes an extra 2 ({@damage 1d4}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Battlefield Inspiration",
+                    "entries": [
+                        "The angel chooses up to three creatures it can see within 30 feet of it. Until the end of the angel's next turn, each target can add a {@dice d4} to its attack rolls and saving throws."
+                    ]
+                }
+            ],
+            "traitTags": ["Flyby", "Magic Resistance"],
+            "actionTags": ["Multiattack"],
+            "languageTags": ["XX"],
+            "senseTags": ["SD", "U"],
+            "damageTags": ["S", "R"],
+            "miscTags": ["MW"],
+            "fluff": {
+                "name": "Battleforce Angel",
+                "source": "GGR",
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "internal",
+                            "path": "bestiary/GGR/Battleforce Angel.jpg"
+                        }
+                    }
+                ],
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            "Battleforce angels are the radiant hosts that soar into combat, bathed in the light of Boros zeal. They lead companies of mortal soldiers from above or fly ahead of roc-mounted skyknights. They don't shy away from the blood, pain, and confusion of combat; rather, they immerse themselves in the shifting tides of battle. Only by wading into the battle can they fulfill their responsibility to carry out the commands of the warleaders by adapting their tactics to the shifting situation on the ground."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Boros Angels",
+                        "entries": [
+                            "Angels of the Boros Legion view themselves as the embodiments of what their creator intended. They are fierce warriors devoted to justice and dedicated to protecting the weak against evil and oppression. They are commanders, advisors, strategists, and soldiers. Their presence in battle inspires the mortal soldiers of the legion with righteous zeal.",
+                            "Most Boros soldiers assume that angels are paragons of goodness, wisdom, and mercy. The reality is that angels aren't immune to the temptations of corruption, and the necessities of political machination can compromise the best of them."
+                        ]
+                    },
+                    {
+                        "name": "Warleaders",
+                        "type": "entries",
+                        "entries": [
+                            "The wisest, most visionary angels are responsible for forming and implementing the military strategy of the Boros Legion. Since they are immortal, their plans might span centuries, and they have been known to accept decades of losses as a reasonable cost for a more significant victory many years later. These warleaders have the statistics of planetars or solars (as presented in the Monster Manual), but their appearance is similar to other Boros angels."
+                        ]
+                    }
+                ]
+            },
+            "tokenUrl": "https://5e.tools/img/GGR/Battleforce Angel.png?v=1.94.8"
+        },
         {
             "name": "Baron von Veen (Uugeet form)",
             "size": "L",
@@ -671,7 +891,7 @@
         {
             "name": "Bonfire",
             "size": "L",
-            "type": "beast",
+            "type": { "type": "beast", "tags": ["pronouns: she, her, hers"] },
             "source": "zorq",
             "alignment": ["N"],
             "ac": [{ "ac": 14, "from": ["natural armor"] }],
@@ -680,9 +900,9 @@
             "str": 16,
             "dex": 8,
             "con": 11,
-            "int": 11,
-            "wis": 10,
-            "cha": 12,
+            "int": 14,
+            "wis": 8,
+            "cha": 14,
             "resist": [
                 {
                     "resist": ["bludgeoning", "piercing", "slashing"],
@@ -692,15 +912,21 @@
             "vulnerable": ["cold"],
             "immune": ["fire"],
             "senses": ["darkvision 60 ft."],
-            "passive": 10,
+            "passive": 8,
             "languages": ["Salamander", "Common"],
-            "cr": "1/2",
             "trait": [
+                {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": [
+                        "Bonfire is the size and general appearance of a rough-skinned newt, scaled to 4 feet at the shoulder and 20 feet long. She has carrot-colored skin with marigold spots. She has large, wideset, bulging deep red eyes. If she opens her mouth one can spot a row of sharp, nearly translucent vomerine teeth on the upper jaw and homodont dentary teeth on the lower jaw."
+                    ]
+                },
                 {
                     "type": "entries",
                     "name": "Heated Body",
                     "entries": [
-                        "A creature that touches the salamander or hits it with a melee attack while within 5 feet of it takes 1 ({@damage 1d4 - 1}) fire damage."
+                        "A creature that touches Bonfire or hits it with a melee attack while within 5 feet of it takes 2 ({@damage 1d4}) fire damage."
                     ]
                 }
             ],
@@ -709,7 +935,7 @@
                     "name": "Tail",
                     "type": "entries",
                     "entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage plus 1 ({@damage 1d4 - 1}) fire damage, and the target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the target is {@condition restrained}, the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets."
+                        "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage plus 2 ({@damage 1d4}) fire damage, and the target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the target is {@condition restrained}, Bonfire can automatically hit the target with its tail, and Bonfire can't make tail attacks against other targets."
                     ]
                 }
             ],
@@ -718,12 +944,23 @@
             "senseTags": ["D"],
             "damageTags": ["B", "F"],
             "miscTags": ["MW", "RCH"],
-            "tokenUrl": "https://5e.tools/img/MM/Salamander.png?v=1.94.4",
             "skill": { "athletics": "+7" },
             "spellcasting": [
                 {
                     "name": "Spellcasting",
-                    "spells": { "0": { "spells": ["{@spell fire bolt|PHB}"] } }
+                    "headerEntries": [
+                        "Bonfire is 1st-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc} 12, {@h 4} to hit with spell attacks). She has the following wizard spells prepared:"
+                    ],
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell fire bolt|PHB}, {@spell create bonfire|xge}"
+                            ]
+                        },
+                        "1": { "spells": ["{@spell hellish rebuke|phb}"] }
+                    },
+                    "ability": "int",
+                    "type": "spellcasting"
                 }
             ]
         },
@@ -1185,9 +1422,12 @@
             "isNpc": true
         },
         {
-            "name": "Cpt. Juna Merrigold",
+            "name": "Cpt. Bill Perry",
             "size": "M",
-            "type": "humanoid",
+            "type": {
+                "type": "humanoid",
+                "tags": ["deep scion", "pronouns: he, him, his", "hybrid"]
+            },
             "source": "zorq",
             "alignment": ["N", "G"],
             "ac": [{ "ac": 12, "from": ["natural armor"] }],
@@ -1212,6 +1452,18 @@
             "cr": "4",
             "trait": [
                 {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": [
+                        "Captain Bill Perry is a hybrid human-piscine; his body is sleek like a seal and his thick skin is greyish-white with red vertical stripes. Instead of hands he possesses fins terminating in cartilaginous claws.",
+                        "self-conscious of:",
+                        "wants to be (thought of as) ",
+                        "modest about:"
+                    ]
+                },
+                { "type": "inset", "name": "Background", "entries": [""] },
+                { "type": "inset", "name": "Purpose", "entries": [""] },
+                {
                     "name": "Amphibious",
                     "entries": ["The deep scion can breathe air and water."]
                 }
@@ -1224,62 +1476,116 @@
                     ]
                 },
                 {
-                    "name": "Bite (Hybrid Form Only)",
+                    "name": "Bite",
                     "entries": [
                         "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d4 + 5}) piercing damage."
                     ]
                 },
                 {
-                    "name": "Claw (Hybrid Form Only)",
+                    "name": "Claw",
                     "entries": [
                         "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage."
                     ]
                 },
                 {
-                    "name": "Psychic Screech (Hybrid Form Only; Recharges after a Short or Long Rest)",
+                    "name": "Psychic Screech (Recharge on {@recharge 6})",
                     "entries": [
-                        "The deep scion emits a terrible scream audible within 300 feet. Creatures within 30 feet of the deep scion must succeed on a {@dc 14} Wisdom saving throw or be {@condition stunned} until the end of the deep scion's next turn. In water, the psychic screech also telepathically transmits the deep scion's memories of the last 24 hours to its master, regardless of distance, so long as it and its master are in the same body of water."
+                        "The deep scion emits a terrible scream audible within 300 feet. Creatures within 30 feet of the deep scion must succeed on a {@dc 14} Wisdom saving throw or take 5 ({@damage 2d4 + 1}) psychic damage. In water, the psychic screech also telepathically transmits the deep scion's memories of the last 24 hours to creatures who fail their save."
                     ]
                 }
             ],
-            "page": 135,
             "environment": ["coastal", "swamp", "underdark", "underwater"],
-            "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/120/deep-scion.mp3",
             "actionTags": ["Multiattack"],
             "languageTags": ["AQ", "C", "TC"],
             "senseTags": ["SD"],
             "damageTags": ["P", "S"],
             "miscTags": ["MW"],
-            "fluff": {
-                "entries": [
-                    {
-                        "type": "entries",
-                        "entries": [
-                            {
-                                "type": "inset",
-                                "entries": ["test"],
-                                "name": "Title"
-                            },
-                            "Captain Juna Marigold is a hybrid human-piscine; his body is sleek like a seal and his thick skin is greyish-white with red vertical stripes. Instead of hands he possesses fins terminating in cartilaginous claws.",
-                            "Deep scions began life as people who were stolen from shore or saved from sinking ships and offered a terrible bargain by an undersea power: surrender, body and soul, or drown. Those who submit are subjected to an ancient ritual widespread among evil aquatic creatures. Its methods are painful and the result never certain, but when it works, the magic transforms an air-breathing person into a shapechanger that can take a form that is fully at home beneath the waves.",
-                            {
-                                "name": "Spies from the Sea",
-                                "entries": [
-                                    " A deep scion emerges from the depths in service to its underwater master, which is likely a kraken or some other ancient being of the deep. While wearing the mind and body of the person it once was as a sort of mask, the creature is bent on fulfilling its master's desires. Sometimes a deep scion returns to its former home and a hero's welcome-unexpectedly found alive when all hope was lost. At other times the deep scion takes on a new identity. In any case, it is the deep scion's duty to infiltrate the air-breathing world and report back to its master. When set to its task, a deep scion worms its way into the life of an unsuspecting enemy as a new best friend, an irresistible lover, the perfect candidate for a job, or in some other role that enables the minion to carry out its master's commands."
-                                ],
-                                "type": "entries"
-                            },
-                            {
-                                "name": "Cold-Hearted Killers",
-                                "entries": [
-                                    " The training to which a deep scion is subjected rids it of empathy for those whom it spies on. Though one might behave as though infatuated, laugh at the joke of a friend, or appear incensed at some injustice, each of these acts is artificial to the deep scion, a means to an end. It believes that its true form is the shape it takes when it returns to the sea that it thinks of as home. Ironically, however, a deep scion that is killed when in its piscine form is stripped of the magic that robbed it of emotion, leaving behind the corpse of the person the deep scion once was."
-                                ],
-                                "type": "entries"
-                            }
-                        ]
-                    }
-                ]
+            "tokenUrl": "https://5e.tools/img/VGM/Deep Scion.png?v=1.94.2",
+            "traitTags": ["Amphibious"],
+            "isNpc": true,
+            "isNamedCreature": true
+        },
+        {
+            "name": "Cpt. Juna Merrigold",
+            "size": "M",
+            "type": {
+                "type": "humanoid",
+                "tags": ["deep scion", "pronouns: she, her, hers", "hybrid"]
             },
+            "source": "zorq",
+            "alignment": ["N", "G"],
+            "ac": [{ "ac": 12, "from": ["natural armor"] }],
+            "hp": { "average": 76, "formula": "9d8 + 36" },
+            "speed": { "walk": 25, "swim": 40 },
+            "str": 20,
+            "dex": 15,
+            "con": 18,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": { "wis": "+3", "cha": "+4" },
+            "skill": {
+                "deception": "+6",
+                "insight": "+3",
+                "sleight of hand": "+4",
+                "stealth": "+4"
+            },
+            "senses": ["darkvision 120 ft."],
+            "passive": 11,
+            "languages": ["Aquan", "Common", "Thieves' cant"],
+            "cr": "4",
+            "trait": [
+                {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": [
+                        "Captain Juna Marigold is a hybrid human-piscine; HER body is sleek like a seal and his thick skin is greyish-white with red vertical stripes. Instead of hands she possesses fins terminating in cartilaginous claws.",
+                        "demands loyalty of crew",
+                        "saw potential, and destiny in FEZ, who became First Mate (cargo, crew’s welfare, safety, search and rescue, answers to Captain)",
+                        "self-conscious of (new fish body, lost a ship and survived tho captain)",
+                        "want to be (thought of as) (good leader, knowledgeable about ships, due loyalty)",
+                        "modest about ()",
+                        "background (from Old Barleyshire)"
+                    ]
+                },
+                { "type": "inset", "name": "Purpose", "entries": [""] },
+                {
+                    "name": "Amphibious",
+                    "entries": ["The deep scion can breathe air and water."]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "In hybrid form, the deep scion makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d4 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Psychic Screech (Recharge on {@recharge 6})",
+                    "entries": [
+                        "The deep scion emits a terrible scream audible within 300 feet. Creatures within 30 feet of the deep scion must succeed on a {@dc 14} Wisdom saving throw or take 5 ({@damage 2d4 + 1}) psychic damage. In water, the psychic screech also telepathically transmits the deep scion's memories of the last 24 hours to creatures who fail their save."
+                    ]
+                }
+            ],
+            "environment": ["coastal", "swamp", "underdark", "underwater"],
+            "actionTags": ["Multiattack"],
+            "languageTags": ["AQ", "C", "TC"],
+            "senseTags": ["SD"],
+            "damageTags": ["P", "S"],
+            "miscTags": ["MW"],
             "tokenUrl": "https://5e.tools/img/VGM/Deep Scion.png?v=1.94.2",
             "traitTags": ["Amphibious"],
             "isNpc": true,
@@ -1389,108 +1695,7 @@
             },
             "tokenUrl": "https://5e.tools/img/GGR/Battleforce Angel.png?v=1.94.8"
         },
-        {
-            "name": "Dalariel (marid template)",
-            "size": "L",
-            "type": {
-                "type": "celestial",
-                "tags": ["angel", "elemental", "pronouns: she, her, hers"]
-            },
-            "source": "zorq",
-            "alignment": ["L", "G"],
-            "ac": [{ "ac": 18, "from": ["{@item plate armor|phb}"] }],
-            "hp": { "average": 120, "formula": "12d10 + 54" },
-            "speed": { "walk": 30, "fly": 75, "swim": 45 },
-            "str": 20,
-            "dex": 14,
-            "con": 16,
-            "int": 14,
-            "wis": 16,
-            "cha": 20,
-            "save": {
-                "dex": "+5",
-                "wis": "+5",
-                "cha": "+8",
-                "skill": { "athletics": "+9" }
-            },
-            "resist": ["acid", "cold", "lightning", "radiant"],
-            "senses": ["blindsight 30 ft.", "darkvision 120 ft."],
-            "passive": 13,
-            "languages": ["all"],
-            "cr": "7",
-            "trait": [
-                {
-                    "name": "Amphibious",
-                    "entries": ["Dalariel can breathe air and water."]
-                },
-                {
-                    "name": "Elemental Demise",
-                    "entries": [
-                        "If Dalariel dies, her body disintegrates into a burst of water and foam, leaving behind only equipment Dalariel was wearing or carrying."
-                    ]
-                },
-                {
-                    "name": "Flyby",
-                    "entries": [
-                        "Dalariel doesn't provoke an opportunity attack when she flies out of an enemy's reach."
-                    ]
-                },
-                {
-                    "name": "Gauntlets of Weapon Recall",
-                    "entries": [
-                        "As a bonus action Dalariel can recall to her grasp her trident as long as it is no more than 80 feet away from her."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": ["Dalariel makes two trident attacks."]
-                },
-                {
-                    "name": "Trident",
-                    "entries": [
-                        "{@atk mw,rw} {@hit 8} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage, or 9 ({@damage 1d8 + 5}) piercing damage if used with two hands to make a melee attack."
-                    ]
-                },
-                {
-                    "name": "Battlefield Inspiration",
-                    "entries": [
-                        "Dalariel chooses up to three creatures she can see within 30 feet of it. Until the end of Dalariel's next turn, each target can add a {@dice d4} to its attack rolls and saving throws."
-                    ]
-                }
-            ],
-            "spellcasting": [
-                {
-                    "name": "Innate Spellcasting",
-                    "headerEntries": [
-                        "Dalariel's innate spellcasting ability is Charisma (spell save DC 14, {@hit 6} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
-                    ],
-                    "will": [
-                        "{@spell create or destroy water}",
-                        "{@spell detect evil and good}",
-                        "{@spell detect magic}",
-                        "{@spell fog cloud}",
-                        "{@spell purify food and drink}"
-                    ],
-                    "daily": {
-                        "3e": [
-                            "{@spell tongues}",
-                            "{@spell water breathing}",
-                            "{@spell water walk}"
-                        ],
-                        "1e": [
-                            "{@spell conjure elemental} (water elemental only)",
-                            "{@spell control water}",
-                            "{@spell gaseous form}",
-                            "{@spell invisibility}",
-                            "{@spell plane shift}"
-                        ]
-                    },
-                    "ability": "cha"
-                }
-            ]
-        },
+        {},
         {
             "name": "Domonkos",
             "size": "M",
@@ -1820,11 +2025,11 @@
         },
         {
             "source": "zorq",
-            "name": "Almiraj (flower kind on Amber Ghost shore)",
+            "name": "Forl",
             "size": "S",
             "type": "beast",
             "alignment": ["U"],
-            "ac": [{ "ac": 13, "from": ["natural armor"] }],
+            "ac": [{ "ac": 10, "from": ["natural armor"] }],
             "hp": { "average": 7, "formula": "2d6" },
             "speed": { "walk": 50 },
             "str": 2,
@@ -1841,13 +2046,7 @@
                 {
                     "name": "Keen Senses",
                     "entries": [
-                        "The almiraj has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
-                    ]
-                },
-                {
-                    "name": "Familiar",
-                    "entries": [
-                        "With the DM's permission, the {@spell find familiar} spell can summon an almiraj."
+                        "The forl has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
                     ]
                 }
             ],
@@ -1866,14 +2065,14 @@
             "damageTags": ["P"],
             "miscTags": ["MW"],
             "fluff": {
-                "name": "Almiraj",
+                "name": "forl",
                 "source": "ToA",
                 "images": [
                     {
                         "type": "image",
                         "href": {
                             "type": "internal",
-                            "path": "bestiary/ToA/Almiraj.jpg"
+                            "path": "bestiary/ToA/forl.jpg"
                         }
                     }
                 ],
@@ -1881,13 +2080,12 @@
                     {
                         "type": "entries",
                         "entries": [
-                            "An almiraj (pronounced AWL-meer-ahj) is a large, timid rabbit with a 1-foot-long spiral horn emerging from its forehead, not unlike the horn of a unicorn. If driven to attack, it tries to spear enemies with its horn.",
-                            "Almiraj were brought to Chult long ago by merchants of the distant land of Zakhara. Skilled at evading predators, these creatures have flourished throughout the tropical peninsula. They live in earthen burrows and can be captured and domesticated. With the DM's permission, the find familiar spell can summon an almiraj."
+                            "a forl is a large, timid collection of petals in the shape of a rabbit with a 1-foot-long spiral horn emerging from its forehead, not unlike the horn of a unicorn. If driven to attack, it tries to spear enemies with its horn.",
+                            "forl were brought to Chult long ago by merchants of the distant land of Zakhara. Skilled at evading predators, these creatures have flourished throughout the tropical peninsula. They live in earthen burrows and can be captured and domesticated. With the DM's permission, the find familiar spell can summon a forl."
                         ]
                     }
                 ]
-            },
-            "tokenUrl": "https://5e.tools/img/ToA/Almiraj.png?v=1.94.4"
+            }
         },
         {
             "name": "Foldorf",
@@ -2211,63 +2409,21 @@
             "senseTags": ["D"],
             "damageTags": ["P", "Y"],
             "miscTags": ["MW"],
-            "fluff": {
-                "name": "Goglocks",
-                "source": "zorq",
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "internal",
-                            "path": "bestiary/VGM/Yeth Hound.jpg"
-                        }
-                    }
-                ],
-                "entries": [
-                    {
-                        "type": "entries",
-                        "entries": [
-                            "{@creature Munta|zorq} (one of Baphomet’s agents) tried to grant to {@creature Sigmurh|zorq} a boon but ended up bonding Goglocks as master to the {@creature Sigmurh|zorq}.",
-                            "Yeth hounds fly in pursuit of their prey, often waiting until it is too exhausted to fight back. Only the threat of dawn drives the pack back into hiding.",
-                            {
-                                "name": "Minions of a Dark Master",
-                                "entries": [
-                                    "A pack of yeth hounds can be created by powerful fey such as the Queen of Air and Darkness. Once it is brought into existence, a pack must have a master, who is often someone the creator wishes to reward. The master can telepathically communicate with its yeth hounds to give them commands from afar. If the master of a pack is killed, the hounds seek and choose a new master, typically an individual of great evil such as a vampire, a necromancer, or a hag.",
-                                    "A yeth hound stands about 5 feet tall at the shoulder and weighs around 400 pounds. Often all that can be seen of one in the darkness is the red glow of its eyes against its night-black fur. The head of a yeth hound has a human-like face, held up by a neck more flexible than a dog's. The creature gives off an odor like smoke.",
-                                    "Those that stand their ground and fight back discover that mundane weapons partially pass through the hound as if it was made of fog, but magic weapons and silvered weapons can strike true."
-                                ],
-                                "type": "entries"
-                            },
-                            {
-                                "name": "Sound of Looming Death",
-                                "entries": [
-                                    "Yeth hounds make a ghastly baying sound that can be heard all around. Creatures that can see a hound when it bays are filled with supernatural fear and usually flee in terror. When a victim tries to run away, a hound delights in chasing after it and tormenting it before bringing the hunt to a close."
-                                ],
-                                "type": "entries"
-                            },
-                            {
-                                "name": "Foiled by Sunlight",
-                                "entries": [
-                                    "Yeth hounds can't stand sunlight. A pack never willingly prolongs a hunt beyond the night hours and always seeks to return to its dark den before the first rays of dawn. No amount of coercion by a pack's master can deter this behavior. If a yeth hound is exposed to natural sunlight, it fades away, vanishing into the Ethereal Plane, from where its master can retrieve it only after the sun has set."
-                                ],
-                                "type": "entries"
-                            }
-                        ]
-                    }
-                ]
-            },
             "tokenUrl": "https://5e.tools/img/VGM/Yeth Hound.png?v=1.94.8",
             "isNpc": true,
             "isNamedCreature": true,
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "headerEntries": ["header"],
                     "daily": {
                         "1e": [
                             "{@spell barkskin|PHB}",
                             "{@spell tree stride|PHB}"
                         ]
-                    }
+                    },
+                    "type": "spellcasting",
+                    "ability": "wis"
                 }
             ]
         },
@@ -2569,6 +2725,118 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/VGM/Warlock of the Archfey.png?v=1.94.2"
+        },
+        {
+            "name": "Limalay",
+            "size": "L",
+            "type": {
+                "type": "celestial",
+                "tags": ["angel", "elemental", "pronouns: she, her, hers"]
+            },
+            "source": "zorq",
+            "alignment": ["L", "G"],
+            "ac": [{ "ac": 18, "from": ["{@item plate armor|phb}"] }],
+            "hp": { "average": 120, "formula": "12d10 + 54" },
+            "speed": { "walk": 30, "fly": 75, "swim": 45 },
+            "str": 20,
+            "dex": 14,
+            "con": 16,
+            "int": 14,
+            "wis": 16,
+            "cha": 20,
+            "save": {
+                "dex": "+5",
+                "wis": "+5",
+                "cha": "+8",
+                "skill": { "athletics": "+9" }
+            },
+            "resist": ["acid", "cold", "lightning", "radiant"],
+            "senses": ["blindsight 30 ft.", "darkvision 120 ft."],
+            "passive": 13,
+            "languages": ["all"],
+            "cr": "7",
+            "trait": [
+                {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": [" (LEE mah lay) "]
+                },
+                {
+                    "type": "inset",
+                    "name": "Purpose",
+                    "entries": ["Lieutenant of Ulimara."]
+                },
+                {
+                    "name": "Amphibious",
+                    "entries": ["Dalariel can breathe air and water."]
+                },
+                {
+                    "name": "Elemental Demise",
+                    "entries": [
+                        "If Dalariel dies, her body disintegrates into a burst of water and foam, leaving behind only equipment Dalariel was wearing or carrying."
+                    ]
+                },
+                {
+                    "name": "Flyby",
+                    "entries": [
+                        "Dalariel doesn't provoke an opportunity attack when she flies out of an enemy's reach."
+                    ]
+                },
+                {
+                    "name": "Gauntlets of Weapon Recall",
+                    "entries": [
+                        "As a bonus action Dalariel can recall to her grasp her trident as long as it is no more than 80 feet away from her."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": ["Dalariel makes two trident attacks."]
+                },
+                {
+                    "name": "Trident",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 8} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage, or 9 ({@damage 1d8 + 5}) piercing damage if used with two hands to make a melee attack."
+                    ]
+                },
+                {
+                    "name": "Battlefield Inspiration",
+                    "entries": [
+                        "Dalariel chooses up to three creatures she can see within 30 feet of it. Until the end of Dalariel's next turn, each target can add a {@dice d4} to its attack rolls and saving throws."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "Dalariel's innate spellcasting ability is Charisma (spell save DC 14, {@hit 6} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell create or destroy water}",
+                        "{@spell detect evil and good}",
+                        "{@spell detect magic}",
+                        "{@spell fog cloud}",
+                        "{@spell purify food and drink}"
+                    ],
+                    "daily": {
+                        "3e": [
+                            "{@spell tongues}",
+                            "{@spell water breathing}",
+                            "{@spell water walk}"
+                        ],
+                        "1e": [
+                            "{@spell conjure elemental} (water elemental only)",
+                            "{@spell control water}",
+                            "{@spell gaseous form}",
+                            "{@spell invisibility}",
+                            "{@spell plane shift}"
+                        ]
+                    },
+                    "ability": "cha"
+                }
+            ]
         },
         {
             "name": "Lole of the Moonlit Sun",
@@ -3485,6 +3753,121 @@
                 ]
             },
             "isNpc": true
+        },
+        {
+            "name": "Phoenix Molvraki",
+            "source": "zorq",
+            "short": "Phoenix M.",
+            "size": "M",
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "kalashtar",
+                    "mystic",
+                    "order of the immortal",
+                    "pronouns: they, their, theirs"
+                ]
+            },
+            "alignment": ["A"],
+            "ac": [{ "ac": 13, "condition": "(Immortal Durability)" }],
+            "hp": { "formula": "6d8 + 0", "average": 27 },
+            "speed": { "walk": 30 },
+            "str": 10,
+            "dex": 16,
+            "con": 10,
+            "int": 12,
+            "wis": 18,
+            "cha": 16,
+            "skill": {
+                "acrobatics": "+6",
+                "insight": "+7",
+                "persuasion": "+9",
+                "perception": "+7",
+                "nature": "+4"
+            },
+            "passive": 17,
+            "resist": ["psychic"],
+            "languages": ["Common", "telepathy 20 ft."],
+            "trait": [
+                {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": [
+                        "5 feet 8 inches; 122 pounds",
+                        "They are obsessed with conspiracy theories.",
+                        "Puts their name before the {@creature quori|erlw} name."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Purpose",
+                    "entries": [
+                        "Everything {@creature Paros|zorq} wants to be. However, they refuse to recognize the power of reading and only learn through psionics. Furthermore, their dedication to learning comes at the cost of ... "
+                    ]
+                },
+                {
+                    "name": "Dual Mind",
+                    "entries": [
+                        "The kalashtar has advantage on Wisdom saving throws."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Severed from Dreams",
+                    "entries": [
+                        "Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to spells and other magical effects that require you to dream, like {@spell dream}, but not to spells and other magical effects that put you to sleep, like {@spell sleep}."
+                    ]
+                },
+                {
+                    "name": "Proficiencies",
+                    "entries": [
+                        { "name": "armor", "entries": ["light armor"] },
+                        { "name": "tools", "entries": ["none"] },
+                        { "name": "weapons", "entries": ["simple weapons"] }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Dagger",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Mind Thrust",
+                    "entries": [
+                        "The kalashtar targets a creature it can see within 30 feet of it. The target must succeed on a {@dc 13 } Wisdom saving throw or take 10 ({@damage 2d10}) psychic damage."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage in melee, or {@h}6 ({@damage 1d6 + 3})  piercing damage at range, or 7 ({@damage 1d8 + 3}) piercing damage if used with both hands."
+                    ]
+                }
+            ],
+            "languageTags": ["C", "TP"],
+            "damageTags": ["P", "Y"],
+            "miscTags": ["RW", "MW", "THW"],
+            "fluff": {
+                "name": "Kalashtar",
+                "source": "ERLW",
+                "entries": [
+                    "The kalashtar have bonded with good-aligned quori spirits, which communicate with their hosts through dreams and visions. Descended from monks who offered their bodies as sanctuaries to those quori escaping the evil of Dal Quor, the kalashtar now fight to herald in a new age of light and balance."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "internal",
+                            "path": "bestiary/ERLW/Kalashtar.png"
+                        }
+                    }
+                ]
+            },
+            "tokenUrl": "https://5e.tools/img/ERLW/Kalashtar.png?v=1.94.8",
+            "save": { "int": "+4", "wis": "+7" }
         },
         {
             "name": "Polive Pittlans",
@@ -5192,6 +5575,16 @@
             "cr": "1",
             "trait": [
                 {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": ["A giant flying bat."]
+                },
+                {
+                    "type": "inset",
+                    "name": "Purpose",
+                    "entries": ["{@creature Sigmurh|zorq}'s steed"]
+                },
+                {
                     "name": "Echolocation",
                     "entries": [
                         "The bat can't use its blindsight while {@condition deafened}."
@@ -5229,8 +5622,7 @@
                 "stealth": "+7",
                 "nature": "+2",
                 "acrobatics": "+7"
-            },
-            "fluff": { "entries": ["Sigmurt's giant bat steed."] }
+            }
         },
         {
             "name": "Woon",
@@ -5996,15 +6388,7 @@
             "tokenUrl": "https://5e.tools/img/MM/Kobold.png?v=1.94.4"
         }
     ],
-    "optionalfeatures": [
-        {
-            "name": "Labyrinthine Recall",
-            "entries": [
-                "A creature with Labyrinthine Recall can perfectly recall any path it has traveled."
-            ],
-            "source": "zorq"
-        }
-    ],
+    "optionalfeature": [],
     "spell": [
         {
             "name": "These Rocks Look Great",

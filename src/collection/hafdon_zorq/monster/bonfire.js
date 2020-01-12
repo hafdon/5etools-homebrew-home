@@ -1,7 +1,7 @@
 module.exports = {
     name: 'Bonfire',
     size: 'L',
-    type: 'beast',
+    type: { type: 'beast', tags: ['pronouns: she, her, hers'] },
     source: 'zorq',
     alignment: ['N'],
     ac: [
@@ -20,9 +20,9 @@ module.exports = {
     str: 16,
     dex: 8,
     con: 11,
-    int: 11,
-    wis: 10,
-    cha: 12,
+    int: 14,
+    wis: 8,
+    cha: 14,
     resist: [
         {
             resist: ['bludgeoning', 'piercing', 'slashing'],
@@ -32,15 +32,21 @@ module.exports = {
     vulnerable: ['cold'],
     immune: ['fire'],
     senses: ['darkvision 60 ft.'],
-    passive: 10,
+    passive: 8,
     languages: ['Salamander', 'Common'],
-    cr: '1/2',
     trait: [
+        {
+            type: 'inset',
+            name: 'Appearance and Mannerisms',
+            entries: [
+                'Bonfire is the size and general appearance of a rough-skinned newt, scaled to 4 feet at the shoulder and 20 feet long. She has carrot-colored skin with marigold spots. She has large, wideset, bulging deep red eyes. If she opens her mouth one can spot a row of sharp, nearly translucent vomerine teeth on the upper jaw and homodont dentary teeth on the lower jaw.',
+            ],
+        },
         {
             type: 'entries',
             name: 'Heated Body',
             entries: [
-                'A creature that touches the salamander or hits it with a melee attack while within 5 feet of it takes 1 ({@damage 1d4 - 1}) fire damage.',
+                'A creature that touches Bonfire or hits it with a melee attack while within 5 feet of it takes 2 ({@damage 1d4}) fire damage.',
             ],
         },
     ],
@@ -49,7 +55,7 @@ module.exports = {
             name: 'Tail',
             type: 'entries',
             entries: [
-                "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage plus 1 ({@damage 1d4 - 1}) fire damage, and the target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the target is {@condition restrained}, the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets.",
+                "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage plus 2 ({@damage 1d4}) fire damage, and the target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the target is {@condition restrained}, Bonfire can automatically hit the target with its tail, and Bonfire can't make tail attacks against other targets.",
             ],
         },
     ],
@@ -61,74 +67,27 @@ module.exports = {
     damageTags: ['B', 'F'],
     miscTags: ['MW', 'RCH'],
 
-    // fluff: {
-    //     name: 'Salamander',
-    //     source: 'MM',
-    //     images: [
-    //         {
-    //             type: 'image',
-    //             href: {
-    //                 type: 'internal',
-    //                 path: 'bestiary/MM/Salamander.jpg',
-    //             },
-    //         },
-    //         {
-    //             type: 'image',
-    //             href: {
-    //                 type: 'internal',
-    //                 path: 'bestiary/MM/Salamander 001.jpg',
-    //             },
-    //         },
-    //     ],
-    //     entries: [
-    //         'Salamanders slither across the Sea of Ash on the Elemental Plane of Fire, their sinuous coils and jagged spines smoldering. Intense heat washes off their bodies, while their yellow eyes glow like candles in the deep-set hollows of their hawkish faces.',
-    //         'Salamanders adore power, and they delight in setting fire to things. Outside their home plane, they play among the burning skeletons of charred trees as forest fires rage around them, or slither down the slopes of erupting volcanoes to linger in fire pits and magma floes.',
-    //         {
-    //             name: 'Fire Snakes',
-    //             type: 'entries',
-    //             entries: [
-    //                 "Salamanders hatch from eggs that are two-foot-diameter spheres of smoldering obsidian. When a salamander is ready to hatch, it melts its way through the egg's thick shell and emerges as a fire snake. A fire snake matures into a salamander adult within a year.",
-    //             ],
-    //         },
-    //         {
-    //             name: 'Slaves of the Efreet',
-    //             type: 'entries',
-    //             entries: [
-    //                 "Long ago, the efreet hired azers to build the fabled City of Brass, but then failed in their attempt to enslave that mystical race when the azers' work was done. Turning instead to strike against the salamanders, the efreet had better luck in establishing a slave race, which they use to unleash war and destruction across the planes.",
-    //                 "Salamanders despise the azers, believing that if the efreet had succeeded in dominating that race of elemental crafters, the salamanders would still be free. The efreet use this enmity to their own advantage, stoking the salamanders' hatred and pitting them against the efreets' former servants.",
-    //                 'The efreet suffer salamanders to serve no other master; when efreet encounter salamanders dedicated to the cults of Elemental Evil, they slay them rather than taking them as slaves.',
-    //             ],
-    //         },
-    //         {
-    //             name: 'Domineering Nobles',
-    //             type: 'entries',
-    //             entries: [
-    //                 'Although salamanders follow the destructive impulses of their fiery nature, slavery under the efreet has impacted the culture of free salamanders. They rule their own societies according to the efreet model, in which larger and stronger salamanders claim dominion over their lesser kin.',
-    //                 'As salamanders age, they increase in size and status, rising to positions of power as cruel nobles among their kind. Nobles rule wandering bands of salamanders, which move across the Elemental Plane of Fire like desert nomads, raiding other communities for treasure.',
-    //             ],
-    //         },
-    //         {
-    //             name: 'Living Forges',
-    //             type: 'entries',
-    //             entries: [
-    //                 'Salamanders generate intense heat, and when they fight, their weapons glow red and sear the bodies of their enemies on contact. Even approaching a salamander is dangerous, since flesh blisters and burns in its proximity.',
-    //                 "This inherent heat is an asset to salamanders' skill as smiths, allowing them to soften and shape iron and steel with their bare hands. Although not as meticulous as azers, salamanders number among the greatest metalsmiths in all the planes. Powerful creatures summon them as warriors, but others enlist the salamanders for their crafting skills, or bind them to forges and ovens to generate limitless heat.",
-    //             ],
-    //         },
-    //     ],
-    // },
-    tokenUrl: 'https://5e.tools/img/MM/Salamander.png?v=1.94.4',
     skill: {
         athletics: '+7',
     },
     spellcasting: [
         {
             name: 'Spellcasting',
+            headerEntries: [
+                'Bonfire is 1st-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc} 12, {@h 4} to hit with spell attacks). She has the following wizard spells prepared:',
+            ],
             spells: {
                 '0': {
-                    spells: ['{@spell fire bolt|PHB}'],
+                    spells: [
+                        '{@spell fire bolt|PHB}, {@spell create bonfire|xge}',
+                    ],
+                },
+                '1': {
+                    spells: ['{@spell hellish rebuke|phb}'],
                 },
             },
+            ability: 'int',
+            type: 'spellcasting',
         },
     ],
 };
