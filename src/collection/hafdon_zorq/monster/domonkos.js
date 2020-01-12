@@ -201,7 +201,6 @@ module.exports = {
     //             ],
     //         },
     //     ],
-    },
 
     isNpc: true,
     isNamedCreature: true,
