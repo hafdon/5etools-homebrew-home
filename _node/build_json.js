@@ -34,6 +34,8 @@ const read_dir = './src';
 const write_dir = './build';
 let giddy_parent_folders = [],
     file_array = [];
+const blankObjects = [],
+    wrongSource = [];
 
 // Get Giddy parent-level folders
 try {
@@ -78,7 +80,6 @@ console.log({ file_array });
  * to our JSON object
  */
 
-const blankObjects = [];
 file_array.forEach(folder => {
     try {
         let buildObj = {};
@@ -118,6 +119,9 @@ file_array.forEach(folder => {
                     }
 
                     // set source to 'zorq'
+                    if (!data.source || data.source !== 'zorq') {
+                        wrongSource.push(`${read_dir}/${folder}/${curr}/${e}`);
+                    }
                     data.source = 'zorq';
 
                     // delete uniqueId property
@@ -160,6 +164,12 @@ if (blankObjects.length) {
     log(
         '\nWARNING: blank objects (not written to output file)!!\n\n',
         ...blankObjects
+    );
+}
+if (wrongSource.length) {
+    log(
+        '\nWARNING: the following files have the wrong source property (changed in output file)!!\n\n',
+        ...wrongSource
     );
 }
 
