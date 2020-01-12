@@ -77,6 +77,8 @@ console.log({ file_array });
  * Add that (key : string) : (value : Array{})
  * to our JSON object
  */
+
+const blankObjects = [];
 file_array.forEach(folder => {
     try {
         let buildObj = {};
@@ -86,16 +88,7 @@ file_array.forEach(folder => {
             .filter(e => !e.startsWith(FILTERSTRING))
             .sort((a, b) => a.localeCompare(b));
 
-        console.log({ folder_array });
-
         buildObj = folder_array.reduce((prev, curr) => {
-            console.log({
-                folder,
-                read_dir,
-                curr,
-                prev,
-                all: `${read_dir}/${folder}/${curr}`,
-            });
             prev[curr] = fs
                 .readdirSync(`${read_dir}/${folder}/${curr}`)
                 .filter(e => !e.startsWith(FILTERSTRING))
@@ -116,9 +109,25 @@ file_array.forEach(folder => {
                         }
                     }
 
+                    // break early if the object in the file doesn't have any properties
+                    // (i.e. it's a blank object)
+                    // this happens by accident
+                    if (!Object.getOwnPropertyNames(data).length) {
+                        blankObjects.push(`${read_dir}/${folder}/${curr}/${e}`);
+                        return prev;
+                    }
+
+                    // set source to 'zorq'
+                    data.source = 'zorq';
+
+                    // delete uniqueId property
+                    // (this is only used for makebrew)
                     if (Object.getOwnPropertyNames(data).includes('uniqueId')) {
                         delete data.uniqueId;
                     }
+
+                    // if it's the _meta file
+                    // update the date and add _meta object as a top-level prop
                     if (e.startsWith('_meta')) {
                         data.dateUpdated = +(Date.now() / 1000).toFixed(0);
                         prev = data;
@@ -146,5 +155,12 @@ file_array.forEach(folder => {
         process.exitCode = 1;
     }
 });
+
+if (blankObjects.length) {
+    log(
+        '\nWARNING: blank objects (not written to output file)!!\n\n',
+        ...blankObjects
+    );
+}
 
 process.exitCode = 0;

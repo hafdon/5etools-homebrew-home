@@ -8,7 +8,7 @@
         "version": "npm run build:version && npm run build && git add .",
         "postversion": "npm run git:push && npm run build:move",
         "rebuild_without_version": "npm run build && npm run build:move",
-        "build:json": "set DEBUG=build* & node _node/build_json.js",
+        "build:json": "DEBUG=build* node _node/build_json.js",
         "build:format": "prettier --write \"./build/**/*.json\"",
         "build:version": "node _node/build_update_meta.js",
         "build:move": "/bin/bash ./_node/build_move.sh",
@@ -54,6 +54,7 @@
     },
     "devDependencies": {
         "pre-commit": "^1.2.2",
-        "prettier": "1.19.1"
+        "prettier": "1.19.1",
+        "supports-color": "^7.1.0"
     }
 }

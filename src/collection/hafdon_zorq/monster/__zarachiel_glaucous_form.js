@@ -3,7 +3,7 @@ module.exports = {
     size: 'L',
     type: {
         type: 'ooze',
-        tags: ['celestial', 'it, they'],
+        tags: ['celestial', 'pronouns: they, them, theirs'],
     },
     source: 'zorq',
     alignment: ['C', 'E'],
@@ -52,10 +52,17 @@ module.exports = {
     cr: '3',
     trait: [
         {
+            type: 'inset',
+            name: 'Appearance and Mannerisms',
             entries: [
                 'In glaucous form, Zarachiel is a 9-foot tall greyish-black ooze with tiny silver eyes. Its outer layer flows like a fondue fountain. It does not spell great.',
+                'self-conscious of: ',
+                'wants to be (thought of as): ',
+                'modest about:',
             ],
         },
+        // { type: 'inset', name: 'Purpose', entries: [''] },
+        // { type: 'inset', name: 'Background', entries: [''] },
         {
             name: 'Amorphous',
             entries: [

@@ -22,12 +22,13 @@
         ],
         "spellSchools": { "VD": { "full": "Void", "short": "VD" } },
         "dateAdded": 1578601678,
-        "dateUpdated": 1578853074
+        "source": "zorq",
+        "dateUpdated": 1578859877
     },
     "feat": [
         {
             "name": "Void Channeler",
-            "source": "DM03",
+            "source": "zorq",
             "page": 5,
             "entries": [
                 "As an action, you can speak aloud a word or short phrase in void speech. One creature of your choice within 10 feet that can hear you must succeed on a Wisdom saving throw against this magic (DC 8 + your proficiency bonus + your Charisma modifier) or be {@condition frightened} of you for 1 minute. A {@condition frightened} creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success.",
@@ -36,7 +37,7 @@
         },
         {
             "name": "Void Scribe",
-            "source": "DM03",
+            "source": "zorq",
             "page": 5,
             "entries": [
                 "As an action, you can use a writing medium to inscribe a magical void glyph on an unattended object within reach. As long as the glyph remains intact, the object is vulnerable to necrotic damage and it takes {@damage 1d6} necrotic damage at the end of your turn.",
@@ -49,7 +50,7 @@
             "name": "Conjure Minor Voidborn",
             "level": 5,
             "school": "VD",
-            "source": "DM03",
+            "source": "zorq",
             "time": [{ "number": 1, "unit": "minute" }],
             "range": { "distance": { "type": "feet", "amount": 90 } },
             "components": { "v": true, "s": true },
@@ -94,7 +95,7 @@
             "name": "Crushing Curse",
             "level": 0,
             "school": "VD",
-            "source": "DM03",
+            "source": "zorq",
             "time": [{ "number": 1, "unit": "action" }],
             "range": { "distance": { "type": "feet", "amount": 60 } },
             "components": { "v": true, "s": true },
@@ -125,7 +126,7 @@
             "name": "Maddening Whispers",
             "level": 2,
             "school": "VD",
-            "source": "DM03",
+            "source": "zorq",
             "time": [{ "number": 1, "unit": "action" }],
             "range": { "distance": { "type": "feet", "amount": 30 } },
             "components": { "v": true, "s": true },
@@ -150,7 +151,7 @@
     ],
     "subclass": [
         {
-            "source": "DM03",
+            "source": "zorq",
             "page": 5,
             "class": "Wizard",
             "name": "Void Speaker",

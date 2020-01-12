@@ -156,7 +156,7 @@ module.exports = {
             daily: {
                 '1e': ['{@spell barkskin|PHB}', '{@spell tree stride|PHB}'],
             },
-            type: 'spellcasting',
+
             ability: 'wis',
         },
     ],

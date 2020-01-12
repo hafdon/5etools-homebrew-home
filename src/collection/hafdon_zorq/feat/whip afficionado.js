@@ -21,7 +21,7 @@ module.exports = {
             //     'When you make a melee attack on your turn with a whip, your reach with it is 5 feet greater than normal.',
             // ],
             items: [
-                'You gain a +1 bonus to attack rolls you make with the weapon.',
+                'You gain a +1 bonus to attack rolls you make with a whip.',
                 'As a bonus action on your turn, you can increase your reach with a whip by 5 feet for the rest of your turn.',
                 'Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes slashing damage equal to your Dexterity modifier (minimum of 0) if the attack misses but the higher of the two {@dice d20} rolls would have hit.',
                 'If you roll a critical hit on a melee attack roll with the weapon, as a reaction you can take the {@action Help} action to aid an ally’s melee attack against that same target.',

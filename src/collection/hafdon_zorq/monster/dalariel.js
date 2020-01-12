@@ -1,5 +1,8 @@
+/**
+ *  (Battleforce Angel template)
+ */
 module.exports = {
-    name: 'Dalariel (Battleforce Angel template)',
+    name: 'Dalariel',
     size: 'M',
     type: { type: 'celestial', tags: ['pronouns: she, her, hers'] },
     source: 'zorq',

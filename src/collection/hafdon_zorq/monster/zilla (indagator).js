@@ -128,7 +128,6 @@ module.exports = {
                 '1e': ['{@spell darkness}', '{@spell faerie fire}'],
             },
             ability: 'cha',
-            type: 'spellcasting',
         },
     ],
     damageTags: ['B', 'R'],
