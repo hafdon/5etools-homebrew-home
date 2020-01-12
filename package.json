@@ -14,7 +14,7 @@
         "build:move": "/bin/bash ./_node/build_move.sh",
         "git:push": "git push && git push --tags",
         "build:win": "set DEBUG=build* & node index.js && npm run format",
-        "build:push:temp": "npm run build && git add . && git commit -m \"build\" && git push"
+        "build:push:temp": "DEBUG=* npm run build && git add . && git commit -m \"build\" && git push"
     },
     "precommit": [],
     "repository": {
