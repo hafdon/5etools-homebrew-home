@@ -1,8 +1,6 @@
 module.exports = {
     name: 'Salted Grape Jerky',
-    wondrous: false,
-    poison: false,
-    curse: false,
+
     //weight: 1,
     rarity: 'Common',
     source: 'zorq',

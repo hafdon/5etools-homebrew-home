@@ -2,13 +2,11 @@ module.exports = {
     name: 'Black Wood Resin',
     wondrous: true,
     poison: true,
-    curse: false,
+
     //weight: 1,
-    rarity: 'Rare',
+    rarity: 'Uncommon',
     source: 'zorq',
-    page: null,
-    // tier: 'Major',
-    // reqAttune: true,
+    tier: 'Minor',
     type: 'TG',
     entries: ['Flavor text.'],
 };

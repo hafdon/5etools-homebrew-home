@@ -125,7 +125,6 @@ module.exports = {
                 ],
             },
             ability: 'cha',
-            type: 'spellcasting',
         },
     ],
     tokenUrl:

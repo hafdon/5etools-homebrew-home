@@ -1,12 +1,11 @@
 {
     "name": "Wyrmblood Venom (vial)",
-    "type": "G",
+    "type": "TG",
     "rarity": "None",
     "value": 10000,
+    "poison": true,
     "source": "zorq",
-    "page": null,
     "entries": [
         "Vee'gn'och create a reddish liquid, which they smear on their fangs. The freakish red mouths on the tiny skeletons are disturbing, and the toxin is deadly. A bitten creature must succeed on a DC15 Constitution saving throw or become {@condition poisoned} and take {@dice 1d6} Charisma damage. A {@condition poisoned} creature repeats the saving throw every four hours, taking another {@dice 1d6} Charisma damage for each failure, until it has made two consecutive successful saves or survived for 24 hours. If the creature survives, the effect ends and the creature can heal normally. Lost Charisma can be regained with a lesser restoration spell or comparable magic."
-    ],
-    "poison": true
+    ]
 }

@@ -104,8 +104,7 @@
             "daily": {
                 "1": ["{@spell animate dead} (up to 5 skeletons or zombies)"]
             },
-            "ability": "cha",
-            "type": "spellcasting"
+            "ability": "cha"
         }
     ],
     "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Bone%20Collective.png",

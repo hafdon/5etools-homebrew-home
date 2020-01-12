@@ -3,11 +3,8 @@ module.exports = {
     wondrous: true,
     source: 'zorq',
     tier: 'Minor',
-    curse: false,
     poison: true,
     type: 'TG',
-    // TRADE GOOD: 'TG'
-    // ADVENTURING GEAR: 'AG'
     entries: [
         'This potent, syrupy liquid smells like earth and {@item black wood resin|zorq}. Many taverns carry proprietary blends.',
         'A creature subjected to this liquid must succeed on a {@dc 13} Constitution saving throw or become {@condition poisoned} for {@dice 1d4} hours.',

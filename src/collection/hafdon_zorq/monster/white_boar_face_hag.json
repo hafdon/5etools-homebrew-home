@@ -47,8 +47,7 @@
                 "{@spell minor illusion}",
                 "{@spell vicious mockery}"
             ],
-            "ability": "cha",
-            "type": "spellcasting"
+            "ability": "cha"
         },
         {
             "name": "Shared Spellcasting (Coven Only)",
@@ -93,8 +92,7 @@
             },
             "footerEntries": [
                 "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
-            ],
-            "type": "spellcasting"
+            ]
         }
     ],
     "trait": [

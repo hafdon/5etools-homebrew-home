@@ -72,7 +72,6 @@ module.exports = {
                 '3': ['{@spell hex}'],
             },
             ability: 'cha',
-            type: 'spellcasting',
         },
     ],
     tokenUrl:

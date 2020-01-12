@@ -3,8 +3,6 @@ module.exports = {
     wondrous: true,
     source: 'zorq',
     tier: 'Minor',
-    curse: false,
-    poison: false,
     type: 'TG',
     // TRADE GOOD: 'TG'
     // ADVENTURING GEAR: 'AG'

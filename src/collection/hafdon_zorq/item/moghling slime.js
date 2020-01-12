@@ -9,11 +9,10 @@ module.exports = {
     entries: [
         {
             type: 'quote',
-            entries: [
-                'Is {@bold your} mantle totally too smooth and not sticky?',
-            ],
+            entries: ['Is your mantle totally too smooth and not sticky?'],
             by: 'Polive Pittlans',
         },
+        '',
         'This glass jar, 3 inches in diameter, contains {@dice 1d4+1} doses of a thick mixture that smells faintly of petrichor. The jar and its contents weigh ½ pound.',
 
         "As an action, one dose of the ointment can be applied to a creature's skin, clothing, or armor. (The same effects require two doses for a creature of Large or larger size.)",

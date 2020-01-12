@@ -65,8 +65,7 @@
                         "{@spell thorn whip|PHB}"
                     ]
                 }
-            },
-            "type": "spellcasting"
+            }
         }
     ],
     "shortName": "Hagnar",

@@ -75,7 +75,6 @@ module.exports = {
                 '1': ['{@spell conjure fey}'],
             },
             ability: 'cha',
-            type: 'spellcasting',
         },
         {
             name: 'Spellcasting',
@@ -113,7 +112,6 @@ module.exports = {
                 },
             },
             ability: 'cha',
-            type: 'spellcasting',
         },
     ],
     environment: ['arctic', 'forest', 'mountain', 'swamp', 'urban'],

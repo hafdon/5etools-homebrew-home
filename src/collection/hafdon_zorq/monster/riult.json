@@ -63,7 +63,7 @@
             ]
         }
     ],
-    "page": 164,
+
     "spellcasting": [
         {
             "name": "Innate Spellcasting",
@@ -78,8 +78,7 @@
                     "{@spell disguise self}"
                 ]
             },
-            "ability": "int",
-            "type": "spellcasting"
+            "ability": "int"
         }
     ],
     "environment": ["underdark"],

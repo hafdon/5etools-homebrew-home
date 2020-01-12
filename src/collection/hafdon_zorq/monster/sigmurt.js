@@ -74,7 +74,6 @@ module.exports = {
             ],
             will: ['{@spell detect magic}', '{@spell mage armor} (self only)'],
             ability: 'cha',
-            type: 'spellcasting',
         },
         {
             name: 'Spellcasting',
@@ -103,7 +102,6 @@ module.exports = {
                 },
             },
             ability: 'cha',
-            type: 'spellcasting',
         },
     ],
     environment: ['hill', 'underdark'],

@@ -78,8 +78,7 @@
                     "{@spell disguise self}"
                 ]
             },
-            "ability": "int",
-            "type": "spellcasting"
+            "ability": "int"
         }
     ],
     "environment": ["underdark"],

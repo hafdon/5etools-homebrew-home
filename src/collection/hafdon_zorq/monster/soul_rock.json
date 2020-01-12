@@ -54,8 +54,7 @@
                     "{@spell these rocks look great|0}"
                 ]
             },
-            "ability": "wis",
-            "type": "spellcasting"
+            "ability": "wis"
         }
     ],
     "trait": [

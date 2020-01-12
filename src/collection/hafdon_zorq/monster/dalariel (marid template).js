@@ -2,7 +2,7 @@
  * based on {@creature marid|mm} cr11
  */
 module.exports = {
-    name: 'Dalariel',
+    name: 'Dalariel (marid template)',
     size: 'L',
     type: {
         type: 'celestial',
@@ -114,7 +114,6 @@ module.exports = {
                 ],
             },
             ability: 'cha',
-            type: 'spellcasting',
         },
     ],
 };

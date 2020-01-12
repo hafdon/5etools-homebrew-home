@@ -35,6 +35,15 @@ module.exports = {
     int: 5,
     wis: 12,
     cha: 7,
+    skill: {
+        athletics: '+7',
+        perception: '+5',
+        stealth: '+4',
+    },
+    save: {
+        str: '+5',
+        dex: '+4',
+    },
     resist: [
         {
             resist: ['bludgeoning', 'piercing', 'slashing'],
@@ -137,15 +146,7 @@ module.exports = {
         ],
     },
     tokenUrl: 'https://5e.tools/img/VGM/Yeth Hound.png?v=1.94.8',
-    skill: {
-        athletics: '+7',
-        perception: '+5',
-        stealth: '+4',
-    },
-    save: {
-        str: '+5',
-        dex: '+4',
-    },
+
     isNpc: true,
     isNamedCreature: true,
     spellcasting: [
@@ -154,7 +155,6 @@ module.exports = {
             daily: {
                 '1e': ['{@spell barkskin|PHB}', '{@spell tree stride|PHB}'],
             },
-            type: 'spellcasting',
         },
     ],
 };

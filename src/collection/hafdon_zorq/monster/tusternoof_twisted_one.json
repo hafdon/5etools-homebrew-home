@@ -70,8 +70,7 @@
                 "{@spell disguise self}",
                 "{@spell mage armor}"
             ],
-            "ability": "cha",
-            "type": "spellcasting"
+            "ability": "cha"
         },
         {
             "name": "Spellcasting",
@@ -99,8 +98,7 @@
                     "lower": 1
                 }
             },
-            "ability": "cha",
-            "type": "spellcasting"
+            "ability": "cha"
         }
     ],
     "environment": ["urban"],
