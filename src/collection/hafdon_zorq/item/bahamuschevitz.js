@@ -1,11 +1,11 @@
 module.exports = {
     name: 'Bahamuschevitz',
     type: 'TG',
-    wondrous: false,
+
     tier: 'Minor',
     // weight: 1,
     rarity: 'Uncommon',
-    reqAttune: false,
+
     source: 'zorq',
     // page: null,
     entries: [
