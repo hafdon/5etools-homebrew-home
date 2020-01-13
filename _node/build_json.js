@@ -35,7 +35,29 @@ const write_dir = './build';
 let giddy_parent_folders = [],
     file_array = [];
 const blankObjects = [],
-    wrongSource = [];
+    wrongSource = [],
+    uniqueId = [],
+    spellcastersWrong = [],
+    noResist = [],
+    noImmune = [];
+
+wrongSourceFoldersCheck = ['hafdon_zorq'];
+
+function getData(filename) {
+    let data = null;
+    if (filename.endsWith('.json')) {
+        data = fs.readJSONSync(filename);
+    } else if (filename.endsWith('.js')) {
+        try {
+            // have to back out a director because node > module.paths shows
+            // only node_modules as a end path
+            data = require(`../${filename}`);
+        } catch (e) {
+            elog({ 'Error trying to import js module': e, filename });
+        }
+    }
+    return data;
+}
 
 // Get Giddy parent-level folders
 try {
@@ -94,40 +116,42 @@ file_array.forEach(folder => {
                 .readdirSync(`${read_dir}/${folder}/${curr}`)
                 .filter(e => !e.startsWith(FILTERSTRING))
                 .reduce((prev, e) => {
-                    let data = null;
-                    log({ e });
-                    if (e.endsWith('.json')) {
-                        data = fs.readJSONSync(
-                            `${read_dir}/${folder}/${curr}/${e}`
-                        );
-                    } else if (e.endsWith('.js')) {
-                        try {
-                            // have to back out a director because node > module.paths shows
-                            // only node_modules as a end path
-                            data = require(`../${read_dir}/${folder}/${curr}/${e}`);
-                        } catch (e) {
-                            elog({ 'Error trying to import js module': e });
-                        }
-                    }
+                    const filename = `${read_dir}/${folder}/${curr}/${e}`;
+                    let data = getData(filename);
 
                     // break early if the object in the file doesn't have any properties
                     // (i.e. it's a blank object)
                     // this happens by accident
                     if (!Object.getOwnPropertyNames(data).length) {
-                        blankObjects.push(`${read_dir}/${folder}/${curr}/${e}`);
+                        blankObjects.push(filename);
                         return prev;
                     }
 
-                    // set source to 'zorq'
-                    if (!data.source || data.source !== 'zorq') {
-                        wrongSource.push(`${read_dir}/${folder}/${curr}/${e}`);
+                    // set source to 'zorq' if it's the right file
+                    if (
+                        wrongSourceFoldersCheck.includes(
+                            folder.split('/')[1]
+                        ) &&
+                        curr !== '_meta' &&
+                        (!data.source || data.source !== 'zorq')
+                    ) {
+                        wrongSource.push(filename);
+                        data.source = 'zorq';
                     }
-                    data.source = 'zorq';
 
                     // delete uniqueId property
                     // (this is only used for makebrew)
                     if (Object.getOwnPropertyNames(data).includes('uniqueId')) {
+                        uniqueId.push(filename);
                         delete data.uniqueId;
+                    }
+
+                    if (curr === 'monster' && data.spellcasting) {
+                        data.spellcasting.forEach(v => {
+                            if (!v.ability) {
+                                spellcastersWrong.push(filename);
+                            }
+                        });
                     }
 
                     // if it's the _meta file
@@ -144,15 +168,22 @@ file_array.forEach(folder => {
             return prev;
         }, {});
 
-        log(Object.keys(buildObj));
+        const write_location = `${write_dir}/${folder}.json`;
+        log({
+            message: `Writing to ... ${write_location}`,
+            object: Object.keys(buildObj).reduce((prev, curr) => {
+                prev[curr] = buildObj[curr].length;
+                return prev;
+            }, {}),
+        });
+
         /**
          * Write the file to the build directory
          */
-        const write_location = `${write_dir}/${folder}.json`;
+
         fs.writeJSONSync(write_location, {
             ...buildObj,
         });
-        log(`written to ${write_location}`);
     } catch (e) {
         elog(`Unable to create build JSON object for folder ${folder}`);
         elog(e);
@@ -163,14 +194,25 @@ file_array.forEach(folder => {
 if (blankObjects.length) {
     log(
         '\nWARNING: blank objects (not written to output file)!!\n\n',
-        ...blankObjects
+        blankObjects
     );
 }
 if (wrongSource.length) {
     log(
         '\nWARNING: the following files have the wrong source property (changed in output file)!!\n\n',
-        ...wrongSource
+        wrongSource
     );
 }
-
+if (uniqueId.length) {
+    log(
+        '\nWARNING: the following files still have a uniqueId prop (changed in output file)!!\n\n',
+        uniqueId
+    );
+}
+if (spellcastersWrong.length) {
+    log(
+        "\nWARNING: the following creatures don't have the ability prop in their spellcasting prop !!\n\n",
+        spellcastersWrong
+    );
+}
 process.exitCode = 0;

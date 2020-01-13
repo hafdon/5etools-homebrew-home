@@ -112,7 +112,7 @@ module.exports = {
     spellcasting: [
         {
             name: 'Spellcasting',
-            attribute: 'cha',
+            ability: 'cha',
             headerEntries: [
                 'Galax is a 3rd-level spellcaster.  Her spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). She regains her expended spell slots when she finishes a long rest. She knows the following paladin spells:',
             ],

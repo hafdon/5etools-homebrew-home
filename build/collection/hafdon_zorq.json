@@ -12,8 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1578860107,
-        "source": "zorq"
+        "dateUpdated": 1578882785
     },
     "action": [
         {
@@ -93,6 +92,18 @@
         }
     ],
     "feat": [
+        {
+            "name": "Sea Legs",
+            "source": "zorq",
+            "prerequisite": [
+                {
+                    "other": "Achievement of rank of First Mate on a sailing vessel."
+                }
+            ],
+            "entries": [
+                "You have advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+            ]
+        },
         {
             "name": "Whip Aficionado",
             "source": "zorq",
@@ -211,6 +222,20 @@
             ]
         },
         {
+            "name": "Salted Grape Jerky",
+            "rarity": "Common",
+            "source": "zorq",
+            "tier": "None",
+            "type": "TG",
+            "entries": [
+                {
+                    "type": "quote",
+                    "entries": ["It's like drinking a raisin."],
+                    "by": "{@creature Fezziwig Hornswoggle|zorq}"
+                }
+            ]
+        },
+        {
             "name": "Gushbonies",
             "rarity": "Uncommon",
             "source": "zorq",
@@ -263,6 +288,21 @@
             ]
         },
         {
+            "name": "Multicolored Stone Disc",
+            "wondrous": true,
+            "tier": "Minor",
+            "rarity": "Rare",
+            "source": "zorq",
+            "entries": [
+                "This wondrous item is a palm-sized multicolored stone disc.",
+                "You may use an action to activate this disc. When you do so, the disc expands into a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for 1 hour, and can hold up to 500 pounds. If more weight is placed on it, the disc returns to its original size, and everything on the disk falls to the ground.",
+                "The disk is immobile while you [the one who activated it] are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can’t cross an elevation change of 10 feet or more. For example, the disk can’t move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.",
+                "If you move more than 100 feet from the disk (typically because it can’t move around an obstacle to follow you), the disc returns to its original size.",
+                "You may use an action at anytime to deactivate the disc.",
+                "After the disc has been activated, it cannot be activated again until the next dawn."
+            ]
+        },
+        {
             "name": "Potion of Pr'lll",
             "resist": ["poison", "necrotic"],
             "type": "P",
@@ -307,20 +347,6 @@
                         "{@spell false life|[hb]}",
                         "{@spell enlarge/reduce|phb}"
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Salted Grape Jerky",
-            "rarity": "Common",
-            "source": "zorq",
-            "tier": "None",
-            "type": "TG",
-            "entries": [
-                {
-                    "type": "quote",
-                    "entries": ["It's like drinking a raisin."],
-                    "by": "Fezziwig Hornswoggle"
                 }
             ]
         },
@@ -725,7 +751,8 @@
                     },
                     "footerEntries": [
                         "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
-                    ]
+                    ],
+                    "ability": "int"
                 }
             ],
             "trait": [
@@ -2043,6 +2070,53 @@
             "tokenUrl": "https://5e.tools/img/MTF/Gray Render.png?v=1.94.2"
         },
         {
+            "name": "Fezziwig Hornswoggle",
+            "size": "M",
+            "type": { "type": "humanoid", "tags": ["halfling"] },
+            "source": "zorq",
+            "alignment": ["L", "G"],
+            "ac": [{ "ac": 16, "from": ["{@item chain mail|phb}"] }],
+            "hp": { "average": 30, "formula": "4d8 + 12" },
+            "speed": { "walk": 30 },
+            "str": 16,
+            "dex": 11,
+            "con": 16,
+            "int": 11,
+            "wis": 10,
+            "cha": 13,
+            "skill": { "athletics": "+5", "intimidation": "+3" },
+            "passive": 10,
+            "languages": ["any one language (usually Common)"],
+            "cr": "3",
+            "trait": [
+                {
+                    "name": "Sea Legs",
+                    "entries": [
+                        "The first mate has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The first mate makes two attacks with its longsword."
+                    ]
+                },
+                {
+                    "name": "Longsword",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage, or 14 ({@damage 2d10 + 3}) slashing damage if used with two hands. If the target is a creature, the first mate can choose to deal no damage with the attack to disarm the target. The target must succeed on a {@dc 14} Strength saving throw or drop one item it is holding on the ground."
+                    ]
+                }
+            ],
+            "damageTags": ["S"],
+            "miscTags": ["MW"],
+            "languageTags": ["C", "X"],
+            "actionTags": ["Multiattack"],
+            "tokenUrl": "https://5e.tools/img/GoS/Pirate First Mate.png?v=1.94.8"
+        },
+        {
             "source": "zorq",
             "name": "Forl",
             "size": "S",
@@ -2332,7 +2406,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
-                    "attribute": "cha",
+                    "ability": "cha",
                     "headerEntries": [
                         "Galax is a 3rd-level spellcaster.  Her spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). She regains her expended spell slots when she finishes a long rest. She knows the following paladin spells:"
                     ],
@@ -2499,7 +2573,6 @@
                     ]
                 }
             ],
-            "page": 152,
             "environment": ["forest"],
             "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/219/girallon.mp3",
             "traitTags": ["Aggressive"],
@@ -2556,6 +2629,9 @@
         },
         {
             "name": "Hagnar Rezfort (spirit form)",
+            "shortName": "Hagnar",
+            "isNamedCreature": true,
+            "isNpc": true,
             "size": "M",
             "type": "fiend",
             "source": "zorq",
@@ -2571,7 +2647,6 @@
             "cha": 1,
             "save": { "con": "+3" },
             "skill": { "stealth": "+7", "athletics": "+3", "perception": "+0" },
-            "immune": [],
             "conditionImmune": ["blinded"],
             "senses": ["darkvision 120 ft."],
             "passive": 10,
@@ -2598,7 +2673,6 @@
             "senseTags": ["SD"],
             "damageTags": ["S", "N"],
             "miscTags": ["MW"],
-            "tokenUrl": "https://5e.tools/img/MTF/Skulk.png?v=1.94.4",
             "spellcasting": [
                 {
                     "name": "Spellcasting",
@@ -2610,12 +2684,10 @@
                                 "{@spell thorn whip|PHB}"
                             ]
                         }
-                    }
+                    },
+                    "ability": "int"
                 }
-            ],
-            "shortName": "Hagnar",
-            "isNamedCreature": true,
-            "isNpc": true
+            ]
         },
         {
             "name": "Juniper Three School",
@@ -4665,7 +4737,8 @@
                                 "{@spell thorn whip|PHB}"
                             ]
                         }
-                    }
+                    },
+                    "ability": "int"
                 }
             ]
         },
@@ -5390,7 +5463,8 @@
                     },
                     "footerEntries": [
                         "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
-                    ]
+                    ],
+                    "ability": "int"
                 }
             ],
             "trait": [
@@ -6018,6 +6092,171 @@
             },
             "tokenUrl": "https://5e.tools/img/MM/Lizardfolk.png?v=1.94.4",
             "shortName": "Yuruk the page"
+        },
+        {
+            "name": "Zarachiel",
+            "size": "L",
+            "type": { "type": "celestial", "tags": ["ooze"] },
+            "source": "zorq",
+            "alignment": ["C", "E"],
+            "ac": [{ "ac": 12, "from": ["natural armor"] }],
+            "hp": { "average": 63, "formula": "14d6 + 14" },
+            "speed": { "walk": 20, "climb": 20 },
+            "str": 12,
+            "dex": 4,
+            "con": 12,
+            "int": 10,
+            "wis": 14,
+            "cha": 10,
+            "resist": [
+                {
+                    "resist": ["piercing"],
+                    "note": "and slashing from nonmagical weapons"
+                }
+            ],
+            "immune": ["bludgeoning", "acid", "lightning"],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "prone"
+            ],
+            "senses": ["blindsight 90 ft. (blind beyond this radius)"],
+            "passive": 12,
+            "languages": [
+                "none in its natural form; knows the same languages as a creature it dominates"
+            ],
+            "cr": "3",
+            "trait": [
+                {
+                    "name": "Amorphous",
+                    "entries": [
+                        "The sap demon can move through a space as narrow as 1 inch wide without squeezing."
+                    ]
+                },
+                {
+                    "name": "Season's Change",
+                    "entries": [
+                        "If a sap demon (or its host) takes at least 10 fire damage, it also gains the effect of a haste spell until the end of its next turn. If it takes at least 10 cold damage, it gains the effect of a slow spell until the end of its next turn."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": ["The sap demon makes two slam attacks."]
+                },
+                {
+                    "name": "Slam",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d8 + 1}) bludgeoning damage. If both attacks hit a Medium or smaller target, the target is {@condition grappled} (escape {@dc 11}), and the sap demon uses Soul Sap on it as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Soul Sap",
+                    "entries": [
+                        "The sap demon slides down the throat of a sleeping, helpless, or {@condition grappled} living creature of Medium size or smaller. Once inside, the sap demon takes control of its host, as per the dominate monster spell (Wisdom {@dc 11} negates). While dominated, the host gains blindsight 90 feet. The host drips blood from its ears, nose, eyes, or from a wound that resembles the injury done to the sap demon's tree (1 damage/Hour). Damage inflicted on the host has no effect on the sap demon. If the host dies or is reduced to 0 hit points, the sap demon must leave the body within one hour."
+                    ]
+                }
+            ],
+            "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Sap%20Demon.png",
+            "actionTags": ["Multiattack"],
+            "traitTags": ["Amorphous"],
+            "senseTags": ["B"],
+            "damageTags": ["B"],
+            "miscTags": ["MW"]
+        },
+        {
+            "name": "Zarachiel (Gloucous form)",
+            "size": "L",
+            "type": {
+                "type": "ooze",
+                "tags": ["celestial", "pronouns: they, them, theirs"]
+            },
+            "source": "zorq",
+            "alignment": ["C", "E"],
+            "ac": [{ "ac": 13, "from": ["natural armor"] }],
+            "hp": { "average": 63, "formula": "14d6 + 14" },
+            "speed": { "walk": 20, "climb": 20 },
+            "str": 16,
+            "dex": 8,
+            "con": 14,
+            "int": 10,
+            "wis": 10,
+            "cha": 4,
+            "resist": [
+                {
+                    "resist": ["piercing", "slashing"],
+                    "note": "from nonmagical weapons"
+                }
+            ],
+            "immune": ["bludgeoning", "acid", "lightning"],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "prone"
+            ],
+            "senses": ["blindsight 90 ft. (blind beyond this radius)"],
+            "passive": 12,
+            "languages": [
+                "Common",
+                "Zorbh",
+                "knows the same languages as a creature it dominates"
+            ],
+            "cr": "3",
+            "trait": [
+                {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": [
+                        "In glaucous form, Zarachiel is a 9-foot tall greyish-black ooze with tiny silver eyes. Its outer layer flows like a fondue fountain. It does not spell great.",
+                        "self-conscious of: ",
+                        "wants to be (thought of as): ",
+                        "modest about:"
+                    ]
+                },
+                {
+                    "name": "Amorphous",
+                    "entries": [
+                        "Zarachiel can move through a space as narrow as 1 inch wide without squeezing."
+                    ]
+                },
+                {
+                    "name": "Season's Change",
+                    "entries": [
+                        "If Zarachiel (or its host) takes at least 10 fire damage, it also gains the effect of the {spell haste|phb} spell until the end of its next turn. If it takes at least 10 cold damage, it gains the effect of the {@slow|phb} spell until the end of its next turn."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": ["Zarachiel makes two slam attacks."]
+                },
+                {
+                    "name": "Slam",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d8 + 1}) bludgeoning damage. If both attacks hit a Medium or smaller target, the target is {@condition grappled} (escape {@dc 11}), and Zarachiel uses Soul Sap on it as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Soul Sap",
+                    "entries": [
+                        "Zarachiel slides down the throat of a sleeping, helpless, or {@condition grappled} living creature of Medium size or smaller. Once inside, Zarachiel takes control of its host, as per the {@spell dominate monster|phb} spell (Wisdom {@dc 11} negates). While dominated, the host gains blindsight 90 feet. The host drips blood from its ears, nose, eyes, or from a wound that resembles the injury done to Zarachiel's tree (1 damage/Hour). Damage inflicted on the host has no effect on Zarachiel. If the host dies or is reduced to 0 hit points, Zarachiel must leave the body within one hour."
+                    ]
+                }
+            ],
+            "tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Sap%20Demon.png",
+            "actionTags": ["Multiattack"],
+            "traitTags": ["Amorphous"],
+            "senseTags": ["B"],
+            "damageTags": ["B"],
+            "miscTags": ["MW"]
         },
         {
             "name": "Zilla (Indagator)",

@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'Blue face hag tall',
+    name: 'White Boar face hag, 4\'6"',
     size: 'M',
     type: 'fey',
     source: 'zorq',
@@ -276,4 +276,6 @@ module.exports = {
         ],
     },
     tokenUrl: 'https://5e.tools/img/MM/Green Hag.png?v=1.94.4',
+
+    uniqueId: '9fa63b2f488c268c1ac1134cb5cf668b',
 };

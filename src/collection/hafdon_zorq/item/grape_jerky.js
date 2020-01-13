@@ -11,7 +11,7 @@ module.exports = {
         {
             type: 'quote',
             entries: ["It's like drinking a raisin."],
-            by: 'Fezziwig Hornswoggle',
+            by: '{@creature Fezziwig Hornswoggle|zorq}',
         },
     ],
 };
