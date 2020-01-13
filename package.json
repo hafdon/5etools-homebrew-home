@@ -1,6 +1,6 @@
 {
     "name": "zorq",
-    "version": "2.1.0",
+    "version": "3.0.0",
     "description": "Homebrew source for 5e.tools",
     "main": "index.js",
     "scripts": {
