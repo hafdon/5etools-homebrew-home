@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1578883068
+        "dateUpdated": 1578889601
     },
     "action": [
         {
@@ -89,6 +89,20 @@
             "source": "zorq",
             "page": null,
             "entries": ["One of her messengers is {@creature Dalariel|zorq}."]
+        }
+    ],
+    "disease": [
+        {
+            "name": "High Cholesterol",
+            "entries": [
+                "If an affected person lowers their body temperature, the cholesterol will rise to the surface of their blood and congeal, at which point it can be scraped off."
+            ],
+            "source": "zorq"
+        },
+        {
+            "name": "Syrup in the Blood",
+            "entries": ["Diabetes"],
+            "source": "zorq"
         }
     ],
     "feat": [
@@ -1666,6 +1680,26 @@
             "senses": ["darkvision 120 ft.", "truesight 120 ft."],
             "trait": [
                 {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": [
+                        "Dalariel is an angel who, according to the rabbis of the Talmud, takes charge of the waters of the earth.",
+                        "Fishermen invoke her so that they may take large fish. Dalariel has also traditionally been invoked as a cure for stupidity.",
+                        "self-conscious of: ",
+                        "wants to be (thought of as): ",
+                        "modest about:"
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Purpose",
+                    "entries": [
+                        "Act as one of {@deity Ulimara|zorq}'s lieutenants.",
+                        "Initiate any {@class paladin}s who have not realized that they have been called."
+                    ]
+                },
+                { "type": "inset", "name": "Background", "entries": [""] },
+                {
                     "name": "Flyby",
                     "entries": [
                         "The angel doesn't provoke an opportunity attack when it flies out of an enemy's reach."
@@ -2858,31 +2892,31 @@
                 },
                 {
                     "name": "Amphibious",
-                    "entries": ["Dalariel can breathe air and water."]
+                    "entries": ["Limalay can breathe air and water."]
                 },
                 {
                     "name": "Elemental Demise",
                     "entries": [
-                        "If Dalariel dies, her body disintegrates into a burst of water and foam, leaving behind only equipment Dalariel was wearing or carrying."
+                        "If Limalay dies, her body disintegrates into a burst of water and foam, leaving behind only equipment Limalay was wearing or carrying."
                     ]
                 },
                 {
                     "name": "Flyby",
                     "entries": [
-                        "Dalariel doesn't provoke an opportunity attack when she flies out of an enemy's reach."
+                        "Limalay doesn't provoke an opportunity attack when she flies out of an enemy's reach."
                     ]
                 },
                 {
                     "name": "Gauntlets of Weapon Recall",
                     "entries": [
-                        "As a bonus action Dalariel can recall to her grasp her trident as long as it is no more than 80 feet away from her."
+                        "As a bonus action Limalay can recall to her grasp her trident as long as it is no more than 80 feet away from her."
                     ]
                 }
             ],
             "action": [
                 {
                     "name": "Multiattack",
-                    "entries": ["Dalariel makes two trident attacks."]
+                    "entries": ["Limalay makes two trident attacks."]
                 },
                 {
                     "name": "Trident",
@@ -2893,7 +2927,7 @@
                 {
                     "name": "Battlefield Inspiration",
                     "entries": [
-                        "Dalariel chooses up to three creatures she can see within 30 feet of it. Until the end of Dalariel's next turn, each target can add a {@dice d4} to its attack rolls and saving throws."
+                        "Limalay chooses up to three creatures she can see within 30 feet of it. Until the end of Limalay's next turn, each target can add a {@dice d4} to its attack rolls and saving throws."
                     ]
                 }
             ],
@@ -2901,7 +2935,7 @@
                 {
                     "name": "Innate Spellcasting",
                     "headerEntries": [
-                        "Dalariel's innate spellcasting ability is Charisma (spell save DC 14, {@hit 6} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
+                        "Limalay's innate spellcasting ability is Charisma (spell save DC 14, {@hit 6} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
                     ],
                     "will": [
                         "{@spell create or destroy water}",
@@ -3713,6 +3747,17 @@
             "cr": "2",
             "trait": [
                 {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": [
+                        "oubridthe -- pinkish reddish flesh, with eyeballs and open mouths bubbling up to the surface, getting reabsorbed and bubbling up again",
+                        "Flesh tastes disgusting. ANy animal using a bite attack against it takes damage.",
+                        "self-conscious of: ",
+                        "wants to be (thought of as): ",
+                        "modest about:"
+                    ]
+                },
+                {
                     "name": "Aberrant Ground",
                     "entries": [
                         "The ground in a 10-foot radius around the mouther is doughlike difficult terrain. Each creature that starts its turn in that area must succeed on a {@dc 10} Strength saving throw or have its speed reduced to 0 until the start of its next turn."
@@ -3739,7 +3784,7 @@
                     ]
                 },
                 {
-                    "name": "Blinding Spittle {@recharge 5}",
+                    "name": "Blinding Spittle {@recharge 6}",
                     "entries": [
                         "The mouther spits a chemical glob at a point it can see within 15 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 5 feet of the flash must succeed on a {@dc 13} Dexterity saving throw or be {@condition blinded} until the end of the mouther's next turn."
                     ]
@@ -5042,7 +5087,8 @@
                     "type": "inset",
                     "name": "Appearance and Mannerisms",
                     "entries": [
-                        "Tobolux is a tiny genii spirit. She has the typical turqoise complexion, but on her face are simplified paisley patterns of bright white. She has dark-red hair and her eyes are nested within rose petal leaves which perpetually separate and fall, disappearing into dust before they touch the ground."
+                        "Tobolux is a tiny genii spirit. She has the typical turqoise complexion, but on her face are simplified paisley patterns of bright white. She has dark-red hair and her eyes are nested within rose petal leaves which perpetually separate and fall, disappearing into dust before they touch the ground.",
+                        "Her eye petals are produced and shed perpetually."
                     ]
                 }
             ],

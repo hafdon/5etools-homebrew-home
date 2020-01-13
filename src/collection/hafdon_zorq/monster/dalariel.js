@@ -43,6 +43,26 @@ module.exports = {
     senses: ['darkvision 120 ft.', 'truesight 120 ft.'],
     trait: [
         {
+            type: 'inset',
+            name: 'Appearance and Mannerisms',
+            entries: [
+                'Dalariel is an angel who, according to the rabbis of the Talmud, takes charge of the waters of the earth.',
+                'Fishermen invoke her so that they may take large fish. Dalariel has also traditionally been invoked as a cure for stupidity.',
+                'self-conscious of: ',
+                'wants to be (thought of as): ',
+                'modest about:',
+            ],
+        },
+        {
+            type: 'inset',
+            name: 'Purpose',
+            entries: [
+                "Act as one of {@deity Ulimara|zorq}'s lieutenants.",
+                'Initiate any {@class paladin}s who have not realized that they have been called.',
+            ],
+        },
+        { type: 'inset', name: 'Background', entries: [''] },
+        {
             name: 'Flyby',
             entries: [
                 "The angel doesn't provoke an opportunity attack when it flies out of an enemy's reach.",

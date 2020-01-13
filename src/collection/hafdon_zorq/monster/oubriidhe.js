@@ -28,6 +28,19 @@ module.exports = {
     cr: '2',
     trait: [
         {
+            type: 'inset',
+            name: 'Appearance and Mannerisms',
+            entries: [
+                'oubridthe -- pinkish reddish flesh, with eyeballs and open mouths bubbling up to the surface, getting reabsorbed and bubbling up again',
+                'Flesh tastes disgusting. ANy animal using a bite attack against it takes damage.',
+                'self-conscious of: ',
+                'wants to be (thought of as): ',
+                'modest about:',
+            ],
+        },
+        // { type: 'inset', name: 'Purpose', entries: [''] },
+        // { type: 'inset', name: 'Background', entries: [''] },
+        {
             name: 'Aberrant Ground',
             entries: [
                 'The ground in a 10-foot radius around the mouther is doughlike difficult terrain. Each creature that starts its turn in that area must succeed on a {@dc 10} Strength saving throw or have its speed reduced to 0 until the start of its next turn.',
@@ -54,7 +67,7 @@ module.exports = {
             ],
         },
         {
-            name: 'Blinding Spittle {@recharge 5}',
+            name: 'Blinding Spittle {@recharge 6}',
             entries: [
                 "The mouther spits a chemical glob at a point it can see within 15 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 5 feet of the flash must succeed on a {@dc 13} Dexterity saving throw or be {@condition blinded} until the end of the mouther's next turn.",
             ],

@@ -63,6 +63,7 @@ module.exports = {
             name: 'Appearance and Mannerisms',
             entries: [
                 'Tobolux is a tiny genii spirit. She has the typical turqoise complexion, but on her face are simplified paisley patterns of bright white. She has dark-red hair and her eyes are nested within rose petal leaves which perpetually separate and fall, disappearing into dust before they touch the ground.',
+                'Her eye petals are produced and shed perpetually.',
             ],
         },
     ],

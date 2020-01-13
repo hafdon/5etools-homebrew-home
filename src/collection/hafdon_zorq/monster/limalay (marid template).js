@@ -52,31 +52,31 @@ module.exports = {
         { type: 'inset', name: 'Purpose', entries: ['Lieutenant of Ulimara.'] },
         {
             name: 'Amphibious',
-            entries: ['Dalariel can breathe air and water.'],
+            entries: ['Limalay can breathe air and water.'],
         },
         {
             name: 'Elemental Demise',
             entries: [
-                'If Dalariel dies, her body disintegrates into a burst of water and foam, leaving behind only equipment Dalariel was wearing or carrying.',
+                'If Limalay dies, her body disintegrates into a burst of water and foam, leaving behind only equipment Limalay was wearing or carrying.',
             ],
         },
         {
             name: 'Flyby',
             entries: [
-                "Dalariel doesn't provoke an opportunity attack when she flies out of an enemy's reach.",
+                "Limalay doesn't provoke an opportunity attack when she flies out of an enemy's reach.",
             ],
         },
         {
             name: 'Gauntlets of Weapon Recall',
             entries: [
-                'As a bonus action Dalariel can recall to her grasp her trident as long as it is no more than 80 feet away from her.',
+                'As a bonus action Limalay can recall to her grasp her trident as long as it is no more than 80 feet away from her.',
             ],
         },
     ],
     action: [
         {
             name: 'Multiattack',
-            entries: ['Dalariel makes two trident attacks.'],
+            entries: ['Limalay makes two trident attacks.'],
         },
         {
             name: 'Trident',
@@ -87,7 +87,7 @@ module.exports = {
         {
             name: 'Battlefield Inspiration',
             entries: [
-                "Dalariel chooses up to three creatures she can see within 30 feet of it. Until the end of Dalariel's next turn, each target can add a {@dice d4} to its attack rolls and saving throws.",
+                "Limalay chooses up to three creatures she can see within 30 feet of it. Until the end of Limalay's next turn, each target can add a {@dice d4} to its attack rolls and saving throws.",
             ],
         },
     ],
@@ -96,7 +96,7 @@ module.exports = {
         {
             name: 'Innate Spellcasting',
             headerEntries: [
-                "Dalariel's innate spellcasting ability is Charisma (spell save DC 14, {@hit 6} to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
+                "Limalay's innate spellcasting ability is Charisma (spell save DC 14, {@hit 6} to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
             ],
             will: [
                 '{@spell create or destroy water}',
