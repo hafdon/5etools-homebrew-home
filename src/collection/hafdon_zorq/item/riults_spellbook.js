@@ -11,9 +11,8 @@ module.exports = {
         {
             type: 'list',
             items: [
-                '{@spell spare the dying|phb}',
                 '{@spell comprehend languages|phb}',
-                '{@spell false life|[hb]}',
+                '{@spell false life|phb]}',
                 '{@spell enlarge/reduce|phb}',
             ],
         },
