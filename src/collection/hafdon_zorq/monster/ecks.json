@@ -46,11 +46,9 @@
             ]
         }
     ],
-    "page": 188,
     "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/276/homunculus.mp3",
     "senseTags": ["D"],
     "miscTags": ["MW"],
-    "srd": true,
     "damageTags": ["P"],
     "fluff": {
         "name": "Homunculus",
@@ -85,7 +83,5 @@
     },
     "isNpc": true,
     "familiar": true,
-    "isNamedCreature": true,
-
-    "uniqueId": "1b2244436bfe7c27b53d053558557acb"
+    "isNamedCreature": true
 }

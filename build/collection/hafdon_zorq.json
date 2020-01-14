@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1578974817
+        "dateUpdated": 1578980884
     },
     "action": [
         {
@@ -102,7 +102,7 @@
         {
             "name": "Moghling Hangover",
             "entries": [
-                "Any creature who has been possessed, controlled, or crushed by a {@creature moghling} within the last 7 days has disadvantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                "Any creature who has been possessed, controlled, or crushed by a {@creature moghling|zorq} within the last 7 days has disadvantage on ability checks and saving throws to resist being knocked {@condition prone}."
             ],
             "source": "zorq"
         },
@@ -523,6 +523,45 @@
     ],
     "monster": [
         {
+            "name": "Doodril Manacart",
+            "size": "M",
+            "type": { "type": "humanoid", "tags": ["any race"] },
+            "source": "zorq",
+            "alignment": ["A"],
+            "ac": [10],
+            "hp": { "average": 4, "formula": "1d8" },
+            "speed": { "walk": 30 },
+            "str": 10,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "passive": 10,
+            "languages": ["any one language (usually Common)"],
+            "cr": "0",
+            "action": [
+                {
+                    "name": "Club",
+                    "entries": [
+                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "environment": [
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "urban"
+            ],
+            "languageTags": ["C", "X"],
+            "damageTags": ["B"],
+            "miscTags": ["MW"]
+        },
+        {
             "name": "Angel of Lole'iel",
             "size": "M",
             "type": {
@@ -703,6 +742,95 @@
             "spellcastingTags": ["I"],
             "damageTags": ["T"],
             "isNpc": true
+        },
+        {
+            "name": "Bixby",
+            "size": "M",
+            "type": {
+                "type": "humanoid",
+                "tags": ["deep scion", "pronouns: he, him, his", "hybrid"]
+            },
+            "source": "zorq",
+            "alignment": ["N", "G"],
+            "ac": [{ "ac": 12, "from": ["natural armor"] }],
+            "hp": { "average": 76, "formula": "9d8 + 36" },
+            "speed": { "walk": 25, "swim": 40 },
+            "str": 20,
+            "dex": 15,
+            "con": 18,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": { "wis": "+3", "cha": "+4" },
+            "skill": {
+                "deception": "+6",
+                "insight": "+3",
+                "sleight of hand": "+4",
+                "stealth": "+4"
+            },
+            "senses": ["darkvision 120 ft."],
+            "passive": 11,
+            "languages": ["Aquan", "Common", "Thieves' cant"],
+            "cr": "4",
+            "trait": [
+                {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": [
+                        "self-conscious of:",
+                        "wants to be (thought of as) ",
+                        "modest about:"
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Background",
+                    "entries": [
+                        "Pretty hairy guy in life. Tailor and jack-of-all-trades on the {@vehicle The Majestic Elk|zorq}"
+                    ]
+                },
+                { "type": "inset", "name": "Purpose", "entries": [""] },
+                {
+                    "name": "Amphibious",
+                    "entries": ["The deep scion can breathe air and water."]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "In hybrid form, the deep scion makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d4 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Psychic Screech (Recharge on {@recharge 6})",
+                    "entries": [
+                        "The deep scion emits a terrible scream audible within 300 feet. Creatures within 30 feet of the deep scion must succeed on a {@dc 14} Wisdom saving throw or take 5 ({@damage 2d4 + 1}) psychic damage. In water, the psychic screech also telepathically transmits the deep scion's memories of the last 24 hours to creatures who fail their save."
+                    ]
+                }
+            ],
+            "environment": ["coastal", "swamp", "underdark", "underwater"],
+            "actionTags": ["Multiattack"],
+            "languageTags": ["AQ", "C", "TC"],
+            "senseTags": ["SD"],
+            "damageTags": ["P", "S"],
+            "miscTags": ["MW"],
+            "tokenUrl": "https://5e.tools/img/VGM/Deep Scion.png?v=1.94.2",
+            "traitTags": ["Amphibious"],
+            "isNpc": true,
+            "isNamedCreature": true
         },
         {
             "name": "Blue face hag tall",
@@ -1915,6 +2043,45 @@
             "languageTags": ["C", "U"]
         },
         {
+            "name": "Dort Threed",
+            "size": "M",
+            "type": { "type": "humanoid", "tags": ["any race"] },
+            "source": "zorq",
+            "alignment": ["A"],
+            "ac": [10],
+            "hp": { "average": 4, "formula": "1d8" },
+            "speed": { "walk": 30 },
+            "str": 10,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "passive": 10,
+            "languages": ["any one language (usually Common)"],
+            "cr": "0",
+            "action": [
+                {
+                    "name": "Club",
+                    "entries": [
+                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "environment": [
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "urban"
+            ],
+            "languageTags": ["C", "X"],
+            "damageTags": ["B"],
+            "miscTags": ["MW"]
+        },
+        {
             "name": "Ecks",
             "size": "T",
             "type": "construct",
@@ -1953,11 +2120,9 @@
                     ]
                 }
             ],
-            "page": 188,
             "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/276/homunculus.mp3",
             "senseTags": ["D"],
             "miscTags": ["MW"],
-            "srd": true,
             "damageTags": ["P"],
             "fluff": {
                 "name": "Homunculus",
@@ -2749,6 +2914,106 @@
             ]
         },
         {
+            "name": "Joan",
+            "source": "zorq",
+            "shortName": "Joan",
+            "isNamedCreature": true,
+            "action": [
+                {
+                    "name": "Lightning Breath (2/rest)",
+                    "entries": [
+                        "Each creature in the area of the exhalation (5 by 30 ft. line) must make a {@dc 10} Dexterity saving throw. A creature takes {@h}11 ({@damage 3d6}) lightning damage on a failed save ({@h}13 ({@damage 3d6 + 2}) if you are raging), and half as much damage on a successful save"
+                    ]
+                },
+                {
+                    "name": "Trident",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 5}) piercing damage ({@h}12 ({@damage 1d8 + 7} )if raging)."
+                    ]
+                }
+            ],
+            "alignment": ["C", "N"],
+            "size": "M",
+            "type": {
+                "type": "humanoid",
+                "tags": ["dragonborn", "pronouns: she, her, hers"]
+            },
+            "ac": [{ "ac": 15, "from": ["{@item chain shirt|phb}"] }],
+            "hp": { "formula": "4d12 + 0", "average": 33 },
+            "speed": 30,
+            "str": 20,
+            "dex": 14,
+            "con": 10,
+            "int": 9,
+            "wis": 10,
+            "cha": 11,
+            "skill": {
+                "gearhead": "+2",
+                "animal handling": "+2",
+                "athletics": "+7",
+                "intimidation": "+2",
+                "stealth": "+4"
+            },
+            "passive": 10,
+            "languages": ["Common", "Draconic"],
+            "trait": [
+                {
+                    "type": "section",
+                    "name": "",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Danger Sense",
+                            "entries": [
+                                "You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Reckless Attack",
+                            "entries": [
+                                "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Spirit Seeker",
+                            "entries": [
+                                "You gain the ability to cast the {@spell beast sense} and {@spell speak with animals} spells, but only as rituals,"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Three School",
+                            "entries": [
+                                "You are now The Mask of Three School, along with {@creature Ethel Three School|zorq} and {@creature Stump Three School|zorq}."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Rage (3/Long Rest)",
+                            "entries": [
+                                "On your turn, you can enter a rage as a bonus action.",
+                                "While raging, you gain the following benefits if you aren't wearing heavy armor:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        "You have advantage on Strength checks and Strength saving throws.",
+                                        "When you make a melee weapon attack using Strength, you gain a +2 bonus to the damage roll.",
+                                        "{@bold Totem Spirit: Bear}. You have resistance to all damage except psychic damage."
+                                    ]
+                                },
+                                "Your rage lasts for 1 minute. It ends early if you are knocked {@condition unconscious} or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "level": 4,
+            "save": { "str": "+7", "con": "+2" },
+            "resist": ["lightning"]
+        },
+        {
             "name": "Juniper Three School",
             "size": "M",
             "type": { "type": "humanoid", "tags": ["any race"] },
@@ -3088,6 +3353,91 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/GGR/Battleforce Angel.png?v=1.94.4"
+        },
+        {
+            "name": "Lying Cat",
+            "size": "T",
+            "type": { "type": "beast", "tags": ["Tressym"] },
+            "source": "zorq",
+            "alignment": ["C", "N"],
+            "ac": [12],
+            "hp": { "average": 5, "formula": "2d4" },
+            "speed": { "walk": 40, "climb": 30, "fly": 40 },
+            "str": 3,
+            "dex": 15,
+            "con": 10,
+            "int": 11,
+            "wis": 12,
+            "cha": 12,
+            "skill": { "perception": "+5", "stealth": "+4" },
+            "immune": ["poison"],
+            "conditionImmune": ["poisoned"],
+            "senses": ["darkvision 60 ft."],
+            "passive": 15,
+            "languages": ["Common", "Rodent"],
+            "cr": "0",
+            "trait": [
+                {
+                    "name": "Detect Invisibility",
+                    "entries": [
+                        "Within 60 feet of Lying Cat, magical invisibility fails to conceal anything from Lying Cat's sight"
+                    ]
+                },
+                {
+                    "name": "Keen Smell",
+                    "entries": [
+                        "Lying Cat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+                    ]
+                },
+                {
+                    "name": "Poison Sense",
+                    "entries": [
+                        "Lying Cat can detect whether a substance is poisonous by taste, touch, or smell."
+                    ]
+                },
+                {
+                    "name": "Familiar",
+                    "entries": [
+                        "With the DM's permission, a person who casts the find familiar spell can choose to conjure Lying Cat in stead of a normal cat."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Claws",
+                    "entries": [
+                        "{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+                    ]
+                }
+            ],
+            "isNpc": true,
+            "traitTags": ["Keen Senses"],
+            "languageTags": ["C", "CS"],
+            "miscTags": ["MW"],
+            "senseTags": ["D"],
+            "damageTags": ["S"],
+            "fluff": {
+                "name": "Lying Cat",
+                "source": "BGDIA",
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "internal",
+                            "path": "bestiary/BGDIA/Tressym.jpg"
+                        }
+                    }
+                ],
+                "entries": [
+                    "Lying Cat is a mischievous winged cat as big as a house cat, with a wingspan of 3 feet.",
+                    "Thought to be the results of wizardly experimentation on house cats, Lying Cat are intelligent and have been known to form strong friendships with humanoids, particularly rangers and wizards. Lying Cat get along well with others of their kind, but they rarely lair or hunt together. They peacefully ignore bats, faerie dragons, and the like, but they hate stirges and evil flying monsters such as manticores. They also enjoy teasing dogs.",
+                    "Lying Cat feed on small rodents, birds, and insects, stalking and pouncing on prey much as normal cats do, but with the added advantage of flight. Lying Cat don't, however, attack nestlings or despoil eggs.",
+                    "Lying Cat mate with others of their kind, but they don't mate for life. Lying Cat can also mate with a normal cat, though only one out of every ten of their offspring will be Lying Cat; the others will be normal cats.",
+                    "Lying Cat have good memories, particularly when it comes to danger. For example, Lying Cat that sees a human use awand of lightningbolts remembers the danger of \"sticks of wood held by humans\" for the rest of its life. A lucky, healthy Lying Cat can live to be 20 years old.",
+                    "With the DM's permission, a person who casts the findfamiliar spellcan choose to conjure Lying Cat instead of a normal cat."
+                ]
+            },
+            "tokenUrl": "https://5e.tools/img/SKT/Tressym.png?v=1.94.8"
         },
         {
             "name": "moghling",
@@ -4791,7 +5141,7 @@
         {
             "name": "Spirit of the Twisted Maze",
             "size": "M",
-            "type": "fiend",
+            "type": { "type": "fiend", "tags": ["Skulk"] },
             "source": "zorq",
             "alignment": ["C", "N"],
             "ac": [13],
