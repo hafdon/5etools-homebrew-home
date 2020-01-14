@@ -10,11 +10,13 @@ const fs = require('fs-extra');
 
 // Loggers
 const log = require('debug')('build');
+const traitExpandLog = log.extend('trait:expand');
 const elog = log.extend('error');
 
 log('starting');
 
-const FILTERSTRING = '__';
+// const FILTERSTRING = '__';
+const FILTERARRAY = ['__', '$'];
 
 /**
  * Get a list of the folders in the src/ director
@@ -42,7 +44,12 @@ const blankObjects = [],
     noImmune = [];
 
 wrongSourceFoldersCheck = ['hafdon_zorq'];
-
+/**
+ * opens a file (either .json or .js) and returns object of file contents
+ *
+ * @param {*} filename
+ * @returns Object file contents as a javascript object
+ */
 function getData(filename) {
     let data = null;
     if (filename.endsWith('.json')) {
@@ -63,7 +70,8 @@ function getData(filename) {
 try {
     giddy_parent_folders = fs
         .readdirSync(read_dir)
-        .filter(e => !e.startsWith(FILTERSTRING))
+        // .filter(e => !e.startsWith(FILTERSTRING))
+        .filter(e => !FILTERARRAY.some(s => e.startsWith(s)))
         .sort((a, b) => a.localeCompare(b));
 } catch (e) {
     elog(e);
@@ -80,7 +88,8 @@ try {
     file_array = giddy_parent_folders.reduce((prev, curr) => {
         let sub_dirs = fs
             .readdirSync(`${read_dir}/${curr}`)
-            .filter(e => !e.startsWith(FILTERSTRING));
+            // .filter(e => !e.startsWith(FILTERSTRING));
+            .filter(e => !FILTERARRAY.some(s => e.startsWith(s)));
         sub_dirs.forEach(s => {
             prev.push(`${curr}/${s}`);
         });
@@ -92,7 +101,7 @@ try {
     process.exitCode = 1;
 }
 
-console.log({ file_array });
+log({ file_array });
 /**
  * For each folder, get a list of contained files.
  * For each file, add its contents to an array
@@ -108,13 +117,15 @@ file_array.forEach(folder => {
 
         let folder_array = fs
             .readdirSync(`${read_dir}/${folder}`)
-            .filter(e => !e.startsWith(FILTERSTRING))
+            // .filter(e => !e.startsWith(FILTERSTRING))
+            .filter(e => !FILTERARRAY.some(s => e.startsWith(s)))
             .sort((a, b) => a.localeCompare(b));
 
         buildObj = folder_array.reduce((prev, curr) => {
             prev[curr] = fs
                 .readdirSync(`${read_dir}/${folder}/${curr}`)
-                .filter(e => !e.startsWith(FILTERSTRING))
+                // .filter(e => !e.startsWith(FILTERSTRING))
+                .filter(e => !FILTERARRAY.some(s => e.startsWith(s)))
                 .reduce((prev, e) => {
                     const filename = `${read_dir}/${folder}/${curr}/${e}`;
                     let data = getData(filename);
@@ -146,12 +157,111 @@ file_array.forEach(folder => {
                         delete data.uniqueId;
                     }
 
-                    if (curr === 'monster' && data.spellcasting) {
-                        data.spellcasting.forEach(v => {
-                            if (!v.ability) {
-                                spellcastersWrong.push(filename);
+                    if (curr === 'monster') {
+                        // spellcasting elements should have an 'ability' prop
+                        // (this only affects the roll20 script build)
+                        if (data.spellcasting) {
+                            {
+                                data.spellcasting.forEach(v => {
+                                    if (!v.ability) {
+                                        spellcastersWrong.push(filename);
+                                    }
+                                });
                             }
-                        });
+                        }
+                        /**
+                         *  converting {@title} tags into traits
+                         * */
+
+                        if (
+                            data.type &&
+                            data.type.tags &&
+                            data.type.tags.length
+                        ) {
+                            //remove title tags
+                            data.type.tags = data.type.tags.reduce(
+                                (prev, curr) => {
+                                    // if there's a title in the tags
+                                    if (curr.startsWith('{@title')) {
+                                        // prettier-ignore
+                                        let rgx = new RegExp(/{@title (.+?)[|}]/,'gm');
+                                        let filename = rgx.exec(curr);
+
+                                        // TODO : index the titles section so I have a name linked to a filename
+                                        // so the filenames don't have to be kept in a certain format
+                                        filename = filename[1].trim();
+
+                                        if (!data.trait) {
+                                            data.trait = [];
+                                        }
+
+                                        traitEntry = getData(
+                                            `${read_dir}/${folder}/$title/${filename}.js`
+                                        );
+
+                                        traitEntry.name =
+                                            traitEntry.name +
+                                            ` (${traitEntry.type})`;
+                                        delete traitEntry.source;
+                                        delete traitEntry.type;
+                                        data.trait.push(traitEntry);
+                                    } else {
+                                        prev.push(curr);
+                                    }
+
+                                    return prev;
+                                },
+                                []
+                            );
+                            // add as traits
+                        }
+                        /**
+                         * Converting expanding trait tags into entries
+                         */
+                        if (data.trait && data.trait.length) {
+                            data.trait = data.trait.reduce((prev, curr) => {
+                                // prettier-ignore
+                                let rgp_is_expand = new RegExp(/^{@\$.*[|}]*.*}$/);
+                                // prettier-ignore
+                                let rgp_grab_trait = new RegExp(/\$(.+?)[|}]/);
+                                if (
+                                    (typeof curr === 'string' ||
+                                        curr instanceof String) &&
+                                    rgp_is_expand.test(curr)
+                                ) {
+                                    let trait_name = rgp_grab_trait
+                                        .exec(curr)[1]
+                                        .trim();
+                                    traitExpandLog({ trait_name });
+                                    let filename = trait_name.toLowerCase();
+
+                                    let { name, entries } = getData(
+                                        `${read_dir}/${folder}/$trait/${filename}.js`
+                                    );
+
+                                    // TODO: convert general trait text to specific monster text
+                                    // todo: this should actually be nested, too, and go as deep as needed
+                                    entries = entries.map(v => {
+                                        let replace_result = v.replace(
+                                            // /{@\$creaturename\..+?}/g,
+                                            // this one won't capture the .xx
+                                            /{@\$creaturename.*?}/g,
+                                            data.name
+                                        );
+                                        traitExpandLog({ v, replace_result });
+                                        return replace_result
+                                            ? replace_result
+                                            : v;
+                                    });
+                                    traitExpandLog({ entries });
+                                    prev.push({ name, entries });
+                                } else {
+                                    prev.push(curr);
+                                }
+
+                                return prev;
+                            }, []);
+                        }
                     }
 
                     // if it's the _meta file
