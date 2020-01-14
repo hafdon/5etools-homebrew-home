@@ -40,7 +40,9 @@ module.exports = {
             name: 'Apperarance & Mannerisms',
             entries: [
                 'Completely silver-white fur. Two smaller arms under pectorals. Created to serve as guardian for a previous (dwarf?) empire. ',
-                'Suspicious but gracious?',
+                "doesn't like swimming",
+                '9 feet tall.',
+                'Has a slight lisp speaking Common because of gigantic canines. Took a long time for Graal to learn Common.',
             ],
         },
     ],
