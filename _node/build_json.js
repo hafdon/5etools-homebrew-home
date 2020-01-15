@@ -246,7 +246,7 @@ file_array.forEach(folder => {
                                             // /{@\$creaturename\..+?}/g,
                                             // this one won't capture the .xx
                                             /{@\$creaturename.*?}/g,
-                                            data.name
+                                            data.short ? data.short : data.name
                                         );
                                         traitExpandLog({ v, replace_result });
                                         return replace_result

@@ -2,7 +2,7 @@
  * Based on {@creature Junior Priestess of Lolth}
  */
 module.exports = {
-    name: 'Zilla (Indagator)',
+    name: 'Zilla',
     source: 'zorq',
     alignment: ['N'],
     languageTags: ['X', 'E'],
@@ -12,7 +12,13 @@ module.exports = {
     size: 'M',
     type: {
         type: 'humanoid',
-        tags: ['elf', 'drow', 'pronouns: she, her, hers', 'cleric'],
+        tags: [
+            'elf',
+            'drow',
+            'pronouns: she, her, hers',
+            'cleric',
+            '{@title indagator|zorq}',
+        ],
     },
     ac: [
         {
@@ -49,12 +55,7 @@ module.exports = {
                 'As a bonus action, Zilla can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 ({@damage 3d6}) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Zilla expends a spell slot of 2nd level or higher, the extra damage increases by {@dice 1d6} for each level above 1st.',
             ],
         },
-        {
-            name: 'Fey Ancestry',
-            entries: [
-                "Zilla has advantage on saving throws against being {@condition charmed}, and magic can't put Zilla to sleep.",
-            ],
-        },
+        '{@$fey ancestry|zorq}',
         {
             name: 'Sunlight Sensitivity',
             entries: [

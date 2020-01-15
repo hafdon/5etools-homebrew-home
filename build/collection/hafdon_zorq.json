@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1579018798
+        "dateUpdated": 1579114653
     },
     "action": [
         {
@@ -532,45 +532,6 @@
         }
     ],
     "monster": [
-        {
-            "name": "Doodril Manacart",
-            "size": "M",
-            "type": { "type": "humanoid", "tags": ["any race"] },
-            "source": "zorq",
-            "alignment": ["A"],
-            "ac": [10],
-            "hp": { "average": 4, "formula": "1d8" },
-            "speed": { "walk": 30 },
-            "str": 10,
-            "dex": 10,
-            "con": 10,
-            "int": 10,
-            "wis": 10,
-            "cha": 10,
-            "passive": 10,
-            "languages": ["any one language (usually Common)"],
-            "cr": "0",
-            "action": [
-                {
-                    "name": "Club",
-                    "entries": [
-                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
-                    ]
-                }
-            ],
-            "environment": [
-                "arctic",
-                "coastal",
-                "desert",
-                "forest",
-                "grassland",
-                "hill",
-                "urban"
-            ],
-            "languageTags": ["C", "X"],
-            "damageTags": ["B"],
-            "miscTags": ["MW"]
-        },
         {
             "name": "Angel of Lole'iel",
             "size": "M",
@@ -1189,6 +1150,8 @@
         {
             "source": "zorq",
             "name": "Branda Earthlord",
+            "isNpc": true,
+            "isNamedCreature": true,
             "size": "M",
             "type": { "type": "humanoid", "tags": ["dwarf"] },
             "alignment": ["A"],
@@ -1233,6 +1196,7 @@
                 }
             ],
             "trait": [
+                "One of four dwarf spirits; older sisters of @{creature soul rock|zorq}",
                 {
                     "name": "Dwarven Resilience",
                     "entries": [
@@ -1300,8 +1264,7 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/ToA/Albino Dwarf Spirit Warrior.png?v=1.94.4",
-            "save": { "str": "+6", "con": "+5" },
-            "isNpc": true
+            "save": { "str": "+6", "con": "+5" }
         },
         {
             "name": "Carlos",
@@ -1980,13 +1943,13 @@
                 {
                     "name": "Flyby",
                     "entries": [
-                        "The angel doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+                        "Dalariel doesn't provoke an opportunity attack when it flies out of an enemy's reach."
                     ]
                 },
                 {
                     "name": "Magic Resistance",
                     "entries": [
-                        "The angel has advantage on saving throws against spells and other magical effects."
+                        "Dalariel has advantage on saving throws against spells and other magical effects."
                     ]
                 }
             ],
@@ -2168,6 +2131,45 @@
             "isNpc": true,
             "isNamedCreature": true,
             "languageTags": ["C", "U"]
+        },
+        {
+            "name": "Doodril Manacart",
+            "size": "M",
+            "type": { "type": "humanoid", "tags": ["any race"] },
+            "source": "zorq",
+            "alignment": ["A"],
+            "ac": [10],
+            "hp": { "average": 4, "formula": "1d8" },
+            "speed": { "walk": 30 },
+            "str": 10,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "passive": 10,
+            "languages": ["any one language (usually Common)"],
+            "cr": "0",
+            "action": [
+                {
+                    "name": "Club",
+                    "entries": [
+                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "environment": [
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "urban"
+            ],
+            "languageTags": ["C", "X"],
+            "damageTags": ["B"],
+            "miscTags": ["MW"]
         },
         {
             "name": "Dort Threed",
@@ -2420,6 +2422,7 @@
         {
             "name": "Fezziwig Hornswoggle",
             "size": "M",
+            "short": "Fez",
             "type": { "type": "humanoid", "tags": ["halfling"] },
             "source": "zorq",
             "alignment": ["L", "G"],
@@ -2440,7 +2443,7 @@
                 {
                     "name": "Sea Legs",
                     "entries": [
-                        "The first mate has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                        "Fez has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
                     ]
                 }
             ],
@@ -6880,7 +6883,7 @@
             "miscTags": ["MW"]
         },
         {
-            "name": "Zilla (Indagator)",
+            "name": "Zilla",
             "source": "zorq",
             "alignment": ["N"],
             "languageTags": ["X", "E"],
@@ -6936,7 +6939,8 @@
                         "Zilla is 5 feet tall, pale, with a strong, triangular face and precise features. She has short, side-swept jet-black hair and disengaged grey eyes. She wears a tailored grey pea-coat buttoned up to her neck, and thick cotton slacks. Her boots are a deep brown and utilitarian, and at least three sizes larger than one would expect. She carries a slim leather tome about the size of a placemat.",
                         "For a celebrity feel-alike, think Robert Patrick?"
                     ]
-                }
+                },
+                { "name": "Indagator (title)", "entries": ["An investigator."] }
             ],
             "action": [
                 {
@@ -7125,6 +7129,46 @@
                         "When you cast this spell using a spell slot of 3rd level or higher,  you can target one additional dwarf for each slot level above 2nd."
                     ]
                 }
+            ]
+        }
+    ],
+    "table": [
+        {
+            "name": "Marshbout NPCs",
+            "source": "zorq",
+            "intro": [
+                "The following table can be used as inspiration when an NPC is needed."
+            ],
+            "caption": "Marshbout NPCs",
+            "colLabels": ["1d6", "Name", "Description"],
+            "colStyles": ["col-1 text-center", "col-3", "col-8"],
+            "rows": [
+                ["1", "Nancy O'Pug", "n/a"],
+                [
+                    "2",
+                    "Dame {@creature Clippington Titchwillow|zorq}",
+                    "Landed lady."
+                ],
+                [
+                    "3",
+                    "Identifiable markings of magical assault using a specific spell",
+                    "n/a"
+                ],
+                [
+                    "4",
+                    "A letter containing incriminating information on one or more suspects",
+                    "n/a"
+                ],
+                [
+                    "5",
+                    "A trail of blood leading to an unconscious and badly wounded member of the group responsible",
+                    "n/a"
+                ],
+                [
+                    "6",
+                    "A living witness, who was unable or unwilling to leave the crime scene",
+                    "n/a"
+                ]
             ]
         }
     ],

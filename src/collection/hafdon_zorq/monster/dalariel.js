@@ -62,18 +62,8 @@ module.exports = {
             ],
         },
         { type: 'inset', name: 'Background', entries: [''] },
-        {
-            name: 'Flyby',
-            entries: [
-                "The angel doesn't provoke an opportunity attack when it flies out of an enemy's reach.",
-            ],
-        },
-        {
-            name: 'Magic Resistance',
-            entries: [
-                'The angel has advantage on saving throws against spells and other magical effects.',
-            ],
-        },
+        '{@$flyby|zorq}',
+        '{@$magic resistance|zorq}',
     ],
     action: [
         {
