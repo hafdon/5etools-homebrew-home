@@ -2,7 +2,7 @@ module.exports = {
     name: 'Munta',
     size: 'L',
     isNpc: true,
-    type: 'monstrosity',
+    type: { type: 'monstrosity', tags: ['minotaur'] },
     source: 'zorq',
     alignment: ['C', 'E'],
     ac: [

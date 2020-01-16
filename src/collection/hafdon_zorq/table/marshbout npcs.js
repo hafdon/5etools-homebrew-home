@@ -21,9 +21,13 @@ module.exports = {
         ['4', 'Igno Red McGerf', 'A stupid or oblivious dragon.'],
         ['5', 'Cackleburt', 'n/a'],
         ['6', 'Bog Frillan', 'n/a'],
-        ['7', 'Bog Frillan', 'n/a'],
-        ['8', 'Bog Frillan', 'n/a'],
-        ['9', 'Bog Frillan', 'n/a'],
-        ['10', 'Bog Frillan', 'n/a'],
+        ['7', '{@creature Turkey Badger|zorq}', 'n/a'],
+        [
+            '8',
+            '{@creature Toestealer|zorq}',
+            'A rum gremlin or goblin. Probably hangs out at Throttlebottom Hostlery or The Riskless Tavern',
+        ],
+        ['9', 'Munlin Serplepan', 'n/a'],
+        ['10', 'Meech', 'n/a'],
     ],
 };

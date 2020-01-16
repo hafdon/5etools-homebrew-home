@@ -1,6 +1,7 @@
 module.exports = {
     name: 'Toestealer',
     size: 'T',
+    isNpc: true,
     type: 'fey',
     source: 'zorq',
     alignment: ['C', 'E'],
@@ -60,7 +61,6 @@ module.exports = {
             ],
         },
     ],
-    page: '',
     spellcasting: [
         {
             name: 'Innate Spellcasting',

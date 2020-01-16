@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1579114653
+        "dateUpdated": 1579140547
     },
     "action": [
         {
@@ -79,6 +79,15 @@
             "entries": [
                 "A Vala and one of the Aratar, also known as the the Smith and Smith of the Valar, concerned with rock, metal, nature of substances and works of craft."
             ]
+        },
+        {
+            "name": "Qi'Amas",
+            "alignment": ["N"],
+            "pantheon": "Draconic",
+            "domains": ["Dragons"],
+            "province": "Deity of Dragons",
+            "source": "zorq",
+            "entries": [""]
         },
         {
             "name": "Ulimara",
@@ -156,6 +165,18 @@
         }
     ],
     "item": [
+        {
+            "name": "Secular Ministrations, penned by Doodril Frogwarts, Burgher and Sublunar Cognoscente",
+            "wondrous": true,
+            "tier": "Major",
+            "rarity": "Rare",
+            "source": "zorq",
+            "entries": [
+                "This instructional manual ...",
+                "This book contains ... ",
+                { "type": "list", "items": ["1", "1", "2", "2"] }
+            ]
+        },
         {
             "name": "Bahamuschevitz",
             "type": "TG",
@@ -386,18 +407,6 @@
             ]
         },
         {
-            "name": "Secular Ministrations, penned by Doodril Frogwarts, Burgher and Sublunar Cognoscente",
-            "wondrous": true,
-            "tier": "Major",
-            "rarity": "Rare",
-            "source": "zorq",
-            "entries": [
-                "This instructional manual ...",
-                "This book contains ... ",
-                { "type": "list", "items": ["1", "1", "2", "2"] }
-            ]
-        },
-        {
             "name": "Three School Mask",
             "wondrous": true,
             "weight": 1,
@@ -532,6 +541,45 @@
         }
     ],
     "monster": [
+        {
+            "name": "Doodril Manacart",
+            "size": "M",
+            "type": { "type": "humanoid", "tags": ["any race"] },
+            "source": "zorq",
+            "alignment": ["A"],
+            "ac": [10],
+            "hp": { "average": 4, "formula": "1d8" },
+            "speed": { "walk": 30 },
+            "str": 10,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "passive": 10,
+            "languages": ["any one language (usually Common)"],
+            "cr": "0",
+            "action": [
+                {
+                    "name": "Club",
+                    "entries": [
+                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "environment": [
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "urban"
+            ],
+            "languageTags": ["C", "X"],
+            "damageTags": ["B"],
+            "miscTags": ["MW"]
+        },
         {
             "name": "Angel of Lole'iel",
             "size": "M",
@@ -2133,45 +2181,6 @@
             "languageTags": ["C", "U"]
         },
         {
-            "name": "Doodril Manacart",
-            "size": "M",
-            "type": { "type": "humanoid", "tags": ["any race"] },
-            "source": "zorq",
-            "alignment": ["A"],
-            "ac": [10],
-            "hp": { "average": 4, "formula": "1d8" },
-            "speed": { "walk": 30 },
-            "str": 10,
-            "dex": 10,
-            "con": 10,
-            "int": 10,
-            "wis": 10,
-            "cha": 10,
-            "passive": 10,
-            "languages": ["any one language (usually Common)"],
-            "cr": "0",
-            "action": [
-                {
-                    "name": "Club",
-                    "entries": [
-                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
-                    ]
-                }
-            ],
-            "environment": [
-                "arctic",
-                "coastal",
-                "desert",
-                "forest",
-                "grassland",
-                "hill",
-                "urban"
-            ],
-            "languageTags": ["C", "X"],
-            "damageTags": ["B"],
-            "miscTags": ["MW"]
-        },
-        {
             "name": "Dort Threed",
             "size": "M",
             "type": { "type": "humanoid", "tags": ["any race"] },
@@ -2809,9 +2818,16 @@
             "cr": "3",
             "trait": [
                 {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": [
+                        "{@creature Munta|zorq} (one of Baphomet’s agents) tried to grant to {@creature Sigmurh|zorq} a boon but ended up bonding Goglocks as master to the {@creature Sigmurh|zorq}."
+                    ]
+                },
+                {
                     "name": "Keen Hearing and Smell",
                     "entries": [
-                        "The yeth hound has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+                        "Goglocks has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
                     ]
                 },
                 {
@@ -3645,6 +3661,7 @@
         {
             "name": "Munta",
             "size": "L",
+            "isNpc": true,
             "type": "monstrosity",
             "source": "zorq",
             "alignment": ["C", "E"],
@@ -3672,13 +3689,13 @@
                 {
                     "name": "Labyrinthine Recall",
                     "entries": [
-                        "The minotaur can perfectly recall any path it has traveled."
+                        "Munta can perfectly recall any path it has traveled."
                     ]
                 },
                 {
                     "name": "Reckless",
                     "entries": [
-                        "At the start of its turn, the minotaur can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+                        "At the start of its turn, Munta can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
                     ]
                 }
             ],
@@ -3696,9 +3713,7 @@
                     ]
                 }
             ],
-            "page": 223,
             "environment": ["underdark"],
-            "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/340/minotaur.mp3",
             "traitTags": ["Charge", "Reckless"],
             "languageTags": ["AB"],
             "senseTags": ["D"],
@@ -5679,6 +5694,7 @@
         {
             "name": "Toestealer",
             "size": "T",
+            "isNpc": true,
             "type": "fey",
             "source": "zorq",
             "alignment": ["C", "E"],
@@ -5731,7 +5747,6 @@
                     ]
                 }
             ],
-            "page": "",
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
@@ -7134,13 +7149,13 @@
     ],
     "table": [
         {
-            "name": "Marshbout NPCs",
+            "name": "Marshbout Historical Event Teasers",
             "source": "zorq",
             "intro": [
-                "The following table can be used as inspiration when an NPC is needed."
+                "The following table can be used as inspiration when a historical event is needed."
             ],
-            "caption": "Marshbout NPCs",
-            "colLabels": ["1d6", "Name", "Description"],
+            "caption": "Marshbout Historical Event Teasers",
+            "colLabels": ["1d10", "Name", "Description"],
             "colStyles": ["col-1 text-center", "col-3", "col-8"],
             "rows": [
                 ["1", "Nancy O'Pug", "n/a"],
@@ -7151,24 +7166,50 @@
                 ],
                 [
                     "3",
-                    "Identifiable markings of magical assault using a specific spell",
-                    "n/a"
+                    "{@creature Branda Earthlord|zorq}",
+                    "One of the sisters guarding {@creature Soul Rock|zorq}"
+                ],
+                ["4", "Igno Red McGerf", "A stupid or oblivious dragon."],
+                ["5", "Cackleburt", "n/a"],
+                ["6", "Bog Frillan", "n/a"],
+                ["7", "Bog Frillan", "n/a"],
+                ["8", "Bog Frillan", "n/a"],
+                ["9", "Bog Frillan", "n/a"],
+                ["10", "Bog Frillan", "n/a"]
+            ]
+        },
+        {
+            "name": "Marshbout NPCs",
+            "source": "zorq",
+            "intro": [
+                "The following table can be used as inspiration when an NPC is needed."
+            ],
+            "caption": "Marshbout NPCs",
+            "colLabels": ["1d10", "Name", "Description"],
+            "colStyles": ["col-1 text-center", "col-3", "col-8"],
+            "rows": [
+                ["1", "Nancy O'Pug", "n/a"],
+                [
+                    "2",
+                    "Dame {@creature Clippington Titchwillow|zorq}",
+                    "Landed lady."
                 ],
                 [
-                    "4",
-                    "A letter containing incriminating information on one or more suspects",
-                    "n/a"
+                    "3",
+                    "{@creature Branda Earthlord|zorq}",
+                    "One of the sisters guarding {@creature Soul Rock|zorq}"
                 ],
+                ["4", "Igno Red McGerf", "A stupid or oblivious dragon."],
+                ["5", "Cackleburt", "n/a"],
+                ["6", "Bog Frillan", "n/a"],
+                ["7", "{@creature Turkey Badger|zorq}", "n/a"],
                 [
-                    "5",
-                    "A trail of blood leading to an unconscious and badly wounded member of the group responsible",
-                    "n/a"
+                    "8",
+                    "{@creature Toestealer|zorq}",
+                    "A rum gremlin or goblin. Probably hangs out at Throttlebottom Hostlery or The Riskless Tavern"
                 ],
-                [
-                    "6",
-                    "A living witness, who was unable or unwilling to leave the crime scene",
-                    "n/a"
-                ]
+                ["9", "Munlin Serplepan", "n/a"],
+                ["10", "Meech", "n/a"]
             ]
         }
     ],
