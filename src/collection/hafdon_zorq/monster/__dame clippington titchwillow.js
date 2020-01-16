@@ -6,4 +6,13 @@ why is she here? to … assassinate … someone (really a cover for … ?)
 
  */
 
-module.exports = {};
+module.exports = {
+    isNpc: true,
+    isNamedCreature: true,
+    name: 'Clippington Titchwillow',
+    short: 'Willow',
+    type: {
+        type: 'human',
+        tags: ['{@title dame|zorq}'],
+    },
+};

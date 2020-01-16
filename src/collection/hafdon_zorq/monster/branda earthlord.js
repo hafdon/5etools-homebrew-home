@@ -1,6 +1,8 @@
 module.exports = {
     source: 'zorq',
     name: 'Branda Earthlord',
+    isNpc: true,
+    isNamedCreature: true,
 
     size: 'M',
     type: {
@@ -59,6 +61,7 @@ module.exports = {
         },
     ],
     trait: [
+        'One of four dwarf spirits; older sisters of @{creature soul rock|zorq}',
         {
             name: 'Dwarven Resilience',
             entries: [
@@ -115,7 +118,4 @@ module.exports = {
         str: '+6',
         con: '+5',
     },
-    isNpc: true,
-
-    uniqueId: '87a5524b2a74929f60830df3f35a6513',
 };
