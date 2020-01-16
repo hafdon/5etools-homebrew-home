@@ -224,14 +224,32 @@ file_array.forEach(folder => {
                                 let rgp_is_expand = new RegExp(/^{@\$.*[|}]*.*}$/);
                                 // prettier-ignore
                                 let rgp_grab_trait = new RegExp(/\$(.+?)[|}]/);
+
+                                // prettier-ignore
+                                let rgp_is_expand_with_trait = new RegExp(/^{@\$trait.*[|}]*.*}$/);
+                                // prettier-ignore
+                                let rgp_grab_trait_with_trait = new RegExp(/{@\$trait (.+?)[|}]/);
+
                                 if (
                                     (typeof curr === 'string' ||
                                         curr instanceof String) &&
-                                    rgp_is_expand.test(curr)
+                                    (rgp_is_expand.test(curr) ||
+                                        rgp_is_expand_with_trait.test(curr))
                                 ) {
-                                    let trait_name = rgp_grab_trait
-                                        .exec(curr)[1]
-                                        .trim();
+                                    let trait_name = '';
+
+                                    if (rgp_is_expand.test(curr)) {
+                                        trait_name = rgp_grab_trait
+                                            .exec(curr)[1]
+                                            .trim();
+                                    } else if (
+                                        rgp_is_expand_with_trait.test(curr)
+                                    ) {
+                                        trait_name = rgp_grab_trait_with_trait
+                                            .exec(curr)[1]
+                                            .trim();
+                                    }
+
                                     traitExpandLog({ trait_name });
                                     let filename = trait_name.toLowerCase();
 
