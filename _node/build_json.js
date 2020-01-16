@@ -251,7 +251,9 @@ file_array.forEach(folder => {
                                     }
 
                                     traitExpandLog({ trait_name });
-                                    let filename = trait_name.toLowerCase();
+                                    let filename = trait_name
+                                        .toLowerCase()
+                                        .replace('trait ', '');
 
                                     let { name, entries } = getData(
                                         `${read_dir}/${folder}/$trait/${filename}.js`
