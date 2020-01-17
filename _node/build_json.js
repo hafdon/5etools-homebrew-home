@@ -157,6 +157,25 @@ file_array.forEach(folder => {
                         delete data.uniqueId;
                     }
 
+                    // if we're supposed to build the table
+                    // that is, introduce random indices
+                    // and a 1dx
+                    if (
+                        curr === 'table' &&
+                        data.type &&
+                        data.type === 'build'
+                    ) {
+                        data.colLabels.unshift(`1d${data.rows.length}`);
+                        data.rows = data.rows.map((r, i) => {
+                            r.unshift('' + (i + 1));
+                            return r;
+                        });
+                        data.rows = data.rows.sort((a, b) => {
+                            return a[1].localeCompare(b[1]);
+                        });
+                        delete data.type;
+                    }
+
                     if (curr === 'monster') {
                         // spellcasting elements should have an 'ability' prop
                         // (this only affects the roll20 script build)
@@ -224,16 +243,36 @@ file_array.forEach(folder => {
                                 let rgp_is_expand = new RegExp(/^{@\$.*[|}]*.*}$/);
                                 // prettier-ignore
                                 let rgp_grab_trait = new RegExp(/\$(.+?)[|}]/);
+
+                                // prettier-ignore
+                                let rgp_is_expand_with_trait = new RegExp(/^{@\$trait.*[|}]*.*}$/);
+                                // prettier-ignore
+                                let rgp_grab_trait_with_trait = new RegExp(/{@\$trait (.+?)[|}]/);
+
                                 if (
                                     (typeof curr === 'string' ||
                                         curr instanceof String) &&
-                                    rgp_is_expand.test(curr)
+                                    (rgp_is_expand.test(curr) ||
+                                        rgp_is_expand_with_trait.test(curr))
                                 ) {
-                                    let trait_name = rgp_grab_trait
-                                        .exec(curr)[1]
-                                        .trim();
+                                    let trait_name = '';
+
+                                    if (rgp_is_expand.test(curr)) {
+                                        trait_name = rgp_grab_trait
+                                            .exec(curr)[1]
+                                            .trim();
+                                    } else if (
+                                        rgp_is_expand_with_trait.test(curr)
+                                    ) {
+                                        trait_name = rgp_grab_trait_with_trait
+                                            .exec(curr)[1]
+                                            .trim();
+                                    }
+
                                     traitExpandLog({ trait_name });
-                                    let filename = trait_name.toLowerCase();
+                                    let filename = trait_name
+                                        .toLowerCase()
+                                        .replace('trait ', '');
 
                                     let { name, entries } = getData(
                                         `${read_dir}/${folder}/$trait/${filename}.js`

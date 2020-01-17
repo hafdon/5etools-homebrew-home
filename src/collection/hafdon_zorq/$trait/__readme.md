@@ -1,6 +1,6 @@
 -   `{@$creaturename.cd}`
 
-`@$creaturename` : indicates it will be replaces
+`@$creaturename` : indicates it will be replaced
 c = capitalized
 d = definite article
 

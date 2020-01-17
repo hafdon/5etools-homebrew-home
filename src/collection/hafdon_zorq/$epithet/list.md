@@ -2,3 +2,4 @@
 
 -   the ambagical
     > indirect, circumlocutory, obscure
+-   the unmerciful
