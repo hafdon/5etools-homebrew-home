@@ -157,6 +157,25 @@ file_array.forEach(folder => {
                         delete data.uniqueId;
                     }
 
+                    // if we're supposed to build the table
+                    // that is, introduce random indices
+                    // and a 1dx
+                    if (
+                        curr === 'table' &&
+                        data.type &&
+                        data.type === 'build'
+                    ) {
+                        data.colLabels.unshift(`1d${data.rows.length}`);
+                        data.rows = data.rows.map((r, i) => {
+                            r.unshift('' + (i + 1));
+                            return r;
+                        });
+                        data.rows = data.rows.sort((a, b) => {
+                            return a[1].localeCompare(b[1]);
+                        });
+                        delete data.type;
+                    }
+
                     if (curr === 'monster') {
                         // spellcasting elements should have an 'ability' prop
                         // (this only affects the roll20 script build)

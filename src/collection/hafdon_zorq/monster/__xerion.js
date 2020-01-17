@@ -6,4 +6,8 @@
 tie in to Nautilus shell (holy symbol) lines, and Ulimara's symbols
  */
 
-module.exports = {};
+module.exports = {
+    name: 'Xerion',
+    description:
+        "earth wave surfer; tie in to Nautilus shell (holy symbol) lines, and Ulimara's symbols",
+};
