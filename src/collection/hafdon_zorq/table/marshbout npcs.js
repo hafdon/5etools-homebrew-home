@@ -56,5 +56,7 @@ module.exports = {
         ['Empo', ''],
         ['Resko', ''],
         ['Raggadochy', 'rag uh DOH chee'],
+        ['Pell and Mell', 'wild'],
+        ['Nub', '?'],
     ],
 };
