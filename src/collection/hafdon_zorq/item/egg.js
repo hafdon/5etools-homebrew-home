@@ -1,16 +1,14 @@
 module.exports = {
-    name: 'NAME',
+    name: 'Happy Egg',
     wondrous: true,
-    weight: 1,
+    weight: 0.2,
     rarity: 'Rare',
     source: 'zorq',
-    page: null,
-    tier: 'Major',
-    reqAttune: true,
-    type: 'RG',
-    entries: ['ENTRY_TEXT'],
-    attachedSpells: ['animal friendship'],
-    recharge: 'dawn',
+
+    tier: 'Minor',
+
+    // type: 'RG',
+    entries: ['A freshly delivered egg that smells good'],
 };
 
 /**

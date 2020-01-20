@@ -8,5 +8,5 @@ module.exports = {
     // symbol: 'Hammer',
     source: 'zorq',
 
-    entries: [''],
+    entries: ["Paros's dragon lineage - maybe not so good ?!?!?!?!?"],
 };

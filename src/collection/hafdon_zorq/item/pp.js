@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'NAME',
+    name: 'pp',
     wondrous: true,
     weight: 1,
     rarity: 'Rare',
@@ -8,7 +8,7 @@ module.exports = {
     tier: 'Major',
     reqAttune: true,
     type: 'RG',
-    entries: ['ENTRY_TEXT'],
+    entries: ['i love pp'],
     attachedSpells: ['animal friendship'],
     recharge: 'dawn',
 };

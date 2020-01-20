@@ -215,7 +215,7 @@ file_array.forEach(folder => {
                                         }
 
                                         traitEntry = getData(
-                                            `${read_dir}/${folder}/$title/${filename}.js`
+                                            `${read_dir}/${folder}/.title/${filename}.js`
                                         );
 
                                         traitEntry.name =
@@ -275,7 +275,7 @@ file_array.forEach(folder => {
                                         .replace('trait ', '');
 
                                     let { name, entries } = getData(
-                                        `${read_dir}/${folder}/$trait/${filename}.js`
+                                        `${read_dir}/${folder}/.trait/${filename}.js`
                                     );
 
                                     // TODO: convert general trait text to specific monster text

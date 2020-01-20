@@ -2,9 +2,9 @@
  * For use for template for its usability as ingredients
  */
 module.exports = {
-    name: 'Cave Fisher (zorq)',
+    name: 'Arthur Pod',
     size: 'M',
-    type: 'monstrosity',
+    type: { type: 'monstrosity', tags: ['cave fisher'] },
     source: 'zorq',
     alignment: ['U'],
     ac: [
@@ -35,6 +35,28 @@ module.exports = {
     passive: 12,
     cr: '3',
     trait: [
+        {
+            type: 'inset',
+            entries: [
+                // { name: 'Purpose', entries: [''] },
+                // { name: 'Background', entries: [''] },
+                { name: 'Aliases', entries: ['slime dot org', 'slimort'] },
+                {
+                    name: 'Appearance and Mannerisms',
+                    entries: [
+                        'Sickly white in color',
+                        'Centipede but with crab claws. ',
+                        'Its version of drooling is clacking its own claws',
+                        '6-8 feet long, but 2 feet in diameter.',
+                        'Spinneret sack under armpit is where the filament extrudes from',
+
+                        'self-conscious of: ',
+                        'wants to be (thought of as): ',
+                        'modest about:',
+                    ],
+                },
+            ],
+        },
         {
             name: 'Adhesive Filament',
             entries: [
@@ -72,10 +94,16 @@ module.exports = {
             ],
         },
     ],
+    reaction: [
+        {
+            name: 'Entrancing Dance (1/day)',
+            entries: [
+                'If Arthur does not suprise its targets using stealth, it can use its reaction to taps out a rhythmic salsa dance with its claws and feet. Any creature who perceives this dance must make a {@dc 12} Wisdom saving throw. Until the end of this round, Arthur has advantage to attack against creatures who fail the saving throw.',
+            ],
+        },
+    ],
     environment: ['underdark'],
-    // page: 130,
-    // soundClip:
-    //     'https://media-waterdeep.cursecdn.com/file-attachments/0/83/cave-fisher.mp3',
+
     traitTags: ['Spider Climb'],
     actionTags: ['Multiattack'],
     senseTags: ['B'],
