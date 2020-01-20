@@ -55,6 +55,16 @@ module.exports = {
                         'modest about:',
                     ],
                 },
+                {
+                    name: 'The whole buffalo',
+                    entries: [
+                        'blood is highly alcoholic - used ot make craft beverages',
+                        'dwarves will drink blood from creatures like this, go berserk for a half hour',
+                        'filaments can be used to make strong things, and almost invisible',
+                        'meat tastes good',
+                        'shell used for jewelry and tools',
+                    ],
+                },
             ],
         },
         {
