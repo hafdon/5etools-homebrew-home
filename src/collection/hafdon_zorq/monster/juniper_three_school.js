@@ -58,7 +58,7 @@ module.exports = {
             ],
         },
     ],
-    page: 219,
+
     spellcasting: [
         {
             name: 'Innate Spellcasting',
