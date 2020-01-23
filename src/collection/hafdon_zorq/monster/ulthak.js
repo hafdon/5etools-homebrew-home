@@ -57,7 +57,6 @@ module.exports = {
                 ],
             },
             ability: 'wis',
-            type: 'spellcasting',
         },
     ],
     trait: [

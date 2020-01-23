@@ -143,7 +143,6 @@ module.exports = {
             ],
         },
     ],
-    page: 177,
     environment: ['forest', 'hill', 'swamp'],
     soundClip:
         'https://media-waterdeep.cursecdn.com/file-attachments/0/244/green-hag.mp3',
@@ -153,7 +152,6 @@ module.exports = {
     spellcastingTags: ['I', 'S', 'CW'],
     damageTags: ['S'],
     miscTags: ['MW'],
-    srd: true,
     fluff: {
         name: 'Green Hag',
         source: 'MM',

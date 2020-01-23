@@ -7,16 +7,20 @@
  */
 
 const fs = require('fs-extra');
+const CONFIG = require('../.config.js');
+const { REMOVE_CANTRIPS } = CONFIG;
 
 // Loggers
 const log = require('debug')('build');
-const traitExpandLog = log.extend('trait:expand');
+// const traitExpandLog = log.extend('trait:expand');
+const traitExpandLog = () => {};
 const elog = log.extend('error');
+const configlog = log.extend('config');
 
 log('starting');
 
 // const FILTERSTRING = '__';
-const FILTERARRAY = ['__', '$'];
+const FILTERARRAY = ['__', '$', '.'];
 
 /**
  * Get a list of the folders in the src/ director
@@ -39,11 +43,16 @@ let giddy_parent_folders = [],
 const blankObjects = [],
     wrongSource = [],
     uniqueId = [],
-    spellcastersWrong = [],
+    spellcastersWrong = {
+        ability: [],
+        type: [],
+        deletingCantrips: [],
+    },
     noResist = [],
     noImmune = [];
 
 wrongSourceFoldersCheck = ['hafdon_zorq'];
+noTraitNames = [];
 /**
  * opens a file (either .json or .js) and returns object of file contents
  *
@@ -64,6 +73,25 @@ function getData(filename) {
         }
     }
     return data;
+}
+
+function checkForTraitNames(traitElement, filename) {
+    if (traitElement) {
+        let props = Object.getOwnPropertyNames(traitElement);
+
+        if (props.includes('entries')) {
+            // check for nested recursively
+            traitElement.entries = traitElement.entries.map(el =>
+                checkForTraitNames(el, filename)
+            );
+
+            if (!props.includes('name')) {
+                noTraitNames.push(filename);
+                traitElement.name = '_';
+            }
+        }
+    }
+    return traitElement;
 }
 
 // Get Giddy parent-level folders
@@ -133,186 +161,247 @@ file_array.forEach(folder => {
                     // break early if the object in the file doesn't have any properties
                     // (i.e. it's a blank object)
                     // this happens by accident
-                    if (!Object.getOwnPropertyNames(data).length) {
-                        blankObjects.push(filename);
-                        return prev;
-                    }
-
-                    // set source to 'zorq' if it's the right file
-                    if (
-                        wrongSourceFoldersCheck.includes(
-                            folder.split('/')[1]
-                        ) &&
-                        curr !== '_meta' &&
-                        (!data.source || data.source !== 'zorq')
-                    ) {
-                        wrongSource.push(filename);
-                        data.source = 'zorq';
-                    }
-
-                    // delete uniqueId property
-                    // (this is only used for makebrew)
-                    if (Object.getOwnPropertyNames(data).includes('uniqueId')) {
-                        uniqueId.push(filename);
-                        delete data.uniqueId;
-                    }
-
-                    // if we're supposed to build the table
-                    // that is, introduce random indices
-                    // and a 1dx
-                    if (
-                        curr === 'table' &&
-                        data.type &&
-                        data.type === 'build'
-                    ) {
-                        data.colLabels.unshift(`1d${data.rows.length}`);
-                        data.rows = data.rows.map((r, i) => {
-                            r.unshift('' + (i + 1));
-                            return r;
-                        });
-                        data.rows = data.rows.sort((a, b) => {
-                            return a[1].localeCompare(b[1]);
-                        });
-                        delete data.type;
-                    }
-
-                    if (curr === 'monster') {
-                        // spellcasting elements should have an 'ability' prop
-                        // (this only affects the roll20 script build)
-                        if (data.spellcasting) {
-                            {
-                                data.spellcasting.forEach(v => {
-                                    if (!v.ability) {
-                                        spellcastersWrong.push(filename);
-                                    }
-                                });
+                    try {
+                        if (data === undefined || data === null) {
+                            elog(new Error(`getData(${filename}) is ${data}`));
+                            return prev;
+                        } else if (!Object.getOwnPropertyNames(data).length) {
+                            blankObjects.push(filename);
+                            return prev;
+                        } else {
+                            // set source to 'zorq' if it's the right file
+                            if (
+                                wrongSourceFoldersCheck.includes(
+                                    folder.split('/')[1]
+                                ) &&
+                                curr !== '_meta' &&
+                                (!data.source || data.source !== 'zorq')
+                            ) {
+                                wrongSource.push(filename);
+                                data.source = 'zorq';
                             }
-                        }
-                        /**
-                         *  converting {@title} tags into traits
-                         * */
 
-                        if (
-                            data.type &&
-                            data.type.tags &&
-                            data.type.tags.length
-                        ) {
-                            //remove title tags
-                            data.type.tags = data.type.tags.reduce(
-                                (prev, curr) => {
-                                    // if there's a title in the tags
-                                    if (curr.startsWith('{@title')) {
-                                        // prettier-ignore
-                                        let rgx = new RegExp(/{@title (.+?)[|}]/,'gm');
-                                        let filename = rgx.exec(curr);
+                            // delete uniqueId property
+                            // (this is only used for makebrew)
+                            if (
+                                Object.getOwnPropertyNames(data).includes(
+                                    'uniqueId'
+                                )
+                            ) {
+                                uniqueId.push(filename);
+                                delete data.uniqueId;
+                            }
 
-                                        // TODO : index the titles section so I have a name linked to a filename
-                                        // so the filenames don't have to be kept in a certain format
-                                        filename = filename[1].trim();
+                            // if we're supposed to build the table
+                            // that is, introduce random indices
+                            // and a 1dx
+                            if (
+                                curr === 'table' &&
+                                data.type &&
+                                data.type === 'build'
+                            ) {
+                                data.colLabels.unshift(`1d${data.rows.length}`);
+                                data.rows = data.rows.map((r, i) => {
+                                    r.unshift('' + (i + 1));
+                                    return r;
+                                });
+                                data.rows = data.rows.sort((a, b) => {
+                                    return a[1].localeCompare(b[1]);
+                                });
+                                delete data.type;
+                            }
 
-                                        if (!data.trait) {
-                                            data.trait = [];
-                                        }
+                            if (curr === 'monster') {
+                                // spellcasting elements should have an 'ability' prop
+                                // (this only affects the roll20 script build)
+                                if (data.spellcasting) {
+                                    data.spellcasting = data.spellcasting
+                                        .map(v => {
+                                            if (!v.ability) {
+                                                spellcastersWrong.ability.push(
+                                                    filename
+                                                );
+                                            }
+                                            if (
+                                                v.type &&
+                                                v.type === 'spellcasting'
+                                            ) {
+                                                spellcastersWrong.type.push(
+                                                    filename
+                                                );
+                                                delete v.type;
+                                            }
+                                            if (
+                                                REMOVE_CANTRIPS &&
+                                                v.spells &&
+                                                v.spells['0']
+                                            ) {
+                                                spellcastersWrong.deletingCantrips.push(
+                                                    filename
+                                                );
+                                                delete v.spells['0'];
 
-                                        traitEntry = getData(
-                                            `${read_dir}/${folder}/.title/${filename}.js`
-                                        );
+                                                // if that deletes all the spells,
+                                                // then get rid of the whole array
+                                                let keys = Object.getOwnPropertyNames(
+                                                    v.spells
+                                                );
 
-                                        traitEntry.name =
-                                            traitEntry.name +
-                                            ` (${traitEntry.type})`;
-                                        delete traitEntry.source;
-                                        delete traitEntry.type;
-                                        data.trait.push(traitEntry);
-                                    } else {
-                                        prev.push(curr);
-                                    }
-
-                                    return prev;
-                                },
-                                []
-                            );
-                            // add as traits
-                        }
-                        /**
-                         * Converting expanding trait tags into entries
-                         */
-                        if (data.trait && data.trait.length) {
-                            data.trait = data.trait.reduce((prev, curr) => {
-                                // prettier-ignore
-                                let rgp_is_expand = new RegExp(/^{@\$.*[|}]*.*}$/);
-                                // prettier-ignore
-                                let rgp_grab_trait = new RegExp(/\$(.+?)[|}]/);
-
-                                // prettier-ignore
-                                let rgp_is_expand_with_trait = new RegExp(/^{@\$trait.*[|}]*.*}$/);
-                                // prettier-ignore
-                                let rgp_grab_trait_with_trait = new RegExp(/{@\$trait (.+?)[|}]/);
+                                                if (keys.length === 0) {
+                                                    v = null;
+                                                }
+                                            }
+                                            return v;
+                                        })
+                                        .filter(el => el !== null);
+                                }
+                                /**
+                                 *  converting {@title} tags into traits
+                                 * */
 
                                 if (
-                                    (typeof curr === 'string' ||
-                                        curr instanceof String) &&
-                                    (rgp_is_expand.test(curr) ||
-                                        rgp_is_expand_with_trait.test(curr))
+                                    data.type &&
+                                    data.type.tags &&
+                                    data.type.tags.length
                                 ) {
-                                    let trait_name = '';
+                                    //remove title tags
+                                    data.type.tags = data.type.tags.reduce(
+                                        (prev, curr) => {
+                                            // if there's a title in the tags
+                                            if (curr.startsWith('{@title')) {
+                                                // prettier-ignore
+                                                let rgx = new RegExp(/{@title (.+?)[|}]/,'gm');
+                                                let filename = rgx.exec(curr);
 
-                                    if (rgp_is_expand.test(curr)) {
-                                        trait_name = rgp_grab_trait
-                                            .exec(curr)[1]
-                                            .trim();
-                                    } else if (
-                                        rgp_is_expand_with_trait.test(curr)
-                                    ) {
-                                        trait_name = rgp_grab_trait_with_trait
-                                            .exec(curr)[1]
-                                            .trim();
-                                    }
+                                                // TODO : index the titles section so I have a name linked to a filename
+                                                // so the filenames don't have to be kept in a certain format
+                                                filename = filename[1].trim();
 
-                                    traitExpandLog({ trait_name });
-                                    let filename = trait_name
-                                        .toLowerCase()
-                                        .replace('trait ', '');
+                                                if (!data.trait) {
+                                                    data.trait = [];
+                                                }
 
-                                    let { name, entries } = getData(
-                                        `${read_dir}/${folder}/.trait/${filename}.js`
+                                                traitEntry = getData(
+                                                    `${read_dir}/${folder}/.title/${filename}.js`
+                                                );
+
+                                                traitEntry.name =
+                                                    traitEntry.name +
+                                                    ` (${traitEntry.type})`;
+                                                delete traitEntry.source;
+                                                delete traitEntry.type;
+                                                data.trait.push(traitEntry);
+                                            } else {
+                                                prev.push(curr);
+                                            }
+
+                                            return prev;
+                                        },
+                                        []
+                                    );
+                                    // add as traits
+                                }
+                                /**
+                                 * Converting expanding trait tags into entries
+                                 */
+                                if (data.trait && data.trait.length) {
+                                    data.trait = data.trait.reduce(
+                                        (prev, curr) => {
+                                            // prettier-ignore
+                                            let rgp_is_expand = new RegExp(/^{@\$.*[|}]*.*}$/);
+                                            // prettier-ignore
+                                            let rgp_grab_trait = new RegExp(/\$(.+?)[|}]/);
+
+                                            // prettier-ignore
+                                            let rgp_is_expand_with_trait = new RegExp(/^{@\$trait.*[|}]*.*}$/);
+                                            // prettier-ignore
+                                            let rgp_grab_trait_with_trait = new RegExp(/{@\$trait (.+?)[|}]/);
+
+                                            if (
+                                                (typeof curr === 'string' ||
+                                                    curr instanceof String) &&
+                                                (rgp_is_expand.test(curr) ||
+                                                    rgp_is_expand_with_trait.test(
+                                                        curr
+                                                    ))
+                                            ) {
+                                                let trait_name = '';
+
+                                                if (rgp_is_expand.test(curr)) {
+                                                    trait_name = rgp_grab_trait
+                                                        .exec(curr)[1]
+                                                        .trim();
+                                                } else if (
+                                                    rgp_is_expand_with_trait.test(
+                                                        curr
+                                                    )
+                                                ) {
+                                                    trait_name = rgp_grab_trait_with_trait
+                                                        .exec(curr)[1]
+                                                        .trim();
+                                                }
+
+                                                traitExpandLog({ trait_name });
+                                                let filename = trait_name
+                                                    .toLowerCase()
+                                                    .replace('trait ', '');
+
+                                                let { name, entries } = getData(
+                                                    `${read_dir}/${folder}/.trait/${filename}.js`
+                                                );
+
+                                                // TODO: convert general trait text to specific monster text
+                                                // todo: this should actually be nested, too, and go as deep as needed
+                                                entries = entries.map(v => {
+                                                    let replace_result = v.replace(
+                                                        // /{@\$creaturename\..+?}/g,
+                                                        // this one won't capture the .xx
+                                                        /{@\$creaturename.*?}/g,
+                                                        data.short
+                                                            ? data.short
+                                                            : data.name
+                                                    );
+                                                    traitExpandLog({
+                                                        v,
+                                                        replace_result,
+                                                    });
+                                                    return replace_result
+                                                        ? replace_result
+                                                        : v;
+                                                });
+                                                traitExpandLog({ entries });
+                                                prev.push({ name, entries });
+                                            } else {
+                                                prev.push(curr);
+                                            }
+
+                                            return prev;
+                                        },
+                                        []
                                     );
 
-                                    // TODO: convert general trait text to specific monster text
-                                    // todo: this should actually be nested, too, and go as deep as needed
-                                    entries = entries.map(v => {
-                                        let replace_result = v.replace(
-                                            // /{@\$creaturename\..+?}/g,
-                                            // this one won't capture the .xx
-                                            /{@\$creaturename.*?}/g,
-                                            data.short ? data.short : data.name
-                                        );
-                                        traitExpandLog({ v, replace_result });
-                                        return replace_result
-                                            ? replace_result
-                                            : v;
-                                    });
-                                    traitExpandLog({ entries });
-                                    prev.push({ name, entries });
-                                } else {
-                                    prev.push(curr);
+                                    data.trait = data.trait.map(el =>
+                                        checkForTraitNames(el, filename)
+                                    );
                                 }
+                            }
 
-                                return prev;
-                            }, []);
+                            // if it's the _meta file
+                            // update the date and add _meta object as a top-level prop
+                            if (e.startsWith('_meta')) {
+                                data.dateUpdated = +(Date.now() / 1000).toFixed(
+                                    0
+                                );
+                                prev = data;
+                            } else {
+                                prev.push(data);
+                            }
+
+                            return prev;
                         }
+                    } catch (e) {
+                        elog({ message: 'Error on getOwnPropertyNames', e });
                     }
-
-                    // if it's the _meta file
-                    // update the date and add _meta object as a top-level prop
-                    if (e.startsWith('_meta')) {
-                        data.dateUpdated = +(Date.now() / 1000).toFixed(0);
-                        prev = data;
-                    } else {
-                        prev.push(data);
-                    }
-
-                    return prev;
                 }, []);
             return prev;
         }, {});
@@ -358,10 +447,27 @@ if (uniqueId.length) {
         uniqueId
     );
 }
-if (spellcastersWrong.length) {
+if (
+    spellcastersWrong.ability.length ||
+    spellcastersWrong.type.length ||
+    spellcastersWrong.deletingCantrips.length
+) {
     log(
         "\nWARNING: the following creatures don't have the ability prop in their spellcasting prop !!\n\n",
-        spellcastersWrong
+        spellcastersWrong.ability
     );
+    log('and these have a type when they shouldnt', spellcastersWrong.type);
+    log('and these cantrips were deleted', spellcastersWrong.deletingCantrips);
 }
+
+if (noTraitNames.length) {
+    log({
+        message:
+            "WARNING: the following files don't have names for all trait objects !! hey have been given temporary names of '_' ",
+        noTraitNames,
+    });
+}
+
+configlog({ ...CONFIG });
+
 process.exitCode = 0;

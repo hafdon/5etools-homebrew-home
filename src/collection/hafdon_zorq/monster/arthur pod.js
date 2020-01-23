@@ -3,6 +3,8 @@
  */
 module.exports = {
     name: 'Arthur Pod',
+    isNpc: true,
+
     size: 'M',
     type: { type: 'monstrosity', tags: ['cave fisher'] },
     source: 'zorq',
@@ -37,6 +39,7 @@ module.exports = {
     trait: [
         {
             type: 'inset',
+            name: '_dossier',
             entries: [
                 // { name: 'Purpose', entries: [''] },
                 // { name: 'Background', entries: [''] },

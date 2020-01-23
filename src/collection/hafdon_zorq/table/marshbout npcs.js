@@ -142,6 +142,8 @@ module.exports = {
         ['Hebwith', ''],
         ['Hieronymo', ''],
         ['Hostrena Butterknife', ''],
+        ['Benjaplom', ''],
+        ['Gregonius', ''],
         [
             'https://en.wiktionary.org/wiki/Category:Old_High_German_given_names',
             '',
@@ -249,7 +251,6 @@ module.exports = {
         ['Tes', 'kobold'],
         ['Tharcereli', 'mind flayer'],
         ['the Imponderable', 'epithet'],
-        ['The raggle', 'title, name'],
         ['Thuun ("Thun")', ''],
         ['Tooshie', ''],
         ['Toprick', 'dwarf surname'],

@@ -16,10 +16,12 @@ module.exports = {
     source: 'zorq',
     alignment: ['L', 'E'],
     ac: [14],
-    hp: {
-        average: 85,
-        formula: '10d10 + 30',
-    },
+    hp: [
+        {
+            average: 85,
+            formula: '10d10 + 30',
+        },
+    ],
     speed: {
         walk: 30,
         climb: 30,
@@ -35,10 +37,12 @@ module.exports = {
         stealth: '+8',
     },
     immune: ['acid', 'cold', 'lightning', 'slashing'],
-    resist: {
-        resist: ['bludgeoning', 'piercing'],
-        note: 'from nonmagical attacks',
-    },
+    resist: [
+        {
+            resist: ['bludgeoning', 'piercing'],
+            note: 'from nonmagical weapons',
+        },
+    ],
     vulnerable: ['cold', 'fire'],
     conditionImmune: [
         'blinded',
@@ -184,8 +188,6 @@ module.exports = {
     //         type: 'spellcasting',
     //     },
     // ],
-
-    tokenUrl: 'https://5e.tools/img/MM/Lemure.png?v=1.94.13',
 };
 
 // let fluff = {

@@ -130,7 +130,6 @@ module.exports = {
                 '1e': ['{@spell control weather}', '{@spell gaseous form}'],
             },
             ability: 'cha',
-            type: 'spellcasting',
         },
     ],
     environment: ['mountain'],

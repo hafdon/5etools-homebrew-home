@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1579414492
+        "dateUpdated": 1579753424
     },
     "action": [
         {
@@ -95,6 +95,15 @@
             ]
         },
         {
+            "name": "Khalundar",
+            "alignment": ["L", "G"],
+            "pantheon": "Dwarven",
+            "domains": ["Rock", "Substances", "Cleanliness"],
+            "province": "Deity of some deep dwarves",
+            "source": "zorq",
+            "entries": ["filler"]
+        },
+        {
             "name": "Qi'Amas",
             "alignment": ["N"],
             "pantheon": "Draconic",
@@ -167,6 +176,16 @@
             ]
         },
         {
+            "name": "Servo Crafting",
+            "prerequisite": [{ "ability": [{ "int": 13 }] }],
+            "source": "zorq",
+            "entries": [
+                "You are skilled in the creation of servos—tiny constructs that function as personal assistants. You can cast the find familiar spell as a ritual, creating a servo to serve as your familiar instead of an animal. A servo's statistics appear in the \"Artifact Creatures\" section of this document. In every other way, a servo familiar functions as described in the find familiar spell.",
+                "You can communicate telepathically with your servo familiar and perceive through its senses as long as you are on the same plane of existence. You can speak through your servo in your own voice.",
+                "Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your servo familiar to make one attack of its own."
+            ]
+        },
+        {
             "name": "Whip Aficionado",
             "source": "zorq",
             "prerequisite": [
@@ -201,6 +220,18 @@
                 "This book contains ... ",
                 { "type": "list", "items": ["1", "1", "2", "2"] }
             ]
+        },
+        {
+            "name": "Arthur Pod Mucus (Contact)",
+            "type": "G",
+            "tier": "Major",
+            "rarity": "None",
+            "value": 20000,
+            "source": "zorq",
+            "entries": [
+                "This poison must be harvested from a dead or {@condition incapacitated} {@creature carrion crawler}. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be {@condition poisoned} for 1 minute. The {@condition poisoned} creature is {@condition paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+            ],
+            "poison": true
         },
         {
             "name": "Bahamuschevitz",
@@ -317,6 +348,15 @@
             ],
             "attachedSpells": ["animal friendship"],
             "recharge": "dawn"
+        },
+        {
+            "name": "Happy Egg",
+            "wondrous": true,
+            "weight": 0.2,
+            "rarity": "Rare",
+            "source": "zorq",
+            "tier": "Minor",
+            "entries": ["A freshly delivered egg that smells good"]
         },
         {
             "name": "Figurine of Wondrous Power, Onyx Wolf",
@@ -437,6 +477,20 @@
                 "When you drink this potion, you gain resistance to poison and necrotic damage for 1 hour.",
                 "For that time you also make any Charisma checks with disadvantage."
             ]
+        },
+        {
+            "name": "pp",
+            "wondrous": true,
+            "weight": 1,
+            "rarity": "Rare",
+            "source": "zorq",
+            "page": null,
+            "tier": "Major",
+            "reqAttune": true,
+            "type": "RG",
+            "entries": ["i love pp"],
+            "attachedSpells": ["animal friendship"],
+            "recharge": "dawn"
         },
         {
             "name": "Red Gold",
@@ -763,6 +817,114 @@
             "tokenUrl": "https://5e.tools/img/GGR/Battleforce Angel.png?v=1.94.8"
         },
         {
+            "name": "Arthur Pod",
+            "isNpc": true,
+            "size": "M",
+            "type": { "type": "monstrosity", "tags": ["cave fisher"] },
+            "source": "zorq",
+            "alignment": ["U"],
+            "ac": [{ "ac": 16, "from": ["natural armor"] }],
+            "hp": { "average": 58, "formula": "9d8 + 18" },
+            "speed": { "walk": 20, "climb": 20 },
+            "str": 16,
+            "dex": 13,
+            "con": 14,
+            "int": 3,
+            "wis": 10,
+            "cha": 3,
+            "skill": { "perception": "+2", "stealth": "+5" },
+            "senses": ["blindsight 60 ft."],
+            "passive": 12,
+            "cr": "3",
+            "trait": [
+                {
+                    "type": "inset",
+                    "name": "_dossier",
+                    "entries": [
+                        {
+                            "name": "Aliases",
+                            "entries": ["slime dot org", "slimort"]
+                        },
+                        {
+                            "name": "Appearance and Mannerisms",
+                            "entries": [
+                                "Sickly white in color",
+                                "Centipede but with crab claws. ",
+                                "Its version of drooling is clacking its own claws",
+                                "6-8 feet long, but 2 feet in diameter.",
+                                "Spinneret sack under armpit is where the filament extrudes from",
+                                "self-conscious of: ",
+                                "wants to be (thought of as): ",
+                                "modest about:"
+                            ]
+                        },
+                        {
+                            "name": "The whole buffalo",
+                            "entries": [
+                                "blood is highly alcoholic - used ot make craft beverages",
+                                "dwarves will drink blood from creatures like this, go berserk for a half hour",
+                                "filaments can be used to make strong things, and almost invisible",
+                                "meat tastes good",
+                                "shell used for jewelry and tools"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Adhesive Filament",
+                    "entries": [
+                        "The cave fisher can use its action to extend a sticky filament up to 60 feet, and the filament adheres to anything that touches it. A creature adhered to the filament is {@condition grappled} by the cave fisher (escape {@dc 13}), and ability checks made to escape this grapple have disadvantage. The filament can be attacked (AC 15; 5 hit points; immunity to poison and psychic damage), but a weapon that fails to sever it becomes stuck to it, requiring an action and a successful {@dc 13} Strength check to pull free. Destroying the filament causes no damage to the cave fisher, which can extrude a replacement filament on its next turn"
+                    ]
+                },
+                {
+                    "name": "Flammable Blood",
+                    "entries": [
+                        "If the cave fisher drops to half its hit points or fewer, it gains vulnerability to fire damage."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries": [
+                        "The cave fisher can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The cave fisher makes two attacks with its claws."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Filament",
+                    "entries": [
+                        "One creature {@condition grappled} by the cave fisher's adhesive filament must make a {@dc 13} Strength saving throw, provided that the target weighs 200 pounds or less. On a failure, the target is pulled into an unoccupied space within 5 feet of the cave fisher, and the cave fisher makes a claw attack against it as a bonus action. Reeling up the target releases anyone else who was attached to the filament. Until the grapple ends on the target, the cave fisher can't extrude another filament."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Entrancing Dance (1/day)",
+                    "entries": [
+                        "If Arthur does not suprise its targets using stealth, it can use its reaction to taps out a rhythmic salsa dance with its claws and feet. Any creature who perceives this dance must make a {@dc 12} Wisdom saving throw. Until the end of this round, Arthur has advantage to attack against creatures who fail the saving throw."
+                    ]
+                }
+            ],
+            "environment": ["underdark"],
+            "traitTags": ["Spider Climb"],
+            "actionTags": ["Multiattack"],
+            "senseTags": ["B"],
+            "damageTags": ["S"],
+            "miscTags": ["MW"]
+        },
+        {
             "name": "Baron von Veen (Uugeet form)",
             "size": "L",
             "type": "monstrosity",
@@ -806,6 +968,10 @@
                     "entries": [
                         "Baron von Veen speaks through Uugeet with a thunderous voice audible within 300 feet. Creatures of Uugeet's choice that can hear the Baron's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a {@dc 14} Charisma saving throw or be {@condition frightened} for 1 minute. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
                     ]
+                },
+                {
+                    "name": "This Isn't Even My Final Form (which is good because it's a fucking fish)",
+                    "entries": ["WIP"]
                 }
             ],
             "spellcasting": [
@@ -1268,8 +1434,7 @@
                         },
                         "1": { "spells": ["{@spell hellish rebuke|phb}"] }
                     },
-                    "ability": "int",
-                    "type": "spellcasting"
+                    "ability": "int"
                 }
             ]
         },
@@ -1322,7 +1487,28 @@
                 }
             ],
             "trait": [
-                "One of four dwarf spirits; older sisters of @{creature soul rock|zorq}",
+                {
+                    "type": "inset",
+                    "entries": [
+                        { "name": "Purpose", "entries": [""] },
+                        {
+                            "name": "Background",
+                            "entries": [
+                                "One of four dwarf spirits; older sisters of {@creature soul rock|zorq}"
+                            ]
+                        },
+                        { "name": "Aliases", "entries": [""] },
+                        {
+                            "name": "Appearance and Mannerisms",
+                            "entries": [
+                                "self-conscious of: ",
+                                "wants to be (thought of as): ",
+                                "modest about:"
+                            ]
+                        }
+                    ],
+                    "name": "_"
+                },
                 {
                     "name": "Dwarven Resilience",
                     "entries": [
@@ -1395,6 +1581,7 @@
         {
             "name": "Carlos",
             "source": "zorq",
+            "shortName": "Carlos",
             "action": [
                 {
                     "name": "Warhammer",
@@ -1408,7 +1595,6 @@
             "damageTags": ["B"],
             "languageTags": ["C", "D"],
             "senseTags": ["D"],
-            "page": 78,
             "size": "M",
             "type": {
                 "type": "humanoid",
@@ -1474,7 +1660,8 @@
                                         "Starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
                                     ]
                                 }
-                            ]
+                            ],
+                            "name": "_"
                         }
                     ]
                 },
@@ -1562,74 +1749,7 @@
                 "entries": [
                     "Carlos's deity is {@deity Aule|zorq}. One of his rituals involves spinning in a circle with his warhammer held outstretched."
                 ]
-            },
-            "shortName": "Carlos"
-        },
-        {
-            "name": "Cave Fisher (zorq)",
-            "size": "M",
-            "type": "monstrosity",
-            "source": "zorq",
-            "alignment": ["U"],
-            "ac": [{ "ac": 16, "from": ["natural armor"] }],
-            "hp": { "average": 58, "formula": "9d8 + 18" },
-            "speed": { "walk": 20, "climb": 20 },
-            "str": 16,
-            "dex": 13,
-            "con": 14,
-            "int": 3,
-            "wis": 10,
-            "cha": 3,
-            "skill": { "perception": "+2", "stealth": "+5" },
-            "senses": ["blindsight 60 ft."],
-            "passive": 12,
-            "cr": "3",
-            "trait": [
-                {
-                    "name": "Adhesive Filament",
-                    "entries": [
-                        "The cave fisher can use its action to extend a sticky filament up to 60 feet, and the filament adheres to anything that touches it. A creature adhered to the filament is {@condition grappled} by the cave fisher (escape {@dc 13}), and ability checks made to escape this grapple have disadvantage. The filament can be attacked (AC 15; 5 hit points; immunity to poison and psychic damage), but a weapon that fails to sever it becomes stuck to it, requiring an action and a successful {@dc 13} Strength check to pull free. Destroying the filament causes no damage to the cave fisher, which can extrude a replacement filament on its next turn"
-                    ]
-                },
-                {
-                    "name": "Flammable Blood",
-                    "entries": [
-                        "If the cave fisher drops to half its hit points or fewer, it gains vulnerability to fire damage."
-                    ]
-                },
-                {
-                    "name": "Spider Climb",
-                    "entries": [
-                        "The cave fisher can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The cave fisher makes two attacks with its claws."
-                    ]
-                },
-                {
-                    "name": "Claw",
-                    "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Filament",
-                    "entries": [
-                        "One creature {@condition grappled} by the cave fisher's adhesive filament must make a {@dc 13} Strength saving throw, provided that the target weighs 200 pounds or less. On a failure, the target is pulled into an unoccupied space within 5 feet of the cave fisher, and the cave fisher makes a claw attack against it as a bonus action. Reeling up the target releases anyone else who was attached to the filament. Until the grapple ends on the target, the cave fisher can't extrude another filament."
-                    ]
-                }
-            ],
-            "environment": ["underdark"],
-            "traitTags": ["Spider Climb"],
-            "actionTags": ["Multiattack"],
-            "senseTags": ["B"],
-            "damageTags": ["S"],
-            "miscTags": ["MW"]
+            }
         },
         {
             "name": "Chad the Griffon",
@@ -2296,6 +2416,139 @@
             "languageTags": ["C", "X"],
             "damageTags": ["B"],
             "miscTags": ["MW"]
+        },
+        {
+            "source": "zorq",
+            "name": "Gardweard Sister(s)",
+            "size": "M",
+            "type": { "type": "humanoid", "tags": ["dwarf"] },
+            "alignment": ["A"],
+            "ac": [{ "ac": 14, "from": ["{@item chain mail|phb}"] }],
+            "hp": { "average": 47, "formula": "5d8 + 25" },
+            "speed": { "walk": 25 },
+            "str": 13,
+            "dex": 17,
+            "con": 21,
+            "int": 12,
+            "wis": 14,
+            "cha": 11,
+            "skill": { "perception": "+4", "stealth": "+5", "survival": "+4" },
+            "resist": ["poison"],
+            "senses": ["darkvision 60 ft."],
+            "passive": 14,
+            "languages": ["Common", "Dwarvish"],
+            "cr": "4",
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dwarf's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "daily": {
+                        "1e": [
+                            "{@spell hunter's mark}",
+                            "{@spell jump}",
+                            "{@spell pass without trace}",
+                            "{@spell speak with animals}",
+                            "{@spell speak with plants}"
+                        ]
+                    },
+                    "ability": "wis"
+                }
+            ],
+            "trait": [
+                {
+                    "type": "inset",
+                    "entries": [
+                        { "name": "Purpose", "entries": [""] },
+                        { "name": "Background", "entries": [""] },
+                        {
+                            "name": "Aliases",
+                            "entries": ["slime dot org", "slimort"]
+                        },
+                        {
+                            "name": "Appearance and Mannerisms",
+                            "entries": [
+                                "Sleek metal helmets and massive warhammers. About 5 1/2 feet tall and 200 pounds. Hair is short, almost brosse under the helmet, and a deep red, but they have mullets that fade to a blonde umbre. Tight, collarbone-length beards of the same coloration. Braiding style differs between them.",
+                                "self-conscious of: ",
+                                "wants to be (thought of as): ",
+                                "modest about:"
+                            ]
+                        }
+                    ],
+                    "name": "_"
+                },
+                {
+                    "name": "Dwarven Resilience",
+                    "entries": [
+                        "The dwarf has advantage on saving throws against poison."
+                    ]
+                },
+                {
+                    "name": "Happy to Teach",
+                    "entries": [
+                        "The Earthlord Sisters can teach someone with weapon proficiency how to recall a thrown weapon by using a reaction. What this costs (gold, time, feat/skill replacement) is up to the DM's discretion."
+                    ]
+                },
+                {
+                    "name": "Goldkiller",
+                    "entries": [
+                        "Martial Bludgeoning Weapons",
+                        "{@dice 1d8} bludgeoning - sundering (1), versatile ({@dice 1d10})",
+                        "Sundering (1). The weapon has qualities that crush or pierce armor, making it more effective against targets that employ such defenses. When you attack a target wearing armor components with the Hard property, or natural armor and its armor AC is 15 or more, you gain a bonus to the attack roll equal to the value in parenthesis.",
+                        "Versatile. This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Warhammer",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+                    ]
+                }
+            ],
+            "page": 210,
+            "languageTags": ["C", "D"],
+            "senseTags": ["D"],
+            "spellcastingTags": ["I"],
+            "damageTags": ["S"],
+            "miscTags": ["RW", "MW"],
+            "fluff": {
+                "name": "Albino Dwarf Spirit Warrior",
+                "source": "ToA",
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "internal",
+                            "path": "bestiary/ToA/Albino Dwarf.jpg"
+                        }
+                    }
+                ],
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            "The albino dwarves of Chult were driven from their subterranean homes by volcanic activity, and those who didn't seek refuge in Port Nyanzaru adapted to living in the jungle. They make armor out of dinosaur hide; shape weapons out of dinosaur bones, flint, and wood; and craft ornate jewelry out of bones, feathers, tusks, and stone beads. Albino dwarves haven't forgotten how to forge metal, but they seldom have the means to do so."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Albino Dwarf Spirit Warriors",
+                        "entries": [
+                            "An albino dwarf can become so attuned to the land of Chult that a benevolent nature spirit takes notice and bestows a powerful charm on the dwarf, granting it innate spellcasting abilities. These dwarf spirit warriors dedicate themselves to preserving the natural beauty of Chult and battling unnatural threats. An albino dwarf spirit warrior has the statistics of an albino dwarf warrior, except it has a challenge rating of 1 (200 XP) and gains an Innate Spellcasting feature."
+                        ]
+                    }
+                ]
+            },
+            "tokenUrl": "https://5e.tools/img/ToA/Albino Dwarf Spirit Warrior.png?v=1.94.13",
+            "reaction": [
+                {
+                    "name": "Hammerang",
+                    "entries": ["Hammer comes back if thrown."]
+                }
+            ]
         },
         {
             "name": "Ecks",
@@ -3165,12 +3418,53 @@
                     ]
                 },
                 {
+                    "name": "Regeneration",
+                    "entries": [
+                        "she can grow arm back if (put some evilish thing here)."
+                    ]
+                },
+                {
                     "name": "Apperarance & Mannerisms",
                     "entries": [
                         "Completely silver-white fur. Two smaller arms under pectorals. Created to serve as guardian for a previous (dwarf?) empire. ",
                         "doesn't like swimming",
                         "9 feet tall.",
                         "Has a slight lisp speaking Common because of gigantic canines. Took a long time for Graal to learn Common."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Lusty Limbs",
+                    "entries": [
+                        "Whenever Graal takes at least 15 slashing damage at one time, roll a {@dice d20} to determine what else happens to it:",
+                        {
+                            "type": "list",
+                            "style": "list-hang-notitle",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "1–10:",
+                                    "entry": "Nothing else happens."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "11–12:",
+                                    "entry": "One leg is severed from Graal if it has any legs left."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "13–20:",
+                                    "entry": "One arm is severed from Graal if it has any arms left."
+                                }
+                            ]
+                        },
+                        "If Graal finishes a short or long rest without reattaching a severed limb or head, the part regrows. At that point, the severed part dies. Until then, a severed part acts on Graal's initiative and has its own action and movement. A severed part has AC 13, 10 hit points, and Graal's Regeneration trait.",
+                        "A severed leg is unable to attack and has a speed of 5 feet.",
+                        "A severed arm has a speed of 5 feet and can make one claw attack on its turn, with disadvantage on the attack roll unless Graal can see the arm and its target. Each time Graal loses an arm, it loses a claw attack.",
+                        "If its head is severed, Graal loses its bite attack and its body is {@condition blinded} unless the head can see it. The severed head has a speed of 0 feet and Graal's Keen Smell trait. It can make a bite attack but only against a target in its space.",
+                        "Graal's speed is halved if it's missing a leg. If it loses both legs, it falls {@condition prone}. If it has both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0, and it can't benefit from bonuses to speed."
                     ]
                 }
             ],
@@ -3334,8 +3628,7 @@
                             "{@spell invisibility} (self only)"
                         ]
                     },
-                    "ability": "wis",
-                    "type": "spellcasting"
+                    "ability": "wis"
                 }
             ],
             "traitTags": ["Reckless"],
@@ -3359,154 +3652,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MM/Barlgura.png?v=1.94.13"
-        },
-        {
-            "name": "Haborim",
-            "size": "L",
-            "isNpc": true,
-            "isNamedCreature": true,
-            "type": {
-                "type": "fiend",
-                "tags": ["devil", "ooze", "Intelligent Black Pudding", "lemure"]
-            },
-            "source": "zorq",
-            "alignment": ["L", "E"],
-            "ac": [14],
-            "hp": { "average": 85, "formula": "10d10 + 30" },
-            "speed": { "walk": 30, "climb": 30, "swim": 30 },
-            "str": 16,
-            "dex": 19,
-            "con": 16,
-            "int": 14,
-            "wis": 14,
-            "cha": 11,
-            "skill": { "stealth": "+8" },
-            "immune": ["acid", "cold", "lightning", "slashing"],
-            "resist": {
-                "resist": ["bludgeoning", "piercing"],
-                "note": "from nonmagical attacks"
-            },
-            "vulnerable": ["cold", "fire"],
-            "conditionImmune": [
-                "blinded",
-                "deafened",
-                "exhaustion",
-                "grappled",
-                "paralyzed",
-                "petrified",
-                "prone",
-                "restrained",
-                "unconscious"
-            ],
-            "senses": ["darkvision 120 ft.", "blindsight 120 ft."],
-            "passive": 12,
-            "languages": ["understands Infernal but can't speak"],
-            "cr": "5",
-            "trait": [
-                {
-                    "type": "inset",
-                    "name": "Appearance and Mannerisms",
-                    "entries": [
-                        "haeh-bore-EEM",
-                        "self-conscious of: ",
-                        "wants to be (thought of as): ",
-                        "modest about:"
-                    ]
-                },
-                {
-                    "name": "Devil's Sight",
-                    "entries": [
-                        "Magical darkness doesn't impede the lemure's darkvision."
-                    ]
-                },
-                {
-                    "name": "Hellish Rejuvenation",
-                    "entries": [
-                        "A lemure that dies in the Nine Hells comes back to life with all its hit points in {@dice 1d10} days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water."
-                    ]
-                },
-                {
-                    "name": "Amorphous",
-                    "entries": [
-                        "The pudding can move through a space as narrow as 1 inch wide without squeezing."
-                    ]
-                },
-                {
-                    "name": "Corrosive Form",
-                    "entries": [
-                        "A creature that touches the pudding or hits it with a melee attack while within 5 feet of it takes 4 ({@damage 1d8}) acid damage. Any nonmagical weapon made of metal or wood that hits the pudding corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits the pudding is destroyed after dealing damage. The pudding can eat through 2-inch-thick, nonmagical wood or metal in 1 round."
-                    ]
-                },
-                {
-                    "name": "Ambusher",
-                    "entries": [
-                        "In the first round of a combat, the slithering tracker has advantage on attack rolls against any creature it surprised."
-                    ]
-                },
-                {
-                    "name": "Damage Transfer",
-                    "entries": [
-                        "While grappling a creature, the slithering tracker takes only haIf the damage dealt to it, and the creature it is grappling takes the other half."
-                    ]
-                },
-                {
-                    "name": "False Appearance",
-                    "entries": [
-                        "While the slithering tracker remains motionless, it is indistinguishable from a puddle, unless an observer succeeds on a {@dc 18} Intelligence (Investigation) check."
-                    ]
-                },
-                {
-                    "name": "Keen Tracker",
-                    "entries": [
-                        "The slithering tracker has advantage on Wisdom checks to track prey."
-                    ]
-                },
-                {
-                    "name": "Liquid Form",
-                    "entries": [
-                        "The slithering tracker can enter an enemy's space and stop there. It can also move through a space as narrow as 1 inch wide without squeezing."
-                    ]
-                },
-                {
-                    "name": "Spider Climb",
-                    "entries": [
-                        "The slithering tracker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
-                    ]
-                },
-                {
-                    "name": "Watery Stealth",
-                    "entries": [
-                        "While underwater, the slithering tracker has advantage on Dexterity (Stealth) checks made to hide, and it can take the Hide action as a bonus action."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "Haborim makes one pseudopod fist attack and one slam attack."
-                    ]
-                },
-                {
-                    "name": "Pseudopod Fist",
-                    "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 18 ({@damage 4d8}) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
-                    ]
-                },
-                {
-                    "name": "Slam",
-                    "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) bludgeoning damage."
-                    ]
-                },
-                {
-                    "name": "Life Leech",
-                    "entries": [
-                        "One Large or smaller creature that the slithering tracker can see within 5 feet of it must succeed on a {@dc 13} Dexterity saving throw or be {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained} and unable to breathe unless it can breathe water. In addition, the {@condition grappled} target takes 16 ({@damage 3d10}) necrotic damage at the start of each of its turns. The slithering tracker can grapple only one target at a time."
-                    ]
-                }
-            ],
-            "tokenUrl": "https://5e.tools/img/MM/Lemure.png?v=1.94.13"
         },
         {
             "name": "Hagnar Rezfort (spirit form)",
@@ -3890,7 +4035,6 @@
                     ]
                 }
             ],
-            "page": 219,
             "spellcasting": [
                 {
                     "name": "Innate Spellcasting",
@@ -4579,6 +4723,247 @@
             "tokenUrl": "https://5e.tools/img/MM/Salamander.png?v=1.94.4"
         },
         {
+            "name": "Naphula",
+            "size": "L",
+            "isNpc": true,
+            "isNamedCreature": true,
+            "type": {
+                "type": "fiend",
+                "tags": [
+                    "devil",
+                    "ooze",
+                    "Intelligent Black Pudding",
+                    "lemure",
+                    "pronouns: they, them, theirs"
+                ]
+            },
+            "source": "zorq",
+            "alignment": ["L", "E"],
+            "ac": [14],
+            "hp": [{ "average": 85, "formula": "10d10 + 30" }],
+            "speed": { "walk": 30, "climb": 30, "swim": 30 },
+            "str": 16,
+            "dex": 19,
+            "con": 16,
+            "int": 14,
+            "wis": 14,
+            "cha": 11,
+            "skill": { "stealth": "+8" },
+            "immune": ["acid", "cold", "lightning", "slashing"],
+            "resist": [
+                {
+                    "resist": ["bludgeoning", "piercing"],
+                    "note": "from nonmagical weapons"
+                }
+            ],
+            "vulnerable": ["cold", "fire"],
+            "conditionImmune": [
+                "blinded",
+                "deafened",
+                "exhaustion",
+                "grappled",
+                "paralyzed",
+                "petrified",
+                "prone",
+                "restrained",
+                "unconscious"
+            ],
+            "senses": ["darkvision 120 ft.", "blindsight 120 ft."],
+            "passive": 12,
+            "languages": [
+                "understands Infernal, Elvish, and Undercommon but can't speak"
+            ],
+            "cr": "5",
+            "trait": [
+                {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": [
+                        "NAF-yoo-luh",
+                        "self-conscious of: ",
+                        "wants to be (thought of as): ",
+                        "modest about:"
+                    ]
+                },
+                {
+                    "name": "Devil's Sight",
+                    "entries": [
+                        "Magical darkness doesn't impede the lemure's darkvision."
+                    ]
+                },
+                {
+                    "name": "Hellish Rejuvenation",
+                    "entries": [
+                        "A lemure that dies in the Nine Hells comes back to life with all its hit points in {@dice 1d10} days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water."
+                    ]
+                },
+                {
+                    "name": "Amorphous",
+                    "entries": [
+                        "The pudding can move through a space as narrow as 1 inch wide without squeezing."
+                    ]
+                },
+                {
+                    "name": "Corrosive Form",
+                    "entries": [
+                        "A creature that touches the pudding or hits it with a melee attack while within 5 feet of it takes 4 ({@damage 1d8}) acid damage. Any nonmagical weapon made of metal or wood that hits the pudding corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits the pudding is destroyed after dealing damage. The pudding can eat through 2-inch-thick, nonmagical wood or metal in 1 round."
+                    ]
+                },
+                {
+                    "name": "Ambusher",
+                    "entries": [
+                        "In the first round of a combat, the slithering tracker has advantage on attack rolls against any creature it surprised."
+                    ]
+                },
+                {
+                    "name": "Damage Transfer",
+                    "entries": [
+                        "While grappling a creature, the slithering tracker takes only haIf the damage dealt to it, and the creature it is grappling takes the other half."
+                    ]
+                },
+                {
+                    "name": "False Appearance",
+                    "entries": [
+                        "While the slithering tracker remains motionless, it is indistinguishable from a puddle, unless an observer succeeds on a {@dc 18} Intelligence (Investigation) check."
+                    ]
+                },
+                {
+                    "name": "Keen Tracker",
+                    "entries": [
+                        "The slithering tracker has advantage on Wisdom checks to track prey."
+                    ]
+                },
+                {
+                    "name": "Liquid Form",
+                    "entries": [
+                        "The slithering tracker can enter an enemy's space and stop there. It can also move through a space as narrow as 1 inch wide without squeezing."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries": [
+                        "The slithering tracker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Watery Stealth",
+                    "entries": [
+                        "While underwater, the slithering tracker has advantage on Dexterity (Stealth) checks made to hide, and it can take the Hide action as a bonus action."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Haborim makes one pseudopod fist attack and one slam attack."
+                    ]
+                },
+                {
+                    "name": "Pseudopod Fist",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 18 ({@damage 4d8}) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+                    ]
+                },
+                {
+                    "name": "Slam",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Life Leech",
+                    "entries": [
+                        "One Large or smaller creature that the slithering tracker can see within 5 feet of it must succeed on a {@dc 13} Dexterity saving throw or be {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained} and unable to breathe unless it can breathe water. In addition, the {@condition grappled} target takes 16 ({@damage 3d10}) necrotic damage at the start of each of its turns. The slithering tracker can grapple only one target at a time."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nevlim",
+            "size": "G",
+            "type": {
+                "type": "celestial",
+                "tags": ["Dragon Turtle", "ulimara harbinger", "dragon"]
+            },
+            "pronunciation": "nev-LEEM",
+            "source": "zorq",
+            "alignment": ["N"],
+            "ac": [{ "ac": 20, "from": ["natural armor"] }],
+            "hp": { "average": 341, "formula": "22d20 + 110" },
+            "speed": { "walk": 20, "swim": 40 },
+            "str": 25,
+            "dex": 10,
+            "con": 20,
+            "int": 10,
+            "wis": 12,
+            "cha": 12,
+            "save": { "dex": "+6", "con": "+11", "wis": "+7" },
+            "resist": ["fire"],
+            "senses": ["darkvision 120 ft."],
+            "passive": 11,
+            "languages": ["Aquan", "Draconic", "telepathy"],
+            "cr": "17",
+            "trait": [
+                {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": [
+                        "Gargantuan, tetrapod body, huge head with beak, beautiful rich pink coral growing out of its body, between flippers and feet, huge chunky tail, a \"horseshoe head\" growing off tail?, face like seal with beak, perfetly clear water. like having a blue whale in front of you.",
+                        "Inside mouth: like globe of fire in space -- in its mouth; incredible conical teeth and huge tusks. little globe of fire comes out.",
+                        "self-conscious of: ",
+                        "wants to be (thought of as): ",
+                        "modest about:"
+                    ]
+                },
+                { "type": "inset", "name": "Purpose", "entries": [""] },
+                { "type": "inset", "name": "Background", "entries": [""] },
+                {
+                    "name": "Amphibious",
+                    "entries": ["Nevlim can breathe air and water."]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon turtle makes three attacks: one with its bite and two with its claws. It can make one tail attack in place of its two claw attacks."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}26 ({@damage 3d12 + 7}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d8 + 7}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}26 ({@damage 3d12 + 7}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be pushed up to 10 feet away from the dragon turtle and knocked {@condition prone}."
+                    ]
+                },
+                {
+                    "name": "Steam Breath {@recharge 5}",
+                    "entries": [
+                        "The dragon turtle exhales scalding steam in a 60-foot cone. Each creature in that area must make a {@dc 18} Constitution saving throw, taking 52 ({@damage 15d6}) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance against this damage."
+                    ]
+                }
+            ],
+            "environment": ["coastal", "underwater"],
+            "traitTags": ["Amphibious"],
+            "actionTags": ["Multiattack"],
+            "languageTags": ["AQ", "DR"],
+            "senseTags": ["SD"],
+            "damageTags": ["P", "S", "B", "F"],
+            "miscTags": ["MW", "RCH", "AOE"]
+        },
+        {
             "name": "Nexnag",
             "size": "M",
             "type": "dragon",
@@ -5202,18 +5587,22 @@
             "trait": [
                 {
                     "type": "inset",
-                    "name": "Appearance and Mannerisms",
+                    "name": "_dossier",
                     "entries": [
-                        "5 feet 8 inches; 122 pounds",
-                        "They are obsessed with conspiracy theories.",
-                        "Puts their name before the {@creature quori|erlw} name."
-                    ]
-                },
-                {
-                    "type": "inset",
-                    "name": "Purpose",
-                    "entries": [
-                        "Everything {@creature Paros|zorq} wants to be. However, they refuse to recognize the power of reading and only learn through psionics. Furthermore, their dedication to learning comes at the cost of ... "
+                        {
+                            "name": "Appearance and Mannerisms",
+                            "entries": [
+                                "5 feet 8 inches; 122 pounds",
+                                "They are obsessed with conspiracy theories.",
+                                "Puts their name before the {@creature quori|erlw} name."
+                            ]
+                        },
+                        {
+                            "name": "Purpose",
+                            "entries": [
+                                "Everything {@creature Paros|zorq} wants to be. However, they refuse to recognize the power of reading and only learn through psionics. Furthermore, their dedication to learning comes at the cost of ... "
+                            ]
+                        }
                     ]
                 },
                 {
@@ -5515,6 +5904,133 @@
             "tokenUrl": "https://5e.tools/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.4"
         },
         {
+            "name": "Rufus Skyflume",
+            "size": "H",
+            "type": { "type": "giant", "tags": ["cloud giant"] },
+            "source": "zorq",
+            "alignment": ["N", "G"],
+            "ac": [{ "ac": 14, "from": ["natural armor"] }],
+            "hp": { "average": 200, "formula": "16d12 + 96" },
+            "speed": { "walk": 50 },
+            "str": 27,
+            "dex": 10,
+            "con": 22,
+            "int": 12,
+            "wis": 16,
+            "cha": 16,
+            "save": { "con": "+10", "wis": "+7", "cha": "+7", "str": "+12" },
+            "skill": {
+                "insight": "+7",
+                "perception": "+7",
+                "athletics": "+12",
+                "survival": "+7",
+                "animal handling": "+7"
+            },
+            "passive": 17,
+            "languages": ["Common", "Giant"],
+            "cr": "10",
+            "trait": [
+                {
+                    "type": "inset",
+                    "name": "Appearance and Mannerisms",
+                    "entries": [
+                        "very kind",
+                        "short for a cloud giant (usually 24 feet, maybe more like 18)",
+                        "middle age",
+                        "more like a farmer",
+                        "he’s red instead of blue … or just tan",
+                        "self-conscious of: ",
+                        "wants to be (thought of as): ",
+                        "modest about:"
+                    ]
+                },
+                { "type": "inset", "name": "Purpose", "entries": [""] },
+                {
+                    "type": "inset",
+                    "name": "Background",
+                    "entries": [
+                        "comes into town to sell astounding wares from superhuge garden",
+                        "brings in its own cows on a wagon to say high to local cows",
+                        "always checking the clouds with a local nephoscope it has set up",
+                        "has a skywriting business, and is a patron to warlocks",
+                        "Some warlocks find messages from their patrons etched on trees, mingled among tea leaves, or adrift in the clouds—messages that only the warlock can see. Other warlocks converse with their patrons in dreams or waking visions, or deal only with intermediaries. "
+                    ]
+                },
+                {
+                    "name": "Keen Smell",
+                    "entries": [
+                        "The giant has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": ["The giant makes two pitchfork attacks."]
+                },
+                {
+                    "name": "Pitchfork",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}21 ({@damage 3d8 + 8}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Rock",
+                    "entries": [
+                        "{@atk rw} {@hit 12} to hit, range 60/240 ft., one target. {@h}30 ({@damage 4d10 + 8}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Fling",
+                    "type": "entries",
+                    "entries": [
+                        "The giant tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a {@dc 20} Dexterity saving throw or be hurled up to 60 feet horizontally in a direction of the giant's choice and land {@condition prone}, taking 4 ({@damage 1d8}) bludgeoning damage for every 10 feet it was thrown."
+                    ]
+                },
+                {
+                    "name": "Wind Aura",
+                    "type": "entries",
+                    "entries": [
+                        "A magical aura of wind surrounds the giant. The aura is a 10-foot-radius sphere that lasts as long as the giant maintains concentration on it (as if concentrating on a spell). While the aura is in effect, the giant gains a +2 bonus to its AC against ranged weapon attacks, and all open flames within the aura are extinguished unless they are magical."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell detect magic}",
+                        "{@spell fog cloud}",
+                        "{@spell light}"
+                    ],
+                    "daily": {
+                        "3e": [
+                            "{@spell feather fall}",
+                            "{@spell fly}",
+                            "{@spell misty step}",
+                            "{@spell telekinesis}"
+                        ],
+                        "1e": [
+                            "{@spell control weather}",
+                            "{@spell gaseous form}"
+                        ]
+                    },
+                    "ability": "cha"
+                }
+            ],
+            "environment": ["mountain"],
+            "traitTags": ["Keen Senses"],
+            "actionTags": ["Multiattack"],
+            "languageTags": ["C", "GI"],
+            "spellcastingTags": ["I"],
+            "damageTags": ["P", "B"],
+            "miscTags": ["MW", "RCH", "RW"],
+            "tokenUrl": "https://5e.tools/img/MM/Cloud Giant.png?v=1.94.13"
+        },
+        {
             "name": "Sally Farmer",
             "source": "zorq",
             "action": [
@@ -5581,6 +6097,29 @@
                 ]
             },
             "isNpc": true
+        },
+        {
+            "source": "zorq",
+            "name": "Servo",
+            "size": "T",
+            "type": "construct",
+            "alignment": ["U"],
+            "ac": [{ "ac": 11, "from": ["natural armor"] }],
+            "hp": { "average": 10, "formula": "3d4 + 3" },
+            "speed": { "walk": 20 },
+            "str": 4,
+            "dex": 11,
+            "con": 12,
+            "int": 3,
+            "wis": 10,
+            "cha": 7,
+            "immune": ["poison"],
+            "conditionImmune": ["charmed", "poisoned"],
+            "passive": 10,
+            "cr": "0",
+            "action": [],
+            "miscTags": ["MW"],
+            "damageTags": ["S"]
         },
         {
             "name": "Shoemaker Byte",
@@ -5865,6 +6404,99 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/VGM/Xvart Warlock of Raxivort.png?v=1.94.8"
+        },
+        {
+            "source": "zorq",
+            "name": "Slimorg",
+            "size": "M",
+            "type": { "type": "monstrosity", "tags": ["Toxic Cave Fisher"] },
+            "alignment": ["U"],
+            "ac": [{ "ac": 16, "from": ["natural armor"] }],
+            "hp": { "average": 67, "formula": "9d8 + 27" },
+            "speed": { "walk": 30, "climb": 30 },
+            "str": 16,
+            "dex": 13,
+            "con": 16,
+            "int": 3,
+            "wis": 10,
+            "cha": 3,
+            "skill": { "perception": "+2", "stealth": "+5" },
+            "vulnerable": ["fire"],
+            "immune": ["poison"],
+            "conditionImmune": ["poisoned"],
+            "senses": ["blindsight 60 ft."],
+            "passive": 12,
+            "cr": "3",
+            "trait": [
+                {
+                    "type": "inset",
+                    "entries": [
+                        { "name": "Purpose", "entries": [""] },
+                        { "name": "Background", "entries": [""] },
+                        {
+                            "name": "Aliases",
+                            "entries": ["slime dot org", "slimort"]
+                        },
+                        {
+                            "name": "Appearance and Mannerisms",
+                            "entries": [
+                                "greenish glow",
+                                "self-conscious of: ",
+                                "wants to be (thought of as): ",
+                                "modest about:"
+                            ]
+                        }
+                    ],
+                    "name": "_"
+                },
+                {
+                    "name": "Fear of Fire",
+                    "entries": [
+                        "If the cave fisher takes fire damage, it is {@condition frightened} of the source of that damage for 1 round."
+                    ]
+                },
+                {
+                    "name": "Toxic Filament",
+                    "entries": [
+                        "The cave fisher can use its action to extend a sticky filament up to 60 feet, and the filament adheres to anything that touches it. A creature adhered to the filament is {@condition grappled} by the cave fisher (escape {@dc 13}), and ability checks made to escape this grapple have disadvantage. A creature that begins its turn adhered to the cave fisher's filament, must succeed on a {@dc 13} Constitution saving throw or become {@condition poisoned} for one minute. While {@condition poisoned}, the creature must succeed on a {@dc 13} Constitution saving throw at the start of each of its turns or be {@condition stunned} for 1 round and take 4 ({@damage 1d8}) poison damage. A creature that succeeds on this saving throw on two consecutive turns, ends the {@condition poisoned} condition on itself. The filament can be attacked (AC 15; 5 hit points; immunity to poison and psychic damage; vulnerability to fire damage), but a weapon that fails to sever it becomes stuck to it, requiring an action and a successful {@dc 13} Strength check to pull free. Destroying the filament deals no damage to the cave fisher, which can extrude a replacement filament on its next turn."
+                    ]
+                },
+                {
+                    "name": "Volatile Blood",
+                    "entries": [
+                        "If the cave fisher has half its maximum hit points or fewer, it must make a {@dc 13} Constitution saving throw each time it takes fire damage. If it fails the save, its blood combusts violently and the cave fisher takes 10 ({@damage 3d6}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries": [
+                        "The cave fisher can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": ["The cave fisher makes two claw attacks."]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Filament",
+                    "entries": [
+                        "One creature {@condition grappled} by the cave fisher's toxic filament must make a {@dc 12} Strength saving throw, provided that the target weighs 200 pounds or less. On a failure, the target is pulled into an unoccupied space within 5 feet of the cave fisher, and the cave fisher makes a claw attack against it as a bonus action. Reeling up the target releases anyone else who was attached to the filament. Until the grapple ends on the target, the cave fisher can't extrude another filament."
+                    ]
+                }
+            ],
+            "actionTags": ["Multiattack"],
+            "traitTags": ["Spider Climb"],
+            "senseTags": ["B"],
+            "damageTags": ["S", "I"],
+            "miscTags": ["MW"]
         },
         {
             "source": "zorq",
@@ -6493,7 +7125,6 @@
             "passive": 13,
             "languages": ["Common", "Underdark", "Abyssal"],
             "cr": "4",
-            "page": 0,
             "action": [
                 {
                     "name": "Horned Vine",
@@ -6545,7 +7176,6 @@
                 }
             ],
             "environment": ["urban"],
-            "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/614/deathlock.mp3",
             "senseTags": ["D"],
             "spellcastingTags": ["I", "CL"],
             "damageTags": ["N"],
@@ -6593,6 +7223,109 @@
             "shortName": "Tusternoof"
         },
         {
+            "name": "Ulthak",
+            "source": "zorq",
+            "size": "H",
+            "type": { "type": "elemental", "tags": ["Stone Giant Thane"] },
+            "alignment": ["N"],
+            "ac": [{ "ac": 18, "from": ["natural armor"] }],
+            "hp": { "average": 195, "formula": "17d12 + 85" },
+            "speed": { "walk": 40 },
+            "str": 25,
+            "dex": 15,
+            "con": 20,
+            "int": 10,
+            "wis": 17,
+            "cha": 14,
+            "save": { "dex": "+7", "con": "+10", "wis": "+8", "cha": "+7" },
+            "skill": { "athletics": "+12", "perception": "+8" },
+            "passive": 18,
+            "languages": ["Giant"],
+            "cr": "13",
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The giant's innate spellcasting ability is Wisdom (spell save {@dc 16}). The giant can innately cast the following spells, without providing material components:"
+                    ],
+                    "daily": {
+                        "3e": [
+                            "{@spell erupting earth|XGE}",
+                            "{@spell meld into stone}",
+                            "{@spell stone shape}"
+                        ],
+                        "1e": [
+                            "{@spell bones of the earth|XGE}",
+                            "{@spell stoneskin}",
+                            "{@spell wall of stone}"
+                        ]
+                    },
+                    "ability": "wis"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Stone Camouflage",
+                    "entries": [
+                        "The giant has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": ["The giant makes two maul attacks."]
+                },
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}26 ({@damage 3d12 + 7}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be knocked {@condition prone}. If a target's saving throw fails by 5 or more, the creature is also {@condition stunned} until the end of its next turn."
+                    ]
+                },
+                {
+                    "name": "Rock",
+                    "entries": [
+                        "{@atk rw} {@hit 12} to hit, range 60/240 ft., one target. {@h}29 ({@damage 4d10 + 7}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 20} Strength saving throw or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Rock Catching",
+                    "entries": [
+                        "If a rock or similar object is hurled at the giant, the giant can, with a successful {@dc 10} Dexterity saving throw, catch the missile and take no bludgeoning damage from it."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Move",
+                    "entries": ["The giant moves up to half its speed."]
+                },
+                {
+                    "name": "Direct Ally (Costs 2 Actions)",
+                    "entries": [
+                        "The giant targets one ally it can see within 30 feet of it. If the target can see and hear the giant, the target can use its reaction to move up to half its speed and make one weapon attack."
+                    ]
+                },
+                {
+                    "name": "Maul (Costs 2 Actions)",
+                    "entries": ["The giant makes a maul attack."]
+                },
+                {
+                    "name": "Cast a Spell (Costs 3 Actions)",
+                    "entries": [
+                        "The giant casts a spell from its list of innate spells, using a spell slot as normal."
+                    ]
+                }
+            ],
+            "actionTags": ["Multiattack"],
+            "languageTags": ["GI"],
+            "damageTags": ["B"],
+            "spellcastingTags": ["I"],
+            "miscTags": ["MW", "RCH", "RW"]
+        },
+        {
             "name": "Vee'gn'och",
             "size": "M",
             "type": "undead",
@@ -6625,7 +7358,7 @@
                 {
                     "name": "Swarm",
                     "entries": [
-                        "A Vee'gn'och can act as a swarm (composed of smaller elements), or it can grant a single member (called an exarch) control, acting as a singular creature. Changing between forms takes one action. In its singular form, the collective can't occupy the same space as another creature, but it can perform sneak attacks and cast spells. In swarm form, the Vee'gn'och can occupy another creature's space and vice versa, and it can move through openings at least 1 foot square. It can't change to singular form while it occupies the same space as another creature. It uses its skills normally in either form."
+                        "Vee'gn'och can act as a swarm (composed of smaller elements), or it can grant a single member (called an exarch) control, acting as a singular creature. Changing between forms takes one action. In its singular form, the collective can't occupy the same space as another creature, but it can perform sneak attacks and cast spells. In swarm form, the Vee'gn'och can occupy another creature's space and vice versa, and it can move through openings at least 1 foot square. It can't change to singular form while it occupies the same space as another creature. It uses its skills normally in either form."
                     ]
                 },
                 {
@@ -6836,7 +7569,6 @@
                     ]
                 }
             ],
-            "page": 177,
             "environment": ["forest", "hill", "swamp"],
             "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/244/green-hag.mp3",
             "traitTags": ["Amphibious"],
@@ -6845,7 +7577,6 @@
             "spellcastingTags": ["I", "S", "CW"],
             "damageTags": ["S"],
             "miscTags": ["MW"],
-            "srd": true,
             "fluff": {
                 "name": "Green Hag",
                 "source": "MM",
@@ -7685,8 +8416,7 @@
                             ]
                         }
                     },
-                    "ability": "wis",
-                    "type": "spellcasting"
+                    "ability": "wis"
                 },
                 {
                     "name": "Innate Spellcasting",
@@ -7868,7 +8598,7 @@
                 "The following table can be used as inspiration when an NPC is needed."
             ],
             "caption": "Marshbout NPCs",
-            "colLabels": ["1d231", "Name", "Description"],
+            "colLabels": ["1d232", "Name", "Description"],
             "colStyles": ["col-1 text-center", "col-3", "col-8"],
             "rows": [
                 [
@@ -7904,10 +8634,11 @@
                 ["44", "Ashtai", "quori"],
                 ["45", "Aurangual", "mind flayer"],
                 ["46", "Beluar", "druid"],
+                ["102", "Benjaplom", ""],
                 ["47", "beoff", ""],
                 ["48", "Black", "hag title"],
                 ["5", "Bog Frillan", "n/a"],
-                ["231", "Boolook", "Very good at falling asleep quickly"],
+                ["232", "Boolook", "Very good at falling asleep quickly"],
                 ["49", "Cackling", "hag title"],
                 ["50", "Cephalossk", "mind flayer"],
                 ["51", "CHAGBURT/Cadgebort", ""],
@@ -7959,7 +8690,7 @@
                 ["84", "georbe", ""],
                 ["85", "Gerator", "title"],
                 ["86", "giblinoid", ""],
-                ["230", "Gind", "??"],
+                ["231", "Gind", "??"],
                 ["87", "Girdle", ""],
                 ["88", "Gnokles", ""],
                 ["89", "Gnokles (NOH-cuhls)", ""],
@@ -7968,6 +8699,7 @@
                 ["91", "Granny", "hag title"],
                 ["92", "Grash", "orc?"],
                 ["93", "Greenteeth", "hag last name"],
+                ["103", "Gregonius", ""],
                 ["94", "Ha", "kalashtar"],
                 ["95", "Hareth", "quori"],
                 ["96", "Harlequino", ""],
@@ -7977,189 +8709,188 @@
                 ["100", "Hieronymo", ""],
                 ["101", "Hostrena Butterknife", ""],
                 [
-                    "102",
+                    "104",
                     "https://en.wiktionary.org/wiki/Category:Old_High_German_given_names",
                     ""
                 ],
-                ["103", "Hygglla ongott", ""],
-                ["104", "Ignar", "gnoll"],
+                ["105", "Hygglla ongott", ""],
+                ["106", "Ignar", "gnoll"],
                 ["4", "Igno Red McGerf", "A stupid or oblivious dragon."],
-                ["105", "Innar", ""],
-                ["106", "Irtos", "kobold"],
-                ["107", "Isfand", ""],
-                ["108", "Ishara", "quori"],
+                ["107", "Innar", ""],
+                ["108", "Irtos", "kobold"],
+                ["109", "Isfand", ""],
+                ["110", "Ishara", "quori"],
                 [
-                    "109",
+                    "111",
                     "Janza / Ganza / Gazaca (\"Our treasure\")",
                     "Gnoll towns"
                 ],
-                ["110", "Jesse Luckett", ""],
-                ["111", "Jheluum", "female ?? names"],
+                ["112", "Jesse Luckett", ""],
+                ["113", "Jheluum", "female ?? names"],
                 ["31", "Jumps", "A jumpy little {@creature dogmole|zorq}"],
                 [
                     "22",
                     "Karnish",
                     "The spirit of Castle Karn (and the original spirit of the grey tongue). perhaps she too has some association with the fountain."
                 ],
-                ["112", "Kashak", "kobold"],
-                ["113", "Kashak", "lizard"],
-                ["114", "Kelaal", "female ?? names"],
-                ["115", "Khad", "quori"],
-                ["116", "Khoratari", ""],
-                ["117", "Knottypate", ""],
-                ["118", "Knucklebones", "hag last name"],
-                ["119", "Kosh", "quori"],
-                ["120", "lakosh", ""],
-                ["121", "Lanhareth", ""],
-                ["122", "leer", "unit of measure"],
-                ["123", "Leylan", ""],
-                ["124", "Locustay", ""],
-                ["125", "Lugribossk", "mind flayer"],
-                ["126", "Lummur", ""],
-                ["127", "Lunchasaurus", ""],
-                ["128", "Madge Parsons", ""],
-                ["129", "MAGGIE FLOOD", ""],
+                ["114", "Kashak", "kobold"],
+                ["115", "Kashak", "lizard"],
+                ["116", "Kelaal", "female ?? names"],
+                ["117", "Khad", "quori"],
+                ["118", "Khoratari", ""],
+                ["119", "Knottypate", ""],
+                ["120", "Knucklebones", "hag last name"],
+                ["121", "Kosh", "quori"],
+                ["122", "lakosh", ""],
+                ["123", "Lanhareth", ""],
+                ["124", "leer", "unit of measure"],
+                ["125", "Leylan", ""],
+                ["126", "Locustay", ""],
+                ["127", "Lugribossk", "mind flayer"],
+                ["128", "Lummur", ""],
+                ["129", "Lunchasaurus", ""],
+                ["130", "Madge Parsons", ""],
+                ["131", "MAGGIE FLOOD", ""],
                 [
-                    "130",
+                    "132",
                     "Male Names: Aruget, Chetiin, Daavn, Dabrak, Dagii, Drevduul, Duulan, Fenic, Gudruun, Haluun, Haruuc, Jhazaal, Kallaad, Krakuul, Krootad, Mazaan",
                     ""
                 ],
-                ["131", "MARY COBBLESTONE", ""],
-                ["132", "Mathilda", "hag first name"],
-                ["133", "May", "hag first name"],
+                ["133", "MARY COBBLESTONE", ""],
+                ["134", "Mathilda", "hag first name"],
+                ["135", "May", "hag first name"],
                 ["9", "Meech", "n/a"],
-                ["134", "Meepo", "kobold"],
-                ["135", "Melk", "quori"],
-                ["136", "Mensil(r/n)oy", ""],
-                ["137", "Middenheap", "hag last name"],
+                ["136", "Meepo", "kobold"],
+                ["137", "Melk", "quori"],
+                ["138", "Mensil(r/n)oy", ""],
+                ["139", "Middenheap", "hag last name"],
                 ["13", "Moker Cornrack", "n/a"],
-                ["138", "Molavakri ", ""],
-                ["139", "Molo", "kobold"],
-                ["140", "Morgan", "hag first name"],
+                ["140", "Molavakri ", ""],
+                ["141", "Molo", "kobold"],
+                ["142", "Morgan", "hag first name"],
                 ["32", "Mr. Stabworthy", ""],
-                ["141", "Mudwallow", "hag last name"],
+                ["143", "Mudwallow", "hag last name"],
                 ["8", "Munlin Serplepan", "n/a"],
                 [
                     "1",
                     "Nancy O'Pug",
                     "Human that Miri was shacking up with at Throttlebottom when the Two Horn Band kidnapped Sokka and Zedaar."
                 ],
-                ["142", "Nari", "quori"],
-                ["143", "Nash", ""],
-                ["144", "Nasree", "female ?? names"],
-                ["145", "Natalie", ""],
-                ["146", "Nevitash ", ""],
-                ["147", "Nisi Siurp (SEE-urp)", ""],
+                ["144", "Nari", "quori"],
+                ["145", "Nash", ""],
+                ["146", "Nasree", "female ?? names"],
+                ["147", "Natalie", ""],
+                ["148", "Nevitash ", ""],
+                ["149", "Nisi Siurp (SEE-urp)", ""],
                 ["29", "Nub", "?"],
-                ["148", "Nunce", ""],
-                ["149", "Odell", ""],
-                ["150", "Oduk", "gnoll"],
-                ["151", "Ohsoss", "kobold"],
-                ["152", "Old", "hag title"],
-                ["153", "Olga", "hag first name"],
-                ["154", "Onfalon", "title"],
-                ["155", "ORP FREEN", ""],
-                ["156", "Otal", "gnoll"],
-                ["157", "Panzon", ""],
+                ["150", "Nunce", ""],
+                ["151", "Odell", ""],
+                ["152", "Oduk", "gnoll"],
+                ["153", "Ohsoss", "kobold"],
+                ["154", "Old", "hag title"],
+                ["155", "Olga", "hag first name"],
+                ["156", "Onfalon", "title"],
+                ["157", "ORP FREEN", ""],
+                ["158", "Otal", "gnoll"],
+                ["159", "Panzon", ""],
                 [
                     "28",
                     "Pell, Mell, Nell",
                     "Three of the kobolds in the {@faction Two Horns|zorq} faction headquartered in the Marshbout marine district."
                 ],
-                ["158", "PHERMASTAPHY", "title; location"],
-                ["159", "Phineas Fletcher", ""],
-                ["160", "phoenix underscramble", ""],
-                ["161", "Pigtooth", "hag last name"],
-                ["162", "Polly", "hag first name"],
-                ["163", "Pollyon (pahl-ee-ohn", ""],
-                ["164", "Queue Orius", ""],
-                ["165", "Quoor", "mind flayer"],
-                ["166", "Ragdar", ""],
+                ["160", "PHERMASTAPHY", "title; location"],
+                ["161", "Phineas Fletcher", ""],
+                ["162", "phoenix underscramble", ""],
+                ["163", "Pigtooth", "hag last name"],
+                ["164", "Polly", "hag first name"],
+                ["165", "Pollyon (pahl-ee-ohn", ""],
+                ["166", "Queue Orius", ""],
+                ["167", "Quoor", "mind flayer"],
+                ["168", "Ragdar", ""],
                 ["27", "Raggadochy", "rag uh DOH chee"],
-                ["167", "Rakari", ""],
-                ["168", "Ralayan", "mind flayer"],
-                ["169", "Raleen", "female ?? names"],
-                ["170", "Raznah", ""],
-                ["171", "Razu", "female ?? names"],
-                ["172", "Rekseen", "female ?? names"],
-                ["173", "Reksiit", ""],
+                ["169", "Rakari", ""],
+                ["170", "Ralayan", "mind flayer"],
+                ["171", "Raleen", "female ?? names"],
+                ["172", "Raznah", ""],
+                ["173", "Razu", "female ?? names"],
+                ["174", "Rekseen", "female ?? names"],
+                ["175", "Reksiit", ""],
                 ["26", "Resko", ""],
-                ["174", "Rickety", "hag title"],
-                ["175", "ROJEK", ""],
-                ["176", "Rolphe Nustle", ""],
-                ["177", "Rotom", "kobold"],
-                ["178", "S’venchen", "mind flayer"],
-                ["179", "Sagin", "kobold"],
-                ["180", "Sally", "hag first name"],
-                ["181", "Sardsult", "mind flayer"],
-                ["182", "Scudge Horpoth", ""],
-                ["183", "Senen", "female ?? names"],
-                ["184", "Shahar", ""],
-                ["185", "Shedroor", "female ?? names"],
-                ["186", "Sik", "kobold"],
+                ["176", "Rickety", "hag title"],
+                ["177", "ROJEK", ""],
+                ["178", "Rolphe Nustle", ""],
+                ["179", "Rotom", "kobold"],
+                ["180", "S’venchen", "mind flayer"],
+                ["181", "Sagin", "kobold"],
+                ["182", "Sally", "hag first name"],
+                ["183", "Sardsult", "mind flayer"],
+                ["184", "Scudge Horpoth", ""],
+                ["185", "Senen", "female ?? names"],
+                ["186", "Shahar", ""],
+                ["187", "Shedroor", "female ?? names"],
+                ["188", "Sik", "kobold"],
                 [
                     "11",
                     "Sir Voke Fit",
                     "surfeit : voke as in vocare, to call or voice"
                 ],
-                ["187", "Slab Denchmeat", ""],
-                ["188", "Sleggy", ""],
-                ["189", "Sniv", "kobold"],
+                ["189", "Slab Denchmeat", ""],
+                ["190", "Sleggy", ""],
+                ["191", "Sniv", "kobold"],
                 ["17", "Sorashana", "Commoner"],
-                ["190", "Spiner", "street"],
-                ["191", "Tajiin", "female ?? names"],
-                ["192", "Taklak", "lizard, kobold"],
-                ["194", "tana", ""],
+                ["192", "Spiner", "street"],
+                ["193", "Tajiin", "female ?? names"],
+                ["194", "Taklak", "lizard, kobold"],
+                ["196", "tana", ""],
                 ["20", "Tana", "Commoner"],
-                ["193", "Tana", "quori"],
-                ["195", "Tari", "quori"],
-                ["196", "Tariic", ""],
-                ["197", "Taruuzh", ""],
-                ["198", "Tash", "quori"],
-                ["199", "Tes", "kobold"],
-                ["200", "Tharcereli", "mind flayer"],
-                ["201", "the Imponderable", "epithet"],
-                ["202", "The raggle", "title, name"],
-                ["203", "Thuun (\"Thun\")", ""],
+                ["195", "Tana", "quori"],
+                ["197", "Tari", "quori"],
+                ["198", "Tariic", ""],
+                ["199", "Taruuzh", ""],
+                ["200", "Tash", "quori"],
+                ["201", "Tes", "kobold"],
+                ["202", "Tharcereli", "mind flayer"],
+                ["203", "the Imponderable", "epithet"],
+                ["204", "Thuun (\"Thun\")", ""],
                 [
                     "24",
                     "Tontine",
                     " \"TAHN-teen: some last-alive-gets-all schemer"
                 ],
-                ["204", "Tooshie", ""],
-                ["205", "Toprick", "dwarf surname"],
-                ["206", "Torashtai", ""],
-                ["207", "Trabis", ""],
-                ["208", "TumTum", ""],
-                ["209", "Tuneer", "female ?? names"],
-                ["210", "Turtleback", "hag title"],
-                ["211", "Twigmouth", "hag last name"],
-                ["212", "Uddubera Orepin", ""],
-                ["213", "Ulad", "quori"],
+                ["205", "Tooshie", ""],
+                ["206", "Toprick", "dwarf surname"],
+                ["207", "Torashtai", ""],
+                ["208", "Trabis", ""],
+                ["209", "TumTum", ""],
+                ["210", "Tuneer", "female ?? names"],
+                ["211", "Turtleback", "hag title"],
+                ["212", "Twigmouth", "hag last name"],
+                ["213", "Uddubera Orepin", ""],
+                ["214", "Ulad", "quori"],
                 [
                     "21",
                     "Ulgor",
                     "\"UHL gor, some kind of lightning-associated thing (dragonish?)"
                 ],
-                ["214", "Ulthak", "gnoll"],
+                ["215", "Ulthak", "gnoll"],
                 ["23", "Umpo and Onglo", "Maybe more of the earthlords ?"],
-                ["215", "Ursula", "hag first name"],
-                ["216", "Ustar", "gnoll"],
-                ["217", "Vakri", "quori"],
-                ["218", "Valakhad ", ""],
-                ["219", "Valii", "female ?? names"],
-                ["220", "Vanii", ""],
-                ["221", "Vanon ", ""],
-                ["222", "Varn", "kobold"],
-                ["223", "VENDALI(UM/OM) ", "title"],
-                ["224", "Virgat(e)", "title"],
+                ["216", "Ursula", "hag first name"],
+                ["217", "Ustar", "gnoll"],
+                ["218", "Vakri", "quori"],
+                ["219", "Valakhad ", ""],
+                ["220", "Valii", "female ?? names"],
+                ["221", "Vanii", ""],
+                ["222", "Vanon ", ""],
+                ["223", "Varn", "kobold"],
+                ["224", "VENDALI(UM/OM) ", "title"],
+                ["225", "Virgat(e)", "title"],
                 ["18", "Vishara", "Commoner"],
-                ["225", "Wehmseiper", "group?"],
-                ["226", "Wicked", "hag title"],
-                ["227", "Wormwiggle", "hag last name"],
-                ["228", "Wuudaraj", ""],
+                ["226", "Wehmseiper", "group?"],
+                ["227", "Wicked", "hag title"],
+                ["228", "Wormwiggle", "hag last name"],
+                ["229", "Wuudaraj", ""],
                 ["19", "Yvonna", "Commoner"],
-                ["229", "Zellix", "mind flayer"]
+                ["230", "Zellix", "mind flayer"]
             ]
         }
     ],

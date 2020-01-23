@@ -6,7 +6,7 @@ module.exports = {
         tags: ['Dragon Turtle', 'ulimara harbinger', 'dragon'],
     },
     pronunciation: 'nev-LEEM',
-    source: 'MM',
+    source: 'zorq',
     alignment: ['N'],
     ac: [
         {
