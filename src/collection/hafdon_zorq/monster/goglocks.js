@@ -57,11 +57,18 @@ module.exports = {
     cr: '3',
     trait: [
         {
-            name: 'Keen Hearing and Smell',
+            type: 'inset',
+            name: 'Appearance and Mannerisms',
             entries: [
-                'The yeth hound has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell.',
+                '{@creature Munta|zorq} (one of Baphomet’s agents) tried to grant to {@creature Sigmurh|zorq} a boon but ended up bonding Goglocks as master to the {@creature Sigmurh|zorq}.',
+                // 'self-conscious of: ',
+                // 'wants to be (thought of as): ',
+                // 'modest about:',
             ],
         },
+        // { type: 'inset', name: 'Purpose', entries: [''] },
+        // { type: 'inset', name: 'Background', entries: [''] },
+        '{@$trait keen hearing and smell|zorq}',
         {
             name: 'Sunlight Banishment',
             entries: [

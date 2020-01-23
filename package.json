@@ -4,16 +4,16 @@
     "description": "Homebrew source for 5e.tools",
     "main": "index.js",
     "scripts": {
-        "build": "npm run build:json && npm run build:format",
+        "build": "DEBUG=build* npm run build:json && npm run build:format",
         "version": "npm run build:version && npm run build && git add .",
         "postversion": "npm run git:push && npm run build:move",
         "rebuild_without_version": "npm run build && npm run build:move",
-        "build:json": "DEBUG=build* node _node/build_json.js",
+        "build:json": "node _node/build_json.js",
         "build:format": "prettier --write \"./build/**/*.json\"",
         "build:version": "node _node/build_update_meta.js",
         "build:move": "/bin/bash ./_node/build_move.sh",
         "git:push": "git push && git push --tags",
-        "build:win": "set DEBUG=build* & node index.js && npm run format",
+        "build:win": "set DEBUG=build* & npm run build:json && npm run build:format",
         "build:push:temp": "DEBUG=* npm run build && git add . && git commit -m \"build\" && git push"
     },
     "precommit": [],
@@ -49,8 +49,9 @@
     },
     "dependencies": {
         "debug": "^4.1.1",
+        "dotenv": "^8.2.0",
         "fs-extra": "^8.1.0",
-        "jshint": "^2.11.0-rc1"
+        "jshint": "^2.11.0"
     },
     "devDependencies": {
         "pre-commit": "^1.2.2",

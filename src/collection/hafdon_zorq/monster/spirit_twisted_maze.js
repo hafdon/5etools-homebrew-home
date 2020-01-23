@@ -1,7 +1,7 @@
 module.exports = {
     name: 'Spirit of the Twisted Maze',
     size: 'M',
-    type: 'fiend',
+    type: { type: 'fiend', tags: ['Skulk'] },
     source: 'zorq',
     alignment: ['C', 'N'],
     ac: [13],

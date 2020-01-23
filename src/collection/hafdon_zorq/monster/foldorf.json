@@ -63,7 +63,7 @@
             ]
         }
     ],
-    "page": 164,
+
     "spellcasting": [
         {
             "name": "Innate Spellcasting",
@@ -82,13 +82,13 @@
         }
     ],
     "environment": ["underdark"],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/472/svirfneblin.mp3",
+
     "languageTags": ["G", "T", "U"],
     "senseTags": ["SD"],
     "spellcastingTags": ["I"],
     "damageTags": ["P"],
     "miscTags": ["MW", "RW", "THW"],
-    "srd": true,
+
     "fluff": {
         "name": "Deep Gnome (Svirfneblin)",
         "source": "MM",
@@ -127,7 +127,5 @@
             }
         ]
     },
-    "tokenUrl": "https://5e.tools/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.4",
-
-    "uniqueId": "fe7e395c15f3e66652663737f3919084"
+    "tokenUrl": "https://5e.tools/img/MM/Deep Gnome (Svirfneblin).png?v=1.94.4"
 }

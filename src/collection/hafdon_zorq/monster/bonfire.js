@@ -87,7 +87,6 @@ module.exports = {
                 },
             },
             ability: 'int',
-            type: 'spellcasting',
         },
     ],
 };

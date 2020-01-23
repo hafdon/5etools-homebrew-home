@@ -37,10 +37,56 @@ module.exports = {
             ],
         },
         {
+            name: 'Regeneration',
+            entries: [
+                'she can grow arm back if (put some evilish thing here).',
+            ],
+        },
+
+        {
             name: 'Apperarance & Mannerisms',
             entries: [
                 'Completely silver-white fur. Two smaller arms under pectorals. Created to serve as guardian for a previous (dwarf?) empire. ',
-                'Suspicious but gracious?',
+                "doesn't like swimming",
+                '9 feet tall.',
+                'Has a slight lisp speaking Common because of gigantic canines. Took a long time for Graal to learn Common.',
+            ],
+        },
+    ],
+    variant: [
+        {
+            type: 'variant',
+            name: 'Lusty Limbs',
+            entries: [
+                'Whenever Graal takes at least 15 slashing damage at one time, roll a {@dice d20} to determine what else happens to it:',
+                {
+                    type: 'list',
+                    style: 'list-hang-notitle',
+                    items: [
+                        {
+                            type: 'item',
+                            name: '1–10:',
+                            entry: 'Nothing else happens.',
+                        },
+                        {
+                            type: 'item',
+                            name: '11–12:',
+                            entry:
+                                'One leg is severed from Graal if it has any legs left.',
+                        },
+                        {
+                            type: 'item',
+                            name: '13–20:',
+                            entry:
+                                'One arm is severed from Graal if it has any arms left.',
+                        },
+                    ],
+                },
+                "If Graal finishes a short or long rest without reattaching a severed limb or head, the part regrows. At that point, the severed part dies. Until then, a severed part acts on Graal's initiative and has its own action and movement. A severed part has AC 13, 10 hit points, and Graal's Regeneration trait.",
+                'A severed leg is unable to attack and has a speed of 5 feet.',
+                'A severed arm has a speed of 5 feet and can make one claw attack on its turn, with disadvantage on the attack roll unless Graal can see the arm and its target. Each time Graal loses an arm, it loses a claw attack.',
+                "If its head is severed, Graal loses its bite attack and its body is {@condition blinded} unless the head can see it. The severed head has a speed of 0 feet and Graal's Keen Smell trait. It can make a bite attack but only against a target in its space.",
+                "Graal's speed is halved if it's missing a leg. If it loses both legs, it falls {@condition prone}. If it has both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0, and it can't benefit from bonuses to speed.",
             ],
         },
     ],

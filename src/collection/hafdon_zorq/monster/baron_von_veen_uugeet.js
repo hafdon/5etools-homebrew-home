@@ -62,6 +62,11 @@ module.exports = {
                 "Baron von Veen speaks through Uugeet with a thunderous voice audible within 300 feet. Creatures of Uugeet's choice that can hear the Baron's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a {@dc 14} Charisma saving throw or be {@condition frightened} for 1 minute. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
             ],
         },
+        {
+            name:
+                "This Isn't Even My Final Form (which is good because it's a fucking fish)",
+            entries: ['WIP'],
+        },
     ],
     // page: null,
     spellcasting: [
