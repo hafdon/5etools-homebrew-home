@@ -56,6 +56,8 @@ module.exports = {
             'Ulgor',
             '"UHL gor, some kind of lightning-associated thing (dragonish?)',
         ],
+        ['Richard Ruffian', 'Dick Ruffan'],
+        ['Brent McCorkle', 'fancy boy; ridiculous'],
         [
             'Karnish',
             'The spirit of Castle Karn (and the original spirit of the grey tongue). perhaps she too has some association with the fountain.',
@@ -65,6 +67,7 @@ module.exports = {
         ['Empo', ''],
         ['Resko', ''],
         ['Raggadochy', 'rag uh DOH chee'],
+        ['Petronella', '?'],
         [
             'Pell, Mell, Nell',
             'Three of the kobolds in the {@faction Two Horns|zorq} faction headquartered in the Marshbout marine district.',
