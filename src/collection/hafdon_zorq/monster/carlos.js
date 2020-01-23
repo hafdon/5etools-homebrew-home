@@ -1,6 +1,7 @@
 module.exports = {
     name: 'Carlos',
     source: 'zorq',
+    shortName: 'Carlos',
     action: [
         {
             name: 'Warhammer',
@@ -14,7 +15,6 @@ module.exports = {
     damageTags: ['B'],
     languageTags: ['C', 'D'],
     senseTags: ['D'],
-    page: 78,
     size: 'M',
     type: {
         type: 'humanoid',
@@ -181,5 +181,4 @@ module.exports = {
             "Carlos's deity is {@deity Aule|zorq}. One of his rituals involves spinning in a circle with his warhammer held outstretched.",
         ],
     },
-    shortName: 'Carlos',
 };

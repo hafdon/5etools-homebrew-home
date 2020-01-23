@@ -45,18 +45,22 @@ module.exports = {
     trait: [
         {
             type: 'inset',
-            name: 'Appearance and Mannerisms',
+            name: '_dossier',
             entries: [
-                '5 feet 8 inches; 122 pounds',
-                'They are obsessed with conspiracy theories.',
-                'Puts their name before the {@creature quori|erlw} name.',
-            ],
-        },
-        {
-            type: 'inset',
-            name: 'Purpose',
-            entries: [
-                'Everything {@creature Paros|zorq} wants to be. However, they refuse to recognize the power of reading and only learn through psionics. Furthermore, their dedication to learning comes at the cost of ... ',
+                {
+                    name: 'Appearance and Mannerisms',
+                    entries: [
+                        '5 feet 8 inches; 122 pounds',
+                        'They are obsessed with conspiracy theories.',
+                        'Puts their name before the {@creature quori|erlw} name.',
+                    ],
+                },
+                {
+                    name: 'Purpose',
+                    entries: [
+                        'Everything {@creature Paros|zorq} wants to be. However, they refuse to recognize the power of reading and only learn through psionics. Furthermore, their dedication to learning comes at the cost of ... ',
+                    ],
+                },
             ],
         },
         {

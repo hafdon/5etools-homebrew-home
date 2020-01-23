@@ -1,6 +1,7 @@
 module.exports = {
     name: 'Fezziwig Hornswoggle',
     size: 'M',
+    short: 'Fez',
     type: {
         type: 'humanoid',
         tags: ['halfling'],
@@ -33,14 +34,7 @@ module.exports = {
     passive: 10,
     languages: ['any one language (usually Common)'],
     cr: '3',
-    trait: [
-        {
-            name: 'Sea Legs',
-            entries: [
-                'The first mate has advantage on ability checks and saving throws to resist being knocked {@condition prone}.',
-            ],
-        },
-    ],
+    trait: ['{@$sea legs|zorq}'],
     action: [
         {
             name: 'Multiattack',
