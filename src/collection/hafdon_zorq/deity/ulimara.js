@@ -7,6 +7,5 @@ module.exports = {
     // category: 'The Mordinsamman',
     // symbol: 'Hammer',
     source: 'zorq',
-    page: null,
-    entries: ['One of her messengers is {@creature Dalariel|zorq}.'],
+    entries: ['One of her guardians is {@creature Nevlim|zorq}.'],
 };

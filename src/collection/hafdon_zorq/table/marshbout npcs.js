@@ -36,7 +36,6 @@ module.exports = {
             },
         ],
         ['Munlin Serplepan', 'n/a'],
-        ['Meech', 'n/a'],
         [
             'Flinty Hirsutulous',
             'A slightly hairy, obdurate, unmerciful person.',
@@ -58,14 +57,12 @@ module.exports = {
         ],
         ['Richard Ruffian', 'Dick Ruffan'],
         ['Brent McCorkle', 'fancy boy; ridiculous'],
-        [
-            'Karnish',
-            'The spirit of Castle Karn (and the original spirit of the grey tongue). perhaps she too has some association with the fountain.',
-        ],
+
         ['Umpo and Onglo', 'Maybe more of the earthlords ?'],
         ['Tontine', ' "TAHN-teen: some last-alive-gets-all schemer'],
         ['Empo', ''],
         ['Resko', ''],
+        ['Bruss Tarsia', ''],
         ['Raggadochy', 'rag uh DOH chee'],
         ['Petronella', '?'],
         [
@@ -115,7 +112,7 @@ module.exports = {
         ['Duusha', 'female ?? names'],
         ['Ekhaas', 'female ?? names'],
         ['Eltaeor', 'druid'],
-        ['Eluun', 'female ?? names'],
+
         ['Escant', 'title'],
         ['Ethak', 'gnoll'],
         ['Ett', 'kobold'],
@@ -131,7 +128,7 @@ module.exports = {
         ['Gerator', 'title'],
         ['giblinoid', ''],
         ['Girdle', ''],
-        ['Gnokles', ''],
+
         ['Gnokles (NOH-cuhls)', ''],
         ['Goosewood', ''],
         ['Granny', 'hag title'],
@@ -160,8 +157,7 @@ module.exports = {
         ['Janza / Ganza / Gazaca ("Our treasure")', 'Gnoll towns'],
         ['Jesse Luckett', ''],
         ['Jheluum', 'female ?? names'],
-        ['Kashak', 'kobold'],
-        ['Kashak', 'lizard'],
+        ['Kashak', 'kobold, lizard'],
         ['Kelaal', 'female ?? names'],
         ['Khad', 'quori'],
         ['Khoratari', ''],
@@ -175,7 +171,7 @@ module.exports = {
         ['Locustay', ''],
         ['Lugribossk', 'mind flayer'],
         ['Lummur', ''],
-        ['Lunchasaurus', ''],
+
         ['Madge Parsons', ''],
         ['MAGGIE FLOOD', ''],
         [
@@ -212,7 +208,7 @@ module.exports = {
         ['Panzon', ''],
         ['PHERMASTAPHY', 'title; location'],
         ['Phineas Fletcher', ''],
-        ['phoenix underscramble', ''],
+        ['underscramble', ''],
         ['Pigtooth', 'hag last name'],
         ['Polly', 'hag first name'],
         ['Pollyon (pahl-ee-ohn', ''],
@@ -265,7 +261,6 @@ module.exports = {
         ['Twigmouth', 'hag last name'],
         ['Uddubera Orepin', ''],
         ['Ulad', 'quori'],
-        ['Ulthak', 'gnoll'],
         ['Ursula', 'hag first name'],
         ['Ustar', 'gnoll'],
         ['Vakri', 'quori'],
