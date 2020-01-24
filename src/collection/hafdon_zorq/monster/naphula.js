@@ -16,12 +16,11 @@ module.exports = {
     source: 'zorq',
     alignment: ['L', 'E'],
     ac: [14],
-    hp: [
-        {
-            average: 85,
-            formula: '10d10 + 30',
-        },
-    ],
+    hp: {
+        average: 85,
+        formula: '10d10 + 30',
+    },
+
     speed: {
         walk: 30,
         climb: 30,

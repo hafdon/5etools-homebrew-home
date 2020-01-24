@@ -64,11 +64,24 @@ module.exports = {
             ],
         },
         {
+            name: 'Spotless Sunlit Mind',
+            entries: [
+                'Phoenix has managed to harness the gregariousness of the conversative and playful brass dragon. When Phoenix is at or below 15 hit points, they have advantage on all Charisma saving throws and ability checks.',
+            ],
+        },
+        {
+            name: 'Ring of Mind Shielding',
+            entries: [
+                'While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.',
+                'You can use an action to cause the ring to become {@condition invisible} until you use another action to make it visible, until you remove the ring, or until you die.',
+                "If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication.",
+            ],
+        },
+        {
             name: 'Dual Mind',
             entries: ['The kalashtar has advantage on Wisdom saving throws.'],
         },
         {
-            type: 'entries',
             name: 'Severed from Dreams',
             entries: [
                 "Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to spells and other magical effects that require you to dream, like {@spell dream}, but not to spells and other magical effects that put you to sleep, like {@spell sleep}.",
