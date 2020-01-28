@@ -51,6 +51,7 @@ module.exports = {
         ['Vishara', 'Commoner'],
         ['Yvonna', 'Commoner'],
         ['Tana', 'Commoner'],
+        ['Agnic', 'lady'],
         [
             'Ulgor',
             '"UHL gor, some kind of lightning-associated thing (dragonish?)',
@@ -62,6 +63,7 @@ module.exports = {
         ['Brent McCorkle', 'fancy boy; ridiculous'],
         ['Karok Ensity', 'character density'],
         ['Curdella', 'cool lady'],
+        ['Cavortletop', ''],
         ['Umpo and Onglo', 'Maybe more of the earthlords ?'],
         ['Tontine', ' "TAHN-teen: some last-alive-gets-all schemer'],
         ['Empo', ''],
