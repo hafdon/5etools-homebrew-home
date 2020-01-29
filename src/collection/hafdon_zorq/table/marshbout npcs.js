@@ -35,6 +35,16 @@ module.exports = {
                 ],
             },
         ],
+        ['Pete Ocking', 'n/a'],
+        ['Clast', 'the destroyer    '],
+        ['Leema', ''],
+        ['Oojum', ''],
+        ['Petitia', 'n/a'],
+        ['Peronel', 'n/a'],
+        [
+            'Finiendum',
+            'elf; something that is or is to be defined, especially the term at the head of a dictionary entry.',
+        ],
         ['Munlin Serplepan', 'n/a'],
         [
             'Flinty Hirsutulous',
