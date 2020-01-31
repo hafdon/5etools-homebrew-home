@@ -37,10 +37,9 @@ module.exports = {
         ],
         ['Spam Tompkins', 'n/a'],
         ['Pete Ocking', 'n/a'],
-        ['Clast', 'the destroyer    '],
-        ['Leema', ''],
+
         ['Oojum', ''],
-        ['Petitia', 'n/a'],
+
         ['Peronel', 'n/a'],
         [
             'Finiendum',
