@@ -177,7 +177,6 @@ module.exports = {
         ['Lummur', ''],
 
         ['Madge Parsons', ''],
-        ['MAGGIE FLOOD', ''],
         [
             'Male Names: Aruget, Chetiin, Daavn, Dabrak, Dagii, Drevduul, Duulan, Fenic, Gudruun, Haluun, Haruuc, Jhazaal, Kallaad, Krakuul, Krootad, Mazaan',
             '',
@@ -190,6 +189,7 @@ module.exports = {
         ['Mensil(r/n)oy', ''],
         ['Middenheap', 'hag last name'],
         ['Molavakri ', ''],
+        ['Clough ', ''],
         ['Molo', 'kobold'],
         ['Morgan', 'hag first name'],
         ['Mudwallow', 'hag last name'],
@@ -273,7 +273,9 @@ module.exports = {
         ['Vanii', ''],
         ['Vanon ', ''],
         ['Varn', 'kobold'],
-
+        ['Wamble', 'rumbling, rolling nausea'],
+        ['Rospek', 'prospect'],
+        ['Lavolta', 'lava monster who likes dancing.'],
         ['VENDALI(UM/OM) ', 'title'],
         ['Virgat(e)', 'title'],
         ['Wehmseiper', 'group?'],
