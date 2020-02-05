@@ -35,6 +35,7 @@ module.exports = {
                 ],
             },
         ],
+        ['Krov', 'n/a'],
         ['Spam Tompkins', 'n/a'],
         ['Pete Ocking', 'n/a'],
 
