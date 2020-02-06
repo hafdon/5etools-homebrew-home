@@ -36,6 +36,17 @@ module.exports = {
             },
         ],
         ['Claggash', 'claw gash'],
+        ['Krov', 'n/a'],
+        ['Spam Tompkins', 'n/a'],
+        ['Pete Ocking', 'n/a'],
+
+        ['Oojum', ''],
+
+        ['Peronel', 'n/a'],
+        [
+            'Finiendum',
+            'elf; something that is or is to be defined, especially the term at the head of a dictionary entry.',
+        ],
         ['Munlin Serplepan', 'n/a'],
         [
             'Flinty Hirsutulous',
@@ -52,6 +63,7 @@ module.exports = {
         ['Vishara', 'Commoner'],
         ['Yvonna', 'Commoner'],
         ['Tana', 'Commoner'],
+        ['Agnic', 'lady'],
         [
             'Ulgor',
             '"UHL gor, some kind of lightning-associated thing (dragonish?)',
@@ -61,6 +73,11 @@ module.exports = {
         ['Shuram, Shazan', 'Sure Am, Shazam'],
         ['Brent McCorkle', 'fancy boy; ridiculous'],
         ['Karok Ensity', 'character density'],
+<<<<<<< HEAD
+=======
+        ['Curdella', 'cool lady'],
+        ['Cavortletop', ''],
+>>>>>>> origin/dev/work
         ['Umpo and Onglo', 'Maybe more of the earthlords ?'],
         ['Tontine', ' "TAHN-teen: some last-alive-gets-all schemer'],
         ['Empo', ''],
