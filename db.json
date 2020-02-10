@@ -3350,5 +3350,33 @@
             "short description": "maltin is actually a 'amylase [ an enzyme that catalyses the hydrolysis [a molecule of water ruptures one or more chemical bonds. ]  of starch (Latin amylum) into sugars.]  present in germinating seeds of barley'\nfrom Diastase of Malt.",
             "found @": ""
         }
+    ],
+    "recap": [
+        {
+            "session_ordinal": 15,
+            "session_title": "I am not a lemure",
+            "session_title_contenders": [],
+            "session_date": "2020-02-08",
+            "session_author": "J. McClintock",
+            "session_recap": {
+                "type": "entry",
+                "entries": [
+                    "The band of adventurers, having expelled von Veen's spirit from Uugeet, discovered that their victory coincided fortuitously with the celebration of Raising the Pendulum Bob which simultaned [coincided] that year with Braggot Day in the gnome town of Briangle. Drav customed [visited] the local post office branch to ship a frosty bottle of trollsmilk and an extensive missive to her family in Forest Ogrelodge. Fez, always perfectly in touch with his inner springwork, was motivated to call forth a steadfast steed. Tregetting [juggling] for inspiration a piece of coral bestowed to him under miraculous circumstances, he attracted the attention of a sloppy clown named Kuma who led him to a park pond swarming with cave turtles from which the ecologically irresponsible jape gathered a healthy supply of eggrocks. Meanwhile, Carlos, having glutted his mouth and purse with vendible candies which could have been purloined for free from the Candy Lab, gawked at The Unwieldy Dolphin's shingle and forthnimmed [proceeded, lit. 'go away, go forth'] to a desecrated former shrine to Aulë being used as a social club. He attempted to preach the good word to the finger-sandwich-eating, real-estate-discussing philistines, but, unable to convert any of the nonbelievers, satisfied himself with carving a statuette of Aulë into the rock wall and distributing prayer books with Drav's help. While Paros won himself a manuary [(prob.) pardon] from the local villagers to free the pendulum bob from its hempen restraints and return quasi-time to the town, Flick took a moment to recall sifting some poudree [medicinal powder] from Uugeet's pool before samming up [gathering] the party and making for the surface with Domonkos.",
+                    "Achieving externity [(prob.) coming to the surface] on The Grey Tongue, all but Carlos and Flick were taken unawares by two shapeless black muckhumps calling themselves Naphula and Gluðer who, drawn by Drav's demon skinprint, attempted to incaptivate [capture] and dissolve the dwarven wizard. After unceremoniously roasting Gluðer, the party danced around serving up Naphula in the same way until Drav could be safely extracted and Flick, amused by the ooze, could invite Naphula to confederate with them. The super-lemure having been cindered, Paros scooped some ash at the behest of Veenock and then went to get some ass with Domonkos, making it to vampire-second-but-human-third?-base, all the while chaperoned by trigger-low-affect Flick. Rather than spending the night in the woods, everyone vamoosed behind the vampire to the castle, making for the single lit room high in the central palace. The tricky little spellbook Drav snatched from Riult took one last leap at manumission and inconveniently revealed their position, but it seemed to matter not, as who should await them in the bedroom chamber but one calling herself Lupenna; and, as if that were not enough, she recognized Flick!"
+                ]
+            },
+            "session_debut": {
+                "type": "list",
+                "items": [
+                    {
+                        "type": "entry",
+                        "name": "Braggot Day",
+                        "entries": [
+                            "A festival in Briangle during which braggot — a mixture of ale, mead, and spices — is imbibed. Oftentimes its celebration coincides with the autumnal event Raising the Pendulum Bob."
+                        ]
+                    }
+                ]
+            }
+        }
     ]
 }
