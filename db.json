@@ -3377,6 +3377,57 @@
                     }
                 ]
             }
+        },
+        {
+            "session_ordinal": 13,
+            "session_title": "The school of getting hard knocked up",
+            "quotes": [
+                {
+                    "type": "quote",
+                    "text": "Is she always sausagey?",
+                    "author": "Carlos",
+                    "context": ""
+                },
+                {
+                    "type": "quote",
+                    "text": "Body by trollmilk.",
+                    "author": "Joan",
+                    "context": ""
+                },
+                {
+                    "type": "quote",
+                    "text": "Have you ever heard of confidence …? That's the same as knowledge.",
+                    "author": "Joan",
+                    "context": ""
+                },
+                {
+                    "type": "quote",
+                    "text": "did juniper grow from a meat?",
+                    "author": "Carlos",
+                    "context": ""
+                }
+            ],
+            "session_title_contenders": [],
+            "session_date": "2020-01-25",
+            "session_author": "",
+            "session_recap": {
+                "type": "entry",
+                "entries": [
+                    "While Fez and Flick sunk into a quiet sloom [doze], Carlos, Drav, Paros, and Joan tied up a few loose ends. Carlos helpfully speculated that 'maybe Juniper came from a meat-person that wore the mask, and Juniper laid a meat-egg, and then Juniper was inside the meat-egg.' Further afrayning [questioning] prompted Ethel to pontificate on the 'ancient ways of the Three School' and Juniper's particular interest in the mysteries of life and death. All matters resolved, the gang turned their attentions to ••; Drav determined that the blurry symbols decorating ••'s shell were lexemes in an old language used by artificers, and Paros unintentionally presented the tremulous box with visions of evisceration. Before much else could go wrong, /, a construct isometric to ••, hailed the group and led them to Red Fox University. Passing through a cozy common room inhabited by Briffa and Reginald, two teenful [annoyed; cognate with Old Saxon tiono crime, injustice, injury] students, and a sleepy xorn named Turkey, where they learned that •• had been running away from an emotionally volatile love triangle with – and - (siblings, no less!). Joan smashed down some doors to track the still fleeing / who brought them ultimately to Sik's alchemical workshop, where •• received some much-needed relaxation and reprogramming. After smoking a bit of laced leaf, Sik showed Joan how to turn her multicolored stone into a floating force field and pointed them towards Professor Henriette Erman who, aside from studying for a license to practice psychiatric medicine, schooled them on the ancient mountain deity Karnish and the primordial provenance of the various Three Schools which roam the land. Finally, they were pointed to Ymenestra, a visiting lecturer with a personal and professional interest in depossessions and exorcisms."
+                ]
+            },
+            "session_debut": {
+                "type": "list",
+                "items": [
+                    {
+                        "type": "entry",
+                        "name": "Braggot Day",
+                        "entries": [
+                            "A festival in Briangle during which braggot — a mixture of ale, mead, and spices — is imbibed. Oftentimes its celebration coincides with the autumnal event Raising the Pendulum Bob."
+                        ]
+                    }
+                ]
+            }
         }
     ]
 }
