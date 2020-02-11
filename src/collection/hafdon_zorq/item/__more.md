@@ -25,6 +25,7 @@
 - spar-stone: (1) gypsum; plaster (2) quarts; spar
 - sparteine: An alkaloid obtained from common broom, used to some extent in medicine. ( a strong narcotic poison, paralyzes the motor nerves.)
 - espaut: Millet or spelt.
+- wicker baskets (session 002: we don’t talk about wicker baskets (dogs tightened up like you put a wicker basket in the washer))
 
 ## books
 
