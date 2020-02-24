@@ -129,44 +129,6 @@ module.exports = {
     languageTags: ['AB', 'I', 'TP'],
     damageTags: ['P', 'S', 'N'],
     miscTags: ['MW', 'RW'],
-    fluff: {
-        name: 'Canoloth',
-        source: 'MTF',
-        entries: [
-            {
-                type: 'quote',
-                entries: [
-                    'Canoloths are fundamentally lazy creatures. Given no reason to attack, they rarely rise to the bait.',
-                ],
-                by: 'Mordenkainen',
-            },
-            {
-                type: 'entries',
-                name: 'Canoloth',
-                entries: [
-                    'Canoloths prefer to enter into contracts to guard valuable treasures and important locations. They always do exactly as asked—never any more, never any less.',
-                    'With senses sharp enough to pinpoint the locations of nearby invisible creatures, canoloths respond unfailingly to any threat to their charges. Furthermore, they emit a magical distortion field that prevents creatures close to them from teleporting.',
-                    'Canoloths confront intruders with swift and terrible force, projecting long, spiny tongues to grab their foes and drag them close. What happens next depends on the contract. Unless instructed to kill, a canoloth merely holds onto its prisoner, but if given the order to do so, it tears its prey limb from limb.',
-                ],
-            },
-            {
-                type: 'entries',
-                name: 'Yugoloths',
-                entries: [
-                    "Mercenaries that ply their trade throughout the Lower Planes and in other realms, yugoloths have a reputation for effectiveness that is matched only by their desire for ever more wealth. Although yugoloths aren't especially loyal and typically try to exploit every potential loophole in a contract, they undertake any task for which they are hired, no matter how despicable. Yugoloths come in a wide variety of forms, including those described in the {@filter Monster Manual|bestiary|source=mm|tag=yugoloth} and the six creatures presented {@filter here|bestiary|source=mtf|tag=yugoloth}.",
-                ],
-            },
-        ],
-        images: [
-            {
-                type: 'image',
-                href: {
-                    type: 'internal',
-                    path: 'bestiary/MTF/Canoloth.jpg',
-                },
-            },
-        ],
-    },
     tokenUrl: 'https://5e.tools/img/MTF/Canoloth.png?v=1.96.3',
     spellcasting: [
         {
