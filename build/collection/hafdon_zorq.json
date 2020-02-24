@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1579753424
+        "dateUpdated": 1579834113
     },
     "action": [
         {
@@ -89,9 +89,9 @@
             "category": "The Mordinsamman",
             "symbol": "Hammer",
             "source": "zorq",
-            "page": null,
             "entries": [
-                "A Vala and one of the Aratar, also known as the the Smith and Smith of the Valar, concerned with rock, metal, nature of substances and works of craft."
+                "A Vala and one of the Aratar, also known as the the Smith and Smith of the Valar, concerned with rock, metal, nature of substances and works of craft.",
+                "A smooth-talking relaxed old wrestling coach"
             ]
         },
         {
@@ -119,8 +119,7 @@
             "domains": ["Sea", "Ocean", "Ships"],
             "province": "Goddess of the Tranquil Sea",
             "source": "zorq",
-            "page": null,
-            "entries": ["One of her messengers is {@creature Dalariel|zorq}."]
+            "entries": ["One of her guardians is {@creature Nevlim|zorq}."]
         }
     ],
     "disease": [
@@ -141,6 +140,11 @@
         {
             "name": "Syrup in the Blood",
             "entries": ["Diabetes"],
+            "source": "zorq"
+        },
+        {
+            "name": "The Panic",
+            "entries": ["Causes creatures to panic."],
             "source": "zorq"
         },
         {
@@ -674,6 +678,135 @@
     ],
     "monster": [
         {
+            "name": "Samai",
+            "isNamedCreature": true,
+            "source": "zorq",
+            "size": "L",
+            "type": { "type": "humanoid", "tags": ["demon"] },
+            "alignment": ["C", "E"],
+            "ac": [{ "ac": 16, "from": ["natural armor"] }],
+            "hp": { "formula": "16d10 + 48", "average": 150 },
+            "speed": { "walk": 30 },
+            "str": 14,
+            "dex": 15,
+            "con": 16,
+            "int": 14,
+            "wis": 16,
+            "cha": 18,
+            "save": { "dex": "+6", "con": "+7", "wis": "+7" },
+            "skill": { "perception": "+7" },
+            "senses": ["blindsight 60 ft."],
+            "passive": 17,
+            "resist": ["cold", "fire", "lightning"],
+            "immune": ["poison"],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "poisoned"
+            ],
+            "languages": ["all", "telepathy 120 ft."],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "Samai's spellcasting ability is Charisma (spell save {@dc 16}). She can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell detect magic}",
+                        "{@spell locate animals or plants}",
+                        "{@spell ray of sickness}"
+                    ],
+                    "daily": {
+                        "3e": [
+                            "{@spell ensnaring strike}",
+                            "{@spell entangle}",
+                            "{@spell plant growth}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": ["Samai makes two pseudopod attacks."]
+                },
+                {
+                    "name": "Pseudopod",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage plus 9 ({@damage 2d8}) poison damage."
+                    ]
+                },
+                {
+                    "name": "Infestation Spores",
+                    "entries": [
+                        "Samai releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a {@dc 16} Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called X and also gains a random form of madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant."
+                    ]
+                },
+                {
+                    "name": "Mind Control Spores",
+                    "entries": [
+                        "Samai releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her. Humanoids and beasts in the cloud when it appears must make a {@dc 16} Wisdom saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is {@condition charmed} by her for 1 minute and can't be reinfected by these spores. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. "
+                    ]
+                },
+                {
+                    "name": "Euphoria Spores",
+                    "entries": [
+                        "Samai releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 15} Constitution saving throw or become {@condition poisoned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of {@condition exhaustion}."
+                    ]
+                },
+                {
+                    "name": "Photophobia Spores",
+                    "entries": [
+                        "Samai releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 15} Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, for 1 minute, while the creature is in sunlight, the creature has disadvantage on ability checks, attack rolls, and saving throws. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. Once infected, a creature can't be reinfected by these spores."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Protective Shriek",
+                    "entries": [
+                        "When Samai is hit by an attack, one creature that is {@condition charmed} by her must use its reaction to emit a shriek audible within 300 feet of it. The creature continues to shriek until the end of its next turn."
+                    ]
+                }
+            ],
+            "senseTags": ["B"],
+            "actionTags": ["Multiattack"],
+            "languageTags": ["XX", "TP"],
+            "damageTags": ["B", "I"],
+            "spellcastingTags": ["I"],
+            "miscTags": ["MW", "RCH", "AOE"],
+            "fluff": {
+                "name": "Zuggtmoy",
+                "source": "MTF",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Zuggtmoy",
+                        "entries": [
+                            "The Demon Queen of Fungi, Lady of Rot and Decay, Zuggtmoy is an alien creature whose only desire is to infect the living with spores, transforming them into her mindless servants and, eventually, into decomposing hosts for the mushrooms, molds, and other fungi that she spawns.",
+                            "Utterly inhuman, Zuggtmoy can mold her fungoid form into an approximation of a humanoid shape, including the skeletal-thin figure depicted in grimoires and ancient art, draped and veiled in mycelia and lichen. Indeed, much of her appearance and manner, and that of her servants, is a soulless mockery of mortal life and its many facets.",
+                            "Zuggtmoy's cultists often follow her unwittingly. Most are fungi—infected to some degree, whether through inhaling her mind-controlling spores or being transformed to the point where flesh and fungus become one. Such cultists are fungal extensions of the Demon Queen's will.",
+                            "Their devotion might begin with the seemingly harmless promises offered by exotic spores and mushrooms, but quickly consumes them, body and soul."
+                        ]
+                    }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "internal",
+                            "path": "bestiary/MTF/Zuggtmoy.jpg"
+                        }
+                    }
+                ]
+            },
+            "tokenUrl": "https://5e.tools/img/MTF/Zuggtmoy.png?v=1.96.3",
+            "uniqueId": "8063499a83c2df9b77e582b5c8371320"
+        },
+        {
             "name": "Doodril Manacart",
             "size": "M",
             "type": { "type": "humanoid", "tags": ["any race"] },
@@ -710,6 +843,120 @@
             ],
             "languageTags": ["C", "X"],
             "damageTags": ["B"],
+            "miscTags": ["MW"]
+        },
+        {
+            "name": "Eluin",
+            "source": "zorq",
+            "size": "L",
+            "type": { "type": "humanoid", "tags": ["merrow shaman"] },
+            "alignment": ["C"],
+            "ac": [13],
+            "hp": { "average": 102, "formula": "12d10 + 36" },
+            "speed": { "walk": 30, "swim": 50 },
+            "str": 18,
+            "dex": 10,
+            "con": 16,
+            "int": 8,
+            "wis": 16,
+            "cha": 9,
+            "skill": {
+                "perception": "+4",
+                "religion": "+4",
+                "athletics": "+7",
+                "survival": "+6",
+                "nature": "+2",
+                "stealth": "+3",
+                "animal handling": "+6"
+            },
+            "senses": ["darkvision 60 ft."],
+            "passive": 14,
+            "languages": ["Aquan", "Common"],
+            "cr": "5",
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries": [
+                        "The selshamurinnw is an 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following druid spells prepared:"
+                    ],
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell druidcraft}",
+                                "{@spell poison spray}",
+                                "{@spell shape water|XGE}",
+                                "{@spell thunderclap|XGE}"
+                            ]
+                        },
+                        "1": {
+                            "slots": 4,
+                            "spells": [
+                                "{@spell bane}",
+                                "{@spell entangle}",
+                                "{@spell thunderwave}"
+                            ]
+                        },
+                        "2": {
+                            "slots": 3,
+                            "spells": [
+                                "{@spell blindness/deafness}",
+                                "{@spell hold person}",
+                                "{@spell moonbeam}"
+                            ]
+                        },
+                        "3": {
+                            "slots": 3,
+                            "spells": [
+                                "{@spell call lightning}",
+                                "{@spell tidal wave|XGE}",
+                                "{@spell wall of water|XGE}"
+                            ]
+                        },
+                        "4": {
+                            "slots": 2,
+                            "spells": [
+                                "{@spell control water}",
+                                "{@spell watery sphere|XGE}"
+                            ]
+                        }
+                    },
+                    "ability": "wis"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Hold Breath",
+                    "entries": [
+                        "The selshamurinn can hold its breath for 2 hours."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The selshamurinn makes two attacks: one with its bite and one with its tail."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "traitTags": ["Hold Breath"],
+            "senseTags": ["D"],
+            "actionTags": ["Multiattack"],
+            "languageTags": ["AQ", "C"],
+            "damageTags": ["P", "B"],
+            "spellcastingTags": ["CD"],
             "miscTags": ["MW"]
         },
         {
@@ -1577,6 +1824,134 @@
             },
             "tokenUrl": "https://5e.tools/img/ToA/Albino Dwarf Spirit Warrior.png?v=1.94.4",
             "save": { "str": "+6", "con": "+5" }
+        },
+        {
+            "name": "Quickling",
+            "size": "T",
+            "type": "fey",
+            "source": "zorq",
+            "alignment": ["C", "E"],
+            "ac": [16],
+            "hp": { "average": 13, "formula": "3d4 + 6" },
+            "speed": { "walk": 120 },
+            "str": 4,
+            "dex": 25,
+            "con": 15,
+            "int": 10,
+            "wis": 12,
+            "cha": 7,
+            "skill": {
+                "acrobatics": "+9",
+                "perception": "+5",
+                "sleight of hand": "+9",
+                "stealth": "+9"
+            },
+            "senses": ["darkvision 60 ft."],
+            "passive": 15,
+            "languages": ["Common", "Sylvan"],
+            "cr": "2",
+            "trait": [
+                {
+                    "type": "inset",
+                    "name": "_",
+                    "entries": [
+                        {
+                            "name": "Purpose",
+                            "entries": [
+                                "Tricks of that sort are hardly the limit of their artful malice, however. They don't commit outright murder, but quicklings can ruin lives in plenty of other ways: stealing an important letter, swiping coins collected for the poor, planting a stolen item in someone's bag. Quicklings enjoy causing suffering that transcends mere mis chief, especially when the blame for their actions falls on other creatures and creates discord.",
+                                "Budduck using them alongside owls for mischievous things, including blackmail."
+                            ]
+                        },
+                        { "name": "Background", "entries": [""] },
+                        { "name": "Aliases", "entries": ["Owls"] },
+                        {
+                            "name": "Appearance and Mannerisms",
+                            "entries": [
+                                "self-conscious of: ",
+                                "wants to be (thought of as): ",
+                                "modest about: how fast they are"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Blurred Movement",
+                    "entries": [
+                        "Attack rolls against the quickling have disadvantage unless the quickling is {@condition incapacitated} or {@condition restrained}."
+                    ]
+                },
+                {
+                    "name": "Evasion",
+                    "entries": [
+                        "If the quickling is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": ["The quickling makes three dagger attacks."]
+                },
+                {
+                    "name": "Dagger",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 8} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}12 ({@damage 2d4 + 7}) piercing damage."
+                    ]
+                }
+            ],
+            "page": 187,
+            "environment": ["forest"],
+            "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/402/quickling.mp3",
+            "actionTags": ["Multiattack"],
+            "languageTags": ["C", "S"],
+            "senseTags": ["D"],
+            "damageTags": ["P"],
+            "miscTags": ["RW", "MW", "THW"],
+            "fluff": {
+                "name": "Quickling",
+                "source": "VGM",
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "internal",
+                            "path": "bestiary/VGM/Quickling.jpg"
+                        }
+                    }
+                ],
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            "Quicklings rocket through haunting, twisted forests where the unseelie fey hold sway, both in the Feywild and in the world. Racing faster than the eye can track, each appears as little more than a blurry wavering in the air.",
+                            "A quickling is a small, slender fey, similar to a miniature elf with sharp, feral features. Its cold, cruel eyes gleam like jewels.",
+                            {
+                                "name": "Live Fast, Die Young",
+                                "entries": [
+                                    "Quicklings owe their existence-and their plight-to the Queen of Air and Darkness, the dread ruler of the Gloaming Court. Once a race of lazy and egotistical fey, the creatures that would become the quicklings were late in answering the queen's summons one time too many. To hasten their pace and teach them to mind her will, the queen shrank their stature and sped up their internal clocks. The queen's curse gave quicklings their amazing speed but also accelerated their passage through life-no quickling lives longer than fifteen years.",
+                                    "To other creatures, a quickling seems blindingly fast, vanishing into an indistinct blur as it moves. Its cruel laughter is a burst of rapid staccato sounds, its speech a shrill squeal. Only when a quickling deliberately slows down, which it prefers not to do, can other beings properly see, hear, and comprehend it. Never truly at rest, a \"stationary\" quickling constantly paces and shifts in place, as though it can't wait to be off again."
+                                ],
+                                "type": "entries"
+                            },
+                            {
+                                "name": "Too Fast for Words",
+                                "entries": [
+                                    " The mortal realm is a ponderous place to a quickling's eye: a hurricane creeps gradually across the sky, a torrent of rain drifts earthward like lazy snowflakes, lightning crawls in a meandering path from cloud to cloud. The slow and boring world seems to be populated by torpid creatures whose deep, mooing speech lacks meaning."
+                                ],
+                                "type": "entries"
+                            },
+                            {
+                                "name": "Mischief, Not Murder",
+                                "entries": [
+                                    " Quicklings have a capricious nature that goes well with their energy level: they think as fast as they run, and they are always up to something. A quickling spends most of its time perpetrating acts of mischief on slower creatures. One rarely passes up an opportunity to tie a person's bootlaces together, move the stool a creature is about to sit on, or unbuckle a saddle while no one's looking."
+                                ],
+                                "type": "entries"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "tokenUrl": "https://5e.tools/img/VGM/Quickling.png?v=1.94.13"
         },
         {
             "name": "Carlos",
@@ -4113,6 +4488,112 @@
             "tokenUrl": "https://5e.tools/img/VGM/Warlock of the Archfey.png?v=1.94.2"
         },
         {
+            "name": "Karnish",
+            "size": "L",
+            "type": { "type": "elemental", "tags": ["Spirit Troll"] },
+            "source": "zorq",
+            "alignment": ["C", "E"],
+            "ac": [{ "ac": 17, "from": ["natural armor"] }],
+            "hp": { "average": 97, "formula": "15d10 + 15" },
+            "speed": { "walk": 30 },
+            "str": 1,
+            "dex": 17,
+            "con": 13,
+            "int": 8,
+            "wis": 9,
+            "cha": 16,
+            "skill": { "perception": "+3" },
+            "resist": ["acid", "cold", "fire", "lightning", "thunder"],
+            "immune": [
+                {
+                    "immune": ["bludgeoning", "piercing", "slashing"],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "conditionImmune": [
+                "exhaustion",
+                "grappled",
+                "paralyzed",
+                "petrified",
+                "prone",
+                "restrained",
+                "unconscious"
+            ],
+            "senses": ["darkvision 60 ft."],
+            "passive": 13,
+            "languages": ["Giant"],
+            "cr": "11",
+            "trait": [
+                {
+                    "type": "inset",
+                    "name": "_dossier",
+                    "entries": [
+                        {
+                            "name": "Purpose",
+                            "entries": [
+                                "This is really just a rough placeholder for Karnish"
+                            ]
+                        },
+                        {
+                            "name": "Background",
+                            "entries": [
+                                "The spirit of Castle Karn (and the original spirit of the grey tongue). perhaps she too has some association with the fountain."
+                            ]
+                        },
+                        { "name": "Aliases", "entries": [""] },
+                        {
+                            "name": "Appearance and Mannerisms",
+                            "entries": [
+                                "self-conscious of: ",
+                                "wants to be (thought of as): ",
+                                "modest about:"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Incorporeal Movement",
+                    "entries": [
+                        "The troll can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "The troll regains 10 hit points at the start of each of its turns. If the troll takes psychic or force damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The troll makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}19 ({@damage 3d10 + 3}) psychic damage, and the target must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} for 1 minute. The {@condition stunned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Claws",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}14 ({@damage 2d10 + 3}) psychic damage."
+                    ]
+                }
+            ],
+            "environment": ["coastal", "forest", "swamp", "underdark"],
+            "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/692/spirit-troll.mp3",
+            "traitTags": ["Incorporeal Movement", "Regeneration"],
+            "actionTags": ["Multiattack"],
+            "languageTags": ["GI"],
+            "senseTags": ["D"],
+            "damageTags": ["Y", "O"],
+            "miscTags": ["MW"]
+        },
+        {
             "name": "Limalay",
             "size": "L",
             "type": {
@@ -4325,6 +4806,84 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/GGR/Battleforce Angel.png?v=1.94.4"
+        },
+        {
+            "name": "Lum Gorbelly",
+            "size": "M",
+            "type": {
+                "type": "humanoid",
+                "tags": ["gnoll", "gnoll Fang of Yeenoghu"]
+            },
+            "source": "zorq",
+            "alignment": ["N"],
+            "ac": [{ "ac": 14, "from": ["{@item hide armor|phb}"] }],
+            "hp": { "average": 65, "formula": "10d8 + 20" },
+            "speed": { "walk": 30 },
+            "str": 17,
+            "dex": 15,
+            "con": 15,
+            "int": 10,
+            "wis": 11,
+            "cha": 13,
+            "save": { "con": "+4", "wis": "+2", "cha": "+3" },
+            "senses": ["darkvision 60 ft."],
+            "passive": 10,
+            "languages": ["Abyssal", "Gnoll"],
+            "cr": "4",
+            "trait": [
+                {
+                    "type": "inset",
+                    "entries": [
+                        { "name": "Purpose", "entries": [""] },
+                        { "name": "Background", "entries": [""] },
+                        { "name": "Aliases", "entries": [""] },
+                        {
+                            "name": "Appearance and Mannerisms",
+                            "entries": [
+                                "Heavy coat with white skullcap. Scar across face splits left nostril and left ear missing. Compressed lips, wide-set green eyes. Soft gentle paws.",
+                                "self-conscious of: (balding, soft gentle paws, narrow lips, doglike features)",
+                                "want to or important to be seen as (in touch with nature, a deep thinker and careful consider-er)",
+                                "modest about:",
+                                "quotes ( -- no, i wear the skullcap for religious reasons! -- my lips aren't thin, i'm just deep in thought -- )"
+                            ]
+                        }
+                    ],
+                    "name": "_"
+                },
+                {
+                    "name": "Rampage",
+                    "entries": [
+                        "When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The gnoll makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target must succeed on a {@dc 12} Constitution saving throw or take 7 ({@damage 2d6}) poison damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+                    ]
+                }
+            ],
+            "environment": ["desert", "forest", "grassland", "hill"],
+            "traitTags": ["Rampage"],
+            "actionTags": ["Multiattack"],
+            "languageTags": ["AB", "OTH"],
+            "senseTags": ["D"],
+            "damageTags": ["P", "I", "S"],
+            "miscTags": ["MW"]
         },
         {
             "name": "Lying Cat",
@@ -4740,7 +5299,7 @@
             "source": "zorq",
             "alignment": ["L", "E"],
             "ac": [14],
-            "hp": [{ "average": 85, "formula": "10d10 + 30" }],
+            "hp": { "average": 85, "formula": "10d10 + 30" },
             "speed": { "walk": 30, "climb": 30, "swim": 30 },
             "str": 16,
             "dex": 19,
@@ -5606,13 +6165,26 @@
                     ]
                 },
                 {
+                    "name": "Spotless Sunlit Mind",
+                    "entries": [
+                        "Phoenix has managed to harness the gregariousness of the conversative and playful brass dragon. When Phoenix is at or below 15 hit points, they have advantage on all Charisma saving throws and ability checks."
+                    ]
+                },
+                {
+                    "name": "Ring of Mind Shielding",
+                    "entries": [
+                        "While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.",
+                        "You can use an action to cause the ring to become {@condition invisible} until you use another action to make it visible, until you remove the ring, or until you die.",
+                        "If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication."
+                    ]
+                },
+                {
                     "name": "Dual Mind",
                     "entries": [
                         "The kalashtar has advantage on Wisdom saving throws."
                     ]
                 },
                 {
-                    "type": "entries",
                     "name": "Severed from Dreams",
                     "entries": [
                         "Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to spells and other magical effects that require you to dream, like {@spell dream}, but not to spells and other magical effects that put you to sleep, like {@spell sleep}."
@@ -6097,6 +6669,240 @@
                 ]
             },
             "isNpc": true
+        },
+        {
+            "name": "Selkie",
+            "group": "Lycanthropes",
+            "source": "zorq",
+            "size": "M",
+            "type": { "type": "humanoid", "tags": ["human", "shapechanger"] },
+            "alignment": ["C"],
+            "ac": [
+                { "ac": 11, "condition": "in humanoid form" },
+                {
+                    "ac": 12,
+                    "from": ["natural armor"],
+                    "condition": "in seal or hybrid form"
+                }
+            ],
+            "hp": { "average": 58, "formula": "9d8 + 18" },
+            "speed": {
+                "walk": {
+                    "number": 30,
+                    "condition": " (0 ft., swim 40 ft. in seal form)"
+                }
+            },
+            "str": 18,
+            "dex": 13,
+            "con": 14,
+            "int": 10,
+            "wis": 11,
+            "cha": 10,
+            "skill": { "perception": "+4" },
+            "immune": [
+                {
+                    "immune": ["bludgeoning", "piercing", "slashing"],
+                    "note": "from nonmagical attacks that aren't silvered"
+                }
+            ],
+            "senses": ["blindsight 30 ft."],
+            "passive": 14,
+            "languages": ["Common (can't speak in seal form)"],
+            "cr": "3",
+            "trait": [
+                {
+                    "name": "Shapechanger",
+                    "entries": [
+                        "The wereseal can use its action to polymorph into a seal-humanoid hybrid or into a {@creature giant seal|CC 3pp}, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                    ]
+                },
+                {
+                    "name": "Hold Breath",
+                    "entries": ["The selkie can hold its breath for 2 hours."]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack (Humanoid or Hybrid Form Only)",
+                    "entries": [
+                        "The wereseal makes two attacks: one with its bite and one with its spear."
+                    ]
+                },
+                {
+                    "name": "Bite (seal or Hybrid Form Only)",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with wereseal lycanthropy."
+                    ]
+                },
+                {
+                    "name": "Spear (Humanoid or Hybrid Form Only)",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 4} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, or 8 ({@damage 1d8 + 4}) piercing damage if used with two hands to make a melee attack."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Nonhuman Lycanthropes",
+                    "entries": [
+                        "The statistics presented in this section assume a base creature of human. However, you can also use the statistics to represent nonhuman lycanthropes, adding verisimilitude by allowing a nonhuman lycanthrope to retain one or more of its humanoid racial traits. For example, an elf werewolf might have the Fey Ancestry trait."
+                    ]
+                }
+            ],
+            "page": 237,
+            "traitTags": ["Shapechanger", "Amphibious", "Water Breathing"],
+            "languageTags": ["C", "CS"],
+            "senseTags": ["B"],
+            "damageTags": ["P"],
+            "miscTags": ["MW", "RW", "THW", "RCH"],
+            "fluff": {
+                "entries": [
+                    "Wereseals are ruthless in the pursuit of prey. In their humanoid form they are aggressive loners, making their homes in sea caves and deserted fishing hamlets. In seal form they act as any seal would, always on the lookout for an easy meal. Like a werewolf, a wereseal can wield weapons in its hybrid form, but prefers to tear foes apart with its gaping, many-toothed maw.",
+                    {
+                        "type": "inset",
+                        "name": "Player Characters as Lycanthropes",
+                        "entries": [
+                            "A character who becomes a lycanthrope retains his or her statistics except as specified by lycanthrope type. The character gains the lycanthrope's speeds in nonhumanoid form, damage immunities, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics. The character can't speak while in animal form.",
+                            "A humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw (DC 8 + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
+                            {
+                                "type": "entries",
+                                "name": "Wereseal",
+                                "entries": [
+                                    "The character gains a Strength of 18 if his or her score isn't already higher, and a +1 bonus to AC while in seal or hybrid form (from natural armour). Attack and damage rolls for the bite are based on Strength. The wereseal also gains the Amphibious and Water Breathing traits."
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/ujPNwoN.png"
+                        }
+                    }
+                ]
+            },
+            "tokenUrl": "https://5e.tools/img/CftD/Wereseal.png?v=1.95.0"
+        },
+        {
+            "name": "Selshamurinn",
+            "source": "zorq",
+            "size": "L",
+            "type": {
+                "type": "humanoid",
+                "tags": ["merrow shaman", "human", "shapechanger"]
+            },
+            "alignment": ["C"],
+            "ac": [13],
+            "hp": { "average": 102, "formula": "12d10 + 36" },
+            "speed": { "walk": 30, "swim": 50 },
+            "str": 18,
+            "dex": 10,
+            "con": 16,
+            "int": 8,
+            "wis": 16,
+            "cha": 9,
+            "skill": {
+                "perception": "+4",
+                "religion": "+4",
+                "athletics": "+7",
+                "survival": "+6",
+                "nature": "+2",
+                "stealth": "+3",
+                "animal handling": "+6"
+            },
+            "senses": ["darkvision 60 ft."],
+            "passive": 14,
+            "languages": ["Aquan", "Common"],
+            "cr": "5",
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries": [
+                        "The selshamurinnw is an 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following druid spells prepared:"
+                    ],
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell druidcraft}",
+                                "{@spell poison spray}",
+                                "{@spell shape water|XGE}",
+                                "{@spell thunderclap|XGE}"
+                            ]
+                        },
+                        "1": {
+                            "slots": 4,
+                            "spells": [
+                                "{@spell bane}",
+                                "{@spell entangle}",
+                                "{@spell thunderwave}"
+                            ]
+                        },
+                        "2": {
+                            "slots": 3,
+                            "spells": [
+                                "{@spell blindness/deafness}",
+                                "{@spell hold person}",
+                                "{@spell moonbeam}"
+                            ]
+                        },
+                        "3": {
+                            "slots": 3,
+                            "spells": [
+                                "{@spell call lightning}",
+                                "{@spell tidal wave|XGE}",
+                                "{@spell wall of water|XGE}"
+                            ]
+                        },
+                        "4": {
+                            "slots": 2,
+                            "spells": [
+                                "{@spell control water}",
+                                "{@spell watery sphere|XGE}"
+                            ]
+                        }
+                    },
+                    "ability": "wis"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Hold Breath",
+                    "entries": [
+                        "The selshamurinn can hold its breath for 2 hours."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The selshamurinn makes two attacks: one with its bite and one with its tail."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "traitTags": ["Hold Breath"],
+            "senseTags": ["D"],
+            "actionTags": ["Multiattack"],
+            "languageTags": ["AQ", "C"],
+            "damageTags": ["P", "B"],
+            "spellcastingTags": ["CD"],
+            "miscTags": ["MW"]
         },
         {
             "source": "zorq",
@@ -7129,7 +7935,8 @@
                 {
                     "name": "Horned Vine",
                     "entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h} 6 ({@damage 1d6 + 2}) slashing plus 9 ({@damage 2d6 + 2}) necrotic damage."
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h} 6 ({@damage 1d6 + 2}) slashing plus 9 ({@damage 2d6 + 2}) necrotic damage.",
+                        "TODO: consider applying the cave fisher's grapple/attackable arms mechanism to this"
                     ]
                 }
             ],
@@ -8598,7 +9405,7 @@
                 "The following table can be used as inspiration when an NPC is needed."
             ],
             "caption": "Marshbout NPCs",
-            "colLabels": ["1d232", "Name", "Description"],
+            "colLabels": ["1d233", "Name", "Description"],
             "colStyles": ["col-1 text-center", "col-3", "col-8"],
             "rows": [
                 [
@@ -8620,277 +9427,274 @@
                     }
                 ],
                 ["6", "{@creature Turkey Badger|zorq}", "n/a"],
-                ["33", "A. C. Tockletone", ""],
-                ["34", "Aargab", "gnoll"],
-                ["35", "Aaspar", "female ?? names"],
-                ["36", "Agnes", "hag first name"],
-                ["37", "Aguus", "female ?? names"],
-                ["38", "Alark", "gnoll"],
-                ["39", "Almar", ""],
-                ["40", "Andak", "gnoll"],
-                ["41", "Arix", "lizard"],
-                ["42", "Arthur (Art) Tapples", "regular name"],
-                ["43", "Ashana", "quori"],
-                ["44", "Ashtai", "quori"],
-                ["45", "Aurangual", "mind flayer"],
-                ["46", "Beluar", "druid"],
-                ["102", "Benjaplom", ""],
-                ["47", "beoff", ""],
-                ["48", "Black", "hag title"],
+                ["36", "A. C. Tockletone", ""],
+                ["37", "Aargab", "gnoll"],
+                ["38", "Aaspar", "female ?? names"],
+                ["39", "Agnes", "hag first name"],
+                ["40", "Aguus", "female ?? names"],
+                ["41", "Alark", "gnoll"],
+                ["42", "Almar", ""],
+                ["43", "Andak", "gnoll"],
+                ["44", "Arix", "lizard"],
+                ["45", "Arthur (Art) Tapples", "regular name"],
+                ["46", "Ashana", "quori"],
+                ["47", "Ashtai", "quori"],
+                ["48", "Aurangual", "mind flayer"],
+                ["49", "Beluar", "druid"],
+                ["104", "Benjaplom", ""],
+                ["50", "beoff", ""],
+                ["51", "Black", "hag title"],
                 ["5", "Bog Frillan", "n/a"],
-                ["232", "Boolook", "Very good at falling asleep quickly"],
-                ["49", "Cackling", "hag title"],
-                ["50", "Cephalossk", "mind flayer"],
-                ["51", "CHAGBURT/Cadgebort", ""],
-                ["52", "Chatterton", ""],
-                ["53", "Cheek chunktar", ""],
-                ["54", "Corym", "druid"],
-                ["30", "Cotinaminous", "co-tinaminous (arm, arm)"],
-                ["55", "Daealla", "druid"],
-                ["56", "Dalavash", "kalashtar"],
+                ["233", "Boolook", "Very good at falling asleep quickly"],
+                ["23", "Brent McCorkle", "fancy boy; ridiculous"],
+                ["28", "Bruss Tarsia", ""],
+                ["52", "Cackling", "hag title"],
+                ["53", "Cephalossk", "mind flayer"],
+                ["54", "CHAGBURT/Cadgebort", ""],
+                ["55", "Chatterton", ""],
+                ["56", "Cheek chunktar", ""],
+                ["57", "Corym", "druid"],
+                ["33", "Cotinaminous", "co-tinaminous (arm, arm)"],
+                ["58", "Daealla", "druid"],
+                ["59", "Dalavash", "kalashtar"],
                 [
                     "2",
                     "Dame {@creature Clippington Titchwillow|zorq}",
                     "Landed lady."
                 ],
-                ["57", "Dastina", ""],
-                ["58", "Denaal", "female ?? names"],
-                ["59", "Dismal", "hag title"],
-                ["60", "Dolishara", "kalashtar"],
-                ["61", "Doodril Manacart", ""],
-                ["62", "Dove", ""],
-                ["63", "Dowson", ""],
-                ["64", "Draraar", "female ?? names"],
-                ["65", "Dread", "hag title"],
-                ["66", "Driftwood", ""],
-                ["67", "Drukt", "mind flayer"],
-                ["68", "Drusiss", "mind flayer"],
-                ["69", "Duusha", "female ?? names"],
-                ["70", "Ekhaas", "female ?? names"],
-                ["71", "Eltaeor", "druid"],
-                ["72", "Eluun", "female ?? names"],
-                ["25", "Empo", ""],
-                ["73", "Escant", "title"],
-                ["74", "Ethak", "gnoll"],
-                ["75", "Ett", "kobold"],
-                ["76", "Euonymus nick: \"last trace\"", ""],
-                ["77", "Extander Vleshmiy", ""],
-                ["78", "Eyeth", "gnoll"],
-                ["79", "Fawney Rig", ""],
-                ["80", "Fedlan", ""],
-                ["81", "Flamuelle", ""],
+                ["60", "Dastina", ""],
+                ["61", "Denaal", "female ?? names"],
+                ["62", "Dismal", "hag title"],
+                ["63", "Dolishara", "kalashtar"],
+                ["64", "Doodril Manacart", ""],
+                ["65", "Dove", ""],
+                ["66", "Dowson", ""],
+                ["67", "Draraar", "female ?? names"],
+                ["68", "Dread", "hag title"],
+                ["69", "Driftwood", ""],
+                ["70", "Drukt", "mind flayer"],
+                ["71", "Drusiss", "mind flayer"],
+                ["72", "Duusha", "female ?? names"],
+                ["73", "Ekhaas", "female ?? names"],
+                ["74", "Eltaeor", "druid"],
+                ["75", "Eluun", "female ?? names"],
+                ["26", "Empo", ""],
+                ["76", "Escant", "title"],
+                ["77", "Ethak", "gnoll"],
+                ["78", "Ett", "kobold"],
+                ["79", "Euonymus nick: \"last trace\"", ""],
+                ["80", "Extander Vleshmiy", ""],
+                ["81", "Eyeth", "gnoll"],
+                ["82", "Fawney Rig", ""],
+                ["83", "Fedlan", ""],
+                ["84", "Flamuelle", ""],
                 ["12", "Flange Exgrigio", "n/a"],
                 [
                     "10",
                     "Flinty Hirsutulous",
                     "A slightly hairy, obdurate, unmerciful person."
                 ],
-                ["82", "Gaduul", "female ?? names"],
-                ["83", "garfod  the magcharfalent", ""],
-                ["84", "georbe", ""],
-                ["85", "Gerator", "title"],
-                ["86", "giblinoid", ""],
-                ["231", "Gind", "??"],
-                ["87", "Girdle", ""],
-                ["88", "Gnokles", ""],
-                ["89", "Gnokles (NOH-cuhls)", ""],
-                ["90", "Goosewood", ""],
+                ["85", "Gaduul", "female ?? names"],
+                ["86", "garfod  the magcharfalent", ""],
+                ["87", "georbe", ""],
+                ["88", "Gerator", "title"],
+                ["89", "giblinoid", ""],
+                ["232", "Gind", "??"],
+                ["90", "Girdle", ""],
+                ["91", "Gnokles (NOH-cuhls)", ""],
+                ["92", "Goosewood", ""],
                 ["14", "Gorty Taygore", "n/a"],
-                ["91", "Granny", "hag title"],
-                ["92", "Grash", "orc?"],
-                ["93", "Greenteeth", "hag last name"],
-                ["103", "Gregonius", ""],
-                ["94", "Ha", "kalashtar"],
-                ["95", "Hareth", "quori"],
-                ["96", "Harlequino", ""],
-                ["97", "harney", ""],
-                ["98", "Hashak", "female ?? names"],
-                ["99", "Hebwith", ""],
-                ["100", "Hieronymo", ""],
-                ["101", "Hostrena Butterknife", ""],
+                ["93", "Granny", "hag title"],
+                ["94", "Grash", "orc?"],
+                ["95", "Greenteeth", "hag last name"],
+                ["105", "Gregonius", ""],
+                ["96", "Ha", "kalashtar"],
+                ["97", "Hareth", "quori"],
+                ["98", "Harlequino", ""],
+                ["99", "harney", ""],
+                ["100", "Hashak", "female ?? names"],
+                ["101", "Hebwith", ""],
+                ["102", "Hieronymo", ""],
+                ["103", "Hostrena Butterknife", ""],
                 [
-                    "104",
+                    "106",
                     "https://en.wiktionary.org/wiki/Category:Old_High_German_given_names",
                     ""
                 ],
-                ["105", "Hygglla ongott", ""],
-                ["106", "Ignar", "gnoll"],
+                ["107", "Hygglla ongott", ""],
+                ["108", "Ignar", "gnoll"],
                 ["4", "Igno Red McGerf", "A stupid or oblivious dragon."],
-                ["107", "Innar", ""],
-                ["108", "Irtos", "kobold"],
-                ["109", "Isfand", ""],
-                ["110", "Ishara", "quori"],
+                ["109", "Innar", ""],
+                ["110", "Irtos", "kobold"],
+                ["111", "Isfand", ""],
+                ["112", "Ishara", "quori"],
                 [
-                    "111",
+                    "113",
                     "Janza / Ganza / Gazaca (\"Our treasure\")",
                     "Gnoll towns"
                 ],
-                ["112", "Jesse Luckett", ""],
-                ["113", "Jheluum", "female ?? names"],
-                ["31", "Jumps", "A jumpy little {@creature dogmole|zorq}"],
+                ["114", "Jesse Luckett", ""],
+                ["115", "Jheluum", "female ?? names"],
+                ["34", "Jumps", "A jumpy little {@creature dogmole|zorq}"],
+                ["116", "Kashak", "kobold"],
+                ["117", "Kashak", "lizard"],
+                ["118", "Kelaal", "female ?? names"],
+                ["119", "Khad", "quori"],
+                ["120", "Khoratari", ""],
+                ["121", "Knottypate", ""],
+                ["122", "Knucklebones", "hag last name"],
+                ["123", "Kosh", "quori"],
+                ["124", "lakosh", ""],
+                ["125", "Lanhareth", ""],
+                ["126", "leer", "unit of measure"],
+                ["127", "Leylan", ""],
+                ["128", "Locustay", ""],
+                ["129", "Lugribossk", "mind flayer"],
+                ["130", "Lummur", ""],
+                ["131", "Lunchasaurus", ""],
+                ["132", "Madge Parsons", ""],
+                ["133", "MAGGIE FLOOD", ""],
                 [
-                    "22",
-                    "Karnish",
-                    "The spirit of Castle Karn (and the original spirit of the grey tongue). perhaps she too has some association with the fountain."
-                ],
-                ["114", "Kashak", "kobold"],
-                ["115", "Kashak", "lizard"],
-                ["116", "Kelaal", "female ?? names"],
-                ["117", "Khad", "quori"],
-                ["118", "Khoratari", ""],
-                ["119", "Knottypate", ""],
-                ["120", "Knucklebones", "hag last name"],
-                ["121", "Kosh", "quori"],
-                ["122", "lakosh", ""],
-                ["123", "Lanhareth", ""],
-                ["124", "leer", "unit of measure"],
-                ["125", "Leylan", ""],
-                ["126", "Locustay", ""],
-                ["127", "Lugribossk", "mind flayer"],
-                ["128", "Lummur", ""],
-                ["129", "Lunchasaurus", ""],
-                ["130", "Madge Parsons", ""],
-                ["131", "MAGGIE FLOOD", ""],
-                [
-                    "132",
+                    "134",
                     "Male Names: Aruget, Chetiin, Daavn, Dabrak, Dagii, Drevduul, Duulan, Fenic, Gudruun, Haluun, Haruuc, Jhazaal, Kallaad, Krakuul, Krootad, Mazaan",
                     ""
                 ],
-                ["133", "MARY COBBLESTONE", ""],
-                ["134", "Mathilda", "hag first name"],
-                ["135", "May", "hag first name"],
+                ["135", "MARY COBBLESTONE", ""],
+                ["136", "Mathilda", "hag first name"],
+                ["137", "May", "hag first name"],
                 ["9", "Meech", "n/a"],
-                ["136", "Meepo", "kobold"],
-                ["137", "Melk", "quori"],
-                ["138", "Mensil(r/n)oy", ""],
-                ["139", "Middenheap", "hag last name"],
+                ["138", "Meepo", "kobold"],
+                ["139", "Melk", "quori"],
+                ["140", "Mensil(r/n)oy", ""],
+                ["141", "Middenheap", "hag last name"],
                 ["13", "Moker Cornrack", "n/a"],
-                ["140", "Molavakri ", ""],
-                ["141", "Molo", "kobold"],
-                ["142", "Morgan", "hag first name"],
-                ["32", "Mr. Stabworthy", ""],
-                ["143", "Mudwallow", "hag last name"],
+                ["142", "Molavakri ", ""],
+                ["143", "Molo", "kobold"],
+                ["144", "Morgan", "hag first name"],
+                ["35", "Mr. Stabworthy", ""],
+                ["145", "Mudwallow", "hag last name"],
                 ["8", "Munlin Serplepan", "n/a"],
                 [
                     "1",
                     "Nancy O'Pug",
                     "Human that Miri was shacking up with at Throttlebottom when the Two Horn Band kidnapped Sokka and Zedaar."
                 ],
-                ["144", "Nari", "quori"],
-                ["145", "Nash", ""],
-                ["146", "Nasree", "female ?? names"],
-                ["147", "Natalie", ""],
-                ["148", "Nevitash ", ""],
-                ["149", "Nisi Siurp (SEE-urp)", ""],
-                ["29", "Nub", "?"],
-                ["150", "Nunce", ""],
-                ["151", "Odell", ""],
-                ["152", "Oduk", "gnoll"],
-                ["153", "Ohsoss", "kobold"],
-                ["154", "Old", "hag title"],
-                ["155", "Olga", "hag first name"],
-                ["156", "Onfalon", "title"],
-                ["157", "ORP FREEN", ""],
-                ["158", "Otal", "gnoll"],
-                ["159", "Panzon", ""],
+                ["146", "Nari", "quori"],
+                ["147", "Nash", ""],
+                ["148", "Nasree", "female ?? names"],
+                ["149", "Natalie", ""],
+                ["150", "Nevitash ", ""],
+                ["151", "Nisi Siurp (SEE-urp)", ""],
+                ["32", "Nub", "?"],
+                ["152", "Nunce", ""],
+                ["153", "Odell", ""],
+                ["154", "Oduk", "gnoll"],
+                ["155", "Ohsoss", "kobold"],
+                ["156", "Old", "hag title"],
+                ["157", "Olga", "hag first name"],
+                ["158", "Onfalon", "title"],
+                ["159", "ORP FREEN", ""],
+                ["160", "Otal", "gnoll"],
+                ["161", "Panzon", ""],
                 [
-                    "28",
+                    "31",
                     "Pell, Mell, Nell",
                     "Three of the kobolds in the {@faction Two Horns|zorq} faction headquartered in the Marshbout marine district."
                 ],
-                ["160", "PHERMASTAPHY", "title; location"],
-                ["161", "Phineas Fletcher", ""],
-                ["162", "phoenix underscramble", ""],
-                ["163", "Pigtooth", "hag last name"],
-                ["164", "Polly", "hag first name"],
-                ["165", "Pollyon (pahl-ee-ohn", ""],
-                ["166", "Queue Orius", ""],
-                ["167", "Quoor", "mind flayer"],
-                ["168", "Ragdar", ""],
-                ["27", "Raggadochy", "rag uh DOH chee"],
-                ["169", "Rakari", ""],
-                ["170", "Ralayan", "mind flayer"],
-                ["171", "Raleen", "female ?? names"],
-                ["172", "Raznah", ""],
-                ["173", "Razu", "female ?? names"],
-                ["174", "Rekseen", "female ?? names"],
-                ["175", "Reksiit", ""],
-                ["26", "Resko", ""],
-                ["176", "Rickety", "hag title"],
-                ["177", "ROJEK", ""],
-                ["178", "Rolphe Nustle", ""],
-                ["179", "Rotom", "kobold"],
-                ["180", "S’venchen", "mind flayer"],
-                ["181", "Sagin", "kobold"],
-                ["182", "Sally", "hag first name"],
-                ["183", "Sardsult", "mind flayer"],
-                ["184", "Scudge Horpoth", ""],
-                ["185", "Senen", "female ?? names"],
-                ["186", "Shahar", ""],
-                ["187", "Shedroor", "female ?? names"],
-                ["188", "Sik", "kobold"],
+                ["30", "Petronella", "?"],
+                ["162", "PHERMASTAPHY", "title; location"],
+                ["163", "Phineas Fletcher", ""],
+                ["165", "Pigtooth", "hag last name"],
+                ["166", "Polly", "hag first name"],
+                ["167", "Pollyon (pahl-ee-ohn", ""],
+                ["168", "Queue Orius", ""],
+                ["169", "Quoor", "mind flayer"],
+                ["170", "Ragdar", ""],
+                ["29", "Raggadochy", "rag uh DOH chee"],
+                ["171", "Rakari", ""],
+                ["172", "Ralayan", "mind flayer"],
+                ["173", "Raleen", "female ?? names"],
+                ["174", "Raznah", ""],
+                ["175", "Razu", "female ?? names"],
+                ["176", "Rekseen", "female ?? names"],
+                ["177", "Reksiit", ""],
+                ["27", "Resko", ""],
+                ["22", "Richard Ruffian", "Dick Ruffan"],
+                ["178", "Rickety", "hag title"],
+                ["179", "ROJEK", ""],
+                ["180", "Rolphe Nustle", ""],
+                ["181", "Rotom", "kobold"],
+                ["182", "S’venchen", "mind flayer"],
+                ["183", "Sagin", "kobold"],
+                ["184", "Sally", "hag first name"],
+                ["185", "Sardsult", "mind flayer"],
+                ["186", "Scudge Horpoth", ""],
+                ["187", "Senen", "female ?? names"],
+                ["188", "Shahar", ""],
+                ["189", "Shedroor", "female ?? names"],
+                ["190", "Sik", "kobold"],
                 [
                     "11",
                     "Sir Voke Fit",
                     "surfeit : voke as in vocare, to call or voice"
                 ],
-                ["189", "Slab Denchmeat", ""],
-                ["190", "Sleggy", ""],
-                ["191", "Sniv", "kobold"],
+                ["191", "Slab Denchmeat", ""],
+                ["192", "Sleggy", ""],
+                ["193", "Sniv", "kobold"],
                 ["17", "Sorashana", "Commoner"],
-                ["192", "Spiner", "street"],
-                ["193", "Tajiin", "female ?? names"],
-                ["194", "Taklak", "lizard, kobold"],
-                ["196", "tana", ""],
+                ["194", "Spiner", "street"],
+                ["195", "Tajiin", "female ?? names"],
+                ["196", "Taklak", "lizard, kobold"],
+                ["198", "tana", ""],
                 ["20", "Tana", "Commoner"],
-                ["195", "Tana", "quori"],
-                ["197", "Tari", "quori"],
-                ["198", "Tariic", ""],
-                ["199", "Taruuzh", ""],
-                ["200", "Tash", "quori"],
-                ["201", "Tes", "kobold"],
-                ["202", "Tharcereli", "mind flayer"],
-                ["203", "the Imponderable", "epithet"],
-                ["204", "Thuun (\"Thun\")", ""],
+                ["197", "Tana", "quori"],
+                ["199", "Tari", "quori"],
+                ["200", "Tariic", ""],
+                ["201", "Taruuzh", ""],
+                ["202", "Tash", "quori"],
+                ["203", "Tes", "kobold"],
+                ["204", "Tharcereli", "mind flayer"],
+                ["205", "the Imponderable", "epithet"],
+                ["206", "Thuun (\"Thun\")", ""],
                 [
-                    "24",
+                    "25",
                     "Tontine",
                     " \"TAHN-teen: some last-alive-gets-all schemer"
                 ],
-                ["205", "Tooshie", ""],
-                ["206", "Toprick", "dwarf surname"],
-                ["207", "Torashtai", ""],
-                ["208", "Trabis", ""],
-                ["209", "TumTum", ""],
-                ["210", "Tuneer", "female ?? names"],
-                ["211", "Turtleback", "hag title"],
-                ["212", "Twigmouth", "hag last name"],
-                ["213", "Uddubera Orepin", ""],
-                ["214", "Ulad", "quori"],
+                ["207", "Tooshie", ""],
+                ["208", "Toprick", "dwarf surname"],
+                ["209", "Torashtai", ""],
+                ["210", "Trabis", ""],
+                ["211", "TumTum", ""],
+                ["212", "Tuneer", "female ?? names"],
+                ["213", "Turtleback", "hag title"],
+                ["214", "Twigmouth", "hag last name"],
+                ["215", "Uddubera Orepin", ""],
+                ["216", "Ulad", "quori"],
                 [
                     "21",
                     "Ulgor",
                     "\"UHL gor, some kind of lightning-associated thing (dragonish?)"
                 ],
-                ["215", "Ulthak", "gnoll"],
-                ["23", "Umpo and Onglo", "Maybe more of the earthlords ?"],
-                ["216", "Ursula", "hag first name"],
-                ["217", "Ustar", "gnoll"],
-                ["218", "Vakri", "quori"],
-                ["219", "Valakhad ", ""],
-                ["220", "Valii", "female ?? names"],
-                ["221", "Vanii", ""],
-                ["222", "Vanon ", ""],
-                ["223", "Varn", "kobold"],
-                ["224", "VENDALI(UM/OM) ", "title"],
-                ["225", "Virgat(e)", "title"],
+                ["24", "Umpo and Onglo", "Maybe more of the earthlords ?"],
+                ["164", "underscramble", ""],
+                ["217", "Ursula", "hag first name"],
+                ["218", "Ustar", "gnoll"],
+                ["219", "Vakri", "quori"],
+                ["220", "Valakhad ", ""],
+                ["221", "Valii", "female ?? names"],
+                ["222", "Vanii", ""],
+                ["223", "Vanon ", ""],
+                ["224", "Varn", "kobold"],
+                ["225", "VENDALI(UM/OM) ", "title"],
+                ["226", "Virgat(e)", "title"],
                 ["18", "Vishara", "Commoner"],
-                ["226", "Wehmseiper", "group?"],
-                ["227", "Wicked", "hag title"],
-                ["228", "Wormwiggle", "hag last name"],
-                ["229", "Wuudaraj", ""],
+                ["227", "Wehmseiper", "group?"],
+                ["228", "Wicked", "hag title"],
+                ["229", "Wormwiggle", "hag last name"],
+                ["230", "Wuudaraj", ""],
                 ["19", "Yvonna", "Commoner"],
-                ["230", "Zellix", "mind flayer"]
+                ["231", "Zellix", "mind flayer"]
             ]
         }
     ],

@@ -7,8 +7,9 @@ module.exports = {
     category: 'The Mordinsamman',
     symbol: 'Hammer',
     source: 'zorq',
-    page: null,
+
     entries: [
         'A Vala and one of the Aratar, also known as the the Smith and Smith of the Valar, concerned with rock, metal, nature of substances and works of craft.',
+        'A smooth-talking relaxed old wrestling coach',
     ],
 };

@@ -1,0 +1,3664 @@
+{
+  "work": [
+    {
+      "title": "Revelations of Nundocamar",
+      "contents": "",
+      "description": "Three folios that have been bound into one volume.",
+      "contributor": "",
+      "id": 1
+    },
+    {
+      "title": " Transcription of the Xanthu tablets",
+      "contents": "describing the ways in which the followers of BS would prostrate themselves, the language the cultists would use, how they would worship, some of the rituals they would use to invoke BS. ",
+      "description": "Covered in black leather; printed on a printing press. at least 200 years ago. ",
+      "contributor": "",
+      "id": 2
+    },
+    {
+      "title": "The present state of the islands in Snaff Bay",
+      "contents": "touches on how the myths regarding islands created when top of grey tongue severed; but how before that, the depression made by one of the forms of boggshush and how it was kicked out by the gods working together. but it's always retained that imprint.",
+      "description": "",
+      "contributor": "",
+      "id": 3
+    },
+    {
+      "title": "[Nicklefurrow ms]",
+      "contents": "I returned to northeast Nicklefurrow where the thief, Bergna, by all accounts a greatly disfigured creature, stooped and scarred, was last seen. Prostrating myself in ritual abnegation, I dove into the seething whirlwind of jukas, the roiling signs left by the unsatisfied spirits who had passed by. A jagged promontory stabbed upwards out of the otherwise placid web; unmistakably, this was the chasm which that splinter of Sirmgalv carved through the tapestry of ghostly mundanity. Its frantic outline led unerringly south, seeking the great leuqline which unites the islands and makes landfall in Nicklefurrow. Near the north-west elbow of the leuqline the spear's fulgurous spoor sunk precipitously into the ground and out of sight. Confident I could mirror its path, I released myself from the ritual's grasp, but the sere afterimage of that ungodly weapon marched across my vision, and I took slow and uncertain steps south.",
+      "description": "the watermark from Eaton",
+      "contributor": "",
+      "id": 4
+    }
+  ],
+  "continuity": [
+    {
+      "pc_name": "32432",
+      "roll_calc": "23423",
+      "roll_nat": 1,
+      "notes": "asfasdfs",
+      "id": 2
+    },
+    {
+      "pc_name": "asdf",
+      "roll_calc": "2",
+      "roll_nat": null,
+      "notes": "sdf",
+      "id": 3
+    }
+  ],
+  "bible": [
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "??",
+      "3x5": "",
+      "short description": "tentacle-plant-dogs.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "(familiar) gazer",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "(messengers) Quicklings, nilbogs?",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "(reskin) burrowling (KP-tob)",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "11/16/2019",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "(told by Thuridan)",
+      "3x5": "",
+      "short description": "if you go north, there are druids who live in the forest (north Thubudder). because they are attuned to the woods, they and I have had dealings together; if you tell them about these creatures and tell you that I sent you, they may be more incllned to help than they otherwise would, since they have non-mortal business going on.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "[...]",
+      "3x5": "",
+      "short description": "forget the last thing / words that you said or not wounded -- but at some cost or complication \n\nthere is already a spell like this ... i can't remember what supplement it's in",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "[...]",
+      "3x5": "",
+      "short description": "turn action to RACTION (ritual?\nchange point of origin of spellcasting effect AOE (bag of those-shaped dice)\nmug of compelled toasting (charisma check)\nbody-eating grub (compare to “gentle repose”)\nforget very last thing you said \n\ncategories\nroleplaying aid\nmechanical / environmental aids\ncombat aids\nspell aids\nexploration aid\nsocial interaction aid",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "[fishing hook]",
+      "3x5": "",
+      "short description": "http://www.irishcarver.com/history-of-the-hook.html",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "Monastery",
+      "name": "[GREY TONGUE] MONASTERY",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "*umpin",
+      "name": "*UMPIN",
+      "3x5": "",
+      "short description": "notes",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "a single cranium rat ... ? one of their skills",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "AELRINDEL",
+      "3x5": "",
+      "short description": "Elvin city to the east of Cressida.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "AGATHA Q. BINDERBOARD ARCHIVES",
+      "3x5": "",
+      "short description": "Marshbout. Oriax.",
+      "found @": "Marshbout"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Alark (gnoll)",
+      "3x5": "",
+      "short description": "one of the mediums\nclaims she’s spoken through by a voice\nsometimes it is a voice\n\nmore connections to EARTH (for deep gnomes): \ncf. Ogremoch , the Prince of Elemental Evil",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "alehouse drake",
+      "3x5": "",
+      "short description": "[cr 1/2] (kp tob 148)",
+      "found @": "taverns"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc deity",
+      "alpha": "",
+      "name": "Alîsafala",
+      "3x5": "",
+      "short description": "God of the Sap Glom",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "AMBER GHOST PITS",
+      "3x5": "",
+      "short description": "Hundreds of open, jagged craters in the sandstone earth; jutting from each one crystallized amber hinting at smoky, still bestial shapes inside and reaching out; misty, luscious willow trees casting their bushy branches at the ground and hiding globular purple catkins swaying inside;",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc deity",
+      "alpha": "",
+      "name": "ARARIEL",
+      "3x5": "",
+      "short description": "(she, her, hers) Arariel is an angel who, according to the rabbis of the Talmud, takes charge of the waters of the earth. Fishermen invoke her so that they may take large fish. Arariel has also traditionally been invoked as a cure for stupidity.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "ARARIEL'S POND",
+      "3x5": "",
+      "short description": "Large pond with spouts of sparkling water arching over it and submerging again like a gyroscope; gives off a massive amount of light; lazy fish people sunning themselves on the shore behind umbrella-like structures made of this ... wood; three flat stone altars in triangle vertices around the gyroscope.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "ARCHAEOLOGY SITE",
+      "3x5": "",
+      "short description": "Pup tent ('shelter half'); open fire outside; meet drying and cooking (what meat?);",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "11/17/2019",
+      "type": "npc",
+      "alpha": "Lubbock, Arlan",
+      "name": "Arlan (Arlanbarth) Lubbock",
+      "3x5": "",
+      "short description": "archaeologist.\n\nhas Elder Cartographer's Glossography\nWhen you attain rank 4, you gain a small tome that is an uncommon magic item. The elder cartographer's glossography grants advantage on Intelligence or Wisdom checks related to geographical features or locations.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc deity",
+      "alpha": "",
+      "name": "Aulë",
+      "3x5": "",
+      "short description": "Carlos's cleric deity. \na Vala and one of the Aratar, also known as the the Smith and Smith of the Valar, concerned with rock, metal, nature of substances and works of craft.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Auntie",
+      "3x5": "",
+      "short description": "7-year old human (looking) ; bartender ; will take 14 and say 13.5 but yes.",
+      "found @": "Riskless Tavern"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "feature",
+      "alpha": "",
+      "name": "Aversion to Fire.",
+      "3x5": "",
+      "short description": "If the creature takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "Baba Jezda; T'nichya; night hunters; NEKHEBET (aka Nekhbetyemneferes)",
+      "3x5": "",
+      "short description": "https://docs.google.com/document/d/14n0lIQao5hwA-HcQtu9gNJ68vTTeenyu1lQj8L9mE3w/edit?usp=sharing",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "BALUCH WATCHTOWER (north):",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "11/17/2019",
+      "teg": "11/17/2019",
+      "type": "npc",
+      "alpha": "",
+      "name": "BARAZAR SOD",
+      "3x5": "",
+      "short description": "Silent partner behind Dimpleweed’s Martial Academy",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "BARON VON VEEN aka UEGIT",
+      "3x5": "",
+      "short description": "notes",
+      "found @": ""
+    },
+    {
+      "home": "11/17/2019",
+      "teg": "11/17/2019",
+      "type": "npc",
+      "alpha": "",
+      "name": "BATHYBIUS",
+      "3x5": "",
+      "short description": "artisinally dressed' according to Thuridan. part of a homeric warrior-poet society of ghouls, and a bit over-refined, having never recited a poem from memory (true work), left his family in order to pursue his dreams of metallurgy, believing that a certain type of peat useful for creating alloys could be extracted from the marshes around Marshbout. Though his family was dismissive of him while he stayed among their people, his prolonged absence has caused them a great deal of concern. He might also be reluctant to return, or shake himself from this magical lethargy, in order to avoid a confrontation with his affianced (who may shortly come looking for him), partly due to a co-dependent relationship he has with a swamp hag (green hag) named Talma (aka Meliona) of the Foed Coven.",
+      "found @": ""
+    },
+    {
+      "home": "11/16/2019",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "Bathybius is missing.",
+      "3x5": "",
+      "short description": "home: delivered by Firbolg",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "11/17/2019",
+      "type": "npc",
+      "alpha": "",
+      "name": "Beenie & Dorro",
+      "3x5": "",
+      "short description": "two young trainees at DMA. Dorro has black bowl cut.",
+      "found @": ""
+    },
+    {
+      "home": "11/17/2019",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Bergot Ironflame",
+      "3x5": "",
+      "short description": "renowned dwarf veteran living in the Steeple Peak foothills. Drav ran into him on her way east to Marshbout? or ... mentioned him?",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Berry",
+      "3x5": "",
+      "short description": "(he, him, him) Halfling ... cleric ?",
+      "found @": "Church of Our Lady of the Dismal Fever / Future"
+    },
+    {
+      "home": "12/7/2019",
+      "teg": "",
+      "type": "magic items",
+      "alpha": "",
+      "name": "bloodcake",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "faction",
+      "alpha": "",
+      "name": "BLOODFORGE CLAN",
+      "3x5": "",
+      "short description": "The Bloodforge Clan comprises a group of Mountain Dwarves whose center of population is slightly north of Moradin's Collar in the Nephil Mountains.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "BLUE DRAGON BLADES",
+      "3x5": "",
+      "short description": "armamentarium owned by Zedaar (pc) with help from Miriabelle (pc). Zod",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "faction",
+      "alpha": "",
+      "name": "BLUE LIGHTNING",
+      "3x5": "",
+      "short description": "Zedaar's old mercenary band",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc deity",
+      "alpha": "",
+      "name": "Bogsog Erchil",
+      "3x5": "",
+      "short description": "Minor goblin deity. Mother of NALGAR.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Bonechewer",
+      "name": "Bonechewer",
+      "3x5": "",
+      "short description": "Felicity Barrelchest's rabbit familiar.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Shortpaw, Brak",
+      "name": "Brak 'Ms. Lorekeeper Shortpaw' Shortpaw",
+      "3x5": "",
+      "short description": "Gnoll wearing blue tunic embroidered with books. ('Does Brak ever look deep in thought?!'). '",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "BRIANGLE",
+      "3x5": "",
+      "short description": "GNOME 'town' in the Grey Tongue; near MIDANGLE",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "BROW OF THE SKY",
+      "3x5": "",
+      "short description": "BROW OF THE SKY Was the mountain. It was upended to produce that weird island ... Grey Tongue used to be the base of a huge mountain. POLIVE said that the mountain became the rubble off the coast (the islands of the bay?)",
+      "found @": ""
+    },
+    {
+      "home": "11/17/2019",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Budduck",
+      "3x5": "",
+      "short description": "hobgoblin Perchmaster General / owl keeper who might sound a bit like William H. Macy in Fargo. (works at Perch Office)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "11/22/2019",
+      "type": "npc",
+      "alpha": "",
+      "name": "Burglespark",
+      "3x5": "",
+      "short description": "One of the indifferent names taken by the Cultists in Oonyi Marsh.",
+      "found @": "BS Cultists"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "CABHSA FATHACH",
+      "name": "CABHSA FATHACH",
+      "3x5": "",
+      "short description": "notes Giant's Causeway",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "can treat a non-magical weapon as magical for x amount",
+      "3x5": "",
+      "short description": "(frug has this ability)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Piper, Rowan",
+      "name": "Captain Rowan Piper",
+      "3x5": "",
+      "short description": "Missing a leg ? Someone else is holding onto it\n(former) Captain of the MAS (Missing at sea) Placid Beast",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "CASTLE KARN: [break into smaller pieces]",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "Chernomoi",
+      "3x5": "",
+      "short description": "Chernomoi (KP TOB 55) -- dragon related for Zedaar, or Paros, or Joan",
+      "found @": "Dragons"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "Child of the Briar",
+      "3x5": "",
+      "short description": "Child of the Briar (kp tob 56)",
+      "found @": "Baphomet"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "ChULDA",
+      "3x5": "",
+      "short description": "reskinned yethhound to be giant flying rat. For Varts?",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "Church of Our Lady of the Dismal Future, Fever,",
+      "3x5": "",
+      "short description": "",
+      "found @": "Marshbout"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "Cloak of Baphomet’s Favor",
+      "3x5": "",
+      "short description": "Cloak, rare (requires attunement)\nWhile wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. \nCurse. Once you don this cursed armor, you can't doff it unless you are targeted by the remove curse spell or similar magic. While wearing the armor, you have -DIS on attack rolls against followers of BAPHOMET and on saving throws against their spells and special abilities.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "Cobbleswarm",
+      "3x5": "",
+      "short description": "Cobbleswarm (kp tob 68)",
+      "found @": "Marshbout"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "COCKALEAK SPIT HIDEOUT",
+      "3x5": "",
+      "short description": "(cultists)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location region",
+      "alpha": "",
+      "name": "COLD RIVER",
+      "3x5": "",
+      "short description": "the smaller river (glacial runoff & icemelt)  that feeds the marsh",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "COLD RIVER BRIDGE",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "concentrate on 2 spells at a time",
+      "3x5": "",
+      "short description": "(1) roll concentration checks at disadvantage, and looses both\n(2) level up. roll DIS concentration checks, but separately for each spell\n(3) roll regular, lose both\n(4) roll advantage on one or other\n(5) roll advantage on both",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Sod, Corvilla",
+      "name": "Corvilla Sod",
+      "3x5": "",
+      "short description": "A Prehend in Cressida. Sister to Barazar Sod. Mother of Reginald Sod.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "COVINE HILLS ALCHEMICAL LABORATORY",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "Crn Glava ('surn glahvah') aka MOGHLINGS; aka mini-moghs",
+      "3x5": "",
+      "short description": "(aka the head squids (darkmantle), undergoing who knows what psychic trauma",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "darakhul ghoul",
+      "3x5": "",
+      "short description": "[cr 3] (kp tob 226) (3 more ghouls in here)",
+      "found @": "bathybius"
+    },
+    {
+      "home": "11/17/2019",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Darlyle",
+      "3x5": "",
+      "short description": "a slimmer- and taller- than average halfling cleric with a metallic-grey pixie cut (ironically trying to pass herself off as a half-elf) and wearing a jungle-green sleeveless tunic belted over olive slacks.\ncan be seen at: Northeast Armory",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "Demon, Berstuc",
+      "3x5": "",
+      "short description": "Demon, Berstuc (kp tob 76)",
+      "found @": "Baphomet"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "Demon, Kishi",
+      "3x5": "",
+      "short description": "Demon, Kisi (kb tob 77) {CR 8]",
+      "found @": "Canids"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "DEMON, REBUZHAL",
+      "3x5": "",
+      "short description": "DEMON, REBUZHAL (KB TOP 80) [CR 10]",
+      "found @": "DRUIDS"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "DENGAROG  ZOHIZ",
+      "3x5": "",
+      "short description": "('THE GREY THROAT'); city of the Derro near KULGMARK; Derro in Mordenkainen",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Dimpleweed, Timothea",
+      "name": "Dimpleweed, Timothea",
+      "3x5": "",
+      "short description": "(she, her, hers) Senior swordsperson and co-owner of  the eponymous martial academy. brosse haircut. uses lathi (stick bound at short intervals with iron rings)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "DISSIMORTUUM",
+      "3x5": "",
+      "short description": "[CR 7] (kp tob 119(",
+      "found @": "juniper three school face / mask ?"
+    },
+    {
+      "home": "11/16",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "DOODRILL LIBRARY",
+      "3x5": "",
+      "short description": "in Famasta Monastery",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "dorreq",
+      "3x5": "",
+      "short description": "[cr 4] (kp tob 124)",
+      "found @": "mogh"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "dream eater",
+      "3x5": "",
+      "short description": "[cr 5] (kp tob 158)",
+      "found @": ""
+    },
+    {
+      "home": "11/16/2019",
+      "teg": "11/17/2019",
+      "type": "npc",
+      "alpha": "",
+      "name": "Drosha",
+      "3x5": "",
+      "short description": "(female monk) Maeve's second in command at Famasta Monastery. Same full-length dark blue tunic with red trim. brown eyes with shoulder-length grey hair in thick braids. wide nose, broad grin.",
+      "found @": "Famasta Monastery"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc deity",
+      "alpha": "",
+      "name": "DUNATIS",
+      "3x5": "",
+      "short description": "God of mountains and peaks.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "dune mimic",
+      "3x5": "",
+      "short description": "[cr 8] (kp tob 162)",
+      "found @": "mogesh"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "Dwarves created before the elves",
+      "3x5": "",
+      "short description": "Aule created the Dwarves before the Elves, apparently, and Iluvatar made them go to sleep so the elves thought they were the first creations. \nhttp://tolkiengateway.net/wiki/Aul%C3%AB",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Ecks (X)",
+      "3x5": "",
+      "short description": "DOMONKOS's homunculus",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc deity",
+      "alpha": "",
+      "name": "ELDGJA",
+      "3x5": "",
+      "short description": "[carlos didn't use] Life Domain deity. Female. War hammer made of light. (Norse volcanic eruption in 934.)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "ELETHAR VIELLE",
+      "3x5": "",
+      "short description": "notes",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Loop, Ella",
+      "name": "ELLA LOOP",
+      "3x5": "",
+      "short description": "Rat-gnome and alchemist. (female). rat, but human sized. weathered chain mail tunic, hobo gauntlets, green trousers and light brown boots. One cracked front tooth and a very twitchy pink nose with distingushed salt & pepper whiskers.",
+      "found @": ""
+    },
+    {
+      "home": "11/16",
+      "teg": "11/15/2019",
+      "type": "location",
+      "alpha": "Monastery, Famasta",
+      "name": "FAMASTA MONASTERY",
+      "3x5": "",
+      "short description": "Building of four stories with a sharp slate roof, tiny bay windows poking out of the third story. The bottom two floors are a pale yellow with regular windows along each floor, and a huge wooden door that spans the two floors. At the top is a clock tower. It sits in the middle of a cobblestone courtyard. Gargoyles up at the top. Pale whitish-yellow stucco. (magic stucco)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "FEISTY GLADE OF LORE",
+      "3x5": "",
+      "short description": "Majestic gnolls carved from the living wood in various postures of heroic & domestic triumph; utter silence broken by deep bass rumbles as if in response to entrants; straw costumes of the intelligent beasts of the forest.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Barrelchest, Felicity",
+      "name": "Felicity 'Longtooth' Barrelchest",
+      "3x5": "",
+      "short description": "Sister to Norman. Female human wizard (necromancer",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "FEN FETTLE RIDGE",
+      "3x5": "",
+      "short description": "(In the marshes)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "fext",
+      "3x5": "",
+      "short description": "[cr 6] (kp tob 183)",
+      "found @": "juniper three school"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "FIRBOLG BOWER",
+      "3x5": "",
+      "short description": "Expansive cave roofed by the canopy of titanic, gnarled oaks with branches in the earth and roots in the air; space suffused with orange light; no visible sun; occasional grey gust devils of archaic portent; wooly trolls grazing like sheep; 'dimensional pocket'; trees on the border just have leaves and roots together growing from their trunks.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "11/17/2019",
+      "type": "npc",
+      "alpha": "BAZZLESEAM, FLAN",
+      "name": "Flanuelle 'Flan' Bazzlebream (changed to Bazzleseam for 'fun with acronyms')",
+      "3x5": "",
+      "short description": "public relations / recruitment at DMA. baggy white tunic, belted, robin hood hat (bycocket or chapel à bec). short white brosse hair. half-elf. High charisma. fighter.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "faction",
+      "alpha": "",
+      "name": "FOED COVEN",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "FOLDULF",
+      "name": "Foldulf",
+      "3x5": "",
+      "short description": "('FOAL-DUHLF') he, him, his (wehmseiper). Bright blue goku hair, a huge scar across face as left by a (?) tentacle, shield and matau (Massive fishing hook)\nKnown from birth that wanted to be a paladin, but never chosen by a deity. Acts like a paladin but all their abilities are (1) just from being technically proficient; (2) from a different source of power. \nin trying to get a paladin deity, was rowing to the deepest heart of the earth in the blackest waters and … \nFULDULF has FEZ’s abilities, but they are clearly different from FEZ - they take hard work",
+      "found @": "BRIANGLE"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location region",
+      "alpha": "",
+      "name": "Forest Ogrelodge",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Stonebreaker, Forlig",
+      "name": "Forlig Stonebreaker",
+      "3x5": "",
+      "short description": "(Dwarf, male) blood-red eyes (result of darkmantle) -- once as bright as silver --, spiky short black hair, lean and long for a dwarf. Bronze chestplate with bronze armbands, spiked warhammer, leather trousers. chalky white.\neats rocks like apples\nworld's tallest dwarf",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "Frogwart's Secular Healing Clinic",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "11/22/2019",
+      "type": "monster",
+      "alpha": "",
+      "name": "Gentle Grub(s)",
+      "3x5": "",
+      "short description": "Zombie cats excrete annelid pupae which pupate into regular cats immune to zombism.\nGentle Repose",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item; secrets & clues",
+      "alpha": "",
+      "name": "Gentle Grubs",
+      "3x5": "",
+      "short description": "the ones that come out of the cats, if you do something to them. cf. spell like 'gentle repose'. corpse-eating grub",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "GNOLL CAMP ((sroidfallah) - An Sráidbhaile ('our village')",
+      "3x5": "",
+      "short description": "A corpus of An Duina Crochta (ahn dunna kroxta)  (“The Hanged Person”), a twilight-purple gnoll in hangman card’s position, only his tail is long like a monkey’s and is being used as the noose; lush gardens amidst crumbling ruins and adjacent to a tidy plot of rotting leaves, rinds, pine needles, litterfall, and other plant material; smoke house; bow longhouse; central lodge; altar.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "GOGLOCKS",
+      "3x5": "",
+      "short description": "MUNTA (one of Baphomet’s agents) tried to grant to SIGMURH a boon ( YETH hound reskinned ) but ended up bonding the thing as master to the xvart (and now killing it really hurts the …",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "Goomba's Shoe - move across difficult terrain without reduction to speed.",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "GRAAL",
+      "3x5": "",
+      "short description": "(female) ancient Girallon without a kingdom to guard",
+      "found @": "x-ANGLE gnome towns"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Gresh",
+      "3x5": "",
+      "short description": "half-orc muscle working for Remy",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "Grey Tongue's history",
+      "3x5": "",
+      "short description": "Grey Tongue used to be the base of a huge mountain. POLIVE said that the mountain became the rubble off the coast (the islands of the bay?)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Gribble",
+      "3x5": "",
+      "short description": "The greediest pig in the gnoll camp. <Honey Goblins>",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "GROUNDSINK DWARF MINE ENTRANCE",
+      "3x5": "",
+      "short description": "Huge stones columns carved with dwarven glyphs (but not any dwarven language) set into a sudden peak of rock; two stone doors of preternaturally precise construction block the entrance; a crackling magic field sputters and sparkles and afflicts creatures as they approach.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "WINDSURE, HAIMOND",
+      "name": "HAIMOND WINDSURE",
+      "3x5": "",
+      "short description": "(he, him, his) (human) With Thyone (elf; Lupenna's mother), father of Riall (half-elf), who, with a orc, had oksana and nadezhda.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "HARENA / GRENLICH’S IMMOR",
+      "3x5": "",
+      "short description": "A patchwork of squat, thick-boled, leafless trees from which bulge slimy, doglike heads, bodies, and legs; bulky chartreuse succulents with velveteen leaves and a single, 4-meter high stalk excreting a sweet-smelling, ammoniac oil; small pyramidal dolmens criss-crossed by sinews and ligaments; reproduction in miniature and inverted of a gnoll camp.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "faction",
+      "alpha": "",
+      "name": "HARPERS",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Inaris",
+      "name": "Inaris",
+      "3x5": "",
+      "short description": "(female half-elf monk?) 3/4 length jacket over a frilly shirt; wide belt with an intricate celtic knot; simple cloth pants and cloth boots. Left eye in a permanent squint, long face, delicate unibrown, short wavy brown hair.",
+      "found @": "Famasta Monastery"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "INK DEVIL",
+      "3x5": "",
+      "short description": "INK devil (kp tob 107) [CR 2]",
+      "found @": "MAGIC USERS"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Slakely, Isabella",
+      "name": "Isabella Slakely",
+      "3x5": "",
+      "short description": "notes",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Jasper and the Lady Violet",
+      "3x5": "",
+      "short description": "An intelligent horse. Lives with the gnolls. Surveyor and mathematician. <Steve Ashby>",
+      "found @": ""
+    },
+    {
+      "home": "11/17/2019",
+      "teg": "11/17/2019",
+      "type": "npc",
+      "alpha": "",
+      "name": "Jindriska",
+      "3x5": "",
+      "short description": "half-elf, female, owner of Riskless Tavern near central Marshbout. short-sleeved frock with high neckline. aqua with gold trim. tailored courderoy pants. wide & pointy ears, narrow lips, very tall, droopy eyes. brown hair.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "JUNIPER THREE-SCHOOL",
+      "3x5": "",
+      "short description": "(she, her, hers) Greenish-white skin. Huge rounded teeth (like The Mask), some kind of death doctor. (The three schools are …)\n“I am so fascinated by the mystery of life”\n“We’re trained to co-seat”\nprobably in the nightmare candy factory",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "KAHOLO",
+      "3x5": "",
+      "short description": "[ALBINO DWARF - a SIJED DRAGULJ (see-yed drah-gull)] (THE FIRST DWARVES) “nimble or light-footed”",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "KAMBO(s)",
+      "3x5": "",
+      "short description": "The pterafolk (pteradactyls with komodo dragon heads)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "letter of the alphabet",
+      "alpha": "",
+      "name": "KHA",
+      "3x5": "",
+      "short description": "symbol of KHA (backwards open C)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "KULGMARK, THE DWARVEN CITY OF",
+      "3x5": "",
+      "short description": "( 'A real beauty') Dwarven city under Grey Tongue.\n\ndwarves  hang out with xorns (or are in contact with one who is spending time there / looking for a way home)\nif they go to keep gnomes and learn about the xorn, they also learn that weird stuff is happening down near the slubber with the … whatever that thing is down there.\nXorn scour the depths of the earth for precious metal and stones. Because they are unable to consume organic material, they ignore most other creatures. However, a xorn's ability to sniff out metals and stones often draws its attention to adventurers carrying coins and gems. Because a xorn isn't evil, it pleads or bargains in the hope of convincing owners to give up their treasure, offering up information it has learned from its travels in exchange. A xorn whose requests are ignored might resort to threats and bullying. If starving or angered, it resorts to force.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Mejirri, Kyra",
+      "name": "Kyra (k-eye-ra) Mejirri",
+      "3x5": "",
+      "short description": "80 year old Earth Genasii (transmutation school wizard and archaeologist)\nappearance\nhas the rock equivalent of hairiness (spots of lichen, or lichen-covered skin)\nlight brown to reddish black, quartz-like sparkles, lichen spots)\nclothing: keeps damp curl-papers (papillote) in her hair, because the rocks are always drying it out\npossessions\nbags / satchels / pockets absolutely overflowing with personalia (writings, drawings, sketches, etchings, manuscripts, annotations, memoirs)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "LACREY (“BELZEE”) ERROROOTH",
+      "3x5": "",
+      "short description": "Elf-Oni.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Landy",
+      "3x5": "",
+      "short description": "(she, her, hers) Halfling ... cleric?",
+      "found @": "Church of Our Lady of the Dismal Fever"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "leshy",
+      "3x5": "",
+      "short description": "kp [cr 1]",
+      "found @": "baphomet"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc deity",
+      "alpha": "",
+      "name": "Liufrît",
+      "3x5": "",
+      "short description": "Our Lady of the Dismal Fever",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "lorelei",
+      "3x5": "",
+      "short description": "kp [cr 5]",
+      "found @": "calliope"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Gorbelly, Lum",
+      "name": "LUM GORBELLY",
+      "3x5": "",
+      "short description": "notes",
+      "found @": ""
+    },
+    {
+      "home": "11/17/2019",
+      "teg": "11/17/2019",
+      "type": "npc",
+      "alpha": "Goose-Bury (Goozby)",
+      "name": "Maeve Goose-Bury ('Goozby' or 'Goosby')",
+      "3x5": "",
+      "short description": "(female monk) close-shaved brown hair, short (5'2'), cut muscles, wider in the torsos. full-length dark blue tunic with red trim. dark brown/black eyes.",
+      "found @": "Famasta Monastery"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location region",
+      "alpha": "",
+      "name": "Marsh",
+      "3x5": "",
+      "short description": "Parties: Lizardfolk, Cultists, FOED COVEN, Zorbon,",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "MAZE OF THE RUST",
+      "3x5": "TRUE",
+      "short description": "for Bahomet, Minotaur, Manticore",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Mezlar",
+      "3x5": "",
+      "short description": "Gnoll warlock; one of the more authoritative Gnolls in the camp",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "MIDANGLE",
+      "3x5": "",
+      "short description": "Gnome town under Grey Tongue",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Mina",
+      "name": "Mina",
+      "3x5": "",
+      "short description": "(female) monk at the Monastery. Square face with soft jaw, narrow black eyes. Frizzy gold hair (but somehow none out of place). Number of plain metal band rings. Plaid tunic and gray breeches and white leggins ending in black boots.",
+      "found @": "Famasta Monastery"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "MOGESH",
+      "name": "Mogesh (Galeb Duhr)",
+      "3x5": "",
+      "short description": "(reskinned Galeb Duhr) According to Arlan, at least 5,000 years old.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "MOGH (MOTHER) DARKMANGLE: the Mother Darkmantle (monstrosity)",
+      "3x5": "",
+      "short description": "moe-g' [3x5] CR 4 (or 3 if takes double from fire/light)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "Mogh's abilities",
+      "3x5": "",
+      "short description": "mogh can squiddyback onto domonkos through Shokos",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "moss lurker",
+      "3x5": "",
+      "short description": "kp [cr 1]",
+      "found @": "baphomet"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "MUNTA:(female) minotaur of Baphomet",
+      "3x5": "",
+      "short description": "minotaur ? minotaur skeleton?",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "myling",
+      "3x5": "",
+      "short description": "kp [cr 2] child lost in maze",
+      "found @": "baphomet"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Dimpleweed, Nadezhda",
+      "name": "Nadezhda Dimpleweed",
+      "3x5": "",
+      "short description": "Timothea's half-sister; Oksana's full sister? romantically attached to Reka",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "NALGAR",
+      "3x5": "",
+      "short description": "he, him, his. gay. half-elf, half-goblin (or some kindi of minor goblin deity or vandar (race))",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "NEPHOSCOPE",
+      "3x5": "",
+      "short description": "Rufus's",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "NEXNAG",
+      "3x5": "",
+      "short description": "(she, her, hers) Blue dragon wyrmling\nfed on bloodcakes, trollmilk, and candied sap\nbeing unknowingly primed for UEGIT",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "Nexnag's future",
+      "3x5": "",
+      "short description": "Paros can tell that NEXNAG is living a good life now in order to be primed for something horrible.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "NIGHTMARE DRUID CIRCLE",
+      "3x5": "",
+      "short description": "Loveseats of igneous rock erupt from the ground in a circle. Genitals of the fecund hang from upside-down trees; Boggles flitting in and out of existence while dimensional shifting; Boggles dressed very well and maintaining themselves aristocratically; great bubbling cauldrons of pudding; the druids grecian wrestling with oil with the strigils.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "Nimit Kemmeldin",
+      "3x5": "",
+      "short description": "martial fighting instructor",
+      "found @": "Dimpleweed's Martial Academy?"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "NOCK NUCK",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "BARRELCHEST",
+      "name": "NORMAN BARRELCHEST",
+      "3x5": "",
+      "short description": "INFO",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "NPC",
+      "alpha": "",
+      "name": "O'A THAVONK",
+      "3x5": "",
+      "short description": "Oath of Bonk' - type on messenger with Zedaar.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Dimpleweed, Oksana",
+      "name": "Oksana Dimpleweed",
+      "3x5": "",
+      "short description": "half-orc, female. Owner and proprietor of the Throttlebottom Hostlery, an inn and public house.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Olowyn",
+      "3x5": "",
+      "short description": "(she, her) squarish face with layered almost neon-orange hair, well-muscled, long-sleeve fur jacket, large belt buckle with thick flax pants and calf-length boots.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location region",
+      "alpha": "",
+      "name": "OONYI MARSH",
+      "3x5": "",
+      "short description": "The marsh to the west of Marshbout, for which it was named",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Oriax",
+      "name": "ORIAX",
+      "3x5": "",
+      "short description": "Bandersnatch passing iteself off as water Genasi. Archivist. (Resonant whatever power is maybe used to find information? or she's moonlights as a tracker  )",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "ostinato",
+      "3x5": "",
+      "short description": "kp [cr 4] some kind of magic item / test for dominic",
+      "found @": "dominick"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "paper drake",
+      "3x5": "",
+      "short description": "[cr 2] (kp tob 154)",
+      "found @": "archive"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "PEGGY",
+      "3x5": "",
+      "short description": "(she, her, hers) (burrowling - KP-tob 49) cute groundhog has connection with archaeologist; hangs out with the donut dude.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Applepie, Pennington",
+      "name": "PENNINGTON APPLEPIE",
+      "3x5": "",
+      "short description": "(he, him, his) lawful good rogue (foil to Sokka)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Petal",
+      "name": "PETAL",
+      "3x5": "",
+      "short description": "Gnoll cleric.\nCurly white cloud of hair and mane, mostly brown body with a white belly\nLife Domain: diety is Mishka, God of Healing and Endurance",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "Petal unable to help de-hearted gnoll {?} with non-necromancy b/c of altar beginning to twist.",
+      "3x5": "",
+      "short description": "patient : Gut",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc deity",
+      "alpha": "",
+      "name": "PHTHAH",
+      "3x5": "",
+      "short description": "[ carlos didn't use] (PH’TH’AH)\nlame egyptian dwarf god of craftsmen and architects\nhttps://en.wikipedia.org/wiki/Kothar-wa-Khasis",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "PILLARS OF THE OX",
+      "3x5": "",
+      "short description": "Gargantuan living ox sleeping; one of its horns is broken, and the other appears as broad and thick elk-like antlers; a marble platform crumbling into green rot at the edges; two dozen or so columns situated on on the platform and emitting faint light and shrouded by pale lace; supplicants presenting wet, bloody offerings to the ox in seeping rattan (a liana, or creeping vine) baskets.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "Piranha Plant (mario)",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "PITTLANS’S NIGHTMARE CONFECTIONARY\nTHE CANDY LAB",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "POLIVE PITTLANS",
+      "3x5": "",
+      "short description": "Deep gnome (she, her, hers). Chubby, candy maker. \n“I tried to turn you all into clowns. It’s not sound to want a clown.”",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Goosewood, Preston",
+      "name": "Preston Goose-Wood (Goody)",
+      "3x5": "",
+      "short description": "metallurgist",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "purple star",
+      "3x5": "",
+      "short description": "Wondrous item, uncommon. A glowing purple. purple. 5 temporary hit points, and +5 to speed for one minute or until none of those temporary hit points remain.\nvomited up afterwards. the item is inert until after the next long rest.\nThe next long rest, make a DC 15 Charisma Check. On a failure, slothful: that long rest requires an extra 2 hours and they have bad dreams.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "RAGUEL",
+      "3x5": "",
+      "short description": ": ‘brother’ of MOGESH. (He is identified with the angel of the 5th Seal in Revelation 6:9-11, and is believed to be the angel who opens the bottomless pit.)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Torrins, Rath",
+      "name": "Rath Torrins",
+      "3x5": "",
+      "short description": "300+ year old Dwarf. Grew up in mountains to the east. Military dude. Comes into town frequently, and has for decades.",
+      "found @": "Throttlebottom"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "RAUL",
+      "3x5": "",
+      "short description": "Super evil. Once a main lieutenant of Tantegorisch.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "Reka need The Bedroot",
+      "3x5": "",
+      "short description": "her transmutation school has to be appropriately consecrated, but needs to prove worth it : \nsteal or use the stone keeping the shore shored up.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Flitch, Remy",
+      "name": "Remy Flitch",
+      "3x5": "",
+      "short description": "(male, human) rat-faced. crime lieutenant; warehouse in Cressida; hands out assignments",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "REMY'S WAREHOUSE",
+      "3x5": "",
+      "short description": "in Cressida ?",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "reskinn Sea Spawn as Worm.",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Sandstone, Rick",
+      "name": "Rickchard “Rick” Sandstone",
+      "3x5": "",
+      "short description": "human fighter with a circus strongman build, wearing chain mail and leather trousers\ncan be seen at: Northeast Armory",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Rihhilt",
+      "3x5": "",
+      "short description": "(rye-hilt) she, her, hers (wehmseiper magic user )\na kind of prodigy; academic and intellectual, or -- one with a great deal of knowledge for DRAV",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "RISKLESS TAVERN",
+      "3x5": "",
+      "short description": "",
+      "found @": "Marshbout"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "ROVINE ('BOZUUL') ERROROOTH. An Oni.",
+      "3x5": "",
+      "short description": "notes",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Skyflume, Rufus",
+      "name": "Rufus Skyflume (Cloud Giant)",
+      "3x5": "",
+      "short description": "https://docs.google.com/document/d/1ATFleX_fVJq3GdcbvfbV_TAUrACfsV4lSHRGSX_Y3EI/edit",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "Toestealer",
+      "3x5": "",
+      "short description": "rum gremlin [cr 1/2] (kp tob 239)",
+      "found @": "taverns"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Farmer, Sally",
+      "name": "Sally Farmer",
+      "3x5": "",
+      "short description": "note",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc deity",
+      "alpha": "",
+      "name": "Sap, Sugar, Flour, Butter",
+      "3x5": "",
+      "short description": "Cambium (KP TOB 51)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Brightmist, Sapora",
+      "name": "Sapora Brightmist",
+      "3x5": "",
+      "short description": "notes",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "shadhavar",
+      "3x5": "",
+      "short description": "kp [cr 2]",
+      "found @": "druids"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc deity",
+      "alpha": "",
+      "name": "SHARINDLAR",
+      "3x5": "",
+      "short description": "[carlos didn't use] SHARINDLAR (http://matthewfenn.ipage.com/nj-pbem/data/Gods/dwarvengods/Sharindlar.htm)\ndwarven god of healing and mercy / but also romantic love and courtship",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "SHOKOS / SELKHOS",
+      "3x5": "",
+      "short description": "(they, them, theirs). penultimate soul vessel? allows domonkos to regain power, and mogh to squiddyback onto domonkos.\nDomonkos's shadow",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "SIGMURH",
+      "3x5": "",
+      "short description": "(vart of the xvarts clan) SLUGG's replacement. Xvart Warlock who took over from SLUG. Was given a new cloak by an agent of Baphomet.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "SIRZIS",
+      "3x5": "",
+      "short description": "(Lizardfolk Shaman)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "SLUBBER REDOUBT",
+      "3x5": "",
+      "short description": "(cultists)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "SLUG",
+      "3x5": "",
+      "short description": "Vart warlock",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "Snav and Thuridan (brothers)",
+      "3x5": "",
+      "short description": "SNAV knows some shit on THURIDAN.",
+      "found @": ""
+    },
+    {
+      "home": "11/17/2019",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Snavidan ('Snav')",
+      "name": "Snavidan ('Snav')",
+      "3x5": "",
+      "short description": "(related to Thirudan)\nticks with hands are from as a child, being forced to ingest poisonous resins that he should have been able to sustain (hazing)\nFirbolg wizard - school of lore. very short and fat for a Firbolg.\nworks with Remy Fitch.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "SNOWFIELD MAN. Metoh Kangmi",
+      "3x5": "",
+      "short description": "The problematic phrase was metoh kangmi: 'filthy snowman.' One reporter took the word for 'filthy,' however, as abominable: 'repugnantly hateful; detestable; loathsome.' But the phrase metoh kangmi was probably misrendered from the Tibetan mi t'om, meaning 'man-bear,' and k'ang mi, for 'snowfield man.'",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "SOMA ATHABEN (سم الثعبان)",
+      "3x5": "",
+      "short description": "poison-testing ifrit. chance to attack, chance to genie\nhttps://roll20.net/compendium/dnd5e/Efreeti#content",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "spell in draconic that Joan or Paros can help decipher",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "11/17/2019",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Spikes",
+      "name": "Spikes",
+      "3x5": "",
+      "short description": "Thuridan's raccoon",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "STARLIGHT COVE FRIENDSHIP COMMUNE",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location region",
+      "alpha": "",
+      "name": "Steeple Peak Mountains",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "super-concentration",
+      "3x5": "",
+      "short description": "can't lose concentration for x time",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "SWAMPSKULL ALTAR",
+      "3x5": "",
+      "short description": "Skull and ribcage of a long-dead dinosaur (Dorboth, Goddess of The Warm Belly) pokes out of the fen; a wide, ragged pit in the earth which appears bottomless and into which flows tendrils of marsh fog; a horrific burial mound comprised of alternating layers of chalky, auburn stone, and the still living bodies of cultists.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location region",
+      "alpha": "",
+      "name": "SYRUPSAP (aka Syrup) FOREST",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Tantegorisch",
+      "3x5": "",
+      "short description": "(they, them, theirs)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "TEMPLES OF XERIC",
+      "3x5": "",
+      "short description": "Two massive frustrums constructed of packed earth; a clear plain between them extending a quarter of a mile; wood and stone temple with doors on top of one frustrum; on the other a temple constructed entirely of bone with one small aperture pointing towards the first temple). Inside the wood and stone temple are baskets of herbs slowly smouldering and so much blood and death and it’s also a smokehouse ?",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "tendril puppet",
+      "3x5": "",
+      "short description": "kp [cr 2]",
+      "found @": "baphomet"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "Terchvogs - Vogs?",
+      "3x5": "",
+      "short description": "flying mushrooms'   (gnoll for roughly 'dread of the marsh-mallow root', which is an extant term and concept already, and applied to the creatures by none other than Loremaster Brak Shortpaw)",
+      "found @": ""
+    },
+    {
+      "home": "11/17/2019",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Thaz",
+      "name": "Thaz",
+      "3x5": "",
+      "short description": "warrior (flind)\nclear her name\nthey think she killed an intelligent creature, and even worse, didn’t eat of its flesh",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "BEDROOT",
+      "name": "The Bedroot",
+      "3x5": "",
+      "short description": "(stone held in hands of rock golem or sphinx or something, that awakens if you try to remove it, indiana jones style), keeping the shore in place?",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Placid Beast, The",
+      "name": "THE PLACID BEAST",
+      "3x5": "",
+      "short description": "Harper Ship.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "event",
+      "alpha": "",
+      "name": "THE TWINNING",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "THE UNDERJOWL",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "The Yugatin (YOO guh teen) or Ygetin",
+      "3x5": "",
+      "short description": "Creature cultists manage to summon. (reskinned Bardok)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "faction",
+      "alpha": "",
+      "name": "THISTLEMILK KIDS",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location region",
+      "alpha": "",
+      "name": "THUBUDDER FOREST",
+      "3x5": "",
+      "short description": "forest ; formerly 'The Butter'",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Thuridan",
+      "3x5": "",
+      "short description": "Firbolg. 12 feet tall. Wizard. Evocation school. cf. FIRBOLG BOWER.\nhated the forests, and was hated (too short, all weight was wide)\nticks with hands are from as a child, being forced to ingest poisonous resins that he should have been able to sustain (hazing). \nweird cursed totem -- glyph is suppression spell.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "Thuridan's true nature",
+      "3x5": "",
+      "short description": "THURIDAN is actually bad news?",
+      "found @": ""
+    },
+    {
+      "home": "11/17/2019",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Tinkle the Pig",
+      "3x5": "",
+      "short description": "pig of the gnoll ( ) who was / will have been taken",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "treacle",
+      "3x5": "",
+      "short description": "kp [cr 1/2]",
+      "found @": "bunny"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "Trickster God / jester (quicklings)",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "Trident of Warning",
+      "3x5": "",
+      "short description": "Trident, uncommon (requires attunement). This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Trit",
+      "name": "Trit",
+      "3x5": "",
+      "short description": "(female) pale violet dress. under dark green frock coat. bright scarlet trim on coat. Triangular face, large lips, smells of pine.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "11/17/2019",
+      "type": "npc",
+      "alpha": "",
+      "name": "TRUTH CAT",
+      "3x5": "",
+      "short description": "(female) An otherwise normal cat who can determine when rodents(?) are lying. Zombunny.\nRing of Truth Telling -- Ring, Uncommon (Requires Attunement) -- \nWhile wearing this ring, you have advantage on Wisdom (Insight) checks to determine whether someone is lying to you.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Tugstar",
+      "3x5": "",
+      "short description": "(she, her, hers) (halfling-human (hufling)) One of the night clerks at the Throttlebottom; worked when Oksana when up to bed after spilling guts to Dominick",
+      "found @": "Throttlebottom Hostlery"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "TURBARY",
+      "3x5": "",
+      "short description": "Bathybius's peat bog area",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "Tusternoof",
+      "name": "Tusternoof",
+      "3x5": "",
+      "short description": "The Twisted One.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "VASHA CUDFLUME",
+      "3x5": "",
+      "short description": "Gnoll necromancer at the gnoll camp. \nBald with light blue skin paint / makeup except for a black mohawk. sumptuous knee-length kilt and her dressing daggers on chest ‘holsters.’",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "vine lord",
+      "3x5": "",
+      "short description": "kp [cr 7]",
+      "found @": "baphomet"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "vine troll skeleton",
+      "3x5": "",
+      "short description": "kp [cr 9]",
+      "found @": "baphomet"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc deity",
+      "alpha": "",
+      "name": "VOLUNDR",
+      "3x5": "",
+      "short description": "[carlos didn't use] In Germanic mythology, Wayland the Smith (Old English: Wēland; Old Norse: Völundr, Velentr; Old Frisian: Wela(n)du; German: Wieland der Schmied; Old High German: Wiolant; Galans (Galant) in Old French;[1] Proto-Germanic: *Wēlandaz from *Wēla-nandaz, lit. 'battle-brave'[2]) is a legendary master blacksmith, described by Jessie Weston as 'the weird and malicious craftsman, Weyland' (https://en.wikipedia.org/wiki/Wayland_the_Smith)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "location",
+      "alpha": "",
+      "name": "VVVVVV Tunnel",
+      "3x5": "",
+      "short description": "where domonkos, polive, sap demon Zarachiel, ... \nDown one wall are scrawled countless ‘V’s ? or just 6",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "wants to start own school ?",
+      "3x5": "",
+      "short description": "possible npcs : Reka",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "Wild Hammer (swing wildly, damaging ... all around;)",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "11/17/2019",
+      "type": "location",
+      "alpha": "",
+      "name": "WINDMILL LAB",
+      "3x5": "",
+      "short description": "(Western Marshbout) Jittery windmill; upper clerestory windows made of rainbow stained glass mosaics; massive bell-shaped cast iron furnace half-in and half-out of house; teetering on the edge of a chasm that's beginning to open; window structure designed by Ella",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "Wumbo",
+      "3x5": "",
+      "short description": "(in the Zorbo family?)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "WU'UN",
+      "name": "Wuun",
+      "3x5": "",
+      "short description": "(woo-uhn) she, her, hers (wehmseiper fighter). (Jill Bauer) Thick curly blonde hair, stocky; wild, scratchy voice; \na morning star (pernach or shestopyor ), serviceable plate mail, \n(said about her) “there’s a rascal that one loves”\n'very brugged' ('brug-id')",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "Xvarts (vermin masters, stage kidnappings, 'giant rat bodyguards' Raxivort",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "monster",
+      "alpha": "",
+      "name": "ZARACHIEL",
+      "3x5": "",
+      "short description": "ZARACHIEL: sap demon (tome of beasts 335) who protects the Zorbon wood. (Or all the dark wood)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "Zarachiel",
+      "3x5": "",
+      "short description": "sap demon taking over someone lets them interact with the Zorbos and their plans / doings",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "letter of the alphabet",
+      "alpha": "",
+      "name": "ZAROP",
+      "3x5": "",
+      "short description": "something like 'zorbo' (as per session 8, fez's confusion)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "npc",
+      "alpha": "",
+      "name": "Zod",
+      "3x5": "",
+      "short description": "(he, him, his) (kobold) employee of  Blue Dragon Blades",
+      "found @": "Blue Dragon Blades"
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "faction",
+      "alpha": "",
+      "name": "ZORBON",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "Zorbon gravity orb",
+      "3x5": "",
+      "short description": "Edible, uncommon\nThe orb is about six inches in diameter and constructed of a lustrous, metallic black substance. When held in the hand it changes size to fit comfortably in the palm. If you attempt to consume the orb, it shrinks to the size of a small berry relative to your size. After consumption, your speed drops to 1, you cannot become prone, and you have +5 to any Acrobatics checks made. The effect lasts for one munte, after which the orb is ejected from the creature’s preferred orifice. Consuming takes one action. The effect can be ended at any time by using a bonus action. This effect can be used once per day per creature (resetting at dawn). It time a creature uses it in a day beyond that first use, their Constitution drops by 3. Constitution points lost in this way cannot be healed with magic and are regained at the next dawn.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "pr'lll",
+      "name": "",
+      "3x5": "",
+      "short description": "",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Joan's nostril thingees",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "a bunch of chitine's (humanoid arachnids) used to be drow elf prisoners. (twist: the drow were the prisoners? twist: they were working together to rip off a third party and they/the elves backstabbed)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Group see cows pulling a giant : the cows are intelligent, or the giant is an enlarged duerger, giant is 'good,' then evil giant goblin god; giant is illusion (reverse odysseus with cyclops)\ngiant is illusion: tie in to giant ox at pillars of the ox",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": ": 'Ack, can someone extinguish that fucking star?' (Indicating the wood brought by Zarachiel)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": ": 'Get that fucking wood away from me!' Turning to Flick: 'Ugh, and it's on you, too!'",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "(actually an agent of S&B) - a changeling",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "(gnoll?) help recovering one of their bows",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "(gnoll) actually a druid wildshaped into a gnoll (folduin)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "(gnoll) suspected that they have to make pacts with Yeenoghu, which is why they are on the border of trusted / not trusted",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "(half-truth) Meliona had 1 girl child.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "(so-and-so believes that) The Thistlemilk Kids are adulturating some of their (milk) products.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "[teg only] Arlan's disappearance during the fight against The Yugatin was real and he did something then.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "a bunch of ... weapons ? something ? in a hidden room -- someone has found but didn't tell other poeple that would be interested, and are planning on selling them ; picking them up ? to other evil people",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "After von Veen threw Meliona out, she took refuge with the Foed Coven in the marshes, and there learned to live as a hag and hedge witch.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "And, far from being alone, that sister claims the protection of her shadow mother, Caelfa, split off when the patron (it turns out unsuccessfully) claimed a child.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "AURELIA 'was' MELIONA'S sister; I say 'was' because von Veen killed her after the confusion spell",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Barazar is brother to Corvilla (Sod)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Baron von Veen lives in the ruins of Castle Karn",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Bathybius is engaged to Eucleius, which he doesn't tell anyone about.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "11/23/2019",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Bathybius is in a relationship with Meliona / Talma",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "both were taken in by the deep gnomes, but when they saw evil spirit take over father and kill mother they fled south.\n\n(father is still alive as one of the deep gnomes -- maybe a warlock or … father’s come down south and has been spying on them -- has to be the only one of bloodline or else power will be dispersed",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Brak Shortpaw and Grenlich (Kolmy Shortpaw) are sisters, and Brak prefers not to have others bring it up.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Burglespark's interpretation of spreading terror is incomplete and skewed, as it must be for a mortal trying to comprehend a Great Old One.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Castle Karn is a non-magical reproduction of the original castle.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Corvilla Sod is head of the Prehends in Cressida",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Corvilla’s son is Reginald",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Darklings aren't necessarily bad, just cursed",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "de-hearted gnoll {?} was resurrected by the Vasha, and is suffering those effects",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "dinosaur egg at the SWAMPSKULL ALTAR",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Domonkos murdered everyone at the monastery one time when he got out during his fight against the BABA JEZDA (or PAROS 'remembered' through him)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Duergars of Grey Tongue involved in the arms trafficking ...",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Elethar Vielle is an untrustworthy loan shark and intentionally robs or thwarts the ventures of his borrowers in order to indebt them to himself while profiting from the stolen goods.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Ella Loop is half-sister to Barazar Sod.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Forty years ago VON VEEN and Meliona (at the time a powerful elf warlock) conceived twin daughters.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Gnomes are the Baron's ... kids ? experiments?",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "GORYM was encamped to check out a mizzium deposit and I've been sent by my organization to collect samples and document",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "heard that the deep gnomes are intending to capture the bridge zorbo to …",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "here to find out information about the unicorn undercover",
+      "found @": ""
+    },
+    {
+      "home": "12/7",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Hidden door leaving out of Domonkos' cavern had the backwards C symbol on it.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "information that Barazar is dealing in illegal arms trading through Norman Barrelchest -> loss of standing in town if people found out",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "It was not Domonkos, though, but von Veen himself who perpetrated the murders;-- albeit unintentionally.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "LACREY doesn’t have the same compulsion to eat human flesh as other Oni.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "LACREY hasn’t heard from Lupenna. Presumably she knows how to get in touch with Lupenna, but maybe not.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "LACREY owed LUPENNA a favor, for putting LACREY in touch with DOMONKOS (and LUPENNA calling in a favor with DOMONKOS) to  to charm ROVINE out of anthropophagia",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "LACREY owed MELIONA a favor, for warding/charming ROVINE out of anthropophagia.  ((Talma actually asked for Lupenna to get covered, because it was her sister, Aurelia, who was killed. )) // ((Talma, at Lupenna’s request,  asked Lacrey to pose as Lupenna while the latter was off hunting Tantegorisch))",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Lizardfolk fighting against cultists to regain swampskull altar",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "LUPENNA is the child of RAUL, one of Tantegorisch's main lieutenants, and THYONE, an elf woman.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Maeve conducts a successful Robin Hood operation on the TMK trade routes in the North using her trustworthy group of monks posing as highway robbers.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Maeve Goosby trains monks. It looks like she is rivals with Timothea and looks the other way on the dogs?",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Marsh mephit’s magic, but has the side effect of infecting the already susceptible marsh cats with zombinism.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "MELIONA actually required the help of her entire FOED COVEN to apply the ward to ROVINE.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "MELIONA on embracing the FOED COVEN left her child with the townsfolk",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Meliona’s patron, Tantegorisch took one of the twin daughters for himself to live in the Shadow Realm",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Mogesh and RAGUEL formed on diametrically opposed sides that plane of earth was invoked (perpendicular to material plane) (or it’s random chance) -- but that was only 25 years ago -- or they’ve gravitated towards them for that reason.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Mogesh has the Bedroot",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Norman is dealing in illegal arms trades from weapons recovered during outings to protect incoming visitors, outgoing residents, or keep the Plumb Highway clear.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Oksana (female) is Timothea’s (half-)sister.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Oksana gets the money to pay the loan from Oriax, who is nicer than Elexar, but Oriax is having the screws put to her by ... so had gotten more demanding about the money.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Preston Goosewood seen with one of plant-dogs. (yes, but it was killing him and replacing with Ella)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Recently Meliona came across Bathybius (who only came to the marsh recently), with whom she started up a relationship.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "robbed and they want revenge",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "ROVINE and LACREY are half siblings.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Rovine is losing his hypnosis not because he’s not getting re-upped, but because of bugg-shash he’s acting like he has the hunger again, but it’s coming from a different place, which they can tell with some detective work or checks",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "ROVINE's ward against anthropophagia is starting to wear off. Can a party member try to refresh it? Or is that not enough?\n\nmaybe it was originally DOMONKOS, and then when he disappeared LACREY went on LUPENNA'S 2ND RECOMMENDATION to Meliona\n\nRovine’s hypnotism is starting to wear off, as he hasn’t been going to sessions, but Lacrey has been too preoccupied to notice (or she even actively tells him it's fine), since she fell in love with Talma/Meliona, and has been disguising herself as Balbul in order to keep seeing Talma. But since Balzee doesn’t have anthvoric tendencies, she’s had to eat flesh before the trips in order to fake it, and that is giving her the taste for it again -- despite the hypnosis.\nthey are looking for a permanent cure (even tho they already have one) which leads to finding/making something terrible",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "ROVINE's ward in the first place was never what they thought it was (LACREY? MELIONA? COVEN? DOMONKOS?)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Sally Farmer is Maeve Goosby’s agent.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Selkos is imprisoned within MOGH and can emerge after her death, or communicate if MOGH parasitizes someone.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Signs and symbols on Domonkos altar?",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "SIRZIS ... something ... metal alloy ... using it against the cultists (trying to allow it to be like copper against bacteria, use to regain SWAMPSKULL ALTAR)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "SIRZIS wants the UNIQUE ALLOY but keeps getting the CORRUPTED ALLOY",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Some of Maeve's students are TMK or Cultists posing as students and visiting teachers.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "something dirty can't be made clean",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Story of Illith and the mind flayers.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "story of slavery",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "That's the very cloak I was returning.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "The boggles have tremendous feelings of loneliness",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "The child Meliona lefft with the townsfolk became Timothea Dimpleweed, named after the family that adopted her.)",
+      "found @": ""
+    },
+    {
+      "home": "11/17/2019",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "The deep gnomes from the Tongues camped by the GROUNDSINK within the last week.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "The Foed Coven don't actually live the way they said -- as a peaceful autonomous society in charge of protecting the Marsh.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "The KULGMARK dwarves are the vigilant ones against this new force, to which the hill & mountain dwarves are ignorant;",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "The KULGMARK dwarves submit to these curses to atone for the immorality of dwarf-folk in general.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "The soft rivalry between DMA & Famasta Monastery is a ruse to make enemies think they aren't working together to ... solve ... stuff ?",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Their spouse died.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "They don't own any X (e.g. pigs).",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "They've been asleep for 5 (five) years.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Timothea engaged to Reginald (Corvilla's secret son)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Timothea has always been plagued by odd visions and dreams, which the perceptive listener can tell differ from the nightmare images of Bugg-Shash; these are either communications or sympathies with her shadow sister, or the elements of Tantegorish that were in Meliona on conception, or Meliona's connection to the earth, or VON VEEN.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Troll wool is use to make interesting clothing (shiftweave); but at the cost of endorsing terrible production methods (... ?)",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Troll-sheep made it far from their herding grounds and need a guide back.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Weapons made from corrupted alloys are showing up at the armory after having been ‘liberated’ from threats.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Weapons made with the marsh mephit-touched bog iron get heavier over time.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Weapons made with the marsh mephit-touched bog iron never rust.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "When Tantegorisch abandoned her, she lost her patron and her powers, after which von Veen cast her out with the remaining child.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "11/22/2019",
+      "type": "secrets & clues",
+      "alpha": "",
+      "name": "",
+      "3x5": "",
+      "short description": "Zombified cats, harmless but terrifying, and with fairly short self-limiting lifespans, have been seen on the outskirts of town.",
+      "found @": ""
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "summary author",
+      "alpha": "",
+      "name": "Maltinn of Dubrunfaut",
+      "3x5": "",
+      "short description": "maltin is actually a 'amylase [ an enzyme that catalyses the hydrolysis [a molecule of water ruptures one or more chemical bonds. ]  of starch (Latin amylum) into sugars.]  present in germinating seeds of barley'\nfrom Diastase of Malt.",
+      "found @": ""
+    }
+  ],
+  "recap": [
+    {
+      "session_ordinal": 15,
+      "session_title": "I am not a lemure",
+      "session_title_contenders": [],
+      "session_date": "2020-02-08",
+      "session_author": "J. McClintock",
+      "session_recap": {
+        "type": "entry",
+        "entries": [
+          "The band of adventurers, having expelled von Veen's spirit from Uugeet, discovered that their victory coincided fortuitously with the celebration of Raising the Pendulum Bob which simultaned [coincided] that year with Braggot Day in the gnome town of Briangle. Drav customed [visited] the local post office branch to ship a frosty bottle of trollsmilk and an extensive missive to her family in Forest Ogrelodge. Fez, always perfectly in touch with his inner springwork, was motivated to call forth a steadfast steed. Tregetting [juggling] for inspiration a piece of coral bestowed to him under miraculous circumstances, he attracted the attention of a sloppy clown named Kuma who led him to a park pond swarming with cave turtles from which the ecologically irresponsible jape gathered a healthy supply of eggrocks. Meanwhile, Carlos, having glutted his mouth and purse with vendible candies which could have been purloined for free from the Candy Lab, gawked at The Unwieldy Dolphin's shingle and forthnimmed [proceeded, lit. 'go away, go forth'] to a desecrated former shrine to Aulë being used as a social club. He attempted to preach the good word to the finger-sandwich-eating, real-estate-discussing philistines, but, unable to convert any of the nonbelievers, satisfied himself with carving a statuette of Aulë into the rock wall and distributing prayer books with Drav's help. While Paros won himself a manuary [(prob.) pardon] from the local villagers to free the pendulum bob from its hempen restraints and return quasi-time to the town, Flick took a moment to recall sifting some poudree [medicinal powder] from Uugeet's pool before samming up [gathering] the party and making for the surface with Domonkos.",
+          "Achieving externity [(prob.) coming to the surface] on The Grey Tongue, all but Carlos and Flick were taken unawares by two shapeless black muckhumps calling themselves Naphula and Gluðer who, drawn by Drav's demon skinprint, attempted to incaptivate [capture] and dissolve the dwarven wizard. After unceremoniously roasting Gluðer, the party danced around serving up Naphula in the same way until Drav could be safely extracted and Flick, amused by the ooze, could invite Naphula to confederate with them. The super-lemure having been cindered, Paros scooped some ash at the behest of Veenock and then went to get some ass with Domonkos, making it to vampire-second-but-human-third?-base, all the while chaperoned by trigger-low-affect Flick. Rather than spending the night in the woods, everyone vamoosed behind the vampire to the castle, making for the single lit room high in the central palace. The tricky little spellbook Drav snatched from Riult took one last leap at manumission and inconveniently revealed their position, but it seemed to matter not, as who should await them in the bedroom chamber but one calling herself Lupenna; and, as if that were not enough, she recognized Flick!"
+        ]
+      },
+      "session_debut": {
+        "type": "list",
+        "items": [
+          {
+            "type": "entry",
+            "name": "Braggot Day",
+            "entries": [
+              "A festival in Briangle during which braggot — a mixture of ale, mead, and spices — is imbibed. Oftentimes its celebration coincides with the autumnal event Raising the Pendulum Bob."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "session_ordinal": 13,
+      "session_title": "The school of getting hard knocked up",
+      "quotes": [
+        {
+          "type": "quote",
+          "text": "Is she always sausagey?",
+          "author": "Carlos",
+          "context": ""
+        },
+        {
+          "type": "quote",
+          "text": "Body by trollmilk.",
+          "author": "Joan",
+          "context": ""
+        },
+        {
+          "type": "quote",
+          "text": "Have you ever heard of confidence …? That's the same as knowledge.",
+          "author": "Joan",
+          "context": ""
+        },
+        {
+          "type": "quote",
+          "text": "did juniper grow from a meat?",
+          "author": "Carlos",
+          "context": ""
+        }
+      ],
+      "session_title_contenders": [],
+      "session_date": "2020-01-25",
+      "session_author": "",
+      "session_recap": {
+        "type": "entry",
+        "entries": [
+          "While Fez and Flick sunk into a quiet sloom [doze], Carlos, Drav, Paros, and Joan tied up a few loose ends. Carlos helpfully speculated that 'maybe Juniper came from a meat-person that wore the mask, and Juniper laid a meat-egg, and then Juniper was inside the meat-egg.' Further afrayning [questioning] prompted Ethel to pontificate on the 'ancient ways of the Three School' and Juniper's particular interest in the mysteries of life and death. All matters resolved, the gang turned their attentions to ••; Drav determined that the blurry symbols decorating ••'s shell were lexemes in an old language used by artificers, and Paros unintentionally presented the tremulous box with visions of evisceration. Before much else could go wrong, /, a construct isometric to ••, hailed the group and led them to Red Fox University. Passing through a cozy common room inhabited by Briffa and Reginald, two teenful [annoyed; cognate with Old Saxon tiono crime, injustice, injury] students, and a sleepy xorn named Turkey, where they learned that •• had been running away from an emotionally volatile love triangle with – and - (siblings, no less!). Joan smashed down some doors to track the still fleeing / who brought them ultimately to Sik's alchemical workshop, where •• received some much-needed relaxation and reprogramming. After smoking a bit of laced leaf, Sik showed Joan how to turn her multicolored stone into a floating force field and pointed them towards Professor Henriette Erman who, aside from studying for a license to practice psychiatric medicine, schooled them on the ancient mountain deity Karnish and the primordial provenance of the various Three Schools which roam the land. Finally, they were pointed to Ymenestra, a visiting lecturer with a personal and professional interest in depossessions and exorcisms."
+        ]
+      },
+      "session_debut": {
+        "type": "list",
+        "items": [
+          {
+            "type": "entry",
+            "name": "Braggot Day",
+            "entries": [
+              "A festival in Briangle during which braggot — a mixture of ale, mead, and spices — is imbibed. Oftentimes its celebration coincides with the autumnal event Raising the Pendulum Bob."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "monster": [
+    {
+      "name": "Samai",
+      "isNamedCreature": true,
+      "source": "zorq",
+      "size": "L",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "demon"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "16d10 + 48",
+        "average": 150
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 15,
+      "con": 16,
+      "int": 14,
+      "wis": 16,
+      "cha": 18,
+      "save": {
+        "dex": "+6",
+        "con": "+7",
+        "wis": "+7"
+      },
+      "skill": {
+        "perception": "+7"
+      },
+      "senses": [
+        "blindsight 60 ft."
+      ],
+      "passive": 17,
+      "resist": [
+        "cold",
+        "fire",
+        "lightning"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "poisoned"
+      ],
+      "languages": [
+        "all",
+        "telepathy 120 ft."
+      ],
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "headerEntries": [
+            "Samai's spellcasting ability is Charisma (spell save {@dc 16}). She can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell detect magic}",
+            "{@spell locate animals or plants}",
+            "{@spell ray of sickness}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell ensnaring strike}",
+              "{@spell entangle}",
+              "{@spell plant growth}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Samai makes two pseudopod attacks."
+          ]
+        },
+        {
+          "name": "Pseudopod",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage plus 9 ({@damage 2d8}) poison damage."
+          ]
+        },
+        {
+          "name": "Memory Spores",
+          "entries": [
+            "Samai releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a {@dc 10} Constitution saving throw. On a failed save, the creature inherits one or more of Samai's fragmented memories, which may reveal information about Samai or comingle with its own knowledge and reveal truths or falsehoods about itself."
+          ]
+        },
+        {
+          "name": "Mind Control Spores",
+          "entries": [
+            "Samai releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her. Humanoids and beasts in the cloud when it appears must make a {@dc 16} Wisdom saving throw. On a failed save, the creature is {@condition charmed} by her until the end of its next turn."
+          ]
+        },
+        {
+          "name": "Euphoria Spores",
+          "entries": [
+            "Samai releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 15} Constitution saving throw or become diseased until the end of their next turn. A creature {@condition poisoned} in this way A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of {@condition exhaustion}."
+          ]
+        },
+        {
+          "name": "Photophobia Spores",
+          "entries": [
+            "Samai releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 15} Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, for 1 minute, while the creature is in sunlight, the creature has disadvantage on ability checks, attack rolls, and saving throws. A creature can repeat the saving throw at the end of each of its turns, ending the effect early on itself on a success. Once infected, a creature can't be reinfected by these spores."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Protective Shriek",
+          "entries": [
+            "When Samai is hit by an attack, one creature that is {@condition charmed} by her must use its reaction to emit a shriek audible within 300 feet of it. The creature continues to shriek until the end of its next turn."
+          ]
+        }
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "XX",
+        "TP"
+      ],
+      "damageTags": [
+        "B",
+        "I"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH",
+        "AOE"
+      ],
+      "fluff": {
+        "name": "Zuggtmoy",
+        "source": "MTF",
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Zuggtmoy",
+            "entries": [
+              "The Demon Queen of Fungi, Lady of Rot and Decay, Zuggtmoy is an alien creature whose only desire is to infect the living with spores, transforming them into her mindless servants and, eventually, into decomposing hosts for the mushrooms, molds, and other fungi that she spawns.",
+              "Utterly inhuman, Zuggtmoy can mold her fungoid form into an approximation of a humanoid shape, including the skeletal-thin figure depicted in grimoires and ancient art, draped and veiled in mycelia and lichen. Indeed, much of her appearance and manner, and that of her servants, is a soulless mockery of mortal life and its many facets.",
+              "Zuggtmoy's cultists often follow her unwittingly. Most are fungi—infected to some degree, whether through inhaling her mind-controlling spores or being transformed to the point where flesh and fungus become one. Such cultists are fungal extensions of the Demon Queen's will.",
+              "Their devotion might begin with the seemingly harmless promises offered by exotic spores and mushrooms, but quickly consumes them, body and soul."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MTF/Zuggtmoy.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://5e.tools/img/MTF/Zuggtmoy.png?v=1.96.3"
+    }
+  ]
+}
