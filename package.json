@@ -14,7 +14,8 @@
         "build:move": "/bin/bash ./_node/build_move.sh",
         "git:push": "git push && git push --tags",
         "build:win": "set DEBUG=build* & npm run build:json && npm run build:format",
-        "build:push:temp": "DEBUG=* npm run build && git add . && git commit -m \"build\" && git push"
+        "build:push:temp": "DEBUG=* npm run build && git add . && git commit -m \"build\" && git push",
+        "start": "node ./node_modules/.bin/json-server --watch db.json"
     },
     "precommit": [],
     "repository": {
@@ -41,17 +42,12 @@
         "debug": true,
         "node": true
     },
-    "prettier": {
-        "tabWidth": 4,
-        "trailingComma": "es5",
-        "semi": true,
-        "singleQuote": true
-    },
     "dependencies": {
         "debug": "^4.1.1",
         "dotenv": "^8.2.0",
         "fs-extra": "^8.1.0",
-        "jshint": "^2.11.0"
+        "jshint": "^2.11.0",
+        "json-server": "^0.15.1"
     },
     "devDependencies": {
         "pre-commit": "^1.2.2",

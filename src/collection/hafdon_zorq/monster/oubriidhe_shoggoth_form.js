@@ -1,7 +1,9 @@
 module.exports = {
     name: 'Oubriidhe (Shoggoth Form)',
     size: 'H',
-    type: { type: 'aberration', tags: ['Shoggoth'] },
+    isNpc: true,
+    isNamedCreature: true,
+    type: { type: 'aberration', tags: ['Shoggoth', 'gibbering mouther'] },
     source: 'zorq',
     alignment: ['C', 'N'],
     ac: [
@@ -87,7 +89,6 @@ module.exports = {
             ],
         },
     ],
-    page: 347,
     tokenUrl:
         'https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB%20(3pp)/Shoggoth.png',
     actionTags: ['Multiattack'],

@@ -11,5 +11,6 @@ module.exports = {
         'If you move more than 100 feet from the disk (typically because it can’t move around an obstacle to follow you), the disc returns to its original size.',
         'You may use an action at anytime to deactivate the disc.',
         'After the disc has been activated, it cannot be activated again until the next dawn.',
+        'Also Used to videotape people and blackmail people with the videos.',
     ],
 };

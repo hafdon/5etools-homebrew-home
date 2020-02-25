@@ -154,7 +154,7 @@ file_array.forEach(folder => {
                 .readdirSync(`${read_dir}/${folder}/${curr}`)
                 // .filter(e => !e.startsWith(FILTERSTRING))
                 .filter(e => !FILTERARRAY.some(s => e.startsWith(s)))
-                .reduce((prev, e) => {
+                .reduce((prev_inner, e) => {
                     const filename = `${read_dir}/${folder}/${curr}/${e}`;
                     let data = getData(filename);
 
@@ -164,10 +164,10 @@ file_array.forEach(folder => {
                     try {
                         if (data === undefined || data === null) {
                             elog(new Error(`getData(${filename}) is ${data}`));
-                            return prev;
+                            return prev_inner;
                         } else if (!Object.getOwnPropertyNames(data).length) {
                             blankObjects.push(filename);
-                            return prev;
+                            return prev_inner;
                         } else {
                             // set source to 'zorq' if it's the right file
                             if (
@@ -266,7 +266,7 @@ file_array.forEach(folder => {
                                 ) {
                                     //remove title tags
                                     data.type.tags = data.type.tags.reduce(
-                                        (prev, curr) => {
+                                        (prev_inner_2, curr) => {
                                             // if there's a title in the tags
                                             if (curr.startsWith('{@title')) {
                                                 // prettier-ignore
@@ -292,10 +292,10 @@ file_array.forEach(folder => {
                                                 delete traitEntry.type;
                                                 data.trait.push(traitEntry);
                                             } else {
-                                                prev.push(curr);
+                                                prev_inner_2.push(curr);
                                             }
 
-                                            return prev;
+                                            return prev_inner_2;
                                         },
                                         []
                                     );
@@ -306,7 +306,7 @@ file_array.forEach(folder => {
                                  */
                                 if (data.trait && data.trait.length) {
                                     data.trait = data.trait.reduce(
-                                        (prev, curr) => {
+                                        (prev_inner_2, curr) => {
                                             // prettier-ignore
                                             let rgp_is_expand = new RegExp(/^{@\$.*[|}]*.*}$/);
                                             // prettier-ignore
@@ -370,12 +370,15 @@ file_array.forEach(folder => {
                                                         : v;
                                                 });
                                                 traitExpandLog({ entries });
-                                                prev.push({ name, entries });
+                                                prev_inner_2.push({
+                                                    name,
+                                                    entries,
+                                                });
                                             } else {
-                                                prev.push(curr);
+                                                prev_inner_2.push(curr);
                                             }
 
-                                            return prev;
+                                            return prev_inner_2;
                                         },
                                         []
                                     );
@@ -392,12 +395,12 @@ file_array.forEach(folder => {
                                 data.dateUpdated = +(Date.now() / 1000).toFixed(
                                     0
                                 );
-                                prev = data;
+                                prev_inner = data;
                             } else {
-                                prev.push(data);
+                                prev_inner.push(data);
                             }
 
-                            return prev;
+                            return prev_inner;
                         }
                     } catch (e) {
                         elog({ message: 'Error on getOwnPropertyNames', e });
@@ -409,9 +412,9 @@ file_array.forEach(folder => {
         const write_location = `${write_dir}/${folder}.json`;
         log({
             message: `Writing to ... ${write_location}`,
-            object: Object.keys(buildObj).reduce((prev, curr) => {
-                prev[curr] = buildObj[curr].length;
-                return prev;
+            object: Object.keys(buildObj).reduce((prev_3, curr) => {
+                prev_3[curr] = buildObj[curr].length;
+                return prev_3;
             }, {}),
         });
 

@@ -52,9 +52,14 @@ module.exports = {
     trait: [
         {
             type: 'section',
-            name: '',
+            name: '_dossier',
 
             entries: [
+                {
+                    type: 'entries',
+                    name: 'Items',
+                    entries: '{@item multicolored stone disc|zorq}',
+                },
                 {
                     type: 'entries',
                     name: 'Danger Sense',

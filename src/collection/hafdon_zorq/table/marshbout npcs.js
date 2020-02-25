@@ -35,6 +35,7 @@ module.exports = {
                 ],
             },
         ],
+        ['Claggash', 'claw gash'],
         ['Krov', 'n/a'],
         ['Spam Tompkins', 'n/a'],
         ['Pete Ocking', 'n/a'],
@@ -70,16 +71,17 @@ module.exports = {
         ['Frustratio Huff', 'Gnome? frustrated huff'],
         ['Waich Otter', 'Way hotter'],
         ['Shuram, Shazan', 'Sure Am, Shazam'],
-        ['Richard Ruffian', 'Dick Ruffan'],
         ['Brent McCorkle', 'fancy boy; ridiculous'],
         ['Karok Ensity', 'character density'],
+<<<<<<< HEAD
+=======
         ['Curdella', 'cool lady'],
         ['Cavortletop', ''],
+>>>>>>> origin/dev/work
         ['Umpo and Onglo', 'Maybe more of the earthlords ?'],
         ['Tontine', ' "TAHN-teen: some last-alive-gets-all schemer'],
         ['Empo', ''],
         ['Resko', ''],
-        ['Bruss Tarsia', ''],
         ['Raggadochy', 'rag uh DOH chee'],
         ['Petronella', '?'],
         [
@@ -90,7 +92,7 @@ module.exports = {
         ['Cotinaminous', 'co-tinaminous (arm, arm)'],
         ['Jumps', 'A jumpy little {@creature dogmole|zorq}'],
         ['Mr. Stabworthy', ''],
-        ['A. C. Tockletone', ''],
+
         ['Aargab', 'gnoll'],
         ['Aaspar', 'female ?? names'],
         ['Agnes', 'hag first name'],
@@ -109,7 +111,6 @@ module.exports = {
         ['Cackling', 'hag title'],
         ['Cephalossk', 'mind flayer'],
         ['CHAGBURT/Cadgebort', ''],
-        ['Chatterton', ''],
         ['Cheek chunktar', ''],
         ['Corym', 'druid'],
         ['Daealla', 'druid'],
@@ -172,7 +173,7 @@ module.exports = {
         ['Isfand', ''],
         ['Ishara', 'quori'],
         ['Janza / Ganza / Gazaca ("Our treasure")', 'Gnoll towns'],
-        ['Jesse Luckett', ''],
+
         ['Jheluum', 'female ?? names'],
         ['Kashak', 'kobold, lizard'],
         ['Kelaal', 'female ?? names'],
@@ -182,7 +183,7 @@ module.exports = {
         ['Knucklebones', 'hag last name'],
         ['Kosh', 'quori'],
         ['lakosh', ''],
-        ['Lanhareth', ''],
+        ['', ''],
         ['leer', 'unit of measure'],
         ['Leylan', ''],
         ['Locustay', ''],
@@ -190,7 +191,6 @@ module.exports = {
         ['Lummur', ''],
 
         ['Madge Parsons', ''],
-        ['MAGGIE FLOOD', ''],
         [
             'Male Names: Aruget, Chetiin, Daavn, Dabrak, Dagii, Drevduul, Duulan, Fenic, Gudruun, Haluun, Haruuc, Jhazaal, Kallaad, Krakuul, Krootad, Mazaan',
             '',
@@ -203,6 +203,7 @@ module.exports = {
         ['Mensil(r/n)oy', ''],
         ['Middenheap', 'hag last name'],
         ['Molavakri ', ''],
+        ['Clough ', ''],
         ['Molo', 'kobold'],
         ['Morgan', 'hag first name'],
         ['Mudwallow', 'hag last name'],
@@ -224,7 +225,7 @@ module.exports = {
         ['Otal', 'gnoll'],
         ['Panzon', ''],
         ['PHERMASTAPHY', 'title; location'],
-        ['Phineas Fletcher', ''],
+
         ['underscramble', ''],
         ['Pigtooth', 'hag last name'],
         ['Polly', 'hag first name'],
@@ -268,7 +269,6 @@ module.exports = {
         ['Tharcereli', 'mind flayer'],
         ['the Imponderable', 'epithet'],
         ['Thuun ("Thun")', ''],
-        ['Tooshie', ''],
         ['Toprick', 'dwarf surname'],
         ['Torashtai', ''],
         ['Trabis', ''],
@@ -286,7 +286,9 @@ module.exports = {
         ['Vanii', ''],
         ['Vanon ', ''],
         ['Varn', 'kobold'],
-
+        ['Wamble', 'rumbling, rolling nausea'],
+        ['Rospek', 'prospect'],
+        ['Lavolta', 'lava monster who likes dancing.'],
         ['VENDALI(UM/OM) ', 'title'],
         ['Virgat(e)', 'title'],
         ['Wehmseiper', 'group?'],
