@@ -22,7 +22,7 @@ const addIndex = function(arr) {
 
 const fs = require('fs-extra');
 
-let output_array = addIndex(fs.readJSONSync('./db.json').bible);
+let output_array = addIndex(fs.readJSONSync('./db.json').title_occupation);
 
 fs.writeJSONSync('output.json', output_array);
 
