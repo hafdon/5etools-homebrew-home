@@ -1,4 +1,69 @@
 {
+  "factionclock": [
+    {
+      "name": "test 1",
+      "description": "test 1 clock",
+      "tags": [],
+      "start_date": "0",
+      "protension": "10",
+      "faction_id": null,
+      "id": 1
+    },
+    {
+      "name": "start at 5",
+      "description": "",
+      "tags": [],
+      "start_date": "5",
+      "protension": "5",
+      "faction_id": null,
+      "id": 2
+    },
+    {
+      "name": "start at 0 ",
+      "description": "",
+      "tags": [],
+      "start_date": "0",
+      "protension": "6",
+      "faction_id": null,
+      "id": 3
+    },
+    {
+      "name": "Paros large oven skills",
+      "description": "",
+      "tags": [],
+      "start_date": "3",
+      "protension": null,
+      "faction_id": null,
+      "id": 4
+    },
+    {
+      "name": " Joan and Paros drawn to a Dracolich",
+      "description": "",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "id": 5
+    },
+    {
+      "name": "Flick finds true source of goodberries",
+      "description": "It's Shoemaker Byte",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "id": 6
+    },
+    {
+      "name": "Someone finds a way to convert neutralized curse items into some form of power.",
+      "description": "",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "id": 7
+    }
+  ],
   "location": [
     {
       "name": "garth",
@@ -115,6 +180,56 @@
       "description": "North Tower is a non-magical reproduction of the original castle.",
       "tags": [],
       "id": 16
+    },
+    {
+      "name": "Kriobolion",
+      "description": "krioboly, n.\nView as: Outline |Full entryKeywords: On |OffQuotations: Show all |Hide all\nPronunciation:  /krʌɪˈɒbəli/\nFrequency (in current use):  \nEtymology: < late Greek κριοβόλιον, in 4th cent. Latin criobolium, < κρῑοβόλος ram-slaying.\nAncient Greek History.\nThesaurus »\nCategories »\n \n  A sacrifice in which many rams were slaughtered; a bath in the blood of rams.\n[1850   J. Leitch tr. K. O. Müller Ancient Art (new ed.) §422   A kriobolion of the Phrygian worship.]\n1879   F. W. Farrar Life & Work St. Paul I. v. xviii. 332   Such were the taurobolies and kriobolies—hideous blood baths.\n1882   F. W. Farrar Early Christianity 3 note   The taurobolies and kriobolies (baths in the blood of bulls and rams) mark the extreme sensuality of superstition.",
+      "tags": [
+        "fantastic"
+      ],
+      "id": 17
+    },
+    {
+      "name": "Serikos Isles",
+      "description": "Greek for silky, or anything of silk; also means Chinese.",
+      "tags": [
+        "region"
+      ],
+      "id": 18
+    },
+    {
+      "name": "Nimper Ni",
+      "description": "",
+      "tags": [
+        "region"
+      ],
+      "id": 19
+    },
+    {
+      "name": "Thold Country",
+      "description": "",
+      "tags": [],
+      "id": 20
+    },
+    {
+      "name": "Lake Drawger",
+      "description": "",
+      "tags": [
+        "geofeature"
+      ],
+      "id": 21
+    },
+    {
+      "name": "plunge pool",
+      "description": "",
+      "tags": [],
+      "id": 22
+    },
+    {
+      "name": " loting-place",
+      "description": "  n. a hiding place; a den.",
+      "tags": [],
+      "id": 23
     }
   ],
   "transcript": [
@@ -154,7 +269,7 @@
       "id": 3
     },
     {
-      "name": "BLOODFORGE CLAN",
+      "name": "Bloodforge Clan",
       "description": "The Bloodforge Clan comprises a group of Mountain Dwarves whose center of population is slightly north of Moradin's Collar in the Nephil Mountains.\n\n",
       "id": 4
     },
@@ -184,9 +299,10 @@
     },
     {
       "name": "The Cultists",
-      "clocks": "Free Bugg-Shash to begin to take over the land",
-      "description": "Prepare the marsh for B-S’s home\nKill the elemental keeping the continental shelf in place\nBuild the altar that B-S will use to anchor itself to the plane",
-      "id": 9
+      "clocks": "Free Bugg-Shash to begin to take over the land\nTake over Famasta Monastery",
+      "description": "Prepare the marsh for B-S’s home\nKill the elemental keeping the continental shelf in place\nBuild the altar that B-S will use to anchor itself to the plane\n\nSome of Maeve's students are TMK or Cultists posing as students and visiting teachers.",
+      "id": 9,
+      "npcs": "Burglespark"
     },
     {
       "name": "Ella Loop",
@@ -201,10 +317,10 @@
       "id": 11
     },
     {
-      "name": "Barazar ....",
-      "clocks": "Expose TMK\nDealing in illegal arms trading through Norman Barrelchest",
+      "name": "Barazar Sod",
+      "clocks": "Expose TMK\nDealing in illegal arms trading through Norman Barrelchest\nSecretly owns The Dark Song (vessel) kraken hunter",
       "id": 12,
-      "description": "Stakes: Dealing in illegal arms trading through Norman Barrelchest> loss of standing in town if people found out"
+      "description": "Stakes: Dealing in illegal arms trading through Norman Barrelchest> loss of standing in town if people found out\n\nSilent partner behind Dimpleweed’s Martial Academy"
     },
     {
       "name": "Raul ",
@@ -273,7 +389,7 @@
       "name": "Teallach Gormflaith",
       "description": "ghouls / ghasts - heroic oral celtic culture\n\ntwo creatures that look like avatar or githyanki\ndressed in hides that don't conform well to bodies\ncarrying large metal staves, hoooked at end, with barbed points\ntalking about supposed to meet kinsmen coming in on placid beast, and worried about not having seen them\n\nmetal staves are made with red alloy\n[ when he got to throttlebottom, he gave arlan the metal they picked up from the warehouse]\n\"how did you come by those staves ; they are very interesting\"\n[i hand steve the … lady logo]\nstaffs are symbol of becoming a sailor\n\nrecently we've been trading for this metal (scintillating, never rust, hard and keep a fine point). \nwe were coming here also to get more of these weapons (metal)\na good weapon is worth more than its weight in gold\n",
       "id": 25,
-      "npcs": "one is female, one male\nvishara, and yvonna\nwere supposed to meet kinsmen traveling on placid beast from up north; heard that ship went down\nit was supposed to dock in marshbout\n"
+      "npcs": "one is female, one male\nvishara, and yvonna\nwere supposed to meet kinsmen traveling on placid beast from up north; heard that ship went down it was supposed to dock in marshbout\n- Farog Vell"
     },
     {
       "name": "twohorns band",
@@ -308,8 +424,8 @@
       "id": 31
     },
     {
-      "name": "The Red Cannon",
-      "description": " -- strange cult; proselytize about theories of incarnation; how we are all born from the world, which is a mother, so we have a mother body that follows us around, we make our way into the cosmos through a material body; for one such as myself who likes to believe there is more, a divine element, rather than just the corporeal, it struck sort of a nasty note and we had a long property dispute; they did something to the building before they left that rendered it uninhabitable \n\nstructural damage is only outward manifestation\nthey can ruin material world in such a deep way as to whatever magical efforts to rectify it\nsome of the best mages have no idea what's going on\nthey left on their own\ni did do unsavory things to get them out of their\n",
+      "name": "The Red Cannon / ainensilta (The Red Bridges or Blood Bridges)",
+      "description": " -- strange cult; proselytize about theories of incarnation; how we are all born from the world, which is a mother, so we have a mother body that follows us around, we make our way into the cosmos through a material body; for one such as myself who likes to believe there is more, a divine element, rather than just the corporeal, it struck sort of a nasty note and we had a long property dispute; they did something to the building before they left that rendered it uninhabitable \n\nstructural damage is only outward manifestation\nthey can ruin material world in such a deep way as to whatever magical efforts to rectify it\nsome of the best mages have no idea what's going on\nthey left on their own\ni did do unsavory things to get them out of their\n\ncall their members  clocha (members ; lit. stones ) \n",
       "id": 32
     },
     {
@@ -319,8 +435,8 @@
       "id": 33
     },
     {
-      "name": "Sleeper Smiths",
-      "description": "front for the people she works for, Sleeper Smiths\n[...] are newsboys and people who sell flowers, roses, handout fliers, an urchin guild\nactual organization specializes in espionage \npaper run by richard ruffan ; the paper is called The Cobblestones; paper uses information to threaten to blackmail ",
+      "name": " sudraba nagi [silversmiths]",
+      "description": " sudraba nagi [silversmiths]: \n\nare newsboys and people who sell flowers, roses, handout fliers, an urchin guild\nactual organization specializes in espionage \npaper run by richard ruffan ; the paper is called The Cobblestones; paper uses information to threaten to blackmail ",
       "id": 34
     },
     {
@@ -335,17 +451,14 @@
       "clocks": "Take Swampskull Altar back from cultists"
     },
     {
-      "name": "A band of squirrels that take care of Joan",
-      "id": 38
+      "name": "булочки\n",
+      "id": 38,
+      "description": "('bulochki') : \"buns\"\n\nA band of squirrels that take care of Joan"
     },
     {
-      "name": " ainensilta (The Red Bridges or Blood Bridges)",
-      "description": "scavenger gang?",
-      "id": 39
-    },
-    {
-      "name": "“why we age and why we don’t have to”",
-      "id": 40
+      "name": "Izzliijiu (cult/god)",
+      "id": 40,
+      "description": "“why we age and why we don’t have to”"
     },
     {
       "name": "Norman Barrelchest",
@@ -361,6 +474,57 @@
       "name": "Trollwool processing",
       "description": "Troll wool is use to make interesting clothing (shiftweave); but at the cost of endorsing terrible production methods (... ?)",
       "id": 43
+    },
+    {
+      "name": "Izzsalkusaam",
+      "description": "the body eater / (\"that which hungers\" -- some kind of elder god",
+      "id": 44,
+      "npcs": "Modiwart\nNunce\nParhock\nScritch\nSir Tyndale Froppingcloth (as a front)"
+    },
+    {
+      "name": "Crenge",
+      "description": "Middle Dutch crenge carrion, carcass; of uncertain origin. ",
+      "id": 45
+    },
+    {
+      "name": "the Union of Essences ",
+      "id": 46
+    },
+    {
+      "name": "Zombie Cats",
+      "description": "Zombified cats, harmless but terrifying, and with fairly short self-limiting lifespans, have been seen on the outskirts of town.",
+      "id": 47
+    },
+    {
+      "name": "Eth ĕlōhāi",
+      "description": "In Genesis xxxi. 30, Laban the Aramæan calls them eth ĕlōhāi ‘my gods’.",
+      "id": 48
+    },
+    {
+      "description": "mountain pastoralists and they consistently rejected agricultural toil\n\nhttps://en.wikipedia.org/wiki/Transhumance (a type of pastoralism or nomadism, a seasonal movement of livestock between fixed summer and winter pastures. )\n\nIt is often important to pastoralist societies, as the dairy products of transhumance flocks and herds (milk, butter, yogurt and cheese) may form much of the diet of such populations. In many languages there are words for the higher summer pastures, and frequently these words have been used as place names: e.g. hafod in Wales and shieling in Scotland.",
+      "name": "x",
+      "id": 49
+    },
+    {
+      "name": "The power, and corrigible Authority",
+      "id": 50
+    },
+    {
+      "name": "Annoying Pail of Justice",
+      "id": 51
+    },
+    {
+      "name": "Veen's Scions",
+      "id": 52
+    },
+    {
+      "name": "Three School Best Friends Club",
+      "id": 53
+    },
+    {
+      "name": "Insanctuism",
+      "description": "a discipline",
+      "id": 54
     }
   ],
   "contributor": [
@@ -678,11 +842,6 @@
       "id": 10
     },
     {
-      "name": "Young Fustics",
-      "id": 11,
-      "claimed": true
-    },
-    {
       "name": "Rhus Cotinus",
       "id": 12
     },
@@ -691,8 +850,11 @@
       "id": 13
     },
     {
-      "name": "Sallender (elvy: asalandre) ('a dry scab affecting the hock of a horse')",
-      "id": 14
+      "name": "Sallender (elvy: asalandre) ",
+      "id": 14,
+      "description": "asalandre ('a dry scab affecting the hock of a horse')\nIzzsalkusaam: that which hungers\n\nWoman, hobgoblin, but wild, bony, Knowledge. Chaos, destruction. Sabotage. Servant of a plumber. Suspicious. Interests: antediluvian legends. Is blindly faithful to Izzsalkusaam: that which hungers\n\n (Consecration: Purify / bless cult followers with tattoos / scarification / mutilation.)\n\nTarget: Spy/informant. Work: locate or hide. The location moves around (magical? mobile? vessel, person, etc)\n\nconnected to a crew contact: Get to her before [another faction] do. Why do  [another faction] want her? She knows something about one a kraken hunter (or has a map-book or sea charts?), The Dark Song",
+      "fluff": "Beast Trainers. Hobgoblins have a long history of training animals to service. Like the more civilized races, they use oxen and horses to transport goods and weaponry over long distances. They communicate with each other using trained ravens, and keep vicious wolves to guard prisoners and protect hobgoblin camps. Hobgoblin cavalry use trained worgs as steeds, in the same way that goblins ride wolves. Some tribes even keep carnivorous apes as fighting beasts.",
+      "claimed": true
     },
     {
       "name": "Fray (Friar / Brother) Berwick",
@@ -767,12 +929,6 @@
       "id": 32
     },
     {
-      "name": "Nimper ni",
-      "id": 33,
-      "claimed": true,
-      "description": "a land or area "
-    },
-    {
       "name": "Smurk-a-bur",
       "id": 34
     },
@@ -796,7 +952,7 @@
       "description": "(mr/mrs) "
     },
     {
-      "name": "Enix [enixly: forcefully; stringently]  Brackmart / Braquemard Harsnett",
+      "name": "Enix [enixly: forcefully; stringently] ",
       "id": 40
     },
     {
@@ -1378,7 +1534,7 @@
       "claimed": true,
       "fluff": "Barazar’s confidant and shipping agent for Marshbout Port.\nAs an Aasimar, Elexar appears to be the paragon of law and goodness. However, he was sent here in order to spy on the Bugg-Shash. Since Aasimar have resistance some kinds of evil, it was believed that he would serve as a trustworthy agent, but contact with evil of this magnitude turned him petty, avaricious, and vindictive, ",
       "description": "\"(female) while still maintaining the appearance of a beautiful angelic humanoid. \nHer skin is a beautiful silver-gold, but on inspection it looks more to be grey and jaundiced, reflecting her susception to evil. \nridiculous mannerisms :\ncan lie extremely still, prefers not to use chairs but recline on the ground\nholds her hands kind of like handles at her sides\nwants to retire by the sea\nlarge, opinionated, and baroque signature\nextraordinarily light handshake (more like brushing someone’s hand)\nornamentation\nshowing earring with three pendants\"\n",
-      "habitus": "",
+      "habitus": "Elethar Vielle is an untrustworthy loan shark and intentionally robs or thwarts the ventures of his borrowers in order to indebt them to himself while profiting from the stolen goods.",
       "quotes": "",
       "pronunciation": "",
       "id": 135
@@ -1522,6 +1678,236 @@
       "quotes": "",
       "pronunciation": "",
       "id": 149
+    },
+    {
+      "name": "Timothea Dimpleweed",
+      "claimed": true,
+      "fluff": "",
+      "description": "she, her, hers) Senior swordsperson and co-owner of  the eponymous martial academy. brosse haircut. uses lathi (stick bound at short intervals with iron rings)\n\nThe child Meliona left with the townsfolk became Timothea Dimpleweed, named after the family that adopted her.)",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 150
+    },
+    {
+      "name": "Odrienne Welker",
+      "claimed": true,
+      "fluff": "",
+      "description": "occult collector is a rival a woman)\nslim, stooped, disfigured / maimed\ngoals: chaos/destruction & love\nhas connections with ... \nArrogant\nFine clothes, jewelry, furs\nInherited their position. May not deserve / want it.\nmethods: espionage, arcane",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 151
+    },
+    {
+      "name": "Szmata",
+      "claimed": null,
+      "fluff": "",
+      "description": "Polish szmata, rag.",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 152
+    },
+    {
+      "name": "Barazar Sod",
+      "claimed": null,
+      "fluff": "",
+      "description": "Silent partner behind Dimpleweed’s Martial Academy",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 153
+    },
+    {
+      "name": "Tulipant \"Tulip\"",
+      "claimed": null,
+      "fluff": "",
+      "description": "early english form of \"turban\"\n",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 154
+    },
+    {
+      "name": "Keréték.\n",
+      "claimed": null,
+      "fluff": "",
+      "description": "< Indonesian keréték.\nThesaurus »\nCategories »\n \n  In Java, a cigarette containing cloves.",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 155
+    },
+    {
+      "name": "Lanterloo the Blemmere (plumber)",
+      "claimed": true,
+      "fluff": "",
+      "description": "asalandre works for them",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 156
+    },
+    {
+      "name": "Burglespark",
+      "claimed": null,
+      "fluff": "",
+      "description": "one of the cultists \n's interpretation of spreading terror is incomplete and skewed, as it must be for a mortal trying to comprehend a Great Old One.",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 157
+    },
+    {
+      "name": "Elvira",
+      "claimed": null,
+      "fluff": "",
+      "description": "Elvire is alike in pronunciation to Alvar. Other recommended sound-alike names are Almire (see Almera), Alvie, Alvine, Blaire▲, Claire▲, Edvige, Eire, Elaine▼, Elberge (see Alberga), Elfie, Elfre, Elfrea (see Alfreda), Elice, Eline, Elise▲, Elize, Elkie, Ellice, Ellie▲, Elmira▼, Eloise▲, Elsie▼, Elvene, Elvi, Elvia, Elvine, Elvis, Evie▲, Evvie and Klaire. These names tend to be more frequently used than Elvire.",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 158
+    },
+    {
+      "name": "Shoemaker Byte",
+      "claimed": true,
+      "fluff": "Shoemaker Byte is a legit bear. She has paws capable of dextrous object manipulation as well as claw-type enmurderment. She stands 11 ft. tall at the shoulder and weighs half a ton. She {@bold hates} forest fires.'",
+      "description": "see zorq 5e ",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 159
+    },
+    {
+      "name": "head in a wall",
+      "claimed": null,
+      "fluff": "",
+      "description": "\"bone breast\", \"not you're mine\" \"that sounds---\", ",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 160
+    },
+    {
+      "name": "brain that lives under bed",
+      "claimed": null,
+      "fluff": "",
+      "description": "\"i'm gonna eat those queens\" \"you're wriggling around\"",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 161
+    },
+    {
+      "name": " Brackmart / Braquemard Harsnett",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 162
+    },
+    {
+      "name": "Hautesse",
+      "claimed": null,
+      "fluff": "",
+      "description": "  Highness, height; loftiness of rank or character, nobility; haughtiness, pride; grandeur, stateliness; length (of time).",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 163
+    },
+    {
+      "name": "Galerus",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 164
+    },
+    {
+      "name": "Herex the Violent",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 165
+    },
+    {
+      "name": "The Mindweaver",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 166
+    },
+    {
+      "name": "Hurf Maltmare",
+      "claimed": null,
+      "fluff": "",
+      "description": "a malty nightmare",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 167
+    },
+    {
+      "name": "Otto M. Cally",
+      "claimed": null,
+      "fluff": "",
+      "description": "(auto-magically)",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 168
+    },
+    {
+      "name": "Poggis Larbatch",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 169
+    },
+    {
+      "name": "Baft",
+      "claimed": null,
+      "fluff": "",
+      "description": "< Persian baft, wrought, woven.",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 170
+    },
+    {
+      "name": "lotus",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 171
+    },
+    {
+      "name": "Flumpet",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 172
     }
   ],
   "description": [
@@ -1957,83 +2343,255 @@
         "trait"
       ],
       "id": 101
+    },
+    {
+      "content": "kreyscloth, n.\n \n  A kind of linen fabric.\n1507   in E. Hobhouse Churchwardens' Accts. (1890) 129   Kreys-cloth and holland bought for bordclothes and surplices.",
+      "tags": [
+        "clothing"
+      ],
+      "id": 102
+    },
+    {
+      "content": "Clothing words listed in the Oxford English Dictionary as “some kind of fabric” or “of unknown origin”: cannequin, gazda, grogram, gulix, huckaback, kreyscloth, lockram, novato, prunella, puleray, sannah, shagreen, Ticklenburgs, and wadmal.",
+      "tags": [
+        "clothing"
+      ],
+      "id": 103
+    },
+    {
+      "content": "qiviut: Inuktitut word for muskox wool; said to be eight times warmer than sheep’s wool.",
+      "tags": [
+        "clothing"
+      ],
+      "id": 104
+    },
+    {
+      "content": "seersucker: Light striped fabric with crimped surface; from Persian šīr-o-šakar, meaning milk and sugar.\n\n It is a low-profit, high-cost item because of its slow weaving speed.",
+      "tags": [
+        "clothing",
+        "hook"
+      ],
+      "id": 105
+    },
+    {
+      "content": "But to returne to our Chymical Oyles, supposing that they were exactly pure; Yet I hope they would be, as the best spirit of Wine is, but the more inflamable and deflagrable.",
+      "tags": [
+        "props",
+        "business"
+      ],
+      "id": 106
+    },
+    {
+      "content": "subligaculum: Roman underpants made of leather or linen, worn as a pair of shorts or as a loincloth wrapped around lower body.",
+      "tags": [
+        "clothing"
+      ],
+      "id": 107
+    },
+    {
+      "content": " The worn track..which POWs ‘pounded’ or ‘bashed’ (walked) for hours at a time.",
+      "tags": [],
+      "id": 108
+    },
+    {
+      "content": " A black residuum is left..which..when heated..is found to be deflagrating.",
+      "tags": [],
+      "id": 109
+    },
+    {
+      "content": "A telluride of gold and silver, found in prismatic crystals.",
+      "tags": [],
+      "id": 110
+    },
+    {
+      "content": " spagnolet, n.\n  ‘A kind of narrow-sleeved gown, a la Spagnole’ ( Fop Dict. 1690).",
+      "tags": [
+        "clothing"
+      ],
+      "id": 111
+    },
+    {
+      "content": "a wearing hat",
+      "tags": [],
+      "id": 112
+    },
+    {
+      "content": "a Cap made of skin in the form of a Helmet.",
+      "tags": [
+        "armor",
+        "clothing"
+      ],
+      "id": 113
+    },
+    {
+      "content": "ventripotent:\n- having a big belly\n- Having great capacity of stomach; gluttonous.",
+      "tags": [],
+      "id": 114
+    },
+    {
+      "content": "lotic: inhabiting rivers and streams.; living in moving water",
+      "tags": [],
+      "id": 115
+    },
+    {
+      "content": "ebriety\nDrunkenness; intoxication by spirituous liquors; derangement of the mental functions caused by drink.\nfigurative. Excitement, an excited condition.",
+      "tags": [],
+      "id": 116
+    },
+    {
+      "content": "dactylonomy\nThe art of counting or numbering on the fingers.",
+      "tags": [],
+      "id": 117
+    },
+    {
+      "content": "biophony\nthe cumulative non-human sound produced by living organisms in a given biome.",
+      "tags": [
+        "nature"
+      ],
+      "id": 118
     }
   ],
   "position": [
-    [
-      {
-        "name": "hanaster (or members of the trading corporation.) : The name given (in the city of Oxford) to persons paying the entrance-fee of the guild-merchant (see Hanse n. 2), and admitted as Freeman of the City.",
-        "id": 1
-      },
-      {
-        "name": "sonkusq [algonquin]  queen",
-        "id": 2
-      },
-      {
-        "name": "salfay:  The reward paid to the finder and restorer of lost goods.",
-        "id": 3
-      },
-      {
-        "name": "diaskeuast: a reviser (esp. recensions of ancient writing)",
-        "id": 4
-      },
-      {
-        "name": "blemmere (obs. a plumber)",
-        "id": 5
-      },
-      {
-        "name": "archigrapher / archigraphus: the chief secretary or principal clerk",
-        "id": 6
-      },
-      {
-        "name": "archmimic / archmime: the principal player or chief jester or buffoon; the chief mimic; in a funeral procession (roman) imitated gait and gestures of deceased and living",
-        "id": 7
-      },
-      {
-        "name": "lanceprisado / Lancepezzades: a noncom of the lowest grade",
-        "id": 8
-      },
-      {
-        "name": "stadholder: the governor of a fortress; a lieutenant governor of a province or provinces",
-        "id": 9
-      },
-      {
-        "name": "stadionicest (from nike, victory, to conquer): a winner in a stadium or foot race",
-        "id": 10
-      },
-      {
-        "name": "self-styled 'controversialist'",
-        "id": 11
-      },
-      {
-        "name": "preaetergredi : one who goes beyond or surpasses / to overlook",
-        "id": 12
-      },
-      {
-        "name": "chickabiddy: a young child",
-        "id": 13
-      },
-      {
-        "name": "costermonger / fructier: orig. apple seller; someone who sells fruit, vegetables, fish from barrow or handcart",
-        "id": 14
-      },
-      {
-        "name": "rímkænn skilled in calendrical computation.",
-        "id": 15
-      },
-      {
-        "name": "reim-kennar a person skilled in magic rhymes.— letterato: a learned person",
-        "id": 16
-      },
-      {
-        "name": "stócach idler. (irish) ( walking gentlemen, as they are termed; men who have nothing to do, and no fortune to support them, but who style themselves esquire.)— disobstetricator [disobstretricate:  transitive. To reverse the office of a midwife concerning; to retard or hinder from child-birth.]",
-        "id": 17
-      },
-      {
-        "name": " a beadle / bedel  (an official of a church or synagogue who may usher, keep order, make reports, and assist in religious functions; or a minor official who carries out various civil, educational, or ceremonial duties.)",
-        "id": 18
-      }
-    ]
+    {
+      "name": "hanaster ",
+      "id": 1,
+      "description": "(or members of the trading corporation.) : The name given (in the city of Oxford) to persons paying the entrance-fee of the guild-merchant (see Hanse n. 2), and admitted as Freeman of the City."
+    },
+    {
+      "name": "sonkusq",
+      "id": 2,
+      "description": " [algonquin]  queen"
+    },
+    {
+      "name": "salfay",
+      "id": 3,
+      "description": "The reward paid to the finder and restorer of lost goods."
+    },
+    {
+      "name": "diaskeuast",
+      "id": 4,
+      "description": ": a reviser (esp. recensions of ancient writing)"
+    },
+    {
+      "name": "blemmere (obs. a plumber)",
+      "id": 5
+    },
+    {
+      "name": "archigrapher / archigraphus",
+      "id": 6,
+      "description": ": the chief secretary or principal clerk"
+    },
+    {
+      "name": "archmimic / archmime",
+      "id": 7,
+      "description": ": the principal player or chief jester or buffoon; the chief mimic; in a funeral procession (roman) imitated gait and gestures of deceased and living"
+    },
+    {
+      "name": "lanceprisado / Lancepezzades",
+      "id": 8,
+      "description": ": a noncom of the lowest grade"
+    },
+    {
+      "name": "stadholder",
+      "id": 9,
+      "description": ": the governor of a fortress; a lieutenant governor of a province or provinces"
+    },
+    {
+      "name": "stadionicest",
+      "id": 10,
+      "description": " (from nike, victory, to conquer): a winner in a stadium or foot race"
+    },
+    {
+      "name": "self-styled 'controversialist'",
+      "id": 11
+    },
+    {
+      "name": "preaetergredi",
+      "id": 12,
+      "description": " : one who goes beyond or surpasses / to overlook"
+    },
+    {
+      "name": "chickabiddy: a young child",
+      "id": 13
+    },
+    {
+      "name": "costermonger / fructier",
+      "id": 14,
+      "description": ": orig. apple seller; someone who sells fruit, vegetables, fish from barrow or handcart"
+    },
+    {
+      "name": "rímkænn skilled in calendrical computation.",
+      "id": 15
+    },
+    {
+      "name": "reim-kennar",
+      "id": 16,
+      "description": " a person skilled in magic rhymes"
+    },
+    {
+      "name": "stócach",
+      "id": 17,
+      "description": " idler. (irish) ( walking gentlemen, as they are termed; men who have nothing to do, and no fortune to support them, but who style themselves esquire.)"
+    },
+    {
+      "name": " a beadle / bedel",
+      "id": 18,
+      "description": "  (an official of a church or synagogue who may usher, keep order, make reports, and assist in religious functions; or a minor official who carries out various civil, educational, or ceremonial duties.)"
+    },
+    {
+      "name": "letterato",
+      "description": ": a learned person",
+      "tags": [],
+      "id": 19
+    },
+    {
+      "name": "spagyrist",
+      "description": "an alchemist",
+      "tags": [],
+      "id": 20
+    },
+    {
+      "name": "vadraktk",
+      "description": " [leader].",
+      "tags": [],
+      "id": 21
+    },
+    {
+      "name": "disobstetricator",
+      "description": " [disobstretricate:  transitive. To reverse the office of a midwife concerning; to retard or hinder from child-birth.]",
+      "tags": [],
+      "id": 22
+    },
+    {
+      "name": "paroch",
+      "description": "some kind of religious position or title",
+      "tags": [],
+      "id": 23
+    },
+    {
+      "name": "spåkvinna",
+      "description": "swedish: fortune teller\n(spawk vee nah)",
+      "tags": [],
+      "id": 24
+    },
+    {
+      "name": "kiromant",
+      "description": "swedish. shhh ee row mahn (palmist)",
+      "tags": [],
+      "id": 25
+    },
+    {
+      "name": "cristatus",
+      "description": "The specific name, cristatus, comes from Latin and means \"provided with a comb\", relating to their mane.",
+      "tags": [],
+      "id": 26
+    },
+    {
+      "name": "melodist",
+      "description": "a singer; a musician\na person skilled in composing or producing melody",
+      "tags": [],
+      "id": 27
+    }
   ],
   "work": [
     {
@@ -2202,6 +2760,33 @@
       "description": "",
       "contributor": "",
       "id": 30
+    },
+    {
+      "title": "[real] The Sceptical Chymist or Chymico-Physical Doubts & Paradoxes, Touching the Spagyrist's Principles Commonly call'd Hypostatical; As they are wont to be Propos'd and Defended by the Generality of Alchymists. Whereunto is præmis'd Part of another Discourse relating to the same Subject.",
+      "contents": "",
+      "description": "http://www.gutenberg.org/files/22914/22914-8.txt",
+      "contributor": "",
+      "mechanics": "",
+      "attune": null,
+      "id": 31
+    },
+    {
+      "title": "[real] William Barnard Clarke · Narrative of the wreck of the 'Favorite' on the island of Desolation (Kerguelen Land) detailing the adventures, sufferings and privations of John Nunn; ed. by W.B. Clarke · 1850.\n\nLondon",
+      "contents": "",
+      "description": "",
+      "contributor": "",
+      "mechanics": "",
+      "attune": null,
+      "id": 32
+    },
+    {
+      "title": "The defixion of our Phansy upon what is most gross and sensible",
+      "contents": "",
+      "description": "",
+      "contributor": "",
+      "mechanics": "",
+      "attune": null,
+      "id": 33
     }
   ],
   "continuity": [
@@ -2462,17 +3047,6 @@
       "short description": "",
       "found @": "",
       "id": 27
-    },
-    {
-      "home": "11/17/2019",
-      "teg": "11/17/2019",
-      "type": "npc",
-      "alpha": "",
-      "name": "BARAZAR SOD",
-      "3x5": "",
-      "short description": "Silent partner behind Dimpleweed’s Martial Academy",
-      "found @": "",
-      "id": 28
     },
     {
       "home": "",
@@ -2891,17 +3465,6 @@
       "short description": "('THE GREY THROAT'); city of the Derro near KULGMARK; Derro in Mordenkainen",
       "found @": "",
       "id": 68
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "npc",
-      "alpha": "Dimpleweed, Timothea",
-      "name": "Dimpleweed, Timothea",
-      "3x5": "",
-      "short description": "(she, her, hers) Senior swordsperson and co-owner of  the eponymous martial academy. brosse haircut. uses lathi (stick bound at short intervals with iron rings)",
-      "found @": "",
-      "id": 69
     },
     {
       "home": "11/16",
@@ -4634,8 +5197,8 @@
       "home": "",
       "teg": "",
       "type": "magic item",
-      "alpha": "pr'lll",
-      "name": "",
+      "alpha": "",
+      "name": "pr'lll",
       "3x5": "",
       "short description": "",
       "found @": "",
@@ -4802,17 +5365,6 @@
       "alpha": "",
       "name": "",
       "3x5": "",
-      "short description": "Burglespark's interpretation of spreading terror is incomplete and skewed, as it must be for a mortal trying to comprehend a Great Old One.",
-      "found @": "",
-      "id": 263
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
       "short description": "Corvilla Sod is head of the Prehends in Cressida",
       "found @": "",
       "id": 265
@@ -4868,31 +5420,9 @@
       "alpha": "",
       "name": "",
       "3x5": "",
-      "short description": "Domonkos murdered everyone at the monastery one time when he got out during his fight against the BABA JEZDA (or PAROS 'remembered' through him)",
-      "found @": "",
-      "id": 270
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
       "short description": "Duergars of Grey Tongue involved in the arms trafficking ...",
       "found @": "",
       "id": 271
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "Elethar Vielle is an untrustworthy loan shark and intentionally robs or thwarts the ventures of his borrowers in order to indebt them to himself while profiting from the stolen goods.",
-      "found @": "",
-      "id": 272
     },
     {
       "home": "",
@@ -5205,17 +5735,6 @@
     {
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "Some of Maeve's students are TMK or Cultists posing as students and visiting teachers.",
-      "found @": "",
-      "id": 311
-    },
-    {
-      "home": "",
-      "teg": "",
       "type": "hook",
       "alpha": "",
       "name": "something dirty can't be made clean",
@@ -5245,17 +5764,6 @@
       "short description": "",
       "found @": "",
       "id": 315
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "The child Meliona lefft with the townsfolk became Timothea Dimpleweed, named after the family that adopted her.)",
-      "found @": "",
-      "id": 317
     },
     {
       "home": "11/17/2019",
@@ -5304,22 +5812,22 @@
     {
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
+      "type": "hook",
       "alpha": "",
-      "name": "",
+      "name": "Their spouse died.",
       "3x5": "",
-      "short description": "Their spouse died.",
+      "short description": "",
       "found @": "",
       "id": 323
     },
     {
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
+      "type": "secrets clues",
       "alpha": "",
-      "name": "",
+      "name": "They don't own any X (e.g. pigs).",
       "3x5": "",
-      "short description": "They don't own any X (e.g. pigs).",
+      "short description": "",
       "found @": "",
       "id": 324
     },
@@ -5328,9 +5836,9 @@
       "teg": "",
       "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "They've been asleep for 5 (five) years.",
       "3x5": "",
-      "short description": "They've been asleep for 5 (five) years.",
+      "short description": "",
       "found @": "",
       "id": 325
     },
@@ -5410,17 +5918,6 @@
       "short description": "When Tantegorisch abandoned her (Meliona?), she lost her patron and her powers, after which von Veen cast her out with the remaining child.",
       "found @": "",
       "id": 333
-    },
-    {
-      "home": "",
-      "teg": "11/22/2019",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "Zombified cats, harmless but terrifying, and with fairly short self-limiting lifespans, have been seen on the outskirts of town.",
-      "found @": "",
-      "id": 334
     },
     {
       "home": "",
@@ -5612,13 +6109,35 @@
     {
       "home": "",
       "teg": "",
-      "type": "",
+      "type": "magic flora",
       "alpha": "",
-      "name": "paroch",
+      "name": "Moly",
       "3x5": "",
-      "short description": "some kind of religious position or title",
+      "short description": " is..the magical herb with a milk-white flower which Hermes gave to Odysseus and with which he changed himself back from swinehood.",
       "found @": "",
       "id": 353
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "",
+      "alpha": "",
+      "name": "blookcake rolls",
+      "3x5": "",
+      "short description": "bread rolls, or hostess rolls ",
+      "found @": "",
+      "id": 354
+    },
+    {
+      "home": "",
+      "teg": "",
+      "type": "magic item",
+      "alpha": "",
+      "name": "respectacles",
+      "3x5": "",
+      "short description": "???",
+      "found @": "",
+      "id": 355
     }
   ],
   "recap": [
