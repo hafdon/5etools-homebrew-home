@@ -58,7 +58,7 @@ module.exports = {
                 {
                     type: 'entries',
                     name: 'Items',
-                    entries: '{@item multicolored stone disc|zorq}',
+                    entries: ['{@item multicolored stone disc|zorq}'],
                 },
                 {
                     type: 'entries',

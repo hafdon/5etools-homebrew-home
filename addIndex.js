@@ -20,9 +20,35 @@ const addIndex = function(arr) {
     return arr;
 };
 
+const convertToNpc = function(arr) {
+    let index = 186;
+
+    return arr.map(el => {
+        let obj = {
+            name: el[0],
+            description: el[1],
+            id: index++,
+        };
+
+        return obj;
+    });
+};
+
+const convertTypeToTags = function(arr) {
+    return arr.map(({ type = '', tags = [], ...rest }) => {
+        return {
+            tags: [...tags, ...type.split(' ')],
+            ...rest,
+        };
+    });
+};
+
+// const { rows } = require('./marshbout npcs.js');
+
 const fs = require('fs-extra');
 
-let output_array = addIndex(fs.readJSONSync('./db.json').title_occupation);
+let output_array = convertTypeToTags(fs.readJSONSync('./db.json').bible);
+// let output_array = convertToNpc(rows);
 
 fs.writeJSONSync('output.json', output_array);
 
