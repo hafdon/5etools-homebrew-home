@@ -1,40 +1,14 @@
 {
   "factionclock": [
     {
-      "name": "test 1",
-      "description": "test 1 clock",
-      "tags": [],
-      "start_date": "0",
-      "protension": "10",
-      "faction_id": null,
-      "id": 1
-    },
-    {
-      "name": "start at 5",
-      "description": "",
-      "tags": [],
-      "start_date": "5",
-      "protension": "5",
-      "faction_id": null,
-      "id": 2
-    },
-    {
-      "name": "start at 0 ",
-      "description": "",
-      "tags": [],
-      "start_date": "0",
-      "protension": "6",
-      "faction_id": null,
-      "id": 3
-    },
-    {
       "name": "Paros large oven skills",
       "description": "",
       "tags": [],
       "start_date": "3",
       "protension": null,
       "faction_id": null,
-      "id": 4
+      "id": 4,
+      "prep": true
     },
     {
       "name": " Joan and Paros drawn to a Dracolich",
@@ -43,7 +17,8 @@
       "start_date": null,
       "protension": null,
       "faction_id": null,
-      "id": 5
+      "id": 5,
+      "prep": true
     },
     {
       "name": "Flick finds true source of goodberries",
@@ -62,6 +37,43 @@
       "protension": null,
       "faction_id": null,
       "id": 7
+    },
+    {
+      "name": "Bob creature being used as a magic cellphone tower",
+      "description": "[see image]",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "id": 8
+    },
+    {
+      "name": "rename the nurts, and call them neens",
+      "description": "",
+      "tags": [],
+      "start_date": "",
+      "protension": "",
+      "faction_id": null,
+      "id": 9
+    },
+    {
+      "name": "heard that the deep gnomes are intending to capture the bridge zorbo to …",
+      "description": "",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "id": 10
+    },
+    {
+      "name": "Paros smell spells",
+      "description": "",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": null,
+      "id": 11
     }
   ],
   "location": [
@@ -230,6 +242,48 @@
       "description": "  n. a hiding place; a den.",
       "tags": [],
       "id": 23
+    },
+    {
+      "name": "",
+      "description": "",
+      "tags": [],
+      "id": 24
+    },
+    {
+      "name": "stock and block",
+      "description": ": everything, one's whole possessions. ",
+      "tags": [
+        "bar"
+      ],
+      "id": 25
+    },
+    {
+      "name": "Palastin Bar",
+      "description": "[dream thought]",
+      "tags": [
+        "bar"
+      ],
+      "id": 26
+    },
+    {
+      "name": "Windmill Lab",
+      "description": "(Western Marshbout) Jittery windmill; upper clerestory windows made of rainbow stained glass mosaics; massive bell-shaped cast iron furnace half-in and half-out of house; teetering on the edge of a chasm that's beginning to open; window structure designed by Ella",
+      "tags": [],
+      "id": 27
+    },
+    {
+      "name": "Oonyi Marsh",
+      "description": "marsh to the west of marshbout",
+      "tags": [
+        "geofeature"
+      ],
+      "id": 28
+    },
+    {
+      "name": "Church of Our Lady of the Dismal Future",
+      "description": "in marshbout",
+      "tags": [],
+      "id": 29
     }
   ],
   "transcript": [
@@ -261,7 +315,7 @@
     },
     {
       "name": "Dwarves of the Kulgmark",
-      "clocks": "",
+      "clocks": "The KULGMARK dwarves are the vigilant ones against this new force, to which the hill & mountain dwarves are ignorant;",
       "description": "KULGMARK dwarves catholic in their tastes, as single-mindedness is what got dwarves in trouble\n\nThe KULGMARK dwarves submit to these curses to atone for the immorality of dwarf-folk in general.",
       "turf": "",
       "npcs": "",
@@ -389,7 +443,8 @@
       "name": "Teallach Gormflaith",
       "description": "ghouls / ghasts - heroic oral celtic culture\n\ntwo creatures that look like avatar or githyanki\ndressed in hides that don't conform well to bodies\ncarrying large metal staves, hoooked at end, with barbed points\ntalking about supposed to meet kinsmen coming in on placid beast, and worried about not having seen them\n\nmetal staves are made with red alloy\n[ when he got to throttlebottom, he gave arlan the metal they picked up from the warehouse]\n\"how did you come by those staves ; they are very interesting\"\n[i hand steve the … lady logo]\nstaffs are symbol of becoming a sailor\n\nrecently we've been trading for this metal (scintillating, never rust, hard and keep a fine point). \nwe were coming here also to get more of these weapons (metal)\na good weapon is worth more than its weight in gold\n",
       "id": 25,
-      "npcs": "one is female, one male\nvishara, and yvonna\nwere supposed to meet kinsmen traveling on placid beast from up north; heard that ship went down it was supposed to dock in marshbout\n- Farog Vell"
+      "npcs": "one is female, one male\nvishara, and yvonna\nwere supposed to meet kinsmen traveling on placid beast from up north; heard that ship went down it was supposed to dock in marshbout\n- Farog Vell",
+      "clocks": "Find Sirmgalv (relation to zorbwood?)"
     },
     {
       "name": "twohorns band",
@@ -525,6 +580,38 @@
       "name": "Insanctuism",
       "description": "a discipline",
       "id": 54
+    },
+    {
+      "name": "Norvorian",
+      "description": "a group of people. ",
+      "id": 55
+    },
+    {
+      "name": "The witch brothers of Jagna [the lamb]",
+      "id": 56
+    },
+    {
+      "name": "Captimesive Light",
+      "id": 57
+    },
+    {
+      "name": "Ulthark ?",
+      "id": 58
+    },
+    {
+      "name": "Von Veen and Meliona",
+      "description": "\nForty years ago VON VEEN and Meliona (at the time a powerful elf warlock) conceived twin daughters.",
+      "id": 59
+    },
+    {
+      "description": "Hidden door leaving out of Domonkos' cavern had the backwards C symbol on it.",
+      "name": "XC symbols",
+      "id": 60
+    },
+    {
+      "name": "Maeve's Vigilantes",
+      "description": "Maeve conducts a successful Robin Hood operation on the TMK trade routes in the North using her trustworthy group of monks posing as highway robbers.",
+      "id": 61
     }
   ],
   "contributor": [
@@ -913,8 +1000,9 @@
       "id": 28
     },
     {
-      "name": "Stalch (mining: A piece of ground left uncut though all around has been worked.)",
-      "id": 29
+      "name": "Stalch ",
+      "id": 29,
+      "description": "(mining: A piece of ground left uncut though all around has been worked.)"
     },
     {
       "name": "Shtook (british: 'trouble') aka Dead Shtook",
@@ -1352,7 +1440,8 @@
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
-      "id": 116
+      "id": 116,
+      "claimed": true
     },
     {
       "name": "Fengari",
@@ -1471,7 +1560,7 @@
     },
     {
       "name": "Tusternoof",
-      "claimed": null,
+      "claimed": true,
       "fluff": "",
       "description": "Agent of Baphomet; ",
       "habitus": "",
@@ -1487,7 +1576,8 @@
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
-      "id": 130
+      "id": 130,
+      "etools": true
     },
     {
       "name": "Alark",
@@ -1513,7 +1603,7 @@
       "name": "Brent McCorkle",
       "claimed": true,
       "fluff": "",
-      "description": "A brewer by the ports in marshbout\n\nsmell of hops, yeast, and sea salt; puts you in mind of happier times; sokka remembers hangover from prior night\nlooks like a tidy brewery owned by a family; guy with sleeve garters and a leather apron\n",
+      "description": "A brewer by the ports in marshbout\n\nsmell of hops, yeast, and sea salt; puts you in mind of happier times; sokka remembers hangover from prior night\nlooks like a tidy brewery owned by a family; guy with sleeve garters and a leather apron\n\nfancy boy; ridiculous",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
@@ -1523,7 +1613,7 @@
       "name": "Tonteen",
       "claimed": true,
       "fluff": "",
-      "description": "weaver (textilist, textour < Latin textōr-em weaver.) / clothing maker: Tonteen / tontine (ton-teen)\nparamenter / tailor / \nin industrial district\n",
+      "description": "weaver (textilist, textour < Latin textōr-em weaver.) / clothing maker: Tonteen / tontine (ton-teen)\nparamenter / tailor / \nin industrial district\n\n \"TAHN-teen: some last-alive-gets-all schemer",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
@@ -1581,7 +1671,7 @@
     },
     {
       "name": "Spiner",
-      "claimed": null,
+      "claimed": true,
       "fluff": "",
       "description": "one of Tockletone's people who  they deal in some of my less public activities (but not mercenary)",
       "habitus": "",
@@ -1601,7 +1691,7 @@
     },
     {
       "name": "Felicity 'Longtooth' Barrelchest",
-      "claimed": null,
+      "claimed": true,
       "fluff": "skeleton rabbit familiar bonechewer",
       "description": "Sister to Norman. Female human wizard (necromancer)\n",
       "habitus": "",
@@ -1621,7 +1711,7 @@
     },
     {
       "name": "Curdella",
-      "claimed": null,
+      "claimed": true,
       "fluff": "",
       "description": "berry: A new acolyte, Curdella, had been tasked to get supplies and rum up awareness, and maintain our alliances with churches in Cressida and other towns. unfortunately she was attacked on the road coming back to cressida, and severely injured. with our help she made a full recovery, but we're worried someone has it out for the church. we have a few leads",
       "habitus": "",
@@ -1632,7 +1722,7 @@
     {
       "name": "Nozick",
       "claimed": true,
-      "fluff": " hyper-plane of the line surrounding each individual\nK-Force\nKankegorisch",
+      "fluff": " hyper-plane of the line surrounding each individual\nK-Force, Kankegorisch\n\n\"a person is the bracket around them\"",
       "description": "",
       "habitus": "",
       "quotes": "",
@@ -1711,7 +1801,7 @@
     },
     {
       "name": "Barazar Sod",
-      "claimed": null,
+      "claimed": true,
       "fluff": "",
       "description": "Silent partner behind Dimpleweed’s Martial Academy",
       "habitus": "",
@@ -1780,7 +1870,7 @@
       "id": 159
     },
     {
-      "name": "head in a wall",
+      "name": "[head in a wall]",
       "claimed": null,
       "fluff": "",
       "description": "\"bone breast\", \"not you're mine\" \"that sounds---\", ",
@@ -1800,7 +1890,7 @@
       "id": 161
     },
     {
-      "name": " Brackmart / Braquemard Harsnett",
+      "name": "Brackmart / Braquemard Harsnett",
       "claimed": null,
       "fluff": "",
       "description": "",
@@ -1908,6 +1998,1363 @@
       "quotes": "",
       "pronunciation": "",
       "id": 172
+    },
+    {
+      "name": "Lafalalath Falaemelef",
+      "claimed": null,
+      "fluff": "",
+      "description": "Well-fed, pinto skin, slick hair, ostentatious clothes. \nElven rarefied air spritzer\nviolin that she \"won\"\nfrom a Norvorian\nshe let her daughter get away and pissed off some witches and is colorblind",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 173
+    },
+    {
+      "name": "Tove",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "Toh-vee",
+      "id": 174
+    },
+    {
+      "name": "Pananamus",
+      "claimed": true,
+      "fluff": "",
+      "description": "Drav's childhoood girlfriend",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 175
+    },
+    {
+      "name": "Mustarhood",
+      "claimed": null,
+      "fluff": "",
+      "description": "\"old mustarhood man teaches three seniors\nand chased down ...",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "moo star hoo d",
+      "id": 176
+    },
+    {
+      "name": "Roose",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 177
+    },
+    {
+      "name": "Bilistine",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 178
+    },
+    {
+      "name": "Getathon",
+      "claimed": null,
+      "fluff": "",
+      "description": "some kind of angel",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 179
+    },
+    {
+      "name": "Root Poutier",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 180
+    },
+    {
+      "name": "Lazerks",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 181
+    },
+    {
+      "name": "Sprinkly",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 182
+    },
+    {
+      "name": "Great Poetius Coomb",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 183
+    },
+    {
+      "name": "Grönoff",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 184
+    },
+    {
+      "name": "Sapora Brightmist",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 185
+    },
+    {
+      "name": "Nancy O'Pug",
+      "description": "Human that Miri was shacking up with at Throttlebottom when the Two Horn Band kidnapped Sokka and Zedaar.",
+      "id": 186
+    },
+    {
+      "name": "Sir Dame Clippington Titchwillow",
+      "description": "clothes: bright, ill-fitting halfling clothes. hand-me-down baby-blue sleeveless thigh-length coat over an easter-yellow shirt, grey trousers, all under a thin oilcloth coat the color of stale sage.\nLanded lady.",
+      "id": 187,
+      "claimed": true,
+      "habitus": "\n(she, her, hers) Fez foil, a chaotic good rogue , raised by halflings after her drow parents helped an inferior drow family and were murdered. would do much eviller stuff, but this is the midpoint between halflings and drow. \n\nof the Wormbranch Titchwillows (three towns west of Cressida)\nwhy is she here? to … assassinate … someone (really a cover for … ?)"
+    },
+    {
+      "name": "Branda Earthlord",
+      "description": "{@creature Branda Earthlord|zorq}\nOne of the sisters guarding {@creature Soul Rock|zorq}",
+      "id": 188,
+      "claimed": true
+    },
+    {
+      "name": "Igno Red McGerf",
+      "description": "A stupid or oblivious dragon.",
+      "id": 189
+    },
+    {
+      "name": "Bog Frillan",
+      "description": "n/a",
+      "id": 190
+    },
+    {
+      "name": "Toestealer",
+      "description": "{@creature Toestealer|zorq}\n{\n  \"type\": \"entries\",\n  \"entries\": [\n    \"Miri think she hears someone talking about Toestealer and Owls.\",\n    \"A rum gremlin or goblin. Probably hangs out at Throttlebottom Hostlery or The Riskless Tavern.\"\n  ]\n}",
+      "id": 192,
+      "claimed": true
+    },
+    {
+      "name": "Claggash",
+      "description": "claw gash",
+      "id": 193
+    },
+    {
+      "name": "Krov",
+      "description": "n/a",
+      "id": 194
+    },
+    {
+      "name": "Spam Tompkins",
+      "description": "n/a",
+      "id": 195
+    },
+    {
+      "name": "Pete Ocking",
+      "description": "n/a",
+      "id": 196
+    },
+    {
+      "name": "Oojum",
+      "description": "",
+      "id": 197
+    },
+    {
+      "name": "Peronel",
+      "description": "n/a",
+      "id": 198
+    },
+    {
+      "name": "Finiendum",
+      "description": "elf; something that is or is to be defined, especially the term at the head of a dictionary entry.",
+      "id": 199
+    },
+    {
+      "name": "Munlin Serplepan",
+      "description": "n/a",
+      "id": 200
+    },
+    {
+      "name": "Flinty Hirsutulous",
+      "description": "A slightly hairy, obdurate, unmerciful person.",
+      "id": 201
+    },
+    {
+      "name": "Sir Voke Fit",
+      "description": "surfeit : voke as in vocare, to call or voice",
+      "id": 202
+    },
+    {
+      "name": "Flange Exgrigio",
+      "description": "n/a",
+      "id": 203
+    },
+    {
+      "name": "Moker Cornrack",
+      "description": "n/a",
+      "id": 204
+    },
+    {
+      "name": "Gorty Taygore",
+      "description": "n/a",
+      "id": 205
+    },
+    {
+      "name": "Dort Threed",
+      "description": "Commoner\n{@creature Dort Threed|zorq}",
+      "id": 206,
+      "claimed": true
+    },
+    {
+      "name": "Doodril Frogwarts",
+      "description": "Commoner\n{@creature Doodril Manacart|zorq}",
+      "id": 207,
+      "claimed": true
+    },
+    {
+      "name": "Sorashana",
+      "description": "Commoner",
+      "id": 208
+    },
+    {
+      "name": "Vishara",
+      "description": "Commoner",
+      "id": 209
+    },
+    {
+      "name": "Yvonna",
+      "description": "Commoner",
+      "id": 210
+    },
+    {
+      "name": "Tana",
+      "description": "Commoner",
+      "id": 211
+    },
+    {
+      "name": "Agnic",
+      "description": "lady",
+      "id": 212
+    },
+    {
+      "name": "Ulgor",
+      "description": "\"UHL gor, some kind of lightning-associated thing (dragonish?)",
+      "id": 213
+    },
+    {
+      "name": "Frustratio Huff",
+      "description": "Gnome? frustrated huff",
+      "id": 214
+    },
+    {
+      "name": "Waich Otter",
+      "description": "Way hotter",
+      "id": 215
+    },
+    {
+      "name": "Shuram, Shazan",
+      "description": "Sure Am, Shazam",
+      "id": 216
+    },
+    {
+      "name": "Karok Ensity",
+      "description": "character density",
+      "id": 218
+    },
+    {
+      "name": "Cavortletop",
+      "description": "",
+      "id": 220
+    },
+    {
+      "name": "Umpo and Onglo",
+      "description": "Maybe more of the earthlords ?",
+      "id": 221
+    },
+    {
+      "name": "Empo",
+      "description": "",
+      "id": 223
+    },
+    {
+      "name": "Resko",
+      "description": "",
+      "id": 224
+    },
+    {
+      "name": "Raggadochy",
+      "description": "rag uh DOH chee",
+      "id": 225
+    },
+    {
+      "name": "Petronella",
+      "description": "?",
+      "id": 226
+    },
+    {
+      "name": "Pell, Mell, Nell",
+      "description": "Three of the kobolds in the {@faction Two Horns|zorq} faction headquartered in the Marshbout marine district.",
+      "id": 227
+    },
+    {
+      "name": "Nub",
+      "description": "?",
+      "id": 228
+    },
+    {
+      "name": "Cotinaminous",
+      "description": "co-tinaminous (arm, arm)",
+      "id": 229
+    },
+    {
+      "name": "Jumps",
+      "description": "A jumpy little {@creature dogmole|zorq}",
+      "id": 230
+    },
+    {
+      "name": "Mr. Stabworthy",
+      "description": "",
+      "id": 231
+    },
+    {
+      "name": "Aargab",
+      "description": "gnoll",
+      "id": 232
+    },
+    {
+      "name": "Aaspar",
+      "description": "female ?? names",
+      "id": 233
+    },
+    {
+      "name": "Agnes",
+      "description": "hag first name",
+      "id": 234
+    },
+    {
+      "name": "Aguus",
+      "description": "female ?? names",
+      "id": 235
+    },
+    {
+      "name": "Almar",
+      "description": "",
+      "id": 237
+    },
+    {
+      "name": "Andak",
+      "description": "gnoll",
+      "id": 238
+    },
+    {
+      "name": "Arix",
+      "description": "lizard",
+      "id": 239
+    },
+    {
+      "name": "Arthur (Art) Tapples",
+      "description": "regular name",
+      "id": 240
+    },
+    {
+      "name": "Ashana",
+      "description": "quori",
+      "id": 241
+    },
+    {
+      "name": "Ashtai",
+      "description": "quori",
+      "id": 242
+    },
+    {
+      "name": "Aurangual",
+      "description": "mind flayer",
+      "id": 243
+    },
+    {
+      "name": "Beluar",
+      "description": "druid",
+      "id": 244
+    },
+    {
+      "name": "beoff",
+      "description": "",
+      "id": 245
+    },
+    {
+      "name": "Black",
+      "description": "hag title",
+      "id": 246
+    },
+    {
+      "name": "Cackling",
+      "description": "hag title",
+      "id": 247
+    },
+    {
+      "name": "Cephalossk",
+      "description": "mind flayer",
+      "id": 248
+    },
+    {
+      "name": "CHAGBURT/Cadgebort",
+      "description": "",
+      "id": 249
+    },
+    {
+      "name": "Cheek chunktar",
+      "description": "",
+      "id": 250
+    },
+    {
+      "name": "Corym",
+      "description": "druid",
+      "id": 251
+    },
+    {
+      "name": "Daealla",
+      "description": "druid",
+      "id": 252
+    },
+    {
+      "name": "Dalavash",
+      "description": "kalashtar",
+      "id": 253
+    },
+    {
+      "name": "Dastina",
+      "description": "",
+      "id": 254
+    },
+    {
+      "name": "Denaal",
+      "description": "female ?? names",
+      "id": 255
+    },
+    {
+      "name": "Dismal",
+      "description": "hag title",
+      "id": 256
+    },
+    {
+      "name": "Dolishara",
+      "description": "kalashtar",
+      "id": 257
+    },
+    {
+      "name": "Dove",
+      "description": "",
+      "id": 259
+    },
+    {
+      "name": "Dowson",
+      "description": "",
+      "id": 260
+    },
+    {
+      "name": "Draraar",
+      "description": "female ?? names",
+      "id": 261
+    },
+    {
+      "name": "Dread",
+      "description": "hag title",
+      "id": 262
+    },
+    {
+      "name": "Driftwood",
+      "description": "",
+      "id": 263
+    },
+    {
+      "name": "Drukt",
+      "description": "mind flayer",
+      "id": 264
+    },
+    {
+      "name": "Drusiss",
+      "description": "mind flayer",
+      "id": 265
+    },
+    {
+      "name": "Duusha",
+      "description": "female ?? names",
+      "id": 266
+    },
+    {
+      "name": "Ekhaas",
+      "description": "female ?? names",
+      "id": 267
+    },
+    {
+      "name": "Eltaeor",
+      "description": "druid",
+      "id": 268
+    },
+    {
+      "name": "Escant",
+      "description": "title",
+      "id": 269
+    },
+    {
+      "name": "Ethak",
+      "description": "gnoll",
+      "id": 270
+    },
+    {
+      "name": "Ett",
+      "description": "kobold",
+      "id": 271
+    },
+    {
+      "name": "Euonymus nick: \"last trace\"",
+      "description": "",
+      "id": 272
+    },
+    {
+      "name": "Extander Vleshmiy",
+      "description": "",
+      "id": 273
+    },
+    {
+      "name": "Eyeth",
+      "description": "gnoll",
+      "id": 274
+    },
+    {
+      "name": "Fawney Rig",
+      "description": "",
+      "id": 275
+    },
+    {
+      "name": "Fedlan",
+      "description": "",
+      "id": 276
+    },
+    {
+      "name": "Flamuelle",
+      "description": "",
+      "id": 277
+    },
+    {
+      "name": "Gaduul",
+      "description": "female ?? names",
+      "id": 278
+    },
+    {
+      "name": "garfod  the magcharfalent",
+      "description": "",
+      "id": 279
+    },
+    {
+      "name": "georbe",
+      "description": "",
+      "id": 280
+    },
+    {
+      "name": "Gerator",
+      "description": "title",
+      "id": 281
+    },
+    {
+      "name": "giblinoid",
+      "description": "",
+      "id": 282
+    },
+    {
+      "name": "Girdle",
+      "description": "",
+      "id": 283
+    },
+    {
+      "name": "Gnokles (NOH-cuhls)",
+      "description": "",
+      "id": 284
+    },
+    {
+      "name": "Goosewood",
+      "description": "",
+      "id": 285
+    },
+    {
+      "name": "Granny",
+      "description": "hag title",
+      "id": 286
+    },
+    {
+      "name": "Grash",
+      "description": "orc?",
+      "id": 287
+    },
+    {
+      "name": "Greenteeth",
+      "description": "hag last name",
+      "id": 288
+    },
+    {
+      "name": "Ha",
+      "description": "kalashtar",
+      "id": 289
+    },
+    {
+      "name": "Hareth",
+      "description": "quori",
+      "id": 290
+    },
+    {
+      "name": "Harlequino",
+      "description": "",
+      "id": 291
+    },
+    {
+      "name": "harney",
+      "description": "",
+      "id": 292
+    },
+    {
+      "name": "Hashak",
+      "description": "female ?? names",
+      "id": 293
+    },
+    {
+      "name": "Hebwith",
+      "description": "",
+      "id": 294
+    },
+    {
+      "name": "Hieronymo",
+      "description": "",
+      "id": 295
+    },
+    {
+      "name": "Hostrena Butterknife",
+      "description": "",
+      "id": 296
+    },
+    {
+      "name": "Benjaplom",
+      "description": "",
+      "id": 297
+    },
+    {
+      "name": "Gregonius",
+      "description": "",
+      "id": 298
+    },
+    {
+      "name": "[https://en.wiktionary.org/wiki/Category:Old_High_German_given_names]",
+      "description": "",
+      "id": 299
+    },
+    {
+      "name": "Hygglla ongott",
+      "description": "",
+      "id": 300
+    },
+    {
+      "name": "Ignar",
+      "description": "gnoll",
+      "id": 301
+    },
+    {
+      "name": "Innar",
+      "description": "",
+      "id": 302
+    },
+    {
+      "name": "Irtos",
+      "description": "kobold",
+      "id": 303
+    },
+    {
+      "name": "Isfand",
+      "description": "",
+      "id": 304
+    },
+    {
+      "name": "Ishara",
+      "description": "quori",
+      "id": 305
+    },
+    {
+      "name": "Janza / Ganza / Gazaca (\"Our treasure\")",
+      "description": "Gnoll towns",
+      "id": 306
+    },
+    {
+      "name": "Jheluum",
+      "description": "female ?? names",
+      "id": 307
+    },
+    {
+      "name": "Kashak",
+      "description": "kobold, lizard",
+      "id": 308
+    },
+    {
+      "name": "Kelaal",
+      "description": "female ?? names",
+      "id": 309
+    },
+    {
+      "name": "Khad",
+      "description": "quori",
+      "id": 310
+    },
+    {
+      "name": "Khoratari",
+      "description": "",
+      "id": 311
+    },
+    {
+      "name": "Knottypate",
+      "description": "",
+      "id": 312
+    },
+    {
+      "name": "Knucklebones",
+      "description": "hag last name",
+      "id": 313
+    },
+    {
+      "name": "Kosh",
+      "description": "quori",
+      "id": 314
+    },
+    {
+      "name": "lakosh",
+      "description": "",
+      "id": 315
+    },
+    {
+      "name": "leer",
+      "description": "unit of measure",
+      "id": 317
+    },
+    {
+      "name": "Leylan",
+      "description": "",
+      "id": 318
+    },
+    {
+      "name": "Locustay",
+      "description": "",
+      "id": 319
+    },
+    {
+      "name": "Lugribossk",
+      "description": "mind flayer",
+      "id": 320
+    },
+    {
+      "name": "Lummur",
+      "description": "",
+      "id": 321
+    },
+    {
+      "name": "Madge Parsons",
+      "description": "",
+      "id": 322
+    },
+    {
+      "name": "[Male Names: Aruget, Chetiin, Daavn, Dabrak, Dagii, Drevduul, Duulan, Fenic, Gudruun, Haluun, Haruuc, Jhazaal, Kallaad, Krakuul, Krootad, Mazaan]",
+      "description": "",
+      "id": 323
+    },
+    {
+      "name": "MARY COBBLESTONE",
+      "description": "",
+      "id": 324
+    },
+    {
+      "name": "Mathilda",
+      "description": "hag first name",
+      "id": 325
+    },
+    {
+      "name": "May",
+      "description": "hag first name",
+      "id": 326
+    },
+    {
+      "name": "Meepo",
+      "description": "kobold",
+      "id": 327
+    },
+    {
+      "name": "Melk",
+      "description": "quori",
+      "id": 328
+    },
+    {
+      "name": "Mensil(r/n)oy",
+      "description": "",
+      "id": 329
+    },
+    {
+      "name": "Middenheap",
+      "description": "hag last name",
+      "id": 330
+    },
+    {
+      "name": "Molavakri ",
+      "description": "",
+      "id": 331
+    },
+    {
+      "name": "Clough ",
+      "description": "",
+      "id": 332
+    },
+    {
+      "name": "Molo",
+      "description": "kobold",
+      "id": 333
+    },
+    {
+      "name": "Morgan",
+      "description": "hag first name",
+      "id": 334
+    },
+    {
+      "name": "Mudwallow",
+      "description": "hag last name",
+      "id": 335
+    },
+    {
+      "name": "Nari",
+      "description": "quori",
+      "id": 336
+    },
+    {
+      "name": "Nash",
+      "description": "",
+      "id": 337
+    },
+    {
+      "name": "Nasree",
+      "description": "female ?? names",
+      "id": 338
+    },
+    {
+      "name": "Natalie",
+      "description": "",
+      "id": 339
+    },
+    {
+      "name": "Nevitash ",
+      "description": "",
+      "id": 340
+    },
+    {
+      "name": "Nisi Siurp (SEE-urp)",
+      "description": "",
+      "id": 341
+    },
+    {
+      "name": "Nunce",
+      "description": "",
+      "id": 342
+    },
+    {
+      "name": "Odell",
+      "description": "",
+      "id": 343
+    },
+    {
+      "name": "Oduk",
+      "description": "gnoll",
+      "id": 344
+    },
+    {
+      "name": "Ohsoss",
+      "description": "kobold",
+      "id": 345
+    },
+    {
+      "name": "Olga",
+      "description": "hag first name",
+      "id": 347
+    },
+    {
+      "name": "Onfalon",
+      "description": "title",
+      "id": 348
+    },
+    {
+      "name": "ORP FREEN",
+      "description": "",
+      "id": 349
+    },
+    {
+      "name": "Otal",
+      "description": "gnoll",
+      "id": 350
+    },
+    {
+      "name": "Panzon",
+      "description": "",
+      "id": 351
+    },
+    {
+      "name": "PHERMASTAPHY",
+      "description": "title; location",
+      "id": 352
+    },
+    {
+      "name": "Pigtooth",
+      "description": "hag last name",
+      "id": 353
+    },
+    {
+      "name": "Pollyon \"Polly\"",
+      "description": "",
+      "id": 355,
+      "pronunciation": "(pahl-ee-ohn"
+    },
+    {
+      "name": "Queue Orius",
+      "description": "",
+      "id": 356
+    },
+    {
+      "name": "Quoor",
+      "description": "mind flayer",
+      "id": 357
+    },
+    {
+      "name": "Ragdar",
+      "description": "",
+      "id": 358
+    },
+    {
+      "name": "Rakari",
+      "description": "",
+      "id": 359
+    },
+    {
+      "name": "Ralayan",
+      "description": "mind flayer",
+      "id": 360
+    },
+    {
+      "name": "Raleen",
+      "description": "female ?? names",
+      "id": 361
+    },
+    {
+      "name": "Raznah",
+      "description": "",
+      "id": 362
+    },
+    {
+      "name": "Razu",
+      "description": "female ?? names",
+      "id": 363
+    },
+    {
+      "name": "Rekseen",
+      "description": "female ?? names",
+      "id": 364
+    },
+    {
+      "name": "Reksiit",
+      "description": "",
+      "id": 365
+    },
+    {
+      "name": "Rickety",
+      "description": "hag title",
+      "id": 366
+    },
+    {
+      "name": "ROJEK",
+      "description": "",
+      "id": 367
+    },
+    {
+      "name": "Rolphe Nustle",
+      "description": "",
+      "id": 368
+    },
+    {
+      "name": "Rotom",
+      "description": "kobold",
+      "id": 369
+    },
+    {
+      "name": "S’venchen",
+      "description": "mind flayer",
+      "id": 370
+    },
+    {
+      "name": "Sagin",
+      "description": "kobold",
+      "id": 371
+    },
+    {
+      "name": "Sally",
+      "description": "hag first name",
+      "id": 372
+    },
+    {
+      "name": "Sardsult",
+      "description": "mind flayer",
+      "id": 373
+    },
+    {
+      "name": "Scudge Horpoth",
+      "description": "",
+      "id": 374
+    },
+    {
+      "name": "Senen",
+      "description": "female ?? names",
+      "id": 375
+    },
+    {
+      "name": "Shahar",
+      "description": "",
+      "id": 376
+    },
+    {
+      "name": "Shedroor",
+      "description": "female ?? names",
+      "id": 377
+    },
+    {
+      "name": "Sik",
+      "description": "kobold",
+      "id": 378
+    },
+    {
+      "name": "Sleggy",
+      "description": "",
+      "id": 380
+    },
+    {
+      "name": "Sniv",
+      "description": "kobold",
+      "id": 381
+    },
+    {
+      "name": "Tajiin",
+      "description": "female ?? names",
+      "id": 383
+    },
+    {
+      "name": "Taklak",
+      "description": "lizard, kobold",
+      "id": 384
+    },
+    {
+      "name": "Tari",
+      "description": "quori",
+      "id": 387
+    },
+    {
+      "name": "Tariic",
+      "description": "",
+      "id": 388
+    },
+    {
+      "name": "Taruuzh",
+      "description": "",
+      "id": 389
+    },
+    {
+      "name": "Tash",
+      "description": "quori",
+      "id": 390
+    },
+    {
+      "name": "Tes",
+      "description": "kobold",
+      "id": 391
+    },
+    {
+      "name": "Tharcereli",
+      "description": "mind flayer",
+      "id": 392
+    },
+    {
+      "name": "Thuun (\"Thun\")",
+      "description": "",
+      "id": 394
+    },
+    {
+      "name": "Toprick",
+      "description": "dwarf surname",
+      "id": 395
+    },
+    {
+      "name": "Torashtai",
+      "description": "",
+      "id": 396
+    },
+    {
+      "name": "Trabis",
+      "description": "",
+      "id": 397
+    },
+    {
+      "name": "TumTum",
+      "description": "",
+      "id": 398
+    },
+    {
+      "name": "Tuneer",
+      "description": "female ?? names",
+      "id": 399
+    },
+    {
+      "name": "Turtleback",
+      "description": "hag title",
+      "id": 400
+    },
+    {
+      "name": "Twigmouth",
+      "description": "hag last name",
+      "id": 401
+    },
+    {
+      "name": "Uddubera Orepin",
+      "description": "",
+      "id": 402
+    },
+    {
+      "name": "Ulad",
+      "description": "quori",
+      "id": 403
+    },
+    {
+      "name": "Ursula",
+      "description": "hag first name",
+      "id": 404
+    },
+    {
+      "name": "Ustar",
+      "description": "gnoll",
+      "id": 405
+    },
+    {
+      "name": "Vakri",
+      "description": "quori",
+      "id": 406
+    },
+    {
+      "name": "Valakhad ",
+      "description": "",
+      "id": 407
+    },
+    {
+      "name": "Valii",
+      "description": "female ?? names",
+      "id": 408
+    },
+    {
+      "name": "Vanii",
+      "description": "",
+      "id": 409
+    },
+    {
+      "name": "Vanon ",
+      "description": "",
+      "id": 410
+    },
+    {
+      "name": "Varn",
+      "description": "kobold",
+      "id": 411
+    },
+    {
+      "name": "Wamble",
+      "description": "rumbling, rolling nausea",
+      "id": 412
+    },
+    {
+      "name": "Rospek",
+      "description": "prospect",
+      "id": 413
+    },
+    {
+      "name": "Lavolta",
+      "description": "lava monster who likes dancing.",
+      "id": 414
+    },
+    {
+      "name": "VENDALI(UM/OM) ",
+      "description": "title",
+      "id": 415
+    },
+    {
+      "name": "Virgat(e)",
+      "description": "title",
+      "id": 416
+    },
+    {
+      "name": "Wehmseiper",
+      "description": "group?",
+      "id": 417
+    },
+    {
+      "name": "Wicked",
+      "description": "hag title",
+      "id": 418
+    },
+    {
+      "name": "Wormwiggle",
+      "description": "hag last name",
+      "id": 419
+    },
+    {
+      "name": "Wuudaraj",
+      "description": "",
+      "id": 420
+    },
+    {
+      "name": "Zellix",
+      "description": "mind flayer",
+      "id": 421
+    },
+    {
+      "name": "Gind",
+      "description": "??",
+      "id": 422
+    },
+    {
+      "name": "Boolook",
+      "description": "Very good at falling asleep quickly",
+      "id": 423
+    },
+    {
+      "name": "Ddloh",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "dh-low",
+      "id": 424
+    },
+    {
+      "name": "Zod",
+      "claimed": true,
+      "fluff": "",
+      "description": "(he, him, his) (kobold) employee of  Blue Dragon Blades ",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 425
+    },
+    {
+      "name": "Foldorf",
+      "claimed": true,
+      "fluff": "",
+      "description": "('FOAL-DUHLF') he, him, his (wehmseiper). Bright blue goku hair, a huge scar across face as left by a (?) tentacle, shield and matau (Massive fishing hook)\nKnown from birth that wanted to be a paladin, but never chosen by a deity. Acts like a paladin but all their abilities are (1) just from being technically proficient; (2) from a different source of power. \nin trying to get a paladin deity, was rowing to the deepest heart of the earth in the blackest waters and … \nFULDULF has FEZ’s abilities, but they are clearly different from FEZ - they take hard work",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 426
+    },
+    {
+      "name": "Nimit Kemmeldin",
+      "claimed": null,
+      "fluff": "",
+      "description": "martial fighting instructor @ Dimpleweed's Martial Academy?",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 427
+    },
+    {
+      "name": "Inaris",
+      "claimed": true,
+      "fluff": "",
+      "description": "(female half-elf monk?) 3/4 length jacket over a frilly shirt; wide belt with an intricate celtic knot; simple cloth pants and cloth boots. Left eye in a permanent squint, long face, delicate unibrown, short wavy brown hair.\n@ famasta monastery ",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 428
+    },
+    {
+      "name": "Maeve Goose-Bury",
+      "claimed": null,
+      "fluff": "",
+      "description": "Goose-Bury (Goozby)\nMaeve Goose-Bury ('Goozby' or 'Goosby')\n(female monk) close-shaved brown hair, short (5'2'), cut muscles, wider in the torsos. full-length dark blue tunic with red trim. dark brown/black eyes.\n@ famasta monastery",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 429
+    },
+    {
+      "name": "Mina",
+      "claimed": true,
+      "fluff": "",
+      "description": "(female) monk at the famasta Monastery. Square face with soft jaw, narrow black eyes. Frizzy gold hair (but somehow none out of place). Number of plain metal band rings. Plaid tunic and gray breeches and white leggings ending in black boots.",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 430
+    },
+    {
+      "name": "Reginald",
+      "claimed": true,
+      "fluff": "",
+      "description": "Son of Corvilla\nBarazar's nephew\nEngaged to Timothea Dimpleweed\nIn the x-files",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 431
+    },
+    {
+      "name": "HARENA",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 432
+    },
+    {
+      "name": "ELLA LOOP",
+      "claimed": true,
+      "fluff": "",
+      "description": "Rat-gnome and alchemist. (female). rat, but human sized. weathered chain mail tunic, hobo gauntlets, green trousers and light brown boots. One cracked front tooth and a very twitchy pink nose with distingushed salt & pepper whiskers.\n- half-sister to barazar sod (through ...?)",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "id": 433
     }
   ],
   "description": [
@@ -2228,7 +3675,7 @@
       "id": 79
     },
     {
-      "content": "agar leech, cereal(s) hag, cage healer, ale charge, large ache, char / arch eagle, reach gel, garnet trading; app: tangerine, goiter, stoney look, thongs, ginger, goatee, derby hat",
+      "content": "agar leech, cereal(s) hag, cage healer, ale charge, large ache, char / arch eagle, reach gel, garnet trading; ",
       "id": 80
     },
     {
@@ -2449,6 +3896,23 @@
         "nature"
       ],
       "id": 118
+    },
+    {
+      "content": "i take my ghosts and goats sparingly",
+      "tags": [],
+      "id": 119
+    },
+    {
+      "content": "the Imponderable",
+      "tags": [
+        "epithet"
+      ],
+      "id": 120
+    },
+    {
+      "content": "app: tangerine, goiter, stoney look, thongs, ginger, goatee, derby hat",
+      "tags": [],
+      "id": 121
     }
   ],
   "position": [
@@ -2591,6 +4055,12 @@
       "description": "a singer; a musician\na person skilled in composing or producing melody",
       "tags": [],
       "id": 27
+    },
+    {
+      "name": "Accipiter",
+      "description": "latin \"to grasp\"",
+      "tags": [],
+      "id": 28
     }
   ],
   "work": [
@@ -2787,6 +4257,51 @@
       "mechanics": "",
       "attune": null,
       "id": 33
+    },
+    {
+      "title": "J. Sleidane · A famouse cronicle of oure time, called Sleidanes commentaries (transl. John Daus) · 1st edition, 1560 (1 vol.) 25 Sept..",
+      "contents": "",
+      "description": "\n\nLondon: I. Daye, for A. Veale and N. England\nSTC 19848\n \nJohn Daus (c1516–1602)\nSchoolmaster and translator",
+      "contributor": "",
+      "mechanics": "",
+      "attune": null,
+      "id": 34
+    },
+    {
+      "title": "Success of a cottage stream",
+      "contents": "",
+      "description": "book of poetry?",
+      "contributor": "",
+      "mechanics": "",
+      "attune": null,
+      "id": 35
+    },
+    {
+      "title": "making on a wish",
+      "contents": "",
+      "description": "",
+      "contributor": "",
+      "mechanics": "",
+      "attune": null,
+      "id": 36
+    },
+    {
+      "title": "Significance of the downchangeance of certain rules: being the opposite of what this woman's father is.",
+      "contents": "",
+      "description": "",
+      "contributor": "",
+      "mechanics": "",
+      "attune": null,
+      "id": 37
+    },
+    {
+      "title": "Secular Ministrations, penned by Doodril Frogwarts, Burgher and Sublunar Cognoscente",
+      "contents": "",
+      "description": "",
+      "contributor": "Doodril Frogwarts",
+      "mechanics": "",
+      "attune": null,
+      "id": 38
     }
   ],
   "continuity": [
@@ -2807,9 +4322,11 @@
   ],
   "bible": [
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "(familiar) gazer",
       "3x5": "",
@@ -2818,9 +4335,11 @@
       "id": 3
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "(messengers) Quicklings, nilbogs?",
       "3x5": "",
@@ -2829,9 +4348,11 @@
       "id": 4
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "(reskin) burrowling (KP-tob)",
       "3x5": "",
@@ -2840,9 +4361,12 @@
       "id": 5
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "forget the last thing / words that you said",
       "3x5": "",
@@ -2851,20 +4375,26 @@
       "id": 7
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
-      "name": "[...]",
+      "name": "turn action to RACTION",
       "3x5": "",
       "short description": "turn action to RACTION (ritual?\nchange point of origin of spellcasting effect AOE (bag of those-shaped dice)\nmug of compelled toasting (charisma check)\nbody-eating grub (compare to “gentle repose”)\nforget very last thing you said \n\ncategories\nroleplaying aid\nmechanical / environmental aids\ncombat aids\nspell aids\nexploration aid\nsocial interaction aid",
       "found @": "",
       "id": 8
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "[fishing hook]",
       "3x5": "",
@@ -2873,9 +4403,11 @@
       "id": 9
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "Monastery",
       "name": "[GREY TONGUE] MONASTERY",
       "3x5": "",
@@ -2884,9 +4416,11 @@
       "id": 10
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "UMPIN",
       "3x5": "",
@@ -2895,9 +4429,11 @@
       "id": 11
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "a single cranium rat ... ? one of their skills",
       "3x5": "",
@@ -2906,9 +4442,11 @@
       "id": 12
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "AELRINDEL",
       "3x5": "",
@@ -2917,31 +4455,41 @@
       "id": 13
     },
     {
+      "tags": [
+        "location",
+        "marshbout",
+        "library"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "AGATHA Q. BINDERBOARD ARCHIVES",
       "3x5": "",
       "short description": "Marshbout. Oriax.",
-      "found @": "Marshbout",
+      "found @": "",
       "id": 14
     },
     {
+      "tags": [
+        "monster",
+        "tavern"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "alehouse drake",
       "3x5": "",
       "short description": "[cr 1/2] (kp tob 148)",
-      "found @": "taverns",
+      "found @": "",
       "id": 16
     },
     {
+      "tags": [
+        "npc",
+        "deity"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc deity",
       "alpha": "",
       "name": "Alîsafala",
       "3x5": "",
@@ -2950,9 +4498,11 @@
       "id": 17
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "AMBER GHOST PITS",
       "3x5": "",
@@ -2961,9 +4511,12 @@
       "id": 18
     },
     {
+      "tags": [
+        "npc",
+        "deity"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc deity",
       "alpha": "",
       "name": "ARARIEL",
       "3x5": "",
@@ -2972,9 +4525,11 @@
       "id": 19
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "Dalariel's Pond",
       "3x5": "",
@@ -2983,9 +4538,11 @@
       "id": 20
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "ARCHAEOLOGY SITE",
       "3x5": "",
@@ -2994,9 +4551,11 @@
       "id": 21
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "11/17/2019",
-      "type": "npc",
       "alpha": "Lubbock, Arlan",
       "name": "Arlan (Arlanbarth) Lubbock",
       "3x5": "",
@@ -3005,9 +4564,12 @@
       "id": 22
     },
     {
+      "tags": [
+        "npc",
+        "deity"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc deity",
       "alpha": "",
       "name": "Aulë",
       "3x5": "",
@@ -3016,20 +4578,26 @@
       "id": 23
     },
     {
+      "tags": [
+        "npc",
+        "riskless",
+        "tavern"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Auntie",
       "3x5": "",
       "short description": "7-year old human (looking) ; bartender ; will take 14 and say 13.5 but yes.",
-      "found @": "Riskless Tavern",
+      "found @": "",
       "id": 24
     },
     {
+      "tags": [
+        "feature"
+      ],
       "home": "",
       "teg": "",
-      "type": "feature",
       "alpha": "",
       "name": "Aversion to Fire.",
       "3x5": "",
@@ -3038,9 +4606,11 @@
       "id": 25
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "BALUCH WATCHTOWER (north):",
       "3x5": "",
@@ -3049,9 +4619,11 @@
       "id": 27
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "BARON VON VEEN aka UEGIT",
       "3x5": "",
@@ -3060,9 +4632,11 @@
       "id": 29
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "11/17/2019",
       "teg": "11/17/2019",
-      "type": "npc",
       "alpha": "",
       "name": "BATHYBIUS",
       "3x5": "",
@@ -3071,9 +4645,13 @@
       "id": 30
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "11/16/2019",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "Bathybius is missing.",
       "3x5": "",
@@ -3082,9 +4660,11 @@
       "id": 31
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "11/17/2019",
-      "type": "npc",
       "alpha": "",
       "name": "Beenie & Dorro",
       "3x5": "",
@@ -3093,9 +4673,11 @@
       "id": 32
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "11/17/2019",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Bergot Ironflame",
       "3x5": "",
@@ -3104,20 +4686,26 @@
       "id": 33
     },
     {
+      "tags": [
+        "npc",
+        "cldf"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Berry",
       "3x5": "",
       "short description": "(he, him, him) Halfling ... cleric ?",
-      "found @": "Church of Our Lady of the Dismal Fever / Future",
+      "found @": "",
       "id": 34
     },
     {
+      "tags": [
+        "magic",
+        "items"
+      ],
       "home": "12/7/2019",
       "teg": "",
-      "type": "magic items",
       "alpha": "",
       "name": "bloodcake",
       "3x5": "",
@@ -3126,31 +4714,26 @@
       "id": 35
     },
     {
+      "tags": [
+        "location",
+        ""
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "BLUE LIGHTNING BLADES",
       "3x5": "",
-      "short description": "armamentarium owned by Zedaar (pc) with help from Miriabelle (pc). Zod",
+      "short description": "armamentarium owned by Zedaar (pc) with help from Miriabelle (pc). Zod\nmercenary group Blue Lightning ??",
       "found @": "",
       "id": 37
     },
     {
+      "tags": [
+        "npc",
+        "deity"
+      ],
       "home": "",
       "teg": "",
-      "type": "faction",
-      "alpha": "",
-      "name": "BLUE LIGHTNING",
-      "3x5": "",
-      "short description": "Zedaar's old mercenary band",
-      "found @": "",
-      "id": 38
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "npc deity",
       "alpha": "",
       "name": "Bogsog Erchil",
       "3x5": "",
@@ -3159,9 +4742,11 @@
       "id": 39
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Bonechewer",
       "name": "Bonechewer",
       "3x5": "",
@@ -3170,9 +4755,11 @@
       "id": 40
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Shortpaw, Brak",
       "name": "Brak 'Ms. Lorekeeper Shortpaw' Shortpaw",
       "3x5": "",
@@ -3181,9 +4768,11 @@
       "id": 41
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "BRIANGLE",
       "3x5": "",
@@ -3192,9 +4781,11 @@
       "id": 42
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "11/17/2019",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Budduck",
       "3x5": "",
@@ -3203,20 +4794,11 @@
       "id": 44
     },
     {
-      "home": "",
-      "teg": "11/22/2019",
-      "type": "npc",
-      "alpha": "",
-      "name": "Burglespark",
-      "3x5": "",
-      "short description": "One of the indifferent names taken by the Cultists in Oonyi Marsh.",
-      "found @": "BS Cultists",
-      "id": 45
-    },
-    {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "CABHSA FATHACH",
       "name": "CABHSA FATHACH",
       "3x5": "",
@@ -3225,9 +4807,12 @@
       "id": 46
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "can treat a non-magical weapon as magical for x amount",
       "3x5": "",
@@ -3236,9 +4821,11 @@
       "id": 47
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Piper, Rowan",
       "name": "Captain Rowan Piper",
       "3x5": "",
@@ -3247,9 +4834,11 @@
       "id": 48
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "CASTLE KARN: [break into smaller pieces]",
       "3x5": "",
@@ -3258,31 +4847,39 @@
       "id": 49
     },
     {
+      "tags": [
+        "monster",
+        "dragon"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "Chernomoi",
       "3x5": "",
       "short description": "Chernomoi (KP TOB 55) -- dragon related for Zedaar, or Paros, or Joan",
-      "found @": "Dragons",
+      "found @": "",
       "id": 50
     },
     {
+      "tags": [
+        "monster",
+        "baphomet"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "Child of the Briar",
       "3x5": "",
       "short description": "Child of the Briar (kp tob 56)",
-      "found @": "Baphomet",
+      "found @": "",
       "id": 51
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "Chulda",
       "3x5": "",
@@ -3291,20 +4888,12 @@
       "id": 52
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
-      "alpha": "",
-      "name": "Church of Our Lady of the Dismal Future, Fever,",
-      "3x5": "",
-      "short description": "",
-      "found @": "Marshbout",
-      "id": 53
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "Cloak of Baphomet’s Favor",
       "3x5": "",
@@ -3313,20 +4902,25 @@
       "id": 54
     },
     {
+      "tags": [
+        "monster",
+        "urban"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "Cobbleswarm",
       "3x5": "",
       "short description": "Cobbleswarm (kp tob 68)",
-      "found @": "Marshbout",
+      "found @": "",
       "id": 55
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "COCKALEAK SPIT HIDEOUT",
       "3x5": "",
@@ -3335,9 +4929,12 @@
       "id": 56
     },
     {
+      "tags": [
+        "location",
+        "region"
+      ],
       "home": "",
       "teg": "",
-      "type": "location region",
       "alpha": "",
       "name": "COLD RIVER",
       "3x5": "",
@@ -3346,9 +4943,11 @@
       "id": 57
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "COLD RIVER BRIDGE",
       "3x5": "",
@@ -3357,9 +4956,12 @@
       "id": 58
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "concentrate on 2 spells at a time",
       "3x5": "",
@@ -3368,9 +4970,11 @@
       "id": 59
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Sod, Corvilla",
       "name": "Corvilla Sod",
       "3x5": "",
@@ -3379,9 +4983,11 @@
       "id": 60
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "COVINE HILLS ALCHEMICAL LABORATORY",
       "3x5": "",
@@ -3390,9 +4996,11 @@
       "id": 61
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "moghlings",
       "3x5": "",
@@ -3401,20 +5009,25 @@
       "id": 62
     },
     {
+      "tags": [
+        "monster",
+        "bathybius"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "darakhul ghoul",
       "3x5": "",
       "short description": "[cr 3] (kp tob 226) (3 more ghouls in here)",
-      "found @": "bathybius",
+      "found @": "",
       "id": 63
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "11/17/2019",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Darlyle",
       "3x5": "",
@@ -3423,42 +5036,53 @@
       "id": 64
     },
     {
+      "tags": [
+        "monster",
+        "baphomet"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "Demon, Berstuc",
       "3x5": "",
       "short description": "Demon, Berstuc (kp tob 76)",
-      "found @": "Baphomet",
+      "found @": "",
       "id": 65
     },
     {
+      "tags": [
+        "monster",
+        "canid"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "Demon, Kishi",
       "3x5": "",
       "short description": "Demon, Kisi (kb tob 77) {CR 8]",
-      "found @": "Canids",
+      "found @": "",
       "id": 66
     },
     {
+      "tags": [
+        "monster",
+        "druid"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "DEMON, REBUZHAL",
       "3x5": "",
       "short description": "DEMON, REBUZHAL (KB TOP 80) [CR 10]",
-      "found @": "DRUIDS",
+      "found @": "",
       "id": 67
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "DENGAROG  ZOHIZ",
       "3x5": "",
@@ -3467,31 +5091,38 @@
       "id": 68
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "11/16",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "DOODRILL LIBRARY",
       "3x5": "",
-      "short description": "in Famasta Monastery",
+      "short description": "in Famasta Monastery\nnamed after Doodrill Frogwart(s)",
       "found @": "",
       "id": 71
     },
     {
+      "tags": [
+        "monster",
+        "mogh"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "dorreq",
       "3x5": "",
-      "short description": "[cr 4] (kp tob 124)",
-      "found @": "mogh",
+      "short description": "[cr 4] (kp tob 124)\nhttps://5e.tools/bestiary.html#dorreq_tob%203pp",
+      "found @": "",
       "id": 72
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "dream eater",
       "3x5": "",
@@ -3500,20 +5131,26 @@
       "id": 73
     },
     {
+      "tags": [
+        "npc",
+        "famasta"
+      ],
       "home": "11/16/2019",
       "teg": "11/17/2019",
-      "type": "npc",
       "alpha": "",
       "name": "Drosha",
       "3x5": "",
       "short description": "(female monk) Maeve's second in command at Famasta Monastery. Same full-length dark blue tunic with red trim. brown eyes with shoulder-length grey hair in thick braids. wide nose, broad grin.",
-      "found @": "Famasta Monastery",
+      "found @": "",
       "id": 74
     },
     {
+      "tags": [
+        "npc",
+        "deity"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc deity",
       "alpha": "",
       "name": "DUNATIS",
       "3x5": "",
@@ -3522,20 +5159,27 @@
       "id": 75
     },
     {
+      "tags": [
+        "monster",
+        "mogesh"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "dune mimic",
       "3x5": "",
       "short description": "[cr 8] (kp tob 162)",
-      "found @": "mogesh",
+      "found @": "",
       "id": 76
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "Dwarves created before the elves",
       "3x5": "",
@@ -3544,9 +5188,11 @@
       "id": 77
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Ecks (X)",
       "3x5": "",
@@ -3555,9 +5201,12 @@
       "id": 78
     },
     {
+      "tags": [
+        "npc",
+        "deity"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc deity",
       "alpha": "",
       "name": "ELDGJA",
       "3x5": "",
@@ -3566,20 +5215,11 @@
       "id": 79
     },
     {
-      "home": "",
-      "teg": "",
-      "type": "npc",
-      "alpha": "Loop, Ella",
-      "name": "ELLA LOOP",
-      "3x5": "",
-      "short description": "Rat-gnome and alchemist. (female). rat, but human sized. weathered chain mail tunic, hobo gauntlets, green trousers and light brown boots. One cracked front tooth and a very twitchy pink nose with distingushed salt & pepper whiskers.",
-      "found @": "",
-      "id": 81
-    },
-    {
+      "tags": [
+        "location"
+      ],
       "home": "11/16",
       "teg": "11/15/2019",
-      "type": "location",
       "alpha": "Monastery, Famasta",
       "name": "FAMASTA MONASTERY",
       "3x5": "",
@@ -3588,9 +5228,11 @@
       "id": 82
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "FEISTY GLADE OF LORE",
       "3x5": "",
@@ -3599,9 +5241,11 @@
       "id": 83
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "FEN FETTLE RIDGE",
       "3x5": "",
@@ -3610,20 +5254,25 @@
       "id": 85
     },
     {
+      "tags": [
+        "monster",
+        "3school"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "fext",
       "3x5": "",
       "short description": "[cr 6] (kp tob 183)",
-      "found @": "juniper three school",
+      "found @": "",
       "id": 86
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "FIRBOLG BOWER",
       "3x5": "",
@@ -3632,9 +5281,11 @@
       "id": 87
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "11/17/2019",
-      "type": "npc",
       "alpha": "BAZZLESEAM, FLAN",
       "name": "Flanuelle 'Flan' Bazzlebream (changed to Bazzleseam for 'fun with acronyms')",
       "3x5": "",
@@ -3643,9 +5294,11 @@
       "id": 88
     },
     {
+      "tags": [
+        "faction"
+      ],
       "home": "",
       "teg": "",
-      "type": "faction",
       "alpha": "",
       "name": "FOED COVEN",
       "3x5": "",
@@ -3654,20 +5307,12 @@
       "id": 89
     },
     {
+      "tags": [
+        "location",
+        "region"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
-      "alpha": "FOLDULF",
-      "name": "Foldulf",
-      "3x5": "",
-      "short description": "('FOAL-DUHLF') he, him, his (wehmseiper). Bright blue goku hair, a huge scar across face as left by a (?) tentacle, shield and matau (Massive fishing hook)\nKnown from birth that wanted to be a paladin, but never chosen by a deity. Acts like a paladin but all their abilities are (1) just from being technically proficient; (2) from a different source of power. \nin trying to get a paladin deity, was rowing to the deepest heart of the earth in the blackest waters and … \nFULDULF has FEZ’s abilities, but they are clearly different from FEZ - they take hard work",
-      "found @": "BRIANGLE",
-      "id": 90
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "location region",
       "alpha": "",
       "name": "Forest Ogrelodge",
       "3x5": "",
@@ -3676,9 +5321,11 @@
       "id": 91
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Stonebreaker, Forlig",
       "name": "Forlig Stonebreaker",
       "3x5": "",
@@ -3687,9 +5334,11 @@
       "id": 92
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "Frogwart's Secular Healing Clinic",
       "3x5": "",
@@ -3698,9 +5347,11 @@
       "id": 93
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "11/22/2019",
-      "type": "monster",
       "alpha": "",
       "name": "Gentle Grub(s)",
       "3x5": "",
@@ -3709,9 +5360,15 @@
       "id": 94
     },
     {
+      "tags": [
+        "magic",
+        "item;",
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item; secrets & clues",
       "alpha": "",
       "name": "Gentle Grubs",
       "3x5": "",
@@ -3720,9 +5377,11 @@
       "id": 95
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "GNOLL CAMP ((sroidfallah) - An Sráidbhaile ('our village')",
       "3x5": "",
@@ -3731,9 +5390,11 @@
       "id": 96
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "GOGLOCKS",
       "3x5": "",
@@ -3742,9 +5403,12 @@
       "id": 97
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "Goomba's Shoe - move across difficult terrain without reduction to speed.",
       "3x5": "",
@@ -3753,9 +5417,11 @@
       "id": 98
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Gresh",
       "3x5": "",
@@ -3764,9 +5430,11 @@
       "id": 100
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Gribble",
       "3x5": "",
@@ -3775,9 +5443,11 @@
       "id": 102
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "GROUNDSINK DWARF MINE ENTRANCE",
       "3x5": "",
@@ -3786,9 +5456,11 @@
       "id": 103
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "WINDSURE, HAIMOND",
       "name": "HAIMOND WINDSURE",
       "3x5": "",
@@ -3797,20 +5469,26 @@
       "id": 104
     },
     {
+      "tags": [
+        "location",
+        "fantastic"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
-      "name": "HARENA / GRENLICH’S IMMOR",
+      "name": "GRENLICH’S IMMOR",
       "3x5": "",
       "short description": "A patchwork of squat, thick-boled, leafless trees from which bulge slimy, doglike heads, bodies, and legs; bulky chartreuse succulents with velveteen leaves and a single, 4-meter high stalk excreting a sweet-smelling, ammoniac oil; small pyramidal dolmens criss-crossed by sinews and ligaments; reproduction in miniature and inverted of a gnoll camp.",
       "found @": "",
-      "id": 105
+      "id": 105,
+      "prep": null
     },
     {
+      "tags": [
+        "faction"
+      ],
       "home": "",
       "teg": "",
-      "type": "faction",
       "alpha": "",
       "name": "HARPERS",
       "3x5": "",
@@ -3819,20 +5497,11 @@
       "id": 106
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
-      "alpha": "Inaris",
-      "name": "Inaris",
-      "3x5": "",
-      "short description": "(female half-elf monk?) 3/4 length jacket over a frilly shirt; wide belt with an intricate celtic knot; simple cloth pants and cloth boots. Left eye in a permanent squint, long face, delicate unibrown, short wavy brown hair.",
-      "found @": "Famasta Monastery",
-      "id": 107
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Jasper and the Lady Violet",
       "3x5": "",
@@ -3841,9 +5510,11 @@
       "id": 110
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "11/17/2019",
       "teg": "11/17/2019",
-      "type": "npc",
       "alpha": "",
       "name": "Jindriska",
       "3x5": "",
@@ -3852,9 +5523,11 @@
       "id": 111
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "JUNIPER THREE-SCHOOL",
       "3x5": "",
@@ -3863,9 +5536,11 @@
       "id": 112
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "KAHOLO",
       "3x5": "",
@@ -3874,9 +5549,11 @@
       "id": 113
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "KAMBO(s)",
       "3x5": "",
@@ -3885,9 +5562,14 @@
       "id": 114
     },
     {
+      "tags": [
+        "letter",
+        "of",
+        "the",
+        "alphabet"
+      ],
       "home": "",
       "teg": "",
-      "type": "letter of the alphabet",
       "alpha": "",
       "name": "KHA",
       "3x5": "",
@@ -3896,9 +5578,11 @@
       "id": 115
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "KULGMARK",
       "3x5": "",
@@ -3907,9 +5591,11 @@
       "id": 116
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Mejirri, Kyra",
       "name": "Kyra (k-eye-ra) Mejirri",
       "3x5": "",
@@ -3918,9 +5604,11 @@
       "id": 117
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "LACREY (“BELZEE”) ERROROOTH",
       "3x5": "",
@@ -3929,31 +5617,40 @@
       "id": 118
     },
     {
+      "tags": [
+        "npc",
+        "cldf"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Landy",
       "3x5": "",
       "short description": "(she, her, hers) Halfling ... cleric?",
-      "found @": "Church of Our Lady of the Dismal Fever",
+      "found @": "",
       "id": 119
     },
     {
+      "tags": [
+        "monster",
+        "baphomet"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "leshy",
       "3x5": "",
       "short description": "kp [cr 1]",
-      "found @": "baphomet",
+      "found @": "",
       "id": 120
     },
     {
+      "tags": [
+        "npc",
+        "deity"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc deity",
       "alpha": "",
       "name": "Liufrît",
       "3x5": "",
@@ -3962,20 +5659,25 @@
       "id": 121
     },
     {
+      "tags": [
+        "monster",
+        "calliope"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "lorelei",
       "3x5": "",
       "short description": "kp [cr 5]",
-      "found @": "calliope",
+      "found @": "",
       "id": 122
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Gorbelly, Lum",
       "name": "LUM GORBELLY",
       "3x5": "",
@@ -3984,20 +5686,12 @@
       "id": 123
     },
     {
-      "home": "11/17/2019",
-      "teg": "11/17/2019",
-      "type": "npc",
-      "alpha": "Goose-Bury (Goozby)",
-      "name": "Maeve Goose-Bury ('Goozby' or 'Goosby')",
-      "3x5": "",
-      "short description": "(female monk) close-shaved brown hair, short (5'2'), cut muscles, wider in the torsos. full-length dark blue tunic with red trim. dark brown/black eyes.",
-      "found @": "Famasta Monastery",
-      "id": 124
-    },
-    {
+      "tags": [
+        "location",
+        "region"
+      ],
       "home": "",
       "teg": "",
-      "type": "location region",
       "alpha": "",
       "name": "Marsh",
       "3x5": "",
@@ -4006,20 +5700,24 @@
       "id": 125
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "MAZE OF THE RUST",
       "3x5": "TRUE",
-      "short description": "for Bahomet, Minotaur, Manticore",
+      "short description": "for Bahomet, Minotaur, Manticore\non a 3x5 somewhere",
       "found @": "",
       "id": 126
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Mezlar",
       "3x5": "",
@@ -4028,9 +5726,11 @@
       "id": 127
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "MIDANGLE",
       "3x5": "",
@@ -4039,20 +5739,11 @@
       "id": 128
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
-      "alpha": "Mina",
-      "name": "Mina",
-      "3x5": "",
-      "short description": "(female) monk at the Monastery. Square face with soft jaw, narrow black eyes. Frizzy gold hair (but somehow none out of place). Number of plain metal band rings. Plaid tunic and gray breeches and white leggins ending in black boots.",
-      "found @": "Famasta Monastery",
-      "id": 129
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "npc",
       "alpha": "MOGESH",
       "name": "Mogesh (Galeb Duhr)",
       "3x5": "",
@@ -4061,9 +5752,11 @@
       "id": 130
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "MOGH (MOTHER) DARKMANGLE: the Mother Darkmantle (monstrosity)",
       "3x5": "",
@@ -4072,9 +5765,13 @@
       "id": 131
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "Mogh's abilities",
       "3x5": "",
@@ -4083,20 +5780,25 @@
       "id": 132
     },
     {
+      "tags": [
+        "monster",
+        "baphomet"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "moss lurker",
       "3x5": "",
       "short description": "kp [cr 1]",
-      "found @": "baphomet",
+      "found @": "",
       "id": 133
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "MUNTA:(female) minotaur of Baphomet",
       "3x5": "",
@@ -4105,20 +5807,25 @@
       "id": 134
     },
     {
+      "tags": [
+        "monster",
+        "baphomet"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "myling",
       "3x5": "",
       "short description": "kp [cr 2] child lost in maze",
-      "found @": "baphomet",
+      "found @": "",
       "id": 135
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Dimpleweed, Nadezhda",
       "name": "Nadezhda Dimpleweed",
       "3x5": "",
@@ -4127,9 +5834,11 @@
       "id": 136
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "NALGAR",
       "3x5": "",
@@ -4138,9 +5847,12 @@
       "id": 137
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "NEPHOSCOPE",
       "3x5": "",
@@ -4149,9 +5861,11 @@
       "id": 138
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "NEXNAG",
       "3x5": "",
@@ -4160,9 +5874,13 @@
       "id": 139
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "Nexnag's future",
       "3x5": "",
@@ -4171,9 +5889,11 @@
       "id": 140
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "NIGHTMARE DRUID CIRCLE",
       "3x5": "",
@@ -4182,20 +5902,11 @@
       "id": 141
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "Nimit Kemmeldin",
-      "3x5": "",
-      "short description": "martial fighting instructor",
-      "found @": "Dimpleweed's Martial Academy?",
-      "id": 142
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "NOCK NUCK",
       "3x5": "",
@@ -4204,9 +5915,11 @@
       "id": 143
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "BARRELCHEST",
       "name": "NORMAN BARRELCHEST",
       "3x5": "",
@@ -4215,9 +5928,11 @@
       "id": 144
     },
     {
+      "tags": [
+        "NPC"
+      ],
       "home": "",
       "teg": "",
-      "type": "NPC",
       "alpha": "",
       "name": "O'A THAVONK",
       "3x5": "",
@@ -4226,9 +5941,11 @@
       "id": 145
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Dimpleweed, Oksana",
       "name": "Oksana Dimpleweed",
       "3x5": "",
@@ -4237,9 +5954,11 @@
       "id": 146
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Olowyn",
       "3x5": "",
@@ -4248,9 +5967,12 @@
       "id": 147
     },
     {
+      "tags": [
+        "location",
+        "region"
+      ],
       "home": "",
       "teg": "",
-      "type": "location region",
       "alpha": "",
       "name": "OONYI MARSH",
       "3x5": "",
@@ -4259,9 +5981,11 @@
       "id": 148
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Oriax",
       "name": "ORIAX",
       "3x5": "",
@@ -4270,31 +5994,40 @@
       "id": 149
     },
     {
+      "tags": [
+        "magic",
+        "item",
+        "bard"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "ostinato",
       "3x5": "",
       "short description": "kp [cr 4] some kind of magic item / test for dominic",
-      "found @": "dominick",
+      "found @": "",
       "id": 150
     },
     {
+      "tags": [
+        "monster",
+        "library"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "paper drake",
       "3x5": "",
       "short description": "[cr 2] (kp tob 154)",
-      "found @": "archive",
+      "found @": "",
       "id": 151
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "PEGGY",
       "3x5": "",
@@ -4303,9 +6036,11 @@
       "id": 152
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Applepie, Pennington",
       "name": "PENNINGTON APPLEPIE",
       "3x5": "",
@@ -4314,9 +6049,11 @@
       "id": 153
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Petal",
       "name": "PETAL",
       "3x5": "",
@@ -4325,9 +6062,13 @@
       "id": 154
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "Petal unable to help de-hearted gnoll {?} with non-necromancy b/c of altar beginning to twist.",
       "3x5": "",
@@ -4336,9 +6077,12 @@
       "id": 155
     },
     {
+      "tags": [
+        "npc",
+        "deity"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc deity",
       "alpha": "",
       "name": "PHTHAH",
       "3x5": "",
@@ -4347,9 +6091,11 @@
       "id": 156
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "PILLARS OF THE OX",
       "3x5": "",
@@ -4358,9 +6104,12 @@
       "id": 157
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "Piranha Plant (mario)",
       "3x5": "",
@@ -4369,9 +6118,11 @@
       "id": 158
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "PITTLANS’S NIGHTMARE CONFECTIONARY\nTHE CANDY LAB",
       "3x5": "",
@@ -4380,9 +6131,11 @@
       "id": 159
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "POLIVE PITTLANS",
       "3x5": "",
@@ -4391,9 +6144,11 @@
       "id": 160
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Goosewood, Preston",
       "name": "Preston Goose-Wood (Goody)",
       "3x5": "",
@@ -4402,9 +6157,12 @@
       "id": 161
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "purple star",
       "3x5": "",
@@ -4413,9 +6171,11 @@
       "id": 162
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "RAGUEL",
       "3x5": "",
@@ -4424,20 +6184,25 @@
       "id": 163
     },
     {
+      "tags": [
+        "npc",
+        "throttlebottom"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Torrins, Rath",
       "name": "Rath Torrins",
       "3x5": "",
       "short description": "300+ year old Dwarf. Grew up in mountains to the east. Military dude. Comes into town frequently, and has for decades.",
-      "found @": "Throttlebottom",
+      "found @": "",
       "id": 164
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "RAUL",
       "3x5": "",
@@ -4446,9 +6211,13 @@
       "id": 165
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "Reka need The Bedroot",
       "3x5": "",
@@ -4457,9 +6226,11 @@
       "id": 166
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "REMY'S WAREHOUSE",
       "3x5": "",
@@ -4468,9 +6239,11 @@
       "id": 168
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "reskinn Sea Spawn as Worm.",
       "3x5": "",
@@ -4479,9 +6252,11 @@
       "id": 169
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Sandstone, Rick",
       "name": "Rickchard “Rick” Sandstone",
       "3x5": "",
@@ -4490,9 +6265,11 @@
       "id": 170
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Rihhilt",
       "3x5": "",
@@ -4501,20 +6278,25 @@
       "id": 171
     },
     {
+      "tags": [
+        "location",
+        "marshbout"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "RISKLESS TAVERN",
       "3x5": "",
       "short description": "",
-      "found @": "Marshbout",
+      "found @": "",
       "id": 172
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Skyflume, Rufus",
       "name": "Rufus Skyflume (Cloud Giant)",
       "3x5": "",
@@ -4523,20 +6305,25 @@
       "id": 174
     },
     {
+      "tags": [
+        "monster",
+        "tavern"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "Toestealer",
       "3x5": "",
       "short description": "rum gremlin [cr 1/2] (kp tob 239)",
-      "found @": "taverns",
+      "found @": "",
       "id": 175
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Farmer, Sally",
       "name": "Sally Farmer",
       "3x5": "",
@@ -4545,9 +6332,12 @@
       "id": 176
     },
     {
+      "tags": [
+        "npc",
+        "deity"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc deity",
       "alpha": "",
       "name": "Sap, Sugar, Flour, Butter",
       "3x5": "",
@@ -4556,31 +6346,26 @@
       "id": 177
     },
     {
+      "tags": [
+        "monster",
+        "druid"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
-      "alpha": "Brightmist, Sapora",
-      "name": "Sapora Brightmist",
-      "3x5": "",
-      "short description": "notes",
-      "found @": "",
-      "id": 178
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "shadhavar",
       "3x5": "",
       "short description": "kp [cr 2]",
-      "found @": "druids",
+      "found @": "",
       "id": 179
     },
     {
+      "tags": [
+        "npc",
+        "deity"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc deity",
       "alpha": "",
       "name": "SHARINDLAR",
       "3x5": "",
@@ -4589,9 +6374,11 @@
       "id": 180
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "SHOKOS / SELKHOS",
       "3x5": "",
@@ -4600,9 +6387,11 @@
       "id": 181
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "SIGMURH",
       "3x5": "",
@@ -4611,9 +6400,11 @@
       "id": 182
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "SLUBBER REDOUBT",
       "3x5": "",
@@ -4622,9 +6413,11 @@
       "id": 184
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "SLUG",
       "3x5": "",
@@ -4633,9 +6426,13 @@
       "id": 185
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "Snav and Thuridan (brothers)",
       "3x5": "",
@@ -4644,9 +6441,11 @@
       "id": 186
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "11/17/2019",
       "teg": "",
-      "type": "npc",
       "alpha": "Snavidan ('Snav')",
       "name": "Snavidan ('Snav')",
       "3x5": "",
@@ -4655,9 +6454,11 @@
       "id": 187
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "SNOWFIELD MAN. Metoh Kangmi",
       "3x5": "",
@@ -4666,9 +6467,12 @@
       "id": 188
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "Tobolux",
       "3x5": "",
@@ -4677,9 +6481,12 @@
       "id": 189
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "spell in draconic that Joan or Paros can help decipher",
       "3x5": "",
@@ -4688,9 +6495,11 @@
       "id": 190
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "11/17/2019",
       "teg": "",
-      "type": "npc",
       "alpha": "Spikes",
       "name": "Spikes",
       "3x5": "",
@@ -4699,9 +6508,11 @@
       "id": 191
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "STARLIGHT COVE FRIENDSHIP COMMUNE",
       "3x5": "",
@@ -4710,9 +6521,12 @@
       "id": 192
     },
     {
+      "tags": [
+        "location",
+        "region"
+      ],
       "home": "",
       "teg": "",
-      "type": "location region",
       "alpha": "",
       "name": "Steeple Peak Mountains",
       "3x5": "",
@@ -4721,9 +6535,12 @@
       "id": 193
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "super-concentration",
       "3x5": "",
@@ -4732,9 +6549,11 @@
       "id": 194
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "SWAMPSKULL ALTAR",
       "3x5": "",
@@ -4743,9 +6562,12 @@
       "id": 195
     },
     {
+      "tags": [
+        "location",
+        "region"
+      ],
       "home": "",
       "teg": "",
-      "type": "location region",
       "alpha": "",
       "name": "SYRUPSAP (aka Syrup) FOREST",
       "3x5": "",
@@ -4754,9 +6576,11 @@
       "id": 196
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Tantegorisch",
       "3x5": "",
@@ -4765,20 +6589,25 @@
       "id": 197
     },
     {
+      "tags": [
+        "monster",
+        "baphomet"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "tendril puppet",
       "3x5": "",
       "short description": "kp [cr 2]",
-      "found @": "baphomet",
+      "found @": "",
       "id": 199
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "Terchvogs - Vogs?",
       "3x5": "",
@@ -4787,9 +6616,11 @@
       "id": 200
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "11/17/2019",
       "teg": "",
-      "type": "npc",
       "alpha": "Thaz",
       "name": "Thaz",
       "3x5": "",
@@ -4798,9 +6629,12 @@
       "id": 201
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "BEDROOT",
       "name": "The Bedroot",
       "3x5": "",
@@ -4809,9 +6643,11 @@
       "id": 202
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Placid Beast, The",
       "name": "THE PLACID BEAST",
       "3x5": "",
@@ -4820,9 +6656,11 @@
       "id": 203
     },
     {
+      "tags": [
+        "event"
+      ],
       "home": "",
       "teg": "",
-      "type": "event",
       "alpha": "",
       "name": "THE TWINNING",
       "3x5": "",
@@ -4831,9 +6669,11 @@
       "id": 204
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "THE UNDERJOWL",
       "3x5": "",
@@ -4842,9 +6682,11 @@
       "id": 205
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "The Yugatin (YOO guh teen) or Ygetin",
       "3x5": "",
@@ -4853,9 +6695,11 @@
       "id": 206
     },
     {
+      "tags": [
+        "faction"
+      ],
       "home": "",
       "teg": "",
-      "type": "faction",
       "alpha": "",
       "name": "THISTLEMILK KIDS",
       "3x5": "",
@@ -4864,9 +6708,12 @@
       "id": 207
     },
     {
+      "tags": [
+        "location",
+        "region"
+      ],
       "home": "",
       "teg": "",
-      "type": "location region",
       "alpha": "",
       "name": "THUBUDDER FOREST",
       "3x5": "",
@@ -4875,9 +6722,11 @@
       "id": 208
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Thuridan",
       "3x5": "",
@@ -4886,9 +6735,13 @@
       "id": 209
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "Thuridan's true nature",
       "3x5": "",
@@ -4897,9 +6750,11 @@
       "id": 210
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "11/17/2019",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Tinkle the Pig",
       "3x5": "",
@@ -4908,20 +6763,11 @@
       "id": 211
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
-      "alpha": "",
-      "name": "treacle",
-      "3x5": "",
-      "short description": "kp [cr 1/2]",
-      "found @": "bunny",
-      "id": 212
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "Trickster God / jester (quicklings)",
       "3x5": "",
@@ -4930,9 +6776,12 @@
       "id": 213
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "Trident of Warning",
       "3x5": "",
@@ -4941,9 +6790,11 @@
       "id": 214
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Trit",
       "name": "Trit",
       "3x5": "",
@@ -4952,9 +6803,11 @@
       "id": 215
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "11/17/2019",
-      "type": "npc",
       "alpha": "",
       "name": "TRUTH CAT",
       "3x5": "",
@@ -4963,20 +6816,25 @@
       "id": 216
     },
     {
+      "tags": [
+        "npc",
+        "throttlebottom"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "Tugstar",
       "3x5": "",
       "short description": "(she, her, hers) (halfling-human (hufling)) One of the night clerks at the Throttlebottom; worked when Oksana when up to bed after spilling guts to Dominick",
-      "found @": "Throttlebottom Hostlery",
+      "found @": "",
       "id": 217
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "TURBARY",
       "3x5": "",
@@ -4985,9 +6843,11 @@
       "id": 218
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "Tusternoof",
       "name": "Tusternoof",
       "3x5": "",
@@ -4996,9 +6856,11 @@
       "id": 219
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "",
       "name": "VASHA CUDFLUME",
       "3x5": "",
@@ -5007,31 +6869,40 @@
       "id": 220
     },
     {
+      "tags": [
+        "monster",
+        "baphomet"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "vine lord",
       "3x5": "",
       "short description": "kp [cr 7]",
-      "found @": "baphomet",
+      "found @": "",
       "id": 221
     },
     {
+      "tags": [
+        "monster",
+        "baphomet"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "vine troll skeleton",
       "3x5": "",
       "short description": "kp [cr 9]",
-      "found @": "baphomet",
+      "found @": "",
       "id": 222
     },
     {
+      "tags": [
+        "npc",
+        "deity"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc deity",
       "alpha": "",
       "name": "VOLUNDR",
       "3x5": "",
@@ -5040,9 +6911,11 @@
       "id": 223
     },
     {
+      "tags": [
+        "location"
+      ],
       "home": "",
       "teg": "",
-      "type": "location",
       "alpha": "",
       "name": "VVVVVV Tunnel",
       "3x5": "",
@@ -5051,9 +6924,13 @@
       "id": 225
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "wants to start own school ?",
       "3x5": "",
@@ -5062,9 +6939,12 @@
       "id": 226
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "Wild Hammer (swing wildly, damaging ... all around;)",
       "3x5": "",
@@ -5073,20 +6953,12 @@
       "id": 227
     },
     {
-      "home": "",
-      "teg": "11/17/2019",
-      "type": "location",
-      "alpha": "",
-      "name": "WINDMILL LAB",
-      "3x5": "",
-      "short description": "(Western Marshbout) Jittery windmill; upper clerestory windows made of rainbow stained glass mosaics; massive bell-shaped cast iron furnace half-in and half-out of house; teetering on the edge of a chasm that's beginning to open; window structure designed by Ella",
-      "found @": "",
-      "id": 228
-    },
-    {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach",
       "3x5": "",
@@ -5095,9 +6967,11 @@
       "id": 229
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "Wumbo",
       "3x5": "",
@@ -5106,9 +6980,11 @@
       "id": 230
     },
     {
+      "tags": [
+        "npc"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
       "alpha": "WU'UN",
       "name": "Wuun",
       "3x5": "",
@@ -5117,9 +6993,11 @@
       "id": 231
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "Xvarts (vermin masters, stage kidnappings, 'giant rat bodyguards' Raxivort",
       "3x5": "",
@@ -5128,9 +7006,11 @@
       "id": 232
     },
     {
+      "tags": [
+        "monster"
+      ],
       "home": "",
       "teg": "",
-      "type": "monster",
       "alpha": "",
       "name": "ZARACHIEL",
       "3x5": "",
@@ -5139,9 +7019,13 @@
       "id": 233
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "Zarachiel",
       "3x5": "",
@@ -5150,9 +7034,14 @@
       "id": 234
     },
     {
+      "tags": [
+        "letter",
+        "of",
+        "the",
+        "alphabet"
+      ],
       "home": "",
       "teg": "",
-      "type": "letter of the alphabet",
       "alpha": "",
       "name": "ZAROP",
       "3x5": "",
@@ -5161,20 +7050,11 @@
       "id": 236
     },
     {
+      "tags": [
+        "faction"
+      ],
       "home": "",
       "teg": "",
-      "type": "npc",
-      "alpha": "",
-      "name": "Zod",
-      "3x5": "",
-      "short description": "(he, him, his) (kobold) employee of  Blue Dragon Blades",
-      "found @": "Blue Dragon Blades",
-      "id": 237
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "faction",
       "alpha": "",
       "name": "ZORBON",
       "3x5": "",
@@ -5183,9 +7063,12 @@
       "id": 238
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "Zorbon gravity orb",
       "3x5": "",
@@ -5194,9 +7077,12 @@
       "id": 239
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "pr'lll",
       "3x5": "",
@@ -5205,328 +7091,298 @@
       "id": 240
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": " (humanoid arachnids) ",
       "3x5": "",
       "short description": "a bunch of chitine's (humanoid arachnids) used to be drow elf prisoners. (twist: the drow were the prisoners? twist: they were working together to rip off a third party and they/the elves backstabbed)",
       "found @": "",
       "id": 242
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "cows & giant",
       "3x5": "",
       "short description": "Group see cows pulling a giant : the cows are intelligent, or the giant is an enlarged duerger, giant is 'good,' then evil giant goblin god; giant is illusion (reverse odysseus with cyclops)\ngiant is illusion: tie in to giant ox at pillars of the ox",
       "found @": "",
       "id": 243
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "(gnoll) actually a druid wildshaped into a gnoll (folduin)",
       "3x5": "",
-      "short description": "(gnoll) actually a druid wildshaped into a gnoll (folduin)",
+      "short description": "",
       "found @": "",
       "id": 248
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "(half-truth) Meliona had 1 girl child.",
       "3x5": "",
-      "short description": "(gnoll) suspected that they have to make pacts with Yeenoghu, which is why they are on the border of trusted / not trusted",
-      "found @": "",
-      "id": 249
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "(half-truth) Meliona had 1 girl child.",
+      "short description": "",
       "found @": "",
       "id": 250
     },
     {
+      "tags": [
+        "secrets",
+        "twist"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "a bunch of ... weapons ?  in a hidden room -- someone has found but didn't tell other people ",
       "3x5": "",
-      "short description": "[teg only] Arlan's disappearance during the fight against The Yugatin was real and he did something then.",
-      "found @": "",
-      "id": 252
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "a bunch of ... weapons ? something ? in a hidden room -- someone has found but didn't tell other poeple that would be interested, and are planning on selling them ; picking them up ? to other evil people",
+      "short description": "a bunch of ... weapons ?  in a hidden room -- someone has found but didn't tell other poeple that would be interested, and are planning on selling them ; picking them up ? to other evil people",
       "found @": "",
       "id": 253
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "After von Veen threw Meliona out, she took refuge with the Foed Coven in the marshes, and there learned to live as a hag and hedge witch.",
       "3x5": "",
-      "short description": "After von Veen threw Meliona out, she took refuge with the Foed Coven in the marshes, and there learned to live as a hag and hedge witch.",
+      "short description": "",
       "found @": "",
       "id": 254
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "what sister ?",
       "3x5": "",
       "short description": "And, far from being alone, that sister claims the protection of her shadow mother, Caelfa, split off when the patron (it turns out unsuccessfully) claimed a child.",
       "found @": "",
       "id": 255
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "AURELIA 'was' MELIONA'S sister; I say 'was' because von Veen killed her after the confusion spell",
       "3x5": "",
-      "short description": "AURELIA 'was' MELIONA'S sister; I say 'was' because von Veen killed her after the confusion spell",
+      "short description": "",
       "found @": "",
       "id": 256
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Barazar is brother to Corvilla (Sod)",
       "3x5": "",
-      "short description": "Barazar is brother to Corvilla (Sod)",
+      "short description": "",
       "found @": "",
       "id": 257
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Bathybius is engaged to Eucleius, which he doesn't tell anyone about.",
       "3x5": "",
-      "short description": "Bathybius is engaged to Eucleius, which he doesn't tell anyone about.",
+      "short description": "",
       "found @": "",
       "id": 259
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "11/23/2019",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Bathybius is in a relationship with Meliona / Talma",
       "3x5": "",
-      "short description": "Bathybius is in a relationship with Meliona / Talma",
+      "short description": "",
       "found @": "",
       "id": 260
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "deep gnomes",
       "3x5": "",
       "short description": "both were taken in by the deep gnomes, but when they saw evil spirit take over father and kill mother they fled south.\n\n(father is still alive as one of the deep gnomes -- maybe a warlock or … father’s come down south and has been spying on them -- has to be the only one of bloodline or else power will be dispersed",
       "found @": "",
       "id": 261
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Corvilla Sod is head of the Prehends in Cressida",
       "3x5": "",
-      "short description": "Corvilla Sod is head of the Prehends in Cressida",
+      "short description": "",
       "found @": "",
       "id": 265
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Corvilla’s son is Reginald!!",
       "3x5": "",
-      "short description": "Corvilla’s son is Reginald",
+      "short description": "",
       "found @": "",
       "id": 266
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Darklings aren't necessarily bad, just cursed",
       "3x5": "",
-      "short description": "Darklings aren't necessarily bad, just cursed",
+      "short description": "",
       "found @": "",
       "id": 267
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "de-hearted gnoll {?} was resurrected by the Grenlich, and is suffering those effects",
       "3x5": "",
-      "short description": "de-hearted gnoll {?} was resurrected by the Vasha, and is suffering those effects",
+      "short description": "",
       "found @": "",
-      "id": 268
+      "id": 268,
+      "prep": true
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "dinosaur egg at the SWAMPSKULL ALTAR",
       "3x5": "",
-      "short description": "dinosaur egg at the SWAMPSKULL ALTAR",
+      "short description": "",
       "found @": "",
       "id": 269
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Duergars of Grey Tongue involved in the arms trafficking ...",
       "3x5": "",
-      "short description": "Duergars of Grey Tongue involved in the arms trafficking ...",
+      "short description": "",
       "found @": "",
       "id": 271
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Ella Loop is half-sister to Barazar Sod.",
       "3x5": "",
-      "short description": "Ella Loop is half-sister to Barazar Sod.",
+      "short description": "",
       "found @": "",
       "id": 273
     },
     {
+      "tags": [
+        "hook"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "GORYM was encamped to check out a mizzium deposit and I've been sent by my organization to collect samples and document",
       "3x5": "",
-      "short description": "Forty years ago VON VEEN and Meliona (at the time a powerful elf warlock) conceived twin daughters.",
-      "found @": "",
-      "id": 274
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "Gnomes are the Baron's ... kids ? experiments?",
-      "found @": "",
-      "id": 275
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "GORYM was encamped to check out a mizzium deposit and I've been sent by my organization to collect samples and document",
+      "short description": "",
       "found @": "",
       "id": 276
     },
     {
+      "tags": [
+        "hook"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "here to find out information about the unicorn undercover",
       "3x5": "",
-      "short description": "heard that the deep gnomes are intending to capture the bridge zorbo to …",
-      "found @": "",
-      "id": 277
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "here to find out information about the unicorn undercover",
+      "short description": "",
       "found @": "",
       "id": 278
     },
     {
-      "home": "12/7",
-      "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "Hidden door leaving out of Domonkos' cavern had the backwards C symbol on it.",
-      "found @": "",
-      "id": 279
-    },
-    {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "It was not Domonkos, though, but von Veen himself who perpetrated the murders;-- albeit unintentionally.",
-      "found @": "",
-      "id": 281
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "LACREY hasn’t heard from Lupenna. Presumably she knows how to get in touch with Lupenna, but maybe not.",
-      "found @": "",
-      "id": 283
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5535,31 +7391,13 @@
       "id": 285
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "LUPENNA is the child of RAUL, one of Tantegorisch's main lieutenants, and THYONE, an elf woman.",
-      "found @": "",
-      "id": 287
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "Maeve conducts a successful Robin Hood operation on the TMK trade routes in the North using her trustworthy group of monks posing as highway robbers.",
-      "found @": "",
-      "id": 288
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5568,9 +7406,13 @@
       "id": 289
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5579,9 +7421,13 @@
       "id": 290
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5590,9 +7436,13 @@
       "id": 291
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5601,9 +7451,13 @@
       "id": 292
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5612,9 +7466,13 @@
       "id": 293
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5623,9 +7481,13 @@
       "id": 294
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5634,9 +7496,13 @@
       "id": 295
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5645,9 +7511,13 @@
       "id": 297
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5656,9 +7526,13 @@
       "id": 298
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5667,9 +7541,13 @@
       "id": 299
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5678,9 +7556,11 @@
       "id": 300
     },
     {
+      "tags": [
+        "hook"
+      ],
       "home": "",
       "teg": "",
-      "type": "hook",
       "alpha": "",
       "name": "robbed and they want revenge",
       "3x5": "",
@@ -5689,9 +7569,13 @@
       "id": 301
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5700,9 +7584,13 @@
       "id": 303
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5711,9 +7599,13 @@
       "id": 304
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5722,9 +7614,13 @@
       "id": 306
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5733,9 +7629,11 @@
       "id": 308
     },
     {
+      "tags": [
+        "hook"
+      ],
       "home": "",
       "teg": "",
-      "type": "hook",
       "alpha": "",
       "name": "something dirty can't be made clean",
       "3x5": "",
@@ -5744,9 +7642,13 @@
       "id": 312
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5755,9 +7657,11 @@
       "id": 313
     },
     {
+      "tags": [
+        "hook"
+      ],
       "home": "",
       "teg": "",
-      "type": "hook",
       "alpha": "",
       "name": "That's the very cloak I was returning.",
       "3x5": "",
@@ -5766,9 +7670,13 @@
       "id": 315
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "11/17/2019",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5777,9 +7685,13 @@
       "id": 318
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "",
       "3x5": "",
@@ -5788,31 +7700,24 @@
       "id": 319
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "The soft rivalry between DMA & Famasta Monastery is a ruse to make enemies think they aren't working together to ... solve ... stuff ?",
       "3x5": "",
-      "short description": "The KULGMARK dwarves are the vigilant ones against this new force, to which the hill & mountain dwarves are ignorant;",
-      "found @": "",
-      "id": 320
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "secrets & clues",
-      "alpha": "",
-      "name": "",
-      "3x5": "",
-      "short description": "The soft rivalry between DMA & Famasta Monastery is a ruse to make enemies think they aren't working together to ... solve ... stuff ?",
+      "short description": "",
       "found @": "",
       "id": 322
     },
     {
+      "tags": [
+        "hook"
+      ],
       "home": "",
       "teg": "",
-      "type": "hook",
       "alpha": "",
       "name": "Their spouse died.",
       "3x5": "",
@@ -5821,9 +7726,12 @@
       "id": 323
     },
     {
+      "tags": [
+        "secrets",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets clues",
       "alpha": "",
       "name": "They don't own any X (e.g. pigs).",
       "3x5": "",
@@ -5832,9 +7740,13 @@
       "id": 324
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
       "name": "They've been asleep for 5 (five) years.",
       "3x5": "",
@@ -5843,86 +7755,114 @@
       "id": 325
     },
     {
+      "tags": [
+        "secrets"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Timothea engaged to Reginald (Corvilla's secret son)",
       "3x5": "",
-      "short description": "Timothea engaged to Reginald (Corvilla's secret son)",
+      "short description": "",
       "found @": "",
       "id": 326
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Timothea's visions",
       "3x5": "",
       "short description": "Timothea has always been plagued by odd visions and dreams, which the perceptive listener can tell differ from the nightmare images of Bugg-Shash; these are either communications or sympathies with her shadow sister, or the elements of Tantegorish that were in Meliona on conception, or Meliona's connection to the earth, or VON VEEN.",
       "found @": "",
       "id": 327
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Troll-sheep made it far from their herding grounds and need a guide back.",
       "3x5": "",
-      "short description": "Troll-sheep made it far from their herding grounds and need a guide back.",
+      "short description": "",
       "found @": "",
       "id": 329
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Weapons made from corrupted alloys are showing up at the armory after having been ‘liberated’ from threats.",
       "3x5": "",
-      "short description": "Weapons made from corrupted alloys are showing up at the armory after having been ‘liberated’ from threats.",
+      "short description": "",
       "found @": "",
       "id": 330
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Weapons made with the marsh mephit-touched bog iron get heavier over time.",
       "3x5": "",
-      "short description": "Weapons made with the marsh mephit-touched bog iron get heavier over time.",
+      "short description": "",
       "found @": "",
       "id": 331
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "Weapons made with the marsh mephit-touched bog iron never rust.",
       "3x5": "",
-      "short description": "Weapons made with the marsh mephit-touched bog iron never rust.",
+      "short description": "",
       "found @": "",
       "id": 332
     },
     {
+      "tags": [
+        "secrets",
+        "&",
+        "clues"
+      ],
       "home": "",
       "teg": "",
-      "type": "secrets & clues",
       "alpha": "",
-      "name": "",
+      "name": "When Tantegorisch abandoned her (Meliona?), she lost her patron and her powers, after which von Veen cast her out with the remaining child.",
       "3x5": "",
-      "short description": "When Tantegorisch abandoned her (Meliona?), she lost her patron and her powers, after which von Veen cast her out with the remaining child.",
+      "short description": "",
       "found @": "",
       "id": 333
     },
     {
+      "tags": [
+        "quest"
+      ],
       "home": "",
       "teg": "",
-      "type": "quest",
       "alpha": "",
       "name": "Looking for a way home",
       "3x5": "",
@@ -5931,9 +7871,11 @@
       "id": 335
     },
     {
+      "tags": [
+        "title"
+      ],
       "home": "",
       "teg": "",
-      "type": "title",
       "alpha": "",
       "name": "dwal-kenned",
       "3x5": "",
@@ -5942,9 +7884,12 @@
       "id": 336
     },
     {
+      "tags": [
+        "item",
+        "lexeme"
+      ],
       "home": "",
       "teg": "",
-      "type": "item lexeme",
       "alpha": "",
       "name": "berninde",
       "3x5": "",
@@ -5953,9 +7898,11 @@
       "id": 337
     },
     {
+      "tags": [
+        ""
+      ],
       "home": "",
       "teg": "",
-      "type": "",
       "alpha": "",
       "name": "bloemenwet",
       "3x5": "",
@@ -5964,9 +7911,11 @@
       "id": 338
     },
     {
+      "tags": [
+        "food"
+      ],
       "home": "",
       "teg": "",
-      "type": "food",
       "alpha": "",
       "name": "salted grape jerky",
       "3x5": "",
@@ -5975,9 +7924,11 @@
       "id": 339
     },
     {
+      "tags": [
+        "food"
+      ],
       "home": "",
       "teg": "",
-      "type": "food",
       "alpha": "",
       "name": "bloodcake",
       "3x5": "",
@@ -5986,9 +7937,11 @@
       "id": 340
     },
     {
+      "tags": [
+        "food"
+      ],
       "home": "",
       "teg": "",
-      "type": "food",
       "alpha": "",
       "name": "crystal sap candy (sapcandy)",
       "3x5": "",
@@ -5997,9 +7950,11 @@
       "id": 341
     },
     {
+      "tags": [
+        "food"
+      ],
       "home": "",
       "teg": "",
-      "type": "food",
       "alpha": "",
       "name": "trollmilk",
       "3x5": "",
@@ -6008,9 +7963,13 @@
       "id": 342
     },
     {
+      "tags": [
+        "food",
+        "liquid",
+        "alcohol"
+      ],
       "home": "",
       "teg": "",
-      "type": "food liquid alcohol",
       "alpha": "",
       "name": "wraith dew",
       "3x5": "",
@@ -6019,9 +7978,13 @@
       "id": 343
     },
     {
+      "tags": [
+        "description",
+        "trait",
+        "motivation"
+      ],
       "home": "",
       "teg": "",
-      "type": "description trait motivation",
       "alpha": "",
       "name": "From rich family but changed name; still uses family money.",
       "3x5": "",
@@ -6030,20 +7993,11 @@
       "id": 344
     },
     {
+      "tags": [
+        "title"
+      ],
       "home": "",
       "teg": "",
-      "type": "title",
-      "alpha": "",
-      "name": "Accipiter ",
-      "3x5": "",
-      "short description": "latin \"to grasp\"",
-      "found @": "",
-      "id": 345
-    },
-    {
-      "home": "",
-      "teg": "",
-      "type": "title",
       "alpha": "",
       "name": "cathartes",
       "3x5": "",
@@ -6052,9 +8006,12 @@
       "id": 346
     },
     {
+      "tags": [
+        "location",
+        "bar"
+      ],
       "home": "",
       "teg": "",
-      "type": "location bar",
       "alpha": "",
       "name": "Moonlit Sun",
       "3x5": "",
@@ -6063,9 +8020,12 @@
       "id": 347
     },
     {
+      "tags": [
+        "vessel",
+        "ship"
+      ],
       "home": "",
       "teg": "",
-      "type": "vessel ship",
       "alpha": "",
       "name": "lanchara",
       "3x5": "",
@@ -6074,9 +8034,11 @@
       "id": 349
     },
     {
+      "tags": [
+        "vehicle"
+      ],
       "home": "",
       "teg": "",
-      "type": "vehicle",
       "alpha": "",
       "name": "A slow market cart or a country wagon",
       "3x5": "",
@@ -6085,9 +8047,12 @@
       "id": 350
     },
     {
+      "tags": [
+        "vessel",
+        "ship"
+      ],
       "home": "",
       "teg": "",
-      "type": "vessel ship",
       "alpha": "",
       "name": "Windfucker (or Fuckwind) ",
       "3x5": "",
@@ -6096,9 +8061,12 @@
       "id": 351
     },
     {
+      "tags": [
+        "vessel",
+        "ship"
+      ],
       "home": "",
       "teg": "",
-      "type": "vessel ship",
       "alpha": "",
       "name": "The Dark Song",
       "3x5": "",
@@ -6107,9 +8075,12 @@
       "id": 352
     },
     {
+      "tags": [
+        "magic",
+        "flora"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic flora",
       "alpha": "",
       "name": "Moly",
       "3x5": "",
@@ -6118,9 +8089,11 @@
       "id": 353
     },
     {
+      "tags": [
+        ""
+      ],
       "home": "",
       "teg": "",
-      "type": "",
       "alpha": "",
       "name": "blookcake rolls",
       "3x5": "",
@@ -6129,15 +8102,59 @@
       "id": 354
     },
     {
+      "tags": [
+        "magic",
+        "item"
+      ],
       "home": "",
       "teg": "",
-      "type": "magic item",
       "alpha": "",
       "name": "respectacles",
       "3x5": "",
       "short description": "???",
       "found @": "",
       "id": 355
+    },
+    {
+      "tags": [
+        "event"
+      ],
+      "home": "",
+      "teg": "",
+      "alpha": "",
+      "name": "animals like porgs doing a ritual",
+      "3x5": "",
+      "short description": "",
+      "found @": "",
+      "id": 356
+    },
+    {
+      "tags": [
+        "magic",
+        "item"
+      ],
+      "home": "",
+      "teg": "",
+      "alpha": "",
+      "name": "Infernal Tack",
+      "3x5": "",
+      "short description": "Infernal Tack\nMTF\np167\nWondrous Item, Legendary (Requires Attunement by a creature of evil alignment.)\nA narzugon binds a nightmare to its service with infernal tack, which consists of a bridle, bit, reins, saddle, stirrups, and spurs. A nightmare equipped with infernal tack must serve whoever wears the spurs until the wearer dies or the tack is removed.\n\nYou can use an action to call a nightmare equipped with infernal tack by clashing the spurs together or scraping them through blood. The nightmare appears at the start of your next turn, within 20 feet of you. It acts as your ally and takes its turn on your initiative count. It remains for 1 day, until you or it dies, or until you dismiss it as an action. If the nightmare dies, it reforms in the Nine Hells within 24 hours, after which you can summon it again.\n\nThe tack doesn't conjure a nightmare from thin air; one must first be subdued so the tack can be placed on it. No nightmare accepts this forced servitude willingly, but some eventually form strong loyalties to their masters and become true partners in evil.\n\nSource: MTF, page 167. Also found in BGDIA, page 224.",
+      "found @": "",
+      "id": 357
+    },
+    {
+      "tags": [
+        "devilbargain",
+        "hook"
+      ],
+      "home": "",
+      "teg": "",
+      "alpha": "",
+      "name": "to get back, or upgrade, a body part: ",
+      "3x5": "",
+      "short description": "\"to get back, or upgrade, a body part: (Sibriex from Mordenkainen) Dem on Grafters. Sibriexes can channel the power of the Abyss to create new demons from other creatures. Over the course of days, they can create vast numbers of rutterkins to protect their lands and to ensure that the plane teems with destructive monsters. Some de- mons petition sibriexes for physical gifts, and if they are moved to do so, sibriexes can graft on new body parts\nto give the demons greater strength, vision, or stamina. Sibriexes never give aid freely; they demand a service or a treasure in return for the flesh-shaping they provide.\"",
+      "found @": "",
+      "id": 358
     }
   ],
   "recap": [

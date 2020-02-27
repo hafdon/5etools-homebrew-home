@@ -163,7 +163,7 @@ module.exports = {
         {
             name: 'Shard Shed',
             entries: [
-                "If Ephphatha sustains bludgeoning, slashing, or piercing damage from a nonmagical attack, she may use her reaction to shed a {@creature marlock|zorq}. A marlock shed in this way begins with hit points equal to the damage sustained. Its initiative is the same as Ephphatha's. Ephphatha can have only one marlock in existence at a time. An attempt to create a second marlock destroys the other marlock.",
+                "If Ephphatha sustains bludgeoning, slashing, or piercing damage from a nonmagical attack, she may use her reaction to shed a {@creature marlock|zorq} (based on 'the wretched'). A marlock shed in this way begins with hit points equal to the damage sustained. Its initiative is the same as Ephphatha's. Ephphatha can have only one marlock in existence at a time. An attempt to create a second marlock destroys the other marlock.",
             ],
         },
         {

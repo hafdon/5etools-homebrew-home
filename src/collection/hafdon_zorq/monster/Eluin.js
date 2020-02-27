@@ -39,7 +39,7 @@ module.exports = {
         {
             name: 'Spellcasting',
             headerEntries: [
-                'The selshamurinnw is an 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following druid spells prepared:',
+                'The selshamurinn is an 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following druid spells prepared:',
             ],
             spells: {
                 '0': {

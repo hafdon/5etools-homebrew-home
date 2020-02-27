@@ -76,22 +76,37 @@ function getData(filename) {
 }
 
 function checkForTraitNames(traitElement, filename) {
-    if (traitElement) {
-        let props = Object.getOwnPropertyNames(traitElement);
+    try {
+        if (traitElement) {
+            let props = Object.getOwnPropertyNames(traitElement);
 
-        if (props.includes('entries')) {
-            // check for nested recursively
-            traitElement.entries = traitElement.entries.map(el =>
-                checkForTraitNames(el, filename)
-            );
+            if (props.includes('entries')) {
+                // check for nested recursively
 
-            if (!props.includes('name')) {
-                noTraitNames.push(filename);
-                traitElement.name = '_';
+                if (!(traitElement.entries instanceof Array)) {
+                    traitElement.entries = [traitElement.entries];
+                }
+
+                traitElement.entries = traitElement.entries.map(el =>
+                    checkForTraitNames(el, filename)
+                );
+
+                if (!props.includes('name')) {
+                    noTraitNames.push(filename);
+                    traitElement.name = '_';
+                }
             }
         }
+        return traitElement;
+    } catch (e) {
+        elog(
+            `Error on checkForTraitNames traitElement: ${JSON.stringify(
+                traitElement
+            )}, filename: ${filename}`,
+            e
+        );
+        throw new Error(e);
     }
-    return traitElement;
 }
 
 // Get Giddy parent-level folders
@@ -281,7 +296,7 @@ file_array.forEach(folder => {
                                                     data.trait = [];
                                                 }
 
-                                                traitEntry = getData(
+                                                let traitEntry = getData(
                                                     `${read_dir}/${folder}/.title/${filename}.js`
                                                 );
 

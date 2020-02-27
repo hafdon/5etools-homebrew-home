@@ -73,11 +73,8 @@ module.exports = {
         ['Shuram, Shazan', 'Sure Am, Shazam'],
         ['Brent McCorkle', 'fancy boy; ridiculous'],
         ['Karok Ensity', 'character density'],
-<<<<<<< HEAD
-=======
         ['Curdella', 'cool lady'],
         ['Cavortletop', ''],
->>>>>>> origin/dev/work
         ['Umpo and Onglo', 'Maybe more of the earthlords ?'],
         ['Tontine', ' "TAHN-teen: some last-alive-gets-all schemer'],
         ['Empo', ''],
@@ -226,7 +223,6 @@ module.exports = {
         ['Panzon', ''],
         ['PHERMASTAPHY', 'title; location'],
 
-        ['underscramble', ''],
         ['Pigtooth', 'hag last name'],
         ['Polly', 'hag first name'],
         ['Pollyon (pahl-ee-ohn', ''],
