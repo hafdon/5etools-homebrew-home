@@ -1,4 +1,20 @@
 {
+  "prep": [
+    {
+      "name": "",
+      "description": "test",
+      "session_id": "16",
+      "tags": [],
+      "id": 1
+    },
+    {
+      "name": "",
+      "description": "horizon walker characterization through Bag of Holding\nhow does flick's 'protection from evil and good' manifest\nfallout from paros letting domonkos drink him\nWhat was isabella/lacrey reading?\nDrav saw (sees) a new spell in Riult's spellbook when …    \n \ncarlos: aule and time/initiative \nparos: ignorance is the source of your magic / funny lineage (an amnesia event?)\nfez: & carlos can make holy water together— naphula, eluin, bixby, merrigold, gormflaith (& weapons & circlets)\n",
+      "session_id": "18",
+      "tags": [],
+      "id": 2
+    }
+  ],
   "clock": [
     {
       "name": "Paros large oven skills",
@@ -27,7 +43,8 @@
       "start_date": null,
       "protension": null,
       "faction_id": null,
-      "id": 6
+      "id": 6,
+      "prep": true
     },
     {
       "name": "Someone finds a way to convert neutralized curse items into some form of power.",
@@ -67,7 +84,7 @@
     },
     {
       "name": "Paros smell spells",
-      "description": "",
+      "description": "paros clocks: \"zone of sweet air\" spell ; smell spells; \"destroy breath\"; there is a dehydrate spell",
       "tags": [],
       "start_date": null,
       "protension": null,
@@ -116,6 +133,96 @@
       "faction_id": null,
       "prep": null,
       "id": 15
+    },
+    {
+      "name": "Paros: building a phoneme map for accents",
+      "description": "",
+      "tags": [
+        "paros"
+      ],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": null,
+      "id": 16
+    },
+    {
+      "name": "russian trainer / tail attack / ballet dancing",
+      "description": "Joan: ! tail attack learned from russian friend (black widow learns)\nalso learns ballet dancing.\nflashback while under Kolmy's control where Kolmy is in the memory place of joan's russian trainer, so joan feels a connection to her\n\nor, kolmy lets her grow a fungus tail and then she lives there\n",
+      "tags": [
+        "flashback",
+        "joan"
+      ],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": true,
+      "id": 17
+    },
+    {
+      "name": "Joan finds out why she's immune to effects of the redgold metal (zoloto)",
+      "description": "Joan for some reason is immune to the metal (dragon …. ness? barbarianity?) something the russian trainer put in her?",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": true,
+      "id": 18
+    },
+    {
+      "name": "paros learns how to take notes while he's trancing",
+      "description": "clock: paros learns how to take notes while he's trancing. or a safe word. the safe word is asparagus popcorn.",
+      "tags": [
+        "paros"
+      ],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": true,
+      "id": 19
+    },
+    {
+      "name": "joan wants nurturing trait and +2 to intelligence",
+      "description": "...  for being part of three school\n\nsomething to add to joan's constitution",
+      "tags": [
+        "joan",
+        "levelup"
+      ],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": true,
+      "id": 20
+    },
+    {
+      "name": "goodberry",
+      "description": "flick and goodberries\n\ngoodberry followup: fallout from flick eating 12 goodberries at once -- 14 CON, and 22 PERception",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": true,
+      "id": 21
+    },
+    {
+      "name": "quickling skin - budduck with isabella / oni",
+      "description": "budduck is skinning the quicklings and putting them into owls. give fez some yippy skippy boots -- boots of speed made out of quickling skin -- that leads back to perchmaster ",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": null,
+      "id": 22
+    },
+    {
+      "name": "xfiles: here to find out information about the unicorn undercover",
+      "description": "",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": true,
+      "id": 23
     }
   ],
   "location": [
@@ -354,6 +461,30 @@
       "description": "",
       "tags": [],
       "id": 34
+    },
+    {
+      "name": "Squee river",
+      "description": "the one on which marshbout sits\n\n!!!  Squee River where it empties out into Snaff Bay. ",
+      "tags": [
+        "geofeature"
+      ],
+      "id": 35
+    },
+    {
+      "name": "Forest Ogrelodge ",
+      "description": "Drav grew up here.",
+      "tags": [
+        "georegion"
+      ],
+      "id": 36
+    },
+    {
+      "name": "Snaff bay",
+      "description": "bay that squee river runs into.",
+      "tags": [
+        "geofeature"
+      ],
+      "id": 37
     }
   ],
   "transcript": [
@@ -368,16 +499,18 @@
     {
       "name": "Flower Folk",
       "clocks": "",
-      "description": "leuqline is like a ley line\ndefinitely reference: 'where a bunch of people each give you a flower wreath, one after the other'",
+      "description": "leuqline is like a ley line (flower folk related to leuqline: \"where a bunch of people each give you a flower wreath, one after the other\")\ndefinitely reference: 'where a bunch of people each give you a flower wreath, one after the other'",
       "turf": "",
       "npcs": "",
       "assets": "",
-      "id": 1
+      "id": 1,
+      "claimed": true,
+      "prep": true
     },
     {
       "name": "FBI X-files",
       "clocks": "",
-      "description": "Mulder believes in the existence of aliens and the paranormal while Scully, a medical doctor and a skeptic, is assigned to scientifically analyze Mulder's discoveries, offer alternate rational theories to his work, and thus return him to mainstream cases.",
+      "description": "Mulder believes in the existence of aliens and the paranormal while Scully, a medical doctor and a skeptic, is assigned to scientifically analyze Mulder's discoveries, offer alternate rational theories to his work, and thus return him to mainstream cases.\n\nReginald and Briffa are actually the X-files people that debi wanted;  Briffa and REginald catch up with them: Graal has a satanopathy\n",
       "turf": "",
       "npcs": "Briffa. Reginald. ",
       "assets": "",
@@ -390,7 +523,8 @@
       "turf": "",
       "npcs": "",
       "assets": "",
-      "id": 3
+      "id": 3,
+      "claimed": true
     },
     {
       "name": "Bloodforge Clan",
@@ -454,9 +588,11 @@
     },
     {
       "name": "Nightmare Druids",
-      "description": "\"druids\na bunch of promiscuous druids who keep marrying virgins to (sacrifice) → try to corral this evil unicorn.\nthey don’t want their reputation ruined by people saying / seeing they can’t do it?\nelaborate ruse to convince it they’re sacrificing virgins\nreally, only a good unicorn can tell, but the good unicorn doesn’t believe in that sort of stuff\nthe demon unicorn believes in it, but uses a very strict heteronormative understanding. \n\nSkeletons - the druids are doing what they can without actually resurrecting them. (Maybe the skeletons developed inner lives of their own, distinct from those of the people who were around the bones before they died)\"\n\nTHURIDAN said: if you go north, there are druids who live in the forest (north Thubudder). because they are attuned to the woods, they and I have had dealings together; if you tell them about these creatures and tell you that I sent you, they may be more inclined to help than they otherwise would, since they have non-mortal business going on.",
+      "description": "\"druids\na bunch of promiscuous druids who keep marrying virgins to (sacrifice) → try to corral this evil unicorn.\nthey don’t want their reputation ruined by people saying / seeing they can’t do it?\nelaborate ruse to convince it they’re sacrificing virgins\nreally, only a good unicorn can tell, but the good unicorn doesn’t believe in that sort of stuff\nthe demon unicorn believes in it, but uses a very strict heteronormative understanding. \n\nSkeletons - the druids are doing what they can without actually resurrecting them. (Maybe the skeletons developed inner lives of their own, distinct from those of the people who were around the bones before they died)\"\n\nTHURIDAN said: if you go north, there are druids who live in the forest (north Thubudder). because they are attuned to the woods, they and I have had dealings together; if you tell them about these creatures and tell you that I sent you, they may be more inclined to help than they otherwise would, since they have non-mortal business going on.\n\nUnicorn cops / Druid robbers",
       "id": 14,
-      "clocks": "goodberries from forest nightmare candy factories (wilderness proficiency)"
+      "clocks": "goodberries from forest nightmare candy factories (wilderness proficiency)",
+      "prep": true,
+      "claimed": true
     },
     {
       "name": "zorbwood черное дерево (chernoye derevo; black wood)",
@@ -501,9 +637,11 @@
       "npcs": "\"acolytes called HOGSHEAD\n'priests' called PREHENDS\""
     },
     {
-      "name": "redgold metal",
-      "description": "Arlan said that the deposit might have formed 25 years ago during the banishment intersecting with the NSEW ley lines (teg 006)\nSomeone told them that Bathybius and the peat… \nbog iron from the peat\nbut the metal \n\ninstances of the raw ‘unique’ alloy\nLooking towards the Smoke Compass direction to a slag of metal, line of sight through Gorym\nThat Gorym was ... a tentacle creature?\nMetal(not yet corrupted alloy)'s channeling/catalyst properties; Boggsush.\n\nswords with the alloy\ntrainees at DMA\nZedaar -- Touching the sword at first to get it from the disciples at DMA.\n\npure ingot extracted from alloy-in-sword\nMiriabelle (\"miri\")\t-- Willing subject for ELLA LOOP to test the possession qualities of the metal in the sword.\n(definite possession possibilities)\n\nkobold circlets in two-horn band\n",
-      "id": 23
+      "name": "zoloto / zolott (redgold metal)",
+      "description": "Arlan said that the deposit might have formed 25 years ago during the banishment intersecting with the NSEW ley lines (teg 006)\nSomeone told them that Bathybius and the peat… \nbog iron from the peat\nbut the metal \n\nJoan for some reason is immune to the metal (dragon …. ness? barbarianity?) something the russian trainer put in her?\n\ninstances of the raw ‘unique’ alloy\nLooking towards the Smoke Compass direction to a slag of metal, line of sight through Gorym\nThat Gorym was ... a tentacle creature?\nMetal(not yet corrupted alloy)'s channeling/catalyst properties; Boggsush.\n\nswords with the alloy\ntrainees at DMA\nZedaar -- Touching the sword at first to get it from the disciples at DMA.\n\npure ingot extracted from alloy-in-sword\nMiriabelle (\"miri\")\t-- Willing subject for ELLA LOOP to test the possession qualities of the metal in the sword.\n(definite possession possibilities)\n\nkobold circlets in two-horn band\n",
+      "id": 23,
+      "prep": true,
+      "npcs": "dead / possessed ghoul bodies of gormflaith\nGnomes (and Sik in particular) have seen the metal -- and from the GORMFLAITH hooks\n"
     },
     {
       "name": "Slugg's Varts",
@@ -702,6 +840,22 @@
       "name": "Zorbon",
       "description": "- the crosses outside the ... monastery are dead zorbons\n- ",
       "id": 65
+    },
+    {
+      "description": "Traveling minstrels (use the Tabaxi minstrel?): and put all the song/band/label titles that we use here",
+      "name": "Traveling minstrels ",
+      "id": 66
+    },
+    {
+      "description": " those who have dealings with witches or believe in witchcraft",
+      "name": "witchmongers",
+      "id": 67
+    },
+    {
+      "name": "Earthlord Sisters\n",
+      "description": "Earthlord Sisters fight against the Ultha(r)k (metal allow) minions, since their warhammers damage armor.\ngiants? vs dragons ?\n\nsolrak's sisters",
+      "claimed": true,
+      "id": 68
     }
   ],
   "npc": [
@@ -1235,11 +1389,13 @@
     {
       "name": "Shogal",
       "fluff": "",
-      "description": "Shogal = \"the howler\"\none of the ancient canid gods, along with Thos\n\nThe Grenlich is devoting herself to Shogal. Maybe she is suspicious of the benevolence of authority figures (like Flick said she was); or include a benevolent authority figure to allow Flick to be suspicious of that (or be friends with someone else who is also suspicious)",
+      "description": "Shogal = \"the howler\"\none of the ancient canid gods, along with Thos\n\nThe Grenlich is devoting herself to Shogal. Maybe she is suspicious of the benevolence of authority figures (like Flick said she was); or include a benevolent authority figure to allow Flick to be suspicious of that (or be friends with someone else who is also suspicious)\n",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
-      "id": 112
+      "id": 112,
+      "prep": true,
+      "claimed": true
     },
     {
       "name": "Maltinn of Dubrunfaut",
@@ -1286,7 +1442,7 @@
     {
       "name": "Fengari",
       "fluff": "",
-      "description": "Sister to Pelor (or ... Ulimara?)\nGoddess of the Undersea Moon\npatron deity of Selshamurrin",
+      "description": "Sister to Pelor (or ... Ulimara?)\nGoddess of the Undersea Moon\npatron deity of Selshamurrin\n\neluin (selkie) & Fengari (goddess of the undersea moon) [two moons under the sea, one evil and one good?] — ",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
@@ -1703,7 +1859,7 @@
       "name": "Shoemaker Byte",
       "claimed": true,
       "fluff": "Shoemaker Byte is a legit bear. She has paws capable of dextrous object manipulation as well as claw-type enmurderment. She stands 11 ft. tall at the shoulder and weighs half a ton. She {@bold hates} forest fires.'",
-      "description": "see zorq 5e ",
+      "description": "see zorq 5e \n\nbear-pire (vampire); bear pyre; bear pie-er (someone who pies bears, or a bear who makes pies)?",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
@@ -2490,14 +2646,17 @@
       "id": 293
     },
     {
-      "name": "Hebwith",
+      "name": "Hebwith Gregonius",
       "description": "",
       "id": 294
     },
     {
-      "name": "Hieronymo",
+      "name": "Hieronymo Strachey",
       "description": "",
-      "id": 295
+      "id": 295,
+      "tags": [
+        "contributor"
+      ]
     },
     {
       "name": "Hostrena Butterknife",
@@ -2508,11 +2667,6 @@
       "name": "Benjaplom",
       "description": "",
       "id": 297
-    },
-    {
-      "name": "Gregonius",
-      "description": "",
-      "id": 298
     },
     {
       "name": "[https://en.wiktionary.org/wiki/Category:Old_High_German_given_names]",
@@ -3508,6 +3662,203 @@
       "tags": [],
       "etools": null,
       "id": 458
+    },
+    {
+      "name": "Sigvarda",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 459
+    },
+    {
+      "name": "Beodan",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 460
+    },
+    {
+      "name": "Ngaire ",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "('ng'y-ree)",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 461
+    },
+    {
+      "name": "Almandine",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 462
+    },
+    {
+      "name": "Pyrope",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 463
+    },
+    {
+      "name": "Locket",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 464
+    },
+    {
+      "name": "Niyuton",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": " (\"newton?\"): ",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 465
+    },
+    {
+      "name": "Langsuir",
+      "claimed": null,
+      "fluff": "",
+      "description": "A female vampire with a whinnying cry, that preys on newborn children. Cf. penanggalan n.",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [
+        "villain"
+      ],
+      "etools": null,
+      "id": 466
+    },
+    {
+      "name": "henderofeminax",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 467
+    },
+    {
+      "name": "",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 468
+    },
+    {
+      "name": "Meliona",
+      "claimed": true,
+      "fluff": "",
+      "description": "so Meliona probably wasn't great at one point, since she was married to BVV",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 469
+    },
+    {
+      "name": "Dalariel",
+      "claimed": true,
+      "fluff": "",
+      "description": " definitely has the flux capacitor logo",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": true,
+      "tags": [],
+      "etools": null,
+      "id": 470
+    },
+    {
+      "name": "Naphula",
+      "claimed": null,
+      "fluff": "",
+      "description": "lemure/ naphula hates going back to hell ... ?\nwhich one ... is naphula ?",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 471
+    },
+    {
+      "name": "Eluin",
+      "claimed": true,
+      "fluff": "",
+      "description": "selkie",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 472
+    },
+    {
+      "name": "Zarachiel",
+      "claimed": true,
+      "fluff": "",
+      "description": "sap demon taking over someone lets them interact with the Zorbos and their plans / doings\n\nportal in the block of wood to the GLOM for Flick\nor Polive put it near their portals / shrines to the four elements\n(which are actually kind of other things)\nlike there’s sap (syrup) sugar flour butter\nand then egg, which is both the fish egg of uegit (egg-it) and dragon egg (nexnag)\ndragon egg calls to Paros and Joan\narises from the sap that they did use from his body and put through the toasters\n",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 473
     }
   ],
   "description": [
@@ -4135,6 +4486,12 @@
       "tags": [],
       "prep": null,
       "id": 130
+    },
+    {
+      "content": "The quacksaluers in Germany swalow spiders in open assemblies to shew the vertue of their confections.",
+      "tags": [],
+      "prep": null,
+      "id": 131
     }
   ],
   "position": [
@@ -4291,6 +4648,28 @@
         "occupation"
       ],
       "id": 29
+    },
+    {
+      "name": "fourrier / quartermaster; brigadier-fourrier",
+      "description": "a sub-officer charged with accounts, lodging of men, etc.",
+      "tags": [
+        "occupation"
+      ],
+      "id": 30
+    },
+    {
+      "name": ": a hawker of simples, etc",
+      "description": "",
+      "tags": [],
+      "id": 31
+    },
+    {
+      "name": "a chafe-wax ",
+      "description": " prepare wax for sealing documents, usually for a public official",
+      "tags": [
+        "occupation"
+      ],
+      "id": 32
     }
   ],
   "work": [
@@ -4459,7 +4838,8 @@
       "contents": "",
       "description": "",
       "contributor": "",
-      "id": 30
+      "id": 30,
+      "prep": true
     },
     {
       "title": "[real] The Sceptical Chymist or Chymico-Physical Doubts & Paradoxes, Touching the Spagyrist's Principles Commonly call'd Hypostatical; As they are wont to be Propos'd and Defended by the Generality of Alchymists. Whereunto is præmis'd Part of another Discourse relating to the same Subject.",
@@ -4541,6 +4921,30 @@
       "mechanics": "",
       "attune": null,
       "id": 39
+    },
+    {
+      "title": "Travels of Hebwith Gregonius in the [land of ...]? during the [world event...?]",
+      "contents": "",
+      "description": "(not themself), travel writer / journalist / ",
+      "contributor": "Hieronymo Strachey",
+      "mechanics": "",
+      "attune": null,
+      "prep": null,
+      "etools": null,
+      "tags": [],
+      "id": 40
+    },
+    {
+      "title": "Crank",
+      "contents": "",
+      "description": "[??] who publishes a magazine called Crank \nmotto:  ? There is a quacksalver in every savant, and a seer in each fool.\n",
+      "contributor": "",
+      "mechanics": "",
+      "attune": null,
+      "prep": null,
+      "etools": null,
+      "tags": [],
+      "id": 41
     }
   ],
   "continuity": [
@@ -5449,7 +5853,7 @@
       "short description": "turn action to RACTION (ritual?\nchange point of origin of spellcasting effect AOE (bag of those-shaped dice)\nmug of compelled toasting (charisma check)\nbody-eating grub (compare to “gentle repose”)\nforget very last thing you said \n\ncategories\nroleplaying aid\nmechanical / environmental aids\ncombat aids\nspell aids\nexploration aid\nsocial interaction aid",
       "found @": "",
       "id": 8,
-      "prep": true
+      "prep": false
     },
     {
       "tags": [
@@ -6342,20 +6746,6 @@
       "short description": "",
       "found @": "",
       "id": 89
-    },
-    {
-      "tags": [
-        "location",
-        "region"
-      ],
-      "home": "",
-      "teg": "",
-      "alpha": "",
-      "name": "Forest Ogrelodge",
-      "3x5": "",
-      "short description": "Drav grew up here.",
-      "found @": "",
-      "id": 91
     },
     {
       "tags": [
@@ -8031,21 +8421,6 @@
     },
     {
       "tags": [
-        "secrets",
-        "&",
-        "clues"
-      ],
-      "home": "",
-      "teg": "",
-      "alpha": "",
-      "name": "Zarachiel",
-      "3x5": "",
-      "short description": "sap demon taking over someone lets them interact with the Zorbos and their plans / doings",
-      "found @": "",
-      "id": 234
-    },
-    {
-      "tags": [
         "letter",
         "of",
         "the",
@@ -8372,19 +8747,6 @@
       "short description": "",
       "found @": "",
       "id": 276
-    },
-    {
-      "tags": [
-        "hook"
-      ],
-      "home": "",
-      "teg": "",
-      "alpha": "",
-      "name": "here to find out information about the unicorn undercover",
-      "3x5": "",
-      "short description": "",
-      "found @": "",
-      "id": 278
     },
     {
       "tags": [
@@ -9342,6 +9704,93 @@
       ],
       "prep": true,
       "id": 489
+    },
+    {
+      "alpha": "",
+      "name": "fulmar",
+      "short description": "\nfulmar: petrel sea-bird ; used for meat and oil and down\nWhen threatened, the fulmar ejects its oil in a series of hiccups through its widely-opened beak.\nThey produce a stomach oil made up of wax esters and triglycerides that is stored in the proventriculus. This can be sprayed out of their mouths as a defense against predators from a very early age, and as an energy rich food source for chicks and for the adults during their long flights.[6] It will mat the plumage of avian predators, and can lead to their death.[7] Finally, they also have a salt gland that is situated above the nasal passage that helps desalinate their bodies, due to the high amount of ocean water that they imbibe. This gland excretes a high saline solution from their nose.\n",
+      "tags": [
+        "fauna"
+      ],
+      "prep": null,
+      "id": 490
+    },
+    {
+      "alpha": "",
+      "name": "creosote",
+      "short description": "creosote\nfez knows about it\nSome creosote types were used historically as a treatment for components of seagoing and outdoor wood structures to prevent rot (e.g., bridgework and railroad ties, see image).\n Creosotes are the principal chemicals responsible for the stability, scent, and flavor characteristic of smoked meat; the name is derived from Greek κρέας (kreas), meaning 'meat', and σωτήρ (sōtēr), meaning 'preserver'.[3]\nconnection to Juniper three-school\nantiseptics\n used to impregnate the air in sick-rooms, etc., with disinfecting fumes.\nmeat-preservation\n\n [smoked sausages]\n",
+      "tags": [
+        "item",
+        "tradegood"
+      ],
+      "prep": null,
+      "id": 491
+    },
+    {
+      "alpha": "",
+      "name": "selkie tack (like hard tack?)",
+      "short description": "",
+      "tags": [
+        "food"
+      ],
+      "prep": null,
+      "id": 492
+    },
+    {
+      "alpha": "",
+      "name": "popcorn is spelled popcurn",
+      "short description": "",
+      "tags": [],
+      "prep": null,
+      "id": 493
+    },
+    {
+      "alpha": "",
+      "name": "something resistant to thunder damage for Drav's shatter ",
+      "short description": "",
+      "tags": [
+        "trait"
+      ],
+      "prep": null,
+      "id": 494
+    },
+    {
+      "alpha": "",
+      "name": "what had happened to leave the \"dalariel\" bracer there ?",
+      "short description": ": was hoping for a t-shirt cannon ",
+      "tags": [],
+      "prep": true,
+      "id": 495
+    },
+    {
+      "alpha": "",
+      "name": "overheard (quotes) — rumors (paraphrase) — (newspaper) events (table) — remarkable occurrences",
+      "short description": "",
+      "tags": [],
+      "prep": null,
+      "id": 496
+    },
+    {
+      "alpha": "",
+      "name": "pussy candle goop",
+      "short description": "",
+      "tags": [
+        "item",
+        "callback"
+      ],
+      "prep": null,
+      "id": 497
+    },
+    {
+      "alpha": "",
+      "name": "crumbs are our blankets",
+      "short description": "",
+      "tags": [
+        "item",
+        "callback"
+      ],
+      "prep": true,
+      "id": 498
     }
   ],
   "recap": [
