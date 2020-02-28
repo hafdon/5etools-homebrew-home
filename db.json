@@ -116,6 +116,28 @@
       "faction_id": null,
       "prep": null,
       "id": 15
+    },
+    {
+      "name": "Someone is blackmailing Oriax because they know that she's a Banderhobb.",
+      "description": "",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": null,
+      "id": 16
+    },
+    {
+      "name": "Graal's healed arm didn't heal right ",
+      "description": "-- and now she's dying of poisons or something, and can only be saved by being returned to her homeland.\n- connection with satanopathy\n- sign of a deeper evil",
+      "tags": [
+        "complication"
+      ],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": null,
+      "id": 17
     }
   ],
   "location": [
@@ -354,6 +376,21 @@
       "description": "",
       "tags": [],
       "id": 34
+    },
+    {
+      "name": "Striples",
+      "description": "an \"education center\"",
+      "tags": [],
+      "id": 35
+    },
+    {
+      "name": "The Alldrink",
+      "description": "what someone calls a sea or ocean in a weird place ?",
+      "tags": [
+        "geofeature",
+        "myth"
+      ],
+      "id": 36
     }
   ],
   "transcript": [
@@ -666,7 +703,8 @@
     },
     {
       "name": "Ulthark ?",
-      "id": 58
+      "id": 58,
+      "description": "The brass creatures dot, dash, slash, etc, are ulthark's creatures -- and that's the entrypoint for getting introduced to \"her\" ?\n\nwith metal. high-AC stuff. fighter of --- ? sharundr ? "
     },
     {
       "name": "Von Veen and Meliona",
@@ -702,6 +740,10 @@
       "name": "Zorbon",
       "description": "- the crosses outside the ... monastery are dead zorbons\n- ",
       "id": 65
+    },
+    {
+      "name": "gold-stealing black-footed ferrets",
+      "id": 66
     }
   ],
   "npc": [
@@ -3508,6 +3550,99 @@
       "tags": [],
       "etools": null,
       "id": 458
+    },
+    {
+      "name": "Ross the raven",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 459
+    },
+    {
+      "name": "Leåthan",
+      "claimed": null,
+      "fluff": "",
+      "description": "roguish wood elf",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 460
+    },
+    {
+      "name": "\"Auntie\"",
+      "claimed": true,
+      "fluff": "",
+      "description": "says she's a 7 year old human. alternate barkeeper at Riskless Tavern",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 461
+    },
+    {
+      "name": "maggie flood",
+      "claimed": true,
+      "fluff": "",
+      "description": "doesn't touch metal\n",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 462
+    },
+    {
+      "name": "Spessy",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 463
+    },
+    {
+      "name": "Lorotixt",
+      "claimed": null,
+      "fluff": "",
+      "description": "uses slugs to spy\ngod of ladel-fighting dreams ? ",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [
+        "deity"
+      ],
+      "etools": null,
+      "id": 464
+    },
+    {
+      "name": "The Wall Maker",
+      "claimed": null,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": null,
+      "tags": [],
+      "etools": null,
+      "id": 465
     }
   ],
   "description": [
@@ -4135,6 +4270,14 @@
       "tags": [],
       "prep": null,
       "id": 130
+    },
+    {
+      "content": "someone wears a hat with a lot of feathers and also they collect feathers",
+      "tags": [
+        "quirk"
+      ],
+      "prep": null,
+      "id": 131
     }
   ],
   "position": [
@@ -9342,6 +9485,78 @@
       ],
       "prep": true,
       "id": 489
+    },
+    {
+      "alpha": "",
+      "name": "Kelf",
+      "short description": "the oni word for quicklings (means disposable or short-lived)",
+      "tags": [
+        "language"
+      ],
+      "prep": null,
+      "id": 490
+    },
+    {
+      "alpha": "",
+      "name": "water postpada",
+      "short description": "",
+      "tags": [
+        "liquid"
+      ],
+      "prep": null,
+      "id": 491
+    },
+    {
+      "alpha": "",
+      "name": "Family member is worried about them and comes to visit.",
+      "short description": "",
+      "tags": [
+        "soap",
+        "twist"
+      ],
+      "prep": null,
+      "id": 492
+    },
+    {
+      "alpha": "",
+      "name": "Gloves of Climbing and Swimming",
+      "short description": "made of selkie skin, or maybe \nhorse: rich shining black muscle & white fat -- skinned alive",
+      "tags": [],
+      "prep": null,
+      "id": 493
+    },
+    {
+      "alpha": "",
+      "name": "book with silk pages and gold writing",
+      "short description": "",
+      "tags": [
+        "book",
+        "item",
+        "magic"
+      ],
+      "prep": null,
+      "id": 494
+    },
+    {
+      "alpha": "",
+      "name": "boolaq",
+      "short description": "to fall asleep",
+      "tags": [
+        "language"
+      ],
+      "prep": null,
+      "id": 495
+    },
+    {
+      "alpha": "",
+      "name": "Dragons v Giants war",
+      "short description": "",
+      "tags": [
+        "event",
+        "history"
+      ],
+      "prep": null,
+      "id": 496
     }
   ],
   "recap": [
