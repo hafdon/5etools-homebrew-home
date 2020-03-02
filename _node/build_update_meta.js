@@ -3,8 +3,10 @@ const { version } = fs.readJSONSync(`./package.json`);
 const { _meta } = fs.readJSONSync(`./src/_meta/_meta.json`);
 
 try {
+    // eslint-disable-next-line no-console
     console.log({ version });
 
+    // eslint-disable-next-line no-console
     console.log({ _meta });
     _meta.sources[0].version = version;
 
@@ -13,5 +15,6 @@ try {
 
     fs.writeJSONSync(`./src/_meta/_meta.json`, { _meta });
 } catch (e) {
+    // eslint-disable-next-line no-console
     console.log(e);
 }

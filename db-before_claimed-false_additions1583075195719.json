@@ -1,123 +1,4 @@
 {
-  "lexeme": [
-    {
-      "headword": "disquisition",
-      "etymology": "",
-      "pronunciation": "",
-      "language": "",
-      "definitions": "1.\n  a. Diligent or systematic search; investigation; research, examination.\n  b. elliptical. A subject or topic for investigation; a question. Obsolete. rare.\n2. A treatise or discourse in which a subject is investigated and discussed, or the results of investigation set forth at some length; less correctly, a learned or elaborate dissertation on a subject.\n\n\n",
-      "tags": [],
-      "id": 2
-    },
-    {
-      "headword": "lex talionis",
-      "etymology": "",
-      "pronunciation": "",
-      "language": "latin",
-      "definitions": "[law of talion]: eye for an eye justice\n- retributive justice",
-      "tags": [],
-      "id": 3
-    },
-    {
-      "headword": "chroma",
-      "etymology": "",
-      "pronunciation": "",
-      "language": "",
-      "definitions": "saturation of a color / intensity ; vividness\n- freedom from white or grey; purity of a color",
-      "tags": [],
-      "id": 4
-    },
-    {
-      "headword": "apoptosis",
-      "etymology": "",
-      "pronunciation": "",
-      "language": "",
-      "definitions": "programmed cell death",
-      "tags": [],
-      "id": 5
-    },
-    {
-      "headword": "popysmic",
-      "etymology": "",
-      "pronunciation": "",
-      "language": "",
-      "definitions": "produced with smacking of the lips (Ulysses)",
-      "tags": [],
-      "id": 6
-    },
-    {
-      "headword": "paremiological",
-      "etymology": "",
-      "pronunciation": "",
-      "language": "",
-      "definitions": "relating to the study of proverbs",
-      "tags": [],
-      "id": 7
-    },
-    {
-      "headword": "paremia / paroemia",
-      "etymology": "< οἴμη song (perhaps < οἶμος way, road, of uncertain origin) ",
-      "pronunciation": "",
-      "language": "",
-      "definitions": "A proverb or adage; an aphorism.\n\nsee paremiological",
-      "tags": [],
-      "id": 8
-    },
-    {
-      "headword": "glja",
-      "etymology": "",
-      "pronunciation": "",
-      "language": "Old Norse",
-      "definitions": "to shine\n> glee (to squirnt)",
-      "tags": [],
-      "id": 9
-    },
-    {
-      "headword": "falx",
-      "etymology": "",
-      "pronunciation": "",
-      "language": "latin",
-      "definitions": "Latin falx scythe or sickle.",
-      "tags": [],
-      "id": 10
-    },
-    {
-      "headword": "rappum",
-      "etymology": "",
-      "pronunciation": "",
-      "language": "latin ",
-      "definitions": "turnip",
-      "tags": [],
-      "id": 11
-    },
-    {
-      "headword": "ponderate",
-      "etymology": "",
-      "pronunciation": "",
-      "language": "",
-      "definitions": "- weigh in the mind\n- judge, evaluate, appraise (evaluate importance)\n- contemplate, consider, ponder (weigh generally)\n\n(librate, perpend)\n- ascertain the physical weight of ",
-      "tags": [],
-      "id": 12
-    },
-    {
-      "headword": "superintending",
-      "etymology": "",
-      "pronunciation": "",
-      "language": "",
-      "definitions": ":: standing for hours superintending the boiling of the tea-kettle\n / supervising",
-      "tags": [],
-      "id": 13
-    },
-    {
-      "headword": "unpretending",
-      "etymology": "",
-      "pronunciation": "",
-      "language": "",
-      "definitions": "unaffected, plain, natural, unrefined, simple, ",
-      "tags": [],
-      "id": 14
-    }
-  ],
   "prep": [
     {
       "name": "",
@@ -128,7 +9,7 @@
     },
     {
       "name": "",
-      "description": "# - \"You're good with computer\". - \"I did!\"\n\nwhat is the equivalent of stress to take a flashback\n\n- do a voice for snapping turtle\n- asked the gang what they thought about flashback-type study\n- get people in touch with source of their power every session\n- hollow core sword that whistles (thaz's rapier?)\n- cloud of daggers invigorates the spiritual hammer\n- waves of monsters, as Flick fears (or, just in her dreams -- because unable to close portals!)",
+      "description": "what is the equivalent of stress to take a flashback\n\n- do a voice for snapping turtle\n- asked the gang what they thought about flashback-type study\n- get people in touch with source of their power every session",
       "session_id": "19",
       "tags": [],
       "id": 3
@@ -367,46 +248,6 @@
       "faction_id": null,
       "prep": true,
       "id": 25
-    },
-    {
-      "name": "Joan learns how to build a lightning wall around herself",
-      "description": "",
-      "tags": [],
-      "start_date": null,
-      "protension": null,
-      "faction_id": null,
-      "prep": true,
-      "id": 26
-    },
-    {
-      "name": "",
-      "description": "",
-      "tags": [],
-      "start_date": null,
-      "protension": null,
-      "faction_id": null,
-      "prep": null,
-      "id": 27
-    },
-    {
-      "name": "Story of Selene",
-      "description": "",
-      "tags": [],
-      "start_date": null,
-      "protension": null,
-      "faction_id": null,
-      "prep": null,
-      "id": 28
-    },
-    {
-      "name": "You palm the sea",
-      "description": "slight of hand? paladin? ulimara? ",
-      "tags": [],
-      "start_date": null,
-      "protension": null,
-      "faction_id": null,
-      "prep": null,
-      "id": 29
     }
   ],
   "location": [
@@ -668,70 +509,6 @@
         "fantastic"
       ],
       "id": 37
-    },
-    {
-      "name": "Neural Court",
-      "description": "",
-      "tags": [],
-      "id": 38
-    },
-    {
-      "name": "beevo vackab's ells and ells of shrubs",
-      "description": "",
-      "tags": [
-        "store"
-      ],
-      "id": 39
-    },
-    {
-      "name": "cantref",
-      "description": "< Welsh cant hundred + tref town, place.\n a. A hundred; a district containing a hundred townships.\n",
-      "tags": [],
-      "id": 40
-    },
-    {
-      "name": "synaxis",
-      "description": "ecclesiastical Latin, < ecclesiastical Greek σύναξις, < συνάγειν to gather together.\n\na meeting for worship",
-      "tags": [
-        "general"
-      ],
-      "id": 41
-    },
-    {
-      "name": "Durance Vile",
-      "description": "\"forced restraint\"",
-      "tags": [],
-      "id": 42
-    },
-    {
-      "name": "shelter belt",
-      "description": "a line of trees along a farmer's field",
-      "tags": [
-        "landscaping"
-      ],
-      "id": 43
-    },
-    {
-      "name": "kurgan",
-      "description": "russian for barrow, grave, tumulus",
-      "tags": [
-        "general"
-      ],
-      "id": 44
-    },
-    {
-      "name": "the forsaken foreskin",
-      "description": "",
-      "tags": [],
-      "id": 45
-    },
-    {
-      "name": "Inkbottle House",
-      "description": "",
-      "tags": [
-        "specific"
-      ],
-      "id": 46
     }
   ],
   "transcript": [
@@ -818,7 +595,7 @@
     {
       "name": "Grenlich",
       "clocks": "Create a horde of slaves to rid the tribe of evils (internally and externally) once and for all.",
-      "description": "[this is actually from a sourcebook]\n\"In fact, many gnoll tribes have “tantekurash” or “spirit breakers” who are experts at breaking the wills of slaves. If the slave resists, he/she is eaten. Occasionally a slave’s mind becomes so broken they revere the brutality of their gnoll captors. They then become “kryshantel” or “savage souls” who follow their gnoll masters into battle as thralls. \n(take out the slave stuff, and make these spirit breakers use cthulhu stuff … and there’s the evil guy doing it.)\"\n\nInculcate anti-moral system to leech the power from the traditional politico-cosmology\n\nDestroy the hold forces and take their place as moral arbiter\n\n- grenlich can't take coal or chalk: same with her disciples?\n- circle of spores druids",
+      "description": "[this is actually from a sourcebook]\n\"In fact, many gnoll tribes have “tantekurash” or “spirit breakers” who are experts at breaking the wills of slaves. If the slave resists, he/she is eaten. Occasionally a slave’s mind becomes so broken they revere the brutality of their gnoll captors. They then become “kryshantel” or “savage souls” who follow their gnoll masters into battle as thralls. \n(take out the slave stuff, and make these spirit breakers use cthulhu stuff … and there’s the evil guy doing it.)\"\n\nInculcate anti-moral system to leech the power from the traditional politico-cosmology\n\nDestroy the hold forces and take their place as moral arbiter",
       "id": 11,
       "claimed": true
     },
@@ -1116,103 +893,17 @@
       "claimed": true,
       "npcs": "Belima (hag, blue, familiar? , 5' 10\"",
       "id": 69
-    },
-    {
-      "name": "[spirits]",
-      "npcs": "Pampul (pipes, blubber)\nNornor (dagger)\nRelky (boar)",
-      "description": "pampul, nornor, and relky",
-      "id": 70
-    },
-    {
-      "npcs": "muggins, juggins, & bumpkin",
-      "name": "Loukianos",
-      "id": 71
-    },
-    {
-      "name": "Kitsune",
-      "description": "[race]\n- established that they have hollow bones like birds (session 018)",
-      "claimed": true,
-      "id": 72
-    },
-    {
-      "name": "The puddle ghosts",
-      "id": 73
-    },
-    {
-      "name": "A chorus of holy venereal rhapsodies",
-      "id": 74
-    },
-    {
-      "name": "He who sits on his throne in the gloomy abode of the fleshless",
-      "description": "real quote from somewhere",
-      "id": 75
-    },
-    {
-      "name": "The vast iron sun of the underworld",
-      "description": "real quote from somewhere",
-      "id": 76
-    },
-    {
-      "name": "The preprosperous",
-      "id": 77
-    },
-    {
-      "name": "Heat so great it has become a stench",
-      "id": 78
-    },
-    {
-      "name": "Double procession of the [...]",
-      "id": 79
-    },
-    {
-      "name": "The militant syndicalists",
-      "id": 80
-    },
-    {
-      "name": "The Emerald Canticle",
-      "id": 81
-    },
-    {
-      "name": "Trimming the afterbirth",
-      "id": 82
-    },
-    {
-      "name": "Tyranny of the Quantifiable",
-      "id": 83
-    },
-    {
-      "name": "Rock monsters in Noah",
-      "description": "debi loved the \"they look so sad, and they just want to be eating rocks, and turn into light.\"",
-      "prep": true,
-      "claimed": true,
-      "id": 84
-    },
-    {
-      "name": "Oglers of the Syrup",
-      "description": "sap syrup gnomes ",
-      "claimed": true,
-      "id": 85
-    },
-    {
-      "claimed": null,
-      "name": "The hunch that transforms fragmentedness into wholeness",
-      "id": 86
-    },
-    {
-      "name": "Daughters of the Tailor",
-      "id": 87
     }
   ],
   "npc": [
     {
-      "claimed": true,
       "name": "Garioc",
       "id": 1,
       "description": "xx",
-      "prep": false
+      "prep": false,
+      "claimed": true
     },
     {
-      "claimed": false,
       "name": "Ree Frost",
       "description": "flat clavicle-length blonde hair, small deep-side black eyes, thin mouth, high forehead, blue-sequined dress",
       "habitus": "theologian of incarnation; mother body; embodied experience of motherhood; practices of the church that have neglected mothers bodies; icons, hymns, and prayers ; we make our way into the cosmos through a material body",
@@ -1220,7 +911,6 @@
       "id": 2
     },
     {
-      "claimed": false,
       "name": "Shapa",
       "description": "female half-elf with pricked ears (sharp as thorns), deep brown complexion and blcak hair in a center part bob, red riding pants worn over short grey paddock boots and clasped to the leg with brown garter straps; a padded leather riding vest over a white tunic loose in the arms.",
       "habitus": "",
@@ -1231,43 +921,39 @@
       "id": 3
     },
     {
-      "claimed": true,
       "name": "Aphelia",
       "description": "A highly charismatic red-hued humanoid: is actually the daughter of a succubus (Calliope). When the Baron first moved into Castle Karn, Calliope began to use her Draining Kiss on humanoid men who mistreated their partners. What she did not realize was that these drained souls were drawn to the Great Old One on the Slubber and enlisted with the cultists there. The druids performed a ritual to extract this power from her, because ultimately she was inclined towards the good, but in order to do so they had to render her unconscious. Aphelia was born during that period as the physical embodiment of the Kiss, and taken from her mother.)",
       "habitus": "",
       "fluff": "aphelion: That point of a planet's or comet's orbit at which it is farthest from the sun.",
       "quotes": [],
-      "id": 4
+      "id": 4,
+      "claimed": true
     },
     {
-      "claimed": true,
       "name": "Chafowre Beeld",
       "pronunciation": "(cha-fou-er)",
       "habitus": "pediatric physician and geneticist",
       "description": "clothing: neckcloth ; Nycette: sheath-dress or fourreau (pencil skirt); charmeuse (Its uses in menswear include the lining of jackets and slacks, handkerchiefs, ties, and underwear such as charmeuse boxer shorts.) ( lingerie, flowing evening gowns, and draped blouses. ); e.g. The fourreau dress, reminding one of modes of the First Empire.; e.g.   Evening gown..mounted on flesh pink marquisette [A sheer cotton fabric used for mosquito nets and curtains] with a fourreau of sea-green charmeuse.",
       "id": 5,
-      "fluff": "fluff"
+      "fluff": "fluff",
+      "claimed": true
     },
     {
-      "claimed": false,
       "name": "Omnich",
       "id": 6,
       "description": "oh nod",
       "quotes": "lla"
     },
     {
-      "claimed": false,
       "name": "Begiten",
       "id": 7,
       "description": " [mis-begotten]"
     },
     {
-      "claimed": false,
       "name": "Marryat",
       "id": 8
     },
     {
-      "claimed": true,
       "name": "Fulmarus Imison",
       "id": 9,
       "tags": [
@@ -1275,412 +961,342 @@
       ]
     },
     {
-      "claimed": false,
       "name": "Rhus Cotinus",
       "id": 12
     },
     {
-      "claimed": false,
       "name": "Wodden",
       "id": 13
     },
     {
-      "claimed": true,
       "name": "Sallender (elvy: asalandre) ",
       "id": 14,
       "description": "asalandre ('a dry scab affecting the hock of a horse')\nIzzsalkusaam: that which hungers\n\nWoman, hobgoblin, but wild, bony, Knowledge. Chaos, destruction. Sabotage. Servant of a plumber. Suspicious. Interests: antediluvian legends. Is blindly faithful to Izzsalkusaam: that which hungers\n\n (Consecration: Purify / bless cult followers with tattoos / scarification / mutilation.)\n\nTarget: Spy/informant. Work: locate or hide. The location moves around (magical? mobile? vessel, person, etc)\n\nconnected to a crew contact: Get to her before [another faction] do. Why do  [another faction] want her? She knows something about one a kraken hunter (or has a map-book or sea charts?), The Dark Song",
-      "fluff": "Beast Trainers. Hobgoblins have a long history of training animals to service. Like the more civilized races, they use oxen and horses to transport goods and weaponry over long distances. They communicate with each other using trained ravens, and keep vicious wolves to guard prisoners and protect hobgoblin camps. Hobgoblin cavalry use trained worgs as steeds, in the same way that goblins ride wolves. Some tribes even keep carnivorous apes as fighting beasts."
+      "fluff": "Beast Trainers. Hobgoblins have a long history of training animals to service. Like the more civilized races, they use oxen and horses to transport goods and weaponry over long distances. They communicate with each other using trained ravens, and keep vicious wolves to guard prisoners and protect hobgoblin camps. Hobgoblin cavalry use trained worgs as steeds, in the same way that goblins ride wolves. Some tribes even keep carnivorous apes as fighting beasts.",
+      "claimed": true
     },
     {
-      "claimed": false,
       "name": "Fray (Friar / Brother) Berwick",
       "id": 15
     },
     {
-      "claimed": false,
       "name": "Stalklet / stalko ('a small stalk')",
       "id": 16
     },
     {
-      "claimed": false,
       "name": "Gimpel",
       "id": 17
     },
     {
-      "claimed": false,
       "name": "Hamus (hay-muss)",
       "id": 18
     },
     {
-      "claimed": false,
       "name": "Haniper",
       "id": 19
     },
     {
-      "claimed": false,
       "name": "Iaccone",
       "id": 21
     },
     {
-      "claimed": false,
       "name": "Thorpe",
       "id": 22
     },
     {
-      "claimed": false,
       "name": "Moeckel",
       "id": 23
     },
     {
-      "claimed": false,
       "name": "Ochs ('Ox')",
       "id": 24
     },
     {
-      "claimed": false,
       "name": "Palchin",
       "id": 25
     },
     {
-      "claimed": false,
       "name": "Bragout",
       "id": 26
     },
     {
-      "claimed": true,
       "name": "Shreward",
       "id": 27,
       "description": "brak and kolmy's father. \n\n 'a scoundrel'\n\nhis sibling () was killed by a rampaging monster. You won't rest until you track it down and slay it.\tTrack down and slay monster.\tSomehow offset your sibling's death at the hands of the monster.",
+      "claimed": true,
       "prep": false
     },
     {
-      "claimed": false,
       "name": "Lanterloo",
       "id": 28
     },
     {
-      "claimed": false,
       "name": "Stalch ",
       "id": 29,
       "description": "(mining: A piece of ground left uncut though all around has been worked.)"
     },
     {
-      "claimed": false,
       "name": "Gairold Smuth (‘g-air-old’ ‘sm-uh-th’)",
       "id": 31
     },
     {
-      "claimed": false,
       "name": "Cranmer",
       "id": 32
     },
     {
-      "claimed": false,
       "name": "Smurk-a-bur",
       "id": 34
     },
     {
-      "claimed": false,
       "name": "Ri of attar (atari)",
       "id": 36
     },
     {
-      "claimed": true,
       "name": "Appack",
       "id": 37,
-      "description": " pack(man) : Ymenestra trained from him to learn about corralling ghosts"
+      "description": " pack(man) : Ymenestra trained from him to learn about corralling ghosts",
+      "claimed": true
     },
     {
-      "claimed": false,
       "name": "Dignotion (a distinguishing mark or sign)",
       "id": 38
     },
     {
-      "claimed": false,
       "name": "Ashmead",
       "id": 39,
       "description": "(mr/mrs) "
     },
     {
-      "claimed": false,
       "name": "Enix [enixly: forcefully; stringently] ",
       "id": 40
     },
     {
-      "claimed": false,
       "name": "Shapa ",
       "id": 42
     },
     {
-      "claimed": false,
       "name": "Petitia",
       "id": 43
     },
     {
-      "claimed": false,
       "name": "Leema",
       "id": 44
     },
     {
-      "claimed": false,
       "name": "Reidpeth",
       "id": 45
     },
     {
-      "claimed": true,
       "name": "Contenus Gokewell",
       "id": 46,
-      "description": "Writer of Manual of materia medica and therapeutics: including the preparations of the Nimper ni pharmacopœia and other approved medicines"
+      "description": "Writer of Manual of materia medica and therapeutics: including the preparations of the Nimper ni pharmacopœia and other approved medicines",
+      "claimed": true
     },
     {
-      "claimed": false,
       "name": "Hinxt",
       "id": 47
     },
     {
-      "claimed": false,
       "name": "Kyrkarth",
       "id": 48
     },
     {
-      "claimed": false,
       "name": "Hengest (OF. horse gelding)",
       "id": 50
     },
     {
-      "claimed": false,
       "name": "Ingangthief",
       "id": 51
     },
     {
-      "claimed": false,
       "name": "Fulx",
       "id": 52
     },
     {
-      "claimed": false,
       "name": "Calash",
       "id": 53
     },
     {
-      "claimed": false,
       "name": "Rowallane",
       "id": 54
     },
     {
-      "claimed": false,
       "name": "Skliro",
       "id": 55
     },
     {
-      "claimed": false,
       "name": "Smarg",
       "id": 56
     },
     {
-      "claimed": false,
       "name": "Hiarcum",
       "id": 57
     },
     {
-      "claimed": false,
       "name": "nychtbouris",
       "id": 58
     },
     {
-      "claimed": false,
       "name": "Gamaliel",
       "id": 59
     },
     {
-      "claimed": false,
       "name": "Sælivus (pertaining to saliva - sae lih vuss)",
       "id": 60
     },
     {
-      "claimed": false,
       "name": "Xerochabiel",
       "id": 61
     },
     {
-      "claimed": false,
       "name": "Estafar: (Sp. to swindle)",
       "id": 62
     },
     {
-      "claimed": false,
       "name": "Photopsia (flashes and sparks in vision)",
       "id": 64
     },
     {
-      "claimed": false,
       "name": "Vilodunense (some OED source work)",
       "id": 65
     },
     {
-      "claimed": false,
       "name": "Mamonas",
       "id": 66,
       "description": "Μαμωνάς (Mamonas, mammon)"
     },
     {
-      "claimed": false,
       "name": "Sabaq ; Sabachthani (σαβαχθανί; from 'why have you forsaken me')",
       "id": 67
     },
     {
-      "claimed": false,
       "name": "flióta",
       "id": 68
     },
     {
-      "claimed": false,
       "name": "HENDIG",
       "id": 69,
       "description": ""
     },
     {
-      "claimed": false,
       "name": "ASHM",
       "id": 70,
       "pronunciation": " ('AH-shum')"
     },
     {
-      "claimed": false,
+      "name": "Vurg",
+      "id": 71
+    },
+    {
       "name": "Huggle",
       "id": 72
     },
     {
-      "claimed": false,
       "name": "faff [fuss or dither]",
       "id": 73
     },
     {
-      "claimed": false,
       "name": "Plort",
       "id": 74
     },
     {
-      "claimed": false,
       "name": "Mergel",
       "id": 75
     },
     {
-      "claimed": false,
       "name": "Buncle",
       "id": 76
     },
     {
-      "claimed": true,
       "name": "Fantasculo Drublus",
       "id": 77,
+      "claimed": true,
       "description": "author of \"Research\""
     },
     {
-      "claimed": false,
       "name": "Habberth",
       "id": 78
     },
     {
-      "claimed": false,
       "name": "Lumpswondler",
       "id": 79
     },
     {
-      "claimed": false,
       "name": "Emitten Pessimal",
       "id": 80,
       "pronunciation": "EH mit EHN puhSAY muhl / pessimal"
     },
     {
-      "claimed": false,
       "name": "Cark",
       "id": 81
     },
     {
-      "claimed": false,
       "name": "Belbort",
       "id": 82
     },
     {
-      "claimed": false,
       "name": "morning rock",
       "id": 83
     },
     {
-      "claimed": false,
       "name": "Bronk Hardchunk",
       "id": 84
     },
     {
-      "claimed": false,
       "name": "OGRIBIOUS",
       "id": 85
     },
     {
-      "claimed": false,
       "name": "Englarge",
       "id": 86
     },
     {
-      "claimed": false,
       "name": "Jubertie (cf. jeopardy)",
       "id": 87
     },
     {
-      "claimed": false,
       "name": "Mr. Mistophagus",
       "id": 88
     },
     {
-      "claimed": false,
       "name": "Gundigutts (a fat pursy fellow)",
       "id": 89
     },
     {
-      "claimed": false,
       "name": "Gurt Fustilugs",
       "id": 90
     },
     {
-      "claimed": false,
       "name": "Chork",
       "id": 91,
       "description": "(To make the noise which the feet do when the shoes are full of water)"
     },
     {
-      "claimed": false,
       "name": "Fratch (a disagreement, quarrel, scolding)",
       "id": 92
     },
     {
-      "claimed": false,
       "name": "Marlock (a prank, a practical joke)",
       "id": 93
     },
     {
-      "claimed": false,
       "name": "Seekreide ('lake chalk')",
       "id": 94
     },
     {
-      "claimed": false,
       "name": "Grumbledory",
       "id": 95
     },
     {
-      "claimed": false,
       "name": "Gutch Bristlejaws",
       "id": 96
     },
     {
-      "claimed": false,
       "name": "Anmai kullsjully",
       "id": 97,
       "description": " (jillian michaels)"
     },
     {
-      "claimed": false,
       "name": "Pagg",
       "fluff": "",
       "description": "",
@@ -1690,7 +1306,6 @@
       "id": 98
     },
     {
-      "claimed": false,
       "name": "Elnay",
       "fluff": "",
       "description": "",
@@ -1700,7 +1315,6 @@
       "id": 99
     },
     {
-      "claimed": false,
       "name": "hannyrð",
       "fluff": "",
       "description": "",
@@ -1710,7 +1324,6 @@
       "id": 100
     },
     {
-      "claimed": false,
       "name": "Tramkor",
       "fluff": "",
       "description": "",
@@ -1720,7 +1333,6 @@
       "id": 101
     },
     {
-      "claimed": false,
       "name": "digitus",
       "fluff": "",
       "description": " [a whole # < 10] ",
@@ -1730,7 +1342,6 @@
       "id": 102
     },
     {
-      "claimed": false,
       "name": "Dulcamar",
       "fluff": "",
       "description": " [dulcoamare, bittersweet]",
@@ -1740,7 +1351,6 @@
       "id": 103
     },
     {
-      "claimed": false,
       "name": "Glucupricon",
       "fluff": "",
       "description": "",
@@ -1750,7 +1360,6 @@
       "id": 104
     },
     {
-      "claimed": false,
       "name": "Stensrig",
       "fluff": "",
       "description": "",
@@ -1760,17 +1369,16 @@
       "id": 105
     },
     {
-      "claimed": true,
       "name": "Ephphatha",
       "fluff": "",
       "description": " (Ἐφφαθά) ('be opened')",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
-      "id": 106
+      "id": 106,
+      "claimed": true
     },
     {
-      "claimed": false,
       "name": "Ritenuto",
       "fluff": "",
       "description": " (with an immediate decrease in speed;)",
@@ -1780,7 +1388,6 @@
       "id": 107
     },
     {
-      "claimed": false,
       "name": "scroop [scrape]",
       "fluff": "",
       "description": "",
@@ -1790,7 +1397,6 @@
       "id": 108
     },
     {
-      "claimed": false,
       "name": "Vyâsa",
       "fluff": "",
       "description": ", ‘the arranger’, (the personification of Indian diaskeuasis.)",
@@ -1800,7 +1406,6 @@
       "id": 109
     },
     {
-      "claimed": false,
       "name": "Aponogeton",
       "fluff": "",
       "description": " [New Latin, from apono- (probably from Latin Aponus, hot mineral spring near Padua in northeastern Italy) + Greek geitōn neighbor]",
@@ -1810,7 +1415,6 @@
       "id": 110
     },
     {
-      "claimed": false,
       "name": "Franckle b'Hostin",
       "fluff": "",
       "description": "can you even experiment with ~",
@@ -1820,7 +1424,6 @@
       "id": 111
     },
     {
-      "claimed": false,
       "name": "Shogal",
       "fluff": "",
       "description": "Shogal = \"the howler\"\none of the ancient canid gods, along with Thos\n\nThe Grenlich is devoting herself to Shogal. Maybe she is suspicious of the benevolence of authority figures (like Flick said she was); or include a benevolent authority figure to allow Flick to be suspicious of that (or be friends with someone else who is also suspicious)",
@@ -1830,7 +1433,6 @@
       "id": 112
     },
     {
-      "claimed": true,
       "name": "Maltinn of Dubrunfaut",
       "fluff": "",
       "description": "a recap contributor\n\nmaltin is actually a 'amylase [ an enzyme that catalyses the hydrolysis [a molecule of water ruptures one or more chemical bonds. ]  of starch (Latin amylum) into sugars.]  present in germinating seeds of barley'\nfrom Diastase of Malt.\n",
@@ -1838,12 +1440,12 @@
       "quotes": "",
       "pronunciation": "",
       "id": 113,
+      "claimed": true,
       "tags": [
         "recap"
       ]
     },
     {
-      "claimed": false,
       "name": "SOMA ATHABEN (سم الثعبان)",
       "fluff": "",
       "description": "?? was original name for Tobolux",
@@ -1853,27 +1455,26 @@
       "id": 114
     },
     {
-      "claimed": true,
       "name": "Baba Jezda",
       "fluff": "",
       "description": "; T'nichya; night hunters; NEKHEBET (aka Nekhbetyemneferes)\n\nMonastery guards (poltergeist, MM 279) reskinned displacer beast (but they'd need a lot to handle a vampire); shadow demon or vrock (saved to documents); nightwalker lore : Stepping into the Negative Plane is tantamount to suicide, since the plane sucks the life and soul from such audacious creatures and annihilates them at once. Those few who survive the effort do so by sheer luck or by harnessing some rare form of magic that protects them against the hostile atmosphere. They soon discover, however, that they can't leave as easily as they arrived. For each creature that enters the plane, a nightwalker is released to take its place. In order for a trapped creature to escape, the released nightwalker must be lured back to the Negative Plane by offerings of life for it to devour. If the nightwalker is destroyed, the trapped creature has no hope of escape. \n (CR 20)\n\nsomething with VEEN going to negative plane, or Tantegorisch hiding out there; ?\nSee an infinity of knowledge in the Nightwalker\n.wav file\n\na night hunter (“BABA JEZDA”), daughter of Djedkare\nshe is just a window in the world’s wall, to a nebula\nsounds of space attend her like eddies \n“You didn’t quite change your name, my son”\n",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
-      "id": 115
+      "id": 115,
+      "claimed": true
     },
     {
-      "claimed": true,
       "name": "Isabella Slakely",
       "fluff": "",
       "description": "Flick's half-aunt\n\nIsabella owed LUPENNA a favor, for helping cure Rovi of anthropophagia\n\n((Talma actually asked for Lupenna to get covered, because it was her sister, Aurelia, who was killed. )) // ((Talma, at Lupenna’s request,  asked Isabella (formerly lacrey) to pose as Lupenna while the latter was off hunting Tantegorisch))\n\n[In my original geneaology, AURELIA 'was' MELIONA'S sister; I say 'was' because von Veen killed her after the confusion spell",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
-      "id": 116
+      "id": 116,
+      "claimed": true
     },
     {
-      "claimed": false,
       "name": "Fengari",
       "fluff": "",
       "description": "Sister to Pelor (or ... Ulimara?)\nGoddess of the Undersea Moon\npatron deity of Selshamurrin",
@@ -1883,7 +1484,6 @@
       "id": 117
     },
     {
-      "claimed": false,
       "name": "Flick's parent 1 / Flick's parent 2",
       "fluff": "",
       "description": "FP1\nIsabella's half-sister\nthey share an elf parent\n\nFP2\n?",
@@ -1893,17 +1493,16 @@
       "id": 118
     },
     {
-      "claimed": true,
       "name": "ROVINE",
       "fluff": "",
       "description": " ('BOZUUL') ERROROOTH. An Oni.\nIsabella's half brother through their oni parent.\naka Uncle Rovi\n\nROVINE's ward in the first place was never what they thought it was (LACREY? MELIONA? COVEN? DOMONKOS?)",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
-      "id": 119
+      "id": 119,
+      "claimed": true
     },
     {
-      "claimed": false,
       "name": "Remy Flitch  ",
       "fluff": "",
       "description": "(male, human) rat-faced. crime lieutenant; warehouse in Cressida; hands out assignments",
@@ -1913,7 +1512,6 @@
       "id": 120
     },
     {
-      "claimed": false,
       "name": "NOXE",
       "fluff": "",
       "description": "exon backwards",
@@ -1923,7 +1521,6 @@
       "id": 121
     },
     {
-      "claimed": false,
       "name": "SAXET",
       "fluff": "",
       "description": " is texas backwards.",
@@ -1933,8 +1530,8 @@
       "id": 122
     },
     {
-      "claimed": false,
       "name": "Afarada",
+      "claimed": null,
       "fluff": "",
       "description": "< Persian āfarīda ‘created, creature, man as created being’ is sometimes suggested, but is unlikely on phonological as well as semantic grounds.",
       "habitus": "",
@@ -1943,8 +1540,8 @@
       "id": 123
     },
     {
-      "claimed": true,
       "name": "Tobolux",
+      "claimed": true,
       "fluff": "",
       "description": "colloquially \"toblerone\"",
       "habitus": "",
@@ -1953,8 +1550,8 @@
       "id": 124
     },
     {
-      "claimed": false,
       "name": "Theodor Tobler",
+      "claimed": null,
       "fluff": "",
       "description": "one of the creators of the toblerone",
       "habitus": "",
@@ -1963,8 +1560,8 @@
       "id": 125
     },
     {
-      "claimed": false,
       "name": "Baogin",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -1973,8 +1570,8 @@
       "id": 126
     },
     {
-      "claimed": false,
       "name": "Werbin",
+      "claimed": null,
       "fluff": "",
       "description": "some veterinarian after which Werbin's Thistolowos were named",
       "habitus": "",
@@ -1983,8 +1580,8 @@
       "id": 127
     },
     {
-      "claimed": false,
       "name": "Vasha Cudflume",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -1993,8 +1590,8 @@
       "id": 128
     },
     {
-      "claimed": true,
       "name": "Tusternoof",
+      "claimed": true,
       "fluff": "",
       "description": "Agent of Baphomet; ",
       "habitus": "",
@@ -2003,20 +1600,19 @@
       "id": 129
     },
     {
-      "claimed": true,
       "name": "Graal",
+      "claimed": true,
       "fluff": "",
-      "description": "(female) ancient Girallon without a kingdom to guard\n\nsome kind of pandemic from eating an egg out of ape poop (osmosis jones)",
+      "description": "(female) ancient Girallon without a kingdom to guard",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
       "id": 130,
-      "etools": true,
-      "prep": null
+      "etools": true
     },
     {
-      "claimed": true,
       "name": "Alark",
+      "claimed": true,
       "fluff": "",
       "description": "gnoll\none of the mediums\nclaims she’s spoken through by a voice\nsometimes it is a voice",
       "habitus": "",
@@ -2025,8 +1621,8 @@
       "id": 131
     },
     {
-      "claimed": false,
       "name": "bruera",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2035,8 +1631,8 @@
       "id": 132
     },
     {
-      "claimed": true,
       "name": "Brent McCorkle",
+      "claimed": true,
       "fluff": "",
       "description": "A brewer by the ports in marshbout\n\nsmell of hops, yeast, and sea salt; puts you in mind of happier times; sokka remembers hangover from prior night\nlooks like a tidy brewery owned by a family; guy with sleeve garters and a leather apron\n\nfancy boy; ridiculous",
       "habitus": "",
@@ -2045,8 +1641,8 @@
       "id": 133
     },
     {
-      "claimed": true,
       "name": "Tonteen",
+      "claimed": true,
       "fluff": "",
       "description": "weaver (textilist, textour < Latin textōr-em weaver.) / clothing maker: Tonteen / tontine (ton-teen)\nparamenter / tailor / \nin industrial district\n\nparamenter / weaver (one of the people traveling with Curdella)\n",
       "habitus": "",
@@ -2055,8 +1651,8 @@
       "id": 134
     },
     {
-      "claimed": true,
       "name": "ELETHAR VIELLE",
+      "claimed": true,
       "fluff": "Barazar’s confidant and shipping agent for Marshbout Port.\nAs an Aasimar, Elexar appears to be the paragon of law and goodness. However, he was sent here in order to spy on the Bugg-Shash. Since Aasimar have resistance some kinds of evil, it was believed that he would serve as a trustworthy agent, but contact with evil of this magnitude turned him petty, avaricious, and vindictive, ",
       "description": "\"(female) while still maintaining the appearance of a beautiful angelic humanoid. \nHer skin is a beautiful silver-gold, but on inspection it looks more to be grey and jaundiced, reflecting her susception to evil. \nridiculous mannerisms :\ncan lie extremely still, prefers not to use chairs but recline on the ground\nholds her hands kind of like handles at her sides\nwants to retire by the sea\nlarge, opinionated, and baroque signature\nextraordinarily light handshake (more like brushing someone’s hand)\nornamentation\nshowing earring with three pendants\"\n",
       "habitus": "Elethar Vielle is an untrustworthy loan shark and intentionally robs or thwarts the ventures of his borrowers in order to indebt them to himself while profiting from the stolen goods.",
@@ -2065,8 +1661,8 @@
       "id": 135
     },
     {
-      "claimed": false,
       "name": "Peeky / pequee",
+      "claimed": null,
       "fluff": "peekee put a little bag in sokka's pocket. \na burlap sachet. filled with fruit pits, zest of lemons, limes; they dn't grow in marshbout; \nspell components or voodoo pouch? \nsokka doesn't know anything about magic anyway\nsokka thinks he was punked.\n",
       "description": "halfling with an eyepatch, and a hook for a hand\npeeky knows what went on with the placid beast -- it's become a ghost ship\n\"what's the black pearl?\"\nyvonna: \"what are you talking about, ghost ship? there's slime ships, not ghost ships\"\npeekee: \"now it's sailing around the world … never seeing darkness\" -- \"always in light\"\nsokka turns to Yvonna, Vishara. \nzedaar: \"his name is pinky, and we shall eventually meet the brain!\"\n\"peeky doesn't have pinkies!\" - two fingers missing, three holding onto hook, and replaces hook\n\"the ghost took these!\"\nvishara bumps peekee out of the way to set up card table\nsokka: play cards, after 30 minutes use latrine, say stealthily to peekee, \"i will pay for info about Placid beast, but be more sensitive around my friends\"\npeekee: \"i've got all info you could want; you believe in ghosts, right?\"\nperception check: \npeekee slips something into sokka's pocket\nadding proficiency bonus\nsokka is playing their game to get information\nloses 7 gold\nanother con save, then goes to bed\nrules: can get rid of all intoxication after long rest\n",
       "habitus": "",
@@ -2075,8 +1671,8 @@
       "id": 136
     },
     {
-      "claimed": true,
       "name": "Bruss Tarsia",
+      "claimed": true,
       "fluff": "",
       "description": "see human come up to you; wearing leather vest with long black hair\n\"why don't you come down to Raggadochy's sometime\" -- gives him a business card\nRaggadochy's is gambling den near where Liz was pointed the warehouse\ntell his that Bruss Tarsia sent you. \n",
       "habitus": "",
@@ -2085,8 +1681,8 @@
       "id": 137
     },
     {
-      "claimed": false,
       "name": "A. C. Tockletone",
+      "claimed": null,
       "fluff": "",
       "description": "there is an absentee landlord \nA. C. Tockletone\nheard he lives in one of the wealthy estates (northwest area)\n is an Esquire, not a lord\nhome study; large dark wood desk; half-elven man, light, almost translucent hair back in a ponytail, a red paisley vest, and a dark suit; in his 70s looking",
       "habitus": "",
@@ -2095,8 +1691,8 @@
       "id": 138
     },
     {
-      "claimed": true,
       "name": "Majordomo Chatterton",
+      "claimed": true,
       "fluff": "",
       "description": "servent of A. C. Tockletone",
       "habitus": "",
@@ -2105,8 +1701,8 @@
       "id": 139
     },
     {
-      "claimed": true,
       "name": "Spiner",
+      "claimed": true,
       "fluff": "",
       "description": "one of Tockletone's people who  they deal in some of my less public activities (but not mercenary)",
       "habitus": "",
@@ -2115,8 +1711,8 @@
       "id": 140
     },
     {
-      "claimed": false,
       "name": "Slab Denchmeat",
+      "claimed": null,
       "fluff": "",
       "description": "more martial activities: Slab would be better\nTockletone",
       "habitus": "",
@@ -2125,8 +1721,8 @@
       "id": 141
     },
     {
-      "claimed": true,
       "name": "Felicity 'Longtooth' Barrelchest",
+      "claimed": true,
       "fluff": "skeleton rabbit familiar bonechewer",
       "description": "Sister to Norman. Female human wizard (necromancer)\n",
       "habitus": "",
@@ -2135,8 +1731,8 @@
       "id": 142
     },
     {
-      "claimed": true,
       "name": "Fatutia \"Tooshie\"",
+      "claimed": true,
       "fluff": "",
       "description": "see a goblinoid, tall half-human-goblin (can't remember if saw walking out of tockletone's house, or creddisa working with flower folk; might be involved in blackmail or something; look pretty lithe; dressed neutrally, could have weapons, but not overtly militant. \nmiri : \"you look familiar\" (\"not throwing play\" / using escort skill)\nfemale goblinoid: \"i don't hear that all that often. if i stand out it's not great for my occupation. i work closely witih people's histories\"\nleADS to a darker corner. \ngoblin: i've been here, flit in and out, in marshbout;\nmiri been there for weeks; ; a month; \ngoblin: i''m sort of an overseer now; a little higher in the echelons; i like to make sure that amongst our group things don't get too violent. a lot of young bloods think they can stick people with daggers just uto get information.\nmiri: they called us flower folk, but we used to find out info that could be beneficial to society\noh, flower folk, sure, how are they doing up there\nmiri: things got too hot for me: too many people knew me, and my parents aare sticks-in the mud\ngoblin: my parents have no idea what i do\ni have some guy i'm trying to track down. he got too aggressive with a target, and now i have to teach him a lesson. do you have an interest in coming along?\nsort of a friendly look-see. get an eye for how we operate around here. \ninsight check: 12: \ngetting closer, you see she has a belt of throwing daggers, and metal-reinfoced leather armor (slits where metal is put in)\nmirir is still in lola form. \nname: Tooshie\n",
       "habitus": "",
@@ -2145,8 +1741,8 @@
       "id": 143
     },
     {
-      "claimed": true,
       "name": "Curdella",
+      "claimed": true,
       "fluff": "",
       "description": "berry: A new acolyte, Curdella, had been tasked to get supplies and rum up awareness, and maintain our alliances with churches in Cressida and other towns. unfortunately she was attacked on the road coming back to cressida, and severely injured. with our help she made a full recovery, but we're worried someone has it out for the church. we have a few leads",
       "habitus": "",
@@ -2155,8 +1751,8 @@
       "id": 144
     },
     {
-      "claimed": true,
       "name": "Nozick",
+      "claimed": true,
       "fluff": " hyper-plane of the line surrounding each individual\nK-Force, Kankegorisch, Khelfaraz\n\n\"a person is the bracket around them\"",
       "description": "",
       "habitus": "",
@@ -2165,8 +1761,8 @@
       "id": 145
     },
     {
-      "claimed": false,
       "name": "Scrobs",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2175,10 +1771,10 @@
       "id": 146
     },
     {
-      "claimed": true,
       "name": "Curculio",
+      "claimed": true,
       "fluff": "",
-      "description": "race: kitsune \nhellen mirren type\ngreyish white, purplish tyrone hat, thin, like robin-hood esque, fox-human\nlanky\n\nA raven brought you a cryptic message from an old friend who needs your help, but the message was vague about the friend's location. You're trying to follow a years-old trail and save your friend.\n\nfriend: Wodden",
+      "description": "race: kitsune \nhellen mirren type\n\nA raven brought you a cryptic message from an old friend who needs your help, but the message was vague about the friend's location. You're trying to follow a years-old trail and save your friend.\n\nfriend: Wodden",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
@@ -2188,8 +1784,8 @@
       "etools": true
     },
     {
-      "claimed": false,
       "name": "mandibular scrobe",
+      "claimed": null,
       "fluff": "",
       "description": "scrobe: a trench",
       "habitus": "",
@@ -2198,8 +1794,8 @@
       "id": 148
     },
     {
-      "claimed": false,
       "name": "Varix",
+      "claimed": null,
       "fluff": "",
       "description": "Pathology. An abnormal dilatation or enlargement of a vein or artery, usually accompanied by a tortuous development; a varicose vein.",
       "habitus": "",
@@ -2208,8 +1804,8 @@
       "id": 149
     },
     {
-      "claimed": true,
       "name": "Timothea Dimpleweed",
+      "claimed": true,
       "fluff": "",
       "description": "she, her, hers) Senior swordsperson and co-owner of  the eponymous martial academy. brosse haircut. uses lathi (stick bound at short intervals with iron rings)\n\nThe child Meliona left with the townsfolk became Timothea Dimpleweed, named after the family that adopted her.)",
       "habitus": "",
@@ -2218,8 +1814,8 @@
       "id": 150
     },
     {
-      "claimed": true,
       "name": "Odrienne Welker",
+      "claimed": true,
       "fluff": "",
       "description": "occult collector is a rival a woman)\nslim, stooped, disfigured / maimed\ngoals: chaos/destruction & love\nhas connections with ... \nArrogant\nFine clothes, jewelry, furs\nInherited their position. May not deserve / want it.\nmethods: espionage, arcane",
       "habitus": "",
@@ -2228,8 +1824,8 @@
       "id": 151
     },
     {
-      "claimed": false,
       "name": "Szmata",
+      "claimed": null,
       "fluff": "",
       "description": "Polish szmata, rag.",
       "habitus": "",
@@ -2238,8 +1834,8 @@
       "id": 152
     },
     {
-      "claimed": true,
       "name": "Barazar Sod (Sodereal)",
+      "claimed": true,
       "fluff": "",
       "description": "Silent partner behind Dimpleweed’s Martial Academy",
       "habitus": "",
@@ -2248,8 +1844,8 @@
       "id": 153
     },
     {
-      "claimed": true,
       "name": "Tulipant \"Tulip\"",
+      "claimed": true,
       "fluff": "",
       "description": "early english form of \"turban\"\n\nShreward's sibling (sister) who was killed",
       "habitus": "",
@@ -2259,8 +1855,8 @@
       "prep": false
     },
     {
-      "claimed": false,
       "name": "Keréték.\n",
+      "claimed": null,
       "fluff": "",
       "description": "< Indonesian keréték.\nThesaurus »\nCategories »\n \n  In Java, a cigarette containing cloves.",
       "habitus": "",
@@ -2269,8 +1865,8 @@
       "id": 155
     },
     {
-      "claimed": true,
       "name": "Lanterloo the Blemmere (plumber)",
+      "claimed": true,
       "fluff": "",
       "description": "asalandre works for them",
       "habitus": "",
@@ -2279,8 +1875,8 @@
       "id": 156
     },
     {
-      "claimed": false,
       "name": "Burglespark",
+      "claimed": null,
       "fluff": "",
       "description": "one of the cultists \n's interpretation of spreading terror is incomplete and skewed, as it must be for a mortal trying to comprehend a Great Old One.",
       "habitus": "",
@@ -2289,8 +1885,8 @@
       "id": 157
     },
     {
-      "claimed": false,
       "name": "Elvira",
+      "claimed": null,
       "fluff": "",
       "description": "Elvire is alike in pronunciation to Alvar. Other recommended sound-alike names are Almire (see Almera), Alvie, Alvine, Blaire▲, Claire▲, Edvige, Eire, Elaine▼, Elberge (see Alberga), Elfie, Elfre, Elfrea (see Alfreda), Elice, Eline, Elise▲, Elize, Elkie, Ellice, Ellie▲, Elmira▼, Eloise▲, Elsie▼, Elvene, Elvi, Elvia, Elvine, Elvis, Evie▲, Evvie and Klaire. These names tend to be more frequently used than Elvire.",
       "habitus": "",
@@ -2299,8 +1895,8 @@
       "id": 158
     },
     {
-      "claimed": true,
       "name": "Shoemaker Byte",
+      "claimed": true,
       "fluff": "Shoemaker Byte is a legit bear. She has paws capable of dextrous object manipulation as well as claw-type enmurderment. She stands 11 ft. tall at the shoulder and weighs half a ton. She {@bold hates} forest fires.'",
       "description": "see zorq 5e ",
       "habitus": "",
@@ -2309,8 +1905,8 @@
       "id": 159
     },
     {
-      "claimed": false,
       "name": "[head in a wall]",
+      "claimed": null,
       "fluff": "",
       "description": "\"bone breast\", \"not you're mine\" \"that sounds---\", ",
       "habitus": "",
@@ -2319,8 +1915,8 @@
       "id": 160
     },
     {
-      "claimed": false,
       "name": "brain that lives under bed",
+      "claimed": null,
       "fluff": "",
       "description": "\"i'm gonna eat those queens\" \"you're wriggling around\"",
       "habitus": "",
@@ -2329,8 +1925,8 @@
       "id": 161
     },
     {
-      "claimed": false,
       "name": "Brackmart / Braquemard Harsnett",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2339,8 +1935,8 @@
       "id": 162
     },
     {
-      "claimed": false,
       "name": "Hautesse",
+      "claimed": null,
       "fluff": "",
       "description": "  Highness, height; loftiness of rank or character, nobility; haughtiness, pride; grandeur, stateliness; length (of time).",
       "habitus": "",
@@ -2349,8 +1945,8 @@
       "id": 163
     },
     {
-      "claimed": false,
       "name": "Galerus",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2359,8 +1955,8 @@
       "id": 164
     },
     {
-      "claimed": false,
       "name": "Herex the Violent",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2369,8 +1965,8 @@
       "id": 165
     },
     {
-      "claimed": false,
       "name": "The Mindweaver",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2379,8 +1975,8 @@
       "id": 166
     },
     {
-      "claimed": false,
       "name": "Hurf Maltmare",
+      "claimed": null,
       "fluff": "",
       "description": "a malty nightmare",
       "habitus": "",
@@ -2389,8 +1985,8 @@
       "id": 167
     },
     {
-      "claimed": false,
       "name": "Otto M. Cally",
+      "claimed": null,
       "fluff": "",
       "description": "(auto-magically)",
       "habitus": "",
@@ -2399,8 +1995,8 @@
       "id": 168
     },
     {
-      "claimed": false,
       "name": "Poggis Larbatch",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2409,8 +2005,8 @@
       "id": 169
     },
     {
-      "claimed": false,
       "name": "Baft",
+      "claimed": null,
       "fluff": "",
       "description": "< Persian baft, wrought, woven.",
       "habitus": "",
@@ -2419,8 +2015,8 @@
       "id": 170
     },
     {
-      "claimed": false,
       "name": "lotus",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2429,8 +2025,8 @@
       "id": 171
     },
     {
-      "claimed": false,
       "name": "Flumpet",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2439,8 +2035,8 @@
       "id": 172
     },
     {
-      "claimed": false,
       "name": "Lafalalath Falaemelef",
+      "claimed": null,
       "fluff": "",
       "description": "Well-fed, pinto skin, slick hair, ostentatious clothes. \nElven rarefied air spritzer\nviolin that she \"won\"\nfrom a Norvorian\nshe let her daughter get away and pissed off some witches and is colorblind",
       "habitus": "",
@@ -2449,8 +2045,8 @@
       "id": 173
     },
     {
-      "claimed": false,
       "name": "Tove",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2459,8 +2055,8 @@
       "id": 174
     },
     {
-      "claimed": true,
       "name": "Pananamus",
+      "claimed": true,
       "fluff": "",
       "description": "Drav's childhoood girlfriend",
       "habitus": "",
@@ -2469,8 +2065,8 @@
       "id": 175
     },
     {
-      "claimed": false,
       "name": "Mustarhood",
+      "claimed": null,
       "fluff": "",
       "description": "\"old mustarhood man teaches three seniors\nand chased down ...",
       "habitus": "",
@@ -2479,8 +2075,8 @@
       "id": 176
     },
     {
-      "claimed": false,
       "name": "Roose",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2489,8 +2085,8 @@
       "id": 177
     },
     {
-      "claimed": false,
       "name": "Bilistine",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2499,8 +2095,8 @@
       "id": 178
     },
     {
-      "claimed": false,
       "name": "Getathon",
+      "claimed": null,
       "fluff": "",
       "description": "some kind of angel",
       "habitus": "",
@@ -2509,8 +2105,8 @@
       "id": 179
     },
     {
-      "claimed": false,
       "name": "Root Poutier",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2519,8 +2115,8 @@
       "id": 180
     },
     {
-      "claimed": false,
       "name": "Lazerks",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2529,8 +2125,8 @@
       "id": 181
     },
     {
-      "claimed": false,
       "name": "Sprinkly",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2539,8 +2135,8 @@
       "id": 182
     },
     {
-      "claimed": false,
       "name": "Great Poetius Coomb",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2549,8 +2145,8 @@
       "id": 183
     },
     {
-      "claimed": false,
       "name": "Grönoff",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -2559,8 +2155,8 @@
       "id": 184
     },
     {
-      "claimed": true,
       "name": "Sapora Brightmist",
+      "claimed": true,
       "fluff": "",
       "description": "- was coming to blackmail barazar ??",
       "habitus": "",
@@ -2569,443 +2165,373 @@
       "id": 185
     },
     {
-      "claimed": false,
       "name": "Nancy O'Pug",
       "description": "Human that Miri was shacking up with at Throttlebottom when the Two Horn Band kidnapped Sokka and Zedaar.",
       "id": 186
     },
     {
-      "claimed": true,
       "name": "Sir Dame Clippington Titchwillow",
       "description": "clothes: bright, ill-fitting halfling clothes. hand-me-down baby-blue sleeveless thigh-length coat over an easter-yellow shirt, grey trousers, all under a thin oilcloth coat the color of stale sage.\nLanded lady.",
       "id": 187,
+      "claimed": true,
       "habitus": "\n(she, her, hers) Fez foil, a chaotic good rogue , raised by halflings after her drow parents helped an inferior drow family and were murdered. would do much eviller stuff, but this is the midpoint between halflings and drow. \n\nof the Wormbranch Titchwillows (three towns west of Cressida)\nwhy is she here? to … assassinate … someone (really a cover for … ?)"
     },
     {
-      "claimed": true,
       "name": "Branda Earthlord",
       "description": "{@creature Branda Earthlord|zorq}\nOne of the sisters guarding {@creature Soul Rock|zorq}",
-      "id": 188
+      "id": 188,
+      "claimed": true
     },
     {
-      "claimed": false,
       "name": "Igno Red McGerf",
       "description": "A stupid or oblivious dragon.",
       "id": 189
     },
     {
-      "claimed": false,
       "name": "Bog Frillan",
       "description": "n/a",
       "id": 190
     },
     {
-      "claimed": true,
       "name": "Toestealer",
       "description": "{@creature Toestealer|zorq}\n{\n  \"type\": \"entries\",\n  \"entries\": [\n    \"Miri think she hears someone talking about Toestealer and Owls.\",\n    \"A rum gremlin or goblin. Probably hangs out at Throttlebottom Hostlery or The Riskless Tavern.\"\n  ]\n}",
-      "id": 192
+      "id": 192,
+      "claimed": true
     },
     {
-      "claimed": false,
       "name": "Claggash",
       "description": "claw gash",
       "id": 193
     },
     {
-      "claimed": false,
       "name": "Krov",
       "description": "n/a",
       "id": 194
     },
     {
-      "claimed": false,
       "name": "Spam Tompkins",
       "description": "n/a",
       "id": 195
     },
     {
-      "claimed": false,
       "name": "Pete Ocking",
       "description": "n/a",
       "id": 196
     },
     {
-      "claimed": true,
-      "name": "Vurb Oojum",
+      "name": "Oojum",
       "description": "",
-      "id": 197,
-      "prep": null,
-      "etools": null,
-      "tags": [
-        "contributor"
-      ]
+      "id": 197
     },
     {
-      "claimed": false,
       "name": "Peronel",
       "description": "n/a",
       "id": 198
     },
     {
-      "claimed": false,
       "name": "Finiendum",
       "description": "elf; something that is or is to be defined, especially the term at the head of a dictionary entry.",
       "id": 199
     },
     {
-      "claimed": false,
       "name": "Munlin Serplepan",
       "description": "n/a",
       "id": 200
     },
     {
-      "claimed": false,
       "name": "Flinty Hirsutulous",
       "description": "A slightly hairy, obdurate, unmerciful person.",
       "id": 201
     },
     {
-      "claimed": false,
       "name": "Sir Voke Fit",
       "description": "surfeit : voke as in vocare, to call or voice",
       "id": 202
     },
     {
-      "claimed": false,
       "name": "Flange Exgrigio",
       "description": "n/a",
       "id": 203
     },
     {
-      "claimed": false,
       "name": "Moker Cornrack",
       "description": "n/a",
       "id": 204
     },
     {
-      "claimed": false,
       "name": "Gorty Taygore",
       "description": "n/a",
       "id": 205
     },
     {
-      "claimed": true,
       "name": "Dort Threed",
       "description": "Commoner\n{@creature Dort Threed|zorq}",
-      "id": 206
+      "id": 206,
+      "claimed": true
     },
     {
-      "claimed": true,
       "name": "Doodril Frogwarts",
       "description": "Commoner\n{@creature Doodril Manacart|zorq}",
-      "id": 207
+      "id": 207,
+      "claimed": true
     },
     {
-      "claimed": false,
       "name": "Sorashana",
       "description": "Commoner",
       "id": 208
     },
     {
-      "claimed": false,
       "name": "Vishara",
       "description": "Commoner",
       "id": 209
     },
     {
-      "claimed": false,
       "name": "Yvonna",
       "description": "Commoner",
       "id": 210
     },
     {
-      "claimed": false,
       "name": "Tana",
       "description": "Commoner",
       "id": 211
     },
     {
-      "claimed": false,
       "name": "Agnic",
       "description": "lady",
       "id": 212
     },
     {
-      "claimed": false,
       "name": "Ulgor",
       "description": "\"UHL gor, some kind of lightning-associated thing (dragonish?)",
       "id": 213
     },
     {
-      "claimed": false,
       "name": "Frustratio Huff",
       "description": "Gnome? frustrated huff",
       "id": 214
     },
     {
-      "claimed": false,
       "name": "Waich Otter",
       "description": "Way hotter",
       "id": 215
     },
     {
-      "claimed": false,
       "name": "Shuram, Shazan",
       "description": "Sure Am, Shazam",
       "id": 216
     },
     {
-      "claimed": false,
       "name": "Karok Ensity",
       "description": "character density",
       "id": 218
     },
     {
-      "claimed": false,
       "name": "Cavortletop",
       "description": "",
       "id": 220
     },
     {
-      "claimed": false,
       "name": "Umpo and Onglo",
       "description": "Maybe more of the earthlords ?",
       "id": 221
     },
     {
-      "claimed": false,
       "name": "Empo",
       "description": "",
       "id": 223
     },
     {
-      "claimed": false,
       "name": "Resko",
       "description": "",
       "id": 224
     },
     {
-      "claimed": false,
       "name": "Raggadochy",
       "description": "rag uh DOH chee",
       "id": 225
     },
     {
-      "claimed": false,
       "name": "Petronella",
       "description": "?",
       "id": 226
     },
     {
-      "claimed": true,
       "name": "Pell, Mell, Nell",
       "description": "Three of the kobolds in the {@faction Two Horns|zorq} faction headquartered in the Marshbout marine district.",
-      "id": 227
+      "id": 227,
+      "claimed": true
     },
     {
-      "claimed": false,
       "name": "Nub",
       "description": "?",
       "id": 228
     },
     {
-      "claimed": false,
       "name": "Cotinaminous",
       "description": "co-tinaminous (arm, arm)",
       "id": 229
     },
     {
-      "claimed": false,
       "name": "Jumps",
       "description": "A jumpy little {@creature dogmole|zorq}",
       "id": 230
     },
     {
-      "claimed": false,
       "name": "Mr. Stabworthy",
       "description": "",
       "id": 231
     },
     {
-      "claimed": false,
       "name": "Aargab",
       "description": "gnoll",
       "id": 232
     },
     {
-      "claimed": false,
       "name": "Aaspar",
       "description": "female ?? names",
       "id": 233
     },
     {
-      "claimed": false,
       "name": "Agnes",
       "description": "hag first name",
       "id": 234
     },
     {
-      "claimed": false,
       "name": "Aguus",
       "description": "female ?? names",
       "id": 235
     },
     {
-      "claimed": false,
       "name": "Almar",
       "description": "",
       "id": 237
     },
     {
-      "claimed": false,
       "name": "Andak",
       "description": "gnoll",
       "id": 238
     },
     {
-      "claimed": true,
       "name": "Arix",
       "description": "Kolmy and brak's mother : a cat. \n- sort of gave her magic to father \n\n",
       "id": 239,
       "prep": false,
+      "claimed": true,
       "tags": [
         "gnoll"
       ]
     },
     {
-      "claimed": false,
       "name": "Arthur (Art) Tapples",
       "description": "regular name",
       "id": 240
     },
     {
-      "claimed": false,
       "name": "Ashana",
       "description": "quori",
       "id": 241
     },
     {
-      "claimed": false,
       "name": "Ashtai",
       "description": "quori",
       "id": 242
     },
     {
-      "claimed": false,
       "name": "Aurangual",
       "description": "mind flayer",
       "id": 243
     },
     {
-      "claimed": false,
       "name": "Beluar",
       "description": "druid",
       "id": 244
     },
     {
-      "claimed": false,
       "name": "beoff",
       "description": "",
       "id": 245
     },
     {
-      "claimed": false,
       "name": "Black",
       "description": "hag title",
       "id": 246
     },
     {
-      "claimed": false,
       "name": "Cackling",
       "description": "hag title",
       "id": 247
     },
     {
-      "claimed": false,
       "name": "Cephalossk",
       "description": "mind flayer",
       "id": 248
     },
     {
-      "claimed": false,
       "name": "CHAGBURT/Cadgebort",
       "description": "",
       "id": 249
     },
     {
-      "claimed": false,
       "name": "Cheek chunktar",
       "description": "",
       "id": 250
     },
     {
-      "claimed": false,
       "name": "Corym",
       "description": "druid",
       "id": 251
     },
     {
-      "claimed": false,
       "name": "Daealla",
       "description": "druid",
       "id": 252
     },
     {
-      "claimed": false,
       "name": "Dalavash",
       "description": "kalashtar",
       "id": 253
     },
     {
-      "claimed": false,
       "name": "Dastina",
       "description": "",
       "id": 254
     },
     {
-      "claimed": false,
       "name": "Denaal",
       "description": "female ?? names",
       "id": 255
     },
     {
-      "claimed": false,
       "name": "Dismal",
       "description": "hag title",
       "id": 256
     },
     {
-      "claimed": false,
       "name": "Dolishara",
       "description": "kalashtar",
       "id": 257
     },
     {
-      "claimed": false,
       "name": "Dove",
       "description": "",
       "id": 259
     },
     {
-      "claimed": false,
       "name": "Dowson",
       "description": "",
       "id": 260
     },
     {
-      "claimed": false,
       "name": "Draraar",
       "description": "female ?? names",
       "id": 261
     },
     {
-      "claimed": false,
       "name": "Dread",
       "description": "hag title",
       "id": 262
     },
     {
-      "claimed": false,
       "name": "Driftwood",
       "description": "",
       "id": 263,
@@ -3014,919 +2540,766 @@
       ]
     },
     {
-      "claimed": false,
       "name": "Drukt",
       "description": "mind flayer",
       "id": 264
     },
     {
-      "claimed": false,
       "name": "Drusiss",
       "description": "mind flayer",
       "id": 265
     },
     {
-      "claimed": false,
       "name": "Duusha",
       "description": "female ?? names",
       "id": 266
     },
     {
-      "claimed": false,
       "name": "Ekhaas",
       "description": "female ?? names",
       "id": 267
     },
     {
-      "claimed": false,
       "name": "Eltaeor",
       "description": "druid",
       "id": 268
     },
     {
-      "claimed": false,
       "name": "Escant",
       "description": "title",
       "id": 269
     },
     {
-      "claimed": false,
       "name": "Ethak",
       "description": "gnoll",
       "id": 270
     },
     {
-      "claimed": false,
       "name": "Ett",
       "description": "kobold",
       "id": 271
     },
     {
-      "claimed": false,
       "name": "Euonymus nick: \"last trace\"",
       "description": "",
       "id": 272
     },
     {
-      "claimed": false,
       "name": "Extander Vleshmiy",
       "description": "",
       "id": 273
     },
     {
-      "claimed": false,
       "name": "Eyeth",
       "description": "gnoll",
       "id": 274
     },
     {
-      "claimed": false,
       "name": "Fawney Rig",
       "description": "",
       "id": 275
     },
     {
-      "claimed": false,
       "name": "Fedlan",
       "description": "",
       "id": 276
     },
     {
-      "claimed": false,
       "name": "Flamuelle",
       "description": "",
       "id": 277
     },
     {
-      "claimed": false,
       "name": "Gaduul",
       "description": "female ?? names",
       "id": 278
     },
     {
-      "claimed": false,
       "name": "garfod  the magcharfalent",
       "description": "",
       "id": 279
     },
     {
-      "claimed": false,
       "name": "georbe",
       "description": "",
       "id": 280
     },
     {
-      "claimed": false,
       "name": "Gerator",
       "description": "title",
       "id": 281
     },
     {
-      "claimed": false,
       "name": "giblinoid",
       "description": "",
       "id": 282
     },
     {
-      "claimed": false,
       "name": "Girdle",
       "description": "",
       "id": 283
     },
     {
-      "claimed": false,
       "name": "Gnokles (NOH-cuhls)",
       "description": "",
       "id": 284
     },
     {
-      "claimed": false,
       "name": "Goosewood",
       "description": "",
       "id": 285
     },
     {
-      "claimed": false,
       "name": "Granny",
       "description": "hag title",
       "id": 286
     },
     {
-      "claimed": false,
       "name": "Grash",
       "description": "orc?",
       "id": 287
     },
     {
-      "claimed": false,
       "name": "Greenteeth",
       "description": "hag last name",
       "id": 288
     },
     {
-      "claimed": false,
       "name": "Ha",
       "description": "kalashtar",
       "id": 289
     },
     {
-      "claimed": false,
       "name": "Hareth",
       "description": "quori",
       "id": 290
     },
     {
-      "claimed": false,
       "name": "Harlequino",
       "description": "",
       "id": 291
     },
     {
-      "claimed": false,
       "name": "harney",
       "description": "",
       "id": 292
     },
     {
-      "claimed": false,
       "name": "Hashak",
       "description": "female ?? names",
       "id": 293
     },
     {
-      "claimed": false,
       "name": "Hebwith",
       "description": "",
       "id": 294
     },
     {
-      "claimed": false,
       "name": "Hieronymo",
       "description": "",
       "id": 295
     },
     {
-      "claimed": false,
       "name": "Hostrena Butterknife",
       "description": "",
       "id": 296
     },
     {
-      "claimed": false,
       "name": "Benjaplom",
       "description": "",
       "id": 297
     },
     {
-      "claimed": false,
       "name": "Gregonius",
       "description": "",
       "id": 298
     },
     {
-      "claimed": false,
       "name": "[https://en.wiktionary.org/wiki/Category:Old_High_German_given_names]",
       "description": "",
       "id": 299
     },
     {
-      "claimed": false,
       "name": "Hygglla ongott",
       "description": "",
       "id": 300
     },
     {
-      "claimed": false,
       "name": "Ignar",
       "description": "gnoll",
       "id": 301
     },
     {
-      "claimed": false,
       "name": "Innar",
       "description": "",
       "id": 302
     },
     {
-      "claimed": false,
       "name": "Irtos",
       "description": "kobold",
       "id": 303
     },
     {
-      "claimed": false,
       "name": "Isfand",
       "description": "",
       "id": 304
     },
     {
-      "claimed": false,
       "name": "Ishara",
       "description": "quori",
       "id": 305
     },
     {
-      "claimed": false,
       "name": "Janza / Ganza / Gazaca (\"Our treasure\")",
       "description": "Gnoll towns",
       "id": 306
     },
     {
-      "claimed": false,
       "name": "Jheluum",
       "description": "female ?? names",
       "id": 307
     },
     {
-      "claimed": false,
       "name": "Kashak",
       "description": "kobold, lizard",
       "id": 308
     },
     {
-      "claimed": false,
       "name": "Kelaal",
       "description": "female ?? names",
       "id": 309
     },
     {
-      "claimed": false,
       "name": "Khad",
       "description": "quori",
       "id": 310
     },
     {
-      "claimed": false,
       "name": "Khoratari",
       "description": "",
       "id": 311
     },
     {
-      "claimed": false,
       "name": "Knottypate",
       "description": "",
       "id": 312
     },
     {
-      "claimed": false,
       "name": "Knucklebones",
       "description": "hag last name",
       "id": 313
     },
     {
-      "claimed": false,
       "name": "Kosh",
       "description": "quori",
       "id": 314
     },
     {
-      "claimed": false,
       "name": "lakosh",
       "description": "",
       "id": 315
     },
     {
-      "claimed": false,
       "name": "leer",
       "description": "unit of measure",
       "id": 317
     },
     {
-      "claimed": false,
       "name": "Leylan",
       "description": "",
       "id": 318
     },
     {
-      "claimed": false,
       "name": "Locustay",
       "description": "",
       "id": 319
     },
     {
-      "claimed": false,
       "name": "Lugribossk",
       "description": "mind flayer",
       "id": 320
     },
     {
-      "claimed": false,
       "name": "Lummur",
       "description": "",
       "id": 321
     },
     {
-      "claimed": false,
       "name": "Madge Parsons",
       "description": "",
       "id": 322
     },
     {
-      "claimed": false,
       "name": "[Male Names: Aruget, Chetiin, Daavn, Dabrak, Dagii, Drevduul, Duulan, Fenic, Gudruun, Haluun, Haruuc, Jhazaal, Kallaad, Krakuul, Krootad, Mazaan]",
       "description": "",
       "id": 323
     },
     {
-      "claimed": false,
       "name": "MARY COBBLESTONE",
       "description": "",
       "id": 324
     },
     {
-      "claimed": false,
       "name": "Mathilda",
       "description": "hag first name",
       "id": 325
     },
     {
-      "claimed": false,
       "name": "May",
       "description": "hag first name",
       "id": 326
     },
     {
-      "claimed": false,
       "name": "Meepo",
       "description": "kobold",
       "id": 327
     },
     {
-      "claimed": false,
       "name": "Melk",
       "description": "quori",
       "id": 328
     },
     {
-      "claimed": false,
       "name": "Mensil(r/n)oy",
       "description": "",
       "id": 329
     },
     {
-      "claimed": false,
       "name": "Middenheap",
       "description": "hag last name",
       "id": 330
     },
     {
-      "claimed": false,
       "name": "Molavakri ",
       "description": "",
       "id": 331
     },
     {
-      "claimed": false,
       "name": "Clough ",
       "description": "",
       "id": 332
     },
     {
-      "claimed": false,
       "name": "Molo",
       "description": "kobold",
       "id": 333
     },
     {
-      "claimed": false,
       "name": "Morgan",
       "description": "hag first name",
       "id": 334
     },
     {
-      "claimed": false,
       "name": "Mudwallow",
       "description": "hag last name",
       "id": 335
     },
     {
-      "claimed": false,
       "name": "Nari",
       "description": "quori",
       "id": 336
     },
     {
-      "claimed": false,
       "name": "Nash",
       "description": "",
       "id": 337
     },
     {
-      "claimed": false,
       "name": "Nasree",
       "description": "female ?? names",
       "id": 338
     },
     {
-      "claimed": false,
       "name": "Natalie",
       "description": "",
       "id": 339
     },
     {
-      "claimed": false,
       "name": "Nevitash ",
       "description": "",
       "id": 340
     },
     {
-      "claimed": false,
       "name": "Nisi Siurp (SEE-urp)",
       "description": "",
       "id": 341
     },
     {
-      "claimed": false,
       "name": "Nunce",
       "description": "",
       "id": 342
     },
     {
-      "claimed": false,
       "name": "Odell",
       "description": "",
       "id": 343
     },
     {
-      "claimed": false,
       "name": "Oduk",
       "description": "gnoll",
       "id": 344
     },
     {
-      "claimed": false,
       "name": "Ohsoss",
       "description": "kobold",
       "id": 345
     },
     {
-      "claimed": false,
       "name": "Olga",
       "description": "hag first name",
       "id": 347
     },
     {
-      "claimed": true,
       "name": "Onfalon",
       "description": "druidic \nspeak through the eyes of the eages \nthick deadlocks\nflick learned from him certain things\ntaught about circle of spores\n",
       "id": 348,
-      "prep": true
+      "prep": true,
+      "claimed": true
     },
     {
-      "claimed": false,
       "name": "ORP FREEN",
       "description": "",
       "id": 349
     },
     {
-      "claimed": false,
       "name": "Otal",
       "description": "gnoll",
       "id": 350
     },
     {
-      "claimed": false,
       "name": "Panzon",
       "description": "",
       "id": 351
     },
     {
-      "claimed": false,
       "name": "PHERMASTAPHY",
       "description": "title; location",
       "id": 352
     },
     {
-      "claimed": false,
       "name": "Pigtooth",
       "description": "hag last name",
       "id": 353
     },
     {
-      "claimed": false,
       "name": "Pollyon \"Polly\"",
       "description": "",
       "id": 355,
       "pronunciation": "(pahl-ee-ohn"
     },
     {
-      "claimed": false,
       "name": "Queue Orius",
       "description": "",
       "id": 356
     },
     {
-      "claimed": false,
       "name": "Quoor",
       "description": "mind flayer",
       "id": 357
     },
     {
-      "claimed": false,
       "name": "Ragdar",
       "description": "",
       "id": 358
     },
     {
-      "claimed": false,
       "name": "Rakari",
       "description": "",
       "id": 359
     },
     {
-      "claimed": false,
       "name": "Ralayan",
       "description": "mind flayer",
       "id": 360
     },
     {
-      "claimed": false,
       "name": "Raleen",
       "description": "female ?? names",
       "id": 361
     },
     {
-      "claimed": false,
       "name": "Raznah",
       "description": "",
       "id": 362
     },
     {
-      "claimed": false,
       "name": "Razu",
       "description": "female ?? names",
       "id": 363
     },
     {
-      "claimed": false,
       "name": "Rekseen",
       "description": "female ?? names",
       "id": 364
     },
     {
-      "claimed": false,
       "name": "Reksiit",
       "description": "",
       "id": 365
     },
     {
-      "claimed": false,
       "name": "Rickety",
       "description": "hag title",
       "id": 366
     },
     {
-      "claimed": false,
       "name": "ROJEK",
       "description": "",
       "id": 367
     },
     {
-      "claimed": false,
       "name": "Rolphe Nustle",
       "description": "",
       "id": 368
     },
     {
-      "claimed": false,
       "name": "Rotom",
       "description": "kobold",
       "id": 369
     },
     {
-      "claimed": false,
       "name": "S’venchen",
       "description": "mind flayer",
       "id": 370
     },
     {
-      "claimed": false,
       "name": "Sagin",
       "description": "kobold",
       "id": 371
     },
     {
-      "claimed": false,
       "name": "Sardsult",
       "description": "mind flayer",
       "id": 373
     },
     {
-      "claimed": false,
       "name": "Scudge Horpoth",
       "description": "",
       "id": 374
     },
     {
-      "claimed": false,
       "name": "Senen",
       "description": "female ?? names",
       "id": 375
     },
     {
-      "claimed": false,
       "name": "Shahar",
       "description": "",
       "id": 376
     },
     {
-      "claimed": false,
       "name": "Shedroor",
       "description": "female ?? names",
       "id": 377
     },
     {
-      "claimed": false,
       "name": "Sik",
       "description": "kobold",
       "id": 378
     },
     {
-      "claimed": false,
       "name": "Sleggy",
       "description": "",
       "id": 380
     },
     {
-      "claimed": false,
       "name": "Sniv",
       "description": "kobold",
       "id": 381
     },
     {
-      "claimed": false,
       "name": "Tajiin",
       "description": "female ?? names",
       "id": 383
     },
     {
-      "claimed": false,
       "name": "Taklak",
       "description": "lizard, kobold",
       "id": 384
     },
     {
-      "claimed": false,
       "name": "Tari",
       "description": "quori",
       "id": 387
     },
     {
-      "claimed": false,
       "name": "Tariic",
       "description": "",
       "id": 388
     },
     {
-      "claimed": false,
       "name": "Taruuzh",
       "description": "",
       "id": 389
     },
     {
-      "claimed": false,
       "name": "Tash",
       "description": "quori",
       "id": 390
     },
     {
-      "claimed": false,
       "name": "Tes",
       "description": "kobold",
       "id": 391
     },
     {
-      "claimed": false,
       "name": "Tharcereli",
       "description": "mind flayer",
       "id": 392
     },
     {
-      "claimed": false,
       "name": "Thuun (\"Thun\")",
       "description": "",
       "id": 394
     },
     {
-      "claimed": false,
       "name": "Toprick",
       "description": "dwarf surname",
       "id": 395
     },
     {
-      "claimed": false,
       "name": "Torashtai",
       "description": "",
       "id": 396
     },
     {
-      "claimed": false,
       "name": "Trabis",
       "description": "",
       "id": 397
     },
     {
-      "claimed": false,
       "name": "TumTum",
       "description": "",
       "id": 398
     },
     {
-      "claimed": false,
       "name": "Tuneer",
       "description": "female ?? names",
       "id": 399
     },
     {
-      "claimed": false,
       "name": "Turtleback",
       "description": "hag title",
       "id": 400
     },
     {
-      "claimed": false,
       "name": "Twigmouth",
       "description": "hag last name",
       "id": 401
     },
     {
-      "claimed": true,
       "name": "Uddubera Orepin",
       "description": "",
-      "id": 402,
-      "tags": [
-        "contributor"
-      ]
+      "id": 402
     },
     {
-      "claimed": false,
       "name": "Ulad",
       "description": "quori",
       "id": 403
     },
     {
-      "claimed": false,
       "name": "Ursula",
       "description": "hag first name",
       "id": 404
     },
     {
-      "claimed": false,
       "name": "Ustar",
       "description": "gnoll",
       "id": 405
     },
     {
-      "claimed": false,
       "name": "Vakri",
       "description": "quori",
       "id": 406
     },
     {
-      "claimed": false,
       "name": "Valakhad ",
       "description": "",
       "id": 407
     },
     {
-      "claimed": false,
       "name": "Valii",
       "description": "female ?? names",
       "id": 408
     },
     {
-      "claimed": false,
       "name": "Vanii",
       "description": "",
       "id": 409
     },
     {
-      "claimed": false,
       "name": "Vanon ",
       "description": "",
       "id": 410
     },
     {
-      "claimed": false,
       "name": "Varn",
       "description": "kobold",
       "id": 411
     },
     {
-      "claimed": false,
       "name": "Wamble",
       "description": "rumbling, rolling nausea",
       "id": 412
     },
     {
-      "claimed": false,
       "name": "Rospek",
       "description": "prospect",
       "id": 413
     },
     {
-      "claimed": false,
       "name": "Lavolta",
       "description": "lava monster who likes dancing.",
       "id": 414
     },
     {
-      "claimed": false,
       "name": "VENDALI(UM/OM) ",
       "description": "title",
       "id": 415
     },
     {
-      "claimed": false,
       "name": "Virgat(e)",
       "description": "title",
       "id": 416
     },
     {
-      "claimed": false,
       "name": "Wehmseiper",
       "description": "group?",
       "id": 417
     },
     {
-      "claimed": false,
       "name": "Wicked",
       "description": "hag title",
       "id": 418
     },
     {
-      "claimed": false,
       "name": "Wormwiggle",
       "description": "hag last name",
       "id": 419
     },
     {
-      "claimed": false,
       "name": "Wuudaraj",
       "description": "",
       "id": 420
     },
     {
-      "claimed": false,
       "name": "Zellix",
       "description": "mind flayer",
       "id": 421
     },
     {
-      "claimed": false,
       "name": "Gind",
       "description": "??",
       "id": 422
     },
     {
-      "claimed": false,
       "name": "Boolook",
       "description": "Very good at falling asleep quickly",
       "id": 423
     },
     {
-      "claimed": false,
       "name": "Ddloh",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -3935,8 +3308,8 @@
       "id": 424
     },
     {
-      "claimed": true,
       "name": "Zod",
+      "claimed": true,
       "fluff": "",
       "description": "(he, him, his) (kobold) employee of  Blue Dragon Blades ",
       "habitus": "",
@@ -3945,8 +3318,8 @@
       "id": 425
     },
     {
-      "claimed": true,
       "name": "Foldorf",
+      "claimed": true,
       "fluff": "",
       "description": "('FOAL-DUHLF') he, him, his (wehmseiper). Bright blue goku hair, a huge scar across face as left by a (?) tentacle, shield and matau (Massive fishing hook)\nKnown from birth that wanted to be a paladin, but never chosen by a deity. Acts like a paladin but all their abilities are (1) just from being technically proficient; (2) from a different source of power. \nin trying to get a paladin deity, was rowing to the deepest heart of the earth in the blackest waters and … \nFULDULF has FEZ’s abilities, but they are clearly different from FEZ - they take hard work",
       "habitus": "",
@@ -3955,8 +3328,8 @@
       "id": 426
     },
     {
-      "claimed": false,
       "name": "Nimit Kemmeldin",
+      "claimed": null,
       "fluff": "",
       "description": "martial fighting instructor @ Dimpleweed's Martial Academy?",
       "habitus": "",
@@ -3965,8 +3338,8 @@
       "id": 427
     },
     {
-      "claimed": true,
       "name": "Inaris",
+      "claimed": true,
       "fluff": "",
       "description": "(female half-elf monk?) 3/4 length jacket over a frilly shirt; wide belt with an intricate celtic knot; simple cloth pants and cloth boots. Left eye in a permanent squint, long face, delicate unibrown, short wavy brown hair.\n@ famasta monastery ",
       "habitus": "",
@@ -3975,8 +3348,8 @@
       "id": 428
     },
     {
-      "claimed": false,
       "name": "Maeve Goose-Bury",
+      "claimed": null,
       "fluff": "",
       "description": "Goose-Bury (Goozby)\nMaeve Goose-Bury ('Goozby' or 'Goosby')\n(female monk) close-shaved brown hair, short (5'2'), cut muscles, wider in the torsos. full-length dark blue tunic with red trim. dark brown/black eyes.\n@ famasta monastery\n- Maeve Goosby trains monks. It looks like she is rivals with Timothea and looks the other way on the dogs?\n\nlast interaction: not great ",
       "habitus": "",
@@ -3985,8 +3358,8 @@
       "id": 429
     },
     {
-      "claimed": true,
       "name": "Mina",
+      "claimed": true,
       "fluff": "",
       "description": "(female) monk at the famasta Monastery. Square face with soft jaw, narrow black eyes. Frizzy gold hair (but somehow none out of place). Number of plain metal band rings. Plaid tunic and gray breeches and white leggings ending in black boots.",
       "habitus": "",
@@ -3995,8 +3368,8 @@
       "id": 430
     },
     {
-      "claimed": true,
       "name": "Reginald",
+      "claimed": true,
       "fluff": "",
       "description": "Son of Corvilla\nBarazar's nephew\nEngaged to Timothea Dimpleweed\nIn the x-files",
       "habitus": "",
@@ -4005,8 +3378,8 @@
       "id": 431
     },
     {
-      "claimed": false,
       "name": "HARENA",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4015,8 +3388,8 @@
       "id": 432
     },
     {
-      "claimed": true,
       "name": "ELLA LOOP",
+      "claimed": true,
       "fluff": "",
       "description": "Rat-gnome and alchemist. (female). rat, but human sized. weathered chain mail tunic, hobo gauntlets, green trousers and light brown boots. One cracked front tooth and a very twitchy pink nose with distingushed salt & pepper whiskers.\n- half-sister to barazar sod (through ...?)",
       "habitus": "",
@@ -4025,8 +3398,8 @@
       "id": 433
     },
     {
-      "claimed": false,
       "name": "Oxferroite \"Ox\"",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4038,8 +3411,8 @@
       "id": 434
     },
     {
-      "claimed": false,
       "name": "gillivray",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4051,8 +3424,8 @@
       "id": 435
     },
     {
-      "claimed": false,
       "name": "Slumpy Frog",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4064,8 +3437,8 @@
       "id": 436
     },
     {
-      "claimed": false,
       "name": "Gamling",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4077,8 +3450,8 @@
       "id": 437
     },
     {
-      "claimed": false,
       "name": "Dayzar",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4090,8 +3463,8 @@
       "id": 438
     },
     {
-      "claimed": true,
       "name": "Darby the Chest-High",
+      "claimed": true,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4103,8 +3476,8 @@
       "id": 439
     },
     {
-      "claimed": false,
       "name": "Glinda",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4116,8 +3489,8 @@
       "id": 440
     },
     {
-      "claimed": false,
       "name": "Myroxylon ",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4129,8 +3502,8 @@
       "id": 441
     },
     {
-      "claimed": false,
       "name": "Bellerica",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4142,8 +3515,8 @@
       "id": 442
     },
     {
-      "claimed": false,
       "name": "Firt Godbold",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4155,8 +3528,8 @@
       "id": 443
     },
     {
-      "claimed": true,
       "name": "Thavolia Glymph",
+      "claimed": true,
       "fluff": "",
       "description": " \"black hair, kind, tired eyes, bright smile, rugged chin\",\n\n",
       "habitus": "\"important role played by enslaved black women to achieve freedom not being oppressed by  white women united by racism!\"",
@@ -4168,8 +3541,8 @@
       "id": 444
     },
     {
-      "claimed": true,
       "name": "H.F. Wylmott",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4183,8 +3556,8 @@
       "id": 445
     },
     {
-      "claimed": false,
       "name": "Geroux",
+      "claimed": null,
       "fluff": "",
       "description": "some last-alive-gets-all schemer'\nspigots, thighs, hoists, pith, shops, goths\nrehang, raglan, canal, lager\n",
       "habitus": "",
@@ -4196,8 +3569,8 @@
       "id": 446
     },
     {
-      "claimed": false,
       "name": "McBaby Garkness (m)eagle",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4209,8 +3582,8 @@
       "id": 447
     },
     {
-      "claimed": false,
       "name": "garoo chenkhett",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4222,8 +3595,8 @@
       "id": 448
     },
     {
-      "claimed": false,
       "name": "Mustang \"Moustache Shank\" Shank",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4235,8 +3608,8 @@
       "id": 449
     },
     {
-      "claimed": true,
       "name": "Ethel",
+      "claimed": true,
       "fluff": "",
       "description": "- was rescued from the fighting pits (which are secretly run by Elethar Vielle)",
       "habitus": "",
@@ -4248,8 +3621,8 @@
       "id": 450
     },
     {
-      "claimed": false,
       "name": "Awa Haycough",
+      "claimed": null,
       "fluff": "",
       "description": "or Yrah",
       "habitus": "",
@@ -4261,8 +3634,8 @@
       "id": 452
     },
     {
-      "claimed": false,
       "name": "Grumyr",
+      "claimed": null,
       "fluff": "",
       "description": "dwarf, squirrel-fur coat, huge wiry beard",
       "habitus": "",
@@ -4274,8 +3647,8 @@
       "id": 453
     },
     {
-      "claimed": true,
       "name": "Sally Farmer",
+      "claimed": true,
       "fluff": "",
       "description": "Sally Farmer is Maeve Goosby’s agent.\n[see googledrive note]\n\nneé Bloodforge (of the clain)",
       "habitus": "",
@@ -4287,8 +3660,8 @@
       "id": 454
     },
     {
-      "claimed": true,
       "name": "Preston Goosewood / Goose-wood / Goody / Goozby / Goosby",
+      "claimed": true,
       "fluff": "",
       "description": "- metallurgist\n- seen with one of plant-dogs. (yes, but it was killing him and replacing with Ella)",
       "habitus": "",
@@ -4300,8 +3673,8 @@
       "id": 455
     },
     {
-      "claimed": true,
       "name": "Ituktilik Meffatar",
+      "claimed": true,
       "fluff": "",
       "description": "see clocks\n- agent of Remy Flitch",
       "habitus": "",
@@ -4313,8 +3686,8 @@
       "id": 456
     },
     {
-      "claimed": false,
       "name": "flungus",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4326,8 +3699,8 @@
       "id": 457
     },
     {
-      "claimed": false,
       "name": "Engew",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4339,8 +3712,8 @@
       "id": 458
     },
     {
-      "claimed": false,
       "name": "Ross the raven",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4352,8 +3725,8 @@
       "id": 459
     },
     {
-      "claimed": false,
       "name": "Leåthan",
+      "claimed": null,
       "fluff": "",
       "description": "roguish wood elf\n\nå = go or thought (in vowel)",
       "habitus": "",
@@ -4365,8 +3738,8 @@
       "id": 460
     },
     {
-      "claimed": true,
       "name": "\"Auntie\"",
+      "claimed": true,
       "fluff": "",
       "description": "says she's a 7 year old human. alternate barkeeper at Riskless Tavern",
       "habitus": "",
@@ -4378,8 +3751,8 @@
       "id": 461
     },
     {
-      "claimed": true,
       "name": "maggie flood",
+      "claimed": true,
       "fluff": "",
       "description": "doesn't touch metal\n",
       "habitus": "",
@@ -4391,8 +3764,8 @@
       "id": 462
     },
     {
-      "claimed": false,
       "name": "Spessy",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4404,8 +3777,8 @@
       "id": 463
     },
     {
-      "claimed": false,
       "name": "Lorotixt",
+      "claimed": null,
       "fluff": "",
       "description": "uses slugs to spy\ngod of ladel-fighting dreams ? ",
       "habitus": "",
@@ -4419,8 +3792,8 @@
       "id": 464
     },
     {
-      "claimed": false,
       "name": "The Wall Maker",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4432,8 +3805,8 @@
       "id": 465
     },
     {
-      "claimed": false,
       "name": "Weedle",
+      "claimed": null,
       "fluff": "",
       "description": "like, \"wheedle\"",
       "habitus": "",
@@ -4445,8 +3818,8 @@
       "id": 466
     },
     {
-      "claimed": false,
       "name": "blandish",
+      "claimed": null,
       "fluff": "",
       "description": "transitive verb\n\n: to coax with flattery : CAJOLE\nintransitive verb\n\n: to act or speak in a flattering or coaxing manner",
       "habitus": "",
@@ -4458,8 +3831,8 @@
       "id": 467
     },
     {
-      "claimed": true,
       "name": "Phoenix Molvraki",
+      "claimed": true,
       "fluff": "",
       "description": "Mystic (Order of the Immortal)\n\n",
       "habitus": "",
@@ -4472,8 +3845,8 @@
       "etools_url": "https://5e.tools/bestiary.html#phoenix%20molvraki_zorq"
     },
     {
-      "claimed": false,
       "name": "Sorbus",
+      "claimed": null,
       "fluff": "",
       "description": "The traditional names of the rowan are those applied to the species Sorbus aucuparia, Sorbus torminalis (wild service-tree), and Sorbus domestica (true service-tree). The Latin name sorbus was borrowed into Old English as syrfe. ",
       "habitus": "",
@@ -4486,8 +3859,8 @@
       "id": 470
     },
     {
-      "claimed": false,
       "name": "Syrfe",
+      "claimed": null,
       "fluff": "",
       "description": "The traditional names of the rowan are those applied to the species Sorbus aucuparia, Sorbus torminalis (wild service-tree), and Sorbus domestica (true service-tree). The Latin name sorbus was borrowed into Old English as syrfe. ",
       "habitus": "",
@@ -4500,10 +3873,10 @@
       "id": 471
     },
     {
-      "claimed": true,
       "name": "Grenlich (Kolmy Shortpaw)",
+      "claimed": true,
       "fluff": "",
-      "description": "Circle of spores druid ?\n\n- doesn't like chalk or coal\n",
+      "description": "Circle of spores druid ?",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
@@ -4514,8 +3887,8 @@
       "id": 472
     },
     {
-      "claimed": true,
       "name": "Djumir/x/ ",
+      "claimed": true,
       "fluff": "",
       "description": "leucrotta",
       "habitus": "",
@@ -4528,8 +3901,8 @@
       "id": 473
     },
     {
-      "claimed": true,
       "name": "Thaz",
+      "claimed": true,
       "fluff": "",
       "description": "warrior (fang of yeenoghu)\n\nclear her name -- they think she killed an intelligent creature (in a duel), and even worse, didn’t eat of its flesh\n(but Kolmy doesn't mind-mind; only sort of thinks it's weird (like eating poop)\nkolmy's gf\n\nnot really ok with what Komy's doing",
       "habitus": "",
@@ -4542,8 +3915,8 @@
       "id": 474
     },
     {
-      "claimed": false,
       "name": "Alîsafala",
+      "claimed": null,
       "fluff": "",
       "description": "\nGod of the Sap Glom\nalisafala",
       "habitus": "",
@@ -4558,8 +3931,8 @@
       "id": 475
     },
     {
-      "claimed": true,
       "name": "Iarokhna",
+      "claimed": true,
       "fluff": "",
       "description": "Joan's russian trainer",
       "habitus": "",
@@ -4572,8 +3945,8 @@
       "id": 477
     },
     {
-      "claimed": false,
       "name": "gewealdes",
+      "claimed": null,
       "fluff": "",
       "description": "of one's own will",
       "habitus": "",
@@ -4586,8 +3959,8 @@
       "id": 478
     },
     {
-      "claimed": false,
       "name": "Greebint",
+      "claimed": null,
       "fluff": "",
       "description": "",
       "habitus": "",
@@ -4600,8 +3973,8 @@
       "id": 479
     },
     {
-      "claimed": true,
       "name": "Twyne",
+      "claimed": true,
       "fluff": "",
       "description": "(reskin) burrowling (KP-tob)\n\n",
       "habitus": "",
@@ -4614,8 +3987,8 @@
       "id": 480
     },
     {
-      "claimed": true,
       "name": "Veenock",
+      "claimed": true,
       "fluff": "",
       "description": "You know, veenock",
       "habitus": "",
@@ -4628,8 +4001,8 @@
       "id": 481
     },
     {
-      "claimed": true,
       "name": "Pranche Ouhart",
+      "claimed": true,
       "fluff": "",
       "description": "someone involved in trying to become immortal -- maybe a colleague of ella loop",
       "habitus": "",
@@ -4644,8 +4017,8 @@
       "id": 482
     },
     {
-      "claimed": true,
       "name": "Khelfaraz",
+      "claimed": true,
       "fluff": "",
       "description": "some earth/plasma demon ? hollows out bodies and commands them. life-force being sucked away by another more powerful demon (or evil humans)",
       "habitus": "",
@@ -4660,8 +4033,8 @@
       "id": 483
     },
     {
-      "claimed": true,
       "name": "Belima ",
+      "claimed": true,
       "fluff": "",
       "description": "(hag, blue, familiar? , 5' 10\"",
       "habitus": "Foed Coven",
@@ -4674,8 +4047,8 @@
       "id": 484
     },
     {
-      "claimed": true,
       "name": "?? two bunny deities upstairs",
+      "claimed": true,
       "fluff": "",
       "description": "have to feed them grapes to placate",
       "habitus": "",
@@ -4690,8 +4063,8 @@
       "id": 485
     },
     {
-      "claimed": false,
       "name": "Henter",
+      "claimed": null,
       "fluff": "",
       "description": "\" A person who seizes something; a grasper.\"",
       "habitus": "",
@@ -4704,8 +4077,8 @@
       "id": 486
     },
     {
-      "claimed": false,
       "name": "hendly",
+      "claimed": null,
       "fluff": "",
       "description": "\" Gracious, courteous;\"",
       "habitus": "",
@@ -4718,8 +4091,8 @@
       "id": 487
     },
     {
-      "claimed": false,
       "name": "mensk",
+      "claimed": null,
       "fluff": "",
       "description": " 1. transitive. To reverence, honour; to dignify, grace, favour (with gifts, etc.); to help, save.\n",
       "habitus": "",
@@ -4730,332 +4103,6 @@
       "etools": null,
       "etools_url": "",
       "id": 488
-    },
-    {
-      "name": "Urak the Page",
-      "claimed": true,
-      "fluff": "",
-      "description": "Galax's page",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 489
-    },
-    {
-      "name": "Captain Rowan Piper",
-      "claimed": true,
-      "fluff": "",
-      "description": "\n\nMissing a leg ? Someone else is holding onto it\n(former) Captain of the MAS (Missing at sea) Placid Beast",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 490
-    },
-    {
-      "name": "sprawlpy ",
-      "claimed": false,
-      "fluff": "",
-      "description": "",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 491
-    },
-    {
-      "name": "Achazer",
-      "claimed": false,
-      "fluff": "",
-      "description": "",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 492
-    },
-    {
-      "name": "brerded",
-      "claimed": false,
-      "fluff": "",
-      "description": "brimmed adj.1",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 493
-    },
-    {
-      "name": "bretcock \"Bret\"",
-      "claimed": false,
-      "fluff": "",
-      "description": "actually is a kind of fish",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 494
-    },
-    {
-      "name": "Dirimpetto",
-      "claimed": false,
-      "fluff": "",
-      "description": "\", foranenst\"",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 495
-    },
-    {
-      "name": "Joan",
-      "claimed": true,
-      "fluff": "",
-      "description": "resistant to everything but emotions\n\n\"i don't find it cute when animals talk\"\n- the least successful murder hobo\n- i'm not her therapist !!\n",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": true,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 496
-    },
-    {
-      "name": "Paros",
-      "claimed": true,
-      "fluff": "",
-      "description": "his \"shield\" is arcane bookshelves that exude library dust",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 497
-    },
-    {
-      "name": "Menologium",
-      "claimed": false,
-      "fluff": "",
-      "description": "Menologium (English: /mɛnəˈloʊdʒiəm/), also written menology, and menologe, is a service-book used in the Eastern Orthodox Church and those Eastern Catholic Churches which follow the Rite of Constantinople.\n\nFrom its derivation from Greek μηνολόγιον, menológion, from μήν mén \"a month\", via Latin menologium, the literal meaning is \"month-set\"—in other words, a book arranged according to the months. Like a good many other liturgical terms (e.g., lectionary), the word has been used in several quite distinct senses.",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [
-        "celestial"
-      ],
-      "etools": false,
-      "etools_url": "",
-      "id": 498
-    },
-    {
-      "name": "Solrak",
-      "claimed": true,
-      "fluff": "",
-      "description": "poop when you leave it outside it gets that furry-looking mold on it. while I was unconscious (Grenlich); the coating looks furry and soft and pettable, but you don't do it because it's poop, but it's kind of a missed opportunity",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 499
-    },
-    {
-      "name": "Cweet",
-      "claimed": false,
-      "fluff": "",
-      "description": "welch",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 500
-    },
-    {
-      "name": "Dumple",
-      "claimed": false,
-      "fluff": "",
-      "description": "",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 501
-    },
-    {
-      "name": "",
-      "claimed": false,
-      "fluff": "",
-      "description": "",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 502
-    },
-    {
-      "name": "",
-      "claimed": false,
-      "fluff": "",
-      "description": "",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 503
-    },
-    {
-      "name": "Ring Lardner",
-      "claimed": false,
-      "fluff": "",
-      "description": "",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 504
-    },
-    {
-      "name": "Hamilcar Barca",
-      "claimed": false,
-      "fluff": "",
-      "description": "barca = \"lightning\"",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 505
-    },
-    {
-      "name": "Rouncival",
-      "claimed": false,
-      "fluff": "",
-      "description": " A large, boisterous, or masculine woman",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 506
-    },
-    {
-      "name": "Clochard",
-      "claimed": false,
-      "fluff": "",
-      "description": "",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 507
-    },
-    {
-      "name": "Exuviae Whiffinger",
-      "claimed": false,
-      "fluff": "",
-      "description": "",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 508
-    },
-    {
-      "name": "Oakey Dickle",
-      "claimed": false,
-      "fluff": "",
-      "description": "",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 509
-    },
-    {
-      "name": "bog ogre ",
-      "claimed": false,
-      "fluff": "",
-      "description": "",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [
-        "monster"
-      ],
-      "etools": false,
-      "etools_url": "",
-      "id": 510
-    },
-    {
-      "name": "Comptroller Chaos",
-      "claimed": false,
-      "fluff": "",
-      "description": "bunny scientist dropping core samples in the couch",
-      "habitus": "",
-      "quotes": "",
-      "pronunciation": "",
-      "prep": false,
-      "tags": [],
-      "etools": false,
-      "etools_url": "",
-      "id": 511
     }
   ],
   "description": [
@@ -5700,68 +4747,6 @@
       ],
       "prep": false,
       "id": 132
-    },
-    {
-      "content": "the leaves hang with movement",
-      "tags": [
-        "nature"
-      ],
-      "prep": null,
-      "id": 133
-    },
-    {
-      "content": "He'll eat nothing but boiled bacon",
-      "tags": [
-        "food"
-      ],
-      "prep": null,
-      "id": 134
-    },
-    {
-      "content": "brattice:  (in obsolete form bretexe): transitive. To fortify with a wooden breastwork. Obsolete.\n  The stone was all carefully bratticed up.",
-      "tags": [
-        "architecture"
-      ],
-      "prep": null,
-      "id": 135
-    },
-    {
-      "content": "bremit: Infuriated",
-      "tags": [
-        "emotion"
-      ],
-      "prep": null,
-      "id": 136
-    },
-    {
-      "content": "All publick criminals were tied to a publick Exomologesis or Repentance in the Church.",
-      "tags": [],
-      "prep": null,
-      "id": 137
-    },
-    {
-      "content": "the \"lung-tied\"",
-      "tags": [
-        "epithet"
-      ],
-      "prep": null,
-      "id": 138
-    },
-    {
-      "content": "trees dripping leaves",
-      "tags": [
-        "nature"
-      ],
-      "prep": null,
-      "id": 139
-    },
-    {
-      "content": "impertinent sense of familiarity",
-      "tags": [
-        "quote"
-      ],
-      "prep": null,
-      "id": 140
     }
   ],
   "position": [
@@ -5918,40 +4903,6 @@
         "occupation"
       ],
       "id": 29
-    },
-    {
-      "name": "Gleuman",
-      "description": "entertainer (OE)\n> glee (mirth)",
-      "tags": [],
-      "id": 30
-    },
-    {
-      "name": "the premature gravedigger",
-      "description": "",
-      "tags": [
-        "epithet"
-      ],
-      "id": 31
-    },
-    {
-      "name": "reeve",
-      "description": "someone who looked after the feudal lord's property and income",
-      "tags": [],
-      "id": 32
-    },
-    {
-      "name": "Blizzardbeard",
-      "description": "",
-      "tags": [
-        "epithet"
-      ],
-      "id": 33
-    },
-    {
-      "name": "Light Breakfastbringer",
-      "description": "",
-      "tags": [],
-      "id": 34
     }
   ],
   "work": [
@@ -6324,260 +5275,6 @@
       "etools": null,
       "tags": [],
       "id": 49
-    },
-    {
-      "title": "not meerly and simply notions,..being ready for expression, and pertain to the enunciative faculty of the soule.",
-      "contents": "",
-      "description": "",
-      "contributor": "Uddubera Orepin",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 50
-    },
-    {
-      "title": "",
-      "contents": "nacorb = acorn + jacob ?",
-      "description": "The nacorb and the nut",
-      "contributor": "Vurb Oojum",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 51
-    },
-    {
-      "title": "[real]  Nature of light, with a general account of physical optics ·",
-      "contents": "",
-      "description": "",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 52
-    },
-    {
-      "title": "The better propagation and profection of the Divine truth.",
-      "contents": "",
-      "description": "profection in the sense: 1. The setting forward or promotion of a person or thing; furtherance, advancement. Obsolete.",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 53
-    },
-    {
-      "title": "the excellencie of your Maiesties gifts of Nature, and the viniuersalitie [sic] and profection [erratum: perfection] of your learning.",
-      "contents": "",
-      "description": "profection in the sense: The degree of advancement attained in anything; proficiency. Obsolete.",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 54
-    },
-    {
-      "title": "Letters on natural magic",
-      "contents": "",
-      "description": " · 1st edition, 1832 (1 vol.).\n\nchapter: Drugs and soporific embrocations. [A liquid used for bathing or moistening any diseased part; now usually restricted to those applied by rubbing; a liniment.]",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 55
-    },
-    {
-      "title": "[real]The methode of phisicke ",
-      "contents": "",
-      "description": "· 1st edition, 1583 (1 vol.).",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 56
-    },
-    {
-      "title": "Sweet as is the brembre [bramble] flour",
-      "contents": "",
-      "description": "",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 57
-    },
-    {
-      "title": "breneage [burning] in the fen.",
-      "contents": "",
-      "description": "",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 58
-    },
-    {
-      "title": "[real] Justice vindicated from the false fucus [i.e. focus] put upon it, by [brace] Thomas White gent., Mr. Thomas Hobbs, and Hugo Grotius as also elements of power & subjection, wherein is demonstrated the cause of all humane, Christian, and legal society : and as a previous introduction to these, is shewed, the method by which men must necessarily attain arts & sciences / by Roger Coke.",
-      "contents": "",
-      "description": "",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 59
-    },
-    {
-      "title": "lectionary",
-      "contents": "",
-      "description": "a list of passages appointed to be so read at a divine service",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [
-        "general"
-      ],
-      "id": 60
-    },
-    {
-      "title": "Epiphenomena",
-      "contents": "",
-      "description": "",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 61
-    },
-    {
-      "title": "Flesh begets stench",
-      "contents": "",
-      "description": "",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 62
-    },
-    {
-      "title": "Regarding the undextrous translation of ...",
-      "contents": "",
-      "description": "",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 63
-    },
-    {
-      "title": "... antiphonary",
-      "contents": "",
-      "description": "  A book containing a set or collection of antiphons. [ 1. A versicle or sentence sung by one choir in response to another.]\n",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 64
-    },
-    {
-      "title": "The ideation of punctilios",
-      "contents": "",
-      "description": "",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 65
-    },
-    {
-      "title": "from title page to colophon.",
-      "contents": "",
-      "description": "",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 66
-    },
-    {
-      "title": "A salutation of the olfactories",
-      "contents": "",
-      "description": "",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 67
-    },
-    {
-      "title": "On the provisional negation of death",
-      "contents": "",
-      "description": "",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 68
-    },
-    {
-      "title": "A non-self-conscious refusal of confabulation",
-      "contents": "",
-      "description": "",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 69
-    },
-    {
-      "title": "Captain's log: honeydate: delicious sugar puffs",
-      "contents": "",
-      "description": "",
-      "contributor": "",
-      "mechanics": "",
-      "attune": null,
-      "prep": null,
-      "etools": null,
-      "tags": [],
-      "id": 70
     }
   ],
   "continuity": [
@@ -7878,6 +6575,19 @@
       "short description": "(frug has this ability)",
       "found @": "",
       "id": 47
+    },
+    {
+      "tags": [
+        "npc"
+      ],
+      "home": "",
+      "teg": "",
+      "alpha": "Piper, Rowan",
+      "name": "Captain Rowan Piper",
+      "3x5": "",
+      "short description": "Missing a leg ? Someone else is holding onto it\n(former) Captain of the MAS (Missing at sea) Placid Beast",
+      "found @": "",
+      "id": 48
     },
     {
       "tags": [
@@ -11507,281 +10217,6 @@
       ],
       "prep": null,
       "id": 512
-    },
-    {
-      "alpha": "",
-      "name": "They call it a lich cart",
-      "short description": "",
-      "tags": [
-        "quote"
-      ],
-      "prep": null,
-      "id": 513
-    },
-    {
-      "alpha": "",
-      "name": "rocking horse that's a foal to be sacrified",
-      "short description": "",
-      "tags": [
-        "quest",
-        "twist"
-      ],
-      "prep": null,
-      "id": 514
-    },
-    {
-      "alpha": "",
-      "name": "principles somewhat ... elastic",
-      "short description": "",
-      "tags": [
-        "quote",
-        "characterization"
-      ],
-      "prep": null,
-      "id": 515
-    },
-    {
-      "alpha": "",
-      "name": "a grotesque barber",
-      "short description": "",
-      "tags": [
-        "quote"
-      ],
-      "prep": null,
-      "id": 516
-    },
-    {
-      "alpha": "",
-      "name": "\"I understand liking gnolls, but this is ridiculous!\"\n - attribution: Paros / Joan",
-      "short description": "",
-      "tags": [
-        "quote"
-      ],
-      "prep": null,
-      "id": 517
-    },
-    {
-      "alpha": "",
-      "name": "dowry",
-      "short description": "  A dowry is either profecticious, that is, given by the woman's father, or adventicious, given by some other person.",
-      "tags": [],
-      "prep": null,
-      "id": 518
-    },
-    {
-      "alpha": "",
-      "name": "embrithite",
-      "short description": "some kind of mineral or crystal from oobriidthe's body\n< Greek ἐμβριθής heavy",
-      "tags": [
-        "item",
-        "geology"
-      ],
-      "prep": null,
-      "id": 519
-    },
-    {
-      "alpha": "",
-      "name": "brei, n.",
-      "short description": " Living tissue which has been ground or finely cut into a pulp for experimental purposes, sometimes with fluid added to form a suspension.\n/brʌɪ/\n< German, lit. ‘pulp, jelly’.",
-      "tags": [],
-      "prep": null,
-      "id": 520
-    },
-    {
-      "alpha": "",
-      "name": "figure out interactions between arcane and deific magic",
-      "short description": "- cloud of daggers invigorates the spiritual hammer",
-      "tags": [],
-      "prep": null,
-      "id": 521
-    },
-    {
-      "alpha": "",
-      "name": "brendice ",
-      "short description": "  A cup in which a person's health is drunk, a bumper.\n",
-      "tags": [
-        "item"
-      ],
-      "prep": null,
-      "id": 522
-    },
-    {
-      "alpha": "",
-      "name": "brencheese",
-      "short description": "bread and cheese when eaten together",
-      "tags": [],
-      "prep": null,
-      "id": 523
-    },
-    {
-      "alpha": "",
-      "name": "funky bullshrimp",
-      "short description": "mick",
-      "tags": [],
-      "prep": null,
-      "id": 524
-    },
-    {
-      "alpha": "",
-      "name": "gleed",
-      "short description": "a glowing coal",
-      "tags": [
-        "item"
-      ],
-      "prep": null,
-      "id": 525
-    },
-    {
-      "alpha": "",
-      "name": "chirpmunks",
-      "short description": "",
-      "tags": [
-        "fauna"
-      ],
-      "prep": null,
-      "id": 526
-    },
-    {
-      "alpha": "",
-      "name": "\"Think of nothing. Think of light\"",
-      "short description": "",
-      "tags": [
-        "quote",
-        "portentous"
-      ],
-      "prep": null,
-      "id": 527
-    },
-    {
-      "alpha": "",
-      "name": "[real] \"for three days grazing like a sick cow upon the ragged edges of sleep\"",
-      "short description": "",
-      "tags": [
-        "quote"
-      ],
-      "prep": null,
-      "id": 528
-    },
-    {
-      "alpha": "",
-      "name": "exomologesis",
-      "short description": "  A full confession, a public confession.\n-- or a public offering, in extended",
-      "tags": [
-        "event"
-      ],
-      "prep": null,
-      "id": 529
-    },
-    {
-      "alpha": "",
-      "name": "lobbing giggles behind them ",
-      "short description": "",
-      "tags": [
-        "quote"
-      ],
-      "prep": null,
-      "id": 530
-    },
-    {
-      "alpha": "",
-      "name": "quicksilver horseprints",
-      "short description": "",
-      "tags": [
-        "intriguing"
-      ],
-      "prep": null,
-      "id": 531
-    },
-    {
-      "alpha": "",
-      "name": "The real is the rational and the rational is the real",
-      "short description": "",
-      "tags": [
-        "quote"
-      ],
-      "prep": null,
-      "id": 532
-    },
-    {
-      "alpha": "",
-      "name": "dying on the drawing board",
-      "short description": "",
-      "tags": [
-        "quote"
-      ],
-      "prep": null,
-      "id": 533
-    },
-    {
-      "alpha": "",
-      "name": "she rotted in her own skin",
-      "short description": "",
-      "tags": [
-        "bodyhorror"
-      ],
-      "prep": null,
-      "id": 534
-    },
-    {
-      "alpha": "",
-      "name": "only the individual can be rustic",
-      "short description": "",
-      "tags": [
-        "quote",
-        "pompous"
-      ],
-      "prep": null,
-      "id": 535
-    },
-    {
-      "alpha": "",
-      "name": "\"indifferently well\"",
-      "short description": "",
-      "tags": [
-        "quote"
-      ],
-      "prep": null,
-      "id": 536
-    },
-    {
-      "alpha": "",
-      "name": "Part of \"narrative\" is that it asserts or implies there is a comprehensive logic at work\"",
-      "short description": "me",
-      "tags": [
-        "quote",
-        "philosophy"
-      ],
-      "prep": null,
-      "id": 537
-    },
-    {
-      "alpha": "",
-      "name": "Aios are not translatable as ghosts, ancestors, or spirits, but rather stand for processes of decomposition & desocialization ",
-      "short description": "jane fajans",
-      "tags": [
-        "philosophy"
-      ],
-      "prep": null,
-      "id": 538
-    },
-    {
-      "alpha": "",
-      "name": "dragon bag",
-      "short description": "",
-      "tags": [
-        "magic",
-        "item"
-      ],
-      "prep": null,
-      "id": 539
-    },
-    {
-      "alpha": "",
-      "name": "\"gourd\" speed",
-      "short description": "",
-      "tags": [],
-      "prep": null,
-      "id": 540
     }
   ],
   "recap": [

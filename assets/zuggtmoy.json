@@ -1,0 +1,265 @@
+{
+    "name": "Zuggtmoy",
+    "isNamedCreature": true,
+    "source": "zorq",
+    "page": 157,
+    "size": "L",
+    "type": {
+        "type": "fiend",
+        "tags": ["demon"]
+    },
+    "alignment": ["C", "E"],
+    "ac": [
+        {
+            "ac": 18,
+            "from": ["natural armor"]
+        }
+    ],
+    "hp": {
+        "average": 304,
+        "formula": "32d10 + 128"
+    },
+    "speed": {
+        "walk": 30
+    },
+    "str": 22,
+    "dex": 15,
+    "con": 18,
+    "int": 20,
+    "wis": 19,
+    "cha": 24,
+    "save": {
+        "dex": "+9",
+        "con": "+11",
+        "wis": "+11"
+    },
+    "skill": {
+        "perception": "+11"
+    },
+    "senses": ["truesight 120 ft."],
+    "passive": 21,
+    "resist": ["cold", "fire", "lightning"],
+    "immune": [
+        "poison",
+        {
+            "immune": ["bludgeoning", "piercing", "slashing"],
+            "note": "from nonmagical attacks"
+        }
+    ],
+    "conditionImmune": ["charmed", "exhaustion", "frightened", "poisoned"],
+    "languages": ["all", "telepathy 120 ft."],
+    "cr": "23",
+    "spellcasting": [
+        {
+            "name": "Innate Spellcasting",
+            "headerEntries": [
+                "Zuggtmoy's spellcasting ability is Charisma (spell save {@dc 22}). She can innately cast the following spells, requiring no material components:"
+            ],
+            "will": [
+                "{@spell detect magic}",
+                "{@spell locate animals or plants}",
+                "{@spell ray of sickness}"
+            ],
+            "daily": {
+                "3e": [
+                    "{@spell dispel magic}",
+                    "{@spell ensnaring strike}",
+                    "{@spell entangle}",
+                    "{@spell plant growth}"
+                ],
+                "1e": ["{@spell etherealness}", "{@spell teleport}"]
+            },
+            "ability": "cha",
+            "type": "spellcasting"
+        }
+    ],
+    "trait": [
+        {
+            "name": "Legendary Resistance (3/Day)",
+            "entries": [
+                "If Zuggtmoy fails a saving throw, she can choose to succeed instead."
+            ]
+        },
+        {
+            "name": "Magic Resistance",
+            "entries": [
+                "Zuggtmoy has advantage on saving throws against spells and other magical effects."
+            ]
+        },
+        {
+            "name": "Magic Weapons",
+            "entries": ["Zuggtmoy's weapon attacks are magical."]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack",
+            "entries": ["Zuggtmoy makes three pseudopod attacks."]
+        },
+        {
+            "name": "Pseudopod",
+            "entries": [
+                "{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage plus 9 ({@damage 2d8}) poison damage."
+            ]
+        },
+        {
+            "name": "Infestation Spores (3/Day)",
+            "entries": [
+                "Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a {@dc 19} Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual)."
+            ]
+        },
+        {
+            "name": "Mind Control Spores {@recharge 5}",
+            "entries": [
+                "Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Humanoids and beasts in the cloud when it appears, or that enter it later, must make a {@dc 19} Wisdom saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the influence of Zuggtmoy for 24 hours. While infected in this way, the creature is {@condition charmed} by her and can't be reinfected by these spores."
+            ]
+        }
+    ],
+    "reaction": [
+        {
+            "name": "Protective Thrall",
+            "entries": [
+                "When Zuggtmoy is hit by an attack, one creature within 5 feet of Zuggtmoy that is {@condition charmed} by her must use its reaction to be hit by the attack instead."
+            ]
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Attack",
+            "entries": ["Zuggtmoy makes one pseudopod attack."]
+        },
+        {
+            "name": "Exert Will",
+            "entries": [
+                "One creature {@condition charmed} by Zuggtmoy that she can see must use its reaction to move up to its speed as she directs or to make a weapon attack against a target that she designates."
+            ]
+        }
+    ],
+    "legendaryGroup": {
+        "name": "Zuggtmoy",
+        "source": "MTF"
+    },
+    "traitTags": ["Legendary Resistances", "Magic Resistance", "Magic Weapons"],
+    "senseTags": ["U"],
+    "actionTags": ["Multiattack"],
+    "languageTags": ["XX", "TP"],
+    "damageTags": ["B", "I"],
+    "spellcastingTags": ["I"],
+    "miscTags": ["MW", "RCH", "AOE"],
+    "conditionInflicted": ["charmed"],
+    "fluff": {
+        "name": "Zuggtmoy",
+        "source": "MTF",
+        "entries": [
+            {
+                "type": "entries",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "entries": [
+                            {
+                                "type": "entries",
+                                "name": "Zuggtmoy",
+                                "entries": [
+                                    "The Demon Queen of Fungi, Lady of Rot and Decay, Zuggtmoy is an alien creature whose only desire is to infect the living with spores, transforming them into her mindless servants and, eventually, into decomposing hosts for the mushrooms, molds, and other fungi that she spawns.",
+                                    "Utterly inhuman, Zuggtmoy can mold her fungoid form into an approximation of a humanoid shape, including the skeletal-thin figure depicted in grimoires and ancient art, draped and veiled in mycelia and lichen. Indeed, much of her appearance and manner, and that of her servants, is a soulless mockery of mortal life and its many facets.",
+                                    "Zuggtmoy's cultists often follow her unwittingly. Most are fungi—infected to some degree, whether through inhaling her mind-controlling spores or being transformed to the point where flesh and fungus become one. Such cultists are fungal extensions of the Demon Queen's will.",
+                                    "Their devotion might begin with the seemingly harmless promises offered by exotic spores and mushrooms, but quickly consumes them, body and soul."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "entries",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Lair Actions",
+                        "entries": [
+                            "On Initiative count 20 (losing initiative ties), Zuggtmoy can take a lair action to cause one of the following effects: he can't use the same effect two rounds in a row:",
+                            {
+                                "type": "list",
+                                "items": [
+                                    "Zuggtmoy causes four {@creature gas spore||gas spores} or {@creature violet fungus||violet fungi} to appear in unoccupied spaces that she chooses within the lair. They vanish after 1 hour.",
+                                    "Up to four plant creatures that are friendly to Zuggtmoy and that Zuggtmoy can see can use their reactions to move up to their speed and make one weapon attack.",
+                                    "Zuggtmoy uses either her Infestation Spores or her Mind Control Spores, centered on a mushroom or other fungus within her lair, instead of on herself."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "entries",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Regional Effects",
+                        "entries": [
+                            "The region containing Zuggtmoy's lair is warped by his magic, creating one or more of the following effects:",
+                            {
+                                "type": "list",
+                                "items": [
+                                    "Molds and fungi grow on surfaces within 6 miles of the lair, even where they would normally find no purchase.",
+                                    "Plant life within 1 mile of the lair becomes infested with parasitic fungi, slowly mutating as it is overwhelmed.",
+                                    "If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a DC 17 Wisdom saving throw or descend into a madness determined by the Madness of Zuggtmoy table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
+                                ]
+                            },
+                            "If Zuggtmoy dies, these effects fade over the course of {@dice 1d10} days.",
+                            {
+                                "type": "entries",
+                                "name": "Madness of Zuggtmoy",
+                                "entries": [
+                                    "If a creature goes mad in Zuggtmoy's lair or within line of sight of the demon lord, roll on the Madness of Zuggtmoy table to determine the nature of the madness, which is a character flaw that lasts until cured. See the {@book Dungeon Master's Guide|dmg|8|madness} for more on madness.",
+                                    {
+                                        "type": "table",
+                                        "caption": "Madness of Zuggtmoy",
+                                        "colLabels": [
+                                            "d100",
+                                            "Flaw (lasts until cured)"
+                                        ],
+                                        "colStyles": ["col-1", "col-11"],
+                                        "rows": [
+                                            [
+                                                "01–20",
+                                                "\"I see visions in the world around me that others do not.\""
+                                            ],
+                                            [
+                                                "21–40",
+                                                "\"I periodically slip into a catatonic state, staring off into the distance for long stretches at a time.\""
+                                            ],
+                                            [
+                                                "41–60",
+                                                "\"I see an altered version of reality, with my mind convincing itself that things are true even in the face of overwhelming evidence to the contrary.\""
+                                            ],
+                                            [
+                                                "61–80",
+                                                "\"My mind is slipping away, and my intelligence seems to wax and wane.\""
+                                            ],
+                                            [
+                                                "81–00",
+                                                "\"I am constantly scratching at unseen fungal infections.\""
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "images": [
+            {
+                "type": "image",
+                "href": {
+                    "type": "internal",
+                    "path": "bestiary/MTF/Zuggtmoy.jpg"
+                }
+            }
+        ]
+    },
+    "tokenUrl": "https://5e.tools/img/MTF/Zuggtmoy.png?v=1.99.1"
+}
