@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Heroic Stand. You knew if you took one step back from the line, all would be lost. When relief arrived days later, you had not budged."
+    },
+    {
+        "id": 2,
+        "name": "Telling Blow. The enemy general never knew what hit them. You still carry [something of theirs] as a trophy."
+    },
+    {
+        "id": 3,
+        "name": "Dawn Raid. You traveled hundreds of miles around enemy lines to reach your target. In a single day, months of enemy preparation went up in flames."
+    },
+    {
+        "id": 4,
+        "name": "Break the Line. During a key battle, you were part of a heroic push to break the enemy line."
+    },
+    {
+        "id": 5,
+        "name": "Liberator. You were at the forefront of a daring assault to liberate a captured citadel or town."
+    },
+    {
+        "id": 6,
+        "name": "Sharp Eye. The enemy's secret attack would've been devastating. Luckily, you spotted it in time."
+    }
+]
