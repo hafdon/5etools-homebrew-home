@@ -1965,9 +1965,10 @@
       "npcs": "Clast the Destroyer / Leema: prison, transportation, partitioning, garrotting, mainspring, grosgrain, strongman, ransoming\ncavities, cigars, mascara, bark purgative, agar, racing, sargeant\n"
     },
     {
-      "name": "PETITIA'S PELTS",
-      "description": "woman : a furrior\nSHE'S selling them cheaply, there might be mischief going on; trying to offload a bunch of merchandise; or can cut costs in a weird way\n\na furrier\nselling furs very cheaply\nsecretly working with/against Shapa\nfunky, kinky, inky, fire, urine, infer, knife, rune\n",
-      "id": 30
+      "name": "Petitia's Pelts",
+      "description": "woman : a furrior\nSHE'S selling them cheaply, there might be mischief going on; trying to offload a bunch of merchandise; or can cut costs in a weird way\n- her plan is to steal ... land ?\nshe has a magical item sought by another\nit only works if she's alive, and it's part of her body\n\nGaduul (carries something as a trophy from a past fight) (wore a gourgerin and sallet [light globular headpiece], with a sword and dagger.) wants to Discover the nature and origin of a strange phenomenon that might be the villain's doing.\n\na furrier\nselling furs very cheaply\nsecretly working with/against Shapa\nfunky, kinky, inky, fire, urine, infer, knife, rune\n",
+      "id": 30,
+      "prep": true
     },
     {
       "name": "The black cackle",
@@ -2272,6 +2273,11 @@
     {
       "name": "The Godlimb of hooker's approval ratings",
       "id": 93
+    },
+    {
+      "description": "action: Blowfish Twohorns  \ndefining mission: Liberator. You were at the forefront of a daring assault to liberate a captured citadel or town.  \nhook: You're secretly in love with one of the other members of your adventuring group, and you can't bear the thought of any harm befalling that person.  \ntwist: The adventurers have received false or extraneous information.  ",
+      "name": "temp",
+      "id": 94
     }
   ],
   "npc": [
