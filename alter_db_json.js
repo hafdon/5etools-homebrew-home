@@ -1,48 +1,38 @@
-const addIndex = function(arr) {
-    // console.log(arr);
-    let highest_index = arr.reduce((prev, { id = 0 }) => {
-        return Math.max(prev, id);
-    }, 0);
-
-    arr = arr.map(el => {
-        // if (typeof el === 'string' || el instanceof String) {
-        //     el = { content: el };
-        // }
-        // if (el.name) {
-        //     el.content = el.name;
-        //     delete el.name;
-        // }
-        el.id = el.id ? el.id : ++highest_index;
-
-        return el;
-    });
-
-    return arr;
-};
-
 const fs = require('fs-extra');
+const db_filename = './db.json';
 
-let npcs = fs.readJSONSync('./db.json').npc;
+let db = fs.readJSONSync(db_filename);
+fs.writeJSONSync(`./db_${Date.now()}.bak`, db);
 
-let i = 0;
-npcs = npcs.map(({ claimed = false, ...rest }) => {
-    if (claimed !== false && claimed !== true) {
-        if (claimed === null) {
-            // eslint-disable-next-line no-console
-            console.log({ claimed, ...rest });
-            // eslint-disable-next-line no-console
+let lexeme = db.lexeme;
 
-            console.log('claimed is null');
-            claimed = false;
-        }
-        // eslint-disable-next-line no-console
-        console.log({ claimed, ...rest });
-        i++;
-    }
+const highestId = n => n.reduce((prev, { id = 0 }) => Math.max(prev, id), 0);
 
-    return { claimed, ...rest };
-});
+// let { array } = fs.readJSONSync('./ankidb.json');
+// let startId = highestId(lexeme) + 1;
+// console.log(startId);
+// console.log(lexeme);
 
-fs.writeJSONSync('output.json', npcs);
+// console.log(Object.getOwnPropertyNames(array));
 
-module.exports = addIndex;
+// so have done 0-9 from ankidb
+
+// array = array.slice(0, 10);
+// array = array.map(({ id = 0, word, inner }) => ({
+//     id: startId++,
+//     headword: word,
+//     definitions: inner,
+// }));
+
+console.log(lexeme);
+
+lexeme = lexeme.map(({ definitions, ...rest }) => ({
+    definitions: definitions.replace('DEFINITIONS', '\n## DEFINITIONS\n'),
+    ...rest,
+}));
+
+// db.lexeme = [...array, ...lexeme];
+// db.lexeme = lexeme;
+// console.log(lexeme);
+
+// fs.writeJSONSync(db_filename, db);

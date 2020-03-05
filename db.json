@@ -987,6 +987,56 @@
   },
   "lexeme": [
     {
+      "id": 15,
+      "headword": "parloir",
+      "definitions": " (noun) ' ' zzzzparloir (noun) DEFINITIONS: |1| - A room in a monastery or convent set aside for conversation with visitors or between the residents- Also: a visiting room in a French prison. SYNONYMS : Tags: 1D ' ' "
+    },
+    {
+      "id": 16,
+      "headword": "strig",
+      "definitions": " (noun) ' ' zzzzstrig (noun) strigge DEFINITIONS: |1| -The stalk of a leaf, fruit, or flower; a petiole, peduncle, or pedicel. |2| A long thin appendage in various tools; the tang of a sword-blade ( Cent. Dict.); the stem of a marking-gauge; or the like. Also, the projection under the bowl of a tobacco-pipe. SYNONYMS : Tags: 1D 2MakeSynonymList previousmark ' ' "
+    },
+    {
+      "id": 17,
+      "headword": "stig",
+      "definitions": " (verb) ' ' zzzzstig (verb) DEFINITIONS: |1| - intr. To start in alarm. SYNONYMS : abraid Tags: 1D 2MakeSynonymList ' ' "
+    },
+    {
+      "id": 18,
+      "headword": "parlous",
+      "definitions": " (adj) an 'only recognition' card ! ' ' zzzzparlous (adj) an 'only recognition' card ! DEFINITIONS: |1| <i>Of a person or his or her attributes, behaviour, etc.:</i>- keen, shrewd, esp. dangerously cunning or clever;- mischievous;- capable of harming;- malicious.<br /><i>Also (in positive sense):</i><i>-</i>extraordinary, excessive, wonderful. |2| -Perilous, dangerous, precarious;- desperate, hazardous, dire. |3| - Risky to deal with;- awkward, difficult, tricky. Obs. rare. This London Wine is a parlous Liquour.1868 R. Browning Ring &amp; Bk. I. i. 15 Mother Church: to her we make appeal By the Pope, the Church's head! A parlous plea, Put in with noticeable effect, it seems.1882 H. C. Merivale Faucit of Balliol II. 106 Snipe—a parlous bird to hit, at the best of times. DERIVATIVES : has its own card parlous (adv) As an intensifier: extremely, very; terribly. SYNONYMS : Tags: fullerKnowledge ' ' "
+    },
+    {
+      "id": 19,
+      "headword": "par ma fay",
+      "definitions": " (int) ' ' zzzzpar ma fay (int) DEFINITIONS: |1| ‘By my faith!’ (as an asseveration); SYNONYMS : Tags: 1D ' ' "
+    },
+    {
+      "id": 20,
+      "headword": "crapula",
+      "definitions": " (noun) ' ' zzzzcrapula (noun) DEFINITIONS: |1| -The sickness or indisposition following upon a drunken or gluttonous debauch. a1687 C. Cotton Poems (1689) 248 The drunkard..when he wakes..shall find A Cropala remains behind.1721 N. Bailey Universal Etymol. Eng. Dict., Crapula, a Surfeit by over-eating and drinking: Crop-sickness, Drunkenness. |2| -A resin or drug productive of intoxication: a Latin use. ETYMOLOGY: Latin crāpula excessive drinking, inebriation, intoxication, &lt; Greek κραιπάλη drunken headache or nausea, the result of a drunken debauch. In adopting the Greek word, the Romans seem to have put the cause for the result; both senses are found in the English derivatives. SYNONYMS : ~ence Tags: 1D ' ' "
+    },
+    {
+      "id": 21,
+      "headword": "operculum",
+      "definitions": " (noun) ' ' zzzzoperculum (noun) DEFINITIONS: |1| <i>In general use</i>- a cover. Also fig. The Head of Isis..for the Operculum.1837 Civil Engineer &amp; Architect's Jrnl. 1 58/1 They carry small square bits of black paper, which project in front of the screen, and serve as opercula or covers to conceal the letters.1866 R. D. Blackmore Cradock Nowell (1883) xxiv. 116 Noble wine deserves not to be the mere operculum to a stupidly-mixed hot meal.1958 H. Nemerov Mirrors &amp; Windows 75 Horny, let thy drawn Operculum defend thee now.1979 Time 8 Jan. 59/3 The fact is emphasized by the tip of the building—the now famous ‘grandfather clock’ pediment with its round operculum, through which the heating system will issue clouds of steam on cold days. DERIVATIVES : has its own card opercle (n)- a cover, a covering.- a lid SYNONYMS : Tags: 1D ' ' "
+    },
+    {
+      "id": 22,
+      "headword": "querulous",
+      "definitions": " (adj) ' ' zzzzquerulous (adj) DEFINITIONS: |1| Of a person: complaining, given to complaining, full of complaints; fault-finding; peevish. |2| Of an animal or thing: uttering or producing sounds suggestive of complaint; plaintive. |3| Of the nature of or characterized by complaining; expressing complaint. SYNONYMS : Tags: 1D ' ' "
+    },
+    {
+      "id": 23,
+      "headword": "gadfly",
+      "definitions": " (noun) ' ' zzzzgadfly (noun) DEFINITIONS: |1| -fig. One who irritates, torments, or worries another. |2| Also : an irresistible impulse to some course of action. Bitten with the Anglo-Saxon gadfly that drives us all to disenchant artifice. |3| -A person who is constantly wandering with no serious object and roving idly SYNONYMS : Tags: 1D ' ' "
+    },
+    {
+      "id": 24,
+      "headword": "heresiarch",
+      "definitions": " (noun) ' ' zzzzheresiarch (noun) \n\n### PRONOUNCED\n|həˈriziɑrk| \n\n### DEFINITIONS\n: |1| A leader or founder of a heresy. Also transf. Bloom, trained as a literary scholar and passionately engaged in a certain line of post-Enlightenment literary texts, is less and less a critic or even a literary theorist, more and more a kind of aspiring heresiarch. (He is, however, less grim than this makes him sound; despite his sense of spiritual crisis, he has a good deal of wry self-irony.) |https://www.nytimes.com/books/98/11/01/specials/bloom-agon.html| SYNONYMS : Tags: 1D ' ' "
+    },
+    {
       "headword": "disquisition",
       "etymology": "",
       "pronunciation": "",
@@ -1965,9 +2015,10 @@
       "npcs": "Clast the Destroyer / Leema: prison, transportation, partitioning, garrotting, mainspring, grosgrain, strongman, ransoming\ncavities, cigars, mascara, bark purgative, agar, racing, sargeant\n"
     },
     {
-      "name": "PETITIA'S PELTS",
-      "description": "woman : a furrior\nSHE'S selling them cheaply, there might be mischief going on; trying to offload a bunch of merchandise; or can cut costs in a weird way\n\na furrier\nselling furs very cheaply\nsecretly working with/against Shapa\nfunky, kinky, inky, fire, urine, infer, knife, rune\n",
-      "id": 30
+      "name": "Petitia's Pelts",
+      "description": "woman : a furrior\nSHE'S selling them cheaply, there might be mischief going on; trying to offload a bunch of merchandise; or can cut costs in a weird way\n- her plan is to steal ... land ?\nshe has a magical item sought by another\nit only works if she's alive, and it's part of her body\n\nGaduul (carries something as a trophy from a past fight) (wore a gourgerin and sallet [light globular headpiece], with a sword and dagger.) wants to Discover the nature and origin of a strange phenomenon that might be the villain's doing.\n\na furrier\nselling furs very cheaply\nsecretly working with/against Shapa\nfunky, kinky, inky, fire, urine, infer, knife, rune\n",
+      "id": 30,
+      "prep": true
     },
     {
       "name": "The black cackle",
@@ -2272,6 +2323,17 @@
     {
       "name": "The Godlimb of hooker's approval ratings",
       "id": 93
+    },
+    {
+      "description": "action: Blowfish Twohorns  \ndefining mission: Liberator. You were at the forefront of a daring assault to liberate a captured citadel or town.  \nhook: You're secretly in love with one of the other members of your adventuring group, and you can't bear the thought of any harm befalling that person.  \ntwist: The adventurers have received false or extraneous information.  ",
+      "name": "temp",
+      "id": 94
+    },
+    {
+      "description": "factions: A Consulate \nclient: Merchant\ntarget: Scholar\njobs: Hollow or Revivify\nconnections: PC: Friend\n\ntwists: Rogue spirits haunt the location\nfaction: Stone of Cthulhu / homunculi?\nfaction scheme: Trigger a natural disaster\ngoal: Find a place to establish a colony.\nclient: Captain Rowan Piper\ndesc: qiviut: Inuktitut word for muskox wool; said to be eight times warmer than sheep’s wool.\ntarget: Fengari\ndesc: Tricorn Hat\nword: lex talionis\nhook: A character is carrying (a magical item) sought by another.\ntwist: Completing the goal secretly helps the villain. \n\nSentarra how she was once known as the Fengari, the Goddess of the Undersea Moon\n",
+      "name": "Sentarra / Fengari",
+      "prep": true,
+      "id": 95
     }
   ],
   "npc": [
