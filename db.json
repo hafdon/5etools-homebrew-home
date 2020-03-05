@@ -1014,12 +1014,12 @@
     {
       "id": 20,
       "headword": "crapula",
-      "definitions": " (noun) ' ' zzzzcrapula (noun) DEFINITIONS: |1| -The sickness or indisposition following upon a drunken or gluttonous debauch. a1687 C. Cotton Poems (1689) 248 The drunkard..when he wakes..shall find A Cropala remains behind.1721 N. Bailey Universal Etymol. Eng. Dict., Crapula, a Surfeit by over-eating and drinking: Crop-sickness, Drunkenness. |2| -A resin or drug productive of intoxication: a Latin use. ETYMOLOGY: Latin crāpula excessive drinking, inebriation, intoxication, &lt; Greek κραιπάλη drunken headache or nausea, the result of a drunken debauch. In adopting the Greek word, the Romans seem to have put the cause for the result; both senses are found in the English derivatives. SYNONYMS : ~ence Tags: 1D ' ' "
+      "definitions": "1. The sickness or indisposition following upon a drunken or gluttonous debauch. a1687 C. Cotton Poems (1689) 248 The drunkard..when he wakes..shall find A Cropala remains behind.1721 N. Bailey Universal Etymol. Eng. Dict., Crapula, a Surfeit by over-eating and drinking: Crop-sickness, Drunkenness.\n\n1. A resin or drug productive of intoxication: a Latin use. ETYMOLOGY: Latin crāpula excessive drinking, inebriation, intoxication, &lt; Greek κραιπάλη drunken headache or nausea, the result of a drunken debauch. In adopting the Greek word, the Romans seem to have put the cause for the result; both senses are found in the English derivatives. SYNONYMS : ~ence Tags: 1D ' ' "
     },
     {
       "id": 21,
       "headword": "operculum",
-      "definitions": " (noun) ' ' zzzzoperculum (noun) DEFINITIONS: |1| <i>In general use</i>- a cover. Also fig. The Head of Isis..for the Operculum.1837 Civil Engineer &amp; Architect's Jrnl. 1 58/1 They carry small square bits of black paper, which project in front of the screen, and serve as opercula or covers to conceal the letters.1866 R. D. Blackmore Cradock Nowell (1883) xxiv. 116 Noble wine deserves not to be the mere operculum to a stupidly-mixed hot meal.1958 H. Nemerov Mirrors &amp; Windows 75 Horny, let thy drawn Operculum defend thee now.1979 Time 8 Jan. 59/3 The fact is emphasized by the tip of the building—the now famous ‘grandfather clock’ pediment with its round operculum, through which the heating system will issue clouds of steam on cold days. DERIVATIVES : has its own card opercle (n)- a cover, a covering.- a lid SYNONYMS : Tags: 1D ' ' "
+      "definitions": "1.a cover. Also fig. \n  - The Head of Isis..for the Operculum.1837 Civil Engineer &amp; Architect's Jrnl. 1 58/1 They carry small square bits of black paper, which project in front of the screen, and serve as opercula or covers to conceal the letters.1866 R. D. Blackmore Cradock Nowell (1883) xxiv. 116 Noble wine deserves not to be the mere operculum to a stupidly-mixed hot meal.1958 H. Nemerov Mirrors &amp; Windows 75 Horny, let thy drawn Operculum defend thee now.1979 Time 8 Jan. 59/3 The fact is emphasized by the tip of the building—the now famous ‘grandfather clock’ pediment with its round operculum, through which the heating system will issue clouds of steam on cold days. \n\nDERIVATIVES : has its own card opercle (n)- a cover, a covering.- a lid  \n"
     },
     {
       "id": 22,
@@ -1152,6 +1152,15 @@
       "definitions": "unaffected, plain, natural, unrefined, simple, ",
       "tags": [],
       "id": 14
+    },
+    {
+      "headword": "nil admirari",
+      "etymology": "",
+      "pronunciation": "",
+      "language": "",
+      "definitions": "1.   The attitude of indifference to the distractions of the outside world advocated by the Roman poet Horace. Also: a person adopting this attitude.\n  - _Why was I always preaching nil admirari?_\n1.  Expressing or adopting an attitude or philosophy of indifference to the outside world.\n  -  _Very many men now-a-days..adopt or affect to adopt the nil admirari doctrine._",
+      "tags": [],
+      "id": 25
     }
   ],
   "prep": [
@@ -1976,7 +1985,7 @@
       "npcs": "\"acolytes called HOGSHEAD\n'priests' called PREHENDS\""
     },
     {
-      "name": "zoloto / zolott (redgold metal) / zlot",
+      "name": "zoloto / zolott (redgold metal) / zlot; aka mizzium (muz dumur by the dwarves)",
       "description": "Arlan said that the deposit might have formed 25 years ago during the banishment intersecting with the NSEW ley lines (teg 006)\nSomeone told them that Bathybius and the peat… \nbog iron from the peat\nbut the metal \n\ninstances of the raw ‘unique’ alloy\nLooking towards the Smoke Compass direction to a slag of metal, line of sight through Gorym\nThat Gorym was ... a tentacle creature?\nMetal(not yet corrupted alloy)'s channeling/catalyst properties; Boggsush.\n\nswords with the alloy\ntrainees at DMA\nZedaar -- Touching the sword at first to get it from the disciples at DMA.\n\npure ingot extracted from alloy-in-sword\nMiriabelle (\"miri\")\t-- Willing subject for ELLA LOOP to test the possession qualities of the metal in the sword.\n(definite possession possibilities)\n\nkobold circlets in two-horn band\n",
       "id": 23,
       "npcs": "dead / possessed ghoul bodies of gormflaith\nGnomes (and Sik in particular) have seen the metal -- and from the GORMFLAITH hooks",
@@ -6176,6 +6185,48 @@
       "etools": false,
       "etools_url": "",
       "id": 513
+    },
+    {
+      "name": "Zi",
+      "claimed": false,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "zee ?",
+      "prep": false,
+      "tags": [],
+      "etools": false,
+      "etools_url": "",
+      "id": 514
+    },
+    {
+      "name": "Snavidan ('Snav')",
+      "claimed": true,
+      "fluff": "",
+      "description": "(related to Thirudan)\nticks with hands are from as a child, being forced to ingest poisonous resins that he should have been able to sustain (hazing)\nFirbolg wizard - school of lore. very short and fat for a Firbolg.\nworks with Remy Fitch.\n\nSnav: sniffle; steal; run races\nThey're booming the notion o' a new township and snavelling all the land within a mile o' it.",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": false,
+      "tags": [],
+      "etools": false,
+      "etools_url": "",
+      "id": 515
+    },
+    {
+      "name": "Nordeuronimbuspallium \"Skyformer\"",
+      "claimed": false,
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "quotes": "",
+      "pronunciation": "",
+      "prep": true,
+      "tags": [],
+      "etools": false,
+      "etools_url": "",
+      "id": 516
     }
   ],
   "description": [
@@ -10667,19 +10718,6 @@
       "short description": "SNAV knows some shit on THURIDAN.",
       "found @": "",
       "id": 186
-    },
-    {
-      "tags": [
-        "npc"
-      ],
-      "home": "11/17/2019",
-      "teg": "",
-      "alpha": "Snavidan ('Snav')",
-      "name": "Snavidan ('Snav')",
-      "3x5": "",
-      "short description": "(related to Thirudan)\nticks with hands are from as a child, being forced to ingest poisonous resins that he should have been able to sustain (hazing)\nFirbolg wizard - school of lore. very short and fat for a Firbolg.\nworks with Remy Fitch.",
-      "found @": "",
-      "id": 187
     },
     {
       "tags": [
