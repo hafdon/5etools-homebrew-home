@@ -3,42 +3,18 @@
         {
             "timestamp": 1583210112778,
             "data": [
-                {
-                    "head": "factions",
-                    "body": "Deathlands Scavengers"
-                },
-                {
-                    "head": "client",
-                    "body": "Doctor"
-                },
-                {
-                    "head": "target",
-                    "body": "Revolutionary"
-                },
-                {
-                    "head": "jobs",
-                    "body": "Disappear or Ransom"
-                },
-                {
-                    "head": "connections",
-                    "body": "PC: Vice purveyor"
-                },
+                { "head": "factions", "body": "Deathlands Scavengers" },
+                { "head": "client", "body": "Doctor" },
+                { "head": "target", "body": "Revolutionary" },
+                { "head": "jobs", "body": "Disappear or Ransom" },
+                { "head": "connections", "body": "PC: Vice purveyor" },
                 {
                     "head": "twists",
                     "body": "A dangerous gang uses the location"
                 },
-                {
-                    "head": "faction",
-                    "body": "Ulthark ?"
-                },
-                {
-                    "head": "client",
-                    "body": "Tove"
-                },
-                {
-                    "head": "target",
-                    "body": "SAXET"
-                },
+                { "head": "faction", "body": "Ulthark ?" },
+                { "head": "client", "body": "Tove" },
+                { "head": "target", "body": "SAXET" },
                 {
                     "head": "desc",
                     "body": "All publick criminals were tied to a publick Exomologesis or Repentance in the Church."
@@ -61,46 +37,19 @@
         {
             "timestamp": 1583211264596,
             "data": [
-                {
-                    "head": "factions",
-                    "body": "Sailors or Dockers"
-                },
-                {
-                    "head": "client",
-                    "body": "Spy"
-                },
-                {
-                    "head": "target",
-                    "body": "Revolutionary"
-                },
-                {
-                    "head": "jobs",
-                    "body": "Destroy or Deface"
-                },
-                {
-                    "head": "connections",
-                    "body": "City: notable"
-                },
-                {
-                    "head": "twists",
-                    "body": "The job requires sea travel"
-                },
-                {
-                    "head": "faction",
-                    "body": "FBI X-files"
-                },
+                { "head": "factions", "body": "Sailors or Dockers" },
+                { "head": "client", "body": "Spy" },
+                { "head": "target", "body": "Revolutionary" },
+                { "head": "jobs", "body": "Destroy or Deface" },
+                { "head": "connections", "body": "City: notable" },
+                { "head": "twists", "body": "The job requires sea travel" },
+                { "head": "faction", "body": "FBI X-files" },
                 {
                     "head": "faction scheme",
                     "body": "(since FBI, probably trying to prevent) Enact the vengeful will of a god or patron"
                 },
-                {
-                    "head": "client",
-                    "body": "Varn"
-                },
-                {
-                    "head": "target",
-                    "body": "Tana"
-                },
+                { "head": "client", "body": "Varn" },
+                { "head": "target", "body": "Tana" },
                 {
                     "head": "desc",
                     "body": "looks like they are dancing in snow"
@@ -123,46 +72,22 @@
         {
             "timestamp": 1583211331428,
             "data": [
-                {
-                    "head": "factions",
-                    "body": "The Lost"
-                },
-                {
-                    "head": "client",
-                    "body": "Possessed"
-                },
-                {
-                    "head": "target",
-                    "body": "Possessed"
-                },
-                {
-                    "head": "jobs",
-                    "body": "Blackmail or Discredit"
-                },
-                {
-                    "head": "connections",
-                    "body": "Weird: Ghost, Demon, God"
-                },
+                { "head": "factions", "body": "The Lost" },
+                { "head": "client", "body": "Possessed" },
+                { "head": "target", "body": "Possessed" },
+                { "head": "jobs", "body": "Blackmail or Discredit" },
+                { "head": "connections", "body": "Weird: Ghost, Demon, God" },
                 {
                     "head": "twists",
                     "body": "The job furthers a crime boss’s secret agenda"
                 },
-                {
-                    "head": "faction",
-                    "body": "Eth ĕlōhāi"
-                },
+                { "head": "faction", "body": "Eth ĕlōhāi" },
                 {
                     "head": "faction scheme",
                     "body": "Become undead or obtain a younger body"
                 },
-                {
-                    "head": "client",
-                    "body": "Estafar: (Sp. to swindle)"
-                },
-                {
-                    "head": "target",
-                    "body": "Draraar"
-                },
+                { "head": "client", "body": "Estafar: (Sp. to swindle)" },
+                { "head": "target", "body": "Draraar" },
                 {
                     "head": "desc",
                     "body": "a  sparrowhawk completely unbothered by your presence."
@@ -175,56 +100,29 @@
                     "head": "twist",
                     "body": "Person returns to find there is a double / host (& legend) having been acting as them in their absence."
                 },
-                {
-                    "head": "notes",
-                    "body": ""
-                }
+                { "head": "notes", "body": "" }
             ],
             "id": 3
         },
         {
             "timestamp": 1583211733252,
             "data": [
-                {
-                    "head": "factions",
-                    "body": "The Lampblacks "
-                },
-                {
-                    "head": "client",
-                    "body": "Thug"
-                },
-                {
-                    "head": "target",
-                    "body": "Demon (disguised)"
-                },
-                {
-                    "head": "jobs",
-                    "body": "Sabotage or Arson"
-                },
-                {
-                    "head": "connections",
-                    "body": "PC: Rival"
-                },
+                { "head": "factions", "body": "The Lampblacks " },
+                { "head": "client", "body": "Thug" },
+                { "head": "target", "body": "Demon (disguised)" },
+                { "head": "jobs", "body": "Sabotage or Arson" },
+                { "head": "connections", "body": "PC: Rival" },
                 {
                     "head": "twists",
                     "body": "The job furthers a city official’s secret agenda"
                 },
-                {
-                    "head": "faction",
-                    "body": "Tyranny of the Quantifiable"
-                },
+                { "head": "faction", "body": "Tyranny of the Quantifiable" },
                 {
                     "head": "faction scheme",
                     "body": "Offer sacrifices to a deity"
                 },
-                {
-                    "head": "client",
-                    "body": "Spiner"
-                },
-                {
-                    "head": "target",
-                    "body": "Torashtai"
-                },
+                { "head": "client", "body": "Spiner" },
+                { "head": "target", "body": "Torashtai" },
                 {
                     "head": "desc",
                     "body": "pretends their sense of smell is offended"
@@ -233,10 +131,7 @@
                     "head": "hook",
                     "body": "The best way to defeat the folk of the surface is to study them firsthand."
                 },
-                {
-                    "head": "twist",
-                    "body": ""
-                },
+                { "head": "twist", "body": "" },
                 {
                     "head": "notes",
                     "body": "Spiner works for AC Tockletone. dirty jobs. Tockletone is kind of the official. he is telling, through Spiner, a bunch of people to lay off a smelly sacrifice, but secretly he puts his own stuff in there to get the results he wants. "
@@ -247,34 +142,16 @@
         {
             "timestamp": 1583289569872,
             "data": [
-                {
-                    "head": "factions",
-                    "body": "The Silver Nails"
-                },
-                {
-                    "head": "client",
-                    "body": "Ward Boss"
-                },
-                {
-                    "head": "target",
-                    "body": "Captain"
-                },
-                {
-                    "head": "jobs",
-                    "body": "Disappear or Ransom"
-                },
-                {
-                    "head": "connections",
-                    "body": "Weird: Ghost, Demon, God"
-                },
+                { "head": "factions", "body": "The Silver Nails" },
+                { "head": "client", "body": "Ward Boss" },
+                { "head": "target", "body": "Captain" },
+                { "head": "jobs", "body": "Disappear or Ransom" },
+                { "head": "connections", "body": "Weird: Ghost, Demon, God" },
                 {
                     "head": "twists",
                     "body": "The job requires travel by electrorail"
                 },
-                {
-                    "head": "faction",
-                    "body": "Bloodforge Clan"
-                },
+                { "head": "faction", "body": "Bloodforge Clan" },
                 {
                     "head": "faction scheme",
                     "body": "Win favor with a powerful individual"
@@ -287,30 +164,18 @@
                     "head": "goal",
                     "body": "Stop monsters from raiding caravans and farms."
                 },
-                {
-                    "head": "client",
-                    "body": "Mensil(r/n)oy"
-                },
+                { "head": "client", "body": "Mensil(r/n)oy" },
                 {
                     "head": "desc",
                     "body": "under the influence of the muriatic [salty / briny] Bath."
                 },
-                {
-                    "head": "target",
-                    "body": "Getathon"
-                },
-                {
-                    "head": "desc",
-                    "body": "Collared Shirt"
-                },
+                { "head": "target", "body": "Getathon" },
+                { "head": "desc", "body": "Collared Shirt" },
                 {
                     "head": "hook",
                     "body": "to get back, or upgrade, a body part: "
                 },
-                {
-                    "head": "twist",
-                    "body": "they aren't actually blind"
-                },
+                { "head": "twist", "body": "they aren't actually blind" },
                 {
                     "head": "notes",
                     "body": "someone wants to get back an eye, even tho they can see? sea makes me think Fez. Mensilroy, some annoying prep in a collared shirt. thinks he liberated a town but really . "
@@ -321,78 +186,24 @@
     ],
     "tables": {
         "desires": [
-            {
-                "id": 1,
-                "name": "Mayhem"
-            },
-            {
-                "id": 2,
-                "name": "Murder"
-            },
-            {
-                "id": 3,
-                "name": "Justice"
-            },
-            {
-                "id": 4,
-                "name": "Corruption"
-            },
-            {
-                "id": 5,
-                "name": "Power"
-            },
-            {
-                "id": 6,
-                "name": "Control"
-            },
-            {
-                "id": 8,
-                "name": "Knowledge"
-            },
-            {
-                "id": 9,
-                "name": "Pleasure"
-            },
-            {
-                "id": 10,
-                "name": "Suffering"
-            },
-            {
-                "id": 11,
-                "name": "War"
-            },
-            {
-                "id": 12,
-                "name": "Revenge"
-            },
-            {
-                "id": 13,
-                "name": "Chaos"
-            },
-            {
-                "id": 15,
-                "name": "Freedom"
-            },
-            {
-                "id": 16,
-                "name": "Savagery"
-            },
-            {
-                "id": 17,
-                "name": "Manipulation"
-            },
-            {
-                "id": 18,
-                "name": "Deception"
-            },
-            {
-                "id": 19,
-                "name": "Fear"
-            },
-            {
-                "id": 20,
-                "name": "Achievement"
-            }
+            { "id": 1, "name": "Mayhem" },
+            { "id": 2, "name": "Murder" },
+            { "id": 3, "name": "Justice" },
+            { "id": 4, "name": "Corruption" },
+            { "id": 5, "name": "Power" },
+            { "id": 6, "name": "Control" },
+            { "id": 8, "name": "Knowledge" },
+            { "id": 9, "name": "Pleasure" },
+            { "id": 10, "name": "Suffering" },
+            { "id": 11, "name": "War" },
+            { "id": 12, "name": "Revenge" },
+            { "id": 13, "name": "Chaos" },
+            { "id": 15, "name": "Freedom" },
+            { "id": 16, "name": "Savagery" },
+            { "id": 17, "name": "Manipulation" },
+            { "id": 18, "name": "Deception" },
+            { "id": 19, "name": "Fear" },
+            { "id": 20, "name": "Achievement" }
         ],
         "goals": [
             {
@@ -550,78 +361,30 @@
                 "tags": ["party", "other"],
                 "name": "Rescue a character, monster, or object from a natural or unnatural disaster."
             },
-            {
-                "id": 1,
-                "name": "Bring the villain to justice."
-            },
-            {
-                "id": 2,
-                "name": "Clear the name of an innocent NPC."
-            },
-            {
-                "id": 3,
-                "name": "Protect or hide an NPC."
-            },
-            {
-                "id": 4,
-                "name": "Protect an object."
-            },
+            { "id": 1, "name": "Bring the villain to justice." },
+            { "id": 2, "name": "Clear the name of an innocent NPC." },
+            { "id": 3, "name": "Protect or hide an NPC." },
+            { "id": 4, "name": "Protect an object." },
             {
                 "id": 5,
                 "name": "Discover the nature and origin of a strange phenomenon that might be the villain's doing."
             },
-            {
-                "id": 6,
-                "name": "Find a wanted fugitive."
-            },
-            {
-                "id": 7,
-                "name": "Overthrow a tyrant."
-            },
-            {
-                "id": 8,
-                "name": "Uncover a conspiracy to overthrow a ruler."
-            },
+            { "id": 6, "name": "Find a wanted fugitive." },
+            { "id": 7, "name": "Overthrow a tyrant." },
+            { "id": 8, "name": "Uncover a conspiracy to overthrow a ruler." },
             {
                 "id": 9,
                 "name": "Negotiate peace between enemy nations or feuding families."
             },
-            {
-                "id": 10,
-                "name": "Secure aid from a ruler or council."
-            },
-            {
-                "id": 11,
-                "name": "Help a villain find redemption."
-            },
-            {
-                "id": 12,
-                "name": "Parley with a villain."
-            },
-            {
-                "id": 13,
-                "name": "Smuggle weapons to rebel forces."
-            },
-            {
-                "id": 14,
-                "name": "Stop a band of smugglers."
-            },
-            {
-                "id": 15,
-                "name": "Gather intelligence on an enemy force."
-            },
-            {
-                "id": 16,
-                "name": "Win a tournament."
-            },
-            {
-                "id": 17,
-                "name": "Determine the villain's identity."
-            },
-            {
-                "id": 18,
-                "name": "Locate a stolen item."
-            },
+            { "id": 10, "name": "Secure aid from a ruler or council." },
+            { "id": 11, "name": "Help a villain find redemption." },
+            { "id": 12, "name": "Parley with a villain." },
+            { "id": 13, "name": "Smuggle weapons to rebel forces." },
+            { "id": 14, "name": "Stop a band of smugglers." },
+            { "id": 15, "name": "Gather intelligence on an enemy force." },
+            { "id": 16, "name": "Win a tournament." },
+            { "id": 17, "name": "Determine the villain's identity." },
+            { "id": 18, "name": "Locate a stolen item." },
             {
                 "id": 19,
                 "name": "Make sure a wedding goes off without a hitch."
@@ -641,11 +404,7 @@
                 "tags": ["dungeon"],
                 "name": "Destroy a magical threat inside the dungeon."
             },
-            {
-                "id": 24,
-                "tags": ["dungeon"],
-                "name": "Acquire treasure."
-            },
+            { "id": 24, "tags": ["dungeon"], "name": "Acquire treasure." },
             {
                 "id": 25,
                 "tags": ["dungeon"],
@@ -661,11 +420,7 @@
                 "tags": ["dungeon"],
                 "name": "Find information needed for a special purpose."
             },
-            {
-                "id": 28,
-                "tags": ["dungeon"],
-                "name": "Rescue a captive."
-            },
+            { "id": 28, "tags": ["dungeon"], "name": "Rescue a captive." },
             {
                 "id": 29,
                 "tags": ["dungeon"],
@@ -1519,186 +1274,42 @@
             }
         ],
         "traits": [
-            {
-                "name": "Calm",
-                "id": 1,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Melancholy",
-                "id": 2,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Candid",
-                "id": 3,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Daring",
-                "id": 4,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Confident",
-                "id": 5,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Charming ",
-                "id": 6,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Cavalier",
-                "id": 7,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Suspicious ",
-                "id": 8,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Shrewd",
-                "id": 9,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Moody",
-                "id": 10,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Careless",
-                "id": 11,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Ruthless",
-                "id": 12,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Defiant",
-                "id": 13,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Insightful ",
-                "id": 14,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Patient",
-                "id": 15,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Sophisticated ",
-                "id": 16,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Enthusiastic ",
-                "id": 17,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Savage",
-                "id": 18,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Arrogant ",
-                "id": 19,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Vain",
-                "id": 20,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Volatile ",
-                "id": 21,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Subtle",
-                "id": 22,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Enigmatic",
-                "id": 23,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Cold",
-                "id": 24,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Brash",
-                "id": 25,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Obsessive",
-                "id": 26,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Quiet",
-                "id": 27,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Fierce",
-                "id": 28,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Secretive",
-                "id": 29,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Calculating",
-                "id": 30,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Gracious",
-                "id": 31,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Dishonest",
-                "id": 32,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Vicious",
-                "id": 33,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Paranoid",
-                "id": 34,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Elitist",
-                "id": 35,
-                "tags": ["trait", "blades"]
-            },
-            {
-                "name": "Cooperative^",
-                "id": 36,
-                "tags": ["trait", "blades"]
-            }
+            { "name": "Calm", "id": 1, "tags": ["trait", "blades"] },
+            { "name": "Melancholy", "id": 2, "tags": ["trait", "blades"] },
+            { "name": "Candid", "id": 3, "tags": ["trait", "blades"] },
+            { "name": "Daring", "id": 4, "tags": ["trait", "blades"] },
+            { "name": "Confident", "id": 5, "tags": ["trait", "blades"] },
+            { "name": "Charming ", "id": 6, "tags": ["trait", "blades"] },
+            { "name": "Cavalier", "id": 7, "tags": ["trait", "blades"] },
+            { "name": "Suspicious ", "id": 8, "tags": ["trait", "blades"] },
+            { "name": "Shrewd", "id": 9, "tags": ["trait", "blades"] },
+            { "name": "Moody", "id": 10, "tags": ["trait", "blades"] },
+            { "name": "Careless", "id": 11, "tags": ["trait", "blades"] },
+            { "name": "Ruthless", "id": 12, "tags": ["trait", "blades"] },
+            { "name": "Defiant", "id": 13, "tags": ["trait", "blades"] },
+            { "name": "Insightful ", "id": 14, "tags": ["trait", "blades"] },
+            { "name": "Patient", "id": 15, "tags": ["trait", "blades"] },
+            { "name": "Sophisticated ", "id": 16, "tags": ["trait", "blades"] },
+            { "name": "Enthusiastic ", "id": 17, "tags": ["trait", "blades"] },
+            { "name": "Savage", "id": 18, "tags": ["trait", "blades"] },
+            { "name": "Arrogant ", "id": 19, "tags": ["trait", "blades"] },
+            { "name": "Vain", "id": 20, "tags": ["trait", "blades"] },
+            { "name": "Volatile ", "id": 21, "tags": ["trait", "blades"] },
+            { "name": "Subtle", "id": 22, "tags": ["trait", "blades"] },
+            { "name": "Enigmatic", "id": 23, "tags": ["trait", "blades"] },
+            { "name": "Cold", "id": 24, "tags": ["trait", "blades"] },
+            { "name": "Brash", "id": 25, "tags": ["trait", "blades"] },
+            { "name": "Obsessive", "id": 26, "tags": ["trait", "blades"] },
+            { "name": "Quiet", "id": 27, "tags": ["trait", "blades"] },
+            { "name": "Fierce", "id": 28, "tags": ["trait", "blades"] },
+            { "name": "Secretive", "id": 29, "tags": ["trait", "blades"] },
+            { "name": "Calculating", "id": 30, "tags": ["trait", "blades"] },
+            { "name": "Gracious", "id": 31, "tags": ["trait", "blades"] },
+            { "name": "Dishonest", "id": 32, "tags": ["trait", "blades"] },
+            { "name": "Vicious", "id": 33, "tags": ["trait", "blades"] },
+            { "name": "Paranoid", "id": 34, "tags": ["trait", "blades"] },
+            { "name": "Elitist", "id": 35, "tags": ["trait", "blades"] },
+            { "name": "Cooperative^", "id": 36, "tags": ["trait", "blades"] }
         ],
         "factions": [
             "The Unseen ",
@@ -2119,279 +1730,279 @@
     ],
     "clock": [
         {
-            "name": "Paros large oven skills",
-            "description": "",
+            "name": "",
+            "id": 1,
             "tags": [],
-            "start_date": "3",
+            "description": "",
+            "start_date": null,
             "protension": null,
             "faction_id": null,
-            "id": 4,
+            "prep": null
+        },
+        {
+            "name": "Joan and Paros drawn to a Dracolich",
+            "id": 2,
+            "tags": [],
+            "description": "",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
             "prep": false
-        },
-        {
-            "name": " Joan and Paros drawn to a Dracolich",
-            "description": "",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "id": 5,
-            "prep": false
-        },
-        {
-            "name": "Flick finds true source of goodberries",
-            "description": "It's Shoemaker Byte",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "id": 6
-        },
-        {
-            "name": "Someone finds a way to convert neutralized curse items into some form of power.",
-            "description": "",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "id": 7
-        },
-        {
-            "name": "Blob creature being used as a magic cellphone tower",
-            "description": "[see image]",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "id": 8
-        },
-        {
-            "name": "rename the nurts, and call them neens",
-            "description": "",
-            "tags": [],
-            "start_date": "",
-            "protension": "",
-            "faction_id": null,
-            "id": 9
-        },
-        {
-            "name": "heard that the deep gnomes are intending to capture the bridge zorbo to …",
-            "description": "",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "id": 10
-        },
-        {
-            "name": "Paros smell spells",
-            "description": "",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "prep": null,
-            "id": 11
-        },
-        {
-            "name": "The Fizzing",
-            "description": "",
-            "tags": ["event"],
-            "start_date": "",
-            "protension": null,
-            "faction_id": null,
-            "prep": null,
-            "id": 12
-        },
-        {
-            "name": "Taking energy baubles from their mother while she is in precog-stasis",
-            "description": "",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "prep": null,
-            "id": 13
         },
         {
             "name": "Aule wants carlos in the front lines; it's fake aule that is offering these initiative trading abilities",
-            "description": "",
+            "id": 3,
             "tags": [],
+            "description": "",
             "start_date": "",
             "protension": null,
             "faction_id": null,
-            "prep": true,
-            "id": 14
+            "prep": true
         },
         {
-            "name": "Some group is being trafficked by Ituktilik Meffatar",
-            "description": "Ituktilik Meffatar (sort of  ratface mcgillicutty backwards)",
+            "name": "Blob creature being used as a magic cellphone tower",
+            "id": 4,
             "tags": [],
+            "description": "[see image]",
             "start_date": null,
             "protension": null,
-            "faction_id": null,
-            "prep": null,
-            "id": 15
-        },
-        {
-            "name": "Someone is blackmailing Oriax because they know that she's a Banderhobb.",
-            "description": "",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "prep": null,
-            "id": 16
-        },
-        {
-            "name": "Graal's healed arm didn't heal right ",
-            "description": "-- and now she's dying of poisons or something, and can only be saved by being returned to her homeland.\n- connection with satanopathy\n- sign of a deeper evil",
-            "tags": ["complication"],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "prep": null,
-            "id": 17
-        },
-        {
-            "name": "Rovine's ward is failing",
-            "description": "",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "prep": null,
-            "id": 18
-        },
-        {
-            "name": "Rovine is eating people who had weapons made with _zolot_",
-            "description": "",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "prep": true,
-            "id": 19
+            "faction_id": null
         },
         {
             "name": "Bogshush name keeps shifting",
+            "id": 5,
+            "tags": [],
             "description": "(and it becomes hard to remember or communicate to others)",
-            "tags": [],
             "start_date": null,
             "protension": null,
             "faction_id": null,
-            "prep": true,
-            "id": 20
-        },
-        {
-            "name": "fez coral - piercing",
-            "description": "__fez__ has to use the coral as a bit when he's in touch with turtle, and it migrates to his spine as a nape piercing",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "prep": false,
-            "id": 21
+            "prep": true
         },
         {
             "name": "Brak is in a kolmy body / midden heap, and is becoming vegetation",
-            "description": "",
+            "id": 6,
             "tags": [],
+            "description": "",
             "start_date": null,
             "protension": null,
             "faction_id": null,
-            "prep": false,
-            "id": 22
+            "prep": false
         },
         {
-            "name": "Godshift divots in Kolmy's head",
-            "description": "what ? see that fungal not growing there ?",
+            "name": "fez coral - piercing",
+            "id": 7,
             "tags": [],
+            "description": "__fez__ has to use the coral as a bit when he's in touch with turtle, and it migrates to his spine as a nape piercing",
             "start_date": null,
             "protension": null,
             "faction_id": null,
-            "prep": false,
-            "id": 23
-        },
-        {
-            "name": "flowers start growing on people",
-            "description": "",
-            "tags": [],
-            "start_date": null,
-            "protension": "",
-            "faction_id": null,
-            "prep": false,
-            "id": 24
+            "prep": false
         },
         {
             "name": "Fez learns deep undersea language",
-            "description": "",
+            "id": 8,
             "tags": [],
+            "description": "",
             "start_date": null,
             "protension": null,
             "faction_id": null,
-            "prep": true,
-            "id": 25
+            "prep": true
+        },
+        {
+            "name": "Flick finds true source of goodberries",
+            "id": 9,
+            "tags": [],
+            "description": "It's Shoemaker Byte",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null
+        },
+        {
+            "name": "flowers start growing on people",
+            "id": 10,
+            "tags": [],
+            "description": "",
+            "start_date": null,
+            "protension": "",
+            "faction_id": null,
+            "prep": false
+        },
+        {
+            "name": "Godshift divots in Kolmy's head",
+            "id": 11,
+            "tags": [],
+            "description": "what ? see that fungal not growing there ?",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": false
+        },
+        {
+            "name": "Graal's healed arm didn't heal right",
+            "id": 12,
+            "tags": ["complication"],
+            "description": "-- and now she's dying of poisons or something, and can only be saved by being returned to her homeland.\n- connection with satanopathy\n- sign of a deeper evil",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": null
+        },
+        {
+            "name": "heard that the deep gnomes are intending to capture the bridge zorbo to …",
+            "id": 13,
+            "tags": [],
+            "description": "",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null
         },
         {
             "name": "Joan learns how to build a lightning wall around herself",
+            "id": 14,
+            "tags": [],
             "description": "",
-            "tags": [],
             "start_date": null,
             "protension": null,
             "faction_id": null,
-            "prep": true,
-            "id": 26
-        },
-        {
-            "name": "",
-            "description": "",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "prep": null,
-            "id": 27
-        },
-        {
-            "name": "Story of Selene",
-            "description": "",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "prep": null,
-            "id": 28
-        },
-        {
-            "name": "You palm the sea",
-            "description": "slight of hand? paladin? ulimara? ",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "prep": null,
-            "id": 29
+            "prep": true
         },
         {
             "name": "Onfalon returns as a corrupted circle of spores druid",
-            "description": "maybe he needs to be saved, or something",
+            "id": 15,
             "tags": ["flick", "grenlich"],
+            "description": "maybe he needs to be saved, or something",
             "start_date": null,
             "protension": null,
             "faction_id": null,
-            "prep": null,
-            "id": 30
+            "prep": null
+        },
+        {
+            "name": "Paros large oven skills",
+            "id": 16,
+            "tags": [],
+            "description": "",
+            "start_date": "3",
+            "protension": null,
+            "faction_id": null,
+            "prep": false
+        },
+        {
+            "name": "Paros smell spells",
+            "id": 17,
+            "tags": [],
+            "description": "",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": null
+        },
+        {
+            "name": "rename the nurts, and call them neens",
+            "id": 18,
+            "tags": [],
+            "description": "",
+            "start_date": "",
+            "protension": "",
+            "faction_id": null
+        },
+        {
+            "name": "Rovine is eating people who had weapons made with _zolot_",
+            "id": 19,
+            "tags": [],
+            "description": "",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": true
+        },
+        {
+            "name": "Rovine's ward is failing",
+            "id": 20,
+            "tags": [],
+            "description": "",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": null
+        },
+        {
+            "name": "Some group is being trafficked by Ituktilik Meffatar",
+            "id": 21,
+            "tags": [],
+            "description": "Ituktilik Meffatar (sort of  ratface mcgillicutty backwards)",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": null
+        },
+        {
+            "name": "Someone finds a way to convert neutralized curse items into some form of power.",
+            "id": 22,
+            "tags": [],
+            "description": "",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null
+        },
+        {
+            "name": "Someone is blackmailing Oriax because they know that she's a Banderhobb.",
+            "id": 23,
+            "tags": [],
+            "description": "",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": null
         },
         {
             "name": "Someone to teach paros about chalk and charcoal (painting > magic)",
-            "description": " Specific habits formed in mastering charcoal often act preclusively when the student attempts to paint.",
+            "id": 24,
             "tags": [],
+            "description": " Specific habits formed in mastering charcoal often act preclusively when the student attempts to paint.",
             "start_date": null,
             "protension": null,
             "faction_id": null,
-            "prep": null,
-            "id": 31
+            "prep": null
+        },
+        {
+            "name": "Story of Selene",
+            "id": 25,
+            "tags": [],
+            "description": "",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": null
+        },
+        {
+            "name": "Taking energy baubles from their mother while she is in precog-stasis",
+            "id": 26,
+            "tags": [],
+            "description": "",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": null
+        },
+        {
+            "name": "The Fizzing",
+            "id": 27,
+            "tags": ["event"],
+            "description": "",
+            "start_date": "",
+            "protension": null,
+            "faction_id": null,
+            "prep": null
+        },
+        {
+            "name": "You palm the sea",
+            "id": 28,
+            "tags": [],
+            "description": "slight of hand? paladin? ulimara? ",
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": null
         }
     ],
     "location": [
@@ -2497,24 +2108,14 @@
             "tags": ["region"],
             "id": 19
         },
-        {
-            "name": "Thold Country",
-            "description": "",
-            "tags": [],
-            "id": 20
-        },
+        { "name": "Thold Country", "description": "", "tags": [], "id": 20 },
         {
             "name": "Lake Drawger",
             "description": "",
             "tags": ["geofeature"],
             "id": 21
         },
-        {
-            "name": "plunge pool",
-            "description": "",
-            "tags": [],
-            "id": 22
-        },
+        { "name": "plunge pool", "description": "", "tags": [], "id": 22 },
         {
             "name": " loting-place",
             "description": "  n. a hiding place; a den.",
@@ -2599,12 +2200,7 @@
             "tags": ["fantastic"],
             "id": 37
         },
-        {
-            "name": "Neural Court",
-            "description": "",
-            "tags": [],
-            "id": 38
-        },
+        { "name": "Neural Court", "description": "", "tags": [], "id": 38 },
         {
             "name": "beevo vackab's ells and ells of shrubs",
             "description": "",
@@ -2848,10 +2444,7 @@
             "prep": true,
             "claimed": true
         },
-        {
-            "name": "Slugg's Varts",
-            "id": 24
-        },
+        { "name": "Slugg's Varts", "id": 24 },
         {
             "name": "Teallach Gormflaith",
             "description": "ghouls / ghasts - heroic oral celtic culture\n\ntwo creatures that look like avatar or githyanki\ndressed in hides that don't conform well to bodies\ncarrying large metal staves, hoooked at end, with barbed points\ntalking about supposed to meet kinsmen coming in on placid beast, and worried about not having seen them\n\nmetal staves are made with red alloy\n[ when he got to throttlebottom, he gave arlan the metal they picked up from the warehouse]\n\"how did you come by those staves ; they are very interesting\"\n[i hand steve the … lady logo]\nstaffs are symbol of becoming a sailor\n\nrecently we've been trading for this metal (scintillating, never rust, hard and keep a fine point). \nwe were coming here also to get more of these weapons (metal)\na good weapon is worth more than its weight in gold\n",
@@ -2859,10 +2452,7 @@
             "npcs": "one is female, one male\nvishara, and yvonna\nwere supposed to meet kinsmen traveling on placid beast from up north; heard that ship went down it was supposed to dock in marshbout\n- Farog Vell",
             "clocks": "Find Sirmgalv (relation to zorbwood?)"
         },
-        {
-            "name": "twohorns band",
-            "id": 26
-        },
+        { "name": "twohorns band", "id": 26 },
         {
             "name": "famasta monks",
             "description": "deep red cassocks, brighter scarlet trim, lathi. (sometimes blue cassocks, like at TEG)",
@@ -2955,10 +2545,7 @@
             "description": "Middle Dutch crenge carrion, carcass; of uncertain origin. ",
             "id": 45
         },
-        {
-            "name": "the Union of Essences ",
-            "id": 46
-        },
+        { "name": "the Union of Essences ", "id": 46 },
         {
             "name": "Zombie Cats",
             "description": "Zombified cats, harmless but terrifying, and with fairly short self-limiting lifespans, have been seen on the outskirts of town.",
@@ -2974,40 +2561,14 @@
             "name": "mountain pastoralists",
             "id": 49
         },
-        {
-            "name": "The power, and corrigible Authority",
-            "id": 50
-        },
-        {
-            "name": "Annoying Pail of Justice",
-            "id": 51
-        },
-        {
-            "name": "Veen's Scions",
-            "id": 52
-        },
-        {
-            "name": "Three School Best Friends Club",
-            "id": 53
-        },
-        {
-            "name": "Insanctuism",
-            "description": "a discipline",
-            "id": 54
-        },
-        {
-            "name": "Norvorian",
-            "description": "a group of people. ",
-            "id": 55
-        },
-        {
-            "name": "The witch brothers of Jagna [the lamb]",
-            "id": 56
-        },
-        {
-            "name": "Captimesive Light",
-            "id": 57
-        },
+        { "name": "The power, and corrigible Authority", "id": 50 },
+        { "name": "Annoying Pail of Justice", "id": 51 },
+        { "name": "Veen's Scions", "id": 52 },
+        { "name": "Three School Best Friends Club", "id": 53 },
+        { "name": "Insanctuism", "description": "a discipline", "id": 54 },
+        { "name": "Norvorian", "description": "a group of people. ", "id": 55 },
+        { "name": "The witch brothers of Jagna [the lamb]", "id": 56 },
+        { "name": "Captimesive Light", "id": 57 },
         {
             "name": "Ulthark ?",
             "id": 58,
@@ -3050,10 +2611,7 @@
             "description": "- the crosses outside the ... monastery are dead zorbons\n- ",
             "id": 65
         },
-        {
-            "name": "gold-stealing black-footed ferrets",
-            "id": 66
-        },
+        { "name": "gold-stealing black-footed ferrets", "id": 66 },
         {
             "name": "Stone of Cthulhu / homunculi?",
             "description": "Stone out of which Flick's figurine was made\nmined near grey tongue?\n\ndeep gnomes used to create homunculi\n  - (was it used to make Ecks?)\n  - to keep eye on surrounding territory\n  - turn into gargoyles if they are made with buggshash stone\n  - like zorbon ? \n  - susceptible to hijacking by gnoll divination wizard/oracle ",
@@ -3091,14 +2649,8 @@
             "claimed": true,
             "id": 72
         },
-        {
-            "name": "The puddle ghosts",
-            "id": 73
-        },
-        {
-            "name": "A chorus of holy venereal rhapsodies",
-            "id": 74
-        },
+        { "name": "The puddle ghosts", "id": 73 },
+        { "name": "A chorus of holy venereal rhapsodies", "id": 74 },
         {
             "name": "He who sits on his throne in the gloomy abode of the fleshless",
             "description": "real quote from somewhere",
@@ -3109,34 +2661,13 @@
             "description": "real quote from somewhere",
             "id": 76
         },
-        {
-            "name": "The preprosperous",
-            "id": 77
-        },
-        {
-            "name": "Heat so great it has become a stench",
-            "id": 78
-        },
-        {
-            "name": "Double procession of the [...]",
-            "id": 79
-        },
-        {
-            "name": "The militant syndicalists",
-            "id": 80
-        },
-        {
-            "name": "The Emerald Canticle",
-            "id": 81
-        },
-        {
-            "name": "Trimming the afterbirth",
-            "id": 82
-        },
-        {
-            "name": "Tyranny of the Quantifiable",
-            "id": 83
-        },
+        { "name": "The preprosperous", "id": 77 },
+        { "name": "Heat so great it has become a stench", "id": 78 },
+        { "name": "Double procession of the [...]", "id": 79 },
+        { "name": "The militant syndicalists", "id": 80 },
+        { "name": "The Emerald Canticle", "id": 81 },
+        { "name": "Trimming the afterbirth", "id": 82 },
+        { "name": "Tyranny of the Quantifiable", "id": 83 },
         {
             "name": "Rock monsters in Noah",
             "description": "debi loved the \"they look so sad, and they just want to be eating rocks, and turn into light.\"",
@@ -3155,10 +2686,7 @@
             "name": "The hunch that transforms fragmentedness into wholeness",
             "id": 86
         },
-        {
-            "name": "Daughters of the Tailor",
-            "id": 87
-        },
+        { "name": "Daughters of the Tailor", "id": 87 },
         {
             "description": "The story involves Batman discovering a dark multiverse that exists beneath the core DC multiverse. It is revealed that both multiverses are connected through mysterious metals that Batman has encountered over the years. His investigations eventually result in him releasing seven evil versions of himself from the dark multiverse, led by the dark god known as Barbatos, who plans to unleash darkness across every Earth.",
             "name": "metals and multiverses",
@@ -3175,20 +2703,13 @@
             "name": "Lugribossk Empire [historical?]",
             "id": 90
         },
-        {
-            "name": "Acknowledgers of Krov",
-            "description": "",
-            "id": 91
-        },
+        { "name": "Acknowledgers of Krov", "description": "", "id": 91 },
         {
             "name": "a bunch of tortle druids that are ambivalent about fez's steed",
             "prep": true,
             "id": 92
         },
-        {
-            "name": "The Godlimb of hooker's approval ratings",
-            "id": 93
-        },
+        { "name": "The Godlimb of hooker's approval ratings", "id": 93 },
         {
             "description": "action: Blowfish Twohorns  \ndefining mission: Liberator. You were at the forefront of a daring assault to liberate a captured citadel or town.  \nhook: You're secretly in love with one of the other members of your adventuring group, and you can't bear the thought of any harm befalling that person.  \ntwist: The adventurers have received false or extraneous information.  ",
             "name": "temp",
@@ -3257,27 +2778,15 @@
             "id": 7,
             "description": " [mis-begotten]"
         },
-        {
-            "claimed": false,
-            "name": "Marryat",
-            "id": 8
-        },
+        { "claimed": false, "name": "Marryat", "id": 8 },
         {
             "claimed": true,
             "name": "Fulmarus Imison",
             "id": 9,
             "tags": ["contributor"]
         },
-        {
-            "claimed": false,
-            "name": "Rhus Cotinus",
-            "id": 12
-        },
-        {
-            "claimed": false,
-            "name": "Wodden",
-            "id": 13
-        },
+        { "claimed": false, "name": "Rhus Cotinus", "id": 12 },
+        { "claimed": false, "name": "Wodden", "id": 13 },
         {
             "claimed": true,
             "name": "Sallender (elvy: asalandre) ",
@@ -3295,11 +2804,7 @@
             "name": "Stalklet / stalko ('a small stalk')",
             "id": 16
         },
-        {
-            "claimed": false,
-            "name": "Gimpel",
-            "id": 17
-        },
+        { "claimed": false, "name": "Gimpel", "id": 17 },
         {
             "claimed": false,
             "name": "Hamus Glymph",
@@ -3309,41 +2814,13 @@
             "pronunciation": " (hay-muss)",
             "description": "thavolia's father"
         },
-        {
-            "claimed": false,
-            "name": "Haniper",
-            "id": 19
-        },
-        {
-            "claimed": false,
-            "name": "Iaccone",
-            "id": 21
-        },
-        {
-            "claimed": false,
-            "name": "Thorpe",
-            "id": 22
-        },
-        {
-            "claimed": false,
-            "name": "Moeckel",
-            "id": 23
-        },
-        {
-            "claimed": false,
-            "name": "Ochs ('Ox')",
-            "id": 24
-        },
-        {
-            "claimed": false,
-            "name": "Palchin",
-            "id": 25
-        },
-        {
-            "claimed": false,
-            "name": "Bragout",
-            "id": 26
-        },
+        { "claimed": false, "name": "Haniper", "id": 19 },
+        { "claimed": false, "name": "Iaccone", "id": 21 },
+        { "claimed": false, "name": "Thorpe", "id": 22 },
+        { "claimed": false, "name": "Moeckel", "id": 23 },
+        { "claimed": false, "name": "Ochs ('Ox')", "id": 24 },
+        { "claimed": false, "name": "Palchin", "id": 25 },
+        { "claimed": false, "name": "Bragout", "id": 26 },
         {
             "claimed": true,
             "name": "Shreward",
@@ -3351,11 +2828,7 @@
             "description": "brak and kolmy's father. \n\n 'a scoundrel'\n\nhis sibling () was killed by a rampaging monster. You won't rest until you track it down and slay it.\tTrack down and slay monster.\tSomehow offset your sibling's death at the hands of the monster.",
             "prep": false
         },
-        {
-            "claimed": false,
-            "name": "Lanterloo",
-            "id": 28
-        },
+        { "claimed": false, "name": "Lanterloo", "id": 28 },
         {
             "claimed": false,
             "name": "Stalch ",
@@ -3367,21 +2840,9 @@
             "name": "Gairold Smuth (‘g-air-old’ ‘sm-uh-th’)",
             "id": 31
         },
-        {
-            "claimed": false,
-            "name": "Cranmer",
-            "id": 32
-        },
-        {
-            "claimed": false,
-            "name": "Smurk-a-bur",
-            "id": 34
-        },
-        {
-            "claimed": false,
-            "name": "Ri of attar (atari)",
-            "id": 36
-        },
+        { "claimed": false, "name": "Cranmer", "id": 32 },
+        { "claimed": false, "name": "Smurk-a-bur", "id": 34 },
+        { "claimed": false, "name": "Ri of attar (atari)", "id": 36 },
         {
             "claimed": true,
             "name": "Appack",
@@ -3404,107 +2865,35 @@
             "name": "Enix [enixly: forcefully; stringently] ",
             "id": 40
         },
-        {
-            "claimed": false,
-            "name": "Shapa ",
-            "id": 42
-        },
-        {
-            "claimed": false,
-            "name": "Petitia",
-            "id": 43
-        },
-        {
-            "claimed": false,
-            "name": "Leema",
-            "id": 44
-        },
-        {
-            "claimed": false,
-            "name": "Reidpeth",
-            "id": 45
-        },
+        { "claimed": false, "name": "Shapa ", "id": 42 },
+        { "claimed": false, "name": "Petitia", "id": 43 },
+        { "claimed": false, "name": "Leema", "id": 44 },
+        { "claimed": false, "name": "Reidpeth", "id": 45 },
         {
             "claimed": true,
             "name": "Contenus Gokewell",
             "id": 46,
             "description": "Writer of Manual of materia medica and therapeutics: including the preparations of the Nimper ni pharmacopœia and other approved medicines"
         },
-        {
-            "claimed": false,
-            "name": "Hinxt",
-            "id": 47
-        },
-        {
-            "claimed": false,
-            "name": "Kyrkarth",
-            "id": 48
-        },
-        {
-            "claimed": false,
-            "name": "Hengest (OF. horse gelding)",
-            "id": 50
-        },
-        {
-            "claimed": false,
-            "name": "Ingangthief",
-            "id": 51
-        },
-        {
-            "claimed": false,
-            "name": "Fulx",
-            "id": 52
-        },
-        {
-            "claimed": false,
-            "name": "Calash",
-            "id": 53
-        },
-        {
-            "claimed": false,
-            "name": "Rowallane",
-            "id": 54
-        },
-        {
-            "claimed": false,
-            "name": "Skliro",
-            "id": 55
-        },
-        {
-            "claimed": false,
-            "name": "Smarg",
-            "id": 56
-        },
-        {
-            "claimed": false,
-            "name": "Hiarcum",
-            "id": 57
-        },
-        {
-            "claimed": false,
-            "name": "nychtbouris",
-            "id": 58
-        },
-        {
-            "claimed": false,
-            "name": "Gamaliel",
-            "id": 59
-        },
+        { "claimed": false, "name": "Hinxt", "id": 47 },
+        { "claimed": false, "name": "Kyrkarth", "id": 48 },
+        { "claimed": false, "name": "Hengest (OF. horse gelding)", "id": 50 },
+        { "claimed": false, "name": "Ingangthief", "id": 51 },
+        { "claimed": false, "name": "Fulx", "id": 52 },
+        { "claimed": false, "name": "Calash", "id": 53 },
+        { "claimed": false, "name": "Rowallane", "id": 54 },
+        { "claimed": false, "name": "Skliro", "id": 55 },
+        { "claimed": false, "name": "Smarg", "id": 56 },
+        { "claimed": false, "name": "Hiarcum", "id": 57 },
+        { "claimed": false, "name": "nychtbouris", "id": 58 },
+        { "claimed": false, "name": "Gamaliel", "id": 59 },
         {
             "claimed": false,
             "name": "Sælivus (pertaining to saliva - sae lih vuss)",
             "id": 60
         },
-        {
-            "claimed": false,
-            "name": "Xerochabiel",
-            "id": 61
-        },
-        {
-            "claimed": false,
-            "name": "Estafar: (Sp. to swindle)",
-            "id": 62
-        },
+        { "claimed": false, "name": "Xerochabiel", "id": 61 },
+        { "claimed": false, "name": "Estafar: (Sp. to swindle)", "id": 62 },
         {
             "claimed": false,
             "name": "Photopsia (flashes and sparks in vision)",
@@ -3526,120 +2915,47 @@
             "name": "Sabaq ; Sabachthani (σαβαχθανί; from 'why have you forsaken me')",
             "id": 67
         },
-        {
-            "claimed": false,
-            "name": "flióta",
-            "id": 68
-        },
-        {
-            "claimed": false,
-            "name": "HENDIG",
-            "id": 69,
-            "description": ""
-        },
+        { "claimed": false, "name": "flióta", "id": 68 },
+        { "claimed": false, "name": "HENDIG", "id": 69, "description": "" },
         {
             "claimed": false,
             "name": "ASHM",
             "id": 70,
             "pronunciation": " ('AH-shum')"
         },
-        {
-            "claimed": false,
-            "name": "Huggle",
-            "id": 72
-        },
-        {
-            "claimed": false,
-            "name": "faff [fuss or dither]",
-            "id": 73
-        },
-        {
-            "claimed": false,
-            "name": "Plort",
-            "id": 74
-        },
-        {
-            "claimed": false,
-            "name": "Mergel",
-            "id": 75
-        },
-        {
-            "claimed": false,
-            "name": "Buncle",
-            "id": 76
-        },
+        { "claimed": false, "name": "Huggle", "id": 72 },
+        { "claimed": false, "name": "faff [fuss or dither]", "id": 73 },
+        { "claimed": false, "name": "Plort", "id": 74 },
+        { "claimed": false, "name": "Mergel", "id": 75 },
+        { "claimed": false, "name": "Buncle", "id": 76 },
         {
             "claimed": true,
             "name": "Fantasculo Drublus",
             "id": 77,
             "description": "author of \"Research\""
         },
-        {
-            "claimed": false,
-            "name": "Habberth",
-            "id": 78
-        },
-        {
-            "claimed": false,
-            "name": "Lumpswondler",
-            "id": 79
-        },
+        { "claimed": false, "name": "Habberth", "id": 78 },
+        { "claimed": false, "name": "Lumpswondler", "id": 79 },
         {
             "claimed": false,
             "name": "Emitten Pessimal",
             "id": 80,
             "pronunciation": "EH mit EHN puhSAY muhl / pessimal"
         },
-        {
-            "claimed": false,
-            "name": "Cark",
-            "id": 81
-        },
-        {
-            "claimed": false,
-            "name": "Belbort",
-            "id": 82
-        },
-        {
-            "claimed": false,
-            "name": "morning rock",
-            "id": 83
-        },
-        {
-            "claimed": false,
-            "name": "Bronk Hardchunk",
-            "id": 84
-        },
-        {
-            "claimed": false,
-            "name": "OGRIBIOUS",
-            "id": 85
-        },
-        {
-            "claimed": false,
-            "name": "Englarge",
-            "id": 86
-        },
-        {
-            "claimed": false,
-            "name": "Jubertie (cf. jeopardy)",
-            "id": 87
-        },
-        {
-            "claimed": false,
-            "name": "Mr. Mistophagus",
-            "id": 88
-        },
+        { "claimed": false, "name": "Cark", "id": 81 },
+        { "claimed": false, "name": "Belbort", "id": 82 },
+        { "claimed": false, "name": "morning rock", "id": 83 },
+        { "claimed": false, "name": "Bronk Hardchunk", "id": 84 },
+        { "claimed": false, "name": "OGRIBIOUS", "id": 85 },
+        { "claimed": false, "name": "Englarge", "id": 86 },
+        { "claimed": false, "name": "Jubertie (cf. jeopardy)", "id": 87 },
+        { "claimed": false, "name": "Mr. Mistophagus", "id": 88 },
         {
             "claimed": false,
             "name": "Gundigutts (a fat pursy fellow)",
             "id": 89
         },
-        {
-            "claimed": false,
-            "name": "Gurt Fustilugs",
-            "id": 90
-        },
+        { "claimed": false, "name": "Gurt Fustilugs", "id": 90 },
         {
             "claimed": false,
             "name": "Chork",
@@ -3656,21 +2972,9 @@
             "name": "Marlock (a prank, a practical joke)",
             "id": 93
         },
-        {
-            "claimed": false,
-            "name": "Seekreide ('lake chalk')",
-            "id": 94
-        },
-        {
-            "claimed": false,
-            "name": "Grumbledory",
-            "id": 95
-        },
-        {
-            "claimed": false,
-            "name": "Gutch Bristlejaws",
-            "id": 96
-        },
+        { "claimed": false, "name": "Seekreide ('lake chalk')", "id": 94 },
+        { "claimed": false, "name": "Grumbledory", "id": 95 },
+        { "claimed": false, "name": "Gutch Bristlejaws", "id": 96 },
         {
             "claimed": false,
             "name": "Anmai kullsjully",
@@ -4607,12 +3911,7 @@
             "description": "claw gash",
             "id": 193
         },
-        {
-            "claimed": false,
-            "name": "Krov",
-            "description": "n/a",
-            "id": 194
-        },
+        { "claimed": false, "name": "Krov", "description": "n/a", "id": 194 },
         {
             "claimed": false,
             "name": "Spam Tompkins",
@@ -4712,12 +4011,7 @@
             "description": "Commoner",
             "id": 211
         },
-        {
-            "claimed": false,
-            "name": "Agnic",
-            "description": "lady",
-            "id": 212
-        },
+        { "claimed": false, "name": "Agnic", "description": "lady", "id": 212 },
         {
             "claimed": false,
             "name": "Ulgor",
@@ -4760,18 +4054,8 @@
             "description": "Maybe more of the earthlords ?",
             "id": 221
         },
-        {
-            "claimed": false,
-            "name": "Empo",
-            "description": "",
-            "id": 223
-        },
-        {
-            "claimed": false,
-            "name": "Resko",
-            "description": "",
-            "id": 224
-        },
+        { "claimed": false, "name": "Empo", "description": "", "id": 223 },
+        { "claimed": false, "name": "Resko", "description": "", "id": 224 },
         {
             "claimed": false,
             "name": "Raggadochy",
@@ -4790,12 +4074,7 @@
             "description": "Three of the kobolds in the {@faction Two Horns|zorq} faction headquartered in the Marshbout marine district.",
             "id": 227
         },
-        {
-            "claimed": false,
-            "name": "Nub",
-            "description": "?",
-            "id": 228
-        },
+        { "claimed": false, "name": "Nub", "description": "?", "id": 228 },
         {
             "claimed": false,
             "name": "Cotinaminous",
@@ -4838,12 +4117,7 @@
             "description": "female ?? names",
             "id": 235
         },
-        {
-            "claimed": false,
-            "name": "Almar",
-            "description": "",
-            "id": 237
-        },
+        { "claimed": false, "name": "Almar", "description": "", "id": 237 },
         {
             "claimed": false,
             "name": "Andak",
@@ -4888,12 +4162,7 @@
             "description": "druid",
             "id": 244
         },
-        {
-            "claimed": false,
-            "name": "beoff",
-            "description": "",
-            "id": 245
-        },
+        { "claimed": false, "name": "beoff", "description": "", "id": 245 },
         {
             "claimed": false,
             "name": "Black",
@@ -4942,12 +4211,7 @@
             "description": "kalashtar",
             "id": 253
         },
-        {
-            "claimed": false,
-            "name": "Dastina",
-            "description": "",
-            "id": 254
-        },
+        { "claimed": false, "name": "Dastina", "description": "", "id": 254 },
         {
             "claimed": false,
             "name": "Denaal",
@@ -4966,18 +4230,8 @@
             "description": "kalashtar",
             "id": 257
         },
-        {
-            "claimed": false,
-            "name": "Dove",
-            "description": "",
-            "id": 259
-        },
-        {
-            "claimed": false,
-            "name": "Dowson",
-            "description": "",
-            "id": 260
-        },
+        { "claimed": false, "name": "Dove", "description": "", "id": 259 },
+        { "claimed": false, "name": "Dowson", "description": "", "id": 260 },
         {
             "claimed": false,
             "name": "Draraar",
@@ -5033,12 +4287,7 @@
             "description": "gnoll",
             "id": 270
         },
-        {
-            "claimed": false,
-            "name": "Ett",
-            "description": "kobold",
-            "id": 271
-        },
+        { "claimed": false, "name": "Ett", "description": "kobold", "id": 271 },
         {
             "claimed": false,
             "name": "Euonymus nick: \"last trace\"",
@@ -5063,18 +4312,8 @@
             "description": "",
             "id": 275
         },
-        {
-            "claimed": false,
-            "name": "Fedlan",
-            "description": "",
-            "id": 276
-        },
-        {
-            "claimed": false,
-            "name": "Flamuelle",
-            "description": "",
-            "id": 277
-        },
+        { "claimed": false, "name": "Fedlan", "description": "", "id": 276 },
+        { "claimed": false, "name": "Flamuelle", "description": "", "id": 277 },
         {
             "claimed": false,
             "name": "Gaduul",
@@ -5087,54 +4326,29 @@
             "description": "",
             "id": 279
         },
-        {
-            "claimed": false,
-            "name": "georbe",
-            "description": "",
-            "id": 280
-        },
+        { "claimed": false, "name": "georbe", "description": "", "id": 280 },
         {
             "claimed": false,
             "name": "Gerator",
             "description": "title",
             "id": 281
         },
-        {
-            "claimed": false,
-            "name": "giblinoid",
-            "description": "",
-            "id": 282
-        },
-        {
-            "claimed": false,
-            "name": "Girdle",
-            "description": "",
-            "id": 283
-        },
+        { "claimed": false, "name": "giblinoid", "description": "", "id": 282 },
+        { "claimed": false, "name": "Girdle", "description": "", "id": 283 },
         {
             "claimed": false,
             "name": "Gnokles (NOH-cuhls)",
             "description": "",
             "id": 284
         },
-        {
-            "claimed": false,
-            "name": "Goosewood",
-            "description": "",
-            "id": 285
-        },
+        { "claimed": false, "name": "Goosewood", "description": "", "id": 285 },
         {
             "claimed": false,
             "name": "Granny",
             "description": "hag title",
             "id": 286
         },
-        {
-            "claimed": false,
-            "name": "Grash",
-            "description": "orc?",
-            "id": 287
-        },
+        { "claimed": false, "name": "Grash", "description": "orc?", "id": 287 },
         {
             "claimed": false,
             "name": "Greenteeth",
@@ -5159,48 +4373,23 @@
             "description": "",
             "id": 291
         },
-        {
-            "claimed": false,
-            "name": "harney",
-            "description": "",
-            "id": 292
-        },
+        { "claimed": false, "name": "harney", "description": "", "id": 292 },
         {
             "claimed": false,
             "name": "Hashak",
             "description": "female ?? names",
             "id": 293
         },
-        {
-            "claimed": false,
-            "name": "Hebwith",
-            "description": "",
-            "id": 294
-        },
-        {
-            "claimed": false,
-            "name": "Hieronymo",
-            "description": "",
-            "id": 295
-        },
+        { "claimed": false, "name": "Hebwith", "description": "", "id": 294 },
+        { "claimed": false, "name": "Hieronymo", "description": "", "id": 295 },
         {
             "claimed": false,
             "name": "Hostrena Butterknife",
             "description": "",
             "id": 296
         },
-        {
-            "claimed": false,
-            "name": "Benjaplom",
-            "description": "",
-            "id": 297
-        },
-        {
-            "claimed": false,
-            "name": "Gregonius",
-            "description": "",
-            "id": 298
-        },
+        { "claimed": false, "name": "Benjaplom", "description": "", "id": 297 },
+        { "claimed": false, "name": "Gregonius", "description": "", "id": 298 },
         {
             "claimed": false,
             "name": "[https://en.wiktionary.org/wiki/Category:Old_High_German_given_names]",
@@ -5219,24 +4408,14 @@
             "description": "gnoll",
             "id": 301
         },
-        {
-            "claimed": false,
-            "name": "Innar",
-            "description": "",
-            "id": 302
-        },
+        { "claimed": false, "name": "Innar", "description": "", "id": 302 },
         {
             "claimed": false,
             "name": "Irtos",
             "description": "kobold",
             "id": 303
         },
-        {
-            "claimed": false,
-            "name": "Isfand",
-            "description": "",
-            "id": 304
-        },
+        { "claimed": false, "name": "Isfand", "description": "", "id": 304 },
         {
             "claimed": false,
             "name": "Ishara",
@@ -5267,18 +4446,8 @@
             "description": "female ?? names",
             "id": 309
         },
-        {
-            "claimed": false,
-            "name": "Khad",
-            "description": "quori",
-            "id": 310
-        },
-        {
-            "claimed": false,
-            "name": "Khoratari",
-            "description": "",
-            "id": 311
-        },
+        { "claimed": false, "name": "Khad", "description": "quori", "id": 310 },
+        { "claimed": false, "name": "Khoratari", "description": "", "id": 311 },
         {
             "claimed": false,
             "name": "Knottypate",
@@ -5291,42 +4460,17 @@
             "description": "hag last name",
             "id": 313
         },
-        {
-            "claimed": false,
-            "name": "Kosh",
-            "description": "quori",
-            "id": 314
-        },
-        {
-            "claimed": false,
-            "name": "lakosh",
-            "description": "",
-            "id": 315
-        },
+        { "claimed": false, "name": "Kosh", "description": "quori", "id": 314 },
+        { "claimed": false, "name": "lakosh", "description": "", "id": 315 },
         {
             "claimed": false,
             "name": "leer",
             "description": "unit of measure",
             "id": 317
         },
-        {
-            "claimed": false,
-            "name": "Leylan",
-            "description": "",
-            "id": 318
-        },
-        {
-            "claimed": false,
-            "name": "Locustay",
-            "description": "",
-            "id": 319
-        },
-        {
-            "claimed": false,
-            "name": "Lummur",
-            "description": "",
-            "id": 321
-        },
+        { "claimed": false, "name": "Leylan", "description": "", "id": 318 },
+        { "claimed": false, "name": "Locustay", "description": "", "id": 319 },
+        { "claimed": false, "name": "Lummur", "description": "", "id": 321 },
         {
             "claimed": false,
             "name": "Madge Parsons",
@@ -5363,12 +4507,7 @@
             "description": "kobold",
             "id": 327
         },
-        {
-            "claimed": false,
-            "name": "Melk",
-            "description": "quori",
-            "id": 328
-        },
+        { "claimed": false, "name": "Melk", "description": "quori", "id": 328 },
         {
             "claimed": false,
             "name": "Mensil(r/n)oy",
@@ -5387,12 +4526,7 @@
             "description": "",
             "id": 331
         },
-        {
-            "claimed": false,
-            "name": "Clough ",
-            "description": "",
-            "id": 332
-        },
+        { "claimed": false, "name": "Clough ", "description": "", "id": 332 },
         {
             "claimed": false,
             "name": "Molo",
@@ -5411,60 +4545,25 @@
             "description": "hag last name",
             "id": 335
         },
-        {
-            "claimed": false,
-            "name": "Nari",
-            "description": "quori",
-            "id": 336
-        },
-        {
-            "claimed": false,
-            "name": "Nash",
-            "description": "",
-            "id": 337
-        },
+        { "claimed": false, "name": "Nari", "description": "quori", "id": 336 },
+        { "claimed": false, "name": "Nash", "description": "", "id": 337 },
         {
             "claimed": false,
             "name": "Nasree",
             "description": "female ?? names",
             "id": 338
         },
-        {
-            "claimed": false,
-            "name": "Natalie",
-            "description": "",
-            "id": 339
-        },
-        {
-            "claimed": false,
-            "name": "Nevitash ",
-            "description": "",
-            "id": 340
-        },
+        { "claimed": false, "name": "Natalie", "description": "", "id": 339 },
+        { "claimed": false, "name": "Nevitash ", "description": "", "id": 340 },
         {
             "claimed": false,
             "name": "Nisi Siurp (SEE-urp)",
             "description": "",
             "id": 341
         },
-        {
-            "claimed": false,
-            "name": "Nunce",
-            "description": "",
-            "id": 342
-        },
-        {
-            "claimed": false,
-            "name": "Odell",
-            "description": "",
-            "id": 343
-        },
-        {
-            "claimed": false,
-            "name": "Oduk",
-            "description": "gnoll",
-            "id": 344
-        },
+        { "claimed": false, "name": "Nunce", "description": "", "id": 342 },
+        { "claimed": false, "name": "Odell", "description": "", "id": 343 },
+        { "claimed": false, "name": "Oduk", "description": "gnoll", "id": 344 },
         {
             "claimed": false,
             "name": "Ohsoss",
@@ -5484,24 +4583,9 @@
             "id": 348,
             "prep": true
         },
-        {
-            "claimed": false,
-            "name": "ORP FREEN",
-            "description": "",
-            "id": 349
-        },
-        {
-            "claimed": false,
-            "name": "Otal",
-            "description": "gnoll",
-            "id": 350
-        },
-        {
-            "claimed": false,
-            "name": "Panzon",
-            "description": "",
-            "id": 351
-        },
+        { "claimed": false, "name": "ORP FREEN", "description": "", "id": 349 },
+        { "claimed": false, "name": "Otal", "description": "gnoll", "id": 350 },
+        { "claimed": false, "name": "Panzon", "description": "", "id": 351 },
         {
             "claimed": false,
             "name": "PHERMASTAPHY",
@@ -5527,18 +4611,8 @@
             "description": "mind flayer",
             "id": 357
         },
-        {
-            "claimed": false,
-            "name": "Ragdar",
-            "description": "",
-            "id": 358
-        },
-        {
-            "claimed": false,
-            "name": "Rakari",
-            "description": "",
-            "id": 359
-        },
+        { "claimed": false, "name": "Ragdar", "description": "", "id": 358 },
+        { "claimed": false, "name": "Rakari", "description": "", "id": 359 },
         {
             "claimed": false,
             "name": "Ralayan",
@@ -5551,12 +4625,7 @@
             "description": "female ?? names",
             "id": 361
         },
-        {
-            "claimed": false,
-            "name": "Raznah",
-            "description": "",
-            "id": 362
-        },
+        { "claimed": false, "name": "Raznah", "description": "", "id": 362 },
         {
             "claimed": false,
             "name": "Razu",
@@ -5569,24 +4638,14 @@
             "description": "female ?? names",
             "id": 364
         },
-        {
-            "claimed": false,
-            "name": "Reksiit",
-            "description": "",
-            "id": 365
-        },
+        { "claimed": false, "name": "Reksiit", "description": "", "id": 365 },
         {
             "claimed": false,
             "name": "Rickety",
             "description": "hag title",
             "id": 366
         },
-        {
-            "claimed": false,
-            "name": "ROJEK",
-            "description": "",
-            "id": 367
-        },
+        { "claimed": false, "name": "ROJEK", "description": "", "id": 367 },
         {
             "claimed": false,
             "name": "Rolphe Nustle",
@@ -5629,30 +4688,15 @@
             "description": "female ?? names",
             "id": 375
         },
-        {
-            "claimed": false,
-            "name": "Shahar",
-            "description": "",
-            "id": 376
-        },
+        { "claimed": false, "name": "Shahar", "description": "", "id": 376 },
         {
             "claimed": false,
             "name": "Shedroor",
             "description": "female ?? names",
             "id": 377
         },
-        {
-            "claimed": false,
-            "name": "Sik",
-            "description": "kobold",
-            "id": 378
-        },
-        {
-            "claimed": false,
-            "name": "Sleggy",
-            "description": "",
-            "id": 380
-        },
+        { "claimed": false, "name": "Sik", "description": "kobold", "id": 378 },
+        { "claimed": false, "name": "Sleggy", "description": "", "id": 380 },
         {
             "claimed": false,
             "name": "Sniv",
@@ -5671,36 +4715,11 @@
             "description": "lizard, kobold",
             "id": 384
         },
-        {
-            "claimed": false,
-            "name": "Tari",
-            "description": "quori",
-            "id": 387
-        },
-        {
-            "claimed": false,
-            "name": "Tariic",
-            "description": "",
-            "id": 388
-        },
-        {
-            "claimed": false,
-            "name": "Taruuzh",
-            "description": "",
-            "id": 389
-        },
-        {
-            "claimed": false,
-            "name": "Tash",
-            "description": "quori",
-            "id": 390
-        },
-        {
-            "claimed": false,
-            "name": "Tes",
-            "description": "kobold",
-            "id": 391
-        },
+        { "claimed": false, "name": "Tari", "description": "quori", "id": 387 },
+        { "claimed": false, "name": "Tariic", "description": "", "id": 388 },
+        { "claimed": false, "name": "Taruuzh", "description": "", "id": 389 },
+        { "claimed": false, "name": "Tash", "description": "quori", "id": 390 },
+        { "claimed": false, "name": "Tes", "description": "kobold", "id": 391 },
         {
             "claimed": false,
             "name": "Tharcereli",
@@ -5719,24 +4738,9 @@
             "description": "dwarf surname",
             "id": 395
         },
-        {
-            "claimed": false,
-            "name": "Torashtai",
-            "description": "",
-            "id": 396
-        },
-        {
-            "claimed": false,
-            "name": "Trabis",
-            "description": "",
-            "id": 397
-        },
-        {
-            "claimed": false,
-            "name": "TumTum",
-            "description": "",
-            "id": 398
-        },
+        { "claimed": false, "name": "Torashtai", "description": "", "id": 396 },
+        { "claimed": false, "name": "Trabis", "description": "", "id": 397 },
+        { "claimed": false, "name": "TumTum", "description": "", "id": 398 },
         {
             "claimed": false,
             "name": "Tuneer",
@@ -5762,12 +4766,7 @@
             "id": 402,
             "tags": ["contributor"]
         },
-        {
-            "claimed": false,
-            "name": "Ulad",
-            "description": "quori",
-            "id": 403
-        },
+        { "claimed": false, "name": "Ulad", "description": "quori", "id": 403 },
         {
             "claimed": false,
             "name": "Ursula",
@@ -5786,30 +4785,15 @@
             "description": "quori",
             "id": 406
         },
-        {
-            "claimed": false,
-            "name": "Valakhad ",
-            "description": "",
-            "id": 407
-        },
+        { "claimed": false, "name": "Valakhad ", "description": "", "id": 407 },
         {
             "claimed": false,
             "name": "Valii",
             "description": "female ?? names",
             "id": 408
         },
-        {
-            "claimed": false,
-            "name": "Vanii",
-            "description": "",
-            "id": 409
-        },
-        {
-            "claimed": false,
-            "name": "Vanon ",
-            "description": "",
-            "id": 410
-        },
+        { "claimed": false, "name": "Vanii", "description": "", "id": 409 },
+        { "claimed": false, "name": "Vanon ", "description": "", "id": 410 },
         {
             "claimed": false,
             "name": "Varn",
@@ -5867,24 +4851,14 @@
             "description": "hag last name",
             "id": 419
         },
-        {
-            "claimed": false,
-            "name": "Wuudaraj",
-            "description": "",
-            "id": 420
-        },
+        { "claimed": false, "name": "Wuudaraj", "description": "", "id": 420 },
         {
             "claimed": false,
             "name": "Zellix",
             "description": "mind flayer",
             "id": 421
         },
-        {
-            "claimed": false,
-            "name": "Gind",
-            "description": "??",
-            "id": 422
-        },
+        { "claimed": false, "name": "Gind", "description": "??", "id": 422 },
         {
             "claimed": false,
             "name": "Boolook",
@@ -7080,39 +6054,14 @@
         }
     ],
     "description": [
-        {
-            "content": "deserts & grasslands",
-            "id": 1
-        },
-        {
-            "content": "special kind of nettle",
-            "id": 2
-        },
-        {
-            "content": "a bald bard",
-            "id": 3
-        },
-        {
-            "content": "beard inserts",
-            "id": 4
-        },
-        {
-            "content": "lots of blisters",
-            "id": 5,
-            "prep": false
-        },
-        {
-            "content": "lives in a trailer",
-            "id": 6
-        },
-        {
-            "content": "**clothes made from things in the universe** ",
-            "id": 7
-        },
-        {
-            "content": " with its fog-ladled neighborhoods",
-            "id": 8
-        },
+        { "content": "deserts & grasslands", "id": 1 },
+        { "content": "special kind of nettle", "id": 2 },
+        { "content": "a bald bard", "id": 3 },
+        { "content": "beard inserts", "id": 4 },
+        { "content": "lots of blisters", "id": 5, "prep": false },
+        { "content": "lives in a trailer", "id": 6 },
+        { "content": "**clothes made from things in the universe** ", "id": 7 },
+        { "content": " with its fog-ladled neighborhoods", "id": 8 },
         {
             "content": "The clusters of white lice contrast with the dark skin of the whale, and help researchers identify individual whales because of the lice clusters' unique shapes.",
             "id": 9
@@ -7125,226 +6074,73 @@
             "content": "The pale, amber-tinted shadows under her chin",
             "id": 11
         },
-        {
-            "content": "armour of apple-green moiré.",
-            "id": 12
-        },
-        {
-            "content": "Tricorn Hat",
-            "id": 13
-        },
-        {
-            "content": "Long Coat",
-            "id": 14
-        },
-        {
-            "content": "Hood & Veil",
-            "id": 15
-        },
-        {
-            "content": "Short Cloak",
-            "id": 16
-        },
-        {
-            "content": "Knit Cap",
-            "id": 17
-        },
-        {
-            "content": "Slim Jacket",
-            "id": 18
-        },
-        {
-            "content": "Hooded Coat",
-            "id": 19
-        },
-        {
-            "content": "Tall Boots",
-            "id": 20
-        },
-        {
-            "content": "Work Boots",
-            "id": 21
-        },
-        {
-            "content": "Mask & Robes",
-            "id": 22
-        },
-        {
-            "content": "Suit & Vest",
-            "id": 23
-        },
-        {
-            "content": "Collared Shirt",
-            "id": 24
-        },
-        {
-            "content": "Suspenders",
-            "id": 25
-        },
-        {
-            "content": "Rough Tunic",
-            "id": 26
-        },
-        {
-            "content": "Skirt & Blouse",
-            "id": 27
-        },
-        {
-            "content": "Wide Belt",
-            "id": 28
-        },
-        {
-            "content": "Fitted Dress",
-            "id": 29
-        },
-        {
-            "content": "Heavy Cloak",
-            "id": 30
-        },
-        {
-            "content": "Thick Greatcoat",
-            "id": 31
-        },
-        {
-            "content": "Soft Boots",
-            "id": 32
-        },
-        {
-            "content": "Loose Silks",
-            "id": 33
-        },
-        {
-            "content": "Sharp Trousers",
-            "id": 34
-        },
-        {
-            "content": "Waxed Coat",
-            "id": 35
-        },
-        {
-            "content": "Long Scarf",
-            "id": 36
-        },
-        {
-            "content": "Leathers",
-            "id": 37
-        },
-        {
-            "content": "Eelskin Bodysuit",
-            "id": 38
-        },
-        {
-            "content": "Hide & Furs",
-            "id": 39
-        },
-        {
-            "content": "Uniform",
-            "id": 40
-        },
-        {
-            "content": "Tatters",
-            "id": 41
-        },
-        {
-            "content": "Fitted Leggings",
-            "id": 42
-        },
-        {
-            "content": "Apron",
-            "id": 43
-        },
-        {
-            "content": "Heavy Gloves",
-            "id": 44
-        },
-        {
-            "content": "Face Mask",
-            "id": 45
-        },
-        {
-            "content": "Tool Belt",
-            "id": 46
-        },
-        {
-            "content": "Crutches",
-            "id": 47
-        },
-        {
-            "content": "Cane",
-            "id": 48
-        },
+        { "content": "armour of apple-green moiré.", "id": 12 },
+        { "content": "Tricorn Hat", "id": 13 },
+        { "content": "Long Coat", "id": 14 },
+        { "content": "Hood & Veil", "id": 15 },
+        { "content": "Short Cloak", "id": 16 },
+        { "content": "Knit Cap", "id": 17 },
+        { "content": "Slim Jacket", "id": 18 },
+        { "content": "Hooded Coat", "id": 19 },
+        { "content": "Tall Boots", "id": 20 },
+        { "content": "Work Boots", "id": 21 },
+        { "content": "Mask & Robes", "id": 22 },
+        { "content": "Suit & Vest", "id": 23 },
+        { "content": "Collared Shirt", "id": 24 },
+        { "content": "Suspenders", "id": 25 },
+        { "content": "Rough Tunic", "id": 26 },
+        { "content": "Skirt & Blouse", "id": 27 },
+        { "content": "Wide Belt", "id": 28 },
+        { "content": "Fitted Dress", "id": 29 },
+        { "content": "Heavy Cloak", "id": 30 },
+        { "content": "Thick Greatcoat", "id": 31 },
+        { "content": "Soft Boots", "id": 32 },
+        { "content": "Loose Silks", "id": 33 },
+        { "content": "Sharp Trousers", "id": 34 },
+        { "content": "Waxed Coat", "id": 35 },
+        { "content": "Long Scarf", "id": 36 },
+        { "content": "Leathers", "id": 37 },
+        { "content": "Eelskin Bodysuit", "id": 38 },
+        { "content": "Hide & Furs", "id": 39 },
+        { "content": "Uniform", "id": 40 },
+        { "content": "Tatters", "id": 41 },
+        { "content": "Fitted Leggings", "id": 42 },
+        { "content": "Apron", "id": 43 },
+        { "content": "Heavy Gloves", "id": 44 },
+        { "content": "Face Mask", "id": 45 },
+        { "content": "Tool Belt", "id": 46 },
+        { "content": "Crutches", "id": 47 },
+        { "content": "Cane", "id": 48 },
         {
             "content": "its stupendious Bulk beset with very Rich Ornaments",
             "id": 49
         },
-        {
-            "content": "with a bullfrog drawl",
-            "id": 50
-        },
+        { "content": "with a bullfrog drawl", "id": 50 },
         {
             "content": "One peticoate of tawney satten,..with lypes [pleats or folds], lyned with orenge-colour sarconet [sarcenet: A very fine and soft silk material made both plain and twilled, in various colours, now used chiefly for linings; a dress made of this.].",
             "id": 51
         },
-        {
-            "content": "plumage … ?",
-            "id": 52
-        },
-        {
-            "content": "σκευάζειν to make ready.",
-            "id": 53
-        },
-        {
-            "content": "glossomachicall: given to wordy strife",
-            "id": 54
-        },
-        {
-            "content": "short black frock",
-            "id": 55
-        },
-        {
-            "content": "standing on a chair by the window",
-            "id": 56
-        },
-        {
-            "content": "money-saving offers",
-            "id": 57
-        },
-        {
-            "content": "[head] thrust through a little door",
-            "id": 58
-        },
+        { "content": "plumage … ?", "id": 52 },
+        { "content": "σκευάζειν to make ready.", "id": 53 },
+        { "content": "glossomachicall: given to wordy strife", "id": 54 },
+        { "content": "short black frock", "id": 55 },
+        { "content": "standing on a chair by the window", "id": 56 },
+        { "content": "money-saving offers", "id": 57 },
+        { "content": "[head] thrust through a little door", "id": 58 },
         {
             "content": "polished beak; polishing a beak with a clean cloth",
             "id": 59
         },
-        {
-            "content": "[gertrude stein language]",
-            "id": 60
-        },
-        {
-            "content": "selling fruits upon the passages",
-            "id": 61
-        },
-        {
-            "content": "prompt and hardy",
-            "id": 62
-        },
-        {
-            "content": "seen full ninety winters",
-            "id": 63
-        },
-        {
-            "content": "with Asses ears and a huge gundy gut.",
-            "id": 64
-        },
+        { "content": "[gertrude stein language]", "id": 60 },
+        { "content": "selling fruits upon the passages", "id": 61 },
+        { "content": "prompt and hardy", "id": 62 },
+        { "content": "seen full ninety winters", "id": 63 },
+        { "content": "with Asses ears and a huge gundy gut.", "id": 64 },
         {
             "content": "wouldn't hesitate to 'soak an orange in hot water to make it swell' (dishonest dealings)",
             "id": 65
         },
-        {
-            "content": "an artfully hooked thumb (in a pocket?)",
-            "id": 66
-        },
+        { "content": "an artfully hooked thumb (in a pocket?)", "id": 66 },
         {
             "content": "a bright chestnut colour, and with a green gilded head and corselet.",
             "id": 67
@@ -7357,10 +6153,7 @@
             "content": "red scarf around his neck, cap with a peak and flaps, and a short well-colored clay pipe in his mouth",
             "id": 69
         },
-        {
-            "content": "purplish blue above and bright silvery below",
-            "id": 70
-        },
+        { "content": "purplish blue above and bright silvery below", "id": 70 },
         {
             "content": "upper black; under white; under base spiny tail smoke-brown; upper breast orange-rufous.",
             "id": 71
@@ -7377,18 +6170,12 @@
             "content": "under the influence of the muriatic [salty / briny] Bath.",
             "id": 74
         },
-        {
-            "content": "looks like they are dancing in snow",
-            "id": 75
-        },
+        { "content": "looks like they are dancing in snow", "id": 75 },
         {
             "content": "'he cracked his thumbs for a bit of a fratch' (quarrel)",
             "id": 76
         },
-        {
-            "content": "pretends their sense of smell is offended",
-            "id": 77
-        },
+        { "content": "pretends their sense of smell is offended", "id": 77 },
         {
             "content": "looks like been wading through glens, with shoes full of water",
             "id": 78
@@ -7401,26 +6188,14 @@
             "content": "agar leech, cereal(s) hag, cage healer, ale charge, large ache, char / arch eagle, reach gel, garnet trading; ",
             "id": 80
         },
-        {
-            "content": " ulcer'd liver",
-            "id": 81
-        },
+        { "content": " ulcer'd liver", "id": 81 },
         {
             "content": " In combination..it is found efflorescent on the soil in some countries.",
             "id": 82
         },
-        {
-            "content": "upon the dry bones of theology.",
-            "id": 83
-        },
-        {
-            "content": "Deadening his touch ",
-            "id": 84
-        },
-        {
-            "content": "His crisp, sinewy punches landed serenely. ",
-            "id": 85
-        },
+        { "content": "upon the dry bones of theology.", "id": 83 },
+        { "content": "Deadening his touch ", "id": 84 },
+        { "content": "His crisp, sinewy punches landed serenely. ", "id": 85 },
         {
             "content": "a  sparrowhawk completely unbothered by your presence.",
             "id": 86
@@ -7467,11 +6242,7 @@
             "tags": ["location"],
             "id": 96
         },
-        {
-            "content": "Green Old Age",
-            "tags": ["afflictions"],
-            "id": 97
-        },
+        { "content": "Green Old Age", "tags": ["afflictions"], "id": 97 },
         {
             "content": "wherein appeare some old trees with high withered tops, and other flourishing with living greene boughs.",
             "tags": ["location"],
@@ -7542,11 +6313,7 @@
             "tags": ["clothing"],
             "id": 111
         },
-        {
-            "content": "a wearing hat",
-            "tags": [],
-            "id": 112
-        },
+        { "content": "a wearing hat", "tags": [], "id": 112 },
         {
             "content": "a Cap made of skin in the form of a Helmet.",
             "tags": ["armor", "clothing"],
@@ -7582,11 +6349,7 @@
             "tags": [],
             "id": 119
         },
-        {
-            "content": "the Imponderable",
-            "tags": ["epithet"],
-            "id": 120
-        },
+        { "content": "the Imponderable", "tags": ["epithet"], "id": 120 },
         {
             "content": "app: tangerine, goiter, stoney look, thongs, ginger, goatee, derby hat",
             "tags": [],
@@ -7734,11 +6497,7 @@
             "id": 1,
             "description": "(or members of the trading corporation.) : The name given (in the city of Oxford) to persons paying the entrance-fee of the guild-merchant (see Hanse n. 2), and admitted as Freeman of the City."
         },
-        {
-            "name": "sonkusq",
-            "id": 2,
-            "description": " [algonquin]  queen"
-        },
+        { "name": "sonkusq", "id": 2, "description": " [algonquin]  queen" },
         {
             "name": "salfay",
             "id": 3,
@@ -7749,10 +6508,7 @@
             "id": 4,
             "description": ": a reviser (esp. recensions of ancient writing)"
         },
-        {
-            "name": "blemmere (obs. a plumber)",
-            "id": 5
-        },
+        { "name": "blemmere (obs. a plumber)", "id": 5 },
         {
             "name": "archigrapher / archigraphus",
             "id": 6,
@@ -7778,28 +6534,19 @@
             "id": 10,
             "description": " (from nike, victory, to conquer): a winner in a stadium or foot race"
         },
-        {
-            "name": "self-styled 'controversialist'",
-            "id": 11
-        },
+        { "name": "self-styled 'controversialist'", "id": 11 },
         {
             "name": "preaetergredi",
             "id": 12,
             "description": " : one who goes beyond or surpasses / to overlook"
         },
-        {
-            "name": "chickabiddy: a young child",
-            "id": 13
-        },
+        { "name": "chickabiddy: a young child", "id": 13 },
         {
             "name": "costermonger / fructier",
             "id": 14,
             "description": ": orig. apple seller; someone who sells fruit, vegetables, fish from barrow or handcart"
         },
-        {
-            "name": "rímkænn skilled in calendrical computation.",
-            "id": 15
-        },
+        { "name": "rímkænn skilled in calendrical computation.", "id": 15 },
         {
             "name": "reim-kennar",
             "id": 16,
@@ -7925,10 +6672,7 @@
         }
     ],
     "work": [
-        {
-            "title": "Sketches of fashion",
-            "id": 20
-        },
+        { "title": "Sketches of fashion", "id": 20 },
         {
             "title": "Domestic amusements; or, Philosophical recreations",
             "id": 19,
@@ -7952,14 +6696,8 @@
             "title": " A declaration of egregious [popish] impostures ",
             "id": 15
         },
-        {
-            "title": "Library of practical agriculture",
-            "id": 14
-        },
-        {
-            "title": "A supplement to so-and-so's cyclopedia",
-            "id": 13
-        },
+        { "title": "Library of practical agriculture", "id": 14 },
+        { "title": "A supplement to so-and-so's cyclopedia", "id": 13 },
         {
             "title": "The workes of that famous chirurgion Chafowre Beeld",
             "id": 12,
@@ -7982,10 +6720,7 @@
             "title": "The true Non-conformist in answere to the Modest and free conference betwixt a Conformist and a Non-conformist, about the present distempers of [place] . By a lover of truth",
             "id": 8
         },
-        {
-            "title": "journal of the [something] war",
-            "id": 6
-        },
+        { "title": "journal of the [something] war", "id": 6 },
         {
             "title": "Revelations of Nundocamar",
             "contents": "",
@@ -8847,11 +7582,7 @@
             "tags": ["location", "faction"],
             "id": 471
         },
-        {
-            "name": "Candle Ghost",
-            "tags": ["location", "faction"],
-            "id": 472
-        },
+        { "name": "Candle Ghost", "tags": ["location", "faction"], "id": 472 },
         {
             "name": "The Dandy Gosling",
             "tags": ["location", "faction"],
@@ -8892,21 +7623,13 @@
             "tags": ["assorted"],
             "id": 401
         },
-        {
-            "name": "diaster : two stars",
-            "tags": ["assorted"],
-            "id": 402
-        },
+        { "name": "diaster : two stars", "tags": ["assorted"], "id": 402 },
         {
             "name": "water of magnanimity  n.  [after post-classical Latin aqua magnanimitatis (1614 or earlier)] Medicine Obsolete a preparation made by soaking ants in alcohol and distilling the resulting liquid, used medicinally as a stimulant.",
             "tags": ["assorted"],
             "id": 403
         },
-        {
-            "name": "creosote",
-            "tags": ["assorted"],
-            "id": 404
-        },
+        { "name": "creosote", "tags": ["assorted"], "id": 404 },
         {
             "name": "chaffern: vessel to heat water in'",
             "tags": ["assorted"],
@@ -8952,16 +7675,8 @@
             "tags": ["assorted"],
             "id": 413
         },
-        {
-            "name": "pollard: fine bran",
-            "tags": ["assorted"],
-            "id": 414
-        },
-        {
-            "name": "pollantine: porpoise ? ",
-            "tags": ["assorted"],
-            "id": 415
-        },
+        { "name": "pollard: fine bran", "tags": ["assorted"], "id": 414 },
+        { "name": "pollantine: porpoise ? ", "tags": ["assorted"], "id": 415 },
         {
             "name": "an exipotic: Of a medicine: promoting digestion; cleansing, purging.",
             "tags": ["assorted"],
@@ -8972,26 +7687,14 @@
             "tags": ["assorted"],
             "id": 417
         },
-        {
-            "name": "trollsmilk and cheese",
-            "tags": ["assorted"],
-            "id": 418
-        },
-        {
-            "name": "trade goods:  figs",
-            "tags": ["assorted"],
-            "id": 419
-        },
+        { "name": "trollsmilk and cheese", "tags": ["assorted"], "id": 418 },
+        { "name": "trade goods:  figs", "tags": ["assorted"], "id": 419 },
         {
             "name": "Salaeratus [baking powder] Biscuit.",
             "tags": ["assorted"],
             "id": 420
         },
-        {
-            "name": "sealing wax",
-            "tags": ["assorted"],
-            "id": 421
-        },
+        { "name": "sealing wax", "tags": ["assorted"], "id": 421 },
         {
             "name": "marl / marlstone: lime-rich mud or mudstone has calcite mineral (describes indurated marine deposits and lacustrine sediments (marlstone); underlies peat bogs; used as soil conditioner (agricultural lime))",
             "tags": ["assorted"],
@@ -9007,11 +7710,7 @@
             "tags": ["assorted"],
             "id": 424
         },
-        {
-            "name": "dimension stone (trade)",
-            "tags": ["assorted"],
-            "id": 425
-        },
+        { "name": "dimension stone (trade)", "tags": ["assorted"], "id": 425 },
         {
             "name": "choucroute, pickled cabbage; usually served with meat",
             "tags": ["assorted"],
@@ -9027,11 +7726,7 @@
             "tags": ["assorted"],
             "id": 428
         },
-        {
-            "name": "prawns / cumacens",
-            "tags": ["assorted"],
-            "id": 429
-        },
+        { "name": "prawns / cumacens", "tags": ["assorted"], "id": 429 },
         {
             "name": "salt glands from animals —costard: A large apple with prominent ribs or ridges, often described as having a pale green or red-flushed skin; a tree producing such an apple.",
             "tags": ["assorted"],
@@ -9042,11 +7737,7 @@
             "tags": ["assorted"],
             "id": 431
         },
-        {
-            "name": "flouder: ?",
-            "tags": ["assorted"],
-            "id": 432
-        },
+        { "name": "flouder: ?", "tags": ["assorted"], "id": 432 },
         {
             "name": "pep crystals (from crystal pepsi)",
             "tags": ["assorted"],
@@ -12922,38 +11613,19 @@
             "isNamedCreature": true,
             "source": "zorq",
             "size": "L",
-            "type": {
-                "type": "humanoid",
-                "tags": ["demon"]
-            },
+            "type": { "type": "humanoid", "tags": ["demon"] },
             "alignment": ["C", "E"],
-            "ac": [
-                {
-                    "ac": 16,
-                    "from": ["natural armor"]
-                }
-            ],
-            "hp": {
-                "formula": "16d10 + 48",
-                "average": 150
-            },
-            "speed": {
-                "walk": 30
-            },
+            "ac": [{ "ac": 16, "from": ["natural armor"] }],
+            "hp": { "formula": "16d10 + 48", "average": 150 },
+            "speed": { "walk": 30 },
             "str": 14,
             "dex": 15,
             "con": 16,
             "int": 14,
             "wis": 16,
             "cha": 18,
-            "save": {
-                "dex": "+6",
-                "con": "+7",
-                "wis": "+7"
-            },
-            "skill": {
-                "perception": "+7"
-            },
+            "save": { "dex": "+6", "con": "+7", "wis": "+7" },
+            "skill": { "perception": "+7" },
             "senses": ["blindsight 60 ft."],
             "passive": 17,
             "resist": ["cold", "fire", "lightning"],

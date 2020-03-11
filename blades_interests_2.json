@@ -1,0 +1,86 @@
+{
+    "interests": [
+        {
+            "name": "Fine whiskey, wine, beer ",
+            "id": 19,
+            "tags": ["interest", "blades"]
+        },
+        {
+            "name": "Fine clothes, jewelry, furs ",
+            "id": 20,
+            "tags": ["interest", "blades"]
+        },
+        {
+            "name": "Painting, drawing, sculpture ",
+            "id": 21,
+            "tags": ["interest", "blades"]
+        },
+        {
+            "name": "Architecture, furnishings ",
+            "id": 22,
+            "tags": ["interest", "blades"]
+        },
+        {
+            "name": "Pit-fighting, duels ",
+            "id": 23,
+            "tags": ["interest", "blades"]
+        },
+        {
+            "name": "Chruch of Ecstasy ",
+            "id": 24,
+            "tags": ["interest", "blades"]
+        },
+        {
+            "name": "Weeping Lady, charity ",
+            "id": 25,
+            "tags": ["interest", "blades"]
+        },
+        { "name": "Horses, riding", "id": 26, "tags": ["interest", "blades"] },
+        {
+            "name": "Weapons collector ",
+            "id": 27,
+            "tags": ["interest", "blades"]
+        },
+        {
+            "name": "Hunting, shooting ",
+            "id": 28,
+            "tags": ["interest", "blades"]
+        },
+        {
+            "name": "Gambling, cards, dice ",
+            "id": 29,
+            "tags": ["interest", "blades"]
+        },
+        {
+            "name": "Drugs, essences, tobacco ",
+            "id": 30,
+            "tags": ["interest", "blades"]
+        },
+        {
+            "name": "Parties, social events ",
+            "id": 31,
+            "tags": ["interest", "blades"]
+        },
+        {
+            "name": "Pets (birds, dogs, cats) ",
+            "id": 32,
+            "tags": ["interest", "blades"]
+        },
+        { "name": "Ships, boating", "id": 33, "tags": ["interest", "blades"] },
+        {
+            "name": "Arcane books, rituals ",
+            "id": 34,
+            "tags": ["interest", "blades"]
+        },
+        {
+            "name": "Alchemy, medicine ",
+            "id": 35,
+            "tags": ["interest", "blades"]
+        },
+        {
+            "name": "Demon lore, legends",
+            "id": 36,
+            "tags": ["interest", "blades"]
+        }
+    ]
+}

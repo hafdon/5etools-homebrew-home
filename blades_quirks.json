@@ -1,0 +1,94 @@
+{
+    "quirks": [
+        {
+            "name": "Superstitious. Believes in signs, magic numbers.",
+            "id": 19,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Married into important / powerful family.",
+            "id": 20,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Reclusive. Prefers to interact via messengers.",
+            "id": 21,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Blind to flaws in friends, allies, family, etc.",
+            "id": 22,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Has chronic illness that requires frequent care.",
+            "id": 23,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Serves a demon’s agenda (knowingly or not).",
+            "id": 24,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Concerned with appearances, gossip, peers.",
+            "id": 25,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Holds their position due to blackmail.",
+            "id": 26,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Involved with war crimes from the Unity War.",
+            "id": 27,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Black sheep / outcast from family or organization.",
+            "id": 28,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Well-traveled. Connections outside Doskvol.",
+            "id": 29,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Inherited their position. May not deserve / want it.",
+            "id": 30,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Scandalous reputation (deserved or not).",
+            "id": 31,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Spotless reputation. Highly regarded.",
+            "id": 32,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Visionary. Holds radical views for future.",
+            "id": 33,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Intense, unreasonable phobia or loathing.",
+            "id": 34,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Keeps detailed journals, notes, records, ledgers.",
+            "id": 35,
+            "tags": ["quirk", "blades"]
+        },
+        {
+            "name": "Deeply traditional. Opposed to new ideas.",
+            "id": 36,
+            "tags": ["quirk", "blades"]
+        }
+    ]
+}
