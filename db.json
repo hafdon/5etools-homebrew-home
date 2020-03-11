@@ -1693,45 +1693,50 @@
     "prep": [
         {
             "name": "",
+            "id": 1,
+            "tags": [],
+            "prep": false,
             "description": "horizon walker characterization through Bag of Holding\nhow does flick's 'protection from evil and good' manifest\nfallout from paros letting domonkos drink him\nWhat was isabella/lacrey reading?\nDrav saw (sees) a new spell in Riult's spellbook when …    \n \ncarlos: aule and time/initiative \nparos: ignorance is the source of your magic / funny lineage (an amnesia event?)\nfez: & carlos can make holy water together— naphula, eluin, bixby, merrigold, gormflaith (& weapons & circlets)\n\nvoiced:\nbrak: (being eaten): pendergreens\nthaz : brak from titanic?\nkolmy: bitsy boo carmichael\nother things : paw paw / mickey mouse / zod\n\nKolmy\nhas brak? \n- and vargouilles? \n- and plant-dogs?\n- and leucrotta?\n- and curculio (a kitsune, who she is using to show that dogs who act like cats are thought of as OK)\n  - name has \"cur\" in it!\n\n\n",
-            "session_id": "18",
-            "tags": [],
-            "id": 2
+            "session_id": "18"
         },
         {
             "name": "",
+            "id": 2,
+            "tags": [],
+            "prep": false,
             "description": "# - \"You're good with computer\". - \"I did!\"\n\nwhat is the equivalent of stress to take a flashback\n\n- do a voice for snapping turtle\n- asked the gang what they thought about flashback-type study\n- get people in touch with source of their power every session\n- hollow core sword that whistles (thaz's rapier?)\n- cloud of daggers invigorates the spiritual hammer\n- waves of monsters, as Flick fears (or, just in her dreams -- because unable to close portals!)",
-            "session_id": "19",
-            "tags": [],
-            "id": 3
+            "session_id": "19"
         },
         {
             "name": "",
+            "id": 3,
+            "tags": [],
+            "prep": false,
             "description": "",
-            "session_id": null,
-            "tags": [],
-            "id": 4
+            "session_id": null
         },
         {
             "name": "",
+            "id": 4,
+            "tags": [],
+            "prep": false,
             "description": "* get matt a fancy pencil\n* put the recycling container out with a liner in it",
-            "session_id": "19",
-            "tags": [],
-            "id": 5
+            "session_id": "19"
         },
         {
             "name": "",
+            "id": 5,
+            "tags": ["blades"],
+            "prep": false,
             "description": "My vice purveyor, Shoemaker Byte (Sharp Trousers, counts on fingers a lot) and lives in a run-down Victorian mansion. His friend, Sprinkly (a gnome-sized version of 'James Rockford') lives in a very well maintained trailer next to her.\n\nGob: Uh, hey, Byte.  \nByte: Hello there.  \nSprinkly: Yay!  \n_Gob looks nonplussed_  \nSprinkly: Gob, have you run into any more demons.  \nGob: Not since that one under the train station. Why, what's up?  \nByte: He won't stop talking about that fucking demon.  \nSprinkly: I just think it's so cool! (And to stick it to the _jacks_!)\nByte: Leave him alone, he just wants to chill.  \nSprinkly: Sure, yeah, uh, you want some tea?  \nGob: (waving off Byte) That sounds great, little dude.  \nSprinkly: (dipping into a battered tin can) We've got ... 'slimy hedgehog' and 'burnt hoof' and 'grizzled hocks' ...  \nGob: What is all this?   \nByte: It's the ...\nSprinkly: ... it's all the types of mushrooms we've got! (continues) 'goat's liver' ... and ... 'green-spored grub' ... 'cressweed' ... 'fake cressweed' ... --\nGob: Yeah, the last one.  \nSprinkly:  ... Which last one? The cressweed, or --  \nGob: Yes, perfect, that one.  \nSprinkly: Oooh, you're gonna like it so much.  \n_Sprinkly keeps talking as Byte moves in close to Gob_  \nByte: (in a low tone) Remina's not here today. I think just Mara and Vey are down there.  \nGob: Okay, yeah, Vey and I have tried together before. It wasn't terrible. Can you --\nByte: Yeah, I'll just toss the tea. _Khel Sohv_, brother.  \nGob: _Khel Sov_, sister.  \n\nGob proceeds down the stairs, which open into a low-ceilinged den hung with thick earth-colored tapestries; some look to be made from hides of animals only known to survive on The Dagger Isles. The floor is covered in an ankle-deep layer of soft dried paper pulp which exudes a cloud of greyish dust when disturbed. He takes hesitant steps towards a whitewashed pedestal on top of which sits a large glass jar containing dry, dark brown soil. Lifting the heavy glass lid from the jar, Gob reaches in a hand and pulls up a clenched fist full of the loose earth. He steels himself momentarily and then gobbles up the dirt, taking vast reckless bites and chewing wildly before swallowing the globus. His clean hand reaches out to grab the edge of the pedestal and steady him, but before he finds support he collapses backwards into the powdery carpeting. ",
             "session_id": "22",
-            "session_date": "2020-03-03",
-            "tags": ["blades"],
-            "id": 6
+            "session_date": "2020-03-03"
         }
     ],
     "clock": [
         {
             "name": "Aule wants carlos in the front lines; it's fake aule that is offering these initiative trading abilities",
-            "id": 2,
+            "id": 1,
             "tags": [],
             "prep": true,
             "description": "",
@@ -1741,7 +1746,7 @@
         },
         {
             "name": "Blob creature being used as a magic cellphone tower",
-            "id": 3,
+            "id": 2,
             "tags": [],
             "prep": false,
             "description": "[see image]",
@@ -1751,7 +1756,7 @@
         },
         {
             "name": "Bogshush name keeps shifting",
-            "id": 4,
+            "id": 3,
             "tags": [],
             "prep": true,
             "description": "(and it becomes hard to remember or communicate to others)",
@@ -1761,7 +1766,7 @@
         },
         {
             "name": "Brak is in a kolmy body / midden heap, and is becoming vegetation",
-            "id": 5,
+            "id": 4,
             "tags": [],
             "prep": false,
             "description": "",
@@ -1771,7 +1776,7 @@
         },
         {
             "name": "fez coral - piercing",
-            "id": 6,
+            "id": 5,
             "tags": [],
             "prep": false,
             "description": "__fez__ has to use the coral as a bit when he's in touch with turtle, and it migrates to his spine as a nape piercing",
@@ -1781,7 +1786,7 @@
         },
         {
             "name": "Fez learns deep undersea language",
-            "id": 7,
+            "id": 6,
             "tags": [],
             "prep": true,
             "description": "",
@@ -1791,7 +1796,7 @@
         },
         {
             "name": "Flick finds true source of goodberries",
-            "id": 8,
+            "id": 7,
             "tags": [],
             "prep": false,
             "description": "It's Shoemaker Byte",
@@ -1801,7 +1806,7 @@
         },
         {
             "name": "flowers start growing on people",
-            "id": 9,
+            "id": 8,
             "tags": [],
             "prep": false,
             "description": "",
@@ -1811,7 +1816,7 @@
         },
         {
             "name": "Godshift divots in Kolmy's head",
-            "id": 10,
+            "id": 9,
             "tags": [],
             "prep": false,
             "description": "what ? see that fungal not growing there ?",
@@ -1821,7 +1826,7 @@
         },
         {
             "name": "goodberry",
-            "id": 11,
+            "id": 10,
             "tags": [],
             "prep": true,
             "description": "flick and goodberries\n\ngoodberry followup: fallout from flick eating 12 goodberries at once -- 14 CON, and 22 PERception",
@@ -1831,7 +1836,7 @@
         },
         {
             "name": "Graal's healed arm didn't heal right",
-            "id": 12,
+            "id": 11,
             "tags": ["complication"],
             "prep": false,
             "description": "-- and now she's dying of poisons or something, and can only be saved by being returned to her homeland.\n- connection with satanopathy\n- sign of a deeper evil",
@@ -1841,7 +1846,7 @@
         },
         {
             "name": "heard that the deep gnomes are intending to capture the bridge zorbo to …",
-            "id": 13,
+            "id": 12,
             "tags": [],
             "prep": false,
             "description": "",
@@ -1851,7 +1856,7 @@
         },
         {
             "name": "Joan and Paros drawn to a Dracolich",
-            "id": 1,
+            "id": 13,
             "tags": [],
             "prep": false,
             "description": "",
@@ -11810,49 +11815,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MTF/Zuggtmoy.png?v=1.96.3"
-        }
-    ],
-    "[object Object]": [
-        {
-            "name": "",
-            "id": 1,
-            "tags": [],
-            "prep": false,
-            "description": "horizon walker characterization through Bag of Holding\nhow does flick's 'protection from evil and good' manifest\nfallout from paros letting domonkos drink him\nWhat was isabella/lacrey reading?\nDrav saw (sees) a new spell in Riult's spellbook when …    \n \ncarlos: aule and time/initiative \nparos: ignorance is the source of your magic / funny lineage (an amnesia event?)\nfez: & carlos can make holy water together— naphula, eluin, bixby, merrigold, gormflaith (& weapons & circlets)\n\nvoiced:\nbrak: (being eaten): pendergreens\nthaz : brak from titanic?\nkolmy: bitsy boo carmichael\nother things : paw paw / mickey mouse / zod\n\nKolmy\nhas brak? \n- and vargouilles? \n- and plant-dogs?\n- and leucrotta?\n- and curculio (a kitsune, who she is using to show that dogs who act like cats are thought of as OK)\n  - name has \"cur\" in it!\n\n\n",
-            "session_id": "18"
-        },
-        {
-            "name": "",
-            "id": 2,
-            "tags": [],
-            "prep": false,
-            "description": "# - \"You're good with computer\". - \"I did!\"\n\nwhat is the equivalent of stress to take a flashback\n\n- do a voice for snapping turtle\n- asked the gang what they thought about flashback-type study\n- get people in touch with source of their power every session\n- hollow core sword that whistles (thaz's rapier?)\n- cloud of daggers invigorates the spiritual hammer\n- waves of monsters, as Flick fears (or, just in her dreams -- because unable to close portals!)",
-            "session_id": "19"
-        },
-        {
-            "name": "",
-            "id": 3,
-            "tags": [],
-            "prep": false,
-            "description": "",
-            "session_id": null
-        },
-        {
-            "name": "",
-            "id": 4,
-            "tags": [],
-            "prep": false,
-            "description": "* get matt a fancy pencil\n* put the recycling container out with a liner in it",
-            "session_id": "19"
-        },
-        {
-            "name": "",
-            "id": 5,
-            "tags": ["blades"],
-            "prep": false,
-            "description": "My vice purveyor, Shoemaker Byte (Sharp Trousers, counts on fingers a lot) and lives in a run-down Victorian mansion. His friend, Sprinkly (a gnome-sized version of 'James Rockford') lives in a very well maintained trailer next to her.\n\nGob: Uh, hey, Byte.  \nByte: Hello there.  \nSprinkly: Yay!  \n_Gob looks nonplussed_  \nSprinkly: Gob, have you run into any more demons.  \nGob: Not since that one under the train station. Why, what's up?  \nByte: He won't stop talking about that fucking demon.  \nSprinkly: I just think it's so cool! (And to stick it to the _jacks_!)\nByte: Leave him alone, he just wants to chill.  \nSprinkly: Sure, yeah, uh, you want some tea?  \nGob: (waving off Byte) That sounds great, little dude.  \nSprinkly: (dipping into a battered tin can) We've got ... 'slimy hedgehog' and 'burnt hoof' and 'grizzled hocks' ...  \nGob: What is all this?   \nByte: It's the ...\nSprinkly: ... it's all the types of mushrooms we've got! (continues) 'goat's liver' ... and ... 'green-spored grub' ... 'cressweed' ... 'fake cressweed' ... --\nGob: Yeah, the last one.  \nSprinkly:  ... Which last one? The cressweed, or --  \nGob: Yes, perfect, that one.  \nSprinkly: Oooh, you're gonna like it so much.  \n_Sprinkly keeps talking as Byte moves in close to Gob_  \nByte: (in a low tone) Remina's not here today. I think just Mara and Vey are down there.  \nGob: Okay, yeah, Vey and I have tried together before. It wasn't terrible. Can you --\nByte: Yeah, I'll just toss the tea. _Khel Sohv_, brother.  \nGob: _Khel Sov_, sister.  \n\nGob proceeds down the stairs, which open into a low-ceilinged den hung with thick earth-colored tapestries; some look to be made from hides of animals only known to survive on The Dagger Isles. The floor is covered in an ankle-deep layer of soft dried paper pulp which exudes a cloud of greyish dust when disturbed. He takes hesitant steps towards a whitewashed pedestal on top of which sits a large glass jar containing dry, dark brown soil. Lifting the heavy glass lid from the jar, Gob reaches in a hand and pulls up a clenched fist full of the loose earth. He steels himself momentarily and then gobbles up the dirt, taking vast reckless bites and chewing wildly before swallowing the globus. His clean hand reaches out to grab the edge of the pedestal and steady him, but before he finds support he collapses backwards into the powdery carpeting. ",
-            "session_id": "22",
-            "session_date": "2020-03-03"
         }
     ]
 }
