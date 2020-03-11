@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'Blowfish',
+    name: 'NAME',
     source: 'zorq',
     vehicleType: 'SHIP',
     size: 'M',

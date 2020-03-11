@@ -1,0 +1,3 @@
+(^.* )([\w]+:.*$)
+
+{"name": "$1" , "type" : "forgotten_gods"}, { "name" : "$2", "type" : "cult_practices"}, 
