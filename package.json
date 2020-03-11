@@ -15,7 +15,8 @@
         "git:push": "git push && git push --tags",
         "build:win": "set DEBUG=build* & npm run build:json && npm run build:format",
         "build:push:temp": "DEBUG=* npm run build && git add . && git commit -m \"build\" && git push",
-        "start": "node ./node_modules/.bin/json-server --watch db.json"
+        "start": "node ./node_modules/.bin/json-server --watch db.json",
+        "index": "node ./lib/index_database.js"
     },
     "precommit": [],
     "repository": {
