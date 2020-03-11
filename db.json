@@ -2343,16 +2343,7 @@
             "prep": true,
             "id": 26
         },
-        {
-            "name": "",
-            "description": "",
-            "tags": [],
-            "start_date": null,
-            "protension": null,
-            "faction_id": null,
-            "prep": null,
-            "id": 27
-        },
+
         {
             "name": "Story of Selene",
             "description": "",
@@ -2392,6 +2383,87 @@
             "faction_id": null,
             "prep": null,
             "id": 31
+        },
+
+        {
+            "name": "Paros: building a phoneme map for accents",
+            "description": "",
+            "tags": ["paros"],
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": null,
+            "id": 16
+        },
+        {
+            "name": "russian trainer / tail attack / ballet dancing",
+            "description": "Joan: ! tail attack learned from russian friend (black widow learns)\nalso learns ballet dancing.\nflashback while under Kolmy's control where Kolmy is in the memory place of joan's russian trainer, so joan feels a connection to her\n\nor, kolmy lets her grow a fungus tail and then she lives there\n",
+            "tags": ["flashback", "joan"],
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": true,
+            "id": 17
+        },
+        {
+            "name": "Joan finds out why she's immune to effects of the redgold metal (zoloto)",
+            "description": "Joan for some reason is immune to the metal (dragon …. ness? barbarianity?) something the russian trainer put in her?",
+            "tags": [],
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": true,
+            "id": 18
+        },
+        {
+            "name": "paros learns how to take notes while he's trancing",
+            "description": "clock: paros learns how to take notes while he's trancing. or a safe word. the safe word is asparagus popcorn.",
+            "tags": ["paros"],
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": true,
+            "id": 19
+        },
+        {
+            "name": "joan wants nurturing trait and +2 to intelligence",
+            "description": "...  for being part of three school\n\nsomething to add to joan's constitution",
+            "tags": ["joan", "levelup"],
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": true,
+            "id": 20
+        },
+        {
+            "name": "goodberry",
+            "description": "flick and goodberries\n\ngoodberry followup: fallout from flick eating 12 goodberries at once -- 14 CON, and 22 PERception",
+            "tags": [],
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": true,
+            "id": 21
+        },
+        {
+            "name": "quickling skin - budduck with isabella / oni",
+            "description": "budduck is skinning the quicklings and putting them into owls. give fez some yippy skippy boots -- boots of speed made out of quickling skin -- that leads back to perchmaster ",
+            "tags": [],
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": null,
+            "id": 22
+        },
+        {
+            "name": "xfiles: here to find out information about the unicorn undercover",
+            "description": "",
+            "tags": [],
+            "start_date": null,
+            "protension": null,
+            "faction_id": null,
+            "prep": true,
+            "id": 23
         }
     ],
     "location": [
