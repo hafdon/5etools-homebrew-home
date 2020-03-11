@@ -2,23 +2,25 @@
     "prep": [
         {
             "name": "",
-            "description": "test",
-            "session_id": "16",
+            "id": 1,
             "tags": [],
-            "id": 1
+            "prep": false,
+            "description": "test",
+            "session_id": "16"
         },
         {
             "name": "",
-            "description": "horizon walker characterization through Bag of Holding\nhow does flick's 'protection from evil and good' manifest\nfallout from paros letting domonkos drink him\nWhat was isabella/lacrey reading?\nDrav saw (sees) a new spell in Riult's spellbook when …    \n \ncarlos: aule and time/initiative \nparos: ignorance is the source of your magic / funny lineage (an amnesia event?)\nfez: & carlos can make holy water together— naphula, eluin, bixby, merrigold, gormflaith (& weapons & circlets)\n",
-            "session_id": "18",
+            "id": 2,
             "tags": [],
-            "id": 2
+            "prep": false,
+            "description": "horizon walker characterization through Bag of Holding\nhow does flick's 'protection from evil and good' manifest\nfallout from paros letting domonkos drink him\nWhat was isabella/lacrey reading?\nDrav saw (sees) a new spell in Riult's spellbook when …    \n \ncarlos: aule and time/initiative \nparos: ignorance is the source of your magic / funny lineage (an amnesia event?)\nfez: & carlos can make holy water together— naphula, eluin, bixby, merrigold, gormflaith (& weapons & circlets)\n",
+            "session_id": "18"
         }
     ],
     "clock": [
         {
             "name": "Aule wants carlos in the front lines; it's fake aule that is offering these initiative trading abilities",
-            "id": 2,
+            "id": 1,
             "tags": [],
             "prep": true,
             "description": "",
@@ -28,7 +30,7 @@
         },
         {
             "name": "Bob creature being used as a magic cellphone tower",
-            "id": 3,
+            "id": 2,
             "tags": [],
             "prep": false,
             "description": "[see image]",
@@ -38,7 +40,7 @@
         },
         {
             "name": "Flick finds true source of goodberries",
-            "id": 4,
+            "id": 3,
             "tags": [],
             "prep": true,
             "description": "It's Shoemaker Byte",
@@ -48,7 +50,7 @@
         },
         {
             "name": "goodberry",
-            "id": 5,
+            "id": 4,
             "tags": [],
             "prep": true,
             "description": "flick and goodberries\n\ngoodberry followup: fallout from flick eating 12 goodberries at once -- 14 CON, and 22 PERception",
@@ -58,7 +60,7 @@
         },
         {
             "name": "heard that the deep gnomes are intending to capture the bridge zorbo to …",
-            "id": 6,
+            "id": 5,
             "tags": [],
             "prep": false,
             "description": "",
@@ -68,7 +70,7 @@
         },
         {
             "name": "Joan and Paros drawn to a Dracolich",
-            "id": 1,
+            "id": 6,
             "tags": [],
             "prep": true,
             "description": "",
@@ -7453,24 +7455,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/MTF/Zuggtmoy.png?v=1.96.3"
-        }
-    ],
-    "[object Object]": [
-        {
-            "name": "",
-            "id": 1,
-            "tags": [],
-            "prep": false,
-            "description": "test",
-            "session_id": "16"
-        },
-        {
-            "name": "",
-            "id": 2,
-            "tags": [],
-            "prep": false,
-            "description": "horizon walker characterization through Bag of Holding\nhow does flick's 'protection from evil and good' manifest\nfallout from paros letting domonkos drink him\nWhat was isabella/lacrey reading?\nDrav saw (sees) a new spell in Riult's spellbook when …    \n \ncarlos: aule and time/initiative \nparos: ignorance is the source of your magic / funny lineage (an amnesia event?)\nfez: & carlos can make holy water together— naphula, eluin, bixby, merrigold, gormflaith (& weapons & circlets)\n",
-            "session_id": "18"
         }
     ]
 }
