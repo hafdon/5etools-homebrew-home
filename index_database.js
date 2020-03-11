@@ -29,6 +29,7 @@ props = [
 for (let i = 0; i < props.length; i++) {
     try {
         let { [props[i].name]: _ } = db;
+
         // const highestId = n =>
         //     n.reduce((prev, { id = 0 }) => Math.max(prev, id), 0);
         let startId = 1;
@@ -43,7 +44,7 @@ for (let i = 0; i < props.length; i++) {
                 prep,
                 ...rest
             }) => ({
-                [props[i].name_key]: String([name_key]).trim(),
+                [name_key]: String([name_key]).trim(),
                 id: startId++,
                 tags: [...tags, ...props[i].tags],
                 prep: prep === true ? true : false,
