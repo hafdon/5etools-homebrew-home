@@ -2613,7 +2613,7 @@
         "mb"
       ],
       "prep": false,
-      "description": "### - \"You're good with computer\". - \"I did!\"\n\nwhat is the dnd equivalent of stress to take a flashback\n\n- do a voice for snapping turtle\n- asked the gang what they thought about flashback-type study\n- get people in touch with source of their power every session\n- hollow core sword that whistles (thaz's rapier?)\n- cloud of daggers invigorates the spiritual hammer\n- waves of monsters, as Flick fears (or, just in her dreams -- because unable to close portals!)\n\n* get matt a fancy pencil",
+      "description": "I should be preparing to take them to the gnoll village. \n \n### - \"You're good with computer\". - \"I did!\"\n\nwhat is the dnd equivalent of stress to take a flashback\n\n- do a voice for snapping turtle\n- asked the gang what they thought about flashback-type study\n- get people in touch with source of their power every session\n- hollow core sword that whistles (thaz's rapier?)\n- cloud of daggers invigorates the spiritual hammer\n- waves of monsters, as Flick fears (or, just in her dreams -- because unable to close portals!)\n\n* get matt a fancy pencil",
       "session_id": "19",
       "session_date": "2020-03-14"
     },
@@ -2996,6 +2996,36 @@
       "start_date": null,
       "protension": null,
       "faction_id": null
+    },
+    {
+      "name": "Annoying Joan about being a sea creature",
+      "description": "",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": null,
+      "id": 36
+    },
+    {
+      "name": "turtle soup and mushrooms jokes",
+      "description": "",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": true,
+      "id": 37
+    },
+    {
+      "name": "Talk Thaz back into the village.",
+      "description": "",
+      "tags": [],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": true,
+      "id": 38
     }
   ],
   "location": [
@@ -4960,7 +4990,7 @@
       "prep": true,
       "claimed": true,
       "fluff": "",
-      "description": "race: kitsune \nhellen mirren type\ngreyish white, purplish tyrone hat, thin, like robin-hood esque, fox-human\nlanky\n\nA raven brought you a cryptic message from an old friend who needs your help, but the message was vague about the friend's location. You're trying to follow a years-old trail and save your friend.\n\nfriend: Wodden",
+      "description": "race: kitsune \nhellen mirren type\ngreyish white, purplish tyrone hat, thin, like robin-hood esque, fox-human\nlanky\nspeaks vulpine\n\nA raven brought you a cryptic message from an old friend who needs your help, but the message was vague about the friend's location. You're trying to follow a years-old trail and save your friend.\n\nfriend: Wodden",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
@@ -16031,7 +16061,7 @@
       "found @": ""
     },
     {
-      "short description": "Murph's RIN voice for Dalariel; Neil Campbell as Time Keeper; (is it possible to do accent-less J W Stillwater?)",
+      "short description": "- Murph's RIN voice for Dalariel\n- Neil Campbell as Time Keeper; (is it possible to do accent-less J W Stillwater?)\n- fungus voices from session 18 against kolmy\n- JFK ? (Murph doing the Githyanki)\n- Hit it ?",
       "id": 399,
       "tags": [
         "voices"
