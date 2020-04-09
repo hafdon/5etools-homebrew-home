@@ -18,7 +18,8 @@
         "start": "node ./node_modules/.bin/json-server --watch db.json",
         "start:win": "json-server --watch db.json",
         "index": "node ./lib/index_database.js && prettier --write ./db.json",
-        "build:db:win": "git add .; git commit -m \"before index\"; npm git:push; npm run index"
+        "build:db:win": "git add .; git commit -m \"before index\"; npm git:push; npm run index",
+        "server": "node index.js"
     },
     "precommit": [],
     "repository": {
@@ -46,6 +47,7 @@
         "node": true
     },
     "dependencies": {
+        "cors": "^2.8.5",
         "debug": "^4.1.1",
         "dotenv": "^8.2.0",
         "fs-extra": "^8.1.0",

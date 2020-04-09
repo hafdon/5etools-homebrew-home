@@ -58,6 +58,7 @@ module.exports = {
     spellcasting: [
         {
             name: 'Spellcasting',
+            headerEntries: [],
             spells: {
                 '0': {
                     spells: [

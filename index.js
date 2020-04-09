@@ -1,10 +1,21 @@
-/**
- *
- * Entrance point for application
- */
+const jsonServer = require('json-server');
+const server = jsonServer.create();
+const router = jsonServer.router('db.json');
+const middlewares = jsonServer.defaults();
+const cors = require('cors');
 
-// eslint-disable-next-line no-console
-
-console.log(
-    "Hello. This entry point doesn't do anything. You have to build json files."
+server.use(
+    cors({
+        origin: true,
+        credentials: true,
+        preflightContinue: false,
+        methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    })
 );
+server.options('*', cors());
+
+server.use(middlewares);
+server.use(router);
+server.listen(3000, () => {
+    console.log('JSON Server is running');
+});

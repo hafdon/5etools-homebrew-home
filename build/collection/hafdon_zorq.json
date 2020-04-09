@@ -12,7 +12,7 @@
             }
         ],
         "dateAdded": 1578263517,
-        "dateUpdated": 1582772700
+        "dateUpdated": 1584330218
     },
     "action": [
         {
@@ -791,7 +791,7 @@
                 {
                     "name": "Spellcasting",
                     "headerEntries": [
-                        "The selshamurinnw is an 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following druid spells prepared:"
+                        "The selshamurinn is an 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following druid spells prepared:"
                     ],
                     "spells": {
                         "0": {
@@ -1866,133 +1866,6 @@
                 ]
             },
             "tokenUrl": "https://5e.tools/img/VGM/Quickling.png?v=1.94.13"
-        },
-        {
-            "name": "Canoloth",
-            "source": "zorq",
-            "size": "M",
-            "type": { "type": "fiend", "tags": ["yugoloth"] },
-            "alignment": ["N", "E"],
-            "ac": [{ "ac": 16, "from": ["natural armor"] }],
-            "hp": { "average": 120, "formula": "16d8 + 48" },
-            "speed": { "walk": 50 },
-            "str": 18,
-            "dex": 10,
-            "con": 17,
-            "int": 5,
-            "wis": 17,
-            "cha": 12,
-            "skill": { "investigation": "+3", "perception": "+9" },
-            "senses": ["darkvision 60 ft.", "truesight 120 ft."],
-            "passive": 19,
-            "resist": [
-                "cold",
-                "fire",
-                "lightning",
-                {
-                    "resist": ["bludgeoning", "piercing", "slashing"],
-                    "note": "from nonmagical attacks"
-                }
-            ],
-            "immune": ["acid", "force", "poison"],
-            "conditionImmune": ["poisoned"],
-            "languages": ["Abyssal", "Infernal", "telepathy 60 ft."],
-            "cr": "8",
-            "trait": [
-                {
-                    "name": "Dimensional Lock",
-                    "entries": [
-                        "Other creatures can't teleport to or from a space within 60 feet of the canoloth. Any attempt to do so is wasted."
-                    ]
-                },
-                {
-                    "name": "Magic Resistance",
-                    "entries": [
-                        "The canoloth has advantage on saving throws against spells and other magical effects."
-                    ]
-                },
-                {
-                    "name": "Magic Weapons",
-                    "entries": ["The canoloth's weapon attacks are magical."]
-                },
-                {
-                    "name": "Uncanny Senses",
-                    "entries": [
-                        "The canoloth can't be surprised while it isn't {@condition incapacitated}."
-                    ]
-                },
-                {
-                    "name": "Misc.",
-                    "entries": [
-                        "- Evil telepathy effect.",
-                        "- Poison (carlos)",
-                        "- information / spells (drav)",
-                        "- fez",
-                        "- flick: no force damage; portal sense messed up",
-                        "- paros"
-                    ]
-                },
-                {
-                    "name": "Bringer of Plagues (1/Day)",
-                    "entries": [
-                        "As a bonus action, the oinoloth blights the area within 30 feet of it. The blight lasts for 24 hours. While blighted, all normal plants in the area wither and die, and the number of hit points restored by a spell to a creature in that area is halved.",
-                        "Furthermore, when a creature moves into the blighted area or starts its turn there, that creature must make a {@dc 16} Constitution saving throw. On a successful save, the creature is immune to the oinoloth's Bringer of Plagues for the next 24 hours. On a failed save, the creature takes 14 ({@damage 4d6}) necrotic damage and is {@condition poisoned}.",
-                        "The {@condition poisoned} creature can't regain hit points. After every 24 hours that elapse, the {@condition poisoned} creature can repeat the saving throw. On a failed save, the creature's hit point maximum is reduced by 5 ({@dice 1d10}). This reduction lasts until the poison ends, and the target dies if its hit point maximum is reduced to 0. The poison ends after the creature successfully saves against it three times."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The canoloth makes two attacks: one with its tongue or its bite and one with its claws."
-                    ]
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}25 ({@damage 6d6 + 4}) piercing damage."
-                    ]
-                },
-                {
-                    "name": "Claws",
-                    "entries": [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Tongue",
-                    "entries": [
-                        "{@atk rw} {@hit 7} to hit, range 30 ft., one target. {@h}17 ({@damage 2d12 + 4}) piercing damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 15}), pulled up to 30 feet toward the canoloth, and is {@condition restrained} until the grapple ends. The canoloth can grapple one target at a time with its tongue."
-                    ]
-                },
-                {
-                    "name": "Life Leech",
-                    "entries": [
-                        "The yagnoloth touches one {@condition incapacitated} creature within 15 feet of it. The target takes 36 ({@damage 7d8 + 4}) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. The target must succeed on a {@dc 16} Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest, and the target dies if its hit point maximum is reduced to 0."
-                    ]
-                }
-            ],
-            "environment": ["coastal", "underdark", "urban"],
-            "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/609/canoloth.mp3",
-            "traitTags": ["Magic Resistance", "Magic Weapons"],
-            "senseTags": ["D", "U"],
-            "actionTags": ["Multiattack"],
-            "languageTags": ["AB", "I", "TP"],
-            "damageTags": ["P", "S", "N"],
-            "miscTags": ["MW", "RW"],
-            "tokenUrl": "https://5e.tools/img/MTF/Canoloth.png?v=1.96.3",
-            "spellcasting": [
-                {
-                    "name": "Innate Spellcasting",
-                    "daily": {
-                        "1e": [
-                            "{@spell globe of invulnerability|PHB} (at level 6)"
-                        ]
-                    }
-                }
-            ],
-            "spellcastingTags": ["I"]
         },
         {
             "name": "Carlos",
@@ -3080,12 +2953,6 @@
             "isNamedCreature": true
         },
         {
-            "name": "elliott_ghoul",
-            "source": "zorq",
-            "isNpc": true,
-            "isNamedCharacter": true
-        },
-        {
             "name": "Ephphatha (The bear of holding)",
             "source": "zorq",
             "size": "L",
@@ -3236,7 +3103,7 @@
                 {
                     "name": "Shard Shed",
                     "entries": [
-                        "If Ephphatha sustains bludgeoning, slashing, or piercing damage from a nonmagical attack, she may use her reaction to shed a {@creature marlock|zorq}. A marlock shed in this way begins with hit points equal to the damage sustained. Its initiative is the same as Ephphatha's. Ephphatha can have only one marlock in existence at a time. An attempt to create a second marlock destroys the other marlock."
+                        "If Ephphatha sustains bludgeoning, slashing, or piercing damage from a nonmagical attack, she may use her reaction to shed a {@creature marlock|zorq} (based on 'the wretched'). A marlock shed in this way begins with hit points equal to the damage sustained. Its initiative is the same as Ephphatha's. Ephphatha can have only one marlock in existence at a time. An attempt to create a second marlock destroys the other marlock."
                     ]
                 },
                 {
@@ -4526,6 +4393,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "headerEntries": [],
                     "spells": {
                         "0": {
                             "spells": [
@@ -7720,7 +7588,7 @@
                 {
                     "name": "Spellcasting",
                     "headerEntries": [
-                        "The selshamurinnw is an 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following druid spells prepared:"
+                        "The selshamurinn is an 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following druid spells prepared:"
                     ],
                     "spells": {
                         "0": {
@@ -10629,7 +10497,7 @@
                 "The following table can be used as inspiration when an NPC is needed."
             ],
             "caption": "Marshbout NPCs",
-            "colLabels": ["1d239", "Name", "Description"],
+            "colLabels": ["1d238", "Name", "Description"],
             "colStyles": ["col-1 text-center", "col-3", "col-8"],
             "rows": [
                 ["131", "", ""],
@@ -10670,7 +10538,7 @@
                 ["60", "beoff", ""],
                 ["61", "Black", "hag title"],
                 ["5", "Bog Frillan", "n/a"],
-                ["239", "Boolook", "Very good at falling asleep quickly"],
+                ["238", "Boolook", "Very good at falling asleep quickly"],
                 ["32", "Brent McCorkle", "fancy boy; ridiculous"],
                 ["62", "Cackling", "hag title"],
                 ["35", "Cavortletop", ""],
@@ -10731,7 +10599,7 @@
                 ["95", "georbe", ""],
                 ["96", "Gerator", "title"],
                 ["97", "giblinoid", ""],
-                ["238", "Gind", "??"],
+                ["237", "Gind", "??"],
                 ["98", "Girdle", ""],
                 ["99", "Gnokles (NOH-cuhls)", ""],
                 ["100", "Goosewood", ""],
@@ -10777,7 +10645,7 @@
                 ["129", "Kosh", "quori"],
                 ["9", "Krov", "n/a"],
                 ["130", "lakosh", ""],
-                ["230", "Lavolta", "lava monster who likes dancing."],
+                ["229", "Lavolta", "lava monster who likes dancing."],
                 ["132", "leer", "unit of measure"],
                 ["133", "Leylan", ""],
                 ["134", "Locustay", ""],
@@ -10835,100 +10703,99 @@
                 ["11", "Pete Ocking", "n/a"],
                 ["41", "Petronella", "?"],
                 ["167", "PHERMASTAPHY", "title; location"],
-                ["169", "Pigtooth", "hag last name"],
-                ["170", "Polly", "hag first name"],
-                ["171", "Pollyon (pahl-ee-ohn", ""],
-                ["172", "Queue Orius", ""],
-                ["173", "Quoor", "mind flayer"],
-                ["174", "Ragdar", ""],
+                ["168", "Pigtooth", "hag last name"],
+                ["169", "Polly", "hag first name"],
+                ["170", "Pollyon (pahl-ee-ohn", ""],
+                ["171", "Queue Orius", ""],
+                ["172", "Quoor", "mind flayer"],
+                ["173", "Ragdar", ""],
                 ["40", "Raggadochy", "rag uh DOH chee"],
-                ["175", "Rakari", ""],
-                ["176", "Ralayan", "mind flayer"],
-                ["177", "Raleen", "female ?? names"],
-                ["178", "Raznah", ""],
-                ["179", "Razu", "female ?? names"],
-                ["180", "Rekseen", "female ?? names"],
-                ["181", "Reksiit", ""],
+                ["174", "Rakari", ""],
+                ["175", "Ralayan", "mind flayer"],
+                ["176", "Raleen", "female ?? names"],
+                ["177", "Raznah", ""],
+                ["178", "Razu", "female ?? names"],
+                ["179", "Rekseen", "female ?? names"],
+                ["180", "Reksiit", ""],
                 ["39", "Resko", ""],
-                ["182", "Rickety", "hag title"],
-                ["183", "ROJEK", ""],
-                ["184", "Rolphe Nustle", ""],
-                ["229", "Rospek", "prospect"],
-                ["185", "Rotom", "kobold"],
-                ["186", "S’venchen", "mind flayer"],
-                ["187", "Sagin", "kobold"],
-                ["188", "Sally", "hag first name"],
-                ["189", "Sardsult", "mind flayer"],
-                ["190", "Scudge Horpoth", ""],
-                ["191", "Senen", "female ?? names"],
-                ["192", "Shahar", ""],
-                ["193", "Shedroor", "female ?? names"],
+                ["181", "Rickety", "hag title"],
+                ["182", "ROJEK", ""],
+                ["183", "Rolphe Nustle", ""],
+                ["228", "Rospek", "prospect"],
+                ["184", "Rotom", "kobold"],
+                ["185", "S’venchen", "mind flayer"],
+                ["186", "Sagin", "kobold"],
+                ["187", "Sally", "hag first name"],
+                ["188", "Sardsult", "mind flayer"],
+                ["189", "Scudge Horpoth", ""],
+                ["190", "Senen", "female ?? names"],
+                ["191", "Shahar", ""],
+                ["192", "Shedroor", "female ?? names"],
                 ["31", "Shuram, Shazan", "Sure Am, Shazam"],
-                ["194", "Sik", "kobold"],
+                ["193", "Sik", "kobold"],
                 [
                     "17",
                     "Sir Voke Fit",
                     "surfeit : voke as in vocare, to call or voice"
                 ],
-                ["195", "Slab Denchmeat", ""],
-                ["196", "Sleggy", ""],
-                ["197", "Sniv", "kobold"],
+                ["194", "Slab Denchmeat", ""],
+                ["195", "Sleggy", ""],
+                ["196", "Sniv", "kobold"],
                 ["23", "Sorashana", "Commoner"],
                 ["10", "Spam Tompkins", "n/a"],
-                ["198", "Spiner", "street"],
-                ["199", "Tajiin", "female ?? names"],
-                ["200", "Taklak", "lizard, kobold"],
-                ["202", "tana", ""],
+                ["197", "Spiner", "street"],
+                ["198", "Tajiin", "female ?? names"],
+                ["199", "Taklak", "lizard, kobold"],
+                ["201", "tana", ""],
                 ["26", "Tana", "Commoner"],
-                ["201", "Tana", "quori"],
-                ["203", "Tari", "quori"],
-                ["204", "Tariic", ""],
-                ["205", "Taruuzh", ""],
-                ["206", "Tash", "quori"],
-                ["207", "Tes", "kobold"],
-                ["208", "Tharcereli", "mind flayer"],
-                ["209", "the Imponderable", "epithet"],
-                ["210", "Thuun (\"Thun\")", ""],
+                ["200", "Tana", "quori"],
+                ["202", "Tari", "quori"],
+                ["203", "Tariic", ""],
+                ["204", "Taruuzh", ""],
+                ["205", "Tash", "quori"],
+                ["206", "Tes", "kobold"],
+                ["207", "Tharcereli", "mind flayer"],
+                ["208", "the Imponderable", "epithet"],
+                ["209", "Thuun (\"Thun\")", ""],
                 [
                     "37",
                     "Tontine",
                     " \"TAHN-teen: some last-alive-gets-all schemer"
                 ],
-                ["211", "Toprick", "dwarf surname"],
-                ["212", "Torashtai", ""],
-                ["213", "Trabis", ""],
-                ["214", "TumTum", ""],
-                ["215", "Tuneer", "female ?? names"],
-                ["216", "Turtleback", "hag title"],
-                ["217", "Twigmouth", "hag last name"],
-                ["218", "Uddubera Orepin", ""],
-                ["219", "Ulad", "quori"],
+                ["210", "Toprick", "dwarf surname"],
+                ["211", "Torashtai", ""],
+                ["212", "Trabis", ""],
+                ["213", "TumTum", ""],
+                ["214", "Tuneer", "female ?? names"],
+                ["215", "Turtleback", "hag title"],
+                ["216", "Twigmouth", "hag last name"],
+                ["217", "Uddubera Orepin", ""],
+                ["218", "Ulad", "quori"],
                 [
                     "28",
                     "Ulgor",
                     "\"UHL gor, some kind of lightning-associated thing (dragonish?)"
                 ],
                 ["36", "Umpo and Onglo", "Maybe more of the earthlords ?"],
-                ["168", "underscramble", ""],
-                ["220", "Ursula", "hag first name"],
-                ["221", "Ustar", "gnoll"],
-                ["222", "Vakri", "quori"],
-                ["223", "Valakhad ", ""],
-                ["224", "Valii", "female ?? names"],
-                ["225", "Vanii", ""],
-                ["226", "Vanon ", ""],
-                ["227", "Varn", "kobold"],
-                ["231", "VENDALI(UM/OM) ", "title"],
-                ["232", "Virgat(e)", "title"],
+                ["219", "Ursula", "hag first name"],
+                ["220", "Ustar", "gnoll"],
+                ["221", "Vakri", "quori"],
+                ["222", "Valakhad ", ""],
+                ["223", "Valii", "female ?? names"],
+                ["224", "Vanii", ""],
+                ["225", "Vanon ", ""],
+                ["226", "Varn", "kobold"],
+                ["230", "VENDALI(UM/OM) ", "title"],
+                ["231", "Virgat(e)", "title"],
                 ["24", "Vishara", "Commoner"],
                 ["30", "Waich Otter", "Way hotter"],
-                ["228", "Wamble", "rumbling, rolling nausea"],
-                ["233", "Wehmseiper", "group?"],
-                ["234", "Wicked", "hag title"],
-                ["235", "Wormwiggle", "hag last name"],
-                ["236", "Wuudaraj", ""],
+                ["227", "Wamble", "rumbling, rolling nausea"],
+                ["232", "Wehmseiper", "group?"],
+                ["233", "Wicked", "hag title"],
+                ["234", "Wormwiggle", "hag last name"],
+                ["235", "Wuudaraj", ""],
                 ["25", "Yvonna", "Commoner"],
-                ["237", "Zellix", "mind flayer"]
+                ["236", "Zellix", "mind flayer"]
             ]
         }
     ],
