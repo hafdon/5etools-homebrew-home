@@ -1,7 +1,7 @@
 module.exports = {
     name: 'Bonfire',
     size: 'L',
-    type: { type: 'beast', tags: ['pronouns: she, her, hers'] },
+    type: { type: 'beast', tags: ['pronouns--she, her, hers'] },
     source: 'zorq',
     alignment: ['N'],
     ac: [

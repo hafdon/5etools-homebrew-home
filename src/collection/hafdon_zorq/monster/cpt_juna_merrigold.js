@@ -3,7 +3,7 @@ module.exports = {
     size: 'M',
     type: {
         type: 'humanoid',
-        tags: ['deep scion', 'pronouns: she, her, hers', 'hybrid'],
+        tags: ['deep scion', 'pronouns--she, her, hers', 'hybrid'],
     },
     source: 'zorq',
     alignment: ['N', 'G'],

@@ -18,7 +18,7 @@ module.exports = {
     size: 'M',
     type: {
         type: 'humanoid',
-        tags: ['dwarf', 'pronouns: he, him, his'],
+        tags: ['dwarf', 'pronouns--he, him, his'],
     },
     ac: [
         {

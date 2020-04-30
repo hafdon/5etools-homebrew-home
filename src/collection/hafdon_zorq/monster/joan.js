@@ -21,7 +21,7 @@ module.exports = {
     size: 'M',
     type: {
         type: 'humanoid',
-        tags: ['dragonborn', 'pronouns: she, her, hers'],
+        tags: ['dragonborn', 'pronouns--she, her, hers'],
     },
     ac: [
         {

@@ -15,35 +15,39 @@
     },
     {
       "name": "Paros",
-      "init": "15",
+      "init": 22,
       "ac": null,
-      "ssdc": null,
+      "ssdc": 15,
       "id": 2,
-      "pc": true
+      "pc": true,
+      "concentrating": true,
+      "conditions": "concentrating on haste on fez\nfallen off back of rock",
+      "stats": "### Actions  \n***Third Eye*** _(spell, concentration, 1/lr)_ For up to to one minute, you can use an Action to discern the embodied life energies of those you have close relationships with. As a Bonus Action on that turn, or any subsequent turn while you retain concentration, you may do one of the following:  \n- if the blinded condition allows a saving throw to dispel, this allows the creature to attempt that saving throw again now. if they still fail, the blinded creature can roll their next ability check with disadvantage that otherwise would have failed automatically.  \n\nAfter using this ability, until the end of your next long rest, you take disadvantage on all ability checks and saving throws based on Charisma as the fleshy, grotesque eye throbs noticeably on your forehead. "
     },
     {
       "name": "Fez",
-      "init": "6",
+      "init": 17,
       "ac": null,
       "ssdc": null,
       "id": 3,
       "pc": true,
-      "conditions": "Protection from good and evil from Flick, round 2\n"
+      "conditions": "haste is still up\n"
     },
     {
       "name": "Flick",
-      "init": "23",
+      "init": 23,
       "ac": null,
       "ssdc": null,
       "id": 4,
       "pc": true,
-      "conditions": "haste (paros concentration)"
+      "conditions": "haste (paros concentration)",
+      "hp": "48"
     },
     {
       "name": "Drav",
-      "init": "17",
+      "init": 17,
       "ac": null,
-      "ssdc": null,
+      "ssdc": 14,
       "id": 6,
       "pc": true
     },
@@ -68,12 +72,14 @@
     },
     {
       "name": "Carlos",
-      "init": "6",
+      "init": 9,
       "ac": null,
-      "ssdc": null,
+      "ssdc": 16,
       "hp": null,
       "pc": true,
-      "id": 9
+      "id": 9,
+      "concentrating": true,
+      "conditions": "has protection from good and evil - not charmed by gegathon anymore\nand bless from fez\nconcentrating on spiritual weapon"
     },
     {
       "name": "Lair Actions",
@@ -86,28 +92,68 @@
       "id": 10
     },
     {
-      "name": "Getathon",
+      "name": "Gegathon",
       "init": 15,
       "ac": 18,
       "ssdc": 17,
-      "hp": "112",
+      "hp": "-11",
       "pc": false,
-      "conditions": "Telepathy; Paros affected?\nresistance to nonmagical attacks",
-      "stats": "___\n>## Getathon \n>*Medium fiend (devil), lawful evil*  \n>*(based on Narzugon)*\n>___\n>- **Armor Class** 18 (*plate armor*)\n>- **Hit Points** 112 (15d8 + 45)\n>- **Speed** 30 ft.\n>___\n>|STR|DEX|CON|INT|WIS|CHA|\n>|:---:|:---:|:---:|:---:|:---:|:---:|\n>|20 (+5)|10 (+0)|17 (+3)|16 (+3)|14 (+2)|19 (+4)|\n>___\n>- **Saving Throws** Dex +5, Con +8, Cha +9\n>- **Skills** Perception +7\n>- **Damage Resistances** acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks\n>- **Damage Immunities** fire, poison\n>- **Condition Immunities** charmed, frightened, poisoned\n>- **Senses** darkvision 120 ft., passive Perception 17\n>- **Languages** Common, Infernal, telepathy 120 ft.\n>- **Challenge** 13 (10,000 XP)\n>___\n>***Diabolical Sense.*** Getathon has advantage on Wisdom (Perception) checks made to perceive good-aligned creatures.  \n>\n>***Infernal Tack.*** Getathon wears spurs that are part of infernal tack, which allow it to summon its **nightmare** companion.  \n>\n>***Magic Resistance.*** Getathon has advantage on saving throws against spells and other magical effects.  \n>\n>### Actions\n>***Multiattack.*** Getathon uses its Infernal Command or Terrifying Command. It also makes three hellfire lance attacks.  \n>\n>***Hellfire Lance.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 11 (1d12 + 5) piercing damage plus 16 (3d10) fire damage. If this damage kills a creature, [...]. Constructs and devils are immune to this effect.  \n>\n>***Infernal Command.*** Each ally of the narzugon within 60 feet of it can't be charmed or frightened until the end of the narzugon's next turn.  \n>\n>***Terrifying Command.*** Each creature that isn't a fiend within 60 feet of the narzugon that can hear it must succeed on a DC 17 Charisma saving throw or [...] for 1 minute.  \n>A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that makes a successful saving throw is immune to Getathon's Terrifying Command for 24 hours.  \n>\n>***Healing (1/Day).*** Getathon, or one creature it touches, regains up to 100 hit points.",
+      "conditions": "Telepathy; Paros affected?. \nresistance to nonmagical attacks. and MAGIC RESISTANCE.\nspell or ability on Flick has disadvantage.  \nreaction: take 1/2 damage once.\ncharming command\nprone",
+      "stats": "___\n>## Gegathon \n>*Medium fiend (devil), lawful evil*  \n>*(based on Narzugon)*\n>___\n>- **Armor Class** 18 (*plate armor*)\n>- **Hit Points** 112 (15d8 + 45)\n>- **Speed** 30 ft.\n>___\n>|STR|DEX|CON|INT|WIS|CHA|\n>|:---:|:---:|:---:|:---:|:---:|:---:|\n>|20 (+5)|10 (+0)|17 (+3)|16 (+3)|14 (+2)|19 (+4)|\n>___\n>- **Saving Throws** Dex +5, Con +8, Cha +9\n>- **Skills** Perception +7\n>- **Damage Resistances** acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks\n>- **Damage Immunities** fire, poison\n>- **Condition Immunities** charmed, frightened, poisoned\n>- **Senses** darkvision 120 ft., passive Perception 17\n>- **Languages** Common, Infernal, telepathy 120 ft.\n>- **Challenge** 13 (10,000 XP)\n>___\n>***Diabolical Sense.*** Getathon has advantage on Wisdom (Perception) checks made to perceive good-aligned creatures.  \n>\n>***Infernal Tack.*** Getathon wears spurs that are part of infernal tack, which allow it to summon its **nightmare** companion.  \n>\n>***Magic Resistance.*** Getathon has advantage on saving throws against spells and other magical effects.  \n>\n>### Actions\n>***Multiattack.*** Getathon uses its Infernal Command or Terrifying Command. It also makes two hellfire lance attacks.  \n>\n>***Hellfire Lance.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 11 (1d12 + 5) piercing damage plus 16 (3d10) fire damage. If this damage kills a creature, [...]. Constructs and devils are immune to this effect.  \n>\n>***Infernal Command.*** Each ally of the narzugon within 60 feet of it can't be charmed or frightened until the end of the narzugon's next turn.  \n>\n>***Terrifying Command.*** Each creature that isn't a fiend within 60 feet of the narzugon that can hear it must succeed on a DC 17 Charisma saving throw or be blinded for 1 minute. If they succeed, they have disadvantage to attack. \n>A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that makes a successful saving throw is immune to Getathon's Terrifying Command for 24 hours.  \n>\n>***Healing (1/Day).*** Getathon, or one creature it touches, regains up to 100 hit points.\n\n### Reactions\n- the thing that let him 1/2 force damage.",
       "id": 11,
       "concentrating": null
     },
     {
       "name": "Hengest the Violent",
-      "init": 9,
+      "init": 15,
       "ac": 15,
       "ssdc": null,
-      "hp": null,
+      "hp": "-15",
       "pc": false,
-      "conditions": "",
+      "conditions": "prone\n",
       "stats": "___\n>## Hengest the Violent\n>*Large fiend, neutral evil*  \n>*based on Nightmare*\n>___\n>- **Armor Class** 15 (natural armor)\n>- **Hit Points** 85 (9d10 + 36)\n>- **Speed** 60 ft., fly 90 ft.\n>___\n>|STR|DEX|CON|INT|WIS|CHA|\n>|:---:|:---:|:---:|:---:|:---:|:---:|\n>|20 (+5)|19 (+4)|18 (+4)|10 (+0)|13 (+1)|15 (+2)|\n>___\n>- **Damage Immunities** fire\n>- **Senses** passive Perception 11\n>- **Languages** understands Abyssal, Common, and Infernal but can't speak \n>- **Challenge** 5 (1,800 XP)\n>___\n>***Confer Fire Resistance.*** The nightmare can grant resistance to fire damage to anyone riding it.  \n>\n>***Illumination.*** The nightmare sheds bright light in a 10-foot radius and dim light for an additional 10 feet.  \n>\n>### Actions\n>***Hooves.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 18 (3d8 + 5) bludgeoning damage plus 12 (2d6 + 5) fire damage.  \n>\n>***Ethereal Stride.*** The nightmare and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa.",
       "id": 12,
       "concentrating": null
+    },
+    {
+      "name": "Jean-Luc",
+      "init": 8,
+      "ac": null,
+      "ssdc": null,
+      "hp": null,
+      "pc": true,
+      "conditions": "blinded until saves",
+      "test": 0,
+      "test1": 1,
+      "concentrating": false,
+      "id": 13
+    },
+    {
+      "name": "Old Meenow (she)",
+      "init": 20,
+      "ac": null,
+      "ssdc": null,
+      "hp": "176",
+      "pc": false,
+      "conditions": "",
+      "test": 0,
+      "test1": 1,
+      "concentrating": false,
+      "id": 14
+    },
+    {
+      "name": "Hieronymus & Mule",
+      "init": 17,
+      "ac": null,
+      "ssdc": null,
+      "hp": null,
+      "pc": true,
+      "conditions": "",
+      "test": 0,
+      "test1": 1,
+      "concentrating": false,
+      "id": 15,
+      "stats": "**Questionable Bagpiping:** _(ritual)_  \nYou can use your Action to play the bagpipes. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can hear you. Each creature can gain temporary hit points equal to your level + your spell attack modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest."
     }
   ],
   "randoms": [
@@ -2882,6 +2928,42 @@
       "definitions": "† prefident, adj.\n=================\n\n**Origin: **A borrowing from Latin. **Etymons:** Latin *praefīdent-*, *praefīdēns*.\n\n**Etymology: **< classical Latin *praefīdent-*, *praefīdēns* trusting too much, over-confident < *prae-* [pre- prefix](https://www-oed-com.i.ezproxy.nypl.org/view/Entry/149454#eid28765547) +*fīdēns* confident, use as adjective of present participle of *fīdere* to trust (see [faith n. and int.](https://www-oed-com.i.ezproxy.nypl.org/view/Entry/67760#eid4670814)). Compare earlier [confident adj.](https://www-oed-com.i.ezproxy.nypl.org/view/Entry/38809#eid8494935), [diffident adj.](https://www-oed-com.i.ezproxy.nypl.org/view/Entry/52496#eid6755848), and [prefidence n.](https://www-oed-com.i.ezproxy.nypl.org/view/Entry/150020#eid28882983)\n\n*Obsolete*. *rare*.\n\n###   Overconfident, rash.\n\n1689   R. Baxter *Treat. Knowl. & Love Compared* i. xii. 127   A hasty judger, or prefident man must be a very Weathercock, or be defiled with a Leprosie of Errour.",
       "tags": [],
       "id": 52
+    },
+    {
+      "headword": "deinosmatic",
+      "etymology": "also dinosmatic; opposite of charismatic; terrible, fearsome",
+      "pronunciation": "",
+      "language": "zorq",
+      "definitions": "",
+      "tags": [],
+      "id": 53
+    },
+    {
+      "headword": "bund",
+      "etymology": "",
+      "pronunciation": "",
+      "language": "",
+      "definitions": "bund, n.1\n=========\n\n**[Pronunciation:](https://public-oed-com.i.ezproxy.nypl.org/how-to-use-the-oed/key-to-pronunciation/)**  \n\nBrit. [/bʌnd/](https://public-oed-com.i.ezproxy.nypl.org/how-to-use-the-oed/key-to-pronunciation/)\n\n, \n\nU.S. [/bənd/](https://public-oed-com.i.ezproxy.nypl.org/how-to-use-the-oed/key-to-pronunciation/)\n\n**Frequency (in current use):**  [](https://www-oed-com.i.ezproxy.nypl.org/frequencybandinformation/4 \"Frequency Band 4\")\n\n**Etymology: **< Hindustani *band*; of Persian origin.\n\n*Anglo-Indian*.\n\n###   In India: 'Any artificial embankment, a dam, dyke, or causeway.' In the Anglo-Chinese ports, 'applied specially to the embanked quay along the shore'. (Col. Yule.)\n\n1813   T. Williamson *E. India Vade-mecum* II. 279   The great bund, or dyke.\n\n1834   T. Medwin *Angler in Wales* II. xx. 72   The 'bund' is a colossal piece of masonry, consisting of massy walls, the interspace filled up by earth.\n\n1839   C. Thirlwall *Hist. Greece* VII. 83   To remove the dykes, or bunds, by which the ancient kings of Persia or Assyria had obstructed the navigation.\n\n1865   G. Rawlinson *Five Great Monarchies* III. i. 267   A bund or dam thrown across it.",
+      "tags": [],
+      "id": 54
+    },
+    {
+      "headword": "ὀξύνειν ",
+      "etymology": "< ὀξύς sharp:",
+      "pronunciation": "",
+      "language": "ancient greek",
+      "definitions": "to sharpen, goad, render acute:",
+      "tags": [],
+      "id": 55
+    },
+    {
+      "headword": "lactimation",
+      "etymology": "",
+      "pronunciation": "",
+      "language": "",
+      "definitions": "when you cry milk. one of the stigmata. (mick)",
+      "tags": [],
+      "id": 56
     }
   ],
   "prep": [
@@ -2950,9 +3032,17 @@
       "name": "",
       "description": "### general\n- Try to get at least 2 (ideally 3) enemies; that makes AOE people feel better, and makes things a little more dynamic, and means that enemies don't have to do 100 damage per hit\n- Alternatively, break up damage between lair actions, regular actions, and legendary actions",
       "session_id": "23",
-      "session_date": "2020-04-12",
+      "session_date": "2020-04-11",
       "tags": [],
       "id": 8
+    },
+    {
+      "name": "",
+      "description": "...\n",
+      "session_id": "25",
+      "session_date": "2020-04-25",
+      "tags": [],
+      "id": 9
     }
   ],
   "clock": [
@@ -2961,7 +3051,7 @@
       "id": 1,
       "tags": [],
       "prep": true,
-      "description": "",
+      "description": "**Negotiator**  \nYou have honed the knack of the deal and counter offer, perhaps by crossing words with creatures used to getting the upper hand in negotiations. You gain the following benefits:\nIncrease your Charisma score by 1, to a maximum of 20.\nWhen a creature two or more size categories larger than you targets you with a melee weapon attack, you can use your reaction to make yourself seem pathetic and unthreatening. The creature must redirect its attack against a different target; if no alternative target is within the attacker's reach or range, it can still attack you. Until the end of your next turn, your next melee or ranged attack against that creature is made with advantage. You must complete a short or long rest before using this ability again.\nWhen you purchase a good or service, you can attempt an opposed Charisma (Persuasion) check versus the seller's Wisdom (Insight). If you win the contest, you secure a 10 percent discount on the transaction. Once you use this feature on a given individual, you can't use it on them again for one week.\nWhen you pay for lifestyle expenses during downtime, they are halved.\n\n## Everybody's Friend\nYou develop your magnetic personality to ease your way through the world. You gain the following benefits:\nIncrease your Charisma score by 1, to a maximum of 20.\nYou gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.\n\n## Diplomat\nYou master the arts of diplomacy, gaining the following benefits:\nIncrease your Charisma score by 1, to a maximum of 20.\nYou gain proficiency in the Persuasion skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\nIf you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.",
       "start_date": "",
       "protension": null,
       "faction_id": null
@@ -2990,7 +3080,7 @@
       "name": "Fez learns deep undersea language",
       "id": 6,
       "tags": [],
-      "prep": true,
+      "prep": false,
       "description": "",
       "start_date": null,
       "protension": null,
@@ -3294,16 +3384,6 @@
       "faction_id": null
     },
     {
-      "name": "You palm the sea",
-      "id": 35,
-      "tags": [],
-      "prep": false,
-      "description": "slight of hand? paladin? ulimara? ",
-      "start_date": null,
-      "protension": null,
-      "faction_id": null
-    },
-    {
       "name": "Annoying Joan about being a sea creature",
       "description": "",
       "tags": [],
@@ -3320,18 +3400,8 @@
       "start_date": null,
       "protension": null,
       "faction_id": null,
-      "prep": true,
+      "prep": false,
       "id": 37
-    },
-    {
-      "name": "ANGELA's / drav's thing she wanted to do before she leaves",
-      "description": "",
-      "tags": [],
-      "start_date": "",
-      "protension": null,
-      "faction_id": null,
-      "prep": true,
-      "id": 39
     },
     {
       "name": "lasting madness from interactions with tusternoof",
@@ -3360,7 +3430,7 @@
       "start_date": null,
       "protension": null,
       "faction_id": null,
-      "prep": true,
+      "prep": false,
       "id": 42
     },
     {
@@ -3372,7 +3442,7 @@
       "start_date": null,
       "protension": null,
       "faction_id": null,
-      "prep": true,
+      "prep": false,
       "id": 43
     },
     {
@@ -3434,7 +3504,7 @@
     },
     {
       "name": "Drav accelerated progress",
-      "description": "Hey Angela, thanks for your kind words! As far as getting to use the evocation features a little early, that sounds great. Here's my breakdown: \n\nDon't need to worry about: \n2 (Sculpt Spells): You already have this one, I think? So we don't have to worry about that.\n6 (Potent Cantrip): Everyone will definitely get to level 6 (probably after another 4/5 sessions), so that will roll around too.\n\n## Extra damage spells:\n- __do something with a tattoo on her hands, that let her do spells, so doesn't have to worry about spellbook, but there is a cost ? or something like that.__ \n10 (Empowered evocation): extra damage\n14 (Overchannel): extra damage with a tradeoff\nThese seem like they would fit in with a plan I have for Drav, so I will incorporate them with the narrative over the next few sessions as I'm able.\n\nMore spell slots:\n18 (Spell mastery): You basically get another 1st and 2nd level spell slot.\n20 (Signature spell): You basically get 2 3rd level spell slots.\nAs far as I'm concerned, this is almost like being able to (1) take more rests, and (2) experiment with more spells, both of which I'd like to encourage. How about, every 2 sessions, you get to pick up 1 thingy of those described. (So, this coming session, you get Spell Mastery of a 1st level spell. In two weeks, you get Spell mastery of a 2nd level spell. In 4 weeks, you get Signature spell of a 3rd level spell. In 6 weeks, you get Signature Spell of another 3rd level spell. (Or if that's too fast, we can do every 3 weeks).\nI'm not going to restrict you to picking spells from your spellbook, since you haven't had a chance to build that up yet. So feel free to pick spells from any source available to you. I'd probably suggest picking spells that you think primarily define Drav as a character in addition to making her a more formidable force (intellectually, martially, etc), and maybe attending them with mini backstories, or personal ways in which Drav casts them. \n\nLet me know how that sounds  :)\nZach",
+      "description": "## Aule comes to Drav with a proposition to make Drav a dope-ass super strong wizard (evocation) / cleric (forge) : the idea being to unite the elements and forge them through this super strong vessel of drav into a rad as hell weapon.\n\n## Extra damage spells:\n- __do something with a tattoo on her hands, that let her do spells, so doesn't have to worry about spellbook, but there is a cost ? or something like that.__   \n10 (Empowered evocation): Beginning at 10th level, you can add your Intelligence modifier to one damage roll of any wizard evocation spell you cast. (magic that creates powerful elemental effects)  \n14 (Overchannel): extra damage with a tradeoff  \nThese seem like they would fit in with a plan I have for Drav, so I will incorporate them with the narrative over the next few sessions as I'm able.\n\nMore spell slots:\n18 (Spell mastery): You basically get another 1st and 2nd level spell slot.\n20 (Signature spell): You basically get 2 3rd level spell slots.\n\nAs far as I'm concerned, this is almost like being able to (1) take more rests, and (2) experiment with more spells, both of which I'd like to encourage. How about, every 2 sessions, you get to pick up 1 thingy of those described. (So, this coming session, you get Spell Mastery of a 1st level spell. In two weeks, you get Spell mastery of a 2nd level spell. In 4 weeks, you get Signature spell of a 3rd level spell. In 6 weeks, you get Signature Spell of another 3rd level spell. (Or if that's too fast, we can do every 3 weeks).\nI'm not going to restrict you to picking spells from your spellbook, since you haven't had a chance to build that up yet. So feel free to pick spells from any source available to you. I'd probably suggest picking spells that you think primarily define Drav as a character in addition to making her a more formidable force (intellectually, martially, etc), and maybe attending them with mini backstories, or personal ways in which Drav casts them. ",
       "tags": [],
       "start_date": null,
       "protension": null,
@@ -3473,23 +3543,13 @@
       "id": 52
     },
     {
-      "name": "Fez",
-      "description": "turtle shell armor",
-      "tags": [],
-      "start_date": null,
-      "protension": null,
-      "faction_id": null,
-      "prep": null,
-      "id": 53
-    },
-    {
       "name": "Drav researching Cloud of Daggers and Holy Water",
-      "description": "Drav and Carlos trying to figure it out during short rest in session 23.\n- flick's suggestion: cast as 3rd level spell, it -- you can choose damage type at higher levels (so like chromatic cloud of daggers)\n  - and maybe carlos has to cast \"Create holy water\" as well\n\n- ranged spell attack (instead of automatic); you don't get extra 2d4, but you do get to determine what kind of damage it is\n  - for every level above third; you can add 2d4, but only changes original 2d4\n  - the spell attack takes a bonus action",
+      "description": "Drav and Carlos trying to figure it out during short rest in session 23.\n- flick's suggestion: cast as 3rd level spell, it -- you can choose damage type at higher levels (so like chromatic cloud of daggers)\n  - and maybe carlos has to cast \"Create holy water\" as well\n- ranged spell attack (instead of automatic); you don't get extra 2d4, but you do get to determine what kind of damage it is\n  - for every level above third; you can add 2d4, but only changes original 2d4\n  - the spell attack takes a bonus action\n- maybe AULE comes to DRAV in order to try to get things done (offers DRAV a level of cleric or something)\n",
       "tags": [],
       "start_date": null,
       "protension": null,
       "faction_id": null,
-      "prep": true,
+      "prep": false,
       "id": 54
     },
     {
@@ -3533,7 +3593,7 @@
       "start_date": null,
       "protension": "",
       "faction_id": null,
-      "prep": true,
+      "prep": false,
       "id": 58
     },
     {
@@ -3547,6 +3607,56 @@
       "faction_id": null,
       "prep": true,
       "id": 59
+    },
+    {
+      "name": "Paros learns to use the eyespot.",
+      "description": "",
+      "tags": [
+        "Paros"
+      ],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": true,
+      "id": 60
+    },
+    {
+      "name": "Paros wants a \"reach out with mind an triage / see status of friends\" ability",
+      "description": "definitely getting into \"creepy invasion of privacy\" despite trying to share with blind party members",
+      "tags": [
+        "Paros",
+        "homebrew",
+        "ability"
+      ],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": true,
+      "id": 61
+    },
+    {
+      "name": "Carlos wants snacks -- use that against him.",
+      "description": "",
+      "tags": [
+        "Carlos"
+      ],
+      "start_date": "",
+      "protension": "",
+      "faction_id": null,
+      "prep": true,
+      "id": 62
+    },
+    {
+      "name": "truely eldritch",
+      "description": "Truly Eldritch\nHomebrew\nPrerequisites: Faceless\nYou stared into the Far Realms studying them long enough, and they finally stared back. Your true form is improved, and you gain the following benefits:\nWhile you are in your true form, you don't need to sleep. Instead, you can spend 8 hours doing light activity. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.\nYou can cast detect thoughts and Nystul's magic aura once without expending a spell slot. You regain the ability to cast both spells in this way when you finish a long rest. Charisma is your spellcasting ability for these spells. You can cast them without requiring components, but effects of Nystul's magic aura can't become permanent if it's casted this way for 30 days.\nWhile you are in your true form, you can cast nondetection on yourself without expending a spell slot, requiring no spell components. When you cast the spell this way, it ends immediately if you are no longer in your true form, whether by using your Shapechanger trait, or when you are transformed. You regain the ability to cast the spell in this way when you finish a long rest. Charisma is your spellcasting ability for this spell.",
+      "tags": [
+        "paros"
+      ],
+      "start_date": null,
+      "protension": null,
+      "faction_id": null,
+      "prep": null,
+      "id": 63
     }
   ],
   "location": [
@@ -3601,8 +3711,9 @@
       "tags": [
         "store"
       ],
-      "prep": false,
-      "description": ""
+      "prep": true,
+      "description": "",
+      "claimed": true
     },
     {
       "name": "BROW OF THE SKY",
@@ -3764,13 +3875,14 @@
       "description": "marsh to the west of marshbout"
     },
     {
-      "name": "Palastin Bar",
+      "name": "Bar Palastin",
       "id": 26,
       "tags": [
         "bar"
       ],
-      "prep": false,
-      "description": "[dream thought]"
+      "prep": true,
+      "description": "Hotel / Inn in Goad Skimming, Mess, Stopper, or North Bottle, depending.",
+      "claimed": true
     },
     {
       "name": "plunge pool",
@@ -3879,16 +3991,18 @@
       "id": 38,
       "tags": [],
       "prep": false,
-      "description": "an \"education center\""
+      "description": "town south of koshtea'a bridge",
+      "claimed": null
     },
     {
-      "name": "synaxis",
+      "name": "synaxissa",
       "id": 39,
       "tags": [
         "general"
       ],
       "prep": false,
-      "description": "ecclesiastical Latin, < ecclesiastical Greek σύναξις, < συνάγειν to gather together.\n\na meeting for worship"
+      "description": "ecclesiastical Latin, < ecclesiastical Greek σύναξις, < συνάγειν to gather together.\n\na meeting for worship\n\nworship place for worshipping Axissa, goddess of fishing",
+      "claimed": null
     },
     {
       "name": "Taketh-it-twon",
@@ -3907,7 +4021,8 @@
         "fantastic"
       ],
       "prep": false,
-      "description": "Two massive frustrums constructed of packed earth; a clear plain between them extending a quarter of a mile; wood and stone temple with doors on top of one frustrum; on the other a temple constructed entirely of bone with one small aperture pointing towards the first temple). Inside the wood and stone temple are baskets of herbs slowly smouldering and so much blood and death and it’s also a smokehouse ?"
+      "description": "Two massive frustrums constructed of packed earth; a clear plain between them extending about 700 feet (1/8th mile);\n- the face of one of the mounds is made entirely of bones (phones / money)\n- the other one has a stone facade (worked stone) -- can see smoke coming up from a hole in the center of the facade\n  - Inside stone facade temple are baskets of herbs slowly smoldering and so much blood and death and it’s also a smokehouse ?\n- great, this is in the east squee river watershed\n- drav seen in the tables of xanthu -- image of this\n  - xanthu / xanthuc is same deity\n  - tablets talked about cult practices similar to those of Baphomet. ritual practices (summon baphomet)\n- the mall / plain between them is pristine and raked smooth",
+      "claimed": true
     },
     {
       "name": "The Alldrink",
@@ -3917,7 +4032,7 @@
         "myth"
       ],
       "prep": false,
-      "description": "what someone calls a sea or ocean in a weird place ?"
+      "description": "perfectly circular body of water in Last Hamme"
     },
     {
       "name": "the forsaken foreskin",
@@ -3933,7 +4048,8 @@
         "tavern"
       ],
       "prep": false,
-      "description": ""
+      "description": "hotel in Striples",
+      "claimed": true
     },
     {
       "name": "The Misty Sanctum",
@@ -3949,7 +4065,7 @@
         "fantastic"
       ],
       "prep": false,
-      "description": ""
+      "description": "Hotel in Goad SKimming ... ? (i used for Blades in the dark.)"
     },
     {
       "name": "The Pigstooth",
@@ -3992,7 +4108,7 @@
     },
     {
       "name": "seomra crann",
-      "description": "\"show-mrah crown\" : \"tree room\" in irish (munster pronun) for fez / halflings bathroom",
+      "description": "\"show-mrah crown\" : \"tree room\" in irish (munster pronun) for fez / halflings bathroom\n\nbut also the name of the druid \"town\" near lake goading.",
       "tags": [
         "room",
         "architecture"
@@ -4017,7 +4133,7 @@
       "name": "Nightmare Druid Circle",
       "description": "Loveseats of igneous rock erupt from the ground in a circle. Genitals of the fecund hang from upside-down trees; Boggles flitting in and out of existence while dimensional shifting; Boggles dressed very well and maintaining themselves aristocratically; great bubbling cauldrons of pudding; the druids grecian wrestling with oil with the strigils.",
       "tags": [],
-      "prep": true,
+      "prep": false,
       "claimed": true,
       "id": 54
     },
@@ -4025,7 +4141,7 @@
       "name": "Mirror Lake",
       "description": "Lake in the ... plains. Used to be much deadlier at trapping people, but its magic was softened by so-and-so (maybe the Neightmare).",
       "tags": [],
-      "prep": true,
+      "prep": false,
       "claimed": true,
       "id": 55
     },
@@ -4045,7 +4161,7 @@
       "name": "Bluebell Woods",
       "description": ": ancient woodland where it may dominate the understorey to produce carpets of violet–blue flowers \n\n- Bluebell woods\n  - 200 miles away, north-east on the coast\n  - forest grew in the pattern of the wounds\n  - close to coast, so could take a boat\n  - still expanding\n  - sightings of satyrs, dryads, or druids growing these flowers from them, but not reported on humanoids / mortals",
       "tags": [],
-      "prep": true,
+      "prep": false,
       "claimed": true,
       "id": 57
     },
@@ -4128,7 +4244,7 @@
       "description": "Valley into which the southwest arm of Forest Ogrelodge spills; ",
       "tags": [],
       "prep": false,
-      "claimed": false,
+      "claimed": true,
       "id": 67
     },
     {
@@ -4141,7 +4257,7 @@
     },
     {
       "name": "Pulldevil Grove",
-      "description": "grove that's northeast of Thubudder and north of castle karn plateau",
+      "description": "grove that's south of lake marka of Thubudder and north of castle karn plateau",
       "tags": [],
       "prep": false,
       "claimed": true,
@@ -4162,6 +4278,86 @@
       "prep": false,
       "claimed": false,
       "id": 71
+    },
+    {
+      "name": "The Susedaneum",
+      "description": "from succedaneum, substitute\n\nin Striples",
+      "tags": [],
+      "prep": true,
+      "claimed": false,
+      "id": 72
+    },
+    {
+      "name": "Noibodge ",
+      "description": "from nabob, someone returning from India with money (nabob is a political title in india)",
+      "tags": [],
+      "prep": true,
+      "claimed": false,
+      "id": 73
+    },
+    {
+      "name": "Livere Lake",
+      "description": "\"lih-ve-ree\" - lake \"latin livere, \"blue\" : east of lake goading",
+      "tags": [],
+      "prep": false,
+      "claimed": true,
+      "id": 74
+    },
+    {
+      "name": "an \"education center\"",
+      "description": "",
+      "tags": [],
+      "prep": false,
+      "claimed": false,
+      "id": 75
+    },
+    {
+      "name": "Heeli cliffs",
+      "description": "- cliffs on west of Lake Goading\n- riverbank that's a cliff (looks down over Goading)\n- river just to west of the cliff is part of the Squee watershed -- gives a really nice view of all the towns on the east side of Lake Goading\n- air is clear; can see up to north bottle to Sag Isle -- heavily forested island -- very dark brown for some reason.",
+      "tags": [],
+      "prep": false,
+      "claimed": true,
+      "id": 76
+    },
+    {
+      "name": "Sag Isle",
+      "description": "Largest island in Lake Goading.  (400 ft. x 1500 ft) - heavily forested but a weird dark brown.",
+      "tags": [],
+      "prep": false,
+      "claimed": true,
+      "id": 77
+    },
+    {
+      "name": "[little village south of the grihmies]",
+      "description": "## buildings:\n- **The Goose and Foreskin**\n- **Succedaneum, an Education Center**\n  - well-built structure out of granite / polished marble blocks\n- few buildings\n  - urban, church-like worship centers\n- 10-12 houses\n  - more houses , sparsely spread up and down lake\n- Blacksmith\n- road leading to lake marka and up and down coast of lake goading",
+      "tags": [],
+      "prep": false,
+      "claimed": true,
+      "id": 78
+    },
+    {
+      "name": "Old English grið, < Old Norse grið neuter, originally domicile, home; in plural, truce, peace, pardon; hence, sanctuary, asylum.",
+      "description": "",
+      "tags": [],
+      "prep": false,
+      "claimed": false,
+      "id": 79
+    },
+    {
+      "name": "frith",
+      "description": "†2. A game-preserve, deer-park.   water frith n. a place where the fishing is preserved. Obsolete.\nOld English had déor-frið in the abstract sense ‘protection of game’ ( OE. Chron. an. 1086).\nc1275  (▸?a1200)    Laȝamon Brut (Calig.) (1963) l. 718   Ȝe huntieð i þes kinges friðe [c1300 Otho parc].\n1584   in R. Binnell Descr. Thames (1758) 63   Places inhibited to fish in, called Water Friths.",
+      "tags": [],
+      "prep": false,
+      "claimed": false,
+      "id": 80
+    },
+    {
+      "name": "frithsoken",
+      "description": "  frithsoken  n. Anglo-Saxon Law an asylum, a sanctuary (the later explanations seem to be baseless conjectures).\n1014   Laws of Ethelred (Schmid) viii. c. 1   Ðæt he friðsocne..gesece.\nc1250   Gloss. Law Terms in Rel. Ant. I. 33 Frithsocne   Franchise de francplege.\na1342   R. Higden Polychron. (Rolls) II. 94   Frithsoken, id est, tutatio in jurisdictione; Gallice, seurte en defence.",
+      "tags": [],
+      "prep": false,
+      "claimed": false,
+      "id": 81
     }
   ],
   "transcript": [
@@ -4400,6 +4596,30 @@
       "level": null,
       "game_day": "",
       "id": 20
+    },
+    {
+      "body": "## Carlos engages Gegathon in light conversation\n\n- G: Druids have had me trapped down here for a few years now\n- Carlos: why can they use ballsack power to trap you?\n- G: what? i've been trapped underground.\n- Carlos: we destroyed the trap, and welcome back\n- Gedathon: the brains surrounded me in an evil circus of bondage.\n- Flick: like the insane clown posse ? \n- G: i was separated from my posse. without a hengest . or a party invitation. i could feel its inverse hanging just on the other side of the world.\n- C: how long?\n- G: hard to tell. fiends lose track on the material plane.\n- C: where's home: \n- G: home is just metal hell.\n- C: that sounds lovely. do you need help getting back to your volcano?\n- G: once i kill the druids i can find my way back\n- C: we already destroyed a decent number of them.\n- G: if they were all gone, i would have an intimation. there must be some still around.\n- Flick in game still hiding\n- C: what's your backstory with the druids?\n- G: we don't have any competing projects. trying to get orange pastemaker within their grasp.\n  - this is Hengest the Violent (munching on brains)\n  - Hengest hasn't said anything.\n- C: to G: does H speak? \n- G: when H is with me, she obeys\n- C: well you can obey while having a mind of your own. but ... not a talking horse ?\n- G: don't all horses talk?\n- C: i wouldn't say all. well the horse was doing a lot of talking until now.\n- G: this horse communicates primarily through violence, as its moniker might suggest.\n- C: that's a valid mode.\n- G: are you saying that violence against others is a healthy mode of expression? I certainly like this guy.\n- F: our cleric, ladies and gentlemen\n- C: anyway, we should be friends! -- aren't you out of your prison? is the world your prison?\n- G: something in the structure of this arena that makes it a runic area of bondage. \ntitle: \"not the kind of bondage you might be thinking of\"\n- Flick (title): \"can i roll to see where this guy is going with this?\"\n- dm: he's not pressed for time; doesn't see his primary foes.  he's acting superior; acting supercilious. still has blood in his eyes , so might not see anyone but carlos\n- carlos: what is it ... that keeps you here ?\n- G: the difference between the physical and the magical / \"spell-like\" are elided to a great decree. \n- Carlos: ok, so it's basically a spell\n- Jean-Luc: are we seriously thinking about letting this guy out?\n- Flick: to JL: do you have ranged weapons? JL: yes. F: let's take pot-shots at him.\n- F: and he's riding a hellbeast! \n- C: i have a team here with me. they want to know that, after you kill the druids, will you go back to the volcano, or kill people in our world? \n- G: i'm not sure it's your concern. \n- ian reminds jake that the druids offered to help us deal with the peryton if we killed the nightmare, because we didn't want unicorn to be constrained\n- jake: i don't trust ... the druids\n- carlos is chaotic good\n- ian: you are literally the opposite alignment of this creature\n- jake: i feel like we've established that the usual alignment things don't apply\n- dm: carlos is a racist and a xenophobe\n- jean-luc: what about the nightmare makes you want to trust him?\n- C: what makes you think that he doesn't just want to go home?\n- Ian: primary foes mention, and trapped on material plane. \n[too much meta-talk]\n\n- Flick: executing readied attack action: establishing that Flick hits and throws Hunters mark\n- G to C: call your friends off\n[ G pinpoints exactly where each of you are located]\n- Paros smiles and waves\n  - G's eye flashes a bolt of flame intimidatingly. \n  - Paros appears very friendly, and genuine.\n- Flick: so am i alone on this one?\n- Jean-Luc: i'm not sure this should be considered \"pre-emptive\"\n- dm: not clear to G that you're trying to be friendly\n- Matt: but it's not clear to him that i'm NOT\n- fez [nat 20 religion check] : can see a large shadow that's hovering just behind him, and he's infused with the power of it, that this is the demon sorcerer tantegorisch's image, behind Gegathon. and is an anti-paladin. \n- paros: could it be a friendly anti-paladin ? \n- dm: the meta-communication was actually happening through Paros as a switchboard; paros felt in his forehead a bulge \n  - paros: is it an electric guitar ?\n  - light/dark in spot, and electro-magnetic spectrum, and sounds like electric guitar.\n- paros casts haste on fez. \n- then paros tries to meditate technique to relieve headache (wisdom perception check) : [24] after using inspiration.\n  - feel like he could harness the spot to do something for him. highlights each of the people in vision, and projects images (evil eye: sleepy, paralyzed, fearful, poisoned) -- spot on forehead is no longer there, and no more visions. \n- genitals made out of tree latex\n- G: enlarges and burns; 30 foot high giant pyre of horse and man: within hearing, make charisma saving throw. DC 17.\n  - seeing the fire in between your ears and your mind; (blind if lost)\n  - passed still has disadvantage. \n  - mind-callous develops on those that passed. mind-gloves and mind-hands. (fez)\n- Fez tells them that gegathon --- has connection to Tantegorisch. comunicated to fez by another power. if fez spoke, could T hear him? Fez doesn't know -- he'd have to make a warcana check . \n- Fez: channel divinity to turn faithless. \n  - Gegathon failed. !! so he's turned. \n- Fez holy symbol: thing he washed up on shore with\n  - fez just burbles some underwater words\n  - flick: what a beautiful language! so subtle!\n  - G: you little bastard, i see what you are now. i'm surprised even those incompetent druids let you get in here.\n- Drav dips a bunch of daggers in holy water and gets ready to chuck them at the hell knight. \n- G: i hate being surrounded by this much goodness. where's that litle dwarf? \n- C: you blinded me! \n- G: it's burning off your vision of this disgusting holiness. soon you'll be able to see the scape that I do.\n{{i don't like how my voice drops off -- doesn't be encouraging to other talk}}\n-C / G: what do YOU know about tantegorisch\n- G: if you fight with me, i'll tell you all you want to know about Big T. T-Gore. \n- Hengest, glowing with deep red flame, attacks Fez [20 bludg, 17 fire]\n  - G: yes, HENGEST, give it to him with those fiery hooves! -- rushes back , Gegathon jumps on, and they disappear. \n  - Fez gets OA, hits\n- Jean-Luc can now move under own initiative; since exuviae turned into hengest.\n  - tries to meditate. sees inferno of flame; silhouettes behind that; looks like looking at things through a blazing fire. \n- jean-luc basically passes on his turn\n- flick and carlos get in a fight about healing people\n  - flick: \"flick is not at the point where she regrets firing at the hell knight\"\n- C: [9] fails. so casts lesser restoration to cure blindness. - C: when i think about fez. \n- title: \"we'll always have hengest\"\n- F: did my hunter's mark wink out? ADV on perception and survival checks. \n  - tries portal .. sense ? activate? no idea where they are. dm: not on this plane anymore. \n- Flick: passes saving throw. (can't hide as BA yet)\n\n- Paros tries to make \"guitar thing\" come back\ndm: last time it emerged when you were telepathizing and got overstimulated\n- Paros tries to reach out with my mind and 'triage' to see what their status is\n- eye integrates with normal perception; but he's seeing their embodiedness rather than ... \n  - oh, just share it with jean-luc\ntitle: just don't call me late for paladinner\n- dm: jean-luc wont' be able to see what paros does. \nJean-Luc: religion check. something about paros's eye feels not right to him.\n\n## the worm\n- Carlos is grappled on top of a worm as it tunnels through the arena.\n- Fez: did that asshole knight summon this worm on us ?\ndm: the knight couldn't have summoned it, because he's turned. (can't take actions except to dash or dodge)\n- Fez: how thick is this worm?\n- Paros: oh . my. god. look at that worm.\ndm: 6 feet in diameter\ndm: carlos, you can feel it dragging you through the earth\n\nflick: 18 to hit. 23 bludgeoninng damage. (half flick's health - stinger - doesn't poison him) dives under the ground and up to fez \nfez: tries to pull carlos off\n (dwarf catching: 15 to dwarf catch)\n  - grabs ahold of carlos, and wrenches him off the creature\n[ :journal stinger, dripping with flick's flesh, retracts back into the worm]\ncarlos is built for getting dragged through the earth\nfez: like the most dwarf thing ever\n[ :journal: should have given carlos some info about the worm digging / rocks]\n\nthe worm has gone completely underground. \ndiscussing how far outside the arena to get\n\nscrobs: i can't believe i'm seeing old meenow; old meenow lives in the flipped world \n  - i've certainly never seen her before. \n\ndm: worm wasn't technically a lair action. \njean-luc didnt get all his clothes back? but he had them in his hands.\n\nwhile i'm in the bathroom: they want to deal with the worm; and think they will have to deal with Gegathon down the road\n- (bone wizard): veenock\n- but jake was talking about naphula\nMick: Paros is the most insane character. \njake: we've got a new naphula\n\ndrav casts erupting earth. on the tunnel. 20 feet down (Because it's visible). \n\"she who heard it, dirt it\"\n- earth erupts in a column, and you can feel this entire area, starts to crack and buckle, and it all collapses into a huge hole, that's ... big. (the size of the wrestling pit). \ncarlos: good thing no one was standing there.\n  - starting at the orange pool there are gigantic staircases that go down into the earth\ndrav :what?!\ncarlos: what about the geniis on the island? \ndm: only one of them is a genii, and that's because it's part genii.\ndrav: how deep is the whole? \ndm: i describe the cavern.\n\ncarlos: sounds likek a toilet\ndm: yes, it's an infinitely deep toilet with two balustrades\nflick: title: the toilet of the gods!!\nscrobs: this is new to me!\n\n## 2:52:10\n- pools are now the stairways, leaking the orange creamcheese. \n- scrobs: the druids live here, in the forest. i'm not sure daealla's even going to show up in one of these puddles\n- Carlos: is there a druid village nearby?\n- Scrobs: this sort of is the druid village; there's 12\n  - Flick: 6 now ...\n- Scrobs: there's the other village they talked about leaving Aphelia in\n- Carlos: let's go downstairs:\n- Flick: (title) Old meenow is going to eat us alive!\n  - i'm chagrined that worms are letting ... there's a giant worm that can reach us at a moment's notice\n- Carlos: if we stomp on the ground.\n\nian: how was the worm moving freely, under the arena, if there wasn't earth for him to move through\n  - or it didn't know ... \n\n## god damnit i missed a bunch here. ^^^\n\n- carlos heals flick\n- dwarves check out rocks: usually very deep under earth, at roots of mountains and seas. look constructed at top, can't tell going down.\n- fez recognizes that they are musty and unused for a long time.\n- flick uses primeval awareness to see if garglemon is in the vicinity\n- gegathon ? \n- flick detects him on ethereal plane; just cooling his heals until turn effect ends.\n- jean-luc, no longer blind, climbs to the top of a rock. \n\ngegathon starts climbing up out of the tunnel. (cantering up the stairs)\n- G: that was a nasty little trick you pulled back there. good thing H has my back, i could just take off for a minute. \n- the worm will stick around if she gets a taste for you\n- C: is daealla down there?\n- G: daealla and i know each other very well. we're not buddies.\n- C: we want tottalk to Daealla. is she down there?\n- G: not really. what i did was ... well i came back on the stairway for dramatic effect, from the EP. what , do you think I'm crazy? i'm not gonna do that to my horse. \n- C: so you don't know what's at the bottom of the steps\n- G: well if you don't know, i'm not going to tell you (panicked)\n- C: we don't want to go down there right now because we were being attacked by a worm. what's your strategy vs. worms\n- G: i just told you that i sikk'd old meenow o you. \n- P: what did you see? / though thinking\n- G: i just think it's more interesting if you're surprised when you go down those stairs. [thinking: i hope they go down there and get themselves killed]; [maybe i should be nicer to this stupid dwarf: i could definitely get him on my side. it's so much more fun to treat people like pieces of shit though]. \nFlick: i'm gonna shoot him again\nG: yeah I'm gonna try to murder you assholes.\nC: i feel like neither of those options is productive at this point.\nD: killing G ... seems productive\nFez: can we deal with one character per turn getting killed?\nD: we can just stand back and snipe him.\nC: should we put up a warning sign?\nJL: i like that idea:\nFlick: (title) caution: death knight is possible\nC: i think we're going to take off, I guess\nD: wait, is that our conclusion\nG: hey, cool guy (carlos): you're supposed to be helping _me_ out\nC: i don't know what either of us have to offer each other\nG: i have some cool holy items in my ... saddle ... purse. come on over here and take a look!\nFez (title): you call it a 'saddle purse' ?!\n  - call it literaly anything but that\nG: saddle ... bag? bag is such an  awkward word\nFez: side satchel\nG: what am i, a hipster?\nFez: a little.  you smell bad, are wearing flannel under your armor. you just walked up from underground for dramatic effect. look disheveled. \nG: hipsters like to pretend they're _not_ doing things for dramatic effect.\nFez: it all comes back around.\nC: wait, does he smell bad?\nFez: he smelled like sulfur and brimstone. \nG: you assholes all smell like cheese oil, \nFez: that's not our natural scent\nG: i dont' believe you.\nC: i'm not into holy items.\nD: hey carlos, has Aule appeared to you at all?\nC: I'm more psyched about snacks.\n[waiting on religion from C : [14] ]\nFlick: to JL: should we just shoot him?\n  - hops off stone\n- actually pick up with JL -- \nG: there's a golden-haired little favorite boy over there; JL shrugs and fires the arrow\n- JL hits\n- Flick would have to make investigation check to to see if he's still hurt from arrows he broke off\n  - flick as ADV on attacks\n  - w/in 30 feet, gets the planar hook, and 2 arrows. at ass. so goddamn fast. \n  - claps Hengest with spurs: horse flicks mane, and huge wall of bloody fire comes up, and force arrows partially break up before can be hit.\n- G: there's more where I came from too, it's called: all of hell\nFez: do you even know flick's name?\n- G: hall does\nFlick: now he does\nFez: who is hall?\nG: HALL. he runs a theater down on 1st and Main.\n\nFlick: I've done 3 times as much damage to him as any other party member\nParos: heightened lightning spell, so DIS (knife lightning -- lightning with little knives on it) - 30 damage.\nG: i wish i could have said that this empowered me, but it did not.\nG: does the charisma thing.\nfailures: paros, JL, flick. \n\nbeautiful will'o'the'wisp lights; miraculously gorgeous flame-steed; feel compelled to get as close to \n  - charmed\n  - have to use movement to move closer to him. \n  - fez casts bless as level 2 spell, flick, carlos and fez: \n- scrobs: i was looking forward to being blessed !!\n- fez: next time!\n- scrobs (journal): i don't want a next time of this.\n\n- Drav: casts cold spell. which melts in the intense heat of his halo.\n- G: i like that frisson of cold; maybe we can make a masseuse arrangement; \n  - one dwarf is my jester, the other my massage therapist.\n- G is too quick and rides out of the AOE\n  - hoists a fire lance and tries to joust on flick, flick gets burnt and knocked unconscious. \n  - dismounts from Hengest and tries to go for the paladin; \n  - fez sees that his lance shortens into a Sword. s-word. \n  - hengest rides back over there. (hengest is doing all the movement) \n- scrobs hides. \n- carlos: yes, fez ,get a mantis shrimp. \ndm: hengest takes off, and he's 40 ft. up in the air. \n  - scrobs is leaking his sticky and slippery oil .\ncarlos [CON 21]: feels very nauseous but chokes it back and doesn't add to the puddle\n  - casts pFG&E on self, and blessed. \n  - used to having Aule appear on the material plane; you hear: \"Why are you trying to get in league with this guy?\"\n  - \"Just ... watch yourself, cause it got a little tenuous out there before\"\n  - Carlos: i was trying to avoid a fight\nAule: this dude is pretty miuch an embodiment of death\ncarlos: i thought if we didn't piss him off he'd go back to his volcano\naule: it's not like he's the most morally complex creature you've ever encountered.\ncarlos: obviously he's evil, but i didn't know if he intended to cause evil here. if it was beneath him.\naule: let me know if i have a coward for a follower, and we can re-discuss our working relationship. you know you're a cleric, right?\ncarlos: i think there's a limit in crossing over into foolhardiness.\naule: sure, you can be diplomatic and at the same time uphold the clerical values.\n  - ok, well ... good talk\ncarlos: advice?\naule: yeah if my brother comes around, try to avoid talking to him\n   you know ... Dagdo; he's a real asshole; he's always wearing shades and trying to get people to smoke up with him\naule: your friends have convinced you to take the ethical high-road.\ncarlos: thanks for stopping bye\naule: my dubious pleasure\ncarlos : [20] - goes over to flick.\nGegathon: \"horse god\" ? i like that!\njean-luc: bonus action to disengage. (so he can leave without taking an OPA\nGegathon: (journal) the beautiful man comes to me and misses; if beatify sees beauti superior it cowers\n\njeanluc sees that he doesn't have genitals, and no armor in that area\ncarlos: how come aule has such a stick up his butt today? \nfez: that was baby brother and pot smoking extraordinaire doo-doo.\ncarlos: i want to make dogdo my deity. \n  - only move 15 feet a turn; \n  - superior persuasion (can poison opponents)\n",
+      "session_date": "2020-04-11",
+      "tags": [
+        "mb"
+      ],
+      "prep": false,
+      "session_id": "23",
+      "level": "5/6",
+      "game_day": "8?",
+      "id": 21
+    },
+    {
+      "body": "## possible titles\n- Toblerooooooooooooooooone!!!!!!!!!!!!!!\n- Oh no it's one of these things!!\n- Unstun the Bunqle\n- sadie really likes tape\n- everything's just plants\n- A Karbunqle of Nine Tails\n-  James and the Giant Beech\n- I don't want to stumple around for two weeks and then get eaten by a tree\n- Never go with a halfling priest to a second location\n- All the sugar is demons\n\n## who got what?\n- Hieronymus: beefed up quarterstaff\n- Fez: beefed up whip\n\n## getting ready\n- map - sent to me from some of the archivists in marshbout\n- mick: i want names\n  - A. C. Tockletone\n- the dords: should look like sand dunes\n- does Bruss Tarsia sound like a star wars name\n\n## recap\n- fez, turtle, new storm power\n- carlos hammer is sledge hammer wrapped in duct tape and \n  - smells like stale tobacco\n  - Dogdo was the chill dude communicating; Aulë was the one a little more uptight. depending on ethical approach to situations, you have better or worse access or one or the other. \n- Drav cast cloud of daggers, Aulë approached Drav and offered to cooperate with her. the daggers are now created by Aule struking celstrial steel on anvil, and it shoots out as daggers that do radiant damage. \n- hieronymous tried to bad-pipe, but the roll was so bad that it was good-piping (good bagpiping); but later when Mule kicked him against Jean-Luc and it broke one of the bagpipes. \n- Killed Hengest, Gegathon started crying, eventually defeated him\n- Fez came to with new Storm powers. \n  - aura grants ... \n- exuviae did not come back when Flick drowned gegathon\n- Jean-Luc acquitted self well\n- Hieronymous offered everyone his coins, split evenly. scrobs stoll one (all got 5 gp)\n- daealla wasn't much help in getting back to her, but with Drav, learned about 4 sites of mystical empowerment which had been reactivated when they banished TG 25 years ago.\n- hieronymous mandrake root - carlos made an interesting equation between gegathon and mules, because they are both sterile\n- H mentioned looking for book necronopticon or nehpilopticaon, and nephil mts probably a good spot to check that out.  \n- `Carlos: one of the cultural relativism of the world. ability.`  \n---\n## evening\n- they encamped about half a mile east of the Kashte'a river\n- get a full night's rest (so it will be day 9)\n\n## Flick applying poison to arrows\n- Flick comes out of trance ? Or -- is this before going to bed?\n- flick to make poison arrows: (can choose if he's making poison to poison, or poison damage)\n  - survival check\n  - 1-5 (1d4) + survival skill mod\n  - 6-10 (1d6)\n  - 11-15 (1d8)\n  - 16-20 (1d10)\n  - 21+ (1d12)\n- planar warrior: arrow gets converted into non-whatever force\n  - paints them with ocre chalk\n\n## Hieronymus butts in and ends up tripping\n- hieronymus asks if flick is doing poisoning. it's one of H's favorite activities. i have 10 darts that could use a bit of poison.\n  - flick puts mistletoe on it to make H think he's poisoning them\n  - flick 8 deception; H insight 11. doesn't think flick putting on same poison. thinks mistletoe is because flick wants a smooth\n  - H: \"i can tell when i've been fooled\" . (closing eyes tightly and puckering to the fullest extent\"\n  - Flick: takes small shield on the ground and deflects him by the face away from her\n  - H: you have such metallic skin! \n  - Flick: you know what, H, you're alright. if i TURNIP anymore, i will make some for you.\n    - I use this! (fizzlecyst blood concentrate. smells strongly of ... fishy eely smell, but a very nice petrichor undercurrent) \n- Flick to H: do you know how to make poison?\n- H: no ... but I enjoy tasting it. i like to swish it around, detect the notes, and spit it out.\n  - takes a nice big swig, and swallow about half the vial. \n- flick: you're not going to be able to taste your meals tomorrow\n- H: i wasn't planning on eating for 4-5 days\n- Flick: is that something your religious order demands?\n- H: it's a spiritual cleanse.\n- (there is gluten in the poison; the fizzlecysts eat a lot of rock crackers)\n- H: make delicious cookies!\n- Flick: it's all tied up in poison right now (all Flick's assets) -- and blood, and 8 pounds of pennies. so eager to get to north bottle and trade fizzlecyst futures on the market.\n\n## hallucinations: Hieronymus circles the grove and the \"appearance\" of Roxstallana\n- mule now looks like Roxstallana to Hieronymus. \n   - H wanders around clearing shaking his quarterstaff and screaming. \n  - Flick -- i take it that's not a euphemism?\n  - Galen: no, it's both. \n  - H: screaming : \"Show yourself, Amabelle!\"\n  - Flick to mule: \"is he ok, does he do this often?\"\n  - Mule: his obsession now is to find her. it's his obsession. \n  - Flick can tell that Mule is ensorcelled. \n\n## the battue of Bampot  \n- long-nosed, long-eared, slate-blue goblin face. it's had to back up because of Hiero's gyrating. \n- Flick: there's nothing to worry about (YET!) why don't you come out and tell us what you want.\n  - bampot wants reassurances that they won't be hurt\n  - flick calls bampot \"Sweetheart\" . \n  - you might go after my family ! \n  - flick slings bow back onto shoulder. \n- bampot: what's this guy doing with the stick tho?\n\n## Carlos heals Hiero after all make intelligence check on tobolux  \n- H sees deer with horns poking out front of face.   \n- `I should find some way to relate this to Baphomet and/or the Horned God`\n- Carlos (Jenny) asks if Hiero looks like he's enjoying the trip or wants help.\n  - Hiero is having pretty vivid, poison, not magical hallucinations. \n- Mick: what about our Djinn friend in the bottle ? \n  - Jake: I thought our one question was supposed to save the geniis\n  - bottle never destroyed; tobolux part ifriit, tobolux, and oklmuk\n  - as Carlos rubs the sand bottle, it becomes liquid, of the same colors, and pulses, but nothing more happens.\n- Carlos: I guess I have to do this myself! (hrumph)\n- lesser restoration. \n- Hiero sees truth of things now.\n- Hero thinks it's the same goblin he was friends with for 40 years as a small elf before he joined the monastery. perhaps he has found me at last. we've been reunited. (saying this out loud, apparently)\n  -  [int check 6]: it's definitely that same goblin\n- H: Oh, Feekus! finally we've been reunited!\n- Bampot: who the fuck is feekus, i'm bampot. \n- H: i'm afraid my comrades and I shall have to destroy you. \n- Bampot: why?\n- Hiero: I don't like goblins like Bampot\n- B: it's pretty common in goblin circles\n- Dat'tar and BubHot and Bantob\n- H: would you like to break bread with us, \n- B: to partake of Bacakaladj? (some kind of poison cuisine)\n- H: i fyou give us even one small dram of poison, we will do your bidding for all eternity.\n- Carlos: NOPE. \n- H: nope? oh, it seems like i was mistaken. \n- Bampot: do you often pledge yourself to something for very little in exchange?\n- H: are you sure you're not Feekus? you seem to know me very well.\n- Bampot: we're more anti-authoritarian\n- Fez: there's something weird about this guy (H)\n- H: yeah, i think we need to get rid of him\n- Bampot: you're camped on one of my favorite sites for finding this particular plant. \n- Fez: ??\n- Bampot: it's mafflegold. (beautiful yellow flower you've crushed with your sleeping mounts)\n- he and fez argue about what are weeds\n- B: the roots are really what i'm after\n- Fez: we used to eat things other considered these. but not these, these are definitely weeds.\n- Fez: getting a weed in your eye is quite painful\n- Flick: Yes, Onfalon said that weeds are just a misunderstood plant.\n  - (looking around for more goblins)\n\n## two more goblins become noticeable\n\n### goblins want to get at flowers\n- Flick: nothing to be scared of  \n- `should have had a performance check against their ... insight?` \n- other goblins: did he ask you to move off the flowers? we'd share some of the roots with you.  \n- flick: are they mandrake roots? \n- goblins: no. \n- flick: if this is where you forage, you have a right to come in and take it\n- goblins: sometimes it can be a bit difficult with just the three of us.\n- flick: (sarcastically) well we have hiero here, a noted poison expert\n- H: (digging already, but in wrong spot)\n- flick observes them: \"do you find it hard to live this close to a large human population\"\n\n### goblins trade with humans, and get along with them\n- goblins: the humans make living off lake, primarily. thubudder is very large and we also are just as comfortable living underground, so we have caves and rock homes. they don't hunt goblins or bear us any ill will. we don't get a whole lot of visitors. we do have a connection wtih one of the restaurants in town -- one of the more experimental / avante guard chefs. we have ways of neutralizing some of the poisonous effects, so we can cut the poisonous glands out, and provide them with the non-poisonous flesh.\n- flick: we're in the area chasing a rumor about a place of power. about druids.\n\n### information about the druids in seomra crann\n- goblins: main druids in seomra crann -- like a living building. we do actually give them some of the things that we can find and harvest, and they use them more for spells than food, but we do a trade with them.\n- flick: are they friendly?\n- goblins: they're ... weird. \n- flick: what would you say their aesthetic is?\n- bampot: oh yeah, i know who you're talking about.  they're off the end of the scale. the ones here are just tree huggers.\n  - the village nearby has a temple to Axissa. she's the main mother goddess for seomra crann. \n- flick: does her repertoire or symbols include thongs and ... ?\n- bampot: the upper reaches of the structure is sort of an aviary for birds of all sorts. i'm not sure if they have a magical relationship with them.\n- [Ian: the evil mailman (Budduck) who was using polymorphed quicklings. ]\n- bampot: the temple is in the hamlet\n- Paros (Jake) : in what was is their house alive?\n- bampot: it's essentially a 100-foot-tall hedge. \n\n### hieronymus has dug up half the campsite. \n- H: no weeds! but i did find this pile of bones and the corpses of six adventurers with tiny goblin daggers plunged into their hearts. -- or corpse of one adventurer. \n- Carlos: check if they are bones, and if H is still hallucinating. \n- [H, your knowledge of goblin daggers is based on interactions with Feekus -- which wasn't even his real name]\n- Carlos: 25. H is looking at rock bones, like somebody was literally petrified. or some other chemical event took place. and he's no longer hallucinating. the \"dagger\" is also stone. it looks like a flint-daggers with the scalloped edges. the rock wasn't naturally formed; it's rock now but the rock itself is 20 years old.\n- bampot: these actually mark where the mafflegold flowers are sometimes, but we don't have any way of telling what it is. we've seen others in other parts of Thubudder. there are people in Skimming who've looked into it. they might have info at the natural history museum or one of the academies. \n- Carlos `Insight: <failure>`\n- `bampot: the museum is made from a gigantic meteorite from the bottom of the lake. first it was a church, and then a city hall, and then a museum.`\n\n## the flowers - unearthed\n- Tinton and Macpam and Bampot: we need a little bit more room than this.\n  - they dig out the top of a bulb, the main bulb, and they each tie a string around it, and move back to form a triangle. \"they tend to be big when they come out\"\n  - techniques -- shortening the rope by making loops and having them fall off. (is it the rope, or a spell? don't know)\n- emerging from the ground: a giant turnip. 10 feet in diameter. \n- the little roots at the end start squiggling around, and the goblins shout: \"oh no it's one of these things!!\"\n\n## the ... fight? \n- getting initiative. \n- Heiro has been burping up fizzlecyst blood burps this whole time\n- jean-luc is suffering montezuma's revenge from the exuviae's oil\n- root that's formed a vaguely humanoid shape about 7 feet tall, snaking vine riders out towards you. tendrils? bine (twining vine) creepers. \n- flick. hunter's mark. \n- karbunqle: why are you attcking me in my home!\n- hieronymus: throws broken bagpipes down at the ground; crouches down, summoning energy from the ground, and attacks. in order to perform stunning strike.\n  - uses quarterstaff as a pole vault and vaults himself into the air. how does he enact a stunning strike? \n  - the flippety-doo part of it? when H lands, he jabs the end of the staff down at one of the roots, like it's someone's toe. \n- K: \"what a zippedy doo strike!\" and H. `stuns it.`\n- H is so intimidated by the voice, that he turns and flees screaming.   \n- `acrobats check: 12` nobody else even thinks about changing regarding how they feel about hieronymus  \n- `reword this`  \n- `establish that quickling boots have to be repaired before they are worn`\n- fez has to use misty step to get the last 5 feet to attack; \n  - hits with whip after affixing coral. and hits again. \n- K: says that fez is a chip off the old block. looks so embarrassed that it can't speak hyper articulated way. \n- `hieronymus finds that bagpipes are also growing the tree` \n- K still can auto-regenerate some HP\n- 'Thubudder is so big ... that .. can you even lift ... leave me alone......'\n- `fez quotes suntzu` :\n- [establish that paros is an adventuring scholar ??]\n- K: the only reason it's red under me is because the flowers are bleeding now!\n- `practice not saying 'he says' but just doing the character`\n- flick gives mick shit for his whip doing no damage.\n- K makes a plea to improve the powers of the whip if they stop attacking him. it's a green new deal!\n- Fez: can we not fight him for a second. \n- K and fez argue about whether puns or a sense of humor exist. \n- Paros wants to see his Nude Eel (new deal). \n  - K: i usually reserve that for my sexual partner, but OK. \n  - [genital area in center of chest -- opens up into beautiful maioecis self-pollinating mafflegold flower) \n- Flick doubles over and vomits\n- K: doesn't this humanize me at all to you. here i am in all my nakedness, yet you would still attack. \n- Paros spends this turn not reading. \n  - Paros starts experimenting with self-hard in form of shocking grasp. Readies shocking grasp as an action. \n  - \"if the potato acts aggressively\"\n- Drav: what are these ? to goblins\n- Bampot: they're called Bunkles. the poison is available as an inert vegetable root, but if it's allowed to grow this long around other nutrients, but they can be very testy if you wake them and try to cut peices of of their body.\n- Drav: what if you just let them go back into the dirt\n- `Bunkle Jessie`\n- `PRACTICE talking between bampot and Bunkle`\n- Bampot repeats KarbunQle at Flick a million times. \n\n## out of combat and fezz gets a beefy whip\n- Drav to K: can we just leave you alone\n- K: that would be wonderful. \n  - Don't mention Tinder around me! I don't know how the word Tinder came into my mind. \n  - Flick: way to set up your own joke.\n- Drav to BP: is there a danger leaving it there?\n- BP: if they get too big they release these sacks filled with spores. they are considered delicacies amongst Goblins but they require a great deal of care, so they are dangerous to other animals, and we try to recover them before they explore. it's a balancing act. we should probably have a better system.\n  - `this one matured faster than they usually do`\n  - Drav: can we ask them when they will mature?\n  - BP: i'm not sure they have a great sense of chronology. \n  - BP repeats carbunkle a million times. and starts drooling. i'm thinking of how delicious the spore sacks are.\n- BP: if we get out of here, she'll retreat into the ground soon enough.\n- Paros: well fez needs to whip it \n- Drav: does that sound like a plan: we'll leave you alone if you promise to show Fez how to whip it great. \n- K: i won't do technique. I usually come from the ground up. \n- `probably still should have had them make a charisma check or something`\n- sticks the whip in an enlarged eyespot on the top of its head -- now the whip is covered in thurny protrusions; thick rough vines with claws or thorns.  \n  - now a 2d4+1 whip, and the damage is slashing. but it's also magical.  (so it's a +1 whip, 2d4 damage, magical)\n- K: i've been able to put some of my sharper `elements` on it. they should last as long as you take care of it. requires a little tea tree oil. if you bury it in a forested area for 24 hours, it should heal\n\n## animate guardians of the forest\n- fez: that's exactly what we need. and entmoot. \n- they have faces but look kind of like bouncers (i had them do perception)\n- Flick addresses: have we overstayed our welcome\n- treant: we're just here to protect the karbunqle\n- flick: lucky for us, we don't have any further pokey business with it.\n- treant: so you're no longer a pokey man\n  - you distance-stabbed the bunqle\n- flick: i'm sorry about that.\n- treant: you should be, as a ranger especially. why don't you honor the sanctity of the forests\n- flick: in my defense, we did roll initiative\n  - Bunqle has been generaous. and i' glad her healing capacity will undo the harm I did. and i'll be more careful.\n- treant: that means a lot\n- Paros: does she need help being replanted?\n- treant: no, she's still essentially rooted right now.\n- `practice all three of these dopes talking together`\n\n## asking about druids\n- Flick: in elvish: we seek the druids who made the flying terror of the south. we seek a place of power where the child of the monster woman is stored.\n- treant: i don't know the woman you speak of. i know there is a source of power there. the seomra crann used to be smaller. \n- `gotta speed up my delivery`\n  - in the last generation it's grown quickly -- there are a whole shitload of druids there, so maybe unnaturally.\n  - at the same time, the dords grew into lake marka, and they were never there before. and what used to be a small lake became the alldrink in last hamme. \n- flick: i need a drink after my last ham\n  - `what the fuck is the alldrink?`\n  - flick: where does it come from?\n- `treants use their family to soak up water from the ground`\n  - the alldrink is part of the squee river watershed. other than that, i don't have an answer.\n  - flick: i'm surprised you knew that much\n  - treant: are you calling me a dunce?\n  - `should have had charisma check`\n  - treant: we're well schooled. disciples from Skimming come out here and lecture.\n- Did the bunqle not mention that you have to say its name everytime you use it?\n\n## general plans for the future\n- Paros: what happened to things with the genii?\n- Drav: our plan last time was to take care of the Peryton, then to Slubber and the FLowerfolk, and then the owl slavery\n  - the ritual was performed here and had unexpected side effects\n\n## treant approaches hieronymus\n- the threshold with you between the rational and irrational world is weaker\n- H: as a general rule I don't lend it out to giant Peaches\n- T: i'm a Beech tree. \n- H is prejudiced against giant peaches.\n- T: In case you were wondering the Bunkle's name is James. Together we are James and teh Giant Beech\n- little leaves sprout from the quarterstaff. -- \n- T: i can tell that you attempt to get in touch with a deeper power residing within all of us. this staff will now respond to efforts of those kind which are particularly successful. \n- H: that's wonderful, but I have some carbuncles on my feet from running away from battles.\n- `what battles is he running away from?`\n- T: do you have a container?  [cloth sack]\n  - H opens sack full of stuff\n  - Beech tree takes two of its branches and pushes its stomach fat (paunch) into your bag, like cheese curds through cheesecloth.\n- once the bag is full, H tilts his head back, and drinks thirstily by wringing out the cloth.\n- T: oh boy, that's really gonna eliminate any kind of boundary you have maintained. \n- H: I shake my head like someone coming in from a refreshing swim in the ocean. \n- the oils lands on people -- soothing cosmetic treatment. all get 1 temp HP\n\n## what next -- off to see the druids\n- H asks if they should try fighting the fiend again.\n- flick: pretty sure we got rid of him.\n- H: on...ward...?\n- might need to ask precise directions from someone in t\"the grimies\" -- it's grihmies!\"\n- le grimies; el grimes\n\n## northwards (late morning of day 9)\n- cross the kashte'a bridge and proceed north, hugging the shoreliness\n- maybe first time they've seen economic activity (flick has seen \"money\" before!)\n- people are merchants, farmers, craftspeople, traveling scholars, acolytes, ... \"soldiers\"? \n- [describing temples of xanthuc]\n- [describe hamlet south of grihmies]\n\n## church\n- church: gabled roof, a long nave ? straight, altar at the end, private rooms off to the side\n  - no one standing out\n- flick: \"hello!\"\n- halfling runs out from one fo the back rooms. he's wearing a blue robe with red trim.  \"hello!\"\n- Hiero: (to fez) \"this reminds me, can i borrow your whip?\"\n  - fez: yes, i do mind\n- Hiero: aloud: are there any cat-o-nine-tails to self-flaggelate at this establishment. i seem to have forgotten my morning flagellations. \n- Pandy: oh, perfect\n- Hiero: yes, Mouse friend, if you could point me to the nearest \n- Pandy: ?? \n- Hiero: didn't you say you were a Mouse Chef?\n- Pandy looks around to see if the rest of the part reacts:\n- Drav shrugs. \n- Pandy. This is the COOLOTDF (COLDF) - it seems you `already have some sort of alignment with the techniques that we profess`\n- Hiero: dismal is my favorite kind of future. could i trouble you to give me a few hearty blows on the back.\n- Pandy: well i think we are aiming for the same effect but we have different methods\n- Paros: He has a lot to atone for.\n- Pandy: that's even better. as long as he's able to produce the necessary lachrymations\n- Hiero: i can produce as many as you wish\n- flick: but he's not pregnant! (i never got the talk)\n- Heiro: opens robe and tries to start lactating.\n- Pandy : onen moment! mandy, get out here! (prehends). come up with us to the altar\n- flick hangs back\n- Hiero: we don't have to be formal about it (twisting nipple very hard)\n- Mandy: don't try that. it must come from the eyes. \n- Hiero: i'm a hunble elf and can only cry tears\n\n## tear extraction\n- [both reach up to touch on temples]\n- `Con check 16` : hiero livingi the momentn when roxfallana turned into mule. though sort of `accomodated` self to it over the years; realized it was permanent effect, break into intense bouts of weeping, and tears begin flowin from your eyes. in their hands, they have vials to collect tears.\n  - hiero: these are actually tears of happiness. Mandy notices. second glance: well this is more complex than i thought these emotions would be for you. is this giving you joy? how is this so?\n- Hiero: this is the happiest day of my life.\n- Mandy: It should be impossible for the lady to induce happiness when they've submitted themselves. are you not properly `submitting` yourself ? \n- Hiero: Oh, I am!  Oh, no, i'm sorry, i'm not. i hadn't realized i'd put up a defense.\n- Mandy: pandy, dump that out, it's not what we want. this has been very confusing for us. you do seem an interesting specimen of study. would you consider spending time at the church while we look after you ? \n- Flick to Jean-Luc: \"never go with a halfling to a second occupation\". he's outside pooping this disgusting orange diarrhea into the `pristine` lake \n- Hiero: i'm afraid i must continue on with my friends. we are on an important quest\n- Mandy: oh, has it caused any of you great sorrow?\n- Flick: it's been one obscenities after another. \n  - Mandy: that's quite a different reaction\n- flick: shooting. -- Mandy: oh a lady quick to violence\n\n## getting directions\n- Mandy: we are at your informational service.\n- Flick: we seek the druid circle. \n- Mandy: they are just over the next ridge. \n- Flick: have you had dealings with them? have they polymorphed or subjugated any of your citizens? come up with a bad solution to a pressing problem\n- Mandy: our deities tend to avoid one another. the Lady is not ... pain, but sadness. we don't like to inflict pain. but the druids their divine views aren't compatible with ours. as a church we are expanding, actually. we have temples in Cressida. and are looking to expand our influence in Yprosht\n- Ian: did COLDF run the Parish school? flick erroneously remember they handed out ice cream cones at T-ball matches\n- FLick: thanks for your help; we should probably be getting on.\n- Pandy: yeah, Mandy, we can let them go. but before you do, you should make sure ot check out Bort's donut cart. \n  - your son is named Bort ?! what are these simpsons?!\n  - oh, i remember now, Son of Simp. the Simp Sons. \n\n## bort's donut cart\n- want some donuts? you don't need a pitch when the donuts are this good.\n- Drav makes check to see if ... what the sugar is. doesn't seem poisonous. not using sugary tears of sadness\n  - flick gives a sniff. not a lot of experience with baked goods. [24] smells like Zarachiel. the sap angel. \n- Paros: I thought he smelled good!\n- [complex ecology for sap and the zorbon]\n- [it is real sugar, but it's also mystical. plain sugar DOES exist -- this is like the eucarist after it's been blessed. it's a transubstantiated medium]\n- Flick to bort: that's a very complex bouquet. how do you spice these?\n- Bort: that's a proprietary secret. \n- Hiero: are these cakey or flakey donuts?\n  - Bort: dense as the day is long\n  - Hiero: so like cake?\n  - Bort: wait, what do you mean by a flakey donut?\n  - Hiero: when it's light, airy, and puffy inside\n  - Bort: like it has a lot of thin dough layers to it ? no, not like that\n  - Hiero: are they soldier donuts, or monk donuts ... ?\n  - Bort: this is another vendor -- Krog -- we're not friends. he took my donut idea . he used to call them Krog donuts, but now it's just Kronuts. we usually proceed counter-clockwise, or one goes widdershins and the other goes diusil (dussel-bort)  -- so about now he's probably in Goad mess. ... we're both going south. we cross twice per rotation of the lake. \n- Ian: really getting into the corners of this world\n- Hiero: where could a fellow findi a nice glass of poison and bed of nails to sleep on around here?\n- Bort: they have exactly what you're looking for on the Grihmies. \n- Flick: is there a monastery of the order of the batshit bagpipes on the Grihmies ?\n- Bort: definitely a monastery of some sort. \n  - some of the smaller isles are just cults.\n- Flick: lotta cults in this area\n- Bort: i say cult, but it's really just people that others don't understand. \n  - you gonna get any donuts or what?\n- flick to paros: this smells like Z\n  - P: yeah, he smelled good!\n- (one silver for 12 donuts) -- Paros eats 12 goodberries, basically. if paros even looks at Jean-Luc, he will blow everything out of his body (in solidarity) -- or not-so-solidarity. \n- Bort: no, these will constipate the hell out of you. you'll be lucky to take a shit in the next year.\n  - Bort: they're just tasty donuts, i don't know how they affect you.\n- Carlos buys 12, shoves into satchel. (these don't expire after 24 hours)\n\n\n## leave and head for seomra crann around noon.",
+      "session_date": "2020-04-25",
+      "tags": [
+        "mb"
+      ],
+      "prep": false,
+      "session_id": "25",
+      "level": "6",
+      "game_day": "9?",
+      "id": 22
     }
   ],
   "faction": [
@@ -4669,7 +4889,7 @@
       "name": "Insanctuism",
       "id": 35,
       "tags": [],
-      "prep": false,
+      "prep": true,
       "description": "a discipline"
     },
     {
@@ -4760,7 +4980,7 @@
       "id": 47,
       "tags": [],
       "prep": false,
-      "description": "sap syrup gnomes ",
+      "description": "sap syrup chefs  --  Bort is one of them",
       "claimed": true
     },
     {
@@ -4848,7 +5068,7 @@
       "clocks": "Find Sirmgalv (relation to zorbwood?)"
     },
     {
-      "name": "temp",
+      "name": "blowfish twohorns",
       "id": 59,
       "tags": [],
       "prep": false,
@@ -5144,6 +5364,44 @@
       "claimed": true,
       "tags": [],
       "id": 103
+    },
+    {
+      "name": "protecting land from mining ",
+      "clocks": "",
+      "description": "Human rights activists argue that behind the state’s desire\nto destroy the Naxalites and ‘civilise’ the Adivasis is the aim\n2\nof cleansing the region for the extraction of minerals. Under\nthe Adivasi forests in the states of Jharkhand, Chhattisgarh, Odisha, Andhra Pradesh and Telangana lie some of India’s most lucrative reserves of coal, iron ore, bauxite, copper, manganese, mica and more. Business analysts have claimed that Indian mining is a success story in waiting. Powerful corporations have signed deals to exploit the resources and to acquire land for mining operations, steel factories and power plants. Mittal, Essar, Vedanta, Rio Tinto and Posco are scouting out the landscape. But the historic laws, which the Adivasis fought for in colonial times, prevent their lands from being easily sold to non-Adivasis, to outsiders. The Adivasis, and the Naxalites who live among them, stand squarely in the way of India’s economic boom.",
+      "turf": "",
+      "npcs": "",
+      "assets": "",
+      "prep": false,
+      "claimed": false,
+      "tags": [],
+      "id": 104
+    },
+    {
+      "name": "resource exploitation - lumber and forests",
+      "clocks": "",
+      "description": "From the late nineteenth century, alongside attempts at land settlement and alienation, commercial logging developed when the forests were found to be a rich resource for railway sleepers, for the building of military ships, and for hardwood furniture. The pattern of extraction was old and global. It was what colonial empires across the world – whether British, Spanish or Dutch – were built on. Timber taken by the Raj can today be traced in the well-preserved stately homes of England. Grand rooms in Buckinghamshire, Bedforshire and Berkshire can be found bursting with delicately carved chests of drawers, ivory inlaid dressing tables, the occasional Bengal tiger rug, and",
+      "turf": "",
+      "npcs": "",
+      "assets": "",
+      "prep": false,
+      "claimed": false,
+      "tags": [],
+      "id": 105
+    },
+    {
+      "name": "Portal Wardens",
+      "clocks": "",
+      "description": "- creature codex \"nalusa falaya\" are cool dog things that\n- and maybe some connection to drow (\"sunlight weakness\")\n\n**Portal Wardens.** The nalusa falaya are often drawn to portals leading to or from planes of shadow, death, and darkness. These portals may resemble dark ponds, shadowy wells full of peculiar echoes, or even dark caverns covered in spiraling runes. When losing a battle, they sometimes disappear into shadow and never return.\n\n___\n>## Nalusa Falaya\n>*Medium aberration, neutral evil*\n>___\n>- **Armor Class** 13 (natural armor)\n>- **Hit Points** 33 (6d8 + 6)\n>- **Speed** 30 ft.\n>___\n>|STR|DEX|CON|INT|WIS|CHA|\n>|:---:|:---:|:---:|:---:|:---:|:---:|\n>|12 (+1)|15 (+2)|13 (+1)|11 (+0)|13 (+1)|9 (-1)|\n>___\n>- **Skills** Stealth +4\n>- **Senses** darkvision 120 ft., passive Perception 11\n>- **Languages** —\n>- **Challenge** 1/2 (100 XP)\n>___\n>***Shadow Stealth.*** While in dim light or darkness, the nalusa falaya can take the Hide action as a bonus action.  \n>\n>***Shadow Step.*** As an action, the nalusa falaya can teleport itself to a shadow it can see within 30 feet.  \n>\n>***Sunlight Weakness.*** While in sunlight, the nalusa falaya has disadvantage on ability checks, attack rolls, and saving throws.  \n>\n>### Actions\n>***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.  \n>\n>***Claw.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) slashing damage.  \n>\n>***Terrifying Glare.*** The nalusa falaya targets one creature it can see within 30 feet of it. If the target can see the nalusa falaya, the target must succeed on a DC 12 Wisdom saving throw or be frightened until the end of the nalusa falaya's next turn.",
+      "turf": "",
+      "npcs": "",
+      "assets": "",
+      "prep": true,
+      "claimed": true,
+      "tags": [
+        "flick"
+      ],
+      "id": 106
     }
   ],
   "npc": [
@@ -5164,7 +5422,7 @@
       "etools_url": ""
     },
     {
-      "name": "\"Auntie\"",
+      "name": "Auntie",
       "id": 2,
       "tags": [],
       "prep": false,
@@ -5200,7 +5458,7 @@
       "description": ""
     },
     {
-      "name": "[Male Names:,, Daavn, Dabrak, Dagii, Drevduul, Duulan, Fenic, Gudruun, Haluun, Haruuc, Jhazaal, Kallaad, Krakuul, Krootad, Mazaan]",
+      "name": "[Male Names:,,, Dabrak, Dagii, Drevduul, Duulan, Fenic, Gudruun, Haluun, Haruuc, Jhazaal, Kallaad, Krakuul, Krootad, Mazaan]",
       "id": 5,
       "tags": [],
       "prep": false,
@@ -5215,7 +5473,7 @@
       "prep": false,
       "claimed": false,
       "fluff": "",
-      "description": "there is an absentee landlord \nA. C. Tockletone\nheard he lives in one of the wealthy estates (northwest area)\n is an Esquire, not a lord\nhome study; large dark wood desk; half-elven man, light, almost translucent hair back in a ponytail, a red paisley vest, and a dark suit; in his 70s looking",
+      "description": "there is an absentee landlord \nA. C. Tockletone\nheard he lives in one of the wealthy estates (northwest area)\n is an Esquire, not a lord\nhome study; large dark wood desk; half-elven man, light, almost translucent hair back in a ponytail, a red paisley vest, and a dark suit; in his 70s looking\n\none of the cartographer archivists",
       "habitus": "",
       "quotes": "",
       "pronunciation": ""
@@ -5307,7 +5565,7 @@
       "prep": false,
       "claimed": false,
       "fluff": "",
-      "description": "\nGod of the Sap Glom\nalisafala",
+      "description": "God of the Sap Glom\nalisafala",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
@@ -5435,9 +5693,11 @@
     {
       "name": "Awa Haycough",
       "id": 29,
-      "tags": [],
+      "tags": [
+        "contributor"
+      ],
       "prep": false,
-      "claimed": false,
+      "claimed": true,
       "fluff": "",
       "description": "or Yrah",
       "habitus": "",
@@ -5476,7 +5736,7 @@
       "prep": false,
       "claimed": false,
       "fluff": "",
-      "description": "A foolish, annoying, or obnoxious person; (also spec.) a belligerent or disruptive person. Often as a contemptuous form of address. Cf. bam n.2, bamstick n.",
+      "description": "A foolish, annoying, or obnoxious person; (also spec.) a belligerent or disruptive person. Often as a contemptuous form of address. Cf. bam n.2, bamstick n.\n\nshadow goblin",
       "habitus": "",
       "quotes": "",
       "pronunciation": "",
@@ -6527,12 +6787,13 @@
       "id": 136,
       "tags": [],
       "prep": false,
-      "claimed": false,
+      "claimed": true,
       "fluff": "",
-      "description": "Sister to Pelor (or ... Ulimara?)\nGoddess of the Undersea Moon\npatron deity of Selshamurrin",
+      "description": "Sister to Pelor (or ... Ulimara?)\nGoddess of the Undersea Moon\npatron deity of Selshamurrin\n\nhas Moonchild Naga as her lieutenants ?\n\n___\n>## Moonchild Naga\n>*Large monstrosity, neutral evil*\n>___\n>- **Armor Class** 15 (natural armor)\n>- **Hit Points** 75 (10d10 + 20)\n>- **Speed** 40 ft.\n>___\n>|STR|DEX|CON|INT|WIS|CHA|\n>|:---:|:---:|:---:|:---:|:---:|:---:|\n>|17 (+3)|18 (+4)|14 (+2)|12 (+1)|16 (+3)|18 (+4)|\n>___\n>- **Saving Throws** Wis +6, Cha  +7\n>- **Skills** Arcana +4, Deception +7, Insight +6, Persuasion +7\n>- **Damage Immunities** poison\n>- **Condition Immunities** charmed, poisoned\n>- **Senses** darkvision 60 ft., passive Perception 13\n>- **Languages** Common\n>- **Challenge** 6 (2,300 XP)\n>___\n>***Innate Spellcasting.*** The moonchild naga's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring only verbal components:  \n>At will: *charm person*, *friends*, *mage hand*, *message*, *minor illusion*, *poison spray*, *suggestion*  \n>3/day each: *color spray*, *dispel magic*, *fear*, *hold person*, **  \n>1/day each: *dominate beast*, *hypnotic pattern*  \n>\n>\n>***Rejuvenation.*** If it dies, the moonchild naga returns to life in 1d6 days and regains all its hp. Only a wish spell can prevent this trait from functioning.  \n>\n>### Actions\n>***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage plus 18 (4d8) poison damage.  \n>\n>***Constrict.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the naga can't constrict another target.  \n>\n>***Starry Gaze.*** The moonchild naga's bottomless gaze inexorably draws the eye of one target within 30 feet. If the target can see the naga, it must succeed on a DC 15 Wisdom saving throw or be stunned until the end of the naga's next turn. If the target's saving throw is successful, it is immune to the naga's gaze for the next 24 hours.",
       "habitus": "",
       "quotes": "",
-      "pronunciation": ""
+      "pronunciation": "",
+      "etools": null
     },
     {
       "name": "Finiendum",
@@ -8871,10 +9132,11 @@
       "prep": false,
       "claimed": true,
       "fluff": "",
-      "description": " ('BOZUUL') ERROROOTH. An Oni.\nIsabella's half brother through their oni parent.\naka Uncle Rovi\n\nROVINE's ward in the first place was never what they thought it was (LACREY? MELIONA? COVEN? DOMONKOS?)",
+      "description": " ('BOZUUL') ERROROOTH. An Oni.\nIsabella's half brother through their oni parent.\naka Uncle Rovi\n\nROVINE's ward in the first place was never what they thought it was (LACREY? MELIONA? COVEN? DOMONKOS?)\n\n## appropriator of sacrifices\n_taken from creature codex agnibarra_\n**Temple Servants or Terrors.** Often employed as guardians or treated as blessed creatures in temples of fire worship, agnibarras bring great enthusiasm to such places, though that enthusiasm comes in the form of burning things. Agnibarras accept and burn offerings on behalf of temples, but their single-mindedness often leads them to claiming such sacrifices for themselves instead of the gods the temples serve. The creatures often consider themselves a proxy for the temples’ gods, seeing little difference in a sacrifice to themselves or a temple’s patron. When this occurs, however, many a priest has discovered, to their horror, what a perilous prospect ejecting an agnibarra from a temple can be. Entire towns have burned to the ground as the flaming creature made its exit.\n\n**Improvement by Burning.** The agnibarra’s pyromania stems not from malice but from the creatures simply finding\nall things much more hospitable and beautiful when engulfed in flames. The agnibarra sees creatures that cannot withstand the flames as a nuisance, burning the creature to death means little more to the agnibarra than killing a field mouse would to a farmer.",
       "habitus": "",
       "quotes": "",
-      "pronunciation": ""
+      "pronunciation": "",
+      "etools": null
     },
     {
       "name": "Rowallane",
@@ -9550,10 +9812,11 @@
       "prep": false,
       "claimed": true,
       "fluff": "",
-      "description": "colloquially \"toblerone\"",
+      "description": "colloquially \"toblerone\"\n\npoison-testing ifrit. chance to attack, chance to genie\nhttps://roll20.net/compendium/dnd5e/Efreeti#content",
       "habitus": "",
       "quotes": "",
-      "pronunciation": ""
+      "pronunciation": "",
+      "etools": null
     },
     {
       "name": "Toestealer",
@@ -10601,7 +10864,7 @@
       "quotes": "",
       "pronunciation": "",
       "fluff": "",
-      "description": "\n\n\nangela\nfemale dwarf\nhappily raised by elves\non an adventure to meet other dwarves\nmagic casting\nmountain\nblack hair, luxurious beard, pony tails\nlightly armored\ndrav\n\n",
+      "description": "angela\nfemale dwarf\nhappily raised by elves\non an adventure to meet other dwarves\nmagic casting\nmountain\nblack hair, luxurious beard, pony tails\nlightly armored\ndrav",
       "habitus": "",
       "tags": [],
       "claimed": true,
@@ -10639,6 +10902,104 @@
       "etools": true,
       "prep": false,
       "id": 541
+    },
+    {
+      "name": "Bagging Tacwastion",
+      "etools_url": "",
+      "quotes": "",
+      "pronunciation": "",
+      "fluff": "",
+      "description": "beggin the question",
+      "habitus": "",
+      "tags": [],
+      "claimed": false,
+      "etools": false,
+      "prep": false,
+      "id": 542
+    },
+    {
+      "name": "Hellbeast",
+      "etools_url": "",
+      "quotes": "",
+      "pronunciation": "",
+      "fluff": "",
+      "description": "Flick called Hengest a hellbeast. so have an actual hellbeast.",
+      "habitus": "",
+      "tags": [],
+      "claimed": false,
+      "etools": false,
+      "prep": true,
+      "id": 543
+    },
+    {
+      "name": "naqqāra",
+      "etools_url": "",
+      "quotes": "",
+      "pronunciation": "",
+      "fluff": "",
+      "description": "(arabic) (small) drum, kettledrum: . but i like the word as a name. source of nacreous",
+      "habitus": "",
+      "tags": [],
+      "claimed": false,
+      "etools": false,
+      "prep": false,
+      "id": 544
+    },
+    {
+      "name": "Daavn",
+      "etools_url": "",
+      "quotes": "",
+      "pronunciation": "",
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "tags": [],
+      "claimed": false,
+      "etools": false,
+      "prep": false,
+      "id": 545
+    },
+    {
+      "name": "Briolette",
+      "etools_url": "",
+      "quotes": "",
+      "pronunciation": "",
+      "fluff": "",
+      "description": "i like the name\n\n1. noun A form in which the diamond is sometimes cut; that form which would result from joining two rose diamonds back to back and adding several rows of triangular facets. from The Century Dictionary.\n\n2. noun An oval or pearshaped diamond having its entire surface cut in triangular facets. from the GNU version of the Collaborative International Dictionary of English.",
+      "habitus": "",
+      "tags": [],
+      "claimed": false,
+      "etools": false,
+      "prep": false,
+      "id": 546
+    },
+    {
+      "name": "Tilm",
+      "etools_url": "",
+      "quotes": "",
+      "pronunciation": "",
+      "fluff": "",
+      "description": "instead of tim",
+      "habitus": "",
+      "tags": [],
+      "claimed": false,
+      "etools": false,
+      "prep": false,
+      "id": 547
+    },
+    {
+      "name": "a grotesque barber",
+      "etools_url": "",
+      "quotes": "",
+      "pronunciation": "",
+      "fluff": "",
+      "description": "",
+      "habitus": "",
+      "tags": [],
+      "claimed": false,
+      "etools": false,
+      "prep": false,
+      "id": 548
     }
   ],
   "description": [
@@ -10786,7 +11147,9 @@
     {
       "content": "Apron",
       "id": 22,
-      "tags": [],
+      "tags": [
+        "props"
+      ],
       "prep": false
     },
     {
@@ -11711,6 +12074,29 @@
       ],
       "prep": null,
       "id": 162
+    },
+    {
+      "content": "HOW DID I FIND myself here? It is difficult to say where exactly my journey began. Perhaps it was before I was born in an Indian suburb of Nairobi. In the late 1920s my grandparents sailed the monsoon winds from the poor, dry and dusty villages by the Gulf of Kutch in Gujarat to eke out a living in Africa.",
+      "tags": [
+        "background"
+      ],
+      "prep": null,
+      "id": 163
+    },
+    {
+      "content": "stone-built cairns that would have guided travellers through the fog, ",
+      "tags": [
+        "landscape",
+        "roads"
+      ],
+      "prep": null,
+      "id": 164
+    },
+    {
+      "content": "Old English lind-gecrod shield-bearing troop, lind-croda press of shields, battle),",
+      "tags": [],
+      "prep": true,
+      "id": 165
     }
   ],
   "position": [
@@ -12779,7 +13165,7 @@
       "id": 75,
       "tags": [],
       "prep": false,
-      "contents": "describing the ways in which the followers of BS would prostrate themselves, the language the cultists would use, how they would worship, some of the rituals they would use to invoke BS. ",
+      "contents": "describing the ways in which the followers of BS would prostrate themselves, the language the cultists would use, how they would worship, some of the rituals they would use to invoke BS. \n\nBaphomet and Xanthumet used to be separate deities (Baphomm-Orek and Xanthumet, and then combined Baphomm - Xanthumet, and then Baphomet)",
       "description": "[Sometimes the Xanthuc tablets]\nCovered in black leather; printed on a printing press. at least 200 years ago. ",
       "contributor": "",
       "attune": true
@@ -12994,6 +13380,32 @@
       "real": true,
       "tags": [],
       "id": 92
+    },
+    {
+      "title": "Hiding in Plain Sight:  The Invention of Donald Trump and the Erosion of America",
+      "contents": "",
+      "description": "-Flatiron Books (2020)\n\nI read it; great for endnotes of internet articles",
+      "contributor": "Kendzior, Sarah",
+      "mechanics": "",
+      "attune": null,
+      "prep": null,
+      "etools": null,
+      "real": true,
+      "tags": [],
+      "id": 93
+    },
+    {
+      "title": "Ecological monographs",
+      "contents": "",
+      "description": "",
+      "contributor": "",
+      "mechanics": "",
+      "attune": null,
+      "prep": null,
+      "etools": null,
+      "real": null,
+      "tags": [],
+      "id": 94
     }
   ],
   "bible": [
@@ -13191,16 +13603,6 @@
       ],
       "prep": false,
       "name": "a fourneil or kiln of lime"
-    },
-    {
-      "short description": "",
-      "id": 21,
-      "tags": [
-        "quote"
-      ],
-      "prep": false,
-      "name": "a grotesque barber",
-      "alpha": ""
     },
     {
       "short description": "",
@@ -15634,7 +16036,7 @@
       "alpha": ""
     },
     {
-      "short description": ": ‘sister’ of MOGESH. (she is identified with the angel of the 5th Seal in Revelation 6:9-11, and is believed to be the angel who opens the bottomless pit.)",
+      "short description": ": ‘sister’ of MOGESH. (she is identified with the angel of the 5th Seal in Revelation 6:9-11, and is believed to be the angel who opens the bottomless pit.)\n\nMogesh and RAGUEL formed on diametrically opposed sides that plane of earth was invoked (perpendicular to material plane) (or it’s random chance) -- but that was only 25 years ago -- or they’ve gravitated towards them for that reason.",
       "id": 240,
       "tags": [
         "npc"
@@ -17715,22 +18117,6 @@
       "found @": ""
     },
     {
-      "short description": "Mogesh and RAGUEL formed on diametrically opposed sides that plane of earth was invoked (perpendicular to material plane) (or it’s random chance) -- but that was only 25 years ago -- or they’ve gravitated towards them for that reason.",
-      "id": 395,
-      "tags": [
-        "secrets",
-        "&",
-        "clues"
-      ],
-      "prep": false,
-      "name": "",
-      "home": "",
-      "teg": "",
-      "alpha": "",
-      "3x5": "",
-      "found @": ""
-    },
-    {
       "short description": "Mogesh has the Bedroot",
       "id": 396,
       "tags": [
@@ -17777,7 +18163,7 @@
       "found @": ""
     },
     {
-      "short description": "- Murph's RIN voice for Dalariel\n- Neil Campbell as Time Keeper; (is it possible to do accent-less J W Stillwater?)\n- fungus voices from session 18 against kolmy\n- JFK ? (Murph doing the Githyanki)\n- chewbacca sadie voice (tongue low against bottom of mouth , wookie moan?)\n- Hit it ?\n- convert tusternoof to a the gruff andy dailiy theatre owner character. \n- sean diston's sprag the whisperer\n- \"kid detectives\" from comedy bang bang (lauren lapkus and thomas middleditch)",
+      "short description": "- Murph's RIN voice for Dalariel\n- Neil Campbell as Time Keeper; (is it possible to do accent-less J W Stillwater?)\n- fungus voices from session 18 against kolmy\n- JFK ? (Murph doing the Githyanki)\n- chewbacca sadie voice (tongue low against bottom of mouth , wookie moan?)\n- Hit it ?\n- convert tusternoof to a the gruff andy dailiy theatre owner character. \n- sean diston's sprag the whisperer\n- \"kid detectives\" from comedy bang bang (lauren lapkus and thomas middleditch)\n\nandy daly's voices without the accents\n- hot dog  \n- august lindt  \n- (dalton wilcox ?)",
       "id": 399,
       "tags": [
         "voices"
@@ -17962,24 +18348,9 @@
       "tags": [
         "npc"
       ],
-      "prep": true,
+      "prep": false,
       "name": "Tinkle the Pig",
       "home": "11/17/2019",
-      "teg": "",
-      "alpha": "",
-      "3x5": "",
-      "found @": ""
-    },
-    {
-      "short description": "poison-testing ifrit. chance to attack, chance to genie\nhttps://roll20.net/compendium/dnd5e/Efreeti#content",
-      "id": 413,
-      "tags": [
-        "magic",
-        "item"
-      ],
-      "prep": false,
-      "name": "Tobolux",
-      "home": "",
       "teg": "",
       "alpha": "",
       "3x5": "",
@@ -18342,7 +18713,7 @@
       "tags": [
         "npc"
       ],
-      "prep": true,
+      "prep": false,
       "name": "Gribble the pig",
       "home": "",
       "teg": "",
@@ -18887,6 +19258,57 @@
       ],
       "prep": true,
       "id": 484
+    },
+    {
+      "alpha": "",
+      "name": "spilling milk; mean dad",
+      "short description": "KOHLI’S FATHER HAD HIT him for spilling milk on the floor. It was only a small cupful but Kohli was smacked across his face. In response, Kohli threatened to run away. That was when he first tried to live with the Naxalite squads.",
+      "tags": [
+        "background",
+        "motivation"
+      ],
+      "prep": null,
+      "id": 485
+    },
+    {
+      "alpha": "",
+      "name": "celebration on different dates in different villages",
+      "short description": "Sarhul was held on different dates in different villages so that they could all attend each other’s rituals and celebrations. ",
+      "tags": [
+        "calendar",
+        "time",
+        "celebrations"
+      ],
+      "prep": null,
+      "id": 486
+    },
+    {
+      "alpha": "",
+      "name": "working out contradictions of alienation from own power",
+      "short description": "as a way to address the world's spirits / cosmology",
+      "tags": [],
+      "prep": true,
+      "id": 487
+    },
+    {
+      "alpha": "",
+      "name": "Puzyretsky - four creature team",
+      "short description": "“Puzyretsky, who had spent twelve years in the Soviet Gulag for murder and was decorated with Technicolor tattoos of a skeleton, bats, a snow leopard, and an angel, had become one of Little Odessa’s most feared enforcers. “He uses his knife on every occasion,” notes his FBI file.”\n\nExcerpt From: Friedman, Robert I. “Red Mafiya.” Apple Books. ",
+      "tags": [],
+      "prep": null,
+      "id": 488
+    },
+    {
+      "alpha": "",
+      "name": "cover crimes with scandals ",
+      "short description": "",
+      "tags": [
+        "villain",
+        "kendzior",
+        "tactics"
+      ],
+      "prep": null,
+      "id": 489
     }
   ],
   "recap": [
@@ -19232,12 +19654,40 @@
       "tags": [],
       "prep": false,
       "session_ordinal": "23",
-      "session_title": "[untitled]",
+      "session_title": "The toilet of the gods",
       "session_title_contenders": [],
-      "session_author": "[untitled]",
+      "session_author": "Bretcock, Enix",
       "session_day": "8",
-      "session_recap": "[yet to happen]",
-      "player_level": "5"
+      "session_recap": "",
+      "player_level": "5/6"
+    },
+    {
+      "session_date": "2020-04-18",
+      "id": 24,
+      "tags": [
+        "mb"
+      ],
+      "prep": false,
+      "session_ordinal": "24",
+      "session_title": "A mighty surge of Dorito flavor",
+      "session_title_contenders": [],
+      "session_author": "Haycough, Awa",
+      "session_day": "8",
+      "session_recap": "## battle stage 1 : a man on a mule\n- hieronymus shows up and goes to attack Jean-Luc (covered in orange clabber oil)\n- fez gets typhoon'd\n  - turtle disappears\n- paros falls off the back of the rock and starts warbling flesh\n- carlos brings flick back up\n  - connection with Dogdo - new spiritual hammer (sledge hammer)  - and smells like stale tobacco\n- drav's cloud of daggers (and her new connection with Aule) - Baunos\n\n## battle stage 2\n- gegathon soaks up some hp from hengest\n- hieronymus bagpiping - one of the bagpipes broke\n- hengest killed\n- gegathon drowned by flick in the orange puddle\n- no return of exuviae\n- jean-luc coming in for stealth and surprise attacks\n\nfez did radiant damage to gegathon\n\n## after the battle\n- scrobs steals some coin from hieronymus\n- daealla called back \n- drav remembering about ley lines\n- mule, the mandrake root in the bag, mule eating it. \n- mules are sterile just like gegathon\n\nnephilscope / nephilnopticon / => maybe they will lead the way => necronopticon\n\nfor carlos: Channel Divinity: Emissary of Peace \n\n",
+      "player_level": "6"
+    },
+    {
+      "session_date": "",
+      "id": 25,
+      "tags": [],
+      "prep": false,
+      "session_ordinal": "25",
+      "session_title": "A Karbunqle of nine tales",
+      "session_title_contenders": [],
+      "session_author": "",
+      "session_day": "9",
+      "session_recap": "## Making camp & breaking camp\nThe adventurers, now numbering seven (Hieronymus, Flick, Fez, Paros, Drav, Carlos, Jean-Luc), and coddling a weakened Jean-Luc suffering from 'the orange colic' made their way unassailed up to within a half-mile of the Kashte'a River to pitch camp. In the early morning, Flick found herself for the first time by another elf unrequiring of nought but a daily trance. Hieronymus's importunate jonesing for a novel deletery[^deletery] arrested a friendship _in potentia_ but catalyzed a chary trance which began a battue[^battue] out of a nearby goblin named Bampot. After being patronized by Flick and unsatisfactorily reassured as to the group's grithfulness[^grithfulness], Bampot was first mistaken for one Feekus by Hieronymus. They soon discovered their shared identification as goinfre[^goinfre] with respect to animal and vegetal poison, and Bampot introduced Hieronymus to the practice of bakhaqalaj[^bakhaqalaj]. The petitory[^petitory] cobalus[^cobalus] then asked if the recumbent party wouldn't mind removing themselves from the beautiful yellow liefly[^liefly] mafflegold flowers (some leaking a sanguine sap) which had been crushed underneath their bedrolls.\n## Getting acquainted\nAs Hieronymus proceeded to dig up the entire clearing in search of ptomous[^ptomous] tubers, Flick engaged Bampot in political discussion, inquiring as to commercial and social relations with the residents in the periphery of Lake Goading. Bampot spoke about established trade routes between the goblin myrkkyasiantuntija[^myrkkyasiantuntija] and experimental chefs in town; a local temple to Axissa, the Mother Goddess; and the structure of the Seomra Crann which, according to him, was a hundred-foot-tall living hedge topped by a diverse aviary. \n[^deletery]: (n) A poisonous substance or drug.\n[^battue]: The game driven from cover (by beating the bushes, etc. in which they lodge) to a point where a number of sportsmen wait to shoot them. [^grithfulness]: The quality or condition of being pacific or peaceful; peacefulness.[^goinfre]: (n, pl) Connoisseurs; epicures.[^bakhaqalaj]: Complex poison-based cuisine developed by local goblins.[^petitory]: Supplicatory; entreating.\n[^cobalus]: An ancient name for the smaller goblinoid folk.\n[^liefly]: Lovely, delightful, beautiful, pleasant.\n[^ptomous]: Poisonous.\n[^myrkkyasiantuntija]: _Goblin._ Poison experts.",
+      "player_level": "6"
     }
   ],
   "monster": [

@@ -11,7 +11,7 @@ module.exports = {
             'Intelligent Black Pudding',
             'lemure',
             'slithering tracker',
-            'pronouns: they, them, theirs',
+            'pronouns--they, them, theirs',
         ],
     },
     source: 'zorq',

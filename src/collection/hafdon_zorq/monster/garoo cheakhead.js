@@ -3,7 +3,7 @@ module.exports = {
     size: 'M',
     type: {
         type: 'humanoid',
-        tags: ['goblinoid', 'hobgoblin', 'pronouns: she, her, hers'],
+        tags: ['goblinoid', 'hobgoblin', 'pronouns--she, her, hers'],
     },
 
     source: 'zorq',

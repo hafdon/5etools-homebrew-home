@@ -3,7 +3,7 @@ module.exports = {
     size: 'L',
     type: {
         type: 'fey',
-        tags: ['pronouns: she, her, hers'],
+        tags: ['pronouns--she, her, hers'],
     },
     source: 'zorq',
     alignment: ['N', 'G'],

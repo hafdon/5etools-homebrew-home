@@ -9,7 +9,7 @@ module.exports = {
             'kalashtar',
             'mystic',
             'order of the immortal',
-            'pronouns: they, their, theirs',
+            'pronouns--they, their, theirs',
         ],
     },
     alignment: ['A'],

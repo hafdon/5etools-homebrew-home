@@ -1,7 +1,7 @@
 module.exports = {
     name: "Angel of Lole'iel",
     size: 'M',
-    type: { type: 'celestial', tags: ['pronouns: she, her, hers'] },
+    type: { type: 'celestial', tags: ['pronouns--she, her, hers'] },
     source: 'zorq',
     alignment: ['L', 'G'],
     ac: [

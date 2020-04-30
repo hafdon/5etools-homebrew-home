@@ -15,7 +15,7 @@ module.exports = {
         tags: [
             'elf',
             'drow',
-            'pronouns: she, her, hers',
+            'pronouns--she, her, hers',
             'cleric',
             '{@title indagator|zorq}',
         ],

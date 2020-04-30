@@ -6,7 +6,7 @@ module.exports = {
     size: 'L',
     type: {
         type: 'celestial',
-        tags: ['angel', 'elemental', 'pronouns: she, her, hers'],
+        tags: ['angel', 'elemental', 'pronouns--she, her, hers'],
     },
     // group: 'Angels',
     source: 'zorq',

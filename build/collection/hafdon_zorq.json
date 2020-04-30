@@ -4344,69 +4344,7 @@
             },
             "tokenUrl": "https://5e.tools/img/MM/Barlgura.png?v=1.94.13"
         },
-        {
-            "name": "Hagnar Rezfort (spirit form)",
-            "shortName": "Hagnar",
-            "isNamedCreature": true,
-            "isNpc": true,
-            "size": "M",
-            "type": "fiend",
-            "source": "zorq",
-            "alignment": ["C", "N"],
-            "ac": [13],
-            "hp": { "formula": "4d8 + 10", "average": 28 },
-            "speed": { "walk": 30 },
-            "str": 12,
-            "dex": 17,
-            "con": 12,
-            "int": 10,
-            "wis": 7,
-            "cha": 1,
-            "save": { "con": "+3" },
-            "skill": { "stealth": "+7", "athletics": "+3", "perception": "+0" },
-            "conditionImmune": ["blinded"],
-            "senses": ["darkvision 120 ft."],
-            "passive": 10,
-            "languages": ["Common"],
-            "cr": "1",
-            "trait": [
-                {
-                    "name": "Trackless",
-                    "entries": [
-                        "The spirit leaves no tracks to indicate where it has been or where it's headed."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Claws",
-                    "entries": [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage. If the spirit has advantage on the attack roll, the target also takes 10 ({@damage 3d6}) necrotic damage."
-                    ]
-                }
-            ],
-            "environment": ["coastal", "forest", "swamp", "underdark", "urban"],
-            "languageTags": ["C"],
-            "senseTags": ["SD"],
-            "damageTags": ["S", "N"],
-            "miscTags": ["MW"],
-            "spellcasting": [
-                {
-                    "name": "Spellcasting",
-                    "headerEntries": [],
-                    "spells": {
-                        "0": {
-                            "spells": [
-                                "{@spell infestation|XGE}",
-                                "{@spell mind sliver|UASorcererAndWarlock}",
-                                "{@spell thorn whip|PHB}"
-                            ]
-                        }
-                    },
-                    "ability": "int"
-                }
-            ]
-        },
+
         {
             "name": "Joan",
             "source": "zorq",
@@ -8220,104 +8158,7 @@
             "save": { "str": "+6", "con": "+5" },
             "isNpc": true
         },
-        {
-            "name": "Spirit of the Twisted Maze",
-            "size": "M",
-            "type": { "type": "fiend", "tags": ["Skulk"] },
-            "source": "zorq",
-            "alignment": ["C", "N"],
-            "ac": [13],
-            "hp": { "formula": "4d8 + 10", "average": 28 },
-            "speed": { "walk": 30 },
-            "str": 12,
-            "dex": 17,
-            "con": 12,
-            "int": 10,
-            "wis": 7,
-            "cha": 1,
-            "save": { "con": "+3" },
-            "skill": { "stealth": "+7", "athletics": "+3", "perception": "+0" },
-            "immune": [],
-            "conditionImmune": ["blinded"],
-            "senses": ["darkvision 120 ft."],
-            "passive": 10,
-            "languages": ["Common"],
-            "cr": "1",
-            "trait": [
-                {
-                    "name": "Trackless",
-                    "entries": [
-                        "The spirit leaves no tracks to indicate where it has been or where it's headed."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Claws",
-                    "entries": [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage. If the spirit has advantage on the attack roll, the target also takes 10 ({@damage 3d6}) necrotic damage."
-                    ]
-                }
-            ],
-            "environment": ["coastal", "forest", "swamp", "underdark", "urban"],
-            "languageTags": ["C"],
-            "senseTags": ["SD"],
-            "damageTags": ["S", "N"],
-            "miscTags": ["MW"],
-            "fluff": {
-                "name": "Skulk",
-                "source": "MTF",
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "internal",
-                            "path": "bestiary/MTF/Skulk.jpg"
-                        }
-                    }
-                ],
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Skulk",
-                        "entries": [
-                            "Skulks are the soulless shells of travelers who became lost in the Shadowfell, wandering its gray wastes until they lost all sense of self. They are so devoid of identity that they have become permanently invisible. Only children can see a skulk without the help of a mirror or a special candle. On the rare occasions when a skulk is visible, it appears as a drab, featureless, hairless humanoid."
-                        ]
-                    },
-                    {
-                        "name": "Summoned Servants",
-                        "type": "entries",
-                        "entries": [
-                            "A skulk can be summoned from the Shadowfell by performing a ritual. If the creature is given a portion of the summoner's identity, the skulk is bound to obey the summoner's commands for 30 days. If a skulk is visible, an astute observer might deduce who summoned it, because a skulk assumes a vague likeness of its master.",
-                            "Cruel and chaotic, skulks carry out their orders in the most violent manner possible. A summoned skulk can't return to the Shadowfell until it dies, so it has every motivation to throw itself into creating bloodshed and mayhem."
-                        ]
-                    },
-                    {
-                        "name": "Hollow Lives",
-                        "type": "entries",
-                        "entries": [
-                            "After killing a person in the material world, a skulk sometimes takes up a silent imitation of that person's life. In extreme cases, skulks have invaded villages, killed all the occupants, and turned the places into seeming ghost towns, where flavorless food is prepared daily, colorless clothes are hung up to dry, and livestock is shifted from pen to pen until it starves."
-                        ]
-                    }
-                ]
-            },
-            "tokenUrl": "https://5e.tools/img/MTF/Skulk.png?v=1.94.4",
-            "spellcasting": [
-                {
-                    "name": "Spellcasting",
-                    "spells": {
-                        "0": {
-                            "spells": [
-                                "{@spell infestation|XGE}",
-                                "{@spell mind sliver|UASorcererAndWarlock}",
-                                "{@spell thorn whip|PHB}"
-                            ]
-                        }
-                    },
-                    "ability": "int"
-                }
-            ]
-        },
+
         {
             "name": "Stump Three School",
             "size": "T",
@@ -10414,6 +10255,73 @@
         }
     ],
     "spell": [
+        {
+            "name": "Obsidian Shards",
+            "source": "zorq",
+            "level": 3,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "an obsidian blade"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You commune with Aulë, the God of the Forge. He hammers an ingot of celestial obsidian, causing to appear a cloud of shards in a cube 5 feet on each side, centered on a point you choose within range. A creature takes {@damage 4d4} radiant damage when it enters the spell's area for the first time on a turn or starts its turn there."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 4d4|3-9|1d4} for each slot level above 4th."
+                    ]
+                }
+            ],
+            "damageInflict": ["slashing"],
+            "areaTags": ["C"],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            }
+        },
         {
             "name": "These Rocks Look Great",
             "level": 2,

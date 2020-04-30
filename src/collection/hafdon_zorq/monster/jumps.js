@@ -3,7 +3,7 @@ module.exports = {
     size: 'M',
     type: {
         type: 'beast',
-        tags: ['dogmole', 'wrinklemole', 'pronouns: he, him, his'],
+        tags: ['dogmole', 'wrinklemole', 'pronouns--he, him, his'],
     },
     source: 'zorq',
     isNpc: true,

@@ -9,7 +9,7 @@ module.exports = {
             'gnome',
             'Deep Gnome',
             'Svirfneblin',
-            'pronouns: she, her, hers',
+            'pronouns--she, her, hers',
         ],
     },
     source: 'zorq',

@@ -3,7 +3,7 @@ module.exports = {
     size: 'L',
     type: {
         type: 'ooze',
-        tags: ['celestial', 'pronouns: they, them, theirs'],
+        tags: ['celestial', 'pronouns--they, them, theirs'],
     },
     source: 'zorq',
     alignment: ['C', 'E'],
